@@ -1,5 +1,6 @@
 {
- "generatedAt": "2026-09-29T13:22:38.134Z",
+ "version": 2,
+ "generatedAt": "2026-09-29T13:27:17.846Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -71,7 +72,7 @@
    "label": "Other"
   }
  ],
- "count": 308,
+ "count": 356,
  "items": [
   {
    "id": "37e74ec66993b475",
@@ -148,8 +149,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "Find recognised commercial software suppliers and software you can use to file your Company Tax Return and any supplementary pages online.",
    "categories": [
-    "personal",
-    "reporting"
+    "corptax"
    ],
    "hasBody": true,
    "changeNote": "The list of commercial software suppliers for Corporation Tax has been updated with one addition to the 'Produce and Submit CT600' and 'iXBRL integrated Software Application providers' sections.",
@@ -189,23 +189,6 @@
    "firstPublished": "2025-07-31T00:00:00+01:00"
   },
   {
-   "id": "989654781dbf7459",
-   "title": "Check if a text message you've received from HMRC is genuine",
-   "url": "https://www.gov.uk/guidance/check-if-a-text-message-youve-received-from-hmrc-is-genuine",
-   "path": "/guidance/check-if-a-text-message-youve-received-from-hmrc-is-genuine",
-   "date": "2026-09-29T08:00:01Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Check a list of recent text messages from HMRC to help you decide if a text you've received is a scam.",
-   "categories": [
-    "corptax",
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "Information about ‘Retirement annuity relief’ has been added.",
-   "firstPublished": "2021-07-30T00:00:00+01:00"
-  },
-  {
    "id": "fd0b4863be1ae16d",
    "title": "Tax-free savings newsletter 23",
    "url": "https://www.gov.uk/government/publications/tax-free-savings-newsletter-23",
@@ -221,6 +204,23 @@
    "hasBody": true,
    "changeNote": "First published.",
    "firstPublished": "2026-09-29T09:00:01+01:00"
+  },
+  {
+   "id": "989654781dbf7459",
+   "title": "Check if a text message you've received from HMRC is genuine",
+   "url": "https://www.gov.uk/guidance/check-if-a-text-message-youve-received-from-hmrc-is-genuine",
+   "path": "/guidance/check-if-a-text-message-youve-received-from-hmrc-is-genuine",
+   "date": "2026-09-29T08:00:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Check a list of recent text messages from HMRC to help you decide if a text you've received is a scam.",
+   "categories": [
+    "corptax",
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about ‘Retirement annuity relief’ has been added.",
+   "firstPublished": "2021-07-30T00:00:00+01:00"
   },
   {
    "id": "dd95421a606e03be",
@@ -248,7 +248,6 @@
    "source": "HMRC (GOV.UK)",
    "description": "How to make a negligible value claim for unquoted shares, and how to check if shares previously quoted on the London Stock Exchange now have negligible value.",
    "categories": [
-    "personal",
     "cgt"
    ],
    "hasBody": true,
@@ -265,7 +264,6 @@
    "source": "HMRC (GOV.UK)",
    "description": "Use form VAT2 to tell HMRC about a new partnership or update partner details.",
    "categories": [
-    "nic",
     "selfemployed",
     "vat"
    ],
@@ -315,8 +313,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "Find out how to get an agent reference number for PAYE, Construction Industry Scheme (CIS) or Employment Related Securities (ERS), if you are a PAYE agent or payroll bureau.",
    "categories": [
-    "paye",
-    "agents"
+    "paye"
    ],
    "hasBody": true,
    "changeNote": "Made it clearer that this service is only for PAYE agents or payroll bureaus.",
@@ -348,7 +345,6 @@
    "source": "Companies House (GOV.UK)",
    "description": "How to send information to Companies House using commercial software.",
    "categories": [
-    "compliance",
     "reporting"
    ],
    "hasBody": true,
@@ -382,7 +378,10 @@
    "description": "How to request and manage the company authentication code you'll need to file information online at Companies House.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Overseas companies can now request an authentication code using the Find and update company information service.",
+   "firstPublished": "2015-05-18T00:00:00+01:00"
   },
   {
    "id": "49cff192a8013847",
@@ -394,8 +393,12 @@
    "source": "Companies House (GOV.UK)",
    "description": "Registration and filing obligations of an overseas company that opens an establishment in the UK.",
    "categories": [
-    "general"
-   ]
+    "compliance",
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Overseas companies can now file iXBRL package accounts online.",
+   "firstPublished": "2014-06-01T00:00:00+01:00"
   },
   {
    "id": "d8b8964d55975ed2",
@@ -408,7 +411,10 @@
    "description": "How to prepare and file annual accounts with Companies House for your UK registered company.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Overseas companies can now file iXBRL package accounts online.",
+   "firstPublished": "2014-08-01T00:00:00+01:00"
   },
   {
    "id": "0f2426a3b0861c25",
@@ -421,7 +427,10 @@
    "description": "A list of all the fees Companies House charges, and how we determine these fees.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Added the £50 fee for filing overseas company package accounts online.",
+   "firstPublished": "2019-06-19T00:00:00+01:00"
   },
   {
    "id": "7a00ce2e68bded52",
@@ -497,8 +506,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "Newsletter 185, published by HMRC in September 2026 to update stakeholders on the latest news for pension schemes.",
    "categories": [
-    "personal",
-    "pensions"
+    "personal"
    ],
    "hasBody": true,
    "changeNote": "First published.",
@@ -514,8 +522,12 @@
    "source": "Companies House (GOV.UK)",
    "description": "This list includes details of businesses and sole traders that have registered as an Authorised Corporate Service Provider (ACSP). This is also known as an authorised agent.",
    "categories": [
-    "general"
-   ]
+    "reporting",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated list of ACSPs.",
+   "firstPublished": "2025-10-31T00:00:00+00:00"
   },
   {
    "id": "065b47cac579e131",
@@ -527,7 +539,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "How to pay Stamp Duty Land Tax, and how long it takes for your payment to reach HMRC.",
    "categories": [
-    "compliance"
+    "general"
    ],
    "hasBody": true,
    "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved. ",
@@ -544,7 +556,10 @@
    "description": "The companies appeared unrelated until a joint investigation uncovered similar conduct concerns.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-09-24T11:01:12+01:00"
   },
   {
    "id": "df10b42a381d1de2",
@@ -556,8 +571,12 @@
    "source": "Companies House (GOV.UK)",
    "description": "This list includes details of businesses and sole traders that have had their ACSP status either suspended or ceased (removed).",
    "categories": [
-    "general"
-   ]
+    "reporting",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated list of ceased and suspended ACSPs.",
+   "firstPublished": "2025-10-10T00:00:00+01:00"
   },
   {
    "id": "cfa6b3d574dbf96c",
@@ -585,9 +604,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "How to claim a refund on tax and personal allowances on UK income if you're not resident in the UK on form R43.",
    "categories": [
-    "nic",
-    "personal",
-    "iht"
+    "personal"
    ],
    "hasBody": true,
    "changeNote": "The personal allowances and tax repayments (R43) form and guidance notes have been updated to reflect the changes to the Double Taxation Agreement between the UK and Israel by the 2019 Protocol which entered into force on 28 October 2019.",
@@ -604,7 +621,10 @@
    "description": "How to complete your identity verification in person at a Post Office, once you've entered your photo ID details online.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Added 'Deadline' guidance. You have 21 days from the date you booked the Post Office appointment to complete the verification process and view your result.",
+   "firstPublished": "2025-11-28T09:51:00+00:00"
   },
   {
    "id": "554c48ab02344ee7",
@@ -616,9 +636,6 @@
    "source": "HM Treasury (GOV.UK)",
    "description": "Use this form to send an enquiry to HM Treasury.",
    "categories": [
-    "nic",
-    "personal",
-    "iht",
     "compliance"
    ],
    "hasBody": true,
@@ -651,7 +668,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "Find out how to apply to the Spirit Drinks Verification Scheme, pay fees and comply with the product specification for Dovey Native Botanical Gin.",
    "categories": [
-    "compliance"
+    "general"
    ],
    "hasBody": true,
    "changeNote": "Information about the transitional arrangements for existing producers of Dovey Native Botanical Gin has been removed as the arrangement ended on 1 September 2026.",
@@ -667,8 +684,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "Find out about the checks we carry out to make sure you're paying your workers at least the National Minimum Wage.",
    "categories": [
-    "paye",
-    "compliance"
+    "paye"
    ],
    "hasBody": true,
    "changeNote": "In 'About National Living Wage and the National Minimum Wage checks — NMW FS1', references to the Department for Business and Trade (DBT) have been updated to the Department for Business, Innovation, Science and Trade (BIST).’",
@@ -684,7 +700,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "How to pay your Stamp Duty Reserve Tax, and how long it takes for your payment to reach HMRC.",
    "categories": [
-    "compliance"
+    "general"
    ],
    "hasBody": true,
    "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved.",
@@ -765,7 +781,6 @@
    "source": "HMRC (GOV.UK)",
    "description": "Get guidance from HMRC if you're a tax agent or an adviser.",
    "categories": [
-    "mtd",
     "agents"
    ],
    "hasBody": true,
@@ -798,9 +813,6 @@
    "source": "HMRC (GOV.UK)",
    "description": "Learn more about the support available to tax agents and advisers which will help you and your clients.",
    "categories": [
-    "personal",
-    "selfemployed",
-    "mtd",
     "agents"
    ],
    "hasBody": true,
@@ -817,7 +829,6 @@
    "source": "HMRC (GOV.UK)",
    "description": "Tell HMRC about an error if they’ve sent you a letter about applying an incorrect rate to your subcontractor payments in tax year 2025 to 2026. ",
    "categories": [
-    "iht",
     "compliance"
    ],
    "hasBody": true,
@@ -852,7 +863,10 @@
    "description": "Court action highlights legal duty on directors to complete identity verification",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-09-17T12:03:50+01:00"
   },
   {
    "id": "bffc16bfb3e09719",
@@ -864,8 +878,11 @@
    "source": "Companies House (GOV.UK)",
    "description": "Use this form to change an accounting reference date relating to either the current or immediately previous accounting period.\r\n",
    "categories": [
-    "general"
-   ]
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Added wording for overseas companies with a UK establishment. They must send the paper form by post to the correct Companies House office.",
+   "firstPublished": "2014-09-18T12:03:00+01:00"
   },
   {
    "id": "02fbef9d2c22de47",
@@ -942,7 +959,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "Check if you can get compensation if you’ve been unable to access Tax-Free Childcare or free childcare for working parents due to technical issues.",
    "categories": [
-    "nic"
+    "general"
    ],
    "hasBody": true,
    "changeNote": "'What to do after you get compensation' section updated, as tax credit changes can no longer be reported to HMRC.",
@@ -995,12 +1012,25 @@
    "description": "Find schemes that have told HMRC they meet the conditions to be a recognised overseas pension scheme (ROPS).",
    "categories": [
     "personal",
-    "compliance",
     "pensions"
    ],
    "hasBody": true,
    "changeNote": "The recognised overseas pension schemes notification list has been updated with 29 schemes added and 10 schemes removed.",
    "firstPublished": "2018-06-15T00:00:00+01:00"
+  },
+  {
+   "id": "72e5deeacf6a7dc3",
+   "title": "The Finance Act 2026 (Scottish and Welsh Property Income Rates) (Appointed Day and Tax Year) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/1023",
+   "date": "2026-09-14T15:37:59.150Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "The Regulations appoint 16th September 2026 as the day on which section 8 of, and Schedule 2 to, the Finance Act 2026 come into force. They also appoint the tax year 2027-28 as the first tax year in relation to which the amendments made by section 8 and Schedule 2 have effect. Those amendments accordingly have effect for the tax year 2027-28 and subsequent tax years.",
+   "categories": [
+    "legislation",
+    "personal",
+    "budget"
+   ]
   },
   {
    "id": "355bc2481b646a75",
@@ -1012,14 +1042,24 @@
    "source": "HMRC (GOV.UK)",
    "description": "HMRC is encouraging people to check their State Pension forecast using the HMRC app during Pension Awareness Week.",
    "categories": [
-    "paye",
-    "nic",
-    "personal",
-    "iht"
+    "personal"
    ],
    "hasBody": true,
    "changeNote": "First published.",
    "firstPublished": "2026-09-14T11:07:36+01:00"
+  },
+  {
+   "id": "a588d0292cc649a3",
+   "title": "The Finance Act 2009 (Publishing Details of Deliberate Tax Defaulters: Increase to Threshold) Order 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/1000",
+   "date": "2026-09-11T12:31:04.257Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "Section 94 of the Finance Act 2009 provides for the Commissioners for HM Revenue and Customs to publish information (including names) of persons who have been penalised for deliberate defaults where the tax lost exceeds £25,000.",
+   "categories": [
+    "legislation",
+    "budget"
+   ]
   },
   {
    "id": "7d02f4c31dfe00d2",
@@ -1032,7 +1072,10 @@
    "description": "Understanding your role as director of a limited company and your responsibilities to Companies House.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Added a section 'Scam offering money to become a company director'. This section explains what to do if a recruiter offers you money to provide your identity details and be named as a director for an unknown company.",
+   "firstPublished": "2018-10-29T00:00:00+00:00"
   },
   {
    "id": "1bcaa2588dd1bec2",
@@ -1060,7 +1103,6 @@
    "source": "HMRC (GOV.UK)",
    "description": "Find out what counts as qualifying income from self-employment and property when using Making Tax Digital for Income Tax.",
    "categories": [
-    "paye",
     "personal",
     "selfemployed",
     "mtd"
@@ -1081,8 +1123,7 @@
    "categories": [
     "personal",
     "selfemployed",
-    "mtd",
-    "compliance"
+    "mtd"
    ],
    "hasBody": true,
    "changeNote": "Guidance has been updated to confirm HMRC will also check records against the 2025 to 2026 tax return if it's already been submitted. It's also been updated to make clear what you should do if all your income sources ceased before, on or from 6 April 2026.\r\n",
@@ -1147,10 +1188,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "Customers who have income to declare for the 2025 to 2026 tax year encouraged to register for Self Assessment now.",
    "categories": [
-    "nic",
-    "personal",
-    "selfemployed",
-    "compliance"
+    "personal"
    ],
    "hasBody": true,
    "changeNote": "First published.",
@@ -1231,12 +1269,24 @@
    "source": "HMRC (GOV.UK)",
    "description": "How to claim a VAT refund in the UK if you're established outside the UK.",
    "categories": [
-    "personal",
     "vat"
    ],
    "hasBody": true,
    "changeNote": "Sections ‘1.2 Laws that cover this notice’, ‘2.6 VAT groups’, ‘2.10.3 Postal claims’, ‘2.12.1 Certificate proving your business activity’ and ‘2.12.2 Submitting an electronic certificate’ have been updated with the change in HMRC's policy position in relation to VAT grouping.",
    "firstPublished": "2020-12-31T00:00:00+00:00"
+  },
+  {
+   "id": "e718d7e53ff3576d",
+   "title": "The Value Added Tax (Supplies of Domestic Electricity) Order 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/987",
+   "date": "2026-09-08T15:26:42.010Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "This Order introduces a temporary zero rate of VAT on supplies of domestic electricity in England and Wales and Scotland. The zero rate applies to supplies made in the period beginning with 1st October 2026 and ending with 31st March 2027 by modifying Schedule 8 (zero-rating) to the Value Added Tax Act 1994 (“VATA”) so it has effect as if it contained a new Group 24 which specifies the description",
+   "categories": [
+    "legislation",
+    "vat"
+   ]
   },
   {
    "id": "dece81eefec611fc",
@@ -1249,13 +1299,10 @@
    "description": "Find out how to register your client for Self Assessment, Corporation Tax, PAYE, VAT or their trust or estate.",
    "categories": [
     "paye",
-    "nic",
     "personal",
-    "selfemployed",
     "corptax",
     "vat",
-    "iht",
-    "agents"
+    "iht"
    ],
    "hasBody": true,
    "changeNote": "Guidance on how to register your client for Self Assessment if they are  not self-employed has been updated.",
@@ -1271,11 +1318,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "How to report your income and claim tax reliefs and any repayment due to you using the SA100 tax return, for 6 April 2025 to 5 April 2026.",
    "categories": [
-    "personal",
-    "selfemployed",
-    "cgt",
-    "iht",
-    "compliance"
+    "personal"
    ],
    "hasBody": true,
    "changeNote": "The 'How to fill in your tax return' notes have been updated with guidance to complete the Employment pages of the tax return for company directors.",
@@ -1339,9 +1382,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "Download and access the HMRC app to manage your details, taxes and benefits.",
    "categories": [
-    "paye",
-    "nic",
-    "personal"
+    "nic"
    ],
    "hasBody": true,
    "changeNote": "Guidance about how you can use the HMRC app to manage your information, taxes and benefits has been added.",
@@ -1373,8 +1414,11 @@
    "source": "Companies House (GOV.UK)",
    "description": "Use this form SE CV01 to convert an existing UK societas (UKS) to a public limited company (PLC).",
    "categories": [
-    "general"
-   ]
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Added postal address to form. ",
+   "firstPublished": "2014-10-06T00:00:00+01:00"
   },
   {
    "id": "1a013948cae0859e",
@@ -1387,7 +1431,10 @@
    "description": "Application form to register (incorporate) a limited liability partnership (LLP) within the UK.",
    "categories": [
     "selfemployed"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Added postal address to form. ",
+   "firstPublished": "2010-05-03T00:00:00+01:00"
   },
   {
    "id": "9a98f66b9b65d2d0",
@@ -1399,8 +1446,11 @@
    "source": "Companies House (GOV.UK)",
    "description": "Application to register (incorporate) a private or public company within the UK.",
    "categories": [
-    "general"
-   ]
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Added postal address to form. ",
+   "firstPublished": "2014-08-22T00:00:00+01:00"
   },
   {
    "id": "4b8dabbef20fb890",
@@ -1412,7 +1462,6 @@
    "source": "HMRC (GOV.UK)",
    "description": "How HMRC uses debt enforcement powers, debt collection agencies and what happens if you live abroad when you do not pay your tax bill. ",
    "categories": [
-    "paye",
     "compliance"
    ],
    "hasBody": true,
@@ -1445,8 +1494,6 @@
    "source": "HMRC (GOV.UK)",
    "description": "Apply for probate or confirmation if there's Inheritance Tax to pay, or if the deceased's estate does not qualify as an 'excepted estate'.",
    "categories": [
-    "personal",
-    "selfemployed",
     "iht"
    ],
    "hasBody": true,
@@ -1463,10 +1510,6 @@
    "source": "HMRC (GOV.UK)",
    "description": "Check if and when you need to register for an agent services account to interact with HMRC on behalf of your clients as a tax adviser.",
    "categories": [
-    "paye",
-    "personal",
-    "selfemployed",
-    "corptax",
     "agents"
    ],
    "hasBody": true,
@@ -1485,7 +1528,10 @@
    "categories": [
     "selfemployed",
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Postal address added to form. ",
+   "firstPublished": "2016-06-30T00:00:00+01:00"
   },
   {
    "id": "0670057ff42f65d2",
@@ -1499,7 +1545,10 @@
    "categories": [
     "selfemployed",
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Postal address added to form. ",
+   "firstPublished": "2016-06-30T00:00:00+01:00"
   },
   {
    "id": "ead305dfe63dff7b",
@@ -1512,7 +1561,10 @@
    "description": "Use this form to give notice of change of details for person with significant control (PSC).",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Postal address added to form.",
+   "firstPublished": "2017-07-26T00:00:00+01:00"
   },
   {
    "id": "36c552b5accd2617",
@@ -1524,8 +1576,11 @@
    "source": "Companies House (GOV.UK)",
    "description": "Use this form to give notice of change of details for person with significant control.",
    "categories": [
-    "general"
-   ]
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Postal address added to form. ",
+   "firstPublished": "2016-06-30T00:00:00+01:00"
   },
   {
    "id": "aac7c79fd5179d6b",
@@ -1538,7 +1593,10 @@
    "description": "Use this form to give notice of an individual person with significant control (PSC).",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Postal address added to form. ",
+   "firstPublished": "2017-07-26T00:00:00+01:00"
   },
   {
    "id": "efeab20f9a872063",
@@ -1550,8 +1608,11 @@
    "source": "Companies House (GOV.UK)",
    "description": "Use this form to give notice of an individual with significant control.",
    "categories": [
-    "general"
-   ]
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Postal address added to form. ",
+   "firstPublished": "2016-06-30T00:00:00+01:00"
   },
   {
    "id": "60581a00797afc99",
@@ -1564,7 +1625,10 @@
    "description": "Use this form to appoint an individual as a member of a limited liability partnership (LLP).",
    "categories": [
     "selfemployed"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Postal address added to form. ",
+   "firstPublished": "2009-10-05T00:00:00+01:00"
   },
   {
    "id": "5cd7f64fd5f548ec",
@@ -1577,7 +1641,26 @@
    "description": "Use this form to appoint an individual as a member of a limited liability partnership (LLP)",
    "categories": [
     "selfemployed"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Postal address added to form. ",
+   "firstPublished": "2010-05-03T00:00:00+01:00"
+  },
+  {
+   "id": "a66a5d6416b51b27",
+   "title": "Appoint a director for a Welsh jurisdiction company (AP01c)",
+   "url": "https://www.gov.uk/government/publications/appoint-a-director-ap01c",
+   "path": "/government/publications/appoint-a-director-ap01c",
+   "date": "2026-09-02T13:58:41Z",
+   "type": "form",
+   "source": "Companies House (GOV.UK)",
+   "description": "Use this form to appoint an individual person as a director of a Welsh jurisdiction company. ",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Postal address added to form. ",
+   "firstPublished": "2010-05-03T00:00:00+01:00"
   },
   {
    "id": "42ef706382a03fd2",
@@ -1589,8 +1672,11 @@
    "source": "Companies House (GOV.UK)",
    "description": "Use this appointment form for UK Societas and restoration cases.",
    "categories": [
-    "general"
-   ]
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Postal address added to form. ",
+   "firstPublished": "2017-12-07T00:00:00+00:00"
   },
   {
    "id": "5a4ab5fcb4066d01",
@@ -1618,11 +1704,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "Learn more about paying tax and keeping records as a property landlord.",
    "categories": [
-    "personal",
-    "selfemployed",
-    "cgt",
-    "iht",
-    "mtd"
+    "personal"
    ],
    "hasBody": true,
    "changeNote": "The live webinar link for 'Residential property income for individuals — an introduction' has been updated, along with the description on what the webinar will cover. The recorded webinar 'How to get ready for Making Tax Digital for Income Tax' link has also been updated.",
@@ -1656,7 +1738,10 @@
    "categories": [
     "selfemployed",
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Edited section \"Changes you must report\". You must tell Companies House about changes to your limited liability partnership's people with significant control (PSCs) or explain why this information is not available. ",
+   "firstPublished": "2014-10-13T00:00:00+01:00"
   },
   {
    "id": "f6b3020d0fda2a72",
@@ -1669,7 +1754,10 @@
    "description": "Objections to limited companies being struck off the Companies House register will need to be submitted through our online service only. We will no longer accept objections by email.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-09-01T10:30:00+01:00"
   },
   {
    "id": "f24f5d49bdb1e49e",
@@ -1681,9 +1769,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "Use these rates and thresholds when you operate your payroll or provide expenses and benefits to your employees.",
    "categories": [
-    "paye",
-    "nic",
-    "personal"
+    "paye"
    ],
    "hasBody": true,
    "changeNote": "The advisory fuel rates for company cars have been updated.",
@@ -1752,8 +1838,23 @@
    "source": "HM Treasury (GOV.UK)",
    "description": "This explanatory note sets out how the 2024-25 Income Tax data published by HMRC and population data published by the ONS is used to update the Scottish Government’s funding.",
    "categories": [
-    "personal",
-    "budget"
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-08-27T16:00:00+01:00"
+  },
+  {
+   "id": "b3ecd1afdc29c3cd",
+   "title": "Welsh Rates of Income Tax outturn reconciliation for 2024-25",
+   "url": "https://www.gov.uk/government/publications/welsh-rates-of-income-tax-outturn-reconciliation-for-2024-25",
+   "path": "/government/publications/welsh-rates-of-income-tax-outturn-reconciliation-for-2024-25",
+   "date": "2026-08-27T15:00:00Z",
+   "type": "policy_paper",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "This explanatory note sets out how the 2024-25 Income Tax data published by HMRC is used to update the Welsh Government’s funding.",
+   "categories": [
+    "personal"
    ],
    "hasBody": true,
    "changeNote": "First published.",
@@ -1802,7 +1903,6 @@
    "source": "HMRC (GOV.UK)",
    "description": "This further technical note provides additional information to that provided in technical note 1 relating to Inheritance Tax on pensions announced at the Autumn Budget 2024.",
    "categories": [
-    "personal",
     "iht",
     "budget"
    ],
@@ -1820,8 +1920,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "Newsletter 184, published by HMRC in August 2026 to update stakeholders on the latest news for pension schemes.",
    "categories": [
-    "personal",
-    "pensions"
+    "personal"
    ],
    "hasBody": true,
    "changeNote": "First published.",
@@ -1869,10 +1968,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "How to use the Non-Statutory Clearance Service offered by HMRC for all customers and their advisers.",
    "categories": [
-    "personal",
-    "vat",
-    "iht",
-    "compliance"
+    "general"
    ],
    "hasBody": true,
    "changeNote": "The section 'When you can rely on information or advice given by HMRC' has been updated with information on when a clearance applies to you.",
@@ -1889,9 +1985,7 @@
    "description": "Use this form if you are a sole trader, company or organisation to get a certificate of residence or letter of confirmation so you do not pay tax twice on foreign income.",
    "categories": [
     "personal",
-    "selfemployed",
-    "iht",
-    "pensions"
+    "selfemployed"
    ],
    "hasBody": true,
    "changeNote": "A link to the new online form and information about who can apply and what happens after you apply has been added.",
@@ -1908,9 +2002,7 @@
    "description": "Check that the tax and National Insurance shown on your payslip or deduction statement has been paid correctly if you’re an agency worker, temporary worker or contractor, or you work through an umbrella or payroll company.",
    "categories": [
     "paye",
-    "nic",
-    "personal",
-    "selfemployed"
+    "nic"
    ],
    "hasBody": true,
    "changeNote": "First published.",
@@ -1942,9 +2034,6 @@
    "source": "HMRC (GOV.UK)",
    "description": "Find out how to apply for approval to get an agent services account, if your agent business is based outside the UK.",
    "categories": [
-    "paye",
-    "nic",
-    "personal",
     "agents"
    ],
    "hasBody": true,
@@ -2013,8 +2102,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "As a result of the public service pensions remedy (known as McCloud), members may have changes to, or new, unauthorised payments.",
    "categories": [
-    "personal",
-    "pensions"
+    "personal"
    ],
    "hasBody": true,
    "changeNote": "The Secure Data Exchange Service has been renamed the Transfer files securely with HMRC service.",
@@ -2030,8 +2118,11 @@
    "source": "Companies House (GOV.UK)",
    "description": "GOV.UK One Login will become the main sign-in option for the Find and update company information service.",
    "categories": [
-    "general"
-   ]
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-08-20T15:19:50+01:00"
   },
   {
    "id": "93feb8ab5f25f567",
@@ -2043,7 +2134,6 @@
    "source": "HMRC (GOV.UK)",
    "description": "Get guidance from HMRC if you're a tax agent or an adviser",
    "categories": [
-    "mtd",
     "agents"
    ],
    "hasBody": true,
@@ -2060,12 +2150,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "Learn more about getting started as an employer or running a small business including registration, payroll, tax returns, tax bills and payments.",
    "categories": [
-    "paye",
-    "nic",
-    "personal",
-    "corptax",
-    "vat",
-    "compliance"
+    "paye"
    ],
    "hasBody": true,
    "changeNote": "Live webinars for 'Employees with more than one workplace', 'Employee travel', 'Phones, internet and homeworking' and 'Trivial benefits' have been added. The webinar links for 'Company cars, vans and fuel' and 'Labour supply chain due diligence for local authorities' have been updated.",
@@ -2081,10 +2166,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "A bi-monthly magazine for employers and agents that gives up-to-date information on payroll topics. ",
    "categories": [
-    "paye",
-    "nic",
-    "personal",
-    "budget"
+    "paye"
    ],
    "hasBody": true,
    "changeNote": "Added translation",
@@ -2101,7 +2183,10 @@
    "description": "How to order certified copies of certificates and documents held on the Companies House register.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "The message about being unable to process requests for company certificates until further notice has been removed. The issue has been resolved. ",
+   "firstPublished": "2019-06-17T00:00:00+01:00"
   },
   {
    "id": "18727cb4f5b62a38",
@@ -2113,8 +2198,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "Parents have until 31 August to extend Child Benefit for their 16 to 19-year-olds who are continuing in non-advanced approved education or training.",
    "categories": [
-    "paye",
-    "personal"
+    "general"
    ],
    "hasBody": true,
    "changeNote": "First published.",
@@ -2132,9 +2216,7 @@
    "categories": [
     "personal",
     "selfemployed",
-    "mtd",
-    "compliance",
-    "agents"
+    "mtd"
    ],
    "hasBody": true,
    "changeNote": "Information about 'When to apply' for an exemption if you need to use Making Tax Digital for Income Tax from 6 April 2027 has been updated.",
@@ -2150,13 +2232,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "Learn more about your responsibilities if you’re running a small business including registration, tax returns, record keeping, tax bills and payments.",
    "categories": [
-    "paye",
-    "nic",
-    "personal",
-    "selfemployed",
-    "corptax",
-    "vat",
-    "mtd"
+    "selfemployed"
    ],
    "hasBody": true,
    "changeNote": "The live webinar link for ‘Get ready for Making Tax Digital for Income Tax if you’re a sole trader or landlord without an accountant or bookkeeper’ has been updated.\r\n\r\nThe recorded webinar links for ‘Tax basics — a starter guide for small businesses’, ‘Residential property income for individuals — an introduction’ and 'Residential property income for individuals — expenses and deductions’ have been updated.",
@@ -2172,13 +2248,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "Find and use tools and calculators that will help you work out your tax. ",
    "categories": [
-    "paye",
-    "personal",
-    "selfemployed",
-    "corptax",
-    "cgt",
-    "iht",
-    "compliance"
+    "corptax"
    ],
    "hasBody": true,
    "changeNote": "A 'Deadlines' section has been added to help you find out the filing and payment deadlines for your taxes, and add them to your calendar.",
@@ -2228,8 +2298,6 @@
    "source": "HMRC (GOV.UK)",
    "description": "We welcome views on simplification of the process to obtain treaty relief in relation to withholding tax obligations when making payments of interest overseas.",
    "categories": [
-    "personal",
-    "compliance",
     "budget"
    ],
    "hasBody": true,
@@ -2246,10 +2314,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "Check changes and issues that may affect how you file your Company Tax Return.",
    "categories": [
-    "paye",
-    "personal",
-    "corptax",
-    "budget"
+    "corptax"
    ],
    "hasBody": true,
    "changeNote": "‘First-year allowances for zero-emission cars and electric vehicle charge points’ section has been updated to include electric vehicle charge points. ‘New requirements for Corporation Tax computation format’ section has been updated with the work HMRC are doing to standardise the format for computations.",
@@ -2265,11 +2330,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "Learn more about your responsibilities as a company director.",
    "categories": [
-    "paye",
-    "nic",
-    "personal",
-    "corptax",
-    "agents"
+    "personal"
    ],
    "hasBody": true,
    "changeNote": "The live webinar link for ‘Company directors — payroll and you’ has been updated. The recorded webinar link for ‘The Informants Scheme — reporting tax fraud or avoidance’ has been added.",
@@ -2286,7 +2347,10 @@
    "description": "Companies House want to hear your experiences of using the Package Accounts Upload Service",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-08-11T12:51:11+01:00"
   },
   {
    "id": "efc8f1b9f7fa2049",
@@ -2299,7 +2363,10 @@
    "description": "For company directors, LLP members or people with significant control (PSCs) who are at serious risk and want to protect their personal information from the public.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Online service to apply to protect your details has been withdrawn while we develop new services. Users can continue to apply using the paper form.\r\n\r\nAlso edited section \"If your application is refused\". If your application is refused we will refund your application fee. ",
+   "firstPublished": "2020-09-16T00:00:00+01:00"
   },
   {
    "id": "be68f2ad5de47405",
@@ -2312,7 +2379,10 @@
    "description": "How the registrar will assess whether an applicant, or existing Authorised Corporate Service Provider (ACSP), is fit and proper to carry out the functions of an ACSP.",
    "categories": [
     "general"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-08-11T09:32:00+01:00"
   },
   {
    "id": "8c9f57b4c2053daa",
@@ -2342,7 +2412,10 @@
    "categories": [
     "compliance",
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-08-06T11:00:01+01:00"
   },
   {
    "id": "99cbbff8a9266417",
@@ -2383,11 +2456,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "Read about changes to employment related securities (ERS) net settlement reporting requirements, Save As You Earn (SAYE) guidance and Enterprise Management Incentives (EMI).",
    "categories": [
-    "nic",
-    "personal",
-    "cgt",
-    "compliance",
-    "budget"
+    "cgt"
    ],
    "hasBody": true,
    "changeNote": "First published.",
@@ -2419,7 +2488,6 @@
    "source": "HMRC (GOV.UK)",
    "description": "How to complete and submit an Other Interest (OI) return using the HMRC spreadsheet or electronic flat text file.",
    "categories": [
-    "compliance",
     "budget"
    ],
    "hasBody": true,
@@ -2437,8 +2505,6 @@
    "description": "How to download and complete your spreadsheet return templates and send them to HMRC.\r\n",
    "categories": [
     "personal",
-    "iht",
-    "compliance",
     "budget"
    ],
    "hasBody": true,
@@ -2472,7 +2538,6 @@
    "source": "HMRC (GOV.UK)",
    "description": "This guidance will help you work out if you need to tell HMRC that you use or promote a tax avoidance scheme.",
    "categories": [
-    "nic",
     "compliance"
    ],
    "hasBody": true,
@@ -2522,7 +2587,10 @@
    "description": "When you need to verify depends on your role, and when you started that role.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Added text to explain you do not need to complete identity verification for a PSC who has died. The PSC should remain on the Companies House register until a grant of probate or letters of administration have been received.",
+   "firstPublished": "2025-03-18T00:00:00+00:00"
   },
   {
    "id": "a09d1ac088c3f661",
@@ -2534,8 +2602,11 @@
    "source": "Companies House (GOV.UK)",
    "description": "How to identify and record the people who own or control your company.",
    "categories": [
-    "general"
-   ]
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Added text to explain you do not need to complete identity verification for a PSC who has died. The PSC should remain on the Companies House register until a grant of probate or letters of administration have been received.",
+   "firstPublished": "2020-11-09T00:00:00+00:00"
   },
   {
    "id": "d6fbbd73ae73e181",
@@ -2563,9 +2634,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "Get help with a tax issue if you're a public body by reading guidance and manuals, or filling in the public body queries form.  ",
    "categories": [
-    "paye",
-    "corptax",
-    "vat"
+    "general"
    ],
    "hasBody": true,
    "changeNote": "Information has been added to the 'Who can get help' section to clarify who can get support from HMRC's Public Bodies Group. The 'Before you start' section has been added to give information on what to do before contacting HMRC and when to use the public body queries form. The 'Fill in the public body queries form' section has been added to give more information on how to fill in the form.",
@@ -2582,8 +2651,7 @@
    "description": "Public consultation on HM Treasury proposals for the application of IFRS 18 Presentation and Disclosure in Financial Statements across Central Government",
    "categories": [
     "compliance",
-    "budget",
-    "reporting"
+    "budget"
    ],
    "hasBody": true,
    "changeNote": "First published.",
@@ -2616,8 +2684,7 @@
    "source": "HM Treasury (GOV.UK)",
    "description": "Pension fund could be used to back the next generation of high-growth British science and technology companies.",
    "categories": [
-    "personal",
-    "selfemployed"
+    "personal"
    ],
    "hasBody": true,
    "changeNote": "First published.",
@@ -2633,12 +2700,6 @@
    "source": "HMRC (GOV.UK)",
    "description": "Check what a paid agent can do on your behalf. How you authorise the agent depends on the tax, and you may need to use paper form 64-8 or an online service.",
    "categories": [
-    "paye",
-    "nic",
-    "personal",
-    "selfemployed",
-    "corptax",
-    "mtd",
     "agents"
    ],
    "hasBody": true,
@@ -2655,7 +2716,6 @@
    "source": "HMRC (GOV.UK)",
    "description": "When and how to tell HMRC about new employment related securities (ERS) schemes.",
    "categories": [
-    "paye",
     "cgt"
    ],
    "hasBody": true,
@@ -2672,8 +2732,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "This newsletter is published by HMRC’s Pension Schemes Services to update stakeholders on the latest news on the public service pensions remedy.",
    "categories": [
-    "personal",
-    "pensions"
+    "personal"
    ],
    "hasBody": true,
    "changeNote": "First published.",
@@ -2689,8 +2748,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "This measure is about the changes to the reporting of certain benefits in kind from April 2027.",
    "categories": [
-    "paye",
-    "compliance"
+    "paye"
    ],
    "hasBody": true,
    "changeNote": "The ‘Net impact on annual administrative burden’ in the ‘Continuing average annual impact’ table has been corrected from -£1 million to -£18 million in the 'Mandatory reporting of benefits in kind in Real Time Information (RTI) from April 2027' attachment.",
@@ -2722,8 +2780,11 @@
    "source": "Companies House (GOV.UK)",
    "description": "Sets out the main requirements for incorporating and naming a company in the UK, including business names and charitable incorporated organisations (CIOs).",
    "categories": [
-    "general"
-   ]
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated wording under 'Annex A - 87. Ombudsman' to clarify that the list of requirements only applies to non-statutory bodies.",
+   "firstPublished": "2013-06-01T00:00:00+01:00"
   },
   {
    "id": "aff4f8d1ba377b93",
@@ -2767,10 +2828,8 @@
    "source": "HMRC (GOV.UK)",
    "description": "Find out about settling your outstanding disguised remuneration loan charge liability under the loan charge settlement scheme.",
    "categories": [
-    "paye",
     "nic",
     "personal",
-    "iht",
     "compliance"
    ],
    "hasBody": true,
@@ -2787,8 +2846,11 @@
    "source": "Companies House (GOV.UK)",
    "description": "Use this form to give notice of a court order in respect of date of dissolution.",
    "categories": [
-    "general"
-   ]
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Added newest version of the form to give notice of a court order in respect of date of dissolution (AM24). ",
+   "firstPublished": "2017-04-06T00:15:00+01:00"
   },
   {
    "id": "dd9c93a8ea22e03d",
@@ -2800,8 +2862,11 @@
    "source": "Companies House (GOV.UK)",
    "description": "Use this form to give notice of the move from administration to dissolution.",
    "categories": [
-    "general"
-   ]
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Uploaded the most recent version of the form to give notice of a move from administration to dissolution (AM23). ",
+   "firstPublished": "2017-04-06T00:15:00+01:00"
   },
   {
    "id": "ba4969f30d1e3682",
@@ -2860,12 +2925,24 @@
    "source": "HMRC (GOV.UK)",
    "description": "Get guidance from HMRC if you're a tax agent or an adviser.",
    "categories": [
-    "mtd",
     "agents"
    ],
    "hasBody": true,
    "changeNote": "First published.",
    "firstPublished": "2026-07-16T12:00:07+01:00"
+  },
+  {
+   "id": "b7b6a664c28837cc",
+   "title": "The Finance Act 2026 (Registration of Tax Advisers) (Exceptions) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/815",
+   "date": "2026-07-15T13:36:47.359Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations amend Schedule 20 to the Finance Act 2026, which sets out exceptions from the requirement for tax advisers to register with HMRC.",
+   "categories": [
+    "legislation",
+    "budget"
+   ]
   },
   {
    "id": "dd9968bbb27e5c79",
@@ -2943,8 +3020,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "This measure is about the removal of the requirement to submit a notification of a grant of Enterprise Management Incentives (EMI) options.  ",
    "categories": [
-    "cgt",
-    "budget"
+    "cgt"
    ],
    "hasBody": true,
    "changeNote": "First published.",
@@ -3026,8 +3102,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "This measure reforms the taxation of foreign permanent establishments, making the elective exemption regime that applies to their profits and losses mandatory for Corporation Tax. ",
    "categories": [
-    "corptax",
-    "budget"
+    "corptax"
    ],
    "hasBody": true,
    "changeNote": "First published.",
@@ -3109,7 +3184,6 @@
    "description": "This measure is about changes to Stamp Duty Land Tax (SDLT) for purchases made by Local Government Pension Scheme pooled investment vehicles.",
    "categories": [
     "personal",
-    "budget",
     "pensions"
    ],
    "hasBody": true,
@@ -3159,7 +3233,6 @@
    "source": "HM Treasury (GOV.UK)",
    "description": "The government is consultation on potential reforms to make Land Remediation Relief more accessible, better targeted, and more closely aligned with the practical realities of brownfield development.",
    "categories": [
-    "corptax",
     "budget"
    ],
    "hasBody": true,
@@ -3176,12 +3249,35 @@
    "source": "HM Treasury (GOV.UK)",
    "description": "The government is consulting on the tax treatment of predevelopment costs. The consultation seeks views and evidence from stakeholders on the types of costs incurred, their treatment under the current rules, and the impact on investment decisions.",
    "categories": [
-    "corptax",
     "budget"
    ],
    "hasBody": true,
    "changeNote": "First published.",
    "firstPublished": "2026-07-13T13:08:18+01:00"
+  },
+  {
+   "id": "72faa9e57ffb182c",
+   "title": "The Social Security (Contributions) (Isle of Man) Order 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/795",
+   "date": "2026-07-13T11:58:37.517Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "This Order makes provision for the modification of the Social Security Administration Act 1992, the Social Security Contributions and Benefits Act 1992, Part 2 of the Social Security Contributions (Transfer of Functions, etc.) Act 1999 and Part 3 of the Social Security Contributions (Transfer of Functions, etc.) (Northern Ireland) Order 1999 in order to give effect to the Agreement on Social Secur",
+   "categories": [
+    "legislation"
+   ]
+  },
+  {
+   "id": "1900af68afa72878",
+   "title": "The Social Security (Contributions) (Republic of India) (Amendment) Order 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/794",
+   "date": "2026-07-13T11:58:37.008Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "This Order amends the Schedule to the Social Security (Contributions) (Republic of India) Order 2026 to give effect to an amendment made to the agreement contained in that Schedule.",
+   "categories": [
+    "legislation"
+   ]
   },
   {
    "id": "a875ffdcb5cfe9e1",
@@ -3194,7 +3290,10 @@
    "description": "How to use and manage the personal code you receive when you verify your identity for Companies House.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Edited section 'If you verified using GOV.UK One Login'. If you verified your identity after 8 July 2026, we sent your personal code to your email address. ",
+   "firstPublished": "2025-09-01T00:00:00+01:00"
   },
   {
    "id": "13d96e6344f5ab1a",
@@ -3207,7 +3306,10 @@
    "description": "Growth goals for The Pensions Regulator (TPR) for 2026 to 2027.",
    "categories": [
     "pensions"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-07-10T14:06:36+01:00"
   },
   {
    "id": "6a50811a5184f507",
@@ -3253,6 +3355,22 @@
    "categories": [
     "iht",
     "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Edited sections 'How to apply', 'Option 1: Apply to access trust information for a single overseas entity' and 'Option 2: Apply to access trust information for multiple overseas entities or where a person connected to a trust is aged 17 or under'. You are no longer required to provide the names of trusts when applying for information about a trust. If the trust contains details about a person aged 17 or under, we can release the trust information but remove details relating to the minor.  \r\n",
+   "firstPublished": "2025-08-29T00:00:00+01:00"
+  },
+  {
+   "id": "d54275a62ed40379",
+   "title": "The Value Added Tax (Amendment) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/765",
+   "date": "2026-07-08T12:47:18.305Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations amend Part 15 of the Value Added Tax Regulations 1995 to remove a computer or an item of computer equipment from the list of capital items to which the Part applies. These Regulations also change to £600,000 the minimum value of the VAT bearing capital expenditure at which land, a building or part of a building and a civil engineering work or part of a civil engineering work are ",
+   "categories": [
+    "legislation",
+    "vat"
    ]
   },
   {
@@ -3265,9 +3383,7 @@
    "source": "HMRC (GOV.UK)",
    "description": "Learn more about getting started with Self Assessment including registration, tax returns, tax bills and payments.",
    "categories": [
-    "personal",
-    "selfemployed",
-    "compliance"
+    "personal"
    ],
    "hasBody": true,
    "changeNote": "The capital versus revenue expenditure toolkit link has been updated.\r\n\r\n",
@@ -3283,11 +3399,23 @@
    "source": "HMRC (GOV.UK)",
    "description": "How to complete CT600P supplementary page for creative industries reliefs and what information you need to include.",
    "categories": [
-    "corptax"
+    "general"
    ],
    "hasBody": true,
    "changeNote": "'Reallocated UK expenditure for Audio-Visual Expenditure Credit and Video Games Expenditure Credit' section added, to explain how to record this on the CT600P supplementary page.",
    "firstPublished": "2026-04-08T15:58:00+01:00"
+  },
+  {
+   "id": "5b4e2a3c47886a7f",
+   "title": "The Horizon Family Members Redress Scheme (Tax Exemptions and Relief) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/717",
+   "date": "2026-07-01T10:22:58.090Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations provide for exemptions from capital gains tax and income tax and a relief from inheritance tax for payments received under the Horizon Family Members Redress Scheme.",
+   "categories": [
+    "legislation"
+   ]
   },
   {
    "id": "561fd2cb5ceda35d",
@@ -3307,6 +3435,22 @@
    "hasBody": true,
    "changeNote": "First published.",
    "firstPublished": "2026-07-01T10:46:36+01:00"
+  },
+  {
+   "id": "beed80511e54c40a",
+   "title": "Service level agreement for operation of Welsh rates of Income Tax by HMRC",
+   "url": "https://www.gov.uk/government/publications/service-level-agreement-for-operation-of-welsh-rates-of-income-tax-by-hmrc",
+   "path": "/government/publications/service-level-agreement-for-operation-of-welsh-rates-of-income-tax-by-hmrc",
+   "date": "2026-06-30T08:30:07Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This service level agreement between HMRC and the Welsh Government sets out the requirements and performance measures for the operation of Welsh rates of Income Tax.",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated the service level agreement for 2026 to 2027.",
+   "firstPublished": "2020-02-19T00:00:00+00:00"
   },
   {
    "id": "c25e11f49a21332d",
@@ -3335,7 +3479,10 @@
    "description": "How to correct the date of birth for a director or person with significant control (PSC) if it was filed incorrectly with Companies House.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Form LLP288c added for limited liability partnership (LLP) members appointed before 1 October 2009.",
+   "firstPublished": "2026-01-30T11:32:00+00:00"
   },
   {
    "id": "4f0cbbc910b200d8",
@@ -3388,6 +3535,18 @@
    "firstPublished": "2026-06-23T14:23:19+01:00"
   },
   {
+   "id": "662ea5b47f6191d5",
+   "title": "The Social Security (Contributions) (Amendment No. 4) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/684",
+   "date": "2026-06-25T15:51:30.136Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations amend the Social Security (Contributions) Regulations 2001 to provide that where an individual makes a Section 6 or a Section 10 election in relation to their remediable service under the Armed Forces Pension Scheme 1975 (“AFPS 1975”) and as a result of that election, new scheme benefits, which are equivalent to the scheme established by the Armed Forces Early Departure Payments ",
+   "categories": [
+    "legislation"
+   ]
+  },
+  {
    "id": "bdfef7cb1dccdda1",
    "title": "Summary of tax update 2026: simplification, modernisation and fairness",
    "url": "https://www.gov.uk/government/publications/summary-of-tax-update-2026-simplification-modernisation-and-fairness",
@@ -3402,6 +3561,19 @@
    "hasBody": true,
    "changeNote": "Links added to the modernising the distributions framework consultation, call for evidence on Customs Modernisation and  the Improving the Quality of Customs Intermediaries consultation.\r\n",
    "firstPublished": "2026-06-23T14:23:00+01:00"
+  },
+  {
+   "id": "47e839e5cd5e5a03",
+   "title": "The Public Service Pension Schemes (Rectification of Unlawful Discrimination) (Tax) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/673",
+   "date": "2026-06-23T13:24:37.540Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "In this Explanatory Note, references to “FA” followed by a year are to a Finance Act of that year, references to “HMRC” are to the Commissioners for His Majesty’s Revenue and Customs, references to “ITEPA 2003” are to the Income Tax (Earnings and Pensions) Act 2003 (c. 1) and references to “PSPJOA 2022” are to the Public Service Pensions and Judicial Offices Act 2022 (c. 7).",
+   "categories": [
+    "legislation",
+    "personal"
+   ]
   },
   {
    "id": "32dacb043351daf9",
@@ -3431,8 +3603,7 @@
    "description": "A proposal to extend current online marketplace VAT liability rules to sales on OMPs by UK based businesses, when their goods are in the UK at the point of sale.",
    "categories": [
     "vat",
-    "compliance",
-    "budget"
+    "compliance"
    ],
    "hasBody": true,
    "changeNote": "First published.",
@@ -3498,7 +3669,6 @@
    "source": "HM Treasury (GOV.UK)",
    "description": "The government is consulting on the tax relief available for the costs of remediating contaminated or long-term derelict land. ",
    "categories": [
-    "corptax",
     "budget"
    ],
    "hasBody": true,
@@ -3532,7 +3702,10 @@
    "description": "How to tell Companies House you have verified someone's identity.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Edited 'What this service is for' section to explain that you cannot use the service to tell us your own identity has been verified and explain how you can verify your own identity.",
+   "firstPublished": "2025-04-08T08:00:00+01:00"
   },
   {
    "id": "924b8440f88cc64d",
@@ -3545,7 +3718,10 @@
    "description": "How to meet our identity verification standard when verifying someone’s identity for Companies House.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Documents that have been cancelled or replaced with a newer one are now on the list of documents that cannot be used as evidence to verify someone's identity. \r\n\r\neVisa is now on the list of photographic identity documents someone can provide an Authorised Corporate Service Provider (ACSP) when documents are being checked with identification document validation technology. \r\n\r\nInsurance policy is now on the list of Group B documents someone can provide an ACSP when documents are being checked by a person. ",
+   "firstPublished": "2025-02-19T00:00:00+00:00"
   },
   {
    "id": "a4a3867184162a87",
@@ -3558,7 +3734,10 @@
    "description": "Understanding your role as an Authorised Corporate Service Provider (ACSP), also known as a Companies House authorised agent.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Added guidance on how to sign into the authorised agent account and how to give colleagues access to ACSP services to the 'How to use your authorised agent account' section. ",
+   "firstPublished": "2025-02-19T00:00:00+00:00"
   },
   {
    "id": "1fe7c80e38120428",
@@ -3571,7 +3750,10 @@
    "description": "How to use our service to register as as an Authorised Corporate Service Provider (ACSP), also known as a Companies House authorised agent.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Edited the 'Verify your identity' section. In most cases you only need to verify your identity once for Companies House. You can read the guidance about verifying your identity for Companies House for more information. ",
+   "firstPublished": "2025-02-19T00:00:00+00:00"
   },
   {
    "id": "7539254990724574",
@@ -3584,7 +3766,10 @@
    "description": "Use this form as a statement of a company's capital when reducing capital under section 644 and 649 of the Companies Act 2006.",
    "categories": [
     "general"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Removed message about delays to filings, as our filings are now being processed as normal. ",
+   "firstPublished": "2010-05-01T00:00:00+01:00"
   },
   {
    "id": "31e21392d332ec16",
@@ -3596,8 +3781,11 @@
    "source": "Companies House (GOV.UK)",
    "description": "Use this form to give notice of an unconditional change of name by resolution.",
    "categories": [
-    "general"
-   ]
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Removed message about delays to filings, as our filings are now being processed as normal. ",
+   "firstPublished": "2014-09-23T00:00:00+01:00"
   },
   {
    "id": "389f49496d0b4829",
@@ -3609,8 +3797,6 @@
    "source": "HM Treasury (GOV.UK)",
    "description": "This consultation covers subsidiary considerations related to the FCA taking over professional services firms' anti-money laundering and counter-terrorist financing supervision.",
    "categories": [
-    "iht",
-    "compliance",
     "budget",
     "agents"
    ],
@@ -3651,6 +3837,18 @@
    "firstPublished": "2026-06-17T12:04:35+01:00"
   },
   {
+   "id": "4e88167c5c748ec6",
+   "title": "Correction Slip",
+   "url": "https://www.legislation.gov.uk/uksi/2026/388/pdfs/uksics_20260388_en_001.pdf",
+   "date": "2026-06-14T23:00:00.000Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations are made in consequence of the insertion of Chapter 11 into the Income Tax (Earnings and Pensions) Act 2003 by section 24 of the Finance Act 2026 (c. 11).",
+   "categories": [
+    "legislation"
+   ]
+  },
+  {
    "id": "e2e83b67b8509536",
    "title": "Government financial reporting manual: application guidance",
    "url": "https://www.gov.uk/government/publications/government-financial-reporting-manual-application-guidance",
@@ -3677,7 +3875,10 @@
    "description": "A new report released today reveals the strides being made to improve the accuracy of the Companies House register and disrupt economic crime. ",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-06-11T16:57:25+01:00"
   },
   {
    "id": "5af687ecad7c6f3f",
@@ -3689,12 +3890,24 @@
    "source": "HM Treasury (GOV.UK)",
    "description": "Baroness Hogg has been reappointed as a non-executive member of the Office for Budget Responsibility.",
    "categories": [
-    "budget",
-    "reporting"
+    "budget"
    ],
    "hasBody": true,
    "changeNote": "First published.",
    "firstPublished": "2026-06-11T14:30:10+01:00"
+  },
+  {
+   "id": "3c98f9f005228fd1",
+   "title": "The Income Tax (Pay As You Earn) (Amendment No. 2) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/610",
+   "date": "2026-06-10T13:29:34.584Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations amend the Income Tax (Pay As You Earn) Regulations 2003 (the “PAYE Regulations”), which make provision for the assessment, charge, collection and recovery of income tax in respect of all pay as you earn (“PAYE”) income.",
+   "categories": [
+    "legislation",
+    "personal"
+   ]
   },
   {
    "id": "d15901c8b30ba512",
@@ -3707,7 +3920,10 @@
    "description": "Using our Find and update company information service to follow companies and search company information for free.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "'Service information' section updated - 'Links to external websites'. Information added about content including 2D optical codes.",
+   "firstPublished": "2019-06-19T00:00:00+01:00"
   },
   {
    "id": "e6e2377762d00c0c",
@@ -3719,8 +3935,11 @@
    "source": "Companies House (GOV.UK)",
    "description": "Five companies shut down this year following Insolvency Service investigations",
    "categories": [
-    "general"
-   ]
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-06-09T11:48:13+01:00"
   },
   {
    "id": "54f8fced05687597",
@@ -3733,7 +3952,10 @@
    "description": "Small companies and micro-entities to file profit and loss accounts but can opt out of publication. All companies will need to file accounts via commercial software with more time to prepare.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Added translation",
+   "firstPublished": "2026-06-09T09:51:00+01:00"
   },
   {
    "id": "8323eb243a707117",
@@ -3746,6 +3968,22 @@
    "description": "Small companies and micro-entities to file profit and loss accounts but can opt out of publication. All companies will need to file accounts via commercial software with more time to prepare.",
    "categories": [
     "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-06-09T00:00:00+01:00"
+  },
+  {
+   "id": "72c49b1d5ef3d48b",
+   "title": "The Successful Legacy Appeals Schemes (Income Tax Exemption) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/584",
+   "date": "2026-06-04T12:51:35.898Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations provide for an exemption from income tax for payments under the Successful Legacy Appeals Scheme administered by the Department for Work and Pensions in Great Britain and any corresponding scheme administered by the Department for Communities in Northern Ireland (the “Schemes”). The Schemes provide compensation for people who experienced a financial loss when they had to claim un",
+   "categories": [
+    "legislation",
+    "personal"
    ]
   },
   {
@@ -3758,13 +3996,37 @@
    "source": "HM Treasury (GOV.UK)",
    "description": "Small businesses struggling with finances to receive £4 million funding boost to business debt advice services through the Money and Pensions Service.",
    "categories": [
-    "selfemployed",
-    "iht",
     "compliance"
    ],
    "hasBody": true,
    "changeNote": "First published.",
    "firstPublished": "2026-06-04T09:48:40+01:00"
+  },
+  {
+   "id": "e770058201d0d880",
+   "title": "The Value Added Tax (Reduced Rate) (Hospitality and Tourism) Order 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/576",
+   "date": "2026-06-03T11:36:28.249Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "This Order modifies Schedule 7A to the Value Added Tax Act 1994 (charge at reduced rate) by inserting new Group 17 and new Group 18 to provide for a temporary reduced rate of value added tax for certain supplies of children’s meals for consumption on the premises and certain supplies of rights of admission to shows and other family attractions. The reduced rate has effect in relation to the period",
+   "categories": [
+    "legislation",
+    "vat"
+   ]
+  },
+  {
+   "id": "19fb9367ad64ac10",
+   "title": "The Publication of Information About Tax Avoidance Schemes (Legally Privileged Communications Declarations) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/570",
+   "date": "2026-06-02T12:33:31.085Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations set out the requirements that a declaration made under \nsection 209 of the \nFinance Act 2026 must meet.",
+   "categories": [
+    "legislation",
+    "compliance"
+   ]
   },
   {
    "id": "aacb7a5f88a0aec0",
@@ -3776,8 +4038,11 @@
    "source": "Companies House (GOV.UK)",
    "description": "A list of company formation agents and company secretarial agents you can use to incorporate your company.",
    "categories": [
-    "general"
-   ]
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated list with new company information.",
+   "firstPublished": "2014-11-10T00:00:00+00:00"
   },
   {
    "id": "15978868bc0d0d0b",
@@ -3790,7 +4055,10 @@
    "description": "You need to prove who you are to set up, run, own or control a company in the UK.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "In the 'Who needs to verify' section, removed 'someone who files for a company - for example, a company secretary' .",
+   "firstPublished": "2025-03-18T00:00:00+00:00"
   },
   {
    "id": "dd791693a5d9e68c",
@@ -3803,7 +4071,10 @@
    "description": "How to find an ACSP, what an ACSP needs to verify your identity for Companies House, and what happens after an ACSP verifies your identity. ",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Added translation",
+   "firstPublished": "2026-05-28T15:17:50+01:00"
   },
   {
    "id": "700d76d25e19a30d",
@@ -3816,7 +4087,10 @@
    "description": "Rules outlining the form, manner of delivery and method of authentication for documents delivered to Companies House in electronic or paper format.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Updated Registrar’s Rules – Volume 8: Identity Verification by the Registrar. Updated required evidence to allow UK driving licences expired within 90 days, removed health and education records, and excluded replaced passports",
+   "firstPublished": "2014-12-23T00:00:00+00:00"
   },
   {
    "id": "d41aebb5108234a8",
@@ -3844,12 +4118,25 @@
    "source": "HM Treasury (GOV.UK)",
    "description": "Families will enjoy discounted attractions and meals out this summer, with the launch of the government’s Great British Summer Savings scheme to help people enjoy day out for less.",
    "categories": [
-    "vat",
-    "compliance"
+    "vat"
    ],
    "hasBody": true,
    "changeNote": "First published.",
    "firstPublished": "2026-05-21T12:33:00+01:00"
+  },
+  {
+   "id": "7c52db2323b2e623",
+   "title": "The Finance Act 2009, Sections 101 and 102 (Penalties for Non-disclosure and Promotion of Tax Avoidance Schemes) (Appointed Day) Order 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/552",
+   "date": "2026-05-21T09:46:22.673Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "This Order appoints 21st May 2026 as the day on which the provisions concerning late payment and repayment interest set out at sections 101 and 102 of the Finance Act 2009 come into force for the purposes of penalties issued under—",
+   "categories": [
+    "legislation",
+    "compliance",
+    "budget"
+   ]
   },
   {
    "id": "47cae259a0de4db1",
@@ -3862,7 +4149,10 @@
    "description": "Companies House and IPO warn businesses about unsolicited payment requests and how to identify them.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Added translation",
+   "firstPublished": "2026-05-21T10:00:01+01:00"
   },
   {
    "id": "8dcdc389a17ac297",
@@ -3897,6 +4187,19 @@
    "firstPublished": "2026-05-19T17:54:50+01:00"
   },
   {
+   "id": "e361dd3109d6d966",
+   "title": "The Income Tax (Exemption of Kinship Allowance Payments in Kinship Zones) Order 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/538",
+   "date": "2026-05-19T12:39:06.480Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "This Order amends section 744 of the Income Tax (Trading and Other Income) Act 2005 to exempt from income tax, sums paid under a pilot scheme known as Kinship Zones under which the Department for Education will provide funding to certain local authorities in England and Wales to provide an allowance for kinship carers.",
+   "categories": [
+    "legislation",
+    "personal"
+   ]
+  },
+  {
    "id": "01ea8ff16d97b323",
    "title": "Cash Equivalent Transfer Values guidance",
    "url": "https://www.gov.uk/government/publications/basis-for-setting-the-discount-rates-for-calculating-cash-equivalent-transfer-values-payable-by-public-service-pension-schemes",
@@ -3906,8 +4209,7 @@
    "source": "HM Treasury (GOV.UK)",
    "description": "Technical note on the discount rates to be used by the scheme managers of public service pension schemes in calculating transfers payable from the schemes.",
    "categories": [
-    "personal",
-    "selfemployed"
+    "personal"
    ],
    "hasBody": true,
    "changeNote": "This page has been updated to reflect new published guidance which updates the discount rates used for calculating cash equivalent transfer values payable by public service pension schemes, bringing them into line with the change to the SCAPE discount rate announced on 19 May 2026.",
@@ -3923,8 +4225,7 @@
    "source": "HM Treasury (GOV.UK)",
    "description": "This is a technical note on actuarial valuations of the public service pension schemes.",
    "categories": [
-    "personal",
-    "budget"
+    "personal"
    ],
    "hasBody": true,
    "changeNote": "First published.",
@@ -3941,6 +4242,33 @@
    "description": "The agency’s business plan 2026 to 2027 marks a key step in its transformation, strengthening its position as a trusted guardian of corporate data. ",
    "categories": [
     "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-05-19T10:07:59+01:00"
+  },
+  {
+   "id": "c53102a3add7edf6",
+   "title": "Correction Slip",
+   "url": "https://www.legislation.gov.uk/uksi/2026/343/pdfs/uksics_20260343_en_001.pdf",
+   "date": "2026-05-18T23:00:00.000Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations amend the Social Security (Contributions) Regulations 2001 (S.I. 2001/1004) (“SSCR”).",
+   "categories": [
+    "legislation"
+   ]
+  },
+  {
+   "id": "c4b659af0ab9c5ed",
+   "title": "Correction Slip",
+   "url": "https://www.legislation.gov.uk/uksi/2026/294/pdfs/uksics_20260294_en_001.pdf",
+   "date": "2026-05-18T23:00:00.000Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations have effect in relation to contributions under Part 1 of the Social Security Contributions and Benefits Act 1992 (c. 4) and under Part 1 of the Social Security Contributions and Benefits (Northern Ireland) Act 1992 (c. 7).",
+   "categories": [
+    "legislation"
    ]
   },
   {
@@ -3954,7 +4282,10 @@
    "description": "What the company register is, what details you need to give to Companies House, and how the public can access this information.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Updated information on Companies House's review of the retention period for dissolved company records.",
+   "firstPublished": "2018-05-25T00:00:00+01:00"
   },
   {
    "id": "2d97c41fb3ebdd11",
@@ -3967,7 +4298,10 @@
    "description": "Companies House is reviewing the retention period for dissolved company records, following concerns that records should be held for longer than 20 years. ",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-05-12T10:00:06+01:00"
   },
   {
    "id": "d8d991d850eaf4c3",
@@ -4002,6 +4336,18 @@
    "firstPublished": "2025-09-25T17:34:59+01:00"
   },
   {
+   "id": "4b6f64477e3c491c",
+   "title": "Correction Slip",
+   "url": "https://www.legislation.gov.uk/uksi/2026/93/pdfs/uksics_20260093_en_001.pdf",
+   "date": "2026-05-07T23:00:00.000Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations make amendments to Part 10 of the Income Tax (Earnings and Pensions) Act 2003 (c. 1) in consequence of two new social security benefits introduced by the Carer’s Assistance (Miscellaneous and Consequential Amendments, Revocation, Transitional and Saving Provisions) (Scotland) Regulations 2025 (S.S.I. 2025/340) from 15th March 2026. The amendments ensure the Scottish Carer Supplem",
+   "categories": [
+    "legislation"
+   ]
+  },
+  {
    "id": "e4d5554e147c5fcb",
    "title": "How to check your Anti-Money Laundering (AML) details",
    "url": "https://www.gov.uk/guidance/how-to-check-your-anti-money-laundering-aml-details",
@@ -4012,6 +4358,22 @@
    "description": "What AML details to check before you apply to be an Authorised Corporate Service Provider (ACSP).",
    "categories": [
     "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Added translation",
+   "firstPublished": "2026-05-06T13:08:29+01:00"
+  },
+  {
+   "id": "39d72899610371bf",
+   "title": "National Insurance Contributions (Employer Pensions Contributions) Act 2026",
+   "url": "https://www.legislation.gov.uk/id/ukpga/2026/15",
+   "date": "2026-05-05T13:48:14.610Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "An Act to make provision to amend section 4 of the Social Security Contributions and Benefits Act 1992, and section 4 of the Social Security Contributions and Benefits (Northern Ireland) Act 1992, so that amounts of salary sacrificed for employer pensions contributions pursuant to optional remuneration arrangements are liable to national insurance contributions.",
+   "categories": [
+    "legislation",
+    "nic"
    ]
   },
   {
@@ -4042,6 +4404,22 @@
    "description": "Use this service to verify your identity for Companies House.",
    "categories": [
     "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Section added with guidance about 'If your photo ID has expired'.",
+   "firstPublished": "2025-04-08T00:00:00+01:00"
+  },
+  {
+   "id": "4b62fd1fc0153910",
+   "title": "The Major Sporting Events (Income Tax Exemption) (Glasgow 2026 Commonwealth Games) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/476",
+   "date": "2026-04-29T12:29:40.262Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations provide for an exemption from income tax for income arising to individuals because of their involvement in the Glasgow 2026 Commonwealth Games that are to be held principally in Glasgow between 23rd July 2026 and 2nd August 2026.",
+   "categories": [
+    "legislation",
+    "personal"
    ]
   },
   {
@@ -4055,7 +4433,10 @@
    "description": "Explanatory Memorandum to The Pensions Regulator Code of Practice: Authorisation and Supervision of Collective Defined Contribution Schemes 2026.",
    "categories": [
     "pensions"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-04-29T09:30:02+01:00"
   },
   {
    "id": "c0d2f07166c978c4",
@@ -4084,7 +4465,10 @@
    "description": "Use this form to apply, as an individual, to remove your personal details from the public Companies House register.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance added to 'How to complete your form SR01' - Section 1: Home address to be removed. If the address is also the company’s single alternative inspection location (SAIL), you will need to change your SAIL address before completing the SR01.",
+   "firstPublished": "2019-02-27T00:00:00+00:00"
   },
   {
    "id": "241ea7496162bb14",
@@ -4096,7 +4480,6 @@
    "source": "HM Treasury (GOV.UK)",
    "description": "Government boosts efforts to help young people find their Child Trust Funds",
    "categories": [
-    "paye",
     "iht"
    ],
    "hasBody": true,
@@ -4113,7 +4496,6 @@
    "source": "HM Treasury (GOV.UK)",
    "description": "The government is consulting on reforms to the Senior Managers & Certification Regime, with the aim of streamlining the regime to support growth and competitiveness. ",
    "categories": [
-    "compliance",
     "budget"
    ],
    "hasBody": true,
@@ -4131,7 +4513,10 @@
    "description": "How to replace a previous filing with Companies House, if it contained an error or had missing information.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Warning added. Check the details match across all documents in your application – including the company name, company number, and information such as an appointment date. These must also match what is shown on the Companies House register, or your filing will be rejected.",
+   "firstPublished": "2014-09-17T00:00:00+01:00"
   },
   {
    "id": "c0ab2ae5b4c263aa",
@@ -4144,7 +4529,10 @@
    "description": "What the confirmation statement is and how to send your statement to Companies House.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "When to file your confirmation statement – Added information on how to check your confirmation date and filing deadline and sign up for email filing reminders. Updated the guidance about the review period to make it clearer when it ends and what happens if you file early. ",
+   "firstPublished": "2018-01-15T00:00:00+00:00"
   },
   {
    "id": "a9af0f13ff127536",
@@ -4173,7 +4561,10 @@
    "description": "Information and ongoing updates about the Companies House WebFiling service issue discovered on 13 March 2026.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "'What happened' and 'What we're doing next' – Updated with latest information on our investigation. ",
+   "firstPublished": "2026-03-20T17:13:00+00:00"
   },
   {
    "id": "68c4b6b7e303defd",
@@ -4186,7 +4577,10 @@
    "description": "Use this form to give identity verification details for a current director of an overseas company.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Clarified that you need to file one form OS VS01 for each company, and include details for all company directors on the form. ",
+   "firstPublished": "2025-11-18T00:00:00+00:00"
   },
   {
    "id": "73b81d2e77dba72c",
@@ -4200,6 +4594,100 @@
    "categories": [
     "compliance",
     "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Added Welsh language translation. ",
+   "firstPublished": "2024-09-27T00:00:00+01:00"
+  },
+  {
+   "id": "1767d78945fe48da",
+   "title": "The Finance Act 2021 (Income Tax and Capital Gains Tax) (Penalties) (Appointed Day: Digitally Obligated Persons) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/370",
+   "date": "2026-03-26T12:20:58.340Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations provide that 1st April 2026 is the appointed day on which Schedules 24 to 27 come into force for income tax and capital gains tax for the purposes of failures by digitally obligated persons in relation to returns required to be made and tax payable by persons other than trustees or partnerships.",
+   "categories": [
+    "legislation",
+    "personal",
+    "cgt",
+    "compliance",
+    "budget"
+   ]
+  },
+  {
+   "id": "22c754ef99672616",
+   "title": "The Taxes (Interest Rate) (Amendment) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/347",
+   "date": "2026-03-26T12:11:15.488Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations amend the Taxes (Interest Rate) Regulations 1989/1297 (“1989 Regulations”). The 1989 regulations specify rates of interest for the purposes of the enactments specified in section 178(2) of the Finance Act 1989 (c. 26). The amendments made by these Regulations specify the applicable rates of interest for unpaid and overpaid amounts of multinational top-tax and domestic top-up tax.",
+   "categories": [
+    "legislation",
+    "compliance"
+   ]
+  },
+  {
+   "id": "90b1cc6773857e80",
+   "title": "The Finance (No. 2) Act 2017, Sections 60 and 61 (Digital Reporting and Record-Keeping) (Appointed Day and Revocations) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/356",
+   "date": "2026-03-25T17:06:15.170Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations revoke earlier appointed day regulations and appoint 1st April 2026 as the day on which sections 60(1) to (3) and 61(2) to (5) of the Finance (No. 2) Act 2017 come into force.",
+   "categories": [
+    "legislation"
+   ]
+  },
+  {
+   "id": "3f2e38d5e8ec0283",
+   "title": "The Social Security Contributions and Benefits Act 1992 (Modification of Section 4A) Order 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/341",
+   "date": "2026-03-25T16:34:59.189Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "This Order modifies section 4A of the Social Security Contributions and Benefits Act 1992 (“SSCBA”) in consequence of the insertion of Chapter 11 of Part 2 of the Income Tax (Earnings and Pensions) Act 2003 (“ITEPA 2003”) by the Finance Act 2026.",
+   "categories": [
+    "legislation"
+   ]
+  },
+  {
+   "id": "393a646acf97b351",
+   "title": "The Social Security Contributions and Benefits (Northern Ireland) Act 1992 (Modification of Section 4A) Order 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/340",
+   "date": "2026-03-25T16:34:50.768Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "This Order modifies section 4A of the Social Security Contributions and Benefits (Northern Ireland) Act 1992 (“SSCB(NI)A”) in consequence of the insertion of Chapter 11 of Part 2 of the Income Tax (Earnings and Pensions) Act 2003 (“ITEPA 2003”) by the Finance Act 2026.",
+   "categories": [
+    "legislation"
+   ]
+  },
+  {
+   "id": "cd2f0640445b10bc",
+   "title": "The Income Tax (Digital Obligations) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/336",
+   "date": "2026-03-24T16:13:34.447Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations make provision requiring the use of software to deliver information relating to income tax to His Majesty’s Revenue and Customs (“HMRC”) and to keep related records.",
+   "categories": [
+    "legislation",
+    "personal"
+   ]
+  },
+  {
+   "id": "66f7b2c35c372be9",
+   "title": "Finance Act 2026",
+   "url": "https://www.legislation.gov.uk/id/ukpga/2026/11",
+   "date": "2026-03-20T15:52:34.403Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "An Act to make provision in connection with finance.",
+   "categories": [
+    "legislation",
+    "budget"
    ]
   },
   {
@@ -4235,6 +4723,19 @@
    "firstPublished": "2026-03-20T09:00:00+00:00"
   },
   {
+   "id": "fde6351582f95821",
+   "title": "The Finance Act 2021, Section 95 and Schedule 18 (Distance Selling: Northern Ireland) (Appointed Day No. 3) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/315",
+   "date": "2026-03-19T12:30:30.807Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations are the third appointed day regulations made under section 95 of the Finance Act 2021 (c. 26).",
+   "categories": [
+    "legislation",
+    "budget"
+   ]
+  },
+  {
    "id": "9ddcfba15d30a733",
    "title": "Northern Growth Strategy: Case for change",
    "url": "https://www.gov.uk/government/publications/northern-growth-strategy-case-for-change",
@@ -4251,6 +4752,19 @@
    "firstPublished": "2026-01-14T12:55:00+00:00"
   },
   {
+   "id": "d6d61fd2fb3940b8",
+   "title": "The Value Added Tax (Refund of Tax to Great British Nuclear) Order 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/307",
+   "date": "2026-03-18T13:22:06.451Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "This Order, which comes into force on 8th April 2026, provides that a company designated by the Secretary of State as Great British Nuclear is a specified person for the purposes of section 33E of the Value Added Tax Act 1994 (c. 23).",
+   "categories": [
+    "legislation",
+    "vat"
+   ]
+  },
+  {
    "id": "d0107fb592b7691c",
    "title": "Email to registered companies about the WebFiling security issue",
    "url": "https://www.gov.uk/government/publications/email-to-registered-companies-about-the-webfiling-security-issue",
@@ -4261,6 +4775,21 @@
    "description": "Official email from Companies House to all registered email addresses of companies registered in the UK, about a security issue that affected the WebFiling service.",
    "categories": [
     "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-03-17T16:49:00+00:00"
+  },
+  {
+   "id": "a6c6793be9b8361a",
+   "title": "The Social Security (Contributions) (Re-rating) Consequential Amendment Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/283",
+   "date": "2026-03-13T14:43:54.656Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations amend the Social Security (Contributions) Regulations 2001 (S.I. 2001/1004) (“the Contributions Regulations”) with effect from 6th April 2026. They are made in consequence of annual regulations setting the rate at which Class 2 National Insurance contributions are payable which are made under section 141 of the Social Security Administration Act 1992 (c. 5) and section 129 of the",
+   "categories": [
+    "legislation"
    ]
   },
   {
@@ -4273,7 +4802,22 @@
    "source": "Companies House (GOV.UK)",
    "description": "Use form EE MP01 to give notice of documents and particulars required to be filed for a UKEIG.",
    "categories": [
-    "general"
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "The fee has been updated. ",
+   "firstPublished": "2014-10-06T00:00:00+01:00"
+  },
+  {
+   "id": "12efcee88793dac7",
+   "title": "The Social Security (Contributions) (Republic of India) Order 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/274",
+   "date": "2026-03-11T14:02:53.814Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "This Order makes provision for the modification of the Social Security Administration Act 1992, the Social Security Contributions and Benefits Act 1992, the Social Security Contributions (Transfer of Functions, etc.) Act 1999 and the Social Security Contributions (Transfer of Functions, etc.) (Northern Ireland) Order 1999 in order to give effect to the Agreement on Social Security relating to Soci",
+   "categories": [
+    "legislation"
    ]
   },
   {
@@ -4287,7 +4831,10 @@
    "description": "Make a request to extend the deadline for a PSC to meet identity verification requirements for Companies House if you have already received 2 extensions. ",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "A Welsh language version of the form has been added to the Welsh page.",
+   "firstPublished": "2025-11-18T00:00:00+00:00"
   },
   {
    "id": "b2a4d33b22f8f9f2",
@@ -4300,7 +4847,10 @@
    "description": "Tell us about exceptional circumstances you want us to consider before we take enforcement action for overdue filings. ",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "A Welsh language version of the form has been added to the Welsh page. ",
+   "firstPublished": "2025-11-18T00:00:00+00:00"
   },
   {
    "id": "062861d4149f4a46",
@@ -4313,6 +4863,22 @@
    "description": "This paper sets out the Department for Work and Pensions policy principles in relation to the scale measures which form part of the Pension Schemes Bill.",
    "categories": [
     "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-03-09T09:30:00+00:00"
+  },
+  {
+   "id": "8d127e6f7ef7b467",
+   "title": "The Social Security (Contributions) (Rates, Limits and Thresholds Amendments, National Insurance Funds Payments and Extension of Veteran’s Relief) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/231",
+   "date": "2026-03-06T16:15:30.110Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations amend the Social Security Contributions and Benefits Act 1992 (c. 4) and corresponding provisions in the Social Security Contributions and Benefits (Northern Ireland) Act 1992 (c. 7) (“the Acts”), the Social Security (Contributions) Regulations 2001 (S.I. 2001/1004) (“the Contributions Regulations”) and the National Insurance Contributions Act 2022 (c. 9) (“the NICA 2022”). The a",
+   "categories": [
+    "legislation",
+    "nic"
    ]
   },
   {
@@ -4326,6 +4892,21 @@
    "description": "Register a mortgage or charge at Companies House that was created or evidenced by an instrument on or after 6 April 2013.",
    "categories": [
     "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Corrected fee to file a charge online. ",
+   "firstPublished": "2014-09-17T00:00:00+01:00"
+  },
+  {
+   "id": "0a243987343b3ab6",
+   "title": "The Social Security (Contributions) (Amendment) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/191",
+   "date": "2026-03-02T17:03:22.549Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations amend the Social Security (Contributions) Regulations 2001 (S.I. 2001/1004) (“SSCR”).",
+   "categories": [
+    "legislation"
    ]
   },
   {
@@ -4339,6 +4920,22 @@
    "description": "Ministers confirm that Dr Ros Rivaz will take on the role from 1 March.",
    "categories": [
     "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-02-26T09:30:17+00:00"
+  },
+  {
+   "id": "0870b155e87d3190",
+   "title": "The Local Government Finance Act 1988 (Prescription of Non-Domestic Rating Multipliers) (England) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/152",
+   "date": "2026-02-23T16:46:19.838Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "In relation to England, a ratepayer’s liability to a non-domestic rate as regards a hereditament is determined in accordance with the Local Government Finance Act 1988 (c. 41). Liability as regards occupied local rating properties, unoccupied local rating properties and central rating is determined in accordance with formulae in Schedules 4ZA, 4ZB and 5A to that Act.",
+   "categories": [
+    "legislation",
+    "budget"
    ]
   },
   {
@@ -4352,7 +4949,10 @@
    "description": "How to remove your home address, signature, day of your date of birth, or occupation from the public register.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Applying as a company, or as a person who registers a charge – Removed line about asking for an assessment from a relevant authority. This is no longer part of the process. ",
+   "firstPublished": "2020-09-16T00:00:00+01:00"
   },
   {
    "id": "64ace2b9681cfa08",
@@ -4366,7 +4966,10 @@
    "categories": [
     "vat",
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-02-19T10:45:38+00:00"
   },
   {
    "id": "a40e41d060a721d9",
@@ -4379,7 +4982,10 @@
    "description": "Actions Companies House takes to reduce its impact on the environment.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Added the environmental policy for 2026. ",
+   "firstPublished": "2012-07-31T00:00:00+01:00"
   },
   {
    "id": "6937195ef326eb95",
@@ -4392,7 +4998,10 @@
    "description": "A limited partnership can use this form to be designated as a private fund limited partnership (PFLP).",
    "categories": [
     "selfemployed"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Updated fee to apply for designation as a private fund limited partnership. ",
+   "firstPublished": "2017-04-06T00:30:00+01:00"
   },
   {
    "id": "ea900d9b03dcae93",
@@ -4404,7 +5013,23 @@
    "source": "Companies House (GOV.UK)",
    "description": "Use this form to register a UK establishment of an overseas company.",
    "categories": [
-    "general"
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated fee to register a UK establishment of an overseas company.",
+   "firstPublished": "2010-05-03T00:00:00+01:00"
+  },
+  {
+   "id": "324c08dba8691ee5",
+   "title": "The Local Government Finance Act 1988 (Calculation of Non-Domestic Rating High-Value Multiplier) (England) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/108",
+   "date": "2026-02-06T13:15:55.788Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "Paragraphs A6A and 9B of Schedule 7 to the Local Government Finance Act 1988 (c. 41) (“the Act”) were inserted by the Non-Domestic Rating (Multipliers and Private Schools) Act 2025 (c. 12), enabling the Treasury to make regulations for additional non-domestic rating multipliers for the purpose of the calculation of business rates under the Act. These Regulations specify the high-value multiplier t",
+   "categories": [
+    "legislation",
+    "budget"
    ]
   },
   {
@@ -4417,8 +5042,13 @@
    "source": "Companies House (GOV.UK)",
    "description": "Companies wound-up in the public interest following Insolvency Service investigations",
    "categories": [
-    "general"
-   ]
+    "iht",
+    "reporting",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-02-05T10:17:49+00:00"
   },
   {
    "id": "e428123e647fb370",
@@ -4430,8 +5060,11 @@
    "source": "Companies House (GOV.UK)",
    "description": "Business Secretary Peter Kyle confirms Andy King as CIC Regulator.",
    "categories": [
-    "general"
-   ]
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-02-05T10:15:00+00:00"
   },
   {
    "id": "d25816282f425c46",
@@ -4443,8 +5076,11 @@
    "source": "Companies House (GOV.UK)",
    "description": "How to register an overseas entity and its beneficial owners or managing officers, so it can buy, sell or transfer property or land in the UK.",
    "categories": [
-    "general"
-   ]
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Fee updated.",
+   "firstPublished": "2022-07-25T00:00:00+01:00"
   },
   {
    "id": "c5864c1e8ac0169f",
@@ -4457,7 +5093,10 @@
    "description": "How to remove an overseas entity's registration from the Register of Overseas Entities.",
    "categories": [
     "general"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Fee updated.",
+   "firstPublished": "2024-04-17T00:00:00+01:00"
   },
   {
    "id": "6e70451e9b30d3c4",
@@ -4469,8 +5108,11 @@
    "source": "Companies House (GOV.UK)",
    "description": "How to file an update statement for an overseas entity and its beneficial owners or managing officers. ",
    "categories": [
-    "general"
-   ]
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "Fee updated.",
+   "firstPublished": "2023-06-28T00:00:00+01:00"
   },
   {
    "id": "7c901d791e0250ef",
@@ -4483,7 +5125,10 @@
    "description": "Information about changes that UK companies need to file with Companies House and the rules and requirements on how to submit them.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Fees updated.",
+   "firstPublished": "2014-02-01T00:00:00+00:00"
   },
   {
    "id": "e60b613e21df2a63",
@@ -4496,7 +5141,10 @@
    "description": "Sets out the main requirements for incorporating a limited liability partnership (LLP) in the UK.",
    "categories": [
     "selfemployed"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Fees updated.",
+   "firstPublished": "2013-06-01T00:00:00+01:00"
   },
   {
    "id": "9fa8927daecfeedb",
@@ -4509,7 +5157,10 @@
    "description": "Rules and requirements for limited liability partnerships registered in the UK.",
    "categories": [
     "selfemployed"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Fees updated.",
+   "firstPublished": "2014-08-01T00:00:00+01:00"
   },
   {
    "id": "3fe1a648bc76f22c",
@@ -4522,7 +5173,10 @@
    "description": "What information Scottish qualifying partnerships (SQPs) need to file at Companies House about people with significant control (PSCs).",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Fees updated.",
+   "firstPublished": "2017-06-23T00:00:00+01:00"
   },
   {
    "id": "c0f3414e3d9e38c6",
@@ -4535,7 +5189,10 @@
    "description": "How to register a new charge at Companies House, or tell us about any you've paid off.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Fee updated.",
+   "firstPublished": "2019-01-15T00:00:00+00:00"
   },
   {
    "id": "b041070aa431fede",
@@ -4548,7 +5205,10 @@
    "description": "How to register a limited partnership.",
    "categories": [
     "selfemployed"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Fees updated.",
+   "firstPublished": "2013-08-01T00:00:00+01:00"
   },
   {
    "id": "0c57fb05394f6c4b",
@@ -4561,7 +5221,10 @@
    "description": "Information on the administration and management of a UK Societas.",
    "categories": [
     "general"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Fee updated.",
+   "firstPublished": "2020-12-31T00:00:00+00:00"
   },
   {
    "id": "014f8f1bf6625e69",
@@ -4574,7 +5237,10 @@
    "description": "The main features of a UKEIG and what information you must register with Companies House.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Fee updated.",
+   "firstPublished": "2020-12-31T00:00:00+00:00"
   },
   {
    "id": "6ff6479113693613",
@@ -4588,7 +5254,10 @@
    "categories": [
     "selfemployed",
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Fee updated.",
+   "firstPublished": "2017-07-18T00:00:00+01:00"
   },
   {
    "id": "4cae9e2d2d5b3525",
@@ -4601,7 +5270,10 @@
    "description": "How to restrict access to your address on the public register.",
    "categories": [
     "compliance"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Fees updated.",
+   "firstPublished": "2016-04-05T00:00:00+01:00"
   },
   {
    "id": "67f9132102f13a61",
@@ -4614,7 +5286,10 @@
    "description": "Use this form to confirm that the company's details are up to date.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Fee updated.",
+   "firstPublished": "2024-03-04T00:00:00+00:00"
   },
   {
    "id": "1574bcee72946d59",
@@ -4627,7 +5302,10 @@
    "description": "You can use this form if your registered office address is situated in Wales (instead of England and Wales), to confirm that the company details are up to date.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Fee updated.",
+   "firstPublished": "2025-07-07T00:00:00+01:00"
   },
   {
    "id": "f3d4dd2bdbfeaefb",
@@ -4641,7 +5319,10 @@
    "categories": [
     "selfemployed",
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Fee updated.",
+   "firstPublished": "2024-03-04T00:00:00+00:00"
   },
   {
    "id": "c331ef8d2b8330d2",
@@ -4654,7 +5335,10 @@
    "description": "Use this service to apply to strike off a company from the Companies House register.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Fee updated.",
+   "firstPublished": "2014-09-19T00:00:00+01:00"
   },
   {
    "id": "733bebb340204113",
@@ -4667,7 +5351,10 @@
    "description": "How to send your information to Companies House using our online services.  ",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Fees updated.",
+   "firstPublished": "2020-07-16T00:00:00+01:00"
   },
   {
    "id": "ef1caac04e184da0",
@@ -4680,7 +5367,10 @@
    "description": "Use this form to apply to restore a company to the Companies House register.",
    "categories": [
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Fee updated.",
+   "firstPublished": "2010-08-01T00:00:00+01:00"
   },
   {
    "id": "f7f56e70b1ef5202",
@@ -4692,8 +5382,11 @@
    "source": "Companies House (GOV.UK)",
    "description": "You must be registered as an Authorised Corporate Service Provider (ACSP, also known as an authorised agent), or a user for an ACSP.",
    "categories": [
-    "general"
-   ]
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Added translation",
+   "firstPublished": "2026-01-13T16:22:00+00:00"
   },
   {
    "id": "aa79600e51f18632",
@@ -4706,6 +5399,22 @@
    "description": "These accessibility statements apply to service subdomains run by Companies House.",
    "categories": [
     "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Added Welsh translation. ",
+   "firstPublished": "2025-12-09T00:00:00+00:00"
+  },
+  {
+   "id": "b1fdfaf381343173",
+   "title": "The Local Government Finance Act 1988 (Calculation of Non-Domestic Rating Multipliers for Retail, Hospitality or Leisure) (England) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/4",
+   "date": "2026-01-07T12:33:58.108Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "Paragraphs A6A and 9B of Schedule 7 to the Local Government Finance Act 1988 (c. 41) (“the Act”) were inserted by the Non-Domestic Rating (Multipliers and Private Schools) Act 2025 (c. 12), enabling the Treasury to make regulations for additional non-domestic rating multipliers for the purpose of the calculation of business rates under the Act. These Regulations specify the additional multipliers ",
+   "categories": [
+    "legislation",
+    "budget"
    ]
   },
   {
@@ -4719,6 +5428,21 @@
    "description": "This framework explains how Companies House will use its enforcement powers in relation to the Register of Overseas Entities.",
    "categories": [
     "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "More detail added to the 'how we determine the penalty' and 'representations' sections. ",
+   "firstPublished": "2023-06-21T00:00:00+01:00"
+  },
+  {
+   "id": "8504f1ee2e4fe151",
+   "title": "Correction slip",
+   "url": "https://www.legislation.gov.uk/ukpga/2025/8/pdfs/ukpgacs_20250008_en_001.pdf",
+   "date": "2025-12-29T23:00:00.000Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "An Act to make provision about finance.",
+   "categories": [
+    "legislation"
    ]
   },
   {
@@ -4733,7 +5457,10 @@
    "categories": [
     "compliance",
     "reporting"
-   ]
+   ],
+   "hasBody": true,
+   "changeNote": "Added Welsh translation. ",
+   "firstPublished": "2025-11-17T00:00:00+00:00"
   },
   {
    "id": "cdc5d448484a701b",
@@ -4761,7 +5488,6 @@
    "source": "HM Treasury (GOV.UK)",
    "description": "Budget 2025 speech as delivered by Chancellor Rachel Reeves.",
    "categories": [
-    "compliance",
     "budget"
    ],
    "hasBody": true,
@@ -4811,7 +5537,6 @@
    "source": "HM Treasury (GOV.UK)",
    "description": "This consultation is seeking views on a new process to give major projects increased certainty in advance about the tax that applies.",
    "categories": [
-    "corptax",
     "budget"
    ],
    "hasBody": true,
@@ -4846,6 +5571,33 @@
    "description": "This guidance gives an overview of people with significant control (PSC) requirements for companies. If you have a simple ownership and control structure, further guidance may not be needed.",
    "categories": [
     "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2025-11-19T11:30:03+00:00"
+  },
+  {
+   "id": "b40ffbebb26a9436",
+   "title": "The Social Security (Contributions) (Amendment No. 7) Regulations 2025",
+   "url": "https://www.legislation.gov.uk/id/uksi/2025/1132",
+   "date": "2025-10-29T15:26:44.779Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations amend the Social Security (Contributions) Regulations 2001 (S.I. 2001/1004) to provide that a payment made to persons under the Post Office Capture Redress Scheme or to nominated individuals is disregarded in the calculation of earnings for the purpose of establishing liability to Class 1 National Insurance Contributions.",
+   "categories": [
+    "legislation"
+   ]
+  },
+  {
+   "id": "7620ecff6fab3338",
+   "title": "The Social Security (Contributions) (Amendment No. 6) Regulations 2025",
+   "url": "https://www.legislation.gov.uk/id/uksi/2025/865",
+   "date": "2025-07-16T15:16:02.901Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations amend the Social Security (Contributions) Regulations 2001 (S.I. 2001/1004) to clarify that payments of compensation made under the Horizon Convictions Redress Scheme will be disregarded in the calculation of earnings for the purpose of establishing liability to Class 1 National Insurance Contributions for an expanded group of people eligible under the Scheme. Payments will be ma",
+   "categories": [
+    "legislation"
    ]
   },
   {
@@ -4858,13 +5610,38 @@
    "source": "HM Treasury (GOV.UK)",
    "description": "Everyone over the State Pension age in England and Wales with an income of, or below, £35,000 a year will benefit from a Winter Fuel Payment this winter.",
    "categories": [
-    "paye",
-    "personal",
-    "budget"
+    "personal"
    ],
    "hasBody": true,
    "changeNote": "First published.",
    "firstPublished": "2025-06-09T00:00:00+01:00"
+  },
+  {
+   "id": "26ff2842e1b1414b",
+   "title": "The Finance Act 2021 (Increase in Schedule 26 Penalty Percentages) Regulations 2025",
+   "url": "https://www.legislation.gov.uk/id/uksi/2025/589",
+   "date": "2025-05-15T15:15:33.149Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations increase the penalties for late payment of tax in Schedule 26 to the Finance Act 2021 (“Schedule 26”).",
+   "categories": [
+    "legislation",
+    "compliance",
+    "budget"
+   ]
+  },
+  {
+   "id": "adddcd8b8cf2f941",
+   "title": "The Value Added Tax (Amendment) Regulations 2025",
+   "url": "https://www.legislation.gov.uk/id/uksi/2025/578",
+   "date": "2025-05-14T13:09:38.577Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "",
+   "categories": [
+    "legislation",
+    "vat"
+   ]
   },
   {
    "id": "6c2ae247426c3d1b",
@@ -4882,6 +5659,31 @@
    "hasBody": true,
    "changeNote": "Accessible version added.",
    "firstPublished": "2023-07-18T14:33:28+01:00"
+  },
+  {
+   "id": "d1b102149bfb3df7",
+   "title": "The Social Security (Contributions) (Amendment No. 5) Regulations 2025",
+   "url": "https://www.legislation.gov.uk/id/uksi/2025/429",
+   "date": "2025-04-03T12:32:29.118Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations amend the Social Security (Contributions) Regulations 2001 to provide that Horizon Shortfall Scheme Appeals payments will be disregarded in the calculation of earnings for the purpose of establishing liability to Class 1 National Insurance contributions.",
+   "categories": [
+    "legislation"
+   ]
+  },
+  {
+   "id": "e720cbe6736dc99f",
+   "title": "National Insurance Contributions (Secondary Class 1 Contributions) Act 2025",
+   "url": "https://www.legislation.gov.uk/id/ukpga/2025/11",
+   "date": "2025-04-03T12:30:56.656Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "An Act to make provision about secondary Class 1 contributions.",
+   "categories": [
+    "legislation",
+    "nic"
+   ]
   },
   {
    "id": "4aa71ab89d2243c0",
