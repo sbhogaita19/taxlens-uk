@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-09-29T13:55:17.151Z",
+ "generatedAt": "2026-09-29T13:58:43.539Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -1004,7 +1004,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-22T10:25:53+01:00"
+   "firstPublished": "2026-09-22T10:25:53+01:00",
+   "ai": {
+    "summary": "The free Trader Support Service will move to a new digital platform next month; all goods movements between Great Britain and Northern Ireland must be submitted on it from 20 October. Businesses must pre‑enrol after receiving an invitation email (from 1 October) and update their details to avoid disruption.",
+    "whoAffected": "Businesses registered for the Trader Support Service that move goods between Great Britain and Northern Ireland",
+    "effectiveDate": "20 October",
+    "actions": [
+     "Watch for the HMRC invitation email (starting 1 October) and pre‑enrol on the new TSS platform before 20 October",
+     "Use the test environment to become familiar with the new system and create a new password",
+     "Check and update business details and permissions on the new platform",
+     "Ensure the updated profile is saved so declarations can be submitted after 20 October"
+    ],
+    "legislationRefs": [
+     "Windsor Framework"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:57:22.050Z"
+   }
   },
   {
    "id": "662ef4336bc9671a",
@@ -1020,7 +1037,22 @@
    ],
    "hasBody": true,
    "changeNote": "Information about the transitional arrangements for existing producers of Dovey Native Botanical Gin has been removed as the arrangement ended on 1 September 2026.",
-   "firstPublished": "2025-09-01T00:00:00+01:00"
+   "firstPublished": "2025-09-01T00:00:00+01:00",
+   "ai": {
+    "summary": "New producers must apply to the Spirit Drinks Verification Scheme, pay fees, undergo verification visits every two years and stay compliant to market Dovey Native Botanical Gin legally.",
+    "whoAffected": "Businesses and individuals planning to produce and market Dovey Native Botanical Gin, including SMEs, owner‑managed firms and self‑employed producers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Apply to the Spirit Drinks Verification Scheme before starting production",
+     "Pay the registration and verification fees when invoiced",
+     "Prepare documentation, equipment and procedures for the verification visit",
+     "If non‑compliant, implement changes within the agreed timeframe and inform customers if verification is withdrawn"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:57:24.890Z"
+   }
   },
   {
    "id": "6d5b73e46efc137d",
@@ -1036,7 +1068,22 @@
    ],
    "hasBody": true,
    "changeNote": "In 'About National Living Wage and the National Minimum Wage checks — NMW FS1', references to the Department for Business and Trade (DBT) have been updated to the Department for Business, Innovation, Science and Trade (BIST).’",
-   "firstPublished": "2016-01-25T00:00:00+00:00"
+   "firstPublished": "2016-01-25T00:00:00+00:00",
+   "ai": {
+    "summary": "The factsheet outlines HMRC’s checks to ensure employers pay at least the National Minimum or Living Wage, how to self‑review payroll records, details on arrears, penalties and tribunal video witness procedures.",
+    "whoAffected": "Employers who pay workers the National Minimum Wage or National Living Wage, including SMEs and owner‑managed businesses",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Conduct a self‑review of payroll records against NMW/NLW rates",
+     "Verify all workers receive at least the applicable minimum wage",
+     "Identify and address any NMW arrears to avoid penalties",
+     "Prepare for possible tribunal hearings, including video witness arrangements"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:57:29.527Z"
+   }
   },
   {
    "id": "def35ba41882ae89",
@@ -1052,7 +1099,22 @@
    ],
    "hasBody": true,
    "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved.",
-   "firstPublished": "2014-10-30T00:00:00+00:00"
+   "firstPublished": "2014-10-30T00:00:00+00:00",
+   "ai": {
+    "summary": "SDRT is due on paperless share purchases. CREST trades are auto‑deducted; off‑market trades need a written notice with buyer/seller details, securities info, payment reference and must be paid within 14 days or by the 7th of the following month. Use correct reference and HMRC bank details.",
+    "whoAffected": "Businesses and individuals who buy or sell shares, especially those making off‑market share transactions",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Send a written notice for off‑market share trades including buyer/seller details, securities transferred, reliefs claimed, payment details and a reference number you choose",
+     "Ensure the notice and payment reach HMRC within the applicable deadline – 14 days for CREST‑eligible trades or the 7th of the month after the agreement for non‑CREST trades",
+     "Use the correct reference number; if an error occurs, contact SDRT enquiries to have the payment moved to the right tax bill",
+     "Pay electronically using the UK or overseas HMRC account details provided and allow the appropriate processing time (same/next day for CHAPS/Faster Payments, 3 working days for Bacs)"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:57:33.855Z"
+   }
   },
   {
    "id": "37c4e6204280bde6",
@@ -1128,7 +1190,22 @@
    ],
    "hasBody": true,
    "changeNote": "The list of Pillar 2 commercial software suppliers has been updated with one amendment.",
-   "firstPublished": "2026-08-11T10:41:00+01:00"
+   "firstPublished": "2026-08-11T10:41:00+01:00",
+   "ai": {
+    "summary": "Domestic and Multinational Top‑up Taxes impose a 15% global minimum corporate tax on large groups for accounting periods starting on or after 31 Dec 2023. HMRC does not endorse any software; agents must ensure they have Pillar 2 access before selecting a solution.",
+    "whoAffected": "Large corporate groups and tax agents advising clients",
+    "effectiveDate": "Accounting periods beginning on or after 31 December 2023",
+    "actions": [
+     "Confirm whether the client is required to report Pillar 2 Top‑up Taxes",
+     "Ensure you have Pillar 2 agent access in HMRC’s system",
+     "Evaluate commercial software options (HMRC does not recommend any)",
+     "If software issues arise, contact the software provider directly"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:57:37.726Z"
+   }
   },
   {
    "id": "cce3ae5a9f2a4b5f",
@@ -1144,7 +1221,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-21T10:30:00+01:00"
+   "firstPublished": "2026-09-21T10:30:00+01:00",
+   "ai": {
+    "summary": "Help to Save, a government scheme giving low‑income earners a 50% bonus on savings up to £2,400, has paid out over £300 million. Eligibility expands in 2028 to all Universal Credit claimants and removes caring‑responsibility earnings test, adding about 1.5 million households. The scheme is now permanent.",
+    "whoAffected": "Low‑income earners, Universal Credit claimants, people with caring responsibilities, and their employers or advisors",
+    "effectiveDate": "2028",
+    "actions": [
+     "Notify eligible clients about the 2028 eligibility expansion and permanent status",
+     "Help clients check eligibility and open accounts via GOV.UK or the HMRC app",
+     "Advise clients to save £1‑£50 each month to maximise the 50% bonus",
+     "Track future eligibility changes and update client advice accordingly"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:57:41.249Z"
+   }
   },
   {
    "id": "d119faa4765f0f7a",
@@ -1306,7 +1398,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-17T12:03:50+01:00"
+   "firstPublished": "2026-09-17T12:03:50+01:00",
+   "ai": {
+    "summary": "Directors must verify their identity with Companies House or face prosecution. The Economic Crime and Corporate Transparency Act 2023 requires new directors to verify by 18 Nov 2025 and existing directors to do so within 12 months when filing their next confirmation statement. Recent fines show enforcement is active.",
+    "whoAffected": "Company directors (newly appointed and existing) and firms with unverified directors",
+    "effectiveDate": "18 November 2025",
+    "actions": [
+     "Check client director registers for verification status",
+     "Advise clients to complete identity verification online via Companies House or an authorised provider",
+     "Ensure the next confirmation statement is filed on time and includes verification",
+     "Monitor ongoing compliance and keep records to avoid prosecution"
+    ],
+    "legislationRefs": [
+     "Economic Crime and Corporate Transparency Act 2023"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:57:50.569Z"
+   }
   },
   {
    "id": "bffc16bfb3e09719",
@@ -1322,7 +1431,22 @@
    ],
    "hasBody": true,
    "changeNote": "Added wording for overseas companies with a UK establishment. They must send the paper form by post to the correct Companies House office.",
-   "firstPublished": "2014-09-18T12:03:00+01:00"
+   "firstPublished": "2014-09-18T12:03:00+01:00",
+   "ai": {
+    "summary": "Companies can change their accounting reference date using form AA01, must submit within the filing window, preferably online; overseas companies with UK establishments must post the paper form, and confirmation letters are no longer sent—check the new date online.",
+    "whoAffected": "Companies (including overseas companies with a UK establishment) that need to change their accounting reference date",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Advise the client to use the online service to submit the AA01 form for a quicker update",
+     "Ensure the submission is made within the period allowed for laying and delivering accounts for the current or immediately previous period",
+     "If the client is an overseas company with a UK establishment, instruct them to send the paper form by post to the correct Companies House office",
+     "Tell the client to search Companies House after filing to verify the new accounting reference date"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:57:54.469Z"
+   }
   },
   {
    "id": "02fbef9d2c22de47",
@@ -1380,7 +1504,22 @@
    ],
    "hasBody": true,
    "changeNote": "Information about the documents you need to send with form CVF1, to verify your child has been updated.",
-   "firstPublished": "2017-02-01T00:00:00+00:00"
+   "firstPublished": "2017-02-01T00:00:00+00:00",
+   "ai": {
+    "summary": "Use form CVF1 online to verify a child for childcare services, gathering a passport, birth or adoption certificate, and ensure a modern browser; submit the original document by post, not a photocopy.",
+    "whoAffected": "Parents or guardians needing to verify a child for the childcare service",
+    "effectiveDate": "2026-09-16",
+    "actions": [
+     "Gather the child’s passport, birth or adoption certificate before starting the online form",
+     "Complete the CVF1 form in one session (no saving) using an up‑to‑date browser",
+     "Submit the completed form and the original document by post (no photocopies)",
+     "Advise clients to keep a copy of the posted documents for their records"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:57:58.401Z"
+   }
   },
   {
    "id": "3dbd8c6be6386158",
@@ -1640,7 +1779,22 @@
    ],
    "hasBody": true,
    "changeNote": "The list has been updated with 5 additions and 1 amendment. ",
-   "firstPublished": "2019-04-17T00:00:00+01:00"
+   "firstPublished": "2019-04-17T00:00:00+01:00",
+   "ai": {
+    "summary": "Use the list to confirm if a UK‑based fulfilment house storing your overseas client’s goods is registered under the Fulfilment House Due Diligence Scheme.",
+    "whoAffected": "Traders not established in the UK who store goods in the UK",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Ask overseas clients to consult the HMRC registered‑business list",
+     "Check that the fulfilment house appears on the list before using its services",
+     "If the business is not listed, advise the client to contact VAT enquiries or email notificationofnoncompliance.fulfilmenthouse@hmrc.gov.uk",
+     "Record the verification outcome for client files"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:58:12.478Z"
+   }
   },
   {
    "id": "861c6bff0f6b5ff1",
@@ -1656,7 +1810,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-09T12:02:16+01:00"
+   "firstPublished": "2026-09-09T12:02:16+01:00",
+   "ai": {
+    "summary": "Guidance explains how HMRC applies anti‑avoidance information notice legislation, their purpose, implications for recipients and the terminology used.",
+    "whoAffected": "Taxpayers who receive an anti‑avoidance information notice (you or your client)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Read the AAIN carefully to understand its purpose",
+     "Explain to the client what the notice means for their tax position",
+     "Check how HMRC is applying the anti‑avoidance legislation",
+     "Clarify any specific terms used in the notice using the guidance"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:58:15.220Z"
+   }
   },
   {
    "id": "cce5700119728d68",
@@ -1688,7 +1857,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-09T09:00:00+01:00"
+   "firstPublished": "2026-09-09T09:00:00+01:00",
+   "ai": {
+    "summary": "HMRC’s newsletter informs charities and Community and Amateur Sports Clubs about a new Gift Aid video, guidance reviews, Claim Gift Aid service enhancements, and internal system updates.",
+    "whoAffected": "Charities and Community and Amateur Sports Clubs (CASC)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Watch the new HMRC Gift Aid video",
+     "Review the latest guidance updates",
+     "Check the enhanced Claim Gift Aid online service",
+     "Monitor any announced system changes"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:58:19.642Z"
+   }
   },
   {
    "id": "2ebd3743aaa46078",
@@ -1704,7 +1888,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-09T09:00:00+01:00"
+   "firstPublished": "2026-09-09T09:00:00+01:00",
+   "ai": {
+    "summary": "HMRC’s newsletter reminds charities to keep their registration eligibility up‑to‑date and highlights new user research sessions, a Gift Aid video, guidance reviews and service updates.",
+    "whoAffected": "Registered charities and advisers who support them",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review each charity client’s registration eligibility regularly",
+     "Encourage clients to sign up for HMRC user research sessions",
+     "Watch the new HMRC Gift Aid video and ensure clients’ Gift Aid processes match the guidance",
+     "Monitor HMRC guidance reviews and system updates for any changes affecting clients"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:58:22.367Z"
+   }
   },
   {
    "id": "792c4e975ecde54b",
@@ -1737,7 +1936,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-08T17:00:05+01:00"
+   "firstPublished": "2026-09-08T17:00:05+01:00",
+   "ai": {
+    "summary": "A temporary zero VAT rate applies to qualifying domestic electricity supplies in Great Britain from 1 Oct 2026 to 31 Mar 2027; all other domestic fuels continue at 5% VAT across the UK.",
+    "whoAffected": "Households and electricity suppliers providing qualifying domestic electricity in Great Britain",
+    "effectiveDate": "1 October 2026",
+    "actions": [
+     "Update client VAT calculations to reflect 0% rate for domestic electricity during the period",
+     "Notify affected clients of the continued 5% VAT on other domestic fuels",
+     "Adjust invoicing templates and accounting software accordingly",
+     "Monitor the end date (31 March 2027) for re‑application of standard rates"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:58:30.155Z"
+   }
   },
   {
    "id": "d05959faa324fae3",
@@ -1802,7 +2016,42 @@
    ],
    "hasBody": true,
    "changeNote": "The 'How to fill in your tax return' notes have been updated with guidance to complete the Employment pages of the tax return for company directors.",
-   "firstPublished": "2025-10-01T00:00:00+01:00"
+   "firstPublished": "2025-10-01T00:00:00+01:00",
+   "ai": {
+    "summary": "Guidance explains how to complete the 2025‑26 Self Assessment (SA100), including online filing benefits, required supplementary pages for various roles, and paper filing addresses and deadlines.",
+    "whoAffected": "Individuals required to submit a Self Assessment tax return for the 2025‑26 tax year, such as employees, company directors, self‑employed, partners, landlords, clergy, MPs and other specific groups.",
+    "effectiveDate": "2026-09-08",
+    "actions": [
+     "Check if the client can file online and advise on the extra three‑month deadline",
+     "Identify which supplementary pages (SA102, SA103, SA104, etc.) the client needs based on their role or income type",
+     "Ensure the client knows the correct paper filing address and deadline, or direct them to file online if missed",
+     "If the client uses assistive technology, advise them to request an accessible format via different.format@hmrc.gov.uk"
+    ],
+    "legislationRefs": [
+     "SA100",
+     "SA102",
+     "SA102M",
+     "SA102MP",
+     "SA102MS",
+     "SA102MLA",
+     "SA102MSP",
+     "SA103L",
+     "SA109",
+     "SA101",
+     "SA103S",
+     "SA103F",
+     "SA104S",
+     "SA104F",
+     "SA105",
+     "SA106",
+     "SA107",
+     "SA108",
+     "SA110"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:58:37.664Z"
+   }
   },
   {
    "id": "6490d1d526ba4fa5",
@@ -1818,7 +2067,22 @@
    ],
    "hasBody": true,
    "changeNote": "The SA102 notes (2026) have been updated for company directors when completing the Employment pages of the tax return.",
-   "firstPublished": "2014-04-04T00:00:00+01:00"
+   "firstPublished": "2014-04-04T00:00:00+01:00",
+   "ai": {
+    "summary": "Use SA102 pages to record each employment or directorship when completing the SA100 Self Assessment tax return.",
+    "whoAffected": "Individuals filing Self Assessment who have employment income or hold a directorship (including company directors).",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify each client’s separate employments or directorships",
+     "Prepare a separate SA102 page for each employment or directorship",
+     "Attach all SA102 pages to the client’s SA100 return",
+     "Check that all employment income is correctly recorded on the SA102 pages"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:58:40.477Z"
+   }
   },
   {
    "id": "c27e5ebd2caf4267",
