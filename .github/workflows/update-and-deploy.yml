@@ -47,8 +47,10 @@ jobs:
             echo "No data changes"
           else
             git commit -m "data: official updates $(date -u +'%Y-%m-%d %H:%M')"
-            git pull --rebase origin main
-            git push
+            for i in 1 2 3; do
+              git pull --rebase -X theirs origin main && git push && break
+              echo "Push failed, retrying ($i)"; git rebase --abort 2>/dev/null || true; sleep 5
+            done
           fi
 
       - uses: actions/configure-pages@v5
