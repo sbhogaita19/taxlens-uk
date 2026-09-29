@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-09-29T13:49:41.156Z",
+ "generatedAt": "2026-09-29T13:55:17.151Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -682,7 +682,22 @@
    ],
    "hasBody": true,
    "changeNote": "The page has been updated with 7 removals and one amendment.",
-   "firstPublished": "2022-02-23T00:00:00+00:00"
+   "firstPublished": "2022-02-23T00:00:00+00:00",
+   "ai": {
+    "summary": "HMRC provides a list of payroll software it recognises for online PAYE reporting, including free options for businesses with under 10 staff and many paid products. Choose software that matches client needs; HMRC does not endorse any specific product.",
+    "whoAffected": "Businesses that need to report PAYE, especially SMEs and owner‑managed firms, including those with fewer than 10 employees.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Determine the client’s employee count to decide if the free HMRC‑recognised software applies",
+     "Identify the payroll features the client requires and compare them with the listed products",
+     "Select a software solution that appears on HMRC’s recognised list",
+     "Remind the client that HMRC does not recommend any specific product and they are responsible for any issues"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:54:10.400Z"
+   }
   },
   {
    "id": "57ca27b0f8de9537",
@@ -797,7 +812,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-24T11:01:12+01:00"
+   "firstPublished": "2026-09-24T11:01:12+01:00",
+   "ai": {
+    "summary": "Seven companies were wound up after the Insolvency Service and Companies House uncovered false filings, misleading audit information and non‑existent offices, highlighting the risk of fraudulent registrations and the need for accurate company records.",
+    "whoAffected": "Company directors, SME owners and anyone relying on Companies House information",
+    "effectiveDate": "22 September 2026",
+    "actions": [
+     "Check client filings for accuracy and completeness",
+     "Confirm that registered office addresses are genuine and occupied",
+     "Verify audit engagements and retain audit documentation",
+     "Direct directors to the Insolvency Service’s Director Information Hub for guidance"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:54:13.683Z"
+   }
   },
   {
    "id": "df10b42a381d1de2",
@@ -845,7 +875,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-23T11:15:06+01:00"
+   "firstPublished": "2026-09-23T11:15:06+01:00",
+   "ai": {
+    "summary": "Nearly 3 million matured Child Trust Funds have been claimed or moved to ISAs, but about 827,000 remain unclaimed, averaging £2,310 each. Young adults can locate their accounts for free via the GOV.UK tool using their NI number and DOB, then choose to withdraw, keep, or transfer the money.",
+    "whoAffected": "Young adults aged 18‑24 with matured Child Trust Funds, and their parents or guardians",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Guide clients to use the GOV.UK Child Trust Fund locator tool with their NI number and date of birth",
+     "Advise clients on the three options: withdraw, keep the fund, or transfer to an ISA",
+     "Help clients gather required details (NI number, DOB) and submit the request, noting the ~3‑week response time",
+     "Inform clients of the average value and encourage timely claim to avoid funds remaining unclaimed"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:54:17.625Z"
+   }
   },
   {
    "id": "e2242428bc799b9d",
@@ -861,7 +906,27 @@
    ],
    "hasBody": true,
    "changeNote": "The personal allowances and tax repayments (R43) form and guidance notes have been updated to reflect the changes to the Double Taxation Agreement between the UK and Israel by the 2019 Protocol which entered into force on 28 October 2019.",
-   "firstPublished": "2023-06-06T00:00:00+01:00"
+   "firstPublished": "2023-06-06T00:00:00+01:00",
+   "ai": {
+    "summary": "Non‑resident individuals can claim UK personal allowances and tax refunds for UK income from the current year and the previous four years using form R43, unless they already file a Self Assessment or have rental income over £2,500.",
+    "whoAffected": "UK non‑resident individuals who receive UK income such as property rent, pensions, dividends, interest or state benefits and are not already filing a Self Assessment.",
+    "effectiveDate": "2026-09-22",
+    "actions": [
+     "Verify the client’s residency status and days spent in the UK",
+     "Determine if a tax certificate is required and obtain it",
+     "Gather details of all UK income for the relevant tax year(s)",
+     "Submit form R43 online or download the PDF and post it, unless rental income exceeds £2,500 – then advise filing a Self Assessment"
+    ],
+    "legislationRefs": [
+     "R43",
+     "Self Assessment",
+     "Double Taxation Agreement",
+     "Capital Gains Tax"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:54:21.742Z"
+   }
   },
   {
    "id": "cefee55aee72b1f7",
@@ -877,7 +942,22 @@
    ],
    "hasBody": true,
    "changeNote": "Added 'Deadline' guidance. You have 21 days from the date you booked the Post Office appointment to complete the verification process and view your result.",
-   "firstPublished": "2025-11-28T09:51:00+00:00"
+   "firstPublished": "2025-11-28T09:51:00+00:00",
+   "ai": {
+    "summary": "Clients must enter photo ID details online, download a customer letter, visit a Post Office with the letter and original ID within 21 days, have their QR code scanned and photo taken, then await the result email to obtain their Companies House personal code.",
+    "whoAffected": "Individuals needing to verify their identity for Companies House (e.g., directors, company officers)",
+    "effectiveDate": "2026-09-22T13:09:58Z",
+    "actions": [
+     "Advise the client to enter their photo‑ID details via the Companies House online service and book a Post Office appointment.",
+     "Tell the client to download the customer letter and keep their original photo ID ready for the visit.",
+     "Ensure the client attends any eligible Post Office within 21 days, where staff will scan the QR code and capture their photo and ID.",
+     "Follow up to confirm the client receives the GOV.UK One Login email with their personal code or advise next steps if the check fails."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:54:25.963Z"
+   }
   },
   {
    "id": "554c48ab02344ee7",
@@ -1080,7 +1160,22 @@
    ],
    "hasBody": true,
    "changeNote": "General Betting Duty article has been updated to clarify the application of the new rate. ",
-   "firstPublished": "2026-09-17T12:00:00+01:00"
+   "firstPublished": "2026-09-17T12:00:00+01:00",
+   "ai": {
+    "summary": "Agent updates provide guidance for tax agents and advisers; the next edition arrives in October 2026 and covers tax, borders, Making Tax Digital, HMRC services and engagement.",
+    "whoAffected": "Tax agents and advisers who support SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "October 2026",
+    "actions": [
+     "Note the October 2026 release date for the next Agent Update",
+     "Sign up for email reminders to receive future editions",
+     "Review this month’s highlighted topics (tax, borders and trade, Making Tax Digital, HMRC services, agent engagement)",
+     "Apply the guidance in client advice where relevant"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:54:38.152Z"
+   }
   },
   {
    "id": "663e1701edb2b44c",
@@ -1146,7 +1241,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-18T10:39:35+01:00"
+   "firstPublished": "2026-09-18T10:39:35+01:00",
+   "ai": {
+    "summary": "HMRC letters indicate possible incorrect CIS rates for subcontractor payments in tax year 2025‑26. Contractors must report the error via the online CIS disclosure form, providing business details, UTR, letter reference and any underpaid tax. HMRC will review and respond within 28 working days.",
+    "whoAffected": "CIS contractors who have received an HMRC letter about an incorrect rate, including individuals, designated company members, trustees, estate representatives and authorised agents.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients who received the HMRC letter about a CIS rate error",
+     "Use the HMRC CIS online service to complete the disclosure form",
+     "Gather required information: business name, UTR, letter reference (CFSS), and underpaid tax details",
+     "Submit the form and advise the client to await HMRC’s decision (usually within 28 working days)"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:54:43.411Z"
+   }
   },
   {
    "id": "7895d2d95cff5064",
@@ -1228,7 +1338,17 @@
    ],
    "hasBody": true,
    "changeNote": "Data tables for the Agents, Small and Mid-Sized Businesses Customer Survey 2025 have now been added.",
-   "firstPublished": "2026-07-09T09:30:00+01:00"
+   "firstPublished": "2026-07-09T09:30:00+01:00",
+   "ai": {
+    "summary": "The 2025 Agents, Small and Mid‑Sized Businesses Customer Survey reports HMRC’s findings on agents, small and mid‑sized business experiences, compliance perceptions and reputation.",
+    "whoAffected": "Agents, small businesses and mid‑sized businesses",
+    "effectiveDate": "Not stated in source",
+    "actions": [],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:54:50.540Z"
+   }
   },
   {
    "id": "68564a4dee55a8f2",
@@ -1277,7 +1397,25 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-15T16:01:35+01:00"
+   "firstPublished": "2026-09-15T16:01:35+01:00",
+   "ai": {
+    "summary": "This factsheet explains when HMRC may impose penalties for CIS payments or returns linked to deliberate non‑compliance, how penalties are calculated, notification methods, officer liability and your rights during the penalty process.",
+    "whoAffected": "Businesses and individuals making Construction Industry Scheme (CIS) payments or returns",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check client CIS payments and returns for compliance with CIS rules",
+     "Maintain full records to support any HMRC calculations",
+     "Inform company officers of potential personal liability for CIS penalties",
+     "Promptly respond to any HMRC communication about possible penalties"
+    ],
+    "legislationRefs": [
+     "section 62A of the Finance Act 2004",
+     "section 62B of the Finance Act 2004"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:54:56.727Z"
+   }
   },
   {
    "id": "4f94d2860288bcad",
@@ -1401,7 +1539,22 @@
    ],
    "hasBody": true,
    "changeNote": "The Design specification for P45 (Online), P45 (Continuous), P45 (Continuous)(E), P45 (Laser continuous), P45 (Laser sheet), and P45 manual forms have been updated. Information about Tax credits and Universal Credit has been removed.\r\n",
-   "firstPublished": "2009-11-03T00:00:00+00:00"
+   "firstPublished": "2009-11-03T00:00:00+00:00",
+   "ai": {
+    "summary": "Draft P45 forms are provided for software developers creating substitute P45 forms.",
+    "whoAffected": "Software developers creating substitute P45 forms",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify if you are developing PAYE software that needs substitute P45 forms",
+     "Download the draft P45 forms from the GOV.UK source",
+     "Incorporate the draft designs into your software",
+     "Check that the generated forms meet HMRC specifications"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:55:07.482Z"
+   }
   },
   {
    "id": "b78ac10f0e88d27e",
@@ -1453,7 +1606,24 @@
    ],
    "hasBody": true,
    "changeNote": "Guidance has been amended to reflect the allowed use of I1 C&F and C21i EIDR NOP for Category 2 goods.",
-   "firstPublished": "2024-11-20T00:00:00+00:00"
+   "firstPublished": "2024-11-20T00:00:00+00:00",
+   "ai": {
+    "summary": "The Windsor Framework classifies GB‑to‑NI goods as Category 1, Category 2 or Standard, with Category 1 and 2 governed by Annex IX of the Withdrawal Agreement Joint Committee decision. Updated guidance now allows I1 C&F and C21i EIDR NOP for Category 2 goods.",
+    "whoAffected": "Businesses that move goods from Great Britain to Northern Ireland, including SMEs, owner‑managed firms and the self‑employed",
+    "effectiveDate": "2026-09-10T23:15:00Z",
+    "actions": [
+     "Determine whether each client’s goods are Category 1, Category 2 or Standard using the guidance",
+     "Review the specific requirements in Annex IX for Category 1 and Category 2 goods",
+     "Confirm that any Category 2 goods use the permitted I1 C&F and C21i EIDR NOP procedures",
+     "Advise clients to document compliance with the Windsor Framework requirements"
+    ],
+    "legislationRefs": [
+     "Annex IX of Decision of the Withdrawal Agreement Joint Committee on laying down arrangements relating to the Windsor Framework"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:55:14.096Z"
+   }
   },
   {
    "id": "2f7a149f6a6b5419",
