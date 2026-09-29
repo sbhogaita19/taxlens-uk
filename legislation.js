@@ -160,6 +160,7 @@
   }
 
   // ---------- provision viewer ----------
+  let seenTitles = new Set();
   function renderXml(node, parent) {
     if (node.nodeType === 3) return esc(node.nodeValue);
     if (node.nodeType !== 1) return '';
@@ -167,7 +168,8 @@
     const kids = (skip) => [...node.childNodes].filter((c) => c !== skip).map((c) => renderXml(c, n)).join('');
     switch (n) {
       case 'CommentaryRef': case 'Commentaries': case 'Commentary': case 'Metadata': case 'Contents': case 'Footnote': case 'FootnoteRef': return '';
-      case 'Title': return parent === 'P1group' || parent === 'Pblock' || parent === 'Part' || parent === 'Chapter' || parent === 'Schedule' ? `<h4>${kids()}</h4>` : `<b>${kids()}</b>`;
+      case 'Title': { const tt = node.textContent.replace(/\s+/g, ' ').trim().toLowerCase(); if (seenTitles.has(tt)) return ''; seenTitles.add(tt); }
+        return parent === 'P1group' || parent === 'Pblock' || parent === 'Part' || parent === 'Chapter' || parent === 'Schedule' ? `<h4>${kids()}</h4>` : `<b>${kids()}</b>`;
       case 'Number': return `<div class="small muted" style="margin-top:8px">${kids()}</div>`;
       case 'P1': case 'P2': case 'P3': case 'P4': case 'P5': case 'P6': {
         const pn = [...node.children].find((c) => c.localName === 'Pnumber');
@@ -246,7 +248,9 @@
     if (effects.length > mine.length) status += `<p class="small muted">The ${esc(actTitle)} has ${effects.length - mine.length} other outstanding change(s) recorded against other provisions.</p>`;
     status += `<p class="small muted">Source: legislation.gov.uk${modified ? ` · last updated ${esc(TL.fmtDate(modified))}` : ''}. Crown copyright, Open Government Licence.</p>`;
 
+    seenTitles = new Set();
     const html = content ? renderXml(content, '') : '<p>No text returned.</p>';
+    seenTitles = new Set();
     const text = content ? plainText(content) : '';
     const idx = a ? a.items.findIndex((i) => i[2].toLowerCase() === rel.toLowerCase()) : -1;
     const prev = idx > 0 ? a.items[idx - 1] : null, next = idx >= 0 && idx < a.items.length - 1 ? a.items[idx + 1] : null;
