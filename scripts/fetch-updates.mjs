@@ -320,6 +320,14 @@ async function main() {
     items,
   };
   await fs.writeFile(OUT, JSON.stringify(out, null, 1));
+  // Full-text search index (official text, lower-cased, trimmed) — loaded lazily by the app
+  const index = [];
+  for (const it of items) {
+    let body = '';
+    try { body = JSON.parse(await fs.readFile(path.join(ITEMS_DIR, `${it.id}.json`), 'utf8')).text || ''; } catch {}
+    index.push([it.id, `${it.title} ${it.description || ''} ${it.changeNote || ''} ${body.slice(0, 4000)}`.toLowerCase().replace(/\s+/g, ' ')]);
+  }
+  await fs.writeFile(path.join(DATA, 'search-index.json'), JSON.stringify({ generatedAt: out.generatedAt, items: index }));
   // prune orphan item files
   const keep = new Set(items.map((i) => `${i.id}.json`));
   for (const f of await fs.readdir(ITEMS_DIR)) if (!keep.has(f) && f.endsWith('.json')) await fs.unlink(path.join(ITEMS_DIR, f));

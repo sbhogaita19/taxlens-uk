@@ -15,6 +15,8 @@
 | **Practice briefing (AI)** | Turns the updates on screen (e.g. last 7 days) into a partner-level briefing with numbered citations to GOV.UK. |
 | **Ask AI** | Questions answered only from the stored official updates and the verified rates table, with citations. |
 | **Draft client note** | Plain-English client email from an official update. |
+| **Legislation** | Search key tax Acts (ITTOIA, ITEPA, ITA, CTA 2009/2010, TCGA, CAA, VATA, IHTA, TMA, SSCBA, CA 2006, PAYE & VAT Regs, recent Finance Acts) by citation (e.g. `CTA 2010 s455`) or keyword. Official revised text loads live from legislation.gov.uk, flags changes not yet incorporated, supports point-in-time ("as at" a year end), shows related HMRC updates, and offers AI *Explain & apply to clients* and *Accounts & tax computation treatment*. |
+| **Full-text search** | The Updates search covers the full official text of every update, not just titles. |
 | **Rates 2026/27** | Key rates and thresholds, each linked to the GOV.UK page it was checked against. |
 | **Deadlines** | Upcoming SA, PAYE, P11D, MTD dates + company CT/CT600/Companies House/VAT date calculator. |
 

@@ -62,6 +62,8 @@
     // mark visit (after rendering so "NEW" badges show this session)
     store.set('lastVisit', new Date().toISOString());
     if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+    window.TL = { state, callAI, md, esc, fmtDate, retrieve, getBody, loadJSON, GROUNDING, openItem, showView };
+    document.dispatchEvent(new Event('tl:ready'));
     const hash = location.hash.slice(1);
     if (hash) showView(hash);
   }
@@ -72,6 +74,7 @@
     $$('.tabs button').forEach((b) => b.classList.toggle('active', b.dataset.view === v));
     $$('.view').forEach((s) => s.classList.toggle('active', s.id === 'view-' + v));
     if (v === 'saved') renderSaved();
+    document.dispatchEvent(new CustomEvent('tl:view', { detail: v }));
     history.replaceState(null, '', '#' + v);
   }
   function bindTabs() { $$('.tabs button').forEach((b) => b.addEventListener('click', () => showView(b.dataset.view))); }
@@ -80,7 +83,7 @@
   function bindUpdates() {
     $('#range').value = state.range;
     $('#highOnly').checked = state.highOnly;
-    $('#search').addEventListener('input', (e) => { state.search = e.target.value.trim().toLowerCase(); renderList(); });
+    $('#search').addEventListener('input', (e) => { state.search = e.target.value.trim().toLowerCase(); loadSearchIndex(); renderList(); });
     $('#range').addEventListener('change', (e) => { state.range = e.target.value; store.set('range', state.range); renderChips(); renderList(); });
     $('#highOnly').addEventListener('change', (e) => { state.highOnly = e.target.checked; store.set('highOnly', state.highOnly); renderList(); });
     $('#briefBtn').addEventListener('click', briefing);
@@ -99,7 +102,7 @@
       if (state.highOnly && !isRelevant(it)) return false;
       if (state.cats.size && !(it.categories || []).some((c) => state.cats.has(c))) return false;
       if (q) {
-        const hay = `${it.title} ${it.description} ${it.changeNote || ''} ${it.ai?.summary || ''}`.toLowerCase();
+        const hay = `${it.title} ${it.description} ${it.changeNote || ''} ${it.ai?.summary || ''} ${state.searchIndex?.get(it.id) || ''}`.toLowerCase();
         if (!q.split(/\s+/).every((w) => hay.includes(w))) return false;
       }
       return true;
@@ -147,6 +150,15 @@
       el.addEventListener('click', () => openItem(el.dataset.id));
       el.addEventListener('keydown', (e) => { if (e.key === 'Enter') openItem(el.dataset.id); });
     });
+  }
+
+  // full-text index of the official text (built daily by the GitHub Action)
+  let indexLoading = null;
+  function loadSearchIndex() {
+    if (state.searchIndex || indexLoading) return;
+    indexLoading = loadJSON('data/search-index.json')
+      .then((j) => { state.searchIndex = new Map(j.items); renderList(); })
+      .catch(() => { state.searchIndex = new Map(); });
   }
 
   // ---------- detail drawer ----------

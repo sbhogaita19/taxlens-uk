@@ -100,3 +100,22 @@ td:last-child { text-align: right; font-weight: 600; }
 .spinner { display: inline-block; width: 14px; height: 14px; border: 2px solid var(--line); border-top-color: var(--brand-2); border-radius: 50%; animation: spin .8s linear infinite; vertical-align: middle; }
 @keyframes spin { to { transform: rotate(360deg); } }
 @media (max-width: 560px) { .tabs { top: 55px; } main { padding: 12px; } .item { padding: 12px; } }
+/* Legislation */
+#legQ { flex: 1 1 260px; min-width: 0; }
+#legAct { max-width: 260px; }
+.leg-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+.leg-act { cursor: pointer; margin: 0; }
+.leg-act:hover { border-color: var(--brand-2); }
+.tag.ok { background: transparent; border: 1px solid var(--hi); color: var(--hi); }
+.leg-ok { background: rgba(31,122,77,.08); border: 1px solid rgba(31,122,77,.35); color: var(--hi); border-radius: var(--radius); padding: 10px 14px; margin-bottom: 10px; font-size: 13.5px; }
+.leg-text { white-space: normal; max-height: none; line-height: 1.55; }
+.leg-text h4 { margin: 10px 0 6px; font-size: 15px; }
+.leg-text p { margin: 3px 0; }
+.leg-text .lv { display: flex; gap: 8px; margin: 3px 0; }
+.leg-text .lv .lv { margin-left: 4px; }
+.leg-text .pn { flex: none; min-width: 2.4em; font-weight: 700; }
+.leg-text .lb { flex: 1; min-width: 0; }
+.leg-text .amend { background: rgba(200,145,43,.14); border-radius: 3px; }
+.leg-text blockquote { margin: 6px 0 6px 12px; padding-left: 10px; border-left: 3px solid var(--line); }
+.leg-text table { margin: 8px 0; }
+.leg-text td, .leg-text th { border: 1px solid var(--line); padding: 4px 6px; text-align: left; font-weight: normal; }

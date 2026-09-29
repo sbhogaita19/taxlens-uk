@@ -27,6 +27,7 @@
 
   <nav class="tabs" role="tablist">
     <button role="tab" data-view="updates" class="active">Updates</button>
+    <button role="tab" data-view="legislation">Legislation</button>
     <button role="tab" data-view="rates">Rates 26/27</button>
     <button role="tab" data-view="deadlines">Deadlines</button>
     <button role="tab" data-view="ask">Ask AI</button>
@@ -38,7 +39,7 @@
     <!-- UPDATES -->
     <section id="view-updates" class="view active">
       <div class="toolbar">
-        <input id="search" type="search" placeholder="Search updates (e.g. dividend, MTD, BADR)…" aria-label="Search">
+        <input id="search" type="search" placeholder="Search updates incl. full official text (e.g. dividend, MTD, BADR)…" aria-label="Search">
         <select id="range" aria-label="Date range">
           <option value="7">Last 7 days</option>
           <option value="30" selected>Last 30 days</option>
@@ -52,6 +53,22 @@
       <div id="briefing"></div>
       <div id="chips" class="chips"></div>
       <div id="list" class="list"></div>
+    </section>
+
+    <!-- LEGISLATION -->
+    <section id="view-legislation" class="view">
+      <div class="card">
+        <h2>Search UK tax legislation</h2>
+        <p class="muted small">Type a citation (e.g. <b>CTA 2010 s455</b>, <b>ITTOIA s272</b>, <b>VATA sch 8</b>) or keywords (e.g. <i>loan to participator</i>, <i>trading allowance</i>). Text comes live from legislation.gov.uk, the official revised statute database.</p>
+        <div class="toolbar" style="margin:0">
+          <input id="legQ" type="search" placeholder="Citation or keywords…" aria-label="Search legislation">
+          <select id="legAct" aria-label="Limit to Act"><option value="">All key Acts</option></select>
+          <label class="chk" title="See the law as it stood on a date, e.g. a client's year end">As at <input type="date" id="legDate" style="padding:6px 8px"></label>
+          <button id="legGo" class="btn" type="button">Search</button>
+        </div>
+      </div>
+      <div id="legResults"></div>
+      <div id="legKeyActs"></div>
     </section>
 
     <!-- RATES -->
@@ -135,5 +152,6 @@
   </div>
 
   <script src="app.js"></script>
+  <script src="legislation.js"></script>
 </body>
 </html>
