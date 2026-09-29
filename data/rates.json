@@ -1,0 +1,124 @@
+{
+  "taxYear": "2026 to 2027",
+  "lastVerified": "2026-09-29",
+  "note": "Figures checked against the linked GOV.UK pages on the date shown. Always re-check the source before advising a client — rates can change at a fiscal event.",
+  "sections": [
+    {
+      "id": "income",
+      "title": "Income Tax (England, Wales & NI)",
+      "source": "https://www.gov.uk/government/publications/rates-and-allowances-income-tax/income-tax-rates-and-allowances-current-and-past",
+      "rows": [
+        ["Personal Allowance", "£12,570"],
+        ["Income limit for Personal Allowance (tapered £1 for every £2)", "£100,000"],
+        ["Basic rate 20%", "£0 – £37,700 of taxable income"],
+        ["Higher rate 40%", "£37,701 – £125,140"],
+        ["Additional rate 45%", "Over £125,140"],
+        ["Starting rate for savings (0%)", "Up to £5,000"],
+        ["Married Couple's Allowance (max / min)", "£11,700 / £4,530"]
+      ]
+    },
+    {
+      "id": "dividends",
+      "title": "Dividends",
+      "source": "https://www.gov.uk/government/publications/rates-and-allowances-income-tax/income-tax-rates-and-allowances-current-and-past",
+      "rows": [
+        ["Dividend Allowance", "£500"],
+        ["Dividend ordinary rate (basic rate band)", "10.75% (was 8.75% in 2025/26)"],
+        ["Dividend upper rate (higher rate band)", "35.75% (was 33.75% in 2025/26)"],
+        ["Dividend additional rate", "39.35%"]
+      ]
+    },
+    {
+      "id": "scotland",
+      "title": "Scottish Income Tax (non-savings, non-dividend)",
+      "source": "https://www.gov.uk/government/publications/rates-and-allowances-income-tax/income-tax-rates-and-allowances-current-and-past",
+      "rows": [
+        ["Starter 19%", "Up to £3,967 (above PA)"],
+        ["Basic 20%", "£3,968 – £16,956"],
+        ["Intermediate 21%", "£16,957 – £31,092"],
+        ["Higher 42%", "£31,093 – £62,430"],
+        ["Advanced 45%", "£62,431 – £125,140"],
+        ["Top 48%", "Over £125,140"]
+      ]
+    },
+    {
+      "id": "paye",
+      "title": "PAYE, Class 1 NIC & Payroll",
+      "source": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+      "rows": [
+        ["Emergency / basic tax code", "1257L (W1 / M1 / X)"],
+        ["Lower Earnings Limit", "£129 pw · £6,708 pa"],
+        ["Primary Threshold", "£242 pw · £12,570 pa"],
+        ["Secondary Threshold (employer)", "£96 pw · £5,000 pa"],
+        ["Upper Earnings Limit", "£967 pw · £50,270 pa"],
+        ["Employee Class 1", "8% PT–UEL; 2% above UEL"],
+        ["Employer Class 1", "15% above ST"],
+        ["Class 1A / 1B", "15%"],
+        ["Employment Allowance", "£10,500"],
+        ["Apprenticeship Levy", "0.5% of paybill; £15,000 allowance"],
+        ["Statutory Sick Pay", "£123.25 pw or 80% of AWE if lower"],
+        ["SMP/SAP first 6 weeks", "90% of AWE"],
+        ["SMP/SPP/ShPP/SAP standard rate", "£194.32 pw or 90% of AWE if lower"],
+        ["NLW / NMW 21+ (from 1 Apr 2026)", "£12.71 per hour"],
+        ["NMW 18–20", "£10.85 per hour"],
+        ["NMW under 18 & apprentice", "£8.00 per hour"],
+        ["Approved mileage (cars) – tax", "55p first 10,000 miles; 25p thereafter"],
+        ["Student loan thresholds (9%)", "Plan 1 £26,900 · Plan 2 £29,385 · Plan 4 £33,795 · Plan 5 £25,000"],
+        ["Postgraduate loan", "6% deduction rate"]
+      ]
+    },
+    {
+      "id": "selfemployed",
+      "title": "Self-employed NIC (Class 2 & 4)",
+      "source": "https://www.gov.uk/self-employed-national-insurance-rates",
+      "rows": [
+        ["Class 4 main rate", "6% on profits £12,570 – £50,270"],
+        ["Class 4 additional rate", "2% on profits over £50,270"],
+        ["Small Profits Threshold", "£7,105"],
+        ["Voluntary Class 2", "£3.65 per week"]
+      ]
+    },
+    {
+      "id": "mtd",
+      "title": "Making Tax Digital for Income Tax",
+      "source": "https://www.gov.uk/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax",
+      "rows": [
+        ["Qualifying income > £50,000 (2024/25)", "Mandatory from 6 April 2026"],
+        ["Qualifying income > £30,000 (2025/26)", "Mandatory from 6 April 2027"],
+        ["Qualifying income > £20,000 (2026/27)", "Mandatory from 6 April 2028"]
+      ]
+    },
+    {
+      "id": "corptax",
+      "title": "Corporation Tax (FY from 1 April 2026)",
+      "source": "https://www.gov.uk/corporation-tax-rates",
+      "rows": [
+        ["Main rate (profits over £250,000)", "25%"],
+        ["Small profits rate (profits up to £50,000)", "19%"],
+        ["Marginal Relief", "Profits £50,000 – £250,000 (limits divided by number of associated companies)"]
+      ]
+    },
+    {
+      "id": "cgt",
+      "title": "Capital Gains Tax",
+      "source": "https://www.gov.uk/capital-gains-tax/rates",
+      "rows": [
+        ["Annual exempt amount (individuals)", "£3,000"],
+        ["Gains within basic rate band", "18%"],
+        ["Gains above basic rate band / trustees & PRs", "24%"],
+        ["Business Asset Disposal Relief", "18% for disposals from 6 April 2026 (14% 2025/26; 10% before 6 April 2025)"],
+        ["BADR lifetime limit", "£1 million of qualifying gains — see gov.uk/business-asset-disposal-relief"]
+      ]
+    },
+    {
+      "id": "vat",
+      "title": "VAT",
+      "source": "https://www.gov.uk/vat-registration/when-to-register",
+      "rows": [
+        ["Registration threshold (rolling 12 months)", "£90,000"],
+        ["Deregistration threshold", "£88,000 — see gov.uk/vat-registration/cancel-registration"],
+        ["Standard / reduced / zero rate", "20% / 5% / 0%"]
+      ]
+    }
+  ]
+}

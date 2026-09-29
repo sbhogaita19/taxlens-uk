@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>TaxLens UK</title>
+  <meta name="description" content="Official UK tax updates for SMEs, owner-managed businesses and the self-employed — sourced from HMRC, GOV.UK and legislation.gov.uk.">
+  <meta name="theme-color" content="#0f3d3e">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="TaxLens">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="icons/icon-192.png" alt="" width="32" height="32">
+      <div>
+        <h1>TaxLens UK</h1>
+        <p class="sub" id="freshness">Loading official updates…</p>
+      </div>
+    </div>
+    <button id="installBtn" class="btn ghost hidden" type="button">Install app</button>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-view="updates" class="active">Updates</button>
+    <button role="tab" data-view="rates">Rates 26/27</button>
+    <button role="tab" data-view="deadlines">Deadlines</button>
+    <button role="tab" data-view="ask">Ask AI</button>
+    <button role="tab" data-view="saved">Saved</button>
+    <button role="tab" data-view="settings">Settings</button>
+  </nav>
+
+  <main>
+    <!-- UPDATES -->
+    <section id="view-updates" class="view active">
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="Search updates (e.g. dividend, MTD, BADR)…" aria-label="Search">
+        <select id="range" aria-label="Date range">
+          <option value="7">Last 7 days</option>
+          <option value="30" selected>Last 30 days</option>
+          <option value="90">Last 3 months</option>
+          <option value="365">Last 12 months</option>
+          <option value="9999">All</option>
+        </select>
+        <label class="chk"><input type="checkbox" id="highOnly"> SME-relevant only</label>
+        <button id="briefBtn" class="btn" type="button" title="AI practitioner briefing of the updates currently shown">Practice briefing</button>
+      </div>
+      <div id="briefing"></div>
+      <div id="chips" class="chips"></div>
+      <div id="list" class="list"></div>
+    </section>
+
+    <!-- RATES -->
+    <section id="view-rates" class="view">
+      <div class="notice" id="ratesNote"></div>
+      <div id="rates"></div>
+    </section>
+
+    <!-- DEADLINES -->
+    <section id="view-deadlines" class="view">
+      <div class="card">
+        <h2>Company deadline calculator</h2>
+        <div class="row">
+          <label>Accounting period end <input type="date" id="ype"></label>
+          <label>VAT quarter end <input type="date" id="vqe"></label>
+        </div>
+        <div id="calc" class="calc"></div>
+        <p class="muted small">Standard statutory periods for a private limited company with profits below the quarterly instalment threshold, and a standard (non-annual, non-POA) VAT return. Check special cases (first accounts, short periods, large companies).</p>
+      </div>
+      <h2 class="h2">Upcoming key dates</h2>
+      <div id="deadlines" class="list"></div>
+    </section>
+
+    <!-- ASK -->
+    <section id="view-ask" class="view">
+      <div class="card">
+        <h2>Ask about UK tax changes</h2>
+        <p class="muted">Answers are grounded only in the official updates and verified rates held in this app, with numbered citations back to GOV.UK / legislation.gov.uk. If the sources don't cover it, the AI is told to say so.</p>
+        <textarea id="q" rows="3" placeholder="e.g. What changed for dividend tax from April 2026 and how does it affect a director taking £40k of dividends?"></textarea>
+        <div class="row">
+          <button id="askBtn" class="btn" type="button">Ask</button>
+          <span id="askStatus" class="muted small"></span>
+        </div>
+      </div>
+      <div id="answer"></div>
+    </section>
+
+    <!-- SAVED -->
+    <section id="view-saved" class="view">
+      <div id="savedList" class="list"></div>
+    </section>
+
+    <!-- SETTINGS -->
+    <section id="view-settings" class="view">
+      <div class="card">
+        <h2>AI provider</h2>
+        <p class="muted">Your key is stored only in this browser on this device and is sent only to the provider you choose.</p>
+        <label>Provider
+          <select id="provider">
+            <option value="groq">Groq</option>
+            <option value="openrouter">OpenRouter</option>
+          </select>
+        </label>
+        <label>API key <input id="apiKey" type="password" autocomplete="off" placeholder="gsk_… or sk-or-…"></label>
+        <label>Model <input id="model" list="models" placeholder="model id"></label>
+        <datalist id="models"></datalist>
+        <div class="row">
+          <button id="saveSettings" class="btn" type="button">Save</button>
+          <button id="testAI" class="btn ghost" type="button">Test connection</button>
+          <span id="settingsStatus" class="muted small"></span>
+        </div>
+      </div>
+      <div class="card">
+        <h2>About the data</h2>
+        <ul class="small">
+          <li><b>Updates</b> come only from official sources: GOV.UK (HMRC &amp; HM Treasury publications) and legislation.gov.uk. They refresh automatically every morning.</li>
+          <li><b>AI summaries</b> are generated from the official text only and are clearly labelled. Always open the official source before advising.</li>
+          <li><b>Rates</b> were checked against the linked GOV.UK pages on the date shown.</li>
+        </ul>
+        <p class="small muted">This tool supports professional judgement; it is not tax advice.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Detail drawer -->
+  <div id="drawer" class="drawer hidden" role="dialog" aria-modal="true">
+    <div class="drawer-inner">
+      <button class="close" id="closeDrawer" aria-label="Close">×</button>
+      <div id="drawerBody"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
