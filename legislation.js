@@ -84,7 +84,8 @@
         if (limit && a.path !== limit) continue;
         for (const [num, title, rel] of a.items) {
           const t = title.toLowerCase();
-          if (terms.every((w) => t.includes(w))) hits.push({ a, num, title, rel, score: terms.reduce((s, w) => s + (t.startsWith(w) ? 2 : 1), 0) });
+          const tw = ` ${t.replace(/[^a-z0-9£]+/g, ' ')}`;
+          if (terms.every((w) => tw.includes(` ${w}`))) hits.push({ a, num, title, rel, score: terms.reduce((s, w) => s + (t.startsWith(w) ? 2 : 1), 0) });
         }
       }
     }
