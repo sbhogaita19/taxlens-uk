@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-09-29T13:46:07.280Z",
+ "generatedAt": "2026-09-29T13:49:41.156Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -305,7 +305,22 @@
    ],
    "hasBody": true,
    "changeNote": "The notes for the 2025 to 2026 tax year have been updated. References to a source-by-source basis have been removed from the notes of boxes 28 and 29 on page 9.\r\n\r\n",
-   "firstPublished": "2014-04-04T00:00:00+01:00"
+   "firstPublished": "2014-04-04T00:00:00+01:00",
+   "ai": {
+    "summary": "SA109 pages must be filed with the SA100 to record residence/domicile status and claim personal allowances for non‑UK residents. Use related helpsheets (HS264, HS300, HS302, HS303, HS304) for remittance basis, non‑resident income, dual residency and tax relief.",
+    "whoAffected": "Non‑UK resident individuals, including self‑employed people and owners of SMEs, who need to submit a UK Self Assessment return",
+    "effectiveDate": "2025-2026 tax year",
+    "actions": [
+     "Determine the taxpayer’s residence and domicile status",
+     "Complete the SA109 supplementary pages and attach them to the SA100 return",
+     "Claim any personal allowances available to non‑UK residents on the SA109",
+     "Refer to the appropriate helpsheets (HS264, HS300, HS302, HS303, HS304) for specific issues such as remittance basis or dual residency"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:48:19.057Z"
+   }
   },
   {
    "id": "c904c27cf7dcaff0",
@@ -352,7 +367,22 @@
    ],
    "hasBody": true,
    "changeNote": "TIS for accounts updated.",
-   "firstPublished": "2023-09-14T00:00:00+01:00"
+   "firstPublished": "2023-09-14T00:00:00+01:00",
+   "ai": {
+    "summary": "Technical specs detail how to develop software for digitally filing information to Companies House, requiring XML, iXBRL for accounts, zip handling for complex packages, and understanding file structures and validation rules.",
+    "whoAffected": "Software developers of accounts packages, package accounts filers, and developers using Companies House filing service",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Ensure developers have XML expertise",
+     "If filing accounts, ensure iXBRL expertise is available",
+     "Review the required file structure and validation rules before development",
+     "Contact Companies House at xml@companieshouse.gov.uk for clarification"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:48:21.952Z"
+   }
   },
   {
    "id": "f2e4688db9b4c210",
@@ -368,7 +398,22 @@
    ],
    "hasBody": true,
    "changeNote": "Updated call to action about filing accounts using software.",
-   "firstPublished": "2019-11-04T00:00:00+00:00"
+   "firstPublished": "2019-11-04T00:00:00+00:00",
+   "ai": {
+    "summary": "From 1 April 2028 all companies must file accounts via commercial software using iXBRL; web and paper filing will close. This applies to firms filing themselves or through accountants, requiring authentication codes, presenter accounts and, if fees apply, a credit account.",
+    "whoAffected": "All UK companies that file annual accounts, including SMEs, owner‑managed businesses and self‑employed directors, whether they file directly or use an accountant",
+    "effectiveDate": "1 April 2028",
+    "actions": [
+     "Check each client’s current software can produce iXBRL and ZIP files for filing",
+     "Advise clients to obtain a company authentication code, presenter account and, if needed, a Companies House credit account",
+     "Recommend suitable commercial software and plan migration before the 1 April 2028 deadline",
+     "Confirm that any appointed accountants are ready to file using the new software requirements"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:48:24.672Z"
+   }
   },
   {
    "id": "6a0eba25b12500a1",
@@ -384,7 +429,22 @@
    ],
    "hasBody": true,
    "changeNote": "The address must be the UK establishment address. This means the physical location in the UK where the overseas company is carrying out its business.",
-   "firstPublished": "2010-05-03T00:00:00+01:00"
+   "firstPublished": "2010-05-03T00:00:00+01:00",
+   "ai": {
+    "summary": "Use form OS CH01 to notify Companies House of any changes to a UK establishment of an overseas company, ensuring the UK establishment address is provided and nationalities/countries are selected from the approved list.",
+    "whoAffected": "UK establishment of an overseas company (overseas companies operating in the UK)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the client’s UK establishment address is the physical location where business is carried out",
+     "Complete OS CH01, entering the address exactly as the UK establishment address",
+     "Select nationalities and countries only from the official standard list provided",
+     "Submit the completed OS CH01 form to Companies House"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:48:27.666Z"
+   }
   },
   {
    "id": "8a1595c6f3ff0a50",
@@ -400,7 +460,22 @@
    ],
    "hasBody": true,
    "changeNote": "Overseas companies can now request an authentication code using the Find and update company information service.",
-   "firstPublished": "2015-05-18T00:00:00+01:00"
+   "firstPublished": "2015-05-18T00:00:00+01:00",
+   "ai": {
+    "summary": "A 6‑digit alphanumeric company authentication code authorises online filings. Request via Companies House WebFiling (UK) or Find and update service (overseas); it’s sent by post, not email or phone. Keep it secure, change if compromised, and inform anyone filing for the company of any changes.",
+    "whoAffected": "All UK‑registered companies, overseas companies with a UK establishment, their directors, accountants and anyone filing online on their behalf.",
+    "effectiveDate": "2026-09-25T08:42:32Z",
+    "actions": [
+     "Advise clients to request their code early via WebFiling or Find and update service and allow up to 10 working days for delivery.",
+     "Ensure clients store the code securely and treat it like a bank PIN.",
+     "Prompt clients to inform you of any code changes and update your records accordingly.",
+     "Warn overseas clients they must use Find and update service and can only file package accounts."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:48:30.957Z"
+   }
   },
   {
    "id": "49cff192a8013847",
@@ -448,7 +523,25 @@
    ],
    "hasBody": true,
    "changeNote": "Overseas companies can now file iXBRL package accounts online.",
-   "firstPublished": "2014-08-01T00:00:00+01:00"
+   "firstPublished": "2014-08-01T00:00:00+01:00",
+   "ai": {
+    "summary": "All UK‑registered companies, even dormant ones, must file annual accounts with Companies House. The online filing service ended 31 Mar 2026, so future filings require commercial software. Certain iXBRL package accounts, including overseas company accounts, can now be filed online.",
+    "whoAffected": "All UK‑registered companies, including dormant, micro, small, medium, audited, unaudited, group and overseas companies that need to file annual accounts",
+    "effectiveDate": "2026-09-25",
+    "actions": [
+     "Obtain the company authentication code for each client",
+     "Use commercial accounting software to prepare and file accounts, as the online service closed on 31 Mar 2026",
+     "Check if the client qualifies for iXBRL package filing (e.g., overseas company, CIC, group accounts) and use the required ZIP/iXBRL format",
+     "File accounts before the statutory deadline to avoid penalties"
+    ],
+    "legislationRefs": [
+     "section 400",
+     "section 401"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:48:34.858Z"
+   }
   },
   {
    "id": "0f2426a3b0861c25",
@@ -464,7 +557,28 @@
    ],
    "hasBody": true,
    "changeNote": "Added the £50 fee for filing overseas company package accounts online.",
-   "firstPublished": "2019-06-19T00:00:00+01:00"
+   "firstPublished": "2019-06-19T00:00:00+01:00",
+   "ai": {
+    "summary": "Companies House fees are set by specific statutory fee regulations and cost‑recovery principles, with a 3.5% cost of capital and no cross‑subsidy. Some documents under the Companies Act 1985 or NI Order 1986 are free, and fees may change as announced.",
+    "whoAffected": "All companies, overseas companies, LLPs, limited partnerships and other entities filing documents with Companies House, including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check if client filings fall under the Companies Act 1985 or the Companies (Northern Ireland) Order 1986 to qualify for free filing",
+     "Identify the applicable statutory fee regulations for each filing type and advise on the correct fee",
+     "Explain to clients that fees reflect full cost recovery, including a 3.5% cost of capital, and that no cross‑subsidy occurs",
+     "Monitor Companies House guidance for any announced fee changes and update client advice accordingly"
+    ],
+    "legislationRefs": [
+     "The Registrar of Companies (Fees) (Companies, Overseas Companies and Limited Liability Partnerships) Regulations 2012 (SI 2012/1907) as amended by The Registrar of Companies (Fees) (Amendment) Regulations 2016 (SI 2016/621)",
+     "The Registrar of Companies (Fees) (European Economic Interest Grouping and European Public Limited-Liability Company) Regulations 2012 (SI 2012/1908) as amended by The Registrar of Companies (Fees) (Amendment) Regulations 2016 (SI 2016/621)",
+     "The Registrar of Companies (Fees) (Limited Partnerships and Newspaper Proprietors) Regulations 2009 (SI 2009/2392) as amended by The Registrar of Companies (Fees) (Limited Partnerships) (Amendment) Regulations 2011 (SI 2011/319) and The Registrar of Companies (Fees) (Amendment) Regulations 2016 (SI 2016/621)",
+     "Companies Act 2006 section 1063(5)",
+     "Competition Act 1998"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:48:39.591Z"
+   }
   },
   {
    "id": "7a00ce2e68bded52",
@@ -511,7 +625,17 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-25T08:11:34+01:00"
+   "firstPublished": "2026-09-25T08:11:34+01:00",
+   "ai": {
+    "summary": "The factsheet states it is guidance only and reflects HMRC’s position at the time of writing.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:48:43.947Z"
+   }
   },
   {
    "id": "ba477d15cf99deac",
@@ -527,7 +651,22 @@
    ],
    "hasBody": true,
    "changeNote": "Form 'Long-term UK residence (D31a)' has been updated.",
-   "firstPublished": "2025-04-06T00:00:00+01:00"
+   "firstPublished": "2025-04-06T00:00:00+01:00",
+   "ai": {
+    "summary": "Use form D31a with a completed IHT100 to report non‑UK resident transferors or settlors for chargeable events from 6 April 2025; download, open in Adobe Reader and complete on‑screen.",
+    "whoAffected": "Transferors or settlors who are not long‑term UK residents (and their advisers)",
+    "effectiveDate": "6 April 2025",
+    "actions": [
+     "Ensure a completed IHT100 (IHT100a‑IHT100h) is filed alongside D31a",
+     "Download the D31a form and save it locally",
+     "Open the form with the latest free version of Adobe Reader and complete it on‑screen",
+     "If the form won’t open, contact online services support"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:48:46.953Z"
+   }
   },
   {
    "id": "90a5852029284069",
@@ -591,7 +730,22 @@
    ],
    "hasBody": true,
    "changeNote": "Updated list of ACSPs.",
-   "firstPublished": "2025-10-31T00:00:00+00:00"
+   "firstPublished": "2025-10-31T00:00:00+00:00",
+   "ai": {
+    "summary": "The ACSP list shows agents registered with Companies House, but may be incomplete. Check the ceased/suspended list, confirm AML supervision, research reputation, services and fees, and follow identity‑verification guidance before using an ACSP.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed who use accountants, solicitors or other agents to file or complete Companies House activities",
+    "effectiveDate": "2026-09-24",
+    "actions": [
+     "Check the ACSP is not on the ceased or suspended list",
+     "Confirm the agent is supervised by a UK AML supervisory body",
+     "Research the agent’s reputation, services, fees and terms",
+     "Follow Companies House guidance on identity verification when using the ACSP"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:48:56.824Z"
+   }
   },
   {
    "id": "065b47cac579e131",
@@ -607,7 +761,27 @@
    ],
    "hasBody": true,
    "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved. ",
-   "firstPublished": "2014-10-30T00:00:00+00:00"
+   "firstPublished": "2014-10-30T00:00:00+00:00",
+   "ai": {
+    "summary": "SDLT must be paid within 14 days of the effective transaction date using the 11‑character reference. Choose an online, bank transfer or cheque method and ensure the reference matches to avoid delays or misallocation. Wrong references can be corrected by contacting SDLT enquiries.",
+    "whoAffected": "Property purchasers (including SMEs and owner‑managed businesses) and their advisers who need to pay Stamp Duty Land Tax in England, Wales or Northern Ireland",
+    "effectiveDate": "2026-09-24",
+    "actions": [
+     "Obtain the 11‑character unique transaction reference from the SDLT5 certificate or paper return",
+     "Submit the SDLT return and arrange payment within 14 days of the effective date, using a method that meets the deadline",
+     "Check that the reference entered matches exactly to avoid delays or misallocation; if incorrect, contact SDLT enquiries to move the payment",
+     "Advise clients on payment method timings (online instant, CHAPS/Faster same‑day, Bacs up to 3 days) and ensure funds arrive before the deadline"
+    ],
+    "legislationRefs": [
+     "Land and Buildings Transaction Tax",
+     "Land Transaction Tax",
+     "Stamp Duty Reserve Tax",
+     "Stamp Duty on shares"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:49:00.491Z"
+   }
   },
   {
    "id": "46ed7a6a2875fbdc",
@@ -719,7 +893,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-22T11:30:01+01:00"
+   "firstPublished": "2026-09-22T11:30:01+01:00",
+   "ai": {
+    "summary": "The guidance explains how to submit enquiries to HM Treasury, what content is prohibited, and advises not to use the form for FOI requests or HMRC complaints. It also warns of fraud and provides links to related tax and pension information.",
+    "whoAffected": "Businesses, self‑employed individuals and other organisations wishing to contact HM Treasury for policy‑related queries.",
+    "effectiveDate": "2026-09-22",
+    "actions": [
+     "Check that the enquiry relates directly to HM Treasury before using the form",
+     "Ensure the message contains no offensive language, sales content, illegible text or repeated queries",
+     "Do not use the form for Freedom of Information requests or HMRC complaints; use the appropriate channels instead",
+     "Be vigilant for fraud – HM Treasury will never ask for money or personal details via email"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:49:12.328Z"
+   }
   },
   {
    "id": "4aca55a048cfefa6",
@@ -800,7 +989,19 @@
    ],
    "hasBody": true,
    "changeNote": "‘2026 to 2027: Employer further guide to PAYE and National Insurance contributions’ has been updated with a new section ‘2.2.6 Relevant accretions’.",
-   "firstPublished": "2014-04-06T00:00:00+01:00"
+   "firstPublished": "2014-04-06T00:00:00+01:00",
+   "ai": {
+    "summary": "The guide explains how employers should handle PAYE and National Insurance contributions in less common situations.",
+    "whoAffected": "Employers, including SMEs and owner‑managed businesses, who need guidance on atypical PAYE/NIC matters",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Not stated in source"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:49:21.095Z"
+   }
   },
   {
    "id": "a359c42eabddb603",
@@ -816,7 +1017,22 @@
    ],
    "hasBody": true,
    "changeNote": "'Offices modern standard with lift - London Docklands' has been replaced because the LAB accommodation use code has changed and 'Padel and tennis centres' has been added.",
-   "firstPublished": "2026-05-22T15:02:00+01:00"
+   "firstPublished": "2026-05-22T15:02:00+01:00",
+   "ai": {
+    "summary": "The 2026 valuation scales set relative values for parts of business properties based on floor level and use, with different scales for categories like central London offices versus other areas.",
+    "whoAffected": "Businesses that own, lease or occupy commercial property, including SMEs, owner‑managed firms and self‑employed property owners",
+    "effectiveDate": "2026 revaluation (published 2026‑09‑21)",
+    "actions": [
+     "Identify each client’s property type and floor level to match the correct valuation scale",
+     "Determine if the property falls under multiple scales (e.g., central London office) and select the appropriate one",
+     "Apply the 2026 relative values when calculating business rates or tax liabilities",
+     "Update client records and advice notes with the new scale information"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:49:23.857Z"
+   }
   },
   {
    "id": "f5c86b0ad83876b1",
@@ -880,7 +1096,25 @@
    ],
    "hasBody": true,
    "changeNote": "Schedule IHT404 has been updated to make it clearer where to enter spouse and charity exemption amounts.",
-   "firstPublished": "2014-04-04T01:00:00+01:00"
+   "firstPublished": "2014-04-04T01:00:00+01:00",
+   "ai": {
+    "summary": "Advisors must complete Schedule IHT404 with the IHT400 return to report any UK assets the deceased owned jointly with another person, using the updated guidance on spouse and charity exemptions.",
+    "whoAffected": "Personal representatives, accountants and advisors handling estates where the deceased held jointly‑owned UK assets",
+    "effectiveDate": "2026-09-18",
+    "actions": [
+     "Obtain Schedule IHT404 and the IHT400 estate return",
+     "Record all jointly‑owned UK assets on IHT404 as part of the IHT400 filing",
+     "Enter spouse and charity exemption amounts as clarified in the updated schedule",
+     "Submit the completed IHT404 with the IHT400 return to HMRC"
+    ],
+    "legislationRefs": [
+     "IHT404",
+     "IHT400"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:49:32.357Z"
+   }
   },
   {
    "id": "9897155374528922",
@@ -929,7 +1163,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-17T14:51:29+01:00"
+   "firstPublished": "2026-09-17T14:51:29+01:00",
+   "ai": {
+    "summary": "The cash ISA annual subscription limit for people under 65 is reduced to £12,000 starting 6 April 2027, via changes to the Individual Savings Account Regulations 1998.",
+    "whoAffected": "Individuals aged under 65, including SME owners, partners and the self‑employed.",
+    "effectiveDate": "6 April 2027",
+    "actions": [
+     "Inform clients that the cash ISA limit will fall to £12,000 from 6 April 2027.",
+     "Review existing cash ISA contributions to ensure they do not exceed the new limit.",
+     "Discuss alternative tax‑efficient savings options if clients need to save more.",
+     "Update client records and advice notes to reflect the regulatory change."
+    ],
+    "legislationRefs": [
+     "Individual Savings Account Regulations 1998"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:49:39.656Z"
+   }
   },
   {
    "id": "7f90715d7f4e6c75",
