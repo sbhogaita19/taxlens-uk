@@ -290,7 +290,7 @@ async function main() {
 
   // Keep previously known items that dropped out of search but are still within the window
   for (const [id, prev] of prevById) {
-    if (!items.find((i) => i.id === id) && new Date(prev.date) >= SINCE) items.push(prev);
+    if (!items.find((i) => i.id === id) && new Date(prev.date) >= SINCE && !EXCLUDE.test(`${prev.title} ${prev.description || ''}`)) items.push(prev);
   }
   items.sort((a, b) => new Date(b.date) - new Date(a.date));
 
