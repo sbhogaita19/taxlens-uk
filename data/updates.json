@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-09-29T13:29:38.539Z",
+ "generatedAt": "2026-09-29T13:46:07.280Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -88,7 +88,23 @@
    ],
    "hasBody": true,
    "changeNote": "The list of Self Assessment commercial software suppliers has been updated with one addition.",
-   "firstPublished": "2014-01-01T00:00:00+00:00"
+   "firstPublished": "2014-01-01T00:00:00+00:00",
+   "ai": {
+    "summary": "The updated list of approved commercial software can be used to file Self Assessment returns, supplementary pages and attachments. Some products can retrieve HMRC data for agents or individuals. Users must log in via GOV.UK One Login with a unique ID/password and can seek technical support if they develop software.",
+    "whoAffected": "Agents, individual taxpayers and Self Assessment software developers using commercial software",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check that your chosen software is on the approved list and includes the HMRC data retrieval feature",
+     "If you are an agent, confirm the software can pull client data for Self Assessment returns",
+     "Create a unique user ID and password via GOV.UK One Login before submitting returns",
+     "Contact the software supplier for technical support if you are a developer",
+     ""
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:44:59.257Z"
+   }
   },
   {
    "id": "77b16f7f6b40d705",
@@ -104,7 +120,22 @@
    ],
    "hasBody": true,
    "changeNote": "The list of commercial software suppliers for Corporation Tax has been updated with one addition to the 'Produce and Submit CT600' and 'iXBRL integrated Software Application providers' sections.",
-   "firstPublished": "2011-11-21T00:00:00+00:00"
+   "firstPublished": "2011-11-21T00:00:00+00:00",
+   "ai": {
+    "summary": "Companies must file their Corporation Tax returns online using HMRC‑approved commercial software, unless they have a reasonable excuse or are filing in Welsh. Some software also lets you submit annual accounts together.",
+    "whoAffected": "Companies required to file a Company Tax Return, including SMEs and owner‑managed businesses",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify a recognised commercial software supplier from HMRC's list",
+     "Use the software to file the Company Tax Return online",
+     "Confirm the client does not qualify for a paper return (reasonable excuse or Welsh filing)",
+     "If available, file annual accounts together with the return using the same software"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:45:04.642Z"
+   }
   },
   {
    "id": "fd0b4863be1ae16d",
@@ -121,7 +152,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-29T09:00:01+01:00"
+   "firstPublished": "2026-09-29T09:00:01+01:00",
+   "ai": {
+    "summary": "HMRC’s newsletter outlines upcoming ISA rule reforms, guidance on reporting Lifetime ISA transfers and a user research programme for its digital ISA service.",
+    "whoAffected": "ISA managers and Child Trust Fund providers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Track the announced ISA rule reforms and assess impact on client advice",
+     "Implement procedures to ensure accurate reporting of Lifetime ISA transfers",
+     "Prepare to engage in HMRC’s digital ISA service user research",
+     "Update client communications to reflect any changes in ISA guidance"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:45:08.751Z"
+   }
   },
   {
    "id": "dd95421a606e03be",
@@ -137,7 +183,17 @@
    ],
    "hasBody": true,
    "changeNote": "This factsheet has been updated to include Plastic Packaging Tax, Vaping Product Duty and Vaping Duty Stamps Scheme.",
-   "firstPublished": "2012-08-31T09:00:00+01:00"
+   "firstPublished": "2012-08-31T09:00:00+01:00",
+   "ai": {
+    "summary": "The factsheet gives guidance on HMRC compliance checks for large, complex businesses and their tax affairs.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:45:11.051Z"
+   }
   },
   {
    "id": "fe5435f767be41f5",
@@ -153,7 +209,22 @@
    ],
    "hasBody": true,
    "changeNote": "HMRC's list of shares which have been declared as being worth negligible value is now valid up to and including 31 August 2026. ",
-   "firstPublished": "2014-06-25T00:00:00+01:00"
+   "firstPublished": "2014-06-25T00:00:00+01:00",
+   "ai": {
+    "summary": "Negligible value claims let owners of assets that have fallen to almost no value realise a loss against CGT. Claims can be made by writing to the tax office or via Self Assessment. HMRC’s list shows previously LSE‑quoted shares deemed negligible up to 31 Aug 2026; unquoted or AIM companies aren’t listed.",
+    "whoAffected": "Owners of unquoted shares that have become worthless, shareholders of companies previously quoted on the London Stock Exchange, and directors of companies in liquidation or receivership – including SMEs and owner‑managed businesses with such shareholdings.",
+    "effectiveDate": "31 August 2026",
+    "actions": [
+     "Check the HMRC Negligible Value Agreement list to see if the share is listed as negligible",
+     "Gather evidence – statement of affairs, liquidator/receiver letter, balance‑sheet showing debts exceed assets, and proof no rescue is likely",
+     "Submit a claim by writing to your tax office or entering the negligible value on your Self Assessment return",
+     "If the company is in liquidation or receivership, include all required documents listed in the guidance"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:45:14.654Z"
+   }
   },
   {
    "id": "84de9fa3fb089113",
@@ -170,7 +241,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-28T14:10:47+01:00"
+   "firstPublished": "2026-09-28T14:10:47+01:00",
+   "ai": {
+    "summary": "Form VAT2 is used by partnerships to provide or update partner details when registering for VAT, adding/removing partners, or changing the partnership’s bank account. Up to 8 partners per form; extra forms needed for more.",
+    "whoAffected": "Partnerships registering for VAT and existing VAT‑registered partnerships that need to add, remove or update partner information, including bank‑account changes",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Gather the partnership’s VAT registration number, business name, each partner’s date of birth, National Insurance number and signatures",
+     "Print the VAT2 form and complete the registration number, business name and reason for sending",
+     "Have each partner fill in and sign their allocated section (up to 8 per form; use additional forms if more partners)",
+     "Upload the completed form via the VAT registration portal or post it to the VAT registration applications and changes team; request an accessible format if required"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:45:18.055Z"
+   }
   },
   {
    "id": "1ace804503660064",
@@ -186,7 +272,24 @@
    ],
    "hasBody": true,
    "changeNote": "The Supervised Business Register has been updated.",
-   "firstPublished": "2014-05-23T00:00:00+01:00"
+   "firstPublished": "2014-05-23T00:00:00+01:00",
+   "ai": {
+    "summary": "The Supervised Business Register lists businesses registered with HMRC for money‑laundering supervision. Use it to verify a counter‑party’s registration; unregistered firms should be contacted and, if necessary, reported to HMRC.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed who need to confirm a trading partner’s AML registration",
+    "effectiveDate": "2026-09-28",
+    "actions": [
+     "Search the Supervised Business Register to confirm a business’s registration status",
+     "If the business is not listed, contact them directly to verify their registration",
+     "Advise any unregistered client to apply for registration with HMRC under the money laundering regulations",
+     "Report suspected unregistered businesses to HMRC"
+    ],
+    "legislationRefs": [
+     "money laundering regulations"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:45:21.410Z"
+   }
   },
   {
    "id": "f3dcedad0ccc046e",
@@ -218,7 +321,22 @@
    ],
    "hasBody": true,
    "changeNote": "Made it clearer that this service is only for PAYE agents or payroll bureaus.",
-   "firstPublished": "2022-09-07T00:00:00+01:00"
+   "firstPublished": "2022-09-07T00:00:00+01:00",
+   "ai": {
+    "summary": "PAYE agents or payroll bureaus must apply online for an agent reference number, first checking if they need to register as a tax adviser, then using an agent services account to enrol PAYE, CIS and ERS services.",
+    "whoAffected": "PAYE agents, payroll bureaus and anyone needing to register as a tax adviser to use HMRC agent services",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check whether you need to register as a tax adviser",
+     "If required, apply for an agent services account",
+     "Apply online for an agent reference number (provide full name, trading name, phone and email)",
+     "Sign into HMRC online services and enrol the PAYE, CIS and/or ERS services"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:45:25.849Z"
+   }
   },
   {
    "id": "7c0f9c706f97f245",
@@ -299,7 +417,22 @@
    ],
    "hasBody": true,
    "changeNote": "Overseas companies can now file iXBRL package accounts online.",
-   "firstPublished": "2014-06-01T00:00:00+01:00"
+   "firstPublished": "2014-06-01T00:00:00+01:00",
+   "ai": {
+    "summary": "The guide outlines how overseas companies (including those from the EEA) must register a UK establishment, the documents to file with Companies House, and ongoing accounting, naming and trading disclosure duties, now using online iXBRL filing.",
+    "whoAffected": "Overseas companies opening or already operating a UK establishment, including those from the EEA, and advisers to such companies",
+    "effectiveDate": "2026-09-25",
+    "actions": [
+     "Confirm the client is an overseas (or EEA) company planning a UK establishment",
+     "Register the establishment with Companies House and submit the required documents",
+     "Prepare iXBRL package accounts and file them online, complying with accounting, name and trading disclosure rules",
+     "Maintain ongoing filing and disclosure obligations after registration"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:45:36.954Z"
+   }
   },
   {
    "id": "d8b8964d55975ed2",
@@ -347,7 +480,22 @@
    ],
    "hasBody": true,
    "changeNote": "CT600 V3 (2026) Artefacts V1.995 has been added.",
-   "firstPublished": "2014-08-13T00:00:00+01:00"
+   "firstPublished": "2014-08-13T00:00:00+01:00",
+   "ai": {
+    "summary": "A new CT600 V3 artefact (version 1.995) was released on 25 September 2026 and is awaiting implementation in the Local Test Service, Third‑Party Validation Service and live environment.",
+    "whoAffected": "Corporation tax software developers and firms using CT600 filing software",
+    "effectiveDate": "25 September 2026",
+    "actions": [
+     "Confirm your CT600 software provider is aware of the V1.995 artefact release",
+     "Monitor the rollout into LTS, TPVS and live systems",
+     "Plan to test client filings once the artefact is live",
+     "Advise clients to update their software before the next filing deadline"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:45:42.887Z"
+   }
   },
   {
    "id": "69dc0fdac960dbc8",
@@ -411,7 +559,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-24T14:27:02+01:00"
+   "firstPublished": "2026-09-24T14:27:02+01:00",
+   "ai": {
+    "summary": "HMRC’s newsletter outlines updates on wound‑up scheme returns, lump‑sum death benefits, migration from the closed online service and relief‑at‑source for pension schemes.",
+    "whoAffected": "Pension scheme trustees and administrators (stakeholders)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review any wound‑up scheme return obligations",
+     "Check client processes for lump‑sum death benefits",
+     "Assist clients in migrating pension schemes from the closed online service",
+     "Confirm relief‑at‑source arrangements are correct"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:45:50.317Z"
+   }
   },
   {
    "id": "89234ab4a254c6f0",
@@ -477,7 +640,22 @@
    ],
    "hasBody": true,
    "changeNote": "Updated list of ceased and suspended ACSPs.",
-   "firstPublished": "2025-10-10T00:00:00+01:00"
+   "firstPublished": "2025-10-10T00:00:00+01:00",
+   "ai": {
+    "summary": "The list shows ACSPs whose status is suspended (investigation or info request) or ceased (withdrawn or non‑compliant). Updates occur every two weeks, with a possible two‑week lag for recent changes.",
+    "whoAffected": "Authorised Corporate Service Providers (ACSPs) and any SMEs or self‑employed clients that use their services",
+    "effectiveDate": "2026-09-23",
+    "actions": [
+     "Check the published ACSP list at least every two weeks",
+     "Confirm whether any ACSP used by a client appears as suspended or ceased",
+     "Advise clients to switch to an active ACSP if their provider is suspended or ceased",
+     "Monitor the list for status changes and update client advice accordingly"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:45:58.021Z"
+   }
   },
   {
    "id": "cfa6b3d574dbf96c",
