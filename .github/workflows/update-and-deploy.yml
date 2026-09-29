@@ -35,6 +35,9 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: node scripts/fetch-updates.mjs
 
+      - name: Refresh legislation section index (weekly)
+        run: node scripts/build-legislation-index.mjs
+
       - name: Commit data changes
         run: |
           git config user.name "taxlens-bot"
