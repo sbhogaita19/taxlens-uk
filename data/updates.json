@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-09-29T13:27:17.846Z",
+ "generatedAt": "2026-09-29T13:29:38.539Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,24 +72,8 @@
    "label": "Other"
   }
  ],
- "count": 356,
+ "count": 345,
  "items": [
-  {
-   "id": "37e74ec66993b475",
-   "title": "List of approved professional organisations and learned societies (List 3)",
-   "url": "https://www.gov.uk/government/publications/professional-bodies-approved-for-tax-relief-list-3",
-   "path": "/government/publications/professional-bodies-approved-for-tax-relief-list-3",
-   "date": "2026-09-29T10:55:28Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Check this list of professional bodies to see if you can claim tax relief on your fees or subscriptions.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "The professional body 'Academy for the Mathematical Sciences' has been added, with effect from 6 April 2026.\r\n",
-   "firstPublished": "2014-03-31T00:00:00+01:00"
-  },
   {
    "id": "3fd5d9da5a8343da",
    "title": "Self Assessment commercial software suppliers",
@@ -105,39 +89,6 @@
    "hasBody": true,
    "changeNote": "The list of Self Assessment commercial software suppliers has been updated with one addition.",
    "firstPublished": "2014-01-01T00:00:00+00:00"
-  },
-  {
-   "id": "0f7ca7228ab984f7",
-   "title": "Check the amount of guarantee you need for transit movements",
-   "url": "https://www.gov.uk/guidance/check-the-amount-of-guarantee-needed-for-common-and-union-transit",
-   "path": "/guidance/check-the-amount-of-guarantee-needed-for-common-and-union-transit",
-   "date": "2026-09-29T10:15:59Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Why you need a guarantee and how to work out how much guarantee you need to cover your movements.",
-   "categories": [
-    "vat",
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "The contact details for the Customs Comprehensive Guarantee team have been updated.",
-   "firstPublished": "2020-10-21T00:00:00+01:00"
-  },
-  {
-   "id": "d0f6616e744004d2",
-   "title": "Apply for business rates for a self-catering property in England",
-   "url": "https://www.gov.uk/guidance/apply-for-business-rates-for-a-self-catering-property-in-england",
-   "path": "/guidance/apply-for-business-rates-for-a-self-catering-property-in-england",
-   "date": "2026-09-29T10:06:56Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Check the criteria and fill in this form to apply for business rates on a self-catering holiday let in England.",
-   "categories": [
-    "personal"
-   ],
-   "hasBody": true,
-   "changeNote": "Guidance has been added for owners who have 5 or more self-catering holiday lets or a property with multiple uses.",
-   "firstPublished": "2025-10-08T14:09:00+01:00"
   },
   {
    "id": "77b16f7f6b40d705",
@@ -156,39 +107,6 @@
    "firstPublished": "2011-11-21T00:00:00+00:00"
   },
   {
-   "id": "2cb2c35e207c2df4",
-   "title": "Check genuine HMRC contact that uses more than one communication method",
-   "url": "https://www.gov.uk/guidance/check-genuine-hmrc-contact-that-uses-more-than-one-communication-method",
-   "path": "/guidance/check-genuine-hmrc-contact-that-uses-more-than-one-communication-method",
-   "date": "2026-09-29T09:14:25Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Check recent contacts from HMRC to help you decide if a suspicious email, phone call, text or letter could be a scam. ",
-   "categories": [
-    "paye",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "The 'Research and Development (R&D) claiming tax relief' genuine contact has been extended to 31 October 2026. \r\n\r\n",
-   "firstPublished": "2021-07-30T00:00:00+01:00"
-  },
-  {
-   "id": "8e5314389a133bb5",
-   "title": "Check the statutory market values for oil",
-   "url": "https://www.gov.uk/government/publications/check-the-statutory-market-values-for-oil",
-   "path": "/government/publications/check-the-statutory-market-values-for-oil",
-   "date": "2026-09-29T08:36:20Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find statutory market values for disposal of category 1 oil from a UK field, which has not been sold at arm's length.\r\n\r\n",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "Large Business (LB) Oil and Gas market values for category 1 crudes for August 2026 have been added.",
-   "firstPublished": "2025-07-31T00:00:00+01:00"
-  },
-  {
    "id": "fd0b4863be1ae16d",
    "title": "Tax-free savings newsletter 23",
    "url": "https://www.gov.uk/government/publications/tax-free-savings-newsletter-23",
@@ -204,23 +122,6 @@
    "hasBody": true,
    "changeNote": "First published.",
    "firstPublished": "2026-09-29T09:00:01+01:00"
-  },
-  {
-   "id": "989654781dbf7459",
-   "title": "Check if a text message you've received from HMRC is genuine",
-   "url": "https://www.gov.uk/guidance/check-if-a-text-message-youve-received-from-hmrc-is-genuine",
-   "path": "/guidance/check-if-a-text-message-youve-received-from-hmrc-is-genuine",
-   "date": "2026-09-29T08:00:01Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Check a list of recent text messages from HMRC to help you decide if a text you've received is a scam.",
-   "categories": [
-    "corptax",
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "Information about ‘Retirement annuity relief’ has been added.",
-   "firstPublished": "2021-07-30T00:00:00+01:00"
   },
   {
    "id": "dd95421a606e03be",
@@ -980,26 +881,6 @@
    "hasBody": true,
    "changeNote": "First published.",
    "firstPublished": "2026-09-15T11:53:00+01:00"
-  },
-  {
-   "id": "5d833ebe30e5194c",
-   "title": "Check if a letter you’ve received from HMRC is genuine",
-   "url": "https://www.gov.uk/guidance/check-if-a-letter-youve-received-from-hmrc-is-genuine",
-   "path": "/guidance/check-if-a-letter-youve-received-from-hmrc-is-genuine",
-   "date": "2026-09-15T08:12:42Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Check a list of recent letters from HMRC to help you decide if a letter you’ve received is a scam.",
-   "categories": [
-    "nic",
-    "personal",
-    "corptax",
-    "iht",
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "Information about Self Assessment — Retirement Annuity Relief has been added.",
-   "firstPublished": "2021-07-30T00:00:00+01:00"
   },
   {
    "id": "280594d00bb3e5d7",
@@ -1776,41 +1657,6 @@
    "firstPublished": "2026-01-30T10:09:00+00:00"
   },
   {
-   "id": "33a86833e78a160b",
-   "title": "Transit newsletters — HMRC updates",
-   "url": "https://www.gov.uk/government/publications/community-common-transit-and-tir-newsletters",
-   "path": "/government/publications/community-common-transit-and-tir-newsletters",
-   "date": "2026-08-31T23:01:05Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Check for the latest updates about moving goods using transit and the New Computerised Transit System (NCTS). ",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "The 'September 2026 — future customs infrastructure arrangements at Sevington and Holyhead inland border facilities' newsletter has been added.",
-   "firstPublished": "2014-11-07T00:00:00+00:00"
-  },
-  {
-   "id": "0c0a1dfa08e800c2",
-   "title": "Check if an email you've received from HMRC is genuine",
-   "url": "https://www.gov.uk/guidance/check-if-an-email-youve-received-from-hmrc-is-genuine",
-   "path": "/guidance/check-if-an-email-youve-received-from-hmrc-is-genuine",
-   "date": "2026-08-28T13:21:52Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Check a list of recent emails from HMRC to help you decide if the email you've received is a scam.",
-   "categories": [
-    "personal",
-    "corptax",
-    "vat",
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Information about suspicious activity in HMRC online accounts has been added.",
-   "firstPublished": "2021-07-30T00:00:00+01:00"
-  },
-  {
    "id": "225c4567f13797b3",
    "title": "Edition 6: Making Tax Digital for Income Tax — software developer newsletter",
    "url": "https://www.gov.uk/government/publications/edition-6-making-tax-digital-for-income-tax-software-developer-newsletter",
@@ -2418,19 +2264,6 @@
    "firstPublished": "2026-08-06T11:00:01+01:00"
   },
   {
-   "id": "99cbbff8a9266417",
-   "title": "Economic Crime and Corporate Transparency Act: outline transition plan for Companies House",
-   "url": "https://www.gov.uk/government/publications/economic-crime-and-corporate-transparency-act-outline-transition-plan-for-companies-house",
-   "path": "/government/publications/economic-crime-and-corporate-transparency-act-outline-transition-plan-for-companies-house",
-   "date": "2026-08-05T13:00:05Z",
-   "type": "policy_paper",
-   "source": "Companies House (GOV.UK)",
-   "description": "A transition plan outlining our indicative timeline for commencing the key provisions of the Economic Crime and Corporate Transparency Act (2023).",
-   "categories": [
-    "reporting"
-   ]
-  },
-  {
    "id": "24f52da4d1bbb5a2",
    "title": "Who should register for VAT (VAT Notice 700/1)",
    "url": "https://www.gov.uk/government/publications/vat-notice-7001-should-i-be-registered-for-vat",
@@ -2901,19 +2734,6 @@
    "hasBody": true,
    "changeNote": "The 'Tax-free savings newsletter 22 — June 2026' has been updated to explain that draft legislation has now been published for technical consultation.",
    "firstPublished": "2026-06-24T15:53:00+01:00"
-  },
-  {
-   "id": "f1b75482ff57d119",
-   "title": "Reporting scams pretending to be from Companies House",
-   "url": "https://www.gov.uk/guidance/reporting-scams-pretending-to-be-from-companies-house",
-   "path": "/guidance/reporting-scams-pretending-to-be-from-companies-house",
-   "date": "2026-07-16T13:42:28Z",
-   "type": "detailed_guide",
-   "source": "Companies House (GOV.UK)",
-   "description": "What to do if you think you've noticed a scam pretending to be from Companies House, and examples of scam emails, letters and telephone calls.",
-   "categories": [
-    "reporting"
-   ]
   },
   {
    "id": "50abcb0466b49b31",
