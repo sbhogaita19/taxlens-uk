@@ -14,7 +14,8 @@ const ITEMS_DIR = path.join(DATA, 'items');
 const OUT = path.join(DATA, 'updates.json');
 
 const MONTHS_BACK = Number(process.env.MONTHS_BACK || 18);
-const MAX_BODY_FETCH = Number(process.env.MAX_BODY_FETCH || 200);
+const MAX_BODY_FETCH = Number(process.env.MAX_BODY_FETCH || 400);
+const DATA_VERSION = 2;
 const MAX_AI = Number(process.env.MAX_AI || 30);
 const SINCE = new Date(Date.now() - MONTHS_BACK * 30.5 * 864e5);
 const UA = 'TaxLensUK/1.0 (+https://github.com/sbhogaita19/taxlens-uk)';
@@ -23,9 +24,9 @@ const UA = 'TaxLensUK/1.0 (+https://github.com/sbhogaita19/taxlens-uk)';
 export const CATEGORIES = [
   { id: 'paye', label: 'PAYE & Payroll', re: /\b(PAYE|payroll|RTI|real time information|employer bulletin|P11D|P60|P45|benefits? in kind|salary sacrifice|statutory (sick|maternity|paternity)|national minimum wage|national living wage|student loan|off-payroll|IR35|expenses and benefits|payrolling benefits|employment allowance|tax code)\b/i },
   { id: 'nic', label: 'National Insurance', re: /\b(national insurance|NICs?|class [1234][AB]?)\b/i },
-  { id: 'personal', label: 'Personal Tax & Self Assessment', re: /\b(self assessment|income tax|personal allowance|dividend|savings (allowance|income)|high income child benefit|marriage allowance|tax return|payments? on account|pension|ISA|remittance|non-dom|residence|landlord|property income)\b/i },
+  { id: 'personal', label: 'Personal Tax & Self Assessment', re: /\b(self assessment|income tax|personal allowance|dividend|savings (allowance|income)|high income child benefit|marriage allowance|self assessment tax return|personal tax return|payments? on account|pension|ISA|remittance|non-dom|residence|landlord|property income)\b/i },
   { id: 'selfemployed', label: 'Self-employed & Partnerships', re: /\b(self[- ]employed|sole trader|partnership|basis period|trading allowance|cash basis|making tax digital for income tax|MTD for income tax|MTD ITSA)\b/i },
-  { id: 'corptax', label: 'Corporation Tax', re: /\b(corporation tax|CT600|marginal relief|capital allowances?|full expensing|annual investment allowance|R&D|research and development|loan to participator|s455|close compan|group relief|transfer pricing|creative (industries|sector) relief|patent box|pillar two|multinational top-up)\b/i },
+  { id: 'corptax', label: 'Corporation Tax', re: /\b(corporation tax|company tax return|CT600|marginal relief|capital allowances?|full expensing|annual investment allowance|R&D|research and development|loan to participator|s455|close compan|group relief|transfer pricing|creative (industries|sector) relief|patent box|pillar two|multinational top-up)\b/i },
   { id: 'cgt', label: 'Capital Gains Tax', re: /\b(capital gains|CGT|business asset disposal relief|BADR|entrepreneurs'? relief|investors'? relief|private residence relief|chargeable gains?|carried interest|EMI|share (scheme|option)|employee ownership trust)\b/i },
   { id: 'vat', label: 'VAT', re: /\b(VAT|value added tax|flat rate scheme|reverse charge|partial exemption|making tax digital for VAT|MTD for VAT|option to tax)\b/i },
   { id: 'iht', label: 'IHT & Business/Agricultural Relief', re: /\b(inheritance tax|IHT|business (property )?relief|agricultural (property )?relief|trusts?)\b/i },
@@ -38,7 +39,7 @@ export const CATEGORIES = [
 ];
 
 // Noise we never want (customs, excise, service status, statistics, internal manuals…)
-const EXCLUDE = /(service availability|availability and issues|statistics|statistical|tariff|stop press|customs|excise|alcohol|tobacco|fuel duty|gambling|landfill|aggregates levy|intrastat|\bNES\b|CHIEF|\bCDS\b|\bborders?\b|\bimports?\b|\bexports?\b|binding tariff|oil and gas|plastic packaging|soft drinks|vaping|transparency data|pre-release access|freedom of information|\bFOI\b|job vacanc|board minutes|annual report and accounts|accounts direction|welsh|cymraeg|\bISA managers?\b|excise|climate change levy|carbon|tonnage)/i;
+const EXCLUDE = /(service availability|availability and issues|statistics|statistical|tariff|stop press|customs|excise|alcohol|tobacco|fuel duty|gambling|landfill|aggregates levy|intrastat|\bNES\b|CHIEF|\bCDS\b|\bborders?\b|\bimports?\b|\bexports?\b|binding tariff|oil and gas|plastic packaging|soft drinks|vaping|transparency data|pre-release access|freedom of information|\bFOI\b|job vacanc|board minutes|annual report and accounts|accounts direction|cymraeg|\bwelsh language\b|transit|market values?|business rates|\bscams?\b|phishing|text message|genuine HMRC contact|approved professional organisations|\bISA managers?\b|excise|climate change levy|carbon|tonnage)/i;
 
 const DOC_TYPES = [
   'news_story', 'press_release', 'guidance', 'detailed_guide', 'policy_paper', 'open_consultation',
@@ -70,7 +71,7 @@ async function getJSON(url, tries = 3) {
   }
 }
 async function getText(url) {
-  const r = await fetch(url, { headers: { 'User-Agent': UA } });
+  const r = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/atom+xml, application/xml;q=0.9, */*;q=0.8' } });
   if (!r.ok) throw new Error(`HTTP ${r.status}`);
   return r.text();
 }
@@ -193,7 +194,9 @@ async function fetchLegislation() {
   for (const feed of LEG_FEEDS) {
     try {
       const xml = await getText(feed);
-      for (const e of parseAtom(xml)) {
+      const entries = parseAtom(xml);
+      console.log(`legislation feed ${feed}: ${xml.length} bytes, ${entries.length} entries`);
+      for (const e of entries) {
         if (!e.title || !e.published) continue;
         const d = new Date(e.published);
         if (isNaN(d) || d < SINCE) continue;
@@ -253,7 +256,7 @@ async function main() {
 
   let items = [...gov, ...leg];
   // Fetch official body text for new/changed items
-  const needBody = items.filter((i) => i.path && (!prevById.has(i.id) || prevById.get(i.id).date !== i.date || !prevById.get(i.id).hasBody)).slice(0, MAX_BODY_FETCH);
+  const needBody = items.filter((i) => i.path && (previous.version !== DATA_VERSION || !prevById.has(i.id) || prevById.get(i.id).date !== i.date || !prevById.get(i.id).hasBody)).slice(0, MAX_BODY_FETCH);
   console.log(`Fetching official text for ${needBody.length} items…`);
   const bodies = new Map();
   await pool(needBody, 4, async (it) => {
@@ -274,11 +277,12 @@ async function main() {
     if (b) {
       merged.hasBody = !!b.text; merged.changeNote = b.changeNote; merged.firstPublished = b.firstPublished;
       // re-classify using body too for better tagging
-      merged.categories = classify(`${it.title} ${it.description} ${b.text.slice(0, 3000)}`);
+      const base = classify(`${it.title} ${it.description}`);
+      merged.categories = base[0] === 'general' ? classify(`${it.title} ${it.description} ${b.text.slice(0, 600)}`) : base;
       if (it.type === 'legislation') merged.categories = ['legislation', ...merged.categories.filter((c) => c !== 'general')];
     } else if (prev) {
       merged.hasBody = prev.hasBody; merged.changeNote = prev.changeNote; merged.firstPublished = prev.firstPublished;
-      merged.categories = prev.categories || it.categories;
+      merged.categories = it.categories[0] !== 'general' ? it.categories : (prev.categories || it.categories);
     }
     if (prev?.ai && prev.date === it.date) merged.ai = prev.ai;
     return merged;
@@ -307,6 +311,7 @@ async function main() {
   }
 
   const out = {
+    version: DATA_VERSION,
     generatedAt: new Date().toISOString(),
     windowMonths: MONTHS_BACK,
     sources: ['GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)', 'legislation.gov.uk Atom feeds'],
