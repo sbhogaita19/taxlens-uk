@@ -47,6 +47,7 @@ jobs:
             echo "No data changes"
           else
             git commit -m "data: official updates $(date -u +'%Y-%m-%d %H:%M')"
+            git pull --rebase origin main
             git push
           fi
 
