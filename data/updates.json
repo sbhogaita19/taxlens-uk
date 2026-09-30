@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-09-29T13:58:43.539Z",
+ "generatedAt": "2026-09-30T11:12:40.099Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,101 @@
    "label": "Other"
   }
  ],
- "count": 345,
+ "count": 348,
  "items": [
+  {
+   "id": "8a3b32c97c8975b6",
+   "title": "How model assisted valuation delivers large-scale property valuations",
+   "url": "https://www.gov.uk/guidance/how-model-assisted-valuation-delivers-large-scale-property-valuations",
+   "path": "/guidance/how-model-assisted-valuation-delivers-large-scale-property-valuations",
+   "date": "2026-09-30T08:30:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How the Valuation Office Agency uses model assisted valuation and mass appraisal to support large-scale valuation.  ",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Added PDF 'A Gaussian Markov Random Field model for the valuation of domestic properties in Wales, UK, using INLA'.",
+   "firstPublished": "2025-03-31T00:00:00+01:00",
+   "ai": {
+    "summary": "The Valuation Office Agency uses a model‑assisted valuation (AVM) and mass appraisal to value 1.5 million Welsh domestic properties for a 2028 Council Tax revaluation, with valuers checking data, targeting band margins and allowing customers to challenge their band.",
+    "whoAffected": "Property owners in Wales subject to Council Tax, including SMEs and self‑employed individuals with domestic property holdings.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Explain to clients that the VOA’s AVM determines Council Tax bands and that they have a legal right to challenge a band if they disagree",
+     "Advise clients to keep accurate property data and records in case valuers sample their property for review",
+     "Monitor VOA publications for model specifications, technical papers and external assessment reports to stay informed",
+     "Assist clients in preparing evidence and submitting challenges if their property is flagged at band margins or shows unusual valuation changes"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-30T11:11:41.471Z"
+   }
+  },
+  {
+   "id": "a0741aeafcaa9804",
+   "title": "Pay your Economic Crime Levy",
+   "url": "https://www.gov.uk/guidance/pay-your-economic-crime-levy",
+   "path": "/guidance/pay-your-economic-crime-levy",
+   "date": "2026-09-29T23:15:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay the Economic Crime Levy, and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about the bands for financial years from 1 April 2026 have been added.",
+   "firstPublished": "2023-08-31T00:00:00+01:00",
+   "ai": {
+    "summary": "The Economic Crime Levy must be paid by 30 Sept each year; rates depend on UK revenue bands, with small entities exempt and larger entities paying fixed amounts. Returns need a 14‑character reference, and payments can be made online, by Direct Debit, card or bank transfer, ensuring funds arrive before the deadline.",
+    "whoAffected": "Businesses with UK revenue over £10.2 million (band A, B, C, D) that are liable for the Economic Crime Levy, as well as any entity that must submit a levy return.",
+    "effectiveDate": "1 April 2026",
+    "actions": [
+     "Determine the client’s revenue band for the financial year and calculate the levy due",
+     "Obtain the 14‑character Economic Crime Levy return number and submit the return before the deadline",
+     "Arrange payment (online, Direct Debit, card or bank transfer) so it reaches HMRC by 30 Sept, accounting for bank processing times",
+     "Check for any partial‑year reductions or over‑payments and advise on refunds where applicable"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-30T11:11:44.668Z"
+   }
+  },
+  {
+   "id": "88b46e5dcf2bd206",
+   "title": "Submit a return for the Economic Crime Levy",
+   "url": "https://www.gov.uk/guidance/submit-a-return-for-the-economic-crime-levy",
+   "path": "/guidance/submit-a-return-for-the-economic-crime-levy",
+   "date": "2026-09-29T23:15:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how to submit a return and how to amend a return for the Economic Crime Levy.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The example for who must submit a return has been updated from 'medium-sized entity' to 'band A entity'.",
+   "firstPublished": "2023-07-04T00:00:00+01:00",
+   "ai": {
+    "summary": "Registered businesses must file an Economic Crime Levy return each year by 30 September, even if they fall below the levy threshold, providing UK revenue, AML activity duration and the return preparer’s details, using the online service and keeping records for possible amendments or penalties.",
+    "whoAffected": "Businesses that have registered for the Economic Crime Levy, including band A entities and any entity meeting the levy threshold",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the client is registered for the Economic Crime Levy and has a sign‑in for each entity",
+     "Collect the client’s UK revenue, AML activity period and preparer’s name, role and contact details for the accounting period",
+     "Submit the return online by 30 September and note the 14‑digit return number for payment",
+     "If needed, advise the client how to amend the return via their account and handle any refunds or penalties"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-30T11:11:47.632Z"
+   }
+  },
   {
    "id": "3fd5d9da5a8343da",
    "title": "Self Assessment commercial software suppliers",
@@ -1317,7 +1410,27 @@
    ],
    "hasBody": true,
    "changeNote": "A new 'Multi-factor authorisation and what agents need to know' recorded webinar has been added.\r\nThe recorded webinar links for 'Overseas workday relief', 'Income from property for individual landlords — capital expenditure and revenue repairs' and 'Income from property for individual landlords — finance costs, travel expenses and the property income allowance' have been updated.\r\nA link for a 'How to pay Vaping Products Duty and use Vaping Duty Stamps' live webinar has been added. ",
-   "firstPublished": "2017-11-30T00:00:00+00:00"
+   "firstPublished": "2017-11-30T00:00:00+00:00",
+   "ai": {
+    "summary": "HMRC offers email updates and a range of live and recorded webinars for agents, covering Making Tax Digital for Income Tax, multi‑factor authentication, Pillar 2, and other reliefs. Agents must prepare clients, especially those with property or self‑employment income, for upcoming MTDT thresholds starting 6 April 2026.",
+    "whoAffected": "Tax agents and advisers, their SME/owner‑managed and self‑employed clients with income from property or self‑employment",
+    "effectiveDate": "2026-09-18",
+    "actions": [
+     "Subscribe to the HMRC help and support email service",
+     "Register for and attend relevant webinars (e.g., MTDT, MFA)",
+     "Check each client’s qualifying income against the MTDT thresholds and set up an Agent Services Account if needed",
+     "Advise clients to use HMRC‑recognised software and keep digital records throughout the year"
+    ],
+    "legislationRefs": [
+     "Making Tax Digital for Income Tax",
+     "Multi‑factor authentication (MFA)",
+     "OECD Pillar 2",
+     "The Carbon Border Adjustment Mechanism (CBAM)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-30T11:11:50.781Z"
+   }
   },
   {
    "id": "693ff020fda55a3b",
@@ -1841,7 +1954,25 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-09T10:40:47+01:00"
+   "firstPublished": "2026-09-09T10:40:47+01:00",
+   "ai": {
+    "summary": "HMRC has launched an improved online Self Assessment registration service. New filers for 2025‑26 must register by 5 Oct 2026 to get a UTR and avoid penalties; existing filers must reactivate if needed. The system pre‑populates data and issues UTRs within 72 hours.",
+    "whoAffected": "Individuals who need to file a Self Assessment for the 2025‑26 tax year – including newly self‑employed, new partners, those with untaxed income over £2,500, and anyone with income to declare – as well as agents who still use paper forms.",
+    "effectiveDate": "5 October 2026 (registration deadline for first‑time 2025‑26 filers)",
+    "actions": [
+     "Use HMRC’s free online checking tool to confirm each client’s need to register",
+     "If registration is required, advise clients to register via GOV.UK by 5 Oct 2026 to obtain a UTR",
+     "Prompt clients who no longer need to file to notify HMRC immediately to avoid penalties",
+     "Check existing clients’ registration status and reactivate accounts where a 2025‑26 return is needed"
+    ],
+    "legislationRefs": [
+     "forms CWF1",
+     "SA1"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-30T11:12:07.092Z"
+   }
   },
   {
    "id": "6cc0322e1e733da8",
@@ -2114,7 +2245,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-08T09:53:55+01:00"
+   "firstPublished": "2026-09-08T09:53:55+01:00",
+   "ai": {
+    "summary": "Local reference rent (LRR) levels for residential properties in England are published for August 2026, categorised by room type (CAT 1A‑1C) and Broad Rental Market Area (BRMA).",
+    "whoAffected": "Landlords of residential properties, tenants (especially housing‑benefit claimants), and local authorities",
+    "effectiveDate": "August 2026",
+    "actions": [
+     "Check the August 2026 LRR tables for the client’s BRMA and room category when advising on rent levels",
+     "Use the correct CAT 1A‑1C classification in housing‑benefit calculations",
+     "Update any rent‑review advice to reflect the new LRR values",
+     "Refer to the Housing Benefit section of the Rent Officer Handbook for methodology"
+    ],
+    "legislationRefs": [
+     "Rent Officer Handbook"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-30T11:12:16.191Z"
+   }
   },
   {
    "id": "e5f345cd409195be",
@@ -2178,7 +2326,22 @@
    ],
    "hasBody": true,
    "changeNote": "Added postal address to form. ",
-   "firstPublished": "2010-05-03T00:00:00+01:00"
+   "firstPublished": "2010-05-03T00:00:00+01:00",
+   "ai": {
+    "summary": "Form LL IN01 registers an LLP; using a home address makes it public, paper filing costs £124, Chrome may not display checkboxes, continuation pages are optional, and only standard nationalities list is accepted.",
+    "whoAffected": "Clients wishing to incorporate a limited liability partnership, including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "2026-09-04T12:49:13Z",
+    "actions": [
+     "Warn client that a home address used as the LLP’s registered office will be publicly visible",
+     "Ensure £124 payment is prepared for a paper application",
+     "Recommend using a browser other than Chrome to avoid checkbox display issues",
+     "Use the official nationalities list and optional continuation pages when completing the form"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-30T11:12:24.343Z"
+   }
   },
   {
    "id": "9a98f66b9b65d2d0",
@@ -2275,7 +2438,22 @@
    ],
    "hasBody": true,
    "changeNote": "Postal address added to form. ",
-   "firstPublished": "2016-06-30T00:00:00+01:00"
+   "firstPublished": "2016-06-30T00:00:00+01:00",
+   "ai": {
+    "summary": "Use form LL PSC01 to notify Companies House of an individual person with significant control of an LLP. Submit online for faster processing, ensure the PSC verifies identity and provides a personal code, and use the approved list of nationalities.",
+    "whoAffected": "Limited liability partnerships and their individual persons with significant control",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify any individual PSC for the LLP",
+     "Submit the LL PSC01 form via the online service rather than by post",
+     "Confirm the PSC verifies identity and supplies their Companies House personal code within the required period",
+     "Use the official list of nationalities/countries when completing the form"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-30T11:12:35.492Z"
+   }
   },
   {
    "id": "0670057ff42f65d2",
