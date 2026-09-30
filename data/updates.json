@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-09-30T11:12:40.099Z",
+ "generatedAt": "2026-09-30T18:01:08.480Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,38 @@
    "label": "Other"
   }
  ],
- "count": 348,
+ "count": 349,
  "items": [
+  {
+   "id": "01d931c894f4ecc4",
+   "title": "Edition 7: Making Tax Digital for Income Tax — software developer newsletter",
+   "url": "https://www.gov.uk/government/publications/edition-7-making-tax-digital-for-income-tax-software-developer-newsletter",
+   "path": "/government/publications/edition-7-making-tax-digital-for-income-tax-software-developer-newsletter",
+   "date": "2026-09-30T14:19:21Z",
+   "type": "correspondence",
+   "source": "HMRC (GOV.UK)",
+   "description": "HMRC's newsletter for software developers for Making Tax Digital for Income Tax.",
+   "categories": [
+    "personal",
+    "selfemployed",
+    "mtd"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-09-30T15:19:21+01:00",
+   "ai": {
+    "summary": "HMRC’s newsletter updates software developers on Making Tax Digital for Income Tax, covering recent changes, service performance and required developer actions. Next edition due October 2026.",
+    "whoAffected": "Software developers creating MTD for Income Tax solutions",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Not stated in source"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-30T18:00:04.500Z"
+   }
+  },
   {
    "id": "8a3b32c97c8975b6",
    "title": "How model assisted valuation delivers large-scale property valuations",
@@ -1601,7 +1631,17 @@
    ],
    "hasBody": true,
    "changeNote": "Data tables for the Individuals Customer Experience and Perception Survey 2025 have now been added.",
-   "firstPublished": "2026-07-09T09:30:00+01:00"
+   "firstPublished": "2026-07-09T09:30:00+01:00",
+   "ai": {
+    "summary": "The 2025 Individuals Customer Experience and Perceptions Survey tracks overall customer experience and perceptions of HMRC, helping identify areas for service improvement for the individuals customer group.",
+    "whoAffected": "Individuals who are customers of HMRC",
+    "effectiveDate": "Not stated in source",
+    "actions": [],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-30T18:00:07.560Z"
+   }
   },
   {
    "id": "a1ed8510e5e94abe",
@@ -1683,7 +1723,22 @@
    ],
    "hasBody": true,
    "changeNote": "'What to do after you get compensation' section updated, as tax credit changes can no longer be reported to HMRC.",
-   "firstPublished": "2017-08-21T00:00:00+01:00"
+   "firstPublished": "2017-08-21T00:00:00+01:00",
+   "ai": {
+    "summary": "Parents who faced technical problems with the Childcare online service and missed Tax-Free Childcare top‑up or free childcare can claim compensation by completing an online form or writing to HMRC, providing proof of payments and account details. Universal Credit recipients must report any compensation to DWP.",
+    "whoAffected": "Parents who use Tax-Free Childcare or free childcare for working parents and have paid for childcare they should have received free",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients who experienced technical issues and paid for childcare",
+     "Help them complete the online form for Tax-Free Childcare top‑up and print/post it to HMRC",
+     "Assist clients to draft and send a letter with required details to the Childcare Service address for free childcare compensation",
+     "Advise Universal Credit claimants to report any compensation received to the Department for Work and Pensions"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-30T18:00:11.087Z"
+   }
   },
   {
    "id": "1577744e05118e14",
@@ -1699,7 +1754,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-15T11:53:00+01:00"
+   "firstPublished": "2026-09-15T11:53:00+01:00",
+   "ai": {
+    "summary": "The government will recruit 500 new officers, funded by £500 million, to target money‑laundering networks, seize criminal assets and strengthen AML supervision across police, NCA, CPS and professional services.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed professionals, especially those in retail, hospitality and financial services that may face tighter AML supervision and scrutiny of high‑street premises",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review client AML policies and ensure they meet the heightened supervision standards highlighted in the new strategy",
+     "Update record‑keeping and suspicious activity reporting procedures for clients in affected sectors",
+     "Advise high‑street retail and service clients on compliance to avoid being classified as ‘dodgy’ shops",
+     "Monitor guidance from the FCA, NCA and SFO for any new compliance requirements and relay updates to clients"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-30T18:00:15.902Z"
+   }
   },
   {
    "id": "280594d00bb3e5d7",
@@ -1716,7 +1786,22 @@
    ],
    "hasBody": true,
    "changeNote": "The recognised overseas pension schemes notification list has been updated with 29 schemes added and 10 schemes removed.",
-   "firstPublished": "2018-06-15T00:00:00+01:00"
+   "firstPublished": "2018-06-15T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC publishes a recognised overseas pension schemes (ROPS) list twice monthly. Inclusion doesn’t guarantee tax‑free transfers; advisers must confirm tax liability and potential penalties. The list can be updated at short notice, and HMRC may pursue charges for non‑ROPS transfers.",
+    "whoAffected": "SME owners, self‑employed individuals and other clients planning to transfer UK pension savings to an overseas scheme",
+    "effectiveDate": "Published on the 1st and 15th of each month (or the next working day if the date falls on a weekend or UK public holiday)",
+    "actions": [
+     "Check the latest ROPS list on HMRC’s website before recommending any overseas pension transfer",
+     "Confirm with the client that tax may still be due even if the scheme appears on the list",
+     "Advise clients to obtain professional advice from a regulated financial adviser regarding ROPS compliance",
+     "Monitor the HMRC list for short‑notice updates and inform clients of any removals or changes"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-30T18:00:19.061Z"
+   }
   },
   {
    "id": "72e5deeacf6a7dc3",
@@ -2131,7 +2216,22 @@
    ],
    "hasBody": true,
    "changeNote": "Guidance on how to register your client for Self Assessment if they are  not self-employed has been updated.",
-   "firstPublished": "2022-10-06T14:56:00+01:00"
+   "firstPublished": "2022-10-06T14:56:00+01:00",
+   "ai": {
+    "summary": "Agents can register clients for Self Assessment, Corporation Tax, PAYE, VAT, trusts or estates via HMRC online or agent services accounts, using required IDs, agent codes and client details, with paper forms available for non‑online Self Assessment registrations.",
+    "whoAffected": "Accountants/agents registering SME, owner‑managed business or self‑employed clients for tax obligations",
+    "effectiveDate": "2026-09-08",
+    "actions": [
+     "Gather the Government Gateway ID, agent code and all client information required for the specific tax",
+     "Log into the appropriate HMRC online services or agent services account",
+     "Follow the on‑screen prompts to select the tax and submit the client’s details",
+     "If online registration isn’t possible for Self Assessment, complete form SA1 and submit online or by post"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-30T18:00:31.463Z"
+   }
   },
   {
    "id": "506ff7379d5ced6d",
@@ -2294,7 +2394,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-07T12:03:33+01:00"
+   "firstPublished": "2026-09-07T12:03:33+01:00",
+   "ai": {
+    "summary": "The guide explains when HMRC will issue loan charge settlement offers, the time allowed to settle, how offers are calculated for individuals and employers, and the settlement process for different customer groups.",
+    "whoAffected": "Individuals and employers with disguised remuneration loan charge liabilities, including SME owners, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients who have loan charge liabilities",
+     "Check the timing of HMRC settlement offers for each client",
+     "Inform clients of the settlement period they have to respond",
+     "Explain how the settlement amount is calculated and guide them through the process"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-30T18:00:37.410Z"
+   }
   },
   {
    "id": "413ae2e4edebe4b5",
@@ -2357,7 +2472,22 @@
    ],
    "hasBody": true,
    "changeNote": "Added postal address to form. ",
-   "firstPublished": "2014-08-22T00:00:00+01:00"
+   "firstPublished": "2014-08-22T00:00:00+01:00",
+   "ai": {
+    "summary": "To incorporate a private or public company you must provide a registered office address (home address becomes public), verify your identity, and submit either an online form (£100) or paper form IN01 (£124). Paper forms need A4 printing, take longer, and may use optional continuation pages and standard nationality list.",
+    "whoAffected": "Individuals or entities registering a private or public company, including SMEs, owner‑managed businesses and self‑employed entrepreneurs.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Choose a registered office address, noting that a home address will be publicly visible",
+     "Verify your identity through the Companies House verification process",
+     "Submit the application online (pay £100) or by post using paper IN01 on A4 paper (pay £124)",
+     "If more detail is needed, add optional continuation pages and use the standard list of nationalities"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-30T18:00:42.693Z"
+   }
   },
   {
    "id": "4b8dabbef20fb890",
@@ -2470,7 +2600,22 @@
    ],
    "hasBody": true,
    "changeNote": "Postal address added to form. ",
-   "firstPublished": "2016-06-30T00:00:00+01:00"
+   "firstPublished": "2016-06-30T00:00:00+01:00",
+   "ai": {
+    "summary": "The LL PSC04 form notifies Companies House of changes to an individual PSC’s details for an LLP. Use the online service for faster processing; paper filings take longer. Entries must use the standard list of nationalities and countries.",
+    "whoAffected": "Individual persons with significant control of limited liability partnerships and their advisers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Advise client to submit changes via the online Companies House service",
+     "If using paper, warn that processing will be slower",
+     "Ensure all nationality and country entries match the official standard list",
+     "Complete and file the LL PSC04 form with Companies House"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-30T18:00:52.296Z"
+   }
   },
   {
    "id": "ead305dfe63dff7b",
@@ -2550,7 +2695,22 @@
    ],
    "hasBody": true,
    "changeNote": "Postal address added to form. ",
-   "firstPublished": "2009-10-05T00:00:00+01:00"
+   "firstPublished": "2009-10-05T00:00:00+01:00",
+   "ai": {
+    "summary": "Use this form to notify Companies House of an individual appointed as an LLP member, only if the LLP’s registered office is in Wales and it isn’t in the PROOF scheme; filing online is recommended.",
+    "whoAffected": "Limited liability partnerships appointing individual members, especially those with a Welsh registered office and not in the PROOF scheme",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the LLP’s registered office is in Wales",
+     "Check the LLP is not part of the PROOF scheme",
+     "Complete the appointment form and file it online with Companies House",
+     "Retain a copy of the filed form for records"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-30T18:01:01.165Z"
+   }
   },
   {
    "id": "5cd7f64fd5f548ec",
@@ -2598,7 +2758,22 @@
    ],
    "hasBody": true,
    "changeNote": "Postal address added to form. ",
-   "firstPublished": "2017-12-07T00:00:00+00:00"
+   "firstPublished": "2017-12-07T00:00:00+00:00",
+   "ai": {
+    "summary": "Use the appointment form for UK Societas or restoration cases, ensuring all directors verify their identity, provide their Companies House personal code, and use the approved list of nationalities/countries.",
+    "whoAffected": "Directors of UK Societas entities and parties handling restoration cases, including SME and owner‑managed business owners.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Obtain the appointment form for the UK Societas or restoration case",
+     "Verify each director’s identity and record their Companies House personal code",
+     "Enter director nationalities using the official list provided by Companies House",
+     "Check the Companies House identity verification guidance for compliance"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-30T18:01:06.980Z"
+   }
   },
   {
    "id": "5a4ab5fcb4066d01",
