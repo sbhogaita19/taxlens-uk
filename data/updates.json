@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-01T11:39:39.506Z",
+ "generatedAt": "2026-10-01T18:26:24.467Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,70 @@
    "label": "Other"
   }
  ],
- "count": 358,
+ "count": 360,
  "items": [
+  {
+   "id": "c4261d6298df3010",
+   "title": "Tell HMRC about a gift or other transfers of value in a trust (IHT100a)",
+   "url": "https://www.gov.uk/government/publications/inheritance-tax-gifts-and-other-transfers-of-value-iht100a",
+   "path": "/government/publications/inheritance-tax-gifts-and-other-transfers-of-value-iht100a",
+   "date": "2026-10-01T14:19:44Z",
+   "type": "form",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use this form to tell us that Inheritance Tax is due on a gift or other transfer of value.",
+   "categories": [
+    "iht"
+   ],
+   "hasBody": true,
+   "changeNote": "The 'Declaration' and ‘If you’re an agent’ section within 'How to fill in form IHT100a' has been updated as the page numbers are no longer required. ",
+   "firstPublished": "2014-04-04T00:00:00+01:00",
+   "ai": {
+    "summary": "Use form IHT100a to notify HMRC that Inheritance Tax is due on a trust, downloading it, opening it with the latest free Adobe Reader, completing it on‑screen and seeking support if it won’t open.",
+    "whoAffected": "Trustees and agents handling trusts for SME owners or self‑employed clients",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Download and save form IHT100a to your computer",
+     "Open the form using the latest free version of Adobe Reader",
+     "Complete the form on‑screen",
+     "If the form does not open, contact online services support"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T18:25:19.163Z"
+   }
+  },
+  {
+   "id": "b62644ad304669e8",
+   "title": "Apply for an agent services account",
+   "url": "https://www.gov.uk/guidance/apply-for-an-agent-services-account",
+   "path": "/guidance/apply-for-an-agent-services-account",
+   "date": "2026-10-01T11:46:40Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Apply for an agent services account (ASA) to register with HMRC as a tax adviser and use certain HMRC services.",
+   "categories": [
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Information has been added, telling you that HMRC may reject an application for an agent services account if you've applied for anti-money laundering supervision and it's not yet been approved. ",
+   "firstPublished": "2018-03-15T00:00:00+00:00",
+   "ai": {
+    "summary": "Tax advisers who handle other people’s tax affairs must register for an agent services account (ASA) with HMRC, providing business and personal Gateway IDs, UTR, AML supervision proof, and staff details. Applications are rejected without approved AML supervision.",
+    "whoAffected": "Tax advisers (including sole traders, partnerships or firms) who deal with HMRC on behalf of clients and receive payment for those services",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm you have approved anti‑money laundering supervision before applying",
+     "Gather required information: business and personal Government Gateway IDs, firm UTR and postcode, company and VAT numbers if any, AML supervisory body name and proof, and staff contact details",
+     "Apply for the agent services account via the Government Gateway, creating sign‑in details if needed and have each staff member create their own Gateway ID",
+     "After approval, set up client authorisations, create individual staff IDs, assign appropriate permissions and ensure you do not imply HMRC endorsement"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T18:25:22.397Z"
+   }
+  },
   {
    "id": "5deb14574606c02d",
    "title": "Insolvency (VAT Notice 700/56)",
@@ -217,7 +279,25 @@
    ],
    "hasBody": true,
    "changeNote": "References to 'Northern Ireland Protocol' have been replaced by 'Windsor Framework'.",
-   "firstPublished": "2020-12-31T23:00:00+00:00"
+   "firstPublished": "2020-12-31T23:00:00+00:00",
+   "ai": {
+    "summary": "Northern Ireland and EU businesses can claim VAT refunds on goods through the electronic cross‑border system under the Windsor Framework, provided they’re not established in the refund country and meet the eligibility rules.",
+    "whoAffected": "Businesses established in Northern Ireland or an EU member state (and their authorised agents) that have incurred VAT on goods in the other jurisdiction and have no fixed establishment, seat of economic activity or place of business in the refund country.",
+    "effectiveDate": "1 January 2021",
+    "actions": [
+     "Confirm the client is a taxable person established in NI or an EU state with a valid VAT number and no registration or fixed establishment in the refund country.",
+     "Check the claim relates only to goods, meets the minimum claim amounts (€400 for <1 year periods, €50 for full‑year periods) and falls within the 3‑month to 1‑year period limits.",
+     "Prepare the electronic claim using all mandatory standard fields and required invoice details, applying the correct expenditure codes.",
+     "Submit the completed claim by 30 September of the year following the refund period and keep supporting documentation for any queries."
+    ],
+    "legislationRefs": [
+     "Value Added Tax Act 1994, Section 39",
+     "Value Added Tax Regulations 1995 (SI 1995/2518) Part 20A"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T18:25:25.971Z"
+   }
   },
   {
    "id": "1328959c9bf5fedd",
@@ -233,7 +313,25 @@
    ],
    "hasBody": true,
    "changeNote": "The reference to the 'Northern Ireland Protocol' has been replaced with the 'Windsor Framework'.",
-   "firstPublished": "2021-06-28T00:00:00+01:00"
+   "firstPublished": "2021-06-28T00:00:00+01:00",
+   "ai": {
+    "summary": "Northern Irish businesses selling goods to EU consumers that exceed the distance‑selling threshold must account for VAT in the consumer’s country, but can use the OSS Union scheme to file a single return. Those below the UK VAT threshold must first register for UK VAT to join OSS.",
+    "whoAffected": "Businesses in Northern Ireland (including SMEs, owner‑managed firms and self‑employed) that sell goods to EU consumers, whether above or below the UK VAT registration threshold.",
+    "effectiveDate": "2026-10-01",
+    "actions": [
+     "Check eligibility: sales to EU consumers above the distance‑selling threshold and under the Windsor Framework",
+     "If turnover is below the UK VAT threshold, register for UK VAT and select activity code 63990 when registering",
+     "Register for the OSS Union scheme and complete the OSS return",
+     "Keep all required records for 10 years and submit OSS returns and payments as required"
+    ],
+    "legislationRefs": [
+     "Windsor Framework",
+     "63990 Distance sales of goods (below UK VAT threshold)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T18:25:29.796Z"
+   }
   },
   {
    "id": "7239dd64dd1fa5cb",
@@ -312,7 +410,22 @@
    ],
    "hasBody": true,
    "changeNote": "The 'Declaration' section of 'How to fill in form IHT100h' has been updated.",
-   "firstPublished": "2024-08-12T00:00:00+01:00"
+   "firstPublished": "2024-08-12T00:00:00+01:00",
+   "ai": {
+    "summary": "Use form IHT100h to report Inheritance Tax due on an ‘18 to 25’ trust, downloading it, opening with Adobe Reader, completing on‑screen, and seeking support if it won’t open.",
+    "whoAffected": "Anyone who needs to report Inheritance Tax due on an ‘18 to 25’ trust",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Download and save form IHT100h",
+     "Open the form with the latest free version of Adobe Reader",
+     "Complete the form on‑screen",
+     "If the form won’t open, contact online services support or read the accessibility statement"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T18:25:36.570Z"
+   }
   },
   {
    "id": "280594d00bb3e5d7",
@@ -2089,7 +2202,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-14T11:07:36+01:00"
+   "firstPublished": "2026-09-14T11:07:36+01:00",
+   "ai": {
+    "summary": "HMRC urges all adults, especially 45‑54‑year‑olds, to use the free HMRC app during Pension Awareness Week (15‑18 Sept 2026) to check their State Pension forecast, view NI gaps and top‑up contributions, and consult the Tax Confident site for retirement tax advice.",
+    "whoAffected": "All UK adults, particularly 45‑54‑year‑olds, including employees, self‑employed and owners of SMEs",
+    "effectiveDate": "15 September 2026",
+    "actions": [
+     "Notify clients of Pension Awareness Week (15‑18 Sept 2026) and the need to check their State Pension forecast",
+     "Help clients download and access the free HMRC app to view their forecast and NI record",
+     "Identify any NI gaps and advise on eligible top‑up contributions",
+     "Refer clients to HMRC’s Tax Confident website for retirement tax guidance"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T18:25:41.280Z"
+   }
   },
   {
    "id": "a588d0292cc649a3",
@@ -2602,7 +2730,22 @@
    ],
    "hasBody": true,
    "changeNote": "Added Welsh translation.",
-   "firstPublished": "2014-04-04T00:00:00+01:00"
+   "firstPublished": "2014-04-04T00:00:00+01:00",
+   "ai": {
+    "summary": "Use form IHT100c to notify HMRC that inheritance tax is due on a trust exit; download, open with Adobe Reader, complete on-screen, and contact support if it won’t open.",
+    "whoAffected": "Trustees of discretionary trusts and their advisers (including accountants)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Download the IHT100c form to your computer",
+     "Open the form using Adobe Reader (not a web browser)",
+     "Complete the form on‑screen and save it",
+     "If the form won’t open, contact online services support"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T18:25:51.390Z"
+   }
   },
   {
    "id": "a423b59a96a2bf7a",
@@ -2651,7 +2794,22 @@
    ],
    "hasBody": true,
    "changeNote": "Guidance about how you can use the HMRC app to manage your information, taxes and benefits has been added.",
-   "firstPublished": "2022-11-04T00:00:00+00:00"
+   "firstPublished": "2022-11-04T00:00:00+00:00",
+   "ai": {
+    "summary": "The HMRC app for iOS and Android lets users sign in with a PIN, fingerprint or facial recognition to view and update personal details, check tax codes, UTRs, NI records, make payments, set reminders, claim refunds and manage benefits like State Pension and Child Benefit.",
+    "whoAffected": "Individuals, including self‑employed persons and owners of small or medium enterprises who need to manage their tax, National Insurance and benefit information via HMRC online services.",
+    "effectiveDate": "2026-09-07",
+    "actions": [
+     "Advise clients to download the HMRC app and sign in using their existing HMRC online credentials or create new ones in the app",
+     "Encourage clients to update their name, address and contact preferences through the app’s Manage your information section",
+     "Show clients how to check tax codes, UTRs, NI gaps and make payments or set payment reminders via the app",
+     "Guide clients to use the app to claim refunds, manage benefits such as Child Benefit and view their State Pension summary"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T18:25:54.095Z"
+   }
   },
   {
    "id": "e26966f588900696",
@@ -2833,7 +2991,22 @@
    ],
    "hasBody": true,
    "changeNote": "An updated version of the 'Inheritance Tax account calculation (IHT400 calculation)' has been added.",
-   "firstPublished": "2014-04-04T00:00:00+01:00"
+   "firstPublished": "2014-04-04T00:00:00+01:00",
+   "ai": {
+    "summary": "Complete the interactive IHT400 form (with Adobe Reader) for any estate that owes Inheritance Tax or isn’t an excepted estate, using the supporting IHT401‑IHT436 forms.",
+    "whoAffected": "Executors or personal representatives handling a deceased’s estate that is not an ‘excepted estate’ or has Inheritance Tax to pay",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm whether the estate is an excepted estate or has IHT due",
+     "Collect all required estate information before starting the form",
+     "Fill out the interactive IHT400 (and any needed IHT401‑IHT436 supplementary forms) using Adobe Reader",
+     "Submit the completed form and seek online services support if the form won’t open"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T18:25:58.338Z"
+   }
   },
   {
    "id": "0340daa9eb2e019b",
@@ -3070,7 +3243,22 @@
    ],
    "hasBody": true,
    "changeNote": "Postal address added to form. ",
-   "firstPublished": "2010-05-03T00:00:00+01:00"
+   "firstPublished": "2010-05-03T00:00:00+01:00",
+   "ai": {
+    "summary": "Use form AP01c to appoint a director for companies registered in Wales; file online where possible, especially if in the PROOF scheme, and print on full‑size A4 if using paper. Chrome may not display checkboxes correctly.",
+    "whoAffected": "Companies whose jurisdiction is Wales",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the client’s company jurisdiction is Wales",
+     "Complete form AP01c and file it online if possible",
+     "If the company is in the PROOF scheme, file the form online as required",
+     "If filing on paper, print the form full‑size on white A4 and advise Chrome users to use another browser"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T18:26:08.038Z"
+   }
   },
   {
    "id": "42ef706382a03fd2",
@@ -3182,7 +3370,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-01T10:30:00+01:00"
+   "firstPublished": "2026-09-01T10:30:00+01:00",
+   "ai": {
+    "summary": "From 1 December 2026 objections to a limited company’s strike‑off must be filed via the Companies House “Make an objection” online service; email objections will no longer be accepted.",
+    "whoAffected": "Limited companies being struck off and anyone who needs to lodge an objection (e.g., directors, shareholders, creditors)",
+    "effectiveDate": "1 December 2026",
+    "actions": [
+     "Create a Companies House online account for the client",
+     "Gather the company name and registration number",
+     "Collect and prepare any supporting documents",
+     "Submit the objection through the Make an objection online service"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T18:26:17.374Z"
+   }
   },
   {
    "id": "f24f5d49bdb1e49e",
@@ -3216,7 +3419,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-08-28T10:44:09+01:00"
+   "firstPublished": "2026-08-28T10:44:09+01:00",
+   "ai": {
+    "summary": "HMRC’s newsletter updates software developers on Making Tax Digital for Income Tax, covering recent changes, service performance and required developer actions, with the next edition due September 2026.",
+    "whoAffected": "Software developers creating MTD for Income Tax solutions",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the upcoming September 2026 edition",
+     "Review any service performance updates provided",
+     "Implement any developer actions outlined by HMRC",
+     "Stay informed of changes affecting MTD software"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T18:26:21.409Z"
+   }
   },
   {
    "id": "e615591039bac664",
