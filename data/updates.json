@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-09-30T18:01:08.480Z",
+ "generatedAt": "2026-10-01T11:39:39.506Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,298 @@
    "label": "Other"
   }
  ],
- "count": 349,
+ "count": 358,
  "items": [
+  {
+   "id": "5deb14574606c02d",
+   "title": "Insolvency (VAT Notice 700/56)",
+   "url": "https://www.gov.uk/guidance/insolvency-and-vat-notice-70056",
+   "path": "/guidance/insolvency-and-vat-notice-70056",
+   "date": "2026-10-01T10:59:14Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how to account for VAT and who to contact if you're an insolvency practitioner and you're appointed over insolvent VAT-registered businesses.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "The information in sections 3, 5, 10, 15, 17, 18 and 23 has been removed and replaced with links to the relevant sections of the Insolvency practitioner's handbook. ",
+   "firstPublished": "2014-04-01T00:00:00+01:00",
+   "ai": {
+    "summary": "The notice directs insolvency practitioners to the Insolvency practitioner’s handbook for handling VAT matters in insolvency, covering notifications, claims, returns, registration cancellation, dividend payments, post‑bankruptcy VAT responsibilities, cash‑accounting adjustments and Crown set‑off rules.",
+    "whoAffected": "Insolvency practitioners, bankrupt individuals, companies in administration, voluntary arrangements, trust deeds, and any SME or owner‑managed business facing insolvency",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Refer clients to the Insolvency practitioner’s handbook sections for notifications, claims, returns and registration cancellation",
+     "Ensure dividend payments use the correct 13‑character reference and follow the specified bank details",
+     "Advise bankrupt traders to continue filing VAT returns for post‑bankruptcy periods and not include pre‑bankruptcy tax on those returns",
+     "Check eligibility for cash‑accounting and apply the post‑insolvency adjustment as required"
+    ],
+    "legislationRefs": [
+     "Cash Accounting Scheme (Notice 731)",
+     "VAT Notice 700"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T11:38:38.320Z"
+   }
+  },
+  {
+   "id": "080ba8a87ff0d2c9",
+   "title": "HMRC email updates, videos and webinars for Self Assessment",
+   "url": "https://www.gov.uk/guidance/help-and-support-for-self-assessment",
+   "path": "/guidance/help-and-support-for-self-assessment",
+   "date": "2026-10-01T10:46:06Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Learn more about getting started with Self Assessment including registration, tax returns, tax bills and payments.",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "Live webinar links have been added for 'New to Self Assessment — an introduction' and 'New to Self Assessment — records, budgeting and payments'. A new video link for 'Check if you need to pay tax on your cryptoassets' has been added.",
+   "firstPublished": "2017-09-06T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC provides email updates, webinars and videos covering all aspects of Self Assessment, from registration to filing, payments, and specific sections like self‑employment, property and foreign income. New live webinar links and a crypto‑assets video have been added.",
+    "whoAffected": "Self‑employed individuals, small business owners and anyone filing a Self Assessment tax return",
+    "effectiveDate": "2026-10-01",
+    "actions": [
+     "Advise clients to subscribe to the HMRC help and support email service for updates",
+     "Recommend relevant live or recorded webinars based on the client’s situation (e.g., self‑employment, property, foreign income)",
+     "Direct clients to specific YouTube videos that explain registration, budgeting, filing and payment processes",
+     "Assist clients in setting up budgeting or payment plans using the guidance videos and HMRC app"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T11:38:41.441Z"
+   }
+  },
+  {
+   "id": "bfa84de5ca8cd59b",
+   "title": "Claim a tax refund on your pension by post",
+   "url": "https://www.gov.uk/guidance/claim-a-tax-refund-on-your-pension-by-post",
+   "path": "/guidance/claim-a-tax-refund-on-your-pension-by-post",
+   "date": "2026-10-01T09:13:00Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how to claim a tax refund on an additional lump sum or cash payment your private pension.",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-01T10:13:00+01:00",
+   "ai": {
+    "summary": "If you’ve overpaid tax on a private pension lump sum or cash payment, you can claim a refund by selecting the correct HMRC form, completing it by hand and posting it. HMRC will then repay any due amount via Faster Payments.",
+    "whoAffected": "Individuals who have received a pension lump sum or cash payment and may have paid too much tax, including those who have stopped work or flexibly accessed their pension",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Use the online tool or guidance to identify the correct form (e.g., P50Z, P53, P55) for the client’s pension payment type",
+     "Print the identified form",
+     "Complete the form by hand with the client’s details and tax information",
+     "Post the completed form to the HMRC address shown on the form"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T11:38:44.431Z"
+   }
+  },
+  {
+   "id": "0e0fc7458e9b9ae8",
+   "title": "Changes to accounting for VAT for Northern Ireland and Great Britain from 1 January 2021",
+   "url": "https://www.gov.uk/government/publications/accounting-for-vat-on-goods-moving-between-great-britain-and-northern-ireland-from-1-january-2021",
+   "path": "/government/publications/accounting-for-vat-on-goods-moving-between-great-britain-and-northern-ireland-from-1-january-2021",
+   "date": "2026-10-01T09:00:02Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "This guidance gives information about when you can, or need to, account for VAT on your tax return if you're a UK VAT-registered business.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "References to the 'Northern Ireland Protocol' have been removed and replaced with the 'Windsor Framework'.",
+   "firstPublished": "2020-10-26T00:00:00+00:00",
+   "ai": {
+    "summary": "The Windsor Framework keeps Northern Ireland aligned with EU VAT rules for goods while remaining in the UK VAT system, including services, with HMRC still collecting revenues.",
+    "whoAffected": "UK VAT‑registered businesses, including SMEs, owner‑managed firms and the self‑employed, that trade goods to, from or within Northern Ireland or provide services involving Northern Ireland",
+    "effectiveDate": "1 January 2021",
+    "actions": [
+     "Check client VAT accounting for goods moving to, from or within Northern Ireland follows the EU‑aligned administrative processes",
+     "Confirm that services transactions with Northern Ireland are treated as UK VAT transactions",
+     "Update client guidance and VAT return templates to reflect the continued UK alignment and HMRC collection role",
+     "Notify clients of the change from the Northern Ireland Protocol to the Windsor Framework and its impact on VAT accounting"
+    ],
+    "legislationRefs": [
+     "Windsor Framework"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T11:38:47.461Z"
+   }
+  },
+  {
+   "id": "f94bb2dac9ba31fc",
+   "title": "Claim VAT refunds in Northern Ireland or the EU, if you’re established in Northern Ireland or in the EU",
+   "url": "https://www.gov.uk/guidance/claim-vat-refunds-in-northern-ireland-or-the-eu-if-youre-established-in-northern-ireland-or-in-the-eu",
+   "path": "/guidance/claim-vat-refunds-in-northern-ireland-or-the-eu-if-youre-established-in-northern-ireland-or-in-the-eu",
+   "date": "2026-10-01T09:00:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how Northern Ireland and EU businesses can claim refunds of VAT incurred on goods in the EU and Northern Ireland using the EU VAT refund system.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "References to 'Northern Ireland Protocol' have been replaced by 'Windsor Framework'.",
+   "firstPublished": "2020-12-31T23:00:00+00:00"
+  },
+  {
+   "id": "1328959c9bf5fedd",
+   "title": "Check how to report and pay VAT on distance sales of goods from Northern Ireland to the EU",
+   "url": "https://www.gov.uk/guidance/check-how-to-report-and-pay-vat-on-distance-sales-of-goods-from-northern-ireland-to-the-eu",
+   "path": "/guidance/check-how-to-report-and-pay-vat-on-distance-sales-of-goods-from-northern-ireland-to-the-eu",
+   "date": "2026-10-01T09:00:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to report and pay VAT due on the distance sales of goods from Northern Ireland to consumers in the EU using the One Stop Shop (OSS) Union scheme.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "The reference to the 'Northern Ireland Protocol' has been replaced with the 'Windsor Framework'.",
+   "firstPublished": "2021-06-28T00:00:00+01:00"
+  },
+  {
+   "id": "7239dd64dd1fa5cb",
+   "title": "VAT on movements of goods between Northern Ireland and the EU",
+   "url": "https://www.gov.uk/guidance/vat-on-movements-of-goods-between-northern-ireland-and-the-eu",
+   "path": "/guidance/vat-on-movements-of-goods-between-northern-ireland-and-the-eu",
+   "date": "2026-10-01T09:00:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to charge and account for VAT on the movement of goods between Northern Ireland and EU member states (VAT Notice 725).",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "References to the 'Northern Ireland Protocol' have been removed and replaced with the 'Windsor Framework'.",
+   "firstPublished": "2020-12-31T00:00:00+00:00"
+  },
+  {
+   "id": "d05959faa324fae3",
+   "title": "Refunds of UK VAT for non-UK businesses (VAT Notice 723A)",
+   "url": "https://www.gov.uk/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
+   "path": "/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
+   "date": "2026-10-01T09:00:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to claim a VAT refund in the UK if you're established outside the UK.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "The reference to the 'Northern Ireland Protocol' has been replaced with the 'Windsor Framework'.",
+   "firstPublished": "2020-12-31T00:00:00+00:00"
+  },
+  {
+   "id": "9074b56024019826",
+   "title": "Inheritance Tax: claim for relief — loss on sale of land (IHT38)",
+   "url": "https://www.gov.uk/government/publications/inheritance-tax-claim-for-relief-loss-on-sale-of-land-iht38",
+   "path": "/government/publications/inheritance-tax-claim-for-relief-loss-on-sale-of-land-iht38",
+   "date": "2026-10-01T08:45:12Z",
+   "type": "form",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use form IHT38 to claim relief on Inheritance Tax if you sell land or buildings from the deceased’s estate at a loss.\r\n\r\n",
+   "categories": [
+    "iht"
+   ],
+   "hasBody": true,
+   "changeNote": "Details on when to use the form IHT38 have been updated. ",
+   "firstPublished": "2014-04-04T01:00:00+01:00",
+   "ai": {
+    "summary": "Use form IHT38 to claim Inheritance Tax relief when land or buildings from a deceased’s estate are sold at a loss, provided the sale occurs within the permitted period (usually 3 years, up to 4 years in some cases) and the claim is made by the person liable for the tax.",
+    "whoAffected": "The person liable for the Inheritance Tax on the property (e.g., executor or administrator of the deceased’s estate)",
+    "effectiveDate": "2026-10-01",
+    "actions": [
+     "Identify any qualifying loss sale of land or buildings within the permitted period after death",
+     "Confirm who is liable for the Inheritance Tax on the property",
+     "Complete form IHT38 with the required details",
+     "Submit the IHT38 claim to HMRC within the applicable time limit"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T11:38:57.263Z"
+   }
+  },
+  {
+   "id": "170a0170b737952c",
+   "title": "Tell HMRC about assets previously held in an ‘18 to 25’ trust (IHT100h)",
+   "url": "https://www.gov.uk/government/publications/tell-hmrc-about-assets-previously-held-in-an-18-to-25-trust-iht100h",
+   "path": "/government/publications/tell-hmrc-about-assets-previously-held-in-an-18-to-25-trust-iht100h",
+   "date": "2026-10-01T08:08:27Z",
+   "type": "form",
+   "source": "HMRC (GOV.UK)",
+   "description": "Report Inheritance Tax due on assets that have stopped being held in an ‘18 to 25’ trust using form IHT100h. ",
+   "categories": [
+    "iht"
+   ],
+   "hasBody": true,
+   "changeNote": "The 'Declaration' section of 'How to fill in form IHT100h' has been updated.",
+   "firstPublished": "2024-08-12T00:00:00+01:00"
+  },
+  {
+   "id": "280594d00bb3e5d7",
+   "title": "Check the recognised overseas pension schemes notification list",
+   "url": "https://www.gov.uk/guidance/check-the-recognised-overseas-pension-schemes-notification-list",
+   "path": "/guidance/check-the-recognised-overseas-pension-schemes-notification-list",
+   "date": "2026-10-01T08:00:04Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find schemes that have told HMRC they meet the conditions to be a recognised overseas pension scheme (ROPS).",
+   "categories": [
+    "personal",
+    "pensions"
+   ],
+   "hasBody": true,
+   "changeNote": "The recognised overseas pension schemes notification list has been updated with 46 schemes added and 7 schemes removed.",
+   "firstPublished": "2018-06-15T00:00:00+01:00"
+  },
+  {
+   "id": "5520b211dbdc4812",
+   "title": "Tell HMRC about the end of a qualifying interest in possession because someone has died (IHT100b (death))",
+   "url": "https://www.gov.uk/government/publications/tell-hmrc-about-the-end-of-a-qualifying-interest-in-possession-because-someone-has-died-iht100b-death",
+   "path": "/government/publications/tell-hmrc-about-the-end-of-a-qualifying-interest-in-possession-because-someone-has-died-iht100b-death",
+   "date": "2026-10-01T07:55:23Z",
+   "type": "form",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use this form to tell us that a beneficiary's qualifying interest in possession in a trust has come to an end due to their death and Inheritance Tax is due.",
+   "categories": [
+    "iht"
+   ],
+   "hasBody": true,
+   "changeNote": "The declaration section wording has been updated to remove page specific references and clarify the statements that agents and trustees must provide.",
+   "firstPublished": "2024-08-12T00:00:00+01:00",
+   "ai": {
+    "summary": "Use form IHT100b (death) to notify HMRC that Inheritance Tax is due when a beneficiary’s qualifying interest in possession ends because of death, by downloading, opening in Adobe Reader and completing it on‑screen.",
+    "whoAffected": "Beneficiaries whose qualifying interest in possession in a trust ends on death and the trustees/agents responsible for the trust",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Download form IHT100b (death) and save it to your computer",
+     "Open the saved form using the latest free version of Adobe Reader",
+     "Complete the form on‑screen",
+     "If the form will not open, contact online services support for assistance"
+    ],
+    "legislationRefs": [
+     "form IHT100b (death)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T11:39:03.353Z"
+   }
+  },
   {
    "id": "01d931c894f4ecc4",
    "title": "Edition 7: Making Tax Digital for Income Tax — software developer newsletter",
@@ -1772,38 +2062,6 @@
    }
   },
   {
-   "id": "280594d00bb3e5d7",
-   "title": "Check the recognised overseas pension schemes notification list",
-   "url": "https://www.gov.uk/guidance/check-the-recognised-overseas-pension-schemes-notification-list",
-   "path": "/guidance/check-the-recognised-overseas-pension-schemes-notification-list",
-   "date": "2026-09-15T08:00:05Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find schemes that have told HMRC they meet the conditions to be a recognised overseas pension scheme (ROPS).",
-   "categories": [
-    "personal",
-    "pensions"
-   ],
-   "hasBody": true,
-   "changeNote": "The recognised overseas pension schemes notification list has been updated with 29 schemes added and 10 schemes removed.",
-   "firstPublished": "2018-06-15T00:00:00+01:00",
-   "ai": {
-    "summary": "HMRC publishes a recognised overseas pension schemes (ROPS) list twice monthly. Inclusion doesn’t guarantee tax‑free transfers; advisers must confirm tax liability and potential penalties. The list can be updated at short notice, and HMRC may pursue charges for non‑ROPS transfers.",
-    "whoAffected": "SME owners, self‑employed individuals and other clients planning to transfer UK pension savings to an overseas scheme",
-    "effectiveDate": "Published on the 1st and 15th of each month (or the next working day if the date falls on a weekend or UK public holiday)",
-    "actions": [
-     "Check the latest ROPS list on HMRC’s website before recommending any overseas pension transfer",
-     "Confirm with the client that tax may still be due even if the scheme appears on the list",
-     "Advise clients to obtain professional advice from a regulated financial adviser regarding ROPS compliance",
-     "Monitor the HMRC list for short‑notice updates and inform clients of any removals or changes"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-30T18:00:19.061Z"
-   }
-  },
-  {
    "id": "72e5deeacf6a7dc3",
    "title": "The Finance Act 2026 (Scottish and Welsh Property Income Rates) (Appointed Day and Tax Year) Regulations 2026",
    "url": "https://www.legislation.gov.uk/id/uksi/2026/1023",
@@ -1960,6 +2218,37 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-09-29T13:55:14.096Z"
+   }
+  },
+  {
+   "id": "5cdc2b357de0354f",
+   "title": "Visitor levy in England",
+   "url": "https://www.gov.uk/government/consultations/overnight-visitor-levy-in-england",
+   "path": "/government/consultations/overnight-visitor-levy-in-england",
+   "date": "2026-09-10T11:30:05Z",
+   "type": "consultation_outcome",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "This consultation seeks views on the design of a new Mayoral power to create visitor levies on overnight stays in England.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "Government response to the consultation added.",
+   "firstPublished": "2025-11-26T13:41:31+00:00",
+   "ai": {
+    "summary": "The government proposes giving Mayoral Strategic Authorities in England power to introduce local overnight visitor levies, with consultation on extending this to Foundation Strategic Authorities, revenue use, covered accommodation types, rate calculation, liability, administration and equality impacts.",
+    "whoAffected": "Mayoral Strategic Authorities, Foundation Strategic Authorities, owners of accommodation businesses (e.g., hotels, B&Bs), and overnight visitors in England",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the consultation and note any upcoming legislative changes",
+     "Advise accommodation‑based SME clients on potential levy exposure and budgeting",
+     "Help clients develop systems to assess liability and record levy payments",
+     "Prepare guidance on how levy revenues might be used and any equality considerations"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T11:39:12.086Z"
    }
   },
   {
@@ -2168,22 +2457,6 @@
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-09-29T13:58:30.155Z"
    }
-  },
-  {
-   "id": "d05959faa324fae3",
-   "title": "Refunds of UK VAT for non-UK businesses (VAT Notice 723A)",
-   "url": "https://www.gov.uk/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
-   "path": "/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
-   "date": "2026-09-08T15:34:33Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to claim a VAT refund in the UK if you're established outside the UK.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "Sections ‘1.2 Laws that cover this notice’, ‘2.6 VAT groups’, ‘2.10.3 Postal claims’, ‘2.12.1 Certificate proving your business activity’ and ‘2.12.2 Submitting an electronic certificate’ have been updated with the change in HMRC's policy position in relation to VAT grouping.",
-   "firstPublished": "2020-12-31T00:00:00+00:00"
   },
   {
    "id": "e718d7e53ff3576d",
@@ -2425,7 +2698,22 @@
    ],
    "hasBody": true,
    "changeNote": "Added postal address to form. ",
-   "firstPublished": "2014-10-06T00:00:00+01:00"
+   "firstPublished": "2014-10-06T00:00:00+01:00",
+   "ai": {
+    "summary": "Use form SE CV01 to convert an existing UK societas (UKS) into a public limited company, paying a £124 fee to Companies House and using the approved list of nationalities and countries on the form.",
+    "whoAffected": "Owners or directors of a UK societas (UKS) who wish to become a public limited company (PLC)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Obtain form SE CV01",
+     "Complete the form using the standard list of nationalities and countries",
+     "Prepare a £124 cheque or postal order payable to Companies House",
+     "Submit the completed form and payment to Companies House"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T11:39:20.453Z"
+   }
   },
   {
    "id": "1a013948cae0859e",
@@ -2519,7 +2807,17 @@
    ],
    "hasBody": true,
    "changeNote": "The ‘Alternative dispute resolution — CC/FS21’ factsheet has been updated with revised guidance on when to apply for Alternative Dispute Resolution (ADR), how to apply, the types of disputes suitable for ADR and what to expect during the ADR process.",
-   "firstPublished": "2014-10-14T00:00:00+01:00"
+   "firstPublished": "2014-10-14T00:00:00+01:00",
+   "ai": {
+    "summary": "The factsheet outlines guidance on using alternative dispute resolution for compliance‑check disputes, but the source provides no specific details.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T11:39:24.418Z"
+   }
   },
   {
    "id": "d4a3e85b0df968be",
@@ -2631,7 +2929,22 @@
    ],
    "hasBody": true,
    "changeNote": "Postal address added to form.",
-   "firstPublished": "2017-07-26T00:00:00+01:00"
+   "firstPublished": "2017-07-26T00:00:00+01:00",
+   "ai": {
+    "summary": "Use the PSC04c form to notify Companies House of any change to an individual person with significant control’s details; the form must be printed full‑size on white A4 paper.",
+    "whoAffected": "Companies that have an individual person with significant control (PSC).",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify the change to the PSC’s details",
+     "Complete the PSC04c form with the updated information",
+     "Print the form at full size on white A4 paper",
+     "Submit the form to Companies House"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T11:39:30.374Z"
+   }
   },
   {
    "id": "36c552b5accd2617",
@@ -2679,7 +2992,22 @@
    ],
    "hasBody": true,
    "changeNote": "Postal address added to form. ",
-   "firstPublished": "2016-06-30T00:00:00+01:00"
+   "firstPublished": "2016-06-30T00:00:00+01:00",
+   "ai": {
+    "summary": "Use the PSC01 form to notify Companies House of an individual with significant control, preferably online, ensuring the PSC verifies identity, provides a personal code, and uses the official nationality list; paper forms must be full‑size A4 and take longer to process.",
+    "whoAffected": "Companies that have an individual person with significant control and the PSCs themselves",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Advise client to submit the PSC01 via the online service for quicker processing",
+     "If submitting by post, print the form on full‑size white A4 paper",
+     "Ensure the PSC verifies their identity and provides their Companies House personal code within the required period",
+     "Use the official list of nationalities and countries to complete the form accurately"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T11:39:36.464Z"
+   }
   },
   {
    "id": "60581a00797afc99",
@@ -3510,22 +3838,6 @@
    "hasBody": true,
    "changeNote": "First published.",
    "firstPublished": "2026-08-04T09:30:04+01:00"
-  },
-  {
-   "id": "5deb14574606c02d",
-   "title": "Insolvency (VAT Notice 700/56)",
-   "url": "https://www.gov.uk/guidance/insolvency-and-vat-notice-70056",
-   "path": "/guidance/insolvency-and-vat-notice-70056",
-   "date": "2026-08-03T10:57:24Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out how to account for VAT and who to contact if you're an insolvency practitioner and you're appointed over insolvent VAT-registered businesses.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "The information in section 7 for 'Post VAT registration cancellation' has been removed and replaced with a link to section 7 of the Insolvency practitioner's handbook.",
-   "firstPublished": "2014-04-01T00:00:00+01:00"
   },
   {
    "id": "d56b43d517c6d2e2",
@@ -4410,22 +4722,6 @@
    ]
   },
   {
-   "id": "080ba8a87ff0d2c9",
-   "title": "HMRC email updates, videos and webinars for Self Assessment",
-   "url": "https://www.gov.uk/guidance/help-and-support-for-self-assessment",
-   "path": "/guidance/help-and-support-for-self-assessment",
-   "date": "2026-07-08T11:48:19Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Learn more about getting started with Self Assessment including registration, tax returns, tax bills and payments.",
-   "categories": [
-    "personal"
-   ],
-   "hasBody": true,
-   "changeNote": "The capital versus revenue expenditure toolkit link has been updated.\r\n\r\n",
-   "firstPublished": "2017-09-06T00:00:00+01:00"
-  },
-  {
    "id": "e39630368c478354",
    "title": "Completing the CT600P page for creative industries reliefs",
    "url": "https://www.gov.uk/guidance/completing-the-ct600p-page-for-creative-industries-reliefs",
@@ -4662,23 +4958,6 @@
    "firstPublished": "2026-06-23T14:18:33+01:00"
   },
   {
-   "id": "d1ee3ea3722747ef",
-   "title": "Electronic Sales Suppression: Introduction of software standards",
-   "url": "https://www.gov.uk/government/consultations/electronic-sales-suppression-introduction-of-software-standards",
-   "path": "/government/consultations/electronic-sales-suppression-introduction-of-software-standards",
-   "date": "2026-06-23T13:18:00Z",
-   "type": "closed_consultation",
-   "source": "HMRC (GOV.UK)",
-   "description": "HMRC is seeking views on proposed software standards to prevent electronic sales suppression and help ensure businesses report sales accurately.",
-   "categories": [
-    "compliance",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-06-23T14:18:28+01:00"
-  },
-  {
    "id": "8ad652009c3adacf",
    "title": "VAT treatment of land for social housing",
    "url": "https://www.gov.uk/government/consultations/vat-treatment-of-land-for-social-housing",
@@ -4694,6 +4973,23 @@
    "hasBody": true,
    "changeNote": "First published.",
    "firstPublished": "2026-06-23T14:18:18+01:00"
+  },
+  {
+   "id": "d1ee3ea3722747ef",
+   "title": "Electronic Sales Suppression: Introduction of software standards",
+   "url": "https://www.gov.uk/government/consultations/electronic-sales-suppression-introduction-of-software-standards",
+   "path": "/government/consultations/electronic-sales-suppression-introduction-of-software-standards",
+   "date": "2026-06-23T13:18:00Z",
+   "type": "closed_consultation",
+   "source": "HMRC (GOV.UK)",
+   "description": "HMRC is seeking views on proposed software standards to prevent electronic sales suppression and help ensure businesses report sales accurately.",
+   "categories": [
+    "compliance",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-06-23T14:18:28+01:00"
   },
   {
    "id": "2d06f9999393be31",
