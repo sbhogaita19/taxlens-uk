@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-01T18:26:24.467Z",
+ "generatedAt": "2026-10-02T11:08:42.835Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -347,7 +347,32 @@
    ],
    "hasBody": true,
    "changeNote": "References to the 'Northern Ireland Protocol' have been removed and replaced with the 'Windsor Framework'.",
-   "firstPublished": "2020-12-31T00:00:00+00:00"
+   "firstPublished": "2020-12-31T00:00:00+00:00",
+   "ai": {
+    "summary": "The notice explains how VAT is charged and accounted for on goods moving between Northern Ireland and EU states under the Windsor Framework, including zero‑rating on dispatch, acquisition VAT by the customer, reporting requirements and special rules for own‑goods transfers and Intrastat.",
+    "whoAffected": "Businesses that move goods between Northern Ireland and EU member states, including SMEs, owner‑managed firms and self‑employed traders.",
+    "effectiveDate": "1 July 2021 (distance‑selling changes) and 1 January 2023 (VAT interest changes)",
+    "actions": [
+     "Determine if the client supplies goods to VAT‑registered customers in the EU and apply the zero‑rate on dispatch from NI",
+     "Ensure the EU customer accounts for acquisition VAT on their return",
+     "Include the supplies on the client’s VAT return, EC Sales List and Intrastat filings using the correct tax point",
+     "If the client’s EU trade exceeds the Intrastat threshold, complete Supplementary Declarations"
+    ],
+    "legislationRefs": [
+     "Value Added Tax Act 1994, Schedules 9ZA and 9ZD",
+     "VAT Regulations (Statutory Instrument 1995/2518)",
+     "Principal VAT Directive (2006/112)",
+     "Notice 725",
+     "Notice 702",
+     "Notice 703",
+     "Notice 741A",
+     "Notice 700",
+     "Notice 706"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-02T11:07:46.534Z"
+   }
   },
   {
    "id": "d05959faa324fae3",
@@ -363,7 +388,26 @@
    ],
    "hasBody": true,
    "changeNote": "The reference to the 'Northern Ireland Protocol' has been replaced with the 'Windsor Framework'.",
-   "firstPublished": "2020-12-31T00:00:00+00:00"
+   "firstPublished": "2020-12-31T00:00:00+00:00",
+   "ai": {
+    "summary": "The notice sets out how non‑UK businesses that are not VAT‑registered in the UK and have no UK presence can reclaim UK VAT on imports and UK‑based purchases, detailing eligibility, claimable items, minimum amounts, deadlines and electronic or postal submission procedures.",
+    "whoAffected": "Businesses established outside the UK (including EU businesses) that are not registered, liable or eligible for UK VAT and have no UK place of business or supplies, as well as UK/Isle of Man businesses seeking refunds of VAT incurred abroad.",
+    "effectiveDate": "1 January 2021",
+    "actions": [
+     "Confirm the client meets the eligibility criteria (no UK VAT registration, no UK place of business, and their home country offers a similar refund scheme).",
+     "Collect the required documents: VAT65A form, certificate of status, original invoices and any supporting evidence.",
+     "If using electronic filing, register for HMRC’s Secure Data Exchange Service (SDES) by emailing the Overseas Repayment Unit before 30 November to meet the 31 December claim deadline.",
+     "Submit the claim (electronically via SDES or by post) by 31 December of the prescribed year and retain all original documents for HMRC inspection."
+    ],
+    "legislationRefs": [
+     "Value Added Tax Act 1994, Section 39",
+     "Value Added Tax Regulations 1995 (SI 1995/2518) Parts 20A and XXI",
+     "Schedule 9 to the Value Added Tax Act 1994"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-02T11:07:50.160Z"
+   }
   },
   {
    "id": "9074b56024019826",
@@ -442,7 +486,22 @@
    ],
    "hasBody": true,
    "changeNote": "The recognised overseas pension schemes notification list has been updated with 46 schemes added and 7 schemes removed.",
-   "firstPublished": "2018-06-15T00:00:00+01:00"
+   "firstPublished": "2018-06-15T00:00:00+01:00",
+   "ai": {
+    "summary": "The HMRC list of recognised overseas pension schemes (ROPS) is published on the 1st and 15th of each month (or the next working day). Inclusion does not guarantee tax‑free transfers; advisers must confirm any UK tax liability before recommending a transfer.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals considering transferring UK pension savings to an overseas scheme",
+    "effectiveDate": "Published on the 1st and 15th day of each month (or the next working day if the date falls on a weekend or UK public holiday)",
+    "actions": [
+     "Check the latest ROPS list on each publication date before advising any overseas pension transfer",
+     "Confirm with the client that HMRC does not guarantee tax‑free status and assess any UK tax charge that may arise",
+     "Advise the client to obtain suitable professional advice from a regulated financial adviser",
+     "Monitor the list for short‑notice removals or updates and inform clients promptly"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-02T11:07:53.124Z"
+   }
   },
   {
    "id": "5520b211dbdc4812",
@@ -3133,7 +3192,22 @@
    ],
    "hasBody": true,
    "changeNote": "Postal address added to form. ",
-   "firstPublished": "2016-06-30T00:00:00+01:00"
+   "firstPublished": "2016-06-30T00:00:00+01:00",
+   "ai": {
+    "summary": "Use this form to notify Companies House of a change of details for an individual person with significant control; online updates are faster, paper forms take longer and must be printed on A4 white paper using the standard nationality list.",
+    "whoAffected": "Individual persons with significant control of companies",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Advise client to use the online service for quickest PSC updates",
+     "If using paper, print the form on full‑size white A4 paper",
+     "Tell client paper submissions take longer to process",
+     "Ensure entries use the standard list of nationalities and countries"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-02T11:08:05.013Z"
+   }
   },
   {
    "id": "aac7c79fd5179d6b",
@@ -3149,7 +3223,22 @@
    ],
    "hasBody": true,
    "changeNote": "Postal address added to form. ",
-   "firstPublished": "2017-07-26T00:00:00+01:00"
+   "firstPublished": "2017-07-26T00:00:00+01:00",
+   "ai": {
+    "summary": "The PSC01c form is used to notify Companies House of an individual person with significant control and must be printed full‑size on white A4 paper.",
+    "whoAffected": "Companies that have an individual person with significant control to report",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Download the PSC01c form",
+     "Print the form at full size on white A4 paper",
+     "Complete the form with the individual PSC details",
+     "Submit the completed notice to Companies House"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-02T11:08:07.544Z"
+   }
   },
   {
    "id": "efeab20f9a872063",
@@ -3450,7 +3539,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-08-27T16:00:00+01:00"
+   "firstPublished": "2026-08-27T16:00:00+01:00",
+   "ai": {
+    "summary": "The 2024‑25 Scottish Income Tax outturn shows receipts below forecast, reducing self‑funding by £209 m and increasing the Block Grant Adjustment by £512 m, resulting in a net £720 m cut to Scottish Government funding for 2027‑28.",
+    "whoAffected": "Scottish Government (and indirectly Scottish public sector services)",
+    "effectiveDate": "2027-28",
+    "actions": [
+     "Update client briefing notes on the revised Scottish Government funding outlook",
+     "Monitor policy responses to the funding reduction",
+     "Advise clients on possible impacts to public services, grants or subsidies",
+     "Adjust financial forecasts for Scottish SMEs and self‑employed accordingly"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-02T11:08:19.920Z"
+   }
   },
   {
    "id": "b3ecd1afdc29c3cd",
@@ -3499,7 +3603,22 @@
    ],
    "hasBody": true,
    "changeNote": "Added Analysis of Ukrainian Nationals in employment in the UK, March 2022 to June 2026.",
-   "firstPublished": "2023-03-24T00:00:00+00:00"
+   "firstPublished": "2023-03-24T00:00:00+00:00",
+   "ai": {
+    "summary": "The release provides counts of Ukrainian nationals who registered for a National Insurance number on or after 4 March 2022 and were paid through PAYE, mainly those on humanitarian visa schemes. It is an ad‑hoc management information release, not official statistics.",
+    "whoAffected": "Ukrainian nationals entering UK employment via the Homes for Ukraine, Ukraine Family Scheme or Ukraine Extension Scheme, and UK employers hiring them",
+    "effectiveDate": "4 March 2022",
+    "actions": [
+     "Check that Ukrainian employees have a valid NINo before adding them to payroll",
+     "Process their earnings through PAYE as required",
+     "Inform clients that the data is management information, not official statistics",
+     "Monitor trends for workforce planning"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-02T11:08:25.622Z"
+   }
   },
   {
    "id": "2746b6539e5f2b86",
@@ -3630,7 +3749,22 @@
    ],
    "hasBody": true,
    "changeNote": "'IHT206 notes to help you fill in form IHT205 (2011)' has been updated with new details on how to apply for an Inheritance Tax reference number.",
-   "firstPublished": "2014-04-04T00:00:00+01:00"
+   "firstPublished": "2014-04-04T00:00:00+01:00",
+   "ai": {
+    "summary": "Use the IHT205 print‑and‑post form for estates of people who died between 6 April 2011 and 31 December 2021 that are unlikely to pay Inheritance Tax, provided the deceased was a permanent resident of England, Wales or Northern Ireland.",
+    "whoAffected": "Executors or personal representatives of excepted estates (no IHT) for deaths between 6 April 2011 and 31 December 2021 in England, Wales or Northern Ireland",
+    "effectiveDate": "6 April 2011",
+    "actions": [
+     "Confirm the estate qualifies as an excepted estate (no IHT liability)",
+     "Download the IHT205 form and gather all required information before starting",
+     "Complete the form on‑screen using the latest free Adobe Reader",
+     "Print the completed form and post it to the address shown in the IHT206 notes; contact the online services helpdesk if you encounter issues"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-02T11:08:39.786Z"
+   }
   },
   {
    "id": "6ff1cbea08ecb16b",
