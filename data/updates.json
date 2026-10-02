@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-02T11:08:42.835Z",
+ "generatedAt": "2026-10-02T17:53:10.376Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,167 @@
    "label": "Other"
   }
  ],
- "count": 360,
+ "count": 363,
  "items": [
+  {
+   "id": "a2991e87ef30eac4",
+   "title": "Tell HMRC about an ending of a conditional exemption (IHT100f)",
+   "url": "https://www.gov.uk/government/publications/inheritance-tax-cessation-of-conditional-exemption-disposal-of-timber-or-underwood-iht100f",
+   "path": "/government/publications/inheritance-tax-cessation-of-conditional-exemption-disposal-of-timber-or-underwood-iht100f",
+   "date": "2026-10-02T14:42:43Z",
+   "type": "form",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use this form to tell us about an event affecting property with an exemption from Inheritance Tax or Estate Duty. ",
+   "categories": [
+    "iht"
+   ],
+   "hasBody": true,
+   "changeNote": "A new version of 'How to fill in form IHT100f' has been added with updated information on the declaration.",
+   "firstPublished": "2014-04-04T00:00:00+01:00",
+   "ai": {
+    "summary": "Use form IHT100f to notify HMRC that Inheritance Tax is due and follow the online completion steps.",
+    "whoAffected": "Individuals or estates that need to report Inheritance Tax due",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Download and save form IHT100f to your computer",
+     "Open the form using the latest free version of Adobe Reader",
+     "Complete the form on‑screen",
+     "If the form won’t open, contact online services support"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-02T17:52:10.555Z"
+   }
+  },
+  {
+   "id": "6a58c1a01ec673c1",
+   "title": "Check if you meet HMRC's conditions to register as a tax adviser",
+   "url": "https://www.gov.uk/guidance/check-if-you-meet-hmrcs-conditions-to-register-as-a-tax-adviser",
+   "path": "/guidance/check-if-you-meet-hmrcs-conditions-to-register-as-a-tax-adviser",
+   "date": "2026-10-02T13:55:48Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Check if you meet the conditions to register with HMRC and interact on behalf of your clients.",
+   "categories": [
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Updates have been made to section 'Who needs to meet the conditions' and 'The registration conditions'.",
+   "firstPublished": "2026-02-17T09:15:00+00:00",
+   "ai": {
+    "summary": "If you charge for dealing with HMRC on clients' tax affairs, you must register for an agent services account, prove AML supervision, and ensure your business and its relevant individuals meet specific conditions, including no outstanding tax, sanctions, or disqualifications.",
+    "whoAffected": "Businesses that provide paid tax‑advice services and any officers (relevant individuals) of those businesses, including SMEs, owner‑managed firms and self‑employed advisers.",
+    "effectiveDate": "2026-10-02",
+    "actions": [
+     "Check whether your paid tax‑advice activities require registration with HMRC.",
+     "Identify relevant individuals – all officers if ≤5, or select at least five officers if >5, based on strategic tax‑advice roles.",
+     "Obtain and retain evidence of approved anti‑money‑laundering supervision before applying.",
+     "Apply for an agent services account and be prepared to supply additional evidence if HMRC requests it."
+    ],
+    "legislationRefs": [
+     "Mandatory Tax Adviser Registration manual"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-02T17:52:13.893Z"
+   }
+  },
+  {
+   "id": "1a0d963cbc4a4e1c",
+   "title": "PAYE internet submissions, expenses and benefits — schema 2026 to 2027",
+   "url": "https://www.gov.uk/government/publications/paye-internet-submissions-expenses-and-benefits-schema-2026-to-2027",
+   "path": "/government/publications/paye-internet-submissions-expenses-and-benefits-schema-2026-to-2027",
+   "date": "2026-10-02T13:46:15Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "The PAYE internet submissions, expenses and benefits schema and supporting documents for PAYE software developers.",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-02T14:46:15+01:00",
+   "ai": {
+    "summary": "The PAYE internet submissions, expenses and benefits schema for 2026‑27 is released, with test service support starting October 2026 and the live service commencing in April 2027.",
+    "whoAffected": "PAYE software developers",
+    "effectiveDate": "April 2027",
+    "actions": [
+     "Review the new PAYE schema and supporting documents",
+     "Begin testing against the PAYE test service from October 2026",
+     "Update any PAYE software to meet the new schema before the live service",
+     "Inform clients of the April 2027 live service start date"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-02T17:52:16.733Z"
+   }
+  },
+  {
+   "id": "df10b42a381d1de2",
+   "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
+   "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
+   "path": "/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
+   "date": "2026-10-02T12:51:12Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "This list includes details of businesses and sole traders that have had their ACSP status either suspended or ceased (removed).",
+   "categories": [
+    "reporting",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated ceased or suspended ACSPs list.",
+   "firstPublished": "2025-10-10T00:00:00+01:00",
+   "ai": {
+    "summary": "The list shows ACSPs whose status is suspended (due to investigations or info requests on AML supervision, filings, or identity verification) or ceased (they quit or breach legal duties). Updates occur bi‑weekly and may lag up to two weeks.",
+    "whoAffected": "Authorised Corporate Service Providers (businesses and sole traders) and their clients, including SMEs, owner‑managed businesses and the self‑employed who use their services",
+    "effectiveDate": "2026-10-02",
+    "actions": [
+     "Check the published ACSP status list at least every two weeks",
+     "Confirm whether your ACSP appears as active, suspended or ceased",
+     "If suspended, be ready to provide additional AML, filing or identity‑verification information",
+     "If ceased, consider engaging a new compliant ACSP"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-02T17:52:19.387Z"
+   }
+  },
+  {
+   "id": "89234ab4a254c6f0",
+   "title": "List of Authorised Corporate Service Providers (ACSPs)",
+   "url": "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps",
+   "path": "/government/publications/list-of-authorised-corporate-service-providers-acsps",
+   "date": "2026-10-02T12:50:56Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "This list includes details of businesses and sole traders that have registered as an Authorised Corporate Service Provider (ACSP). This is also known as an authorised agent.",
+   "categories": [
+    "reporting",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated list of ACSPs.",
+   "firstPublished": "2025-10-31T00:00:00+00:00",
+   "ai": {
+    "summary": "ACSPs are agents like accountants or solicitors registered with Companies House to act for clients. They must be supervised by a UK AML supervisory body and must not appear on the ceased or suspended list. Companies House does not endorse them; users should research reputation, services, fees and identity‑verification guidance.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who use accountants, solicitors or other agents to file or complete Companies House activities",
+    "effectiveDate": "2026-10-02",
+    "actions": [
+     "Check the ACSP is on the current list and not on the ceased or suspended list",
+     "Confirm the ACSP is supervised by a UK AML supervisory body",
+     "Research the agent’s reputation, services, fees and terms before engaging",
+     "Follow Companies House guidance on identity verification when using the ACSP"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-02T17:52:22.061Z"
+   }
+  },
   {
    "id": "c4261d6298df3010",
    "title": "Tell HMRC about a gift or other transfers of value in a trust (IHT100a)",
@@ -1316,38 +1475,6 @@
    }
   },
   {
-   "id": "89234ab4a254c6f0",
-   "title": "List of Authorised Corporate Service Providers (ACSPs)",
-   "url": "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps",
-   "path": "/government/publications/list-of-authorised-corporate-service-providers-acsps",
-   "date": "2026-09-24T11:54:56Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "This list includes details of businesses and sole traders that have registered as an Authorised Corporate Service Provider (ACSP). This is also known as an authorised agent.",
-   "categories": [
-    "reporting",
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated list of ACSPs.",
-   "firstPublished": "2025-10-31T00:00:00+00:00",
-   "ai": {
-    "summary": "The ACSP list shows agents registered with Companies House, but may be incomplete. Check the ceased/suspended list, confirm AML supervision, research reputation, services and fees, and follow identity‑verification guidance before using an ACSP.",
-    "whoAffected": "SMEs, owner‑managed businesses and self‑employed who use accountants, solicitors or other agents to file or complete Companies House activities",
-    "effectiveDate": "2026-09-24",
-    "actions": [
-     "Check the ACSP is not on the ceased or suspended list",
-     "Confirm the agent is supervised by a UK AML supervisory body",
-     "Research the agent’s reputation, services, fees and terms",
-     "Follow Companies House guidance on identity verification when using the ACSP"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-29T13:48:56.824Z"
-   }
-  },
-  {
    "id": "065b47cac579e131",
    "title": "Pay Stamp Duty Land Tax",
    "url": "https://www.gov.uk/guidance/pay-stamp-duty-land-tax",
@@ -1412,38 +1539,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-09-29T13:54:13.683Z"
-   }
-  },
-  {
-   "id": "df10b42a381d1de2",
-   "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
-   "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
-   "path": "/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
-   "date": "2026-09-23T14:56:36Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "This list includes details of businesses and sole traders that have had their ACSP status either suspended or ceased (removed).",
-   "categories": [
-    "reporting",
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated list of ceased and suspended ACSPs.",
-   "firstPublished": "2025-10-10T00:00:00+01:00",
-   "ai": {
-    "summary": "The list shows ACSPs whose status is suspended (investigation or info request) or ceased (withdrawn or non‑compliant). Updates occur every two weeks, with a possible two‑week lag for recent changes.",
-    "whoAffected": "Authorised Corporate Service Providers (ACSPs) and any SMEs or self‑employed clients that use their services",
-    "effectiveDate": "2026-09-23",
-    "actions": [
-     "Check the published ACSP list at least every two weeks",
-     "Confirm whether any ACSP used by a client appears as suspended or ceased",
-     "Advise clients to switch to an active ACSP if their provider is suspended or ceased",
-     "Monitor the list for status changes and update client advice accordingly"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-29T13:45:58.021Z"
    }
   },
   {
@@ -2305,7 +2400,24 @@
    ],
    "hasBody": true,
    "changeNote": "Added a section 'Scam offering money to become a company director'. This section explains what to do if a recruiter offers you money to provide your identity details and be named as a director for an unknown company.",
-   "firstPublished": "2018-10-29T00:00:00+00:00"
+   "firstPublished": "2018-10-29T00:00:00+00:00",
+   "ai": {
+    "summary": "Directors must file annual accounts, confirmation statements and any changes with Companies House, ensure tax returns, and avoid conflicts of interest. New scam warns against paid director offers; victims should not share details, report fraud, and resign using TM01 if appointed.",
+    "whoAffected": "Current and prospective company directors, especially in SMEs, owner‑managed businesses and self‑employed individuals who may be named as directors",
+    "effectiveDate": "2026-09-11",
+    "actions": [
+     "Advise clients to register for Companies House email reminders and file accounts and confirmation statements on time",
+     "Ensure directors understand their duties under the Companies Act 2006, including reporting changes and avoiding conflicts of interest",
+     "Warn clients about scams offering money to become a director; instruct them not to share personal details and to report any offer to Report Fraud online or 0300 123 2040",
+     "If a client has been appointed to a fraudulent company, guide them to resign via form TM01, keep records of the resignation and seek independent legal advice"
+    ],
+    "legislationRefs": [
+     "Companies Act 2006"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-02T17:52:25.455Z"
+   }
   },
   {
    "id": "1bcaa2588dd1bec2",
@@ -3081,7 +3193,22 @@
    ],
    "hasBody": true,
    "changeNote": "Updated guidance following the end of the first registration window on 18 August 2026. Added information for agents who missed their registration window or are new to the market, and what may happen if they do not register when required.",
-   "firstPublished": "2026-02-17T09:15:00+00:00"
+   "firstPublished": "2026-02-17T09:15:00+00:00",
+   "ai": {
+    "summary": "HMRC now requires tax advisers who interact with HMRC for paid client services to register for an agent services account, with staged start dates (18 Aug 2026, 18 Nov 2026, 31 Dec 2026). Failure to register can block client interactions and lead to sanctions.",
+    "whoAffected": "Tax advisers – including sole traders, limited companies and overseas firms – that provide paid tax services and contact HMRC for clients, unless they fall under the listed exemptions (in‑house staff, own group affairs, free advice, certain statutory roles, software providers, customs/VAT representatives, etc.).",
+    "effectiveDate": "From 18 August 2026 for existing Self Assessment or Corporation Tax agents; from 18 November 2026 for third‑party payroll‑only services; from 31 December 2026 for financial services organisations",
+    "actions": [
+     "Use the online tool to confirm whether registration is required for your business",
+     "If registration is required, apply for an agent services account via the online service within the 3‑month window after the registration window opens",
+     "Ensure the legal entity registers (individual employees do not need separate accounts) and be prepared for HMRC checks on certain staff",
+     "If you missed the initial window or are new to the market, register immediately to avoid loss of access and possible sanctions"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-02T17:52:35.573Z"
+   }
   },
   {
    "id": "52e41c93c6cae726",
@@ -3570,7 +3697,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-08-27T16:00:00+01:00"
+   "firstPublished": "2026-08-27T16:00:00+01:00",
+   "ai": {
+    "summary": "Actual 2024-25 Income Tax data shows Welsh Rates of Income Tax receipts above forecast, raising Welsh self‑funding by £129 m and cutting block‑grant adjustment by £17 m, netting a £146 m increase in overall funding for 2027‑28.",
+    "whoAffected": "Welsh Government and, indirectly, Welsh businesses and taxpayers",
+    "effectiveDate": "2024-25 tax year",
+    "actions": [
+     "Inform Welsh‑based SME clients that higher Welsh tax receipts may lead to increased public services funding",
+     "Monitor future Welsh Government budgets for spending changes linked to the £146 m funding boost",
+     "Advise clients on any potential tax compliance implications from revised Welsh Rates of Income Tax",
+     "Stay updated on further HMRC outturn releases affecting Welsh funding"
+    ],
+    "legislationRefs": [
+     "Fiscal Framework agreed between the UK and Welsh Governments in 2016"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-02T17:52:47.838Z"
+   }
   },
   {
    "id": "3a3ffb185dec13e2",
@@ -3586,7 +3730,22 @@
    ],
    "hasBody": true,
    "changeNote": "Section 4.12 has been updated to explain that you need to provide your 13-character reference number when making payments to HMRC. A link to paying employers' PAYE has also been added.",
-   "firstPublished": "2014-03-31T00:00:00+01:00"
+   "firstPublished": "2014-03-31T00:00:00+01:00",
+   "ai": {
+    "summary": "Guidance outlines contractor and subcontractor roles under CIS and notes that payments to HMRC must include a 13‑character reference number per the updated Section 4.12, with a link to PAYE guidance added.",
+    "whoAffected": "Contractors and subcontractors operating under the Construction Industry Scheme",
+    "effectiveDate": "2026-08-27",
+    "actions": [
+     "Confirm each client’s 13‑character CIS reference number before making HMRC payments",
+     "Update payment templates to capture and transmit the reference number",
+     "Review the revised Section 4.12 for any additional compliance steps",
+     "Direct clients to the new PAYE link for employer payment information"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-02T17:52:50.603Z"
+   }
   },
   {
    "id": "1f848eab4af2c570",
@@ -3780,7 +3939,22 @@
    ],
    "hasBody": true,
    "changeNote": "Guidance has been added for agents who do not need to register with a money laundering supervisory body in their country, including what evidence they need to provide. Confirmed the requirements for translated documents that are not in English.",
-   "firstPublished": "2019-02-12T00:00:00+00:00"
+   "firstPublished": "2019-02-12T00:00:00+00:00",
+   "ai": {
+    "summary": "Non‑UK‑based agents must get HMRC approval before creating an agent services account to access online services or use software for client communication. Applications are assessed against HMRC’s agent standards and require proof of trading address, AML registration (or exemption), tax registration and English translations where needed.",
+    "whoAffected": "Agents whose businesses are based outside the UK and need an HMRC agent services account to access online services or communicate with HMRC on behalf of clients",
+    "effectiveDate": "2026-08-25T10:48:41Z",
+    "actions": [
+     "Gather director’s details, business name, contact info and trading address (no PO Box)",
+     "Confirm AML supervisory registration or prepare a document explaining why it isn’t required, plus any membership details",
+     "Obtain proof of trading address, AML registration (if required) and tax registration, and provide English translations for non‑English documents",
+     "Create or use a Government Gateway ID and upload all required documents in one session to submit the application"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-02T17:53:04.211Z"
+   }
   },
   {
    "id": "9c8fa9f58d32def2",
