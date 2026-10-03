@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-02T17:53:10.376Z",
+ "generatedAt": "2026-10-03T10:27:17.692Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -2466,7 +2466,22 @@
    ],
    "hasBody": true,
    "changeNote": "The information about what you should do if all your self-employment and property income ceased before 6 April 2026 has been updated.",
-   "firstPublished": "2024-10-16T00:00:00+01:00"
+   "firstPublished": "2024-10-16T00:00:00+01:00",
+   "ai": {
+    "summary": "Qualifying income is the total pre‑expense turnover from self‑employment and property, taken from the previous year’s Self Assessment return. It determines whether a client must use Making Tax Digital for Income Tax, unless all such income stopped before 6 April 2026.",
+    "whoAffected": "Self‑employed individuals and property owners (including sole traders and owners of jointly owned property) who may need to use Making Tax Digital for Income Tax.",
+    "effectiveDate": "6 April 2026",
+    "actions": [
+     "Check the client’s qualifying income from self‑employment and property using the previous tax year’s Self Assessment return.",
+     "If the income exceeds the relevant threshold, ensure the client signs up for Making Tax Digital for Income Tax and keeps digital records/quarterly updates.",
+     "If all self‑employment and property income ceased before 6 April 2026, advise the client to inform HMRC and file the final tax return showing income up to cessation.",
+     "If qualifying income falls below the threshold for three consecutive years, advise the client they may opt out of the service."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-03T10:26:19.985Z"
+   }
   },
   {
    "id": "ef714e6c4ce9e330",
@@ -2484,7 +2499,22 @@
    ],
    "hasBody": true,
    "changeNote": "Guidance has been updated to confirm HMRC will also check records against the 2025 to 2026 tax return if it's already been submitted. It's also been updated to make clear what you should do if all your income sources ceased before, on or from 6 April 2026.\r\n",
-   "firstPublished": "2026-08-24T11:35:00+01:00"
+   "firstPublished": "2026-08-24T11:35:00+01:00",
+   "ai": {
+    "summary": "HMRC may automatically enrol sole traders and landlords with income over £50,000 into Making Tax Digital for Income Tax. Clients must confirm HMRC’s records, adopt compatible software, create digital records, send quarterly updates and file the tax return.",
+    "whoAffected": "Sole traders and landlords with qualifying income over £50,000 in the 2024‑25 tax year, and any agents acting for them",
+    "effectiveDate": "6 April 2026",
+    "actions": [
+     "Check the client’s HMRC online account to confirm they have been signed up",
+     "Review and confirm the client’s income and expense details, adding new sources or noting ceased ones",
+     "Select and set up compatible MTDiT software to create digital records and send quarterly updates",
+     "Help the client catch up on any overdue quarterly updates and submit the 2026‑27 tax return"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-03T10:26:22.914Z"
+   }
   },
   {
    "id": "f7603b4ac564f9be",
@@ -2723,7 +2753,29 @@
    ],
    "hasBody": true,
    "changeNote": "Information about a temporary zero rate of VAT for domestic supplies of electricity and other supplies of qualifying use for Great Britain from 1 October 2026 to 31 March 2027 has been added.",
-   "firstPublished": "2016-04-28T00:00:00+01:00"
+   "firstPublished": "2016-04-28T00:00:00+01:00",
+   "ai": {
+    "summary": "A temporary VAT zero‑rate applies to domestic electricity and qualifying fuel supplies in Great Britain from 1 Oct 2026 to 31 Mar 2027. In Northern Ireland the reduced 5% rate remains. The notice also outlines reduced‑rate, standard‑rate and reverse‑charge rules for fuel‑power supplies and related services.",
+    "whoAffected": "Suppliers of fuel and power, domestic electricity consumers in Great Britain, charities, businesses using fuel/power for qualifying purposes, contractors, and any SME or self‑employed client dealing with fuel‑power invoices.",
+    "effectiveDate": "1 Oct 2026 – 31 Mar 2027 (temporary zero‑rate period)",
+    "actions": [
+     "Check client contracts to confirm qualifying use and apply the 0% rate during the temporary period",
+     "Update invoicing and accounting systems to reflect the zero‑rate for domestic electricity in GB and 5% reduced rate in NI",
+     "Inform contractors that any work billed by them, not the supplier, must be charged at the standard rate",
+     "Review apportionment where less than 60% of use is qualifying and apply reduced‑rate to the qualifying portion"
+    ],
+    "legislationRefs": [
+     "VAT Act 1994",
+     "schedule 7A",
+     "VAT Notice 703",
+     "VAT Notice 708",
+     "VAT Notice 701/45",
+     "VAT Notice 735"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-03T10:26:25.812Z"
+   }
   },
   {
    "id": "7e71c5d8b39fcc86",
@@ -3794,7 +3846,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-08-27T09:30:04+01:00"
+   "firstPublished": "2026-08-27T09:30:04+01:00",
+   "ai": {
+    "summary": "From 6 April 2027, unused pension funds and death benefits will count as estate assets for Inheritance Tax under the Finance Act 2026, with new information‑sharing, withholding and direct‑payment processes to be introduced.",
+    "whoAffected": "Individuals with pension savings, pension scheme trustees and estates of deceased persons",
+    "effectiveDate": "6 April 2027",
+    "actions": [
+     "Review client pension arrangements to identify unused funds and death benefits",
+     "Advise clients on potential IHT exposure from the new rules",
+     "Prepare for the information‑sharing and withholding notice requirements",
+     "Monitor forthcoming secondary legislation and HMRC guidance"
+    ],
+    "legislationRefs": [
+     "Finance Act 2026"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-03T10:26:40.406Z"
+   }
   },
   {
    "id": "9d0ffde4b1ed13b8",
@@ -3810,7 +3879,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-08-27T09:00:00+01:00"
+   "firstPublished": "2026-08-27T09:00:00+01:00",
+   "ai": {
+    "summary": "HMRC's Pension Schemes Services newsletter 184 (August 2026) provides updates on the normal minimum pension age, non‑statutory clearances, disposal of non‑standard assets, a low‑earner pension payment update for scheme administrators, private pension statistics, pension savings statements and defined‑benefit scheme surplus payments to members.",
+    "whoAffected": "Pension scheme administrators and members of defined‑benefit pension schemes",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review the normal minimum pension age rules for client schemes",
+     "Check clients' procedures for obtaining non‑statutory clearances",
+     "Assess how clients handle disposal of non‑standard assets",
+     "Update low‑earner pension payment processes for scheme administrators"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-03T10:26:43.833Z"
+   }
   },
   {
    "id": "f6cbaa2d517e60a1",
@@ -3970,7 +4054,21 @@
    ],
    "hasBody": true,
    "changeNote": "Section 3.14 has been updated as Zero-rating of Certain Supplies of Free Zone Goods is no longer possible.",
-   "firstPublished": "2015-05-19T00:00:00+01:00"
+   "firstPublished": "2015-05-19T00:00:00+01:00",
+   "ai": {
+    "summary": "The notice lists HMRC’s Extra Statutory Concessions that are currently in force.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Not stated in source"
+    ],
+    "legislationRefs": [
+     "Not stated in source"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-03T10:26:54.661Z"
+   }
   },
   {
    "id": "4df675b9c35d157e",
@@ -4038,7 +4136,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-08-20T15:19:50+01:00"
+   "firstPublished": "2026-08-20T15:19:50+01:00",
+   "ai": {
+    "summary": "GOV.UK One Login will become the main sign‑in option for the Find and update company information service from late August 2026. Existing users can still use current details temporarily, but new users must have a One Login, and shared accounts must be split into individual logins.",
+    "whoAffected": "All users of the Find and update company information service, including SMEs, owner‑managed businesses and self‑employed who access Companies House services, especially those using shared company accounts",
+    "effectiveDate": "Late August 2026",
+    "actions": [
+     "Advise clients to create their own GOV.UK One Login linked to an individual email and phone",
+     "Review any shared Companies House accounts and plan separate individual accounts",
+     "Notify clients of the upcoming sign‑in change and the need for MFA setup",
+     "Ensure clients set up an authenticator app or SMS for multi‑factor authentication"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-03T10:27:02.033Z"
+   }
   },
   {
    "id": "93feb8ab5f25f567",
@@ -4086,7 +4199,22 @@
    ],
    "hasBody": true,
    "changeNote": "Added translation",
-   "firstPublished": "2026-08-19T10:00:02+01:00"
+   "firstPublished": "2026-08-19T10:00:02+01:00",
+   "ai": {
+    "summary": "The August 2026 Employer Bulletin outlines guidance on making PAYE Settlement Agreement payments, the phased roll‑out of mandatory benefits‑in‑kind payrolling, consultations on lower‑value tax debts and aligning NI recovery limits with Income Tax, plus help for parent or carer employees to claim Child Benefit.",
+    "whoAffected": "Employers, payroll agents and employees who are parents or carers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Advise clients to ensure their PAYE Settlement Agreement payment is made as required",
+     "Prepare clients for the upcoming mandatory payrolling of benefits in kind by reviewing current processes",
+     "Monitor the government consultations on low‑value tax debts and NI recovery time limits and inform clients of any changes",
+     "Assist client employees who are parents or carers in claiming their entitled Child Benefit"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-03T10:27:08.027Z"
+   }
   },
   {
    "id": "ec541683c654fb40",
