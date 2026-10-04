@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-03T10:27:17.692Z",
+ "generatedAt": "2026-10-04T11:09:08.575Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,7 +72,7 @@
    "label": "Other"
   }
  ],
- "count": 363,
+ "count": 362,
  "items": [
   {
    "id": "a2991e87ef30eac4",
@@ -3172,7 +3172,22 @@
    ],
    "hasBody": true,
    "changeNote": "The list of debt collection agencies used by HMRC has been updated to remove one agency. ",
-   "firstPublished": "2021-10-18T00:00:00+01:00"
+   "firstPublished": "2021-10-18T00:00:00+01:00",
+   "ai": {
+    "summary": "If you can’t pay your tax bill, HMRC will first try to contact you and agree an affordable payment plan, using Time‑to‑Pay, adjusting tax codes or using over‑payments. If you don’t engage, they may visit, use debt collection agencies, or enforce by taking possessions, with fees applied.",
+    "whoAffected": "Businesses and individuals (including SMEs, owner‑managed businesses and the self‑employed) who owe tax and may be unable to pay",
+    "effectiveDate": "2026-09-04",
+    "actions": [
+     "Advise the client to contact HMRC’s Payment Support Service (UK) or the non‑UK residents helpline immediately to discuss their situation",
+     "Encourage prompt agreement of a Time‑to‑Pay arrangement or other affordable repayment plan before enforcement action is taken",
+     "If a debt collection agency is involved, guide the client on communication, consent requirements and completing form 64‑8 if an agent acts on their behalf",
+     "Prepare the client for possible enforcement (e.g., possession removal) by explaining the process, associated fees and their rights to complain"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-04T11:08:11.412Z"
+   }
   },
   {
    "id": "cc04027fcf1cf3ca",
@@ -3495,7 +3510,22 @@
    ],
    "hasBody": true,
    "changeNote": "Postal address added to form. ",
-   "firstPublished": "2010-05-03T00:00:00+01:00"
+   "firstPublished": "2010-05-03T00:00:00+01:00",
+   "ai": {
+    "summary": "Use form LL AP01 to notify Companies House of a new individual LLP member, ensuring the member’s identity is verified and personal code provided, and file the form online for quickest processing.",
+    "whoAffected": "Limited liability partnerships (LLPs) and the individuals being appointed as members",
+    "effectiveDate": "2026-09-02T13:58:51Z",
+    "actions": [
+     "Obtain the individual’s Companies House personal code and confirm their identity has been verified",
+     "Complete the LL AP01 form with the member’s details",
+     "File the form online (avoid paper filing, especially if the LLP is in the PROOF scheme)",
+     "Print the form at full size on white A4 paper only if a paper version is required"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-04T11:08:14.139Z"
+   }
   },
   {
    "id": "a66a5d6416b51b27",
@@ -3573,7 +3603,22 @@
    ],
    "hasBody": true,
    "changeNote": "The IHT100d form has been updated with more information on how certain trust charge calculations should be completed. Cross-references between sections have also been updated.",
-   "firstPublished": "2014-04-04T00:15:00+01:00"
+   "firstPublished": "2014-04-04T00:15:00+01:00",
+   "ai": {
+    "summary": "Use form IHT100d to notify HMRC that Inheritance Tax is due on the 10‑year anniversary of a trust, downloading the PDF, opening it in Adobe Reader, completing it on‑screen, and seeking support if it won’t open.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Download and save form IHT100d on your computer",
+     "Open the form using the latest free version of Adobe Reader",
+     "Complete the form on‑screen",
+     "If the form won’t open, contact online services support"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-04T11:08:17.088Z"
+   }
   },
   {
    "id": "82312d73a44c6ba1",
@@ -3589,7 +3634,26 @@
    ],
    "hasBody": true,
    "changeNote": "The live webinar link for 'Residential property income for individuals — an introduction' has been updated, along with the description on what the webinar will cover. The recorded webinar 'How to get ready for Making Tax Digital for Income Tax' link has also been updated.",
-   "firstPublished": "2017-09-05T00:00:00+01:00"
+   "firstPublished": "2017-09-05T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC offers email updates, live and recorded webinars, and videos covering residential property income, expenses, Making Tax Digital for Income Tax, SDLT, and Self Assessment. These resources help landlords and property owners understand income reporting, software requirements, and tax obligations.",
+    "whoAffected": "Landlords, joint property owners, individuals with UK residential property income, and anyone completing Self Assessment for property income",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Subscribe to HMRC email updates and set topic preferences",
+     "Register for relevant live webinars or watch recorded sessions to stay informed",
+     "Advise clients on MTDIT sign‑up, software choice and agent authorisation",
+     "Assist clients with completing the UK property section of their Self Assessment returns"
+    ],
+    "legislationRefs": [
+     "Making Tax Digital for Income Tax",
+     "Stamp Duty Land Tax (SDLT)",
+     "Self Assessment"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-04T11:08:19.709Z"
+   }
   },
   {
    "id": "35e504b411b65052",
@@ -3910,7 +3974,22 @@
    ],
    "hasBody": true,
    "changeNote": "Information about what you must include if you're completing a declaration as a trustee has been added.",
-   "firstPublished": "2014-04-04T00:00:00+01:00"
+   "firstPublished": "2014-04-04T00:00:00+01:00",
+   "ai": {
+    "summary": "Use form IHT100e to notify HMRC that Inheritance Tax is due on a special trust, downloading it, opening it with Adobe Reader and completing it on‑screen; seek support if it won’t open.",
+    "whoAffected": "Trustees of special trusts where inheritance tax is due",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Download the IHT100e form and save it locally",
+     "Open the form with the latest free version of Adobe Reader",
+     "Complete the form on‑screen as required",
+     "If the form won’t open, contact online services support"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-04T11:08:26.812Z"
+   }
   },
   {
    "id": "510bb5aa7a51670b",
@@ -4104,7 +4183,22 @@
    ],
    "hasBody": true,
    "changeNote": "Information about what happens from September 2026 if you do not sign up to Making Tax Digital for Income Tax has been added.",
-   "firstPublished": "2020-02-10T00:00:00+00:00"
+   "firstPublished": "2020-02-10T00:00:00+00:00",
+   "ai": {
+    "summary": "Sole traders and landlords with self‑employment or property turnover over £50,000 must use Making Tax Digital for Income Tax from 6 April 2026. Sign up now or risk HMRC auto‑enrolling you from September 2026. Voluntary sign‑up is allowed, and penalties apply for late returns or payments.",
+    "whoAffected": "Sole traders and landlords whose combined self‑employment and property income exceeds £50,000, and their agents who sign clients up; also those below the threshold who may be exempt.",
+    "effectiveDate": "6 April 2026 (mandatory use); September 2026 (HMRC may auto‑enrol)",
+    "actions": [
+     "Check each client’s self‑employment and property turnover against the £50,000 threshold.",
+     "Confirm the client is registered for Self Assessment and has filed a return in the past two years.",
+     "Ensure the client has compatible software and assist them to sign up via the online service (or advise voluntary sign‑up).",
+     "If the client has not signed up by September 2026, remind them to sign up or update their details before HMRC auto‑enrols them."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-04T11:08:37.712Z"
+   }
   },
   {
    "id": "80a080dd332abab5",
@@ -4246,7 +4340,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-08-17T10:29:00+01:00"
+   "firstPublished": "2026-08-17T10:29:00+01:00",
+   "ai": {
+    "summary": "Parents must extend Child Benefit for 16‑19‑year‑olds in non‑advanced education by 31 August 2026 or payments stop; can be done online, by post or phone; check HICBC liability if income exceeds £60,000.",
+    "whoAffected": "Parents of 16‑ to 19‑year‑old children who are continuing in non‑advanced approved education or training, including self‑employed parents",
+    "effectiveDate": "31 August 2026",
+    "actions": [
+     "Identify clients with 16‑19‑year‑old children in approved education and confirm they have extended their claim",
+     "Advise clients to extend the claim via the HMRC app or GOV.UK before the 31 August deadline",
+     "If digital access is unavailable, guide clients to use the post or phone method detailed in their HMRC letter",
+     "Remind clients with an individual adjusted net income over £60,000 to assess any High Income Child Benefit Charge using the online calculator"
+    ],
+    "legislationRefs": [
+     "High Income Child Benefit Charge (HICBC)"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-04T11:08:47.317Z"
+   }
   },
   {
    "id": "9fd49716439b1384",
@@ -4312,7 +4423,22 @@
    ],
    "hasBody": true,
    "changeNote": "The HMRC Trusts and Estates Newsletter for August 2026 has been added.",
-   "firstPublished": "2014-08-08T00:00:00+01:00"
+   "firstPublished": "2014-08-08T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC newsletters provide trusts and estates practitioners with the latest non‑binding news and views as of their publication date, with older issues available via the National Archives.",
+    "whoAffected": "trusts and estates practitioners (including advisers to SMEs, owner‑managed businesses and the self‑employed)",
+    "effectiveDate": "2026-08-13",
+    "actions": [
+     "Subscribe to the HMRC Trusts and Estates newsletters",
+     "Review each issue for updates relevant to client trusts or estates",
+     "Remember the content is not legally binding and confirm against current legislation",
+     "Access older newsletters through the National Archives when needed"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-04T11:08:54.478Z"
+   }
   },
   {
    "id": "b7488cc4a3860814",
@@ -4426,7 +4552,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-08-11T09:32:00+01:00"
+   "firstPublished": "2026-08-11T09:32:00+01:00",
+   "ai": {
+    "summary": "The registrar must refuse or can suspend an Authorised Corporate Service Provider (ACSP) if they are not fit and proper, assessing eligibility, AML supervision, criminal/regulatory history, honesty and compliance, with ongoing monitoring after registration.",
+    "whoAffected": "Applicants for ACSP registration and existing Authorised Corporate Service Providers, including any connected entities such as limited companies.",
+    "effectiveDate": "2026-08-11T08:32:00Z",
+    "actions": [
+     "Ensure clients provide accurate, complete information on ACSP applications",
+     "Review clients' AML supervisory status and any past suspensions or cessations",
+     "Check for criminal convictions, bankruptcies, director disqualifications or regulatory findings",
+     "Advise clients to promptly report any changes and cooperate with Companies House enquiries"
+    ],
+    "legislationRefs": [
+     "section 1098B of the Companies Act 2006"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-04T11:09:07.075Z"
+   }
   },
   {
    "id": "8c9f57b4c2053daa",
@@ -7670,22 +7813,6 @@
     "legislation",
     "nic"
    ]
-  },
-  {
-   "id": "4aa71ab89d2243c0",
-   "title": "Supporting documents for Spring Statement 2025",
-   "url": "https://www.gov.uk/government/publications/supporting-documents-for-spring-statement-2025",
-   "path": "/government/publications/supporting-documents-for-spring-statement-2025",
-   "date": "2025-04-02T16:11:24Z",
-   "type": "policy_paper",
-   "source": "HM Treasury (GOV.UK)",
-   "description": "Supporting documents alongside the main Spring Statement 2025 document: distributional analysis, policy costings and data sources.",
-   "categories": [
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "HTML versions of documents added",
-   "firstPublished": "2025-03-26T00:00:00+00:00"
   }
  ]
 }
