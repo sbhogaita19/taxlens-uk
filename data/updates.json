@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-04T11:09:08.575Z",
+ "generatedAt": "2026-10-05T12:19:31.026Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,108 @@
    "label": "Other"
   }
  ],
- "count": 362,
+ "count": 363,
  "items": [
+  {
+   "id": "3dd39c56715aec7d",
+   "title": "Check if you need to pay tax when you sell cryptoassets",
+   "url": "https://www.gov.uk/guidance/check-if-you-need-to-pay-tax-when-you-sell-cryptoassets",
+   "path": "/guidance/check-if-you-need-to-pay-tax-when-you-sell-cryptoassets",
+   "date": "2026-10-05T09:46:15Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out if you need to pay Capital Gains Tax on gains you make when you sell, exchange or give away cryptoasset tokens (like bitcoin, XRP or ether). ",
+   "categories": [
+    "cgt"
+   ],
+   "hasBody": true,
+   "changeNote": "The video about how cryptoassets are taxed for individuals has been updated.",
+   "firstPublished": "2018-12-19T00:00:00+00:00",
+   "ai": {
+    "summary": "You may owe Capital Gains Tax when you sell, exchange, spend or give away cryptoasset tokens. Calculate gains per transaction using pooling (except same‑day or within 30 days), deduct allowable costs, report if total gains exceed the CGT allowance, and keep full records.",
+    "whoAffected": "Individuals—including SME owners, self‑employed and other taxpayers—who dispose of cryptoasset tokens by selling, exchanging, using for purchases or gifting (except to spouse, civil partner or charity).",
+    "effectiveDate": "2026-10-05",
+    "actions": [
+     "Identify each cryptoasset disposal and calculate the gain using the pooling rules, noting any same‑day or 30‑day exceptions.",
+     "Deduct allowable costs and any capital losses, then total the gains for the tax year.",
+     "If total gains exceed the Capital Gains Tax allowance, report the gain on a Self Assessment return or via the CGT real‑time service and pay the tax due.",
+     "Maintain detailed records for each token pool: transaction dates, amounts, values in GBP, bank statements and pooled cost calculations."
+    ],
+    "legislationRefs": [
+     "Capital Gains Tax",
+     "Capital Gains Tax tax‑free allowance",
+     "Self Assessment tax return",
+     "Capital Gains Tax real time service",
+     "Self Assessment helpsheet HS284",
+     "HMRC’s Cryptoasset Disclosure Service"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-05T12:18:25.271Z"
+   }
+  },
+  {
+   "id": "1fc9c2fd38d4dba9",
+   "title": "Check if you have to pay tax on your pension",
+   "url": "https://www.gov.uk/guidance/check-if-you-have-to-pay-tax-on-your-pension",
+   "path": "/guidance/check-if-you-have-to-pay-tax-on-your-pension",
+   "date": "2026-10-05T09:32:22Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use this tool to calculate how much Income Tax you may need to pay when you get a pension.",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "Tool updated to provide an estimate of Income Tax you may need to pay when you get a pension.",
+   "firstPublished": "2025-03-17T09:16:00+00:00",
+   "ai": {
+    "summary": "The gov.uk tool estimates whether an individual must pay Income Tax on their State or private pension for the current tax year, based on the standard Personal Allowance and other taxable income, excluding foreign income and Blind Person’s Allowance.",
+    "whoAffected": "Anyone receiving a State Pension or private pension, including self‑employed, SME owners and other individuals with pension income",
+    "effectiveDate": "Tax year 6 April to 5 April",
+    "actions": [
+     "Collect details of the client’s State and private pension amounts",
+     "Gather information on any other taxable income and Marriage Allowance status",
+     "Enter the data into the government pension tax tool to get an estimate",
+     "Discuss the estimate with the client and advise on any tax planning needed"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-05T12:18:29.602Z"
+   }
+  },
+  {
+   "id": "edcb10a38c684d98",
+   "title": "Sole traders and landlords earning more than £30,000 urged to act now",
+   "url": "https://www.gov.uk/government/news/sole-traders-and-landlords-earning-more-than-30000-urged-to-act-now",
+   "path": "/government/news/sole-traders-and-landlords-earning-more-than-30000-urged-to-act-now",
+   "date": "2026-10-05T09:24:15Z",
+   "type": "press_release",
+   "source": "HMRC (GOV.UK)",
+   "description": "Sole traders and landlords earning over £30,000 urged to get ready for Making Tax Digital.",
+   "categories": [
+    "mtd"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-05T10:24:15+01:00",
+   "ai": {
+    "summary": "From 6 April 2027 sole traders and landlords with turnover over £30,000 must use Making Tax Digital for Income Tax, requiring digital records and quarterly updates via compatible software.",
+    "whoAffected": "Sole traders and landlords whose turnover exceeds £30,000 and who are registered for Self Assessment.",
+    "effectiveDate": "6 April 2027",
+    "actions": [
+     "Verify each client’s turnover exceeds £30,000 (gross income before allowances).",
+     "Confirm they are registered for Self Assessment and have filed a return in the past two years.",
+     "Register them on GOV.UK for MTD for Income Tax and select HMRC‑recognised software.",
+     "Set up quarterly digital record‑keeping so updates can be sent on time."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-05T12:18:32.857Z"
+   }
+  },
   {
    "id": "a2991e87ef30eac4",
    "title": "Tell HMRC about an ending of a conditional exemption (IHT100f)",
@@ -3669,7 +3769,22 @@
    ],
    "hasBody": true,
    "changeNote": "The recorded webinar link for 'VAT — using the Flat Rate Scheme' has been updated.\r\n\r\n",
-   "firstPublished": "2017-09-29T00:00:00+01:00"
+   "firstPublished": "2017-09-29T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC offers email updates and a range of live and recorded webinars covering VAT topics such as reduced rates, private school fees, registration, accounting schemes, flat rate, basics, reverse charge for construction, and using the business tax account.",
+    "whoAffected": "Businesses and self‑employed individuals dealing with VAT, including SMEs, owner‑managed firms, private‑school providers and construction companies.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Subscribe to the HMRC help and support email service to receive VAT updates",
+     "Register for live webinars relevant to client needs and advise clients to attend",
+     "Watch recorded webinars to stay informed and apply guidance when advising clients on VAT issues",
+     "Use the VAT Registration Estimator and webinar material to support client registration and scheme decisions"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-05T12:18:36.023Z"
+   }
   },
   {
    "id": "15dcef5438095a78",
@@ -3686,7 +3801,22 @@
    ],
    "hasBody": true,
    "changeNote": "Edited section \"Changes you must report\". You must tell Companies House about changes to your limited liability partnership's people with significant control (PSCs) or explain why this information is not available. ",
-   "firstPublished": "2014-10-13T00:00:00+01:00"
+   "firstPublished": "2014-10-13T00:00:00+01:00",
+   "ai": {
+    "summary": "An LLP can be set up with 2+ members; members pay tax on profit share, not personally liable for debts. Must choose a compliant name, have a UK registered address, appoint at least two designated members, create an LLP agreement and register with Companies House. Designated members handle filings and report changes, including PSCs.",
+    "whoAffected": "Current or prospective LLP members, especially SMEs, owner‑managed businesses and self‑employed professionals",
+    "effectiveDate": "2026-09-02",
+    "actions": [
+     "Check the proposed LLP name against ‘same as’ and ‘too like’ rules and ensure it contains no offensive or restricted words",
+     "Provide a physical UK registered office address and record it with Companies House",
+     "Advise client to appoint at least two designated members and draft an LLP agreement covering profit sharing and duties",
+     "Register the LLP with Companies House and set up ongoing filing duties such as annual accounts, confirmation statements and PSC updates"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-05T12:18:43.737Z"
+   }
   },
   {
    "id": "f6b3020d0fda2a72",
@@ -4214,7 +4344,22 @@
    ],
    "hasBody": true,
    "changeNote": "The Secure Data Exchange Service has been renamed the Transfer files securely with HMRC service.",
-   "firstPublished": "2023-10-05T00:00:00+01:00"
+   "firstPublished": "2023-10-05T00:00:00+01:00",
+   "ai": {
+    "summary": "The public service pensions remedy can change members' unauthorised payments, affecting charges. Reductions may allow repayment and tax refunds; increases require new HMRC reporting. Scheme administrators must report changes, use the credit spreadsheet, and submit via the Transfer files securely with HMRC service.",
+    "whoAffected": "Members of public service pension schemes affected by the remedy, and their scheme administrators (including Chapter 1 administrators).",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify whether the member's unauthorised payment has been reduced or increased due to the remedy.",
+     "If reduced and an excess lump‑sum is repaid, advise the member to claim a refund of overpaid charges and assist with contacting HMRC.",
+     "If increased, ensure the member provides the required information to HMRC for the relevant tax years and report the new charge on the next event report.",
+     "Complete the credit spreadsheet and send it using the Transfer files securely with HMRC service to reclaim any overpaid scheme sanction charges."
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-05T12:18:56.766Z"
+   }
   },
   {
    "id": "39d9fba9df34958f",
@@ -4456,7 +4601,22 @@
    ],
    "hasBody": true,
    "changeNote": "Added translation",
-   "firstPublished": "2026-08-13T14:59:59+01:00"
+   "firstPublished": "2026-08-13T14:59:59+01:00",
+   "ai": {
+    "summary": "The HMRC tool lets contractors, employers, self‑assessment and VAT users enter their details to get personalised tax filing and payment deadlines, which can be printed or added to digital calendars.",
+    "whoAffected": "Contractors (CIS), employers (PAYE), self‑assessment taxpayers and VAT‑registered businesses, including SMEs and the self‑employed",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Collect each client’s accounting period dates, tax payment method and filing method (online or post)",
+     "Enter the information into the HMRC deadline tool to generate specific dates",
+     "Print the deadline list or add it to the client’s calendar (use Safari for Apple Calendar on iPhone/iPad)",
+     "Remind clients to file returns and pay taxes by the generated deadlines"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-05T12:19:09.586Z"
+   }
   },
   {
    "id": "4ad557c4e09d999c",
@@ -4520,7 +4680,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-08-11T12:51:11+01:00"
+   "firstPublished": "2026-08-11T12:51:11+01:00",
+   "ai": {
+    "summary": "Companies House invites directors of Community Interest Companies who filed accounts online via the Package Accounts Upload Service to give feedback through a survey, aiming to improve filing services.",
+    "whoAffected": "Directors of Community Interest Companies that have used the Package Accounts Upload Service to file their CIC accounts online",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify CIC clients who used the Package Accounts Upload Service",
+     "Encourage those directors to complete the feedback survey via the provided link",
+     "Record any feedback received for internal reference",
+     "Monitor future Companies House updates for service changes"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-05T12:19:16.904Z"
+   }
   },
   {
    "id": "efc8f1b9f7fa2049",
@@ -4602,7 +4777,25 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-08-06T11:00:01+01:00"
+   "firstPublished": "2026-08-06T11:00:01+01:00",
+   "ai": {
+    "summary": "Companies House prosecuted 23 directors in early 2026 for persistent non‑filing, issuing disqualifications totalling 70 years and fines. Late filing triggers automatic penalties for companies and can lead to criminal prosecution of directors under the Companies Act 2006.",
+    "whoAffected": "Company directors and the companies they run, especially SMEs and owner‑managed businesses",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Ensure annual accounts and confirmation statements are filed by the statutory deadline",
+     "Set up a compliance calendar and monitoring system for each client",
+     "Advise directors of the personal risk of prosecution and disqualification for late filing",
+     "Review Companies House guidance and enforcement policy with clients"
+    ],
+    "legislationRefs": [
+     "Companies Act 2006",
+     "Code for Crown Prosecutors"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-05T12:19:23.320Z"
+   }
   },
   {
    "id": "24f52da4d1bbb5a2",
@@ -7788,31 +7981,6 @@
    "hasBody": true,
    "changeNote": "Accessible version added.",
    "firstPublished": "2023-07-18T14:33:28+01:00"
-  },
-  {
-   "id": "d1b102149bfb3df7",
-   "title": "The Social Security (Contributions) (Amendment No. 5) Regulations 2025",
-   "url": "https://www.legislation.gov.uk/id/uksi/2025/429",
-   "date": "2025-04-03T12:32:29.118Z",
-   "type": "legislation",
-   "source": "legislation.gov.uk",
-   "description": "These Regulations amend the Social Security (Contributions) Regulations 2001 to provide that Horizon Shortfall Scheme Appeals payments will be disregarded in the calculation of earnings for the purpose of establishing liability to Class 1 National Insurance contributions.",
-   "categories": [
-    "legislation"
-   ]
-  },
-  {
-   "id": "e720cbe6736dc99f",
-   "title": "National Insurance Contributions (Secondary Class 1 Contributions) Act 2025",
-   "url": "https://www.legislation.gov.uk/id/ukpga/2025/11",
-   "date": "2025-04-03T12:30:56.656Z",
-   "type": "legislation",
-   "source": "legislation.gov.uk",
-   "description": "An Act to make provision about secondary Class 1 contributions.",
-   "categories": [
-    "legislation",
-    "nic"
-   ]
   }
  ]
 }
