@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-05T12:19:31.026Z",
+ "generatedAt": "2026-10-06T12:04:34.389Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,230 @@
    "label": "Other"
   }
  ],
- "count": 363,
+ "count": 368,
  "items": [
+  {
+   "id": "f841ec78abde871f",
+   "title": "Approved payers in the middleman scheme",
+   "url": "https://www.gov.uk/government/publications/foreign-entertainers-list-of-approved-payers-in-the-middleman-scheme",
+   "path": "/government/publications/foreign-entertainers-list-of-approved-payers-in-the-middleman-scheme",
+   "date": "2026-10-06T11:30:19Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Check this list of approved payers for non-UK resident entertainers and find out if you need to deduct withholding tax.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The list of approved payers in the middleman scheme has been updated with one removal.",
+   "firstPublished": "2017-07-31T00:00:00+01:00",
+   "ai": {
+    "summary": "Payments to non‑UK resident entertainers over the personal allowance require withholding tax unless the payer is on the approved middleman scheme list.",
+    "whoAffected": "UK businesses and self‑employed individuals who pay non‑UK resident entertainers for appearances or performances in the UK",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Determine if the payment exceeds the personal tax allowance",
+     "Check the approved payer list to see if the payer is part of the middleman scheme",
+     "If the payer is not approved, deduct the required withholding tax",
+     "If the payer is approved, no withholding tax is needed and retain evidence of the check"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-06T12:03:26.563Z"
+   }
+  },
+  {
+   "id": "d89c785473c275fd",
+   "title": "Authorising an agent to deal with your tax affairs",
+   "url": "https://www.gov.uk/guidance/authorising-an-agent-to-deal-with-your-tax-affairs",
+   "path": "/guidance/authorising-an-agent-to-deal-with-your-tax-affairs",
+   "date": "2026-10-06T11:03:06Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Check what a paid agent can do on your behalf. How you authorise the agent depends on the tax, and you may need to use paper form 64-8 or an online service.",
+   "categories": [
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about a new online tool to find more guidance about VAT has been added to the VAT section of what an authorised agent can do on your behalf.",
+   "firstPublished": "2014-04-04T00:00:00+01:00",
+   "ai": {
+    "summary": "The guide explains how to authorise a paid agent for various UK taxes, outlining what agents can do, the forms (64-8, COMP1a) and online methods required, and stresses the taxpayer’s ongoing legal responsibility and need to review submissions.",
+    "whoAffected": "SMEs, owner‑managed businesses, self‑employed individuals and anyone using a paid accountant or tax adviser to handle their HMRC affairs",
+    "effectiveDate": "2026-10-06",
+    "actions": [
+     "Identify the specific tax services the client needs an agent for (e.g., Self Assessment, VAT, Corporation Tax).",
+     "Choose the appropriate authorisation method – online service or the 64‑8 form – and complete it with correct agent codes.",
+     "Ensure the client reviews and confirms any returns or submissions before the agent files them with HMRC.",
+     "Maintain a record of the authorisation and promptly change or remove it when the relationship ends"
+    ],
+    "legislationRefs": [
+     "64-8 Authorising your agent",
+     "COMP1a"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-06T12:03:29.465Z"
+   }
+  },
+  {
+   "id": "52a1170a0a89cf39",
+   "title": "Tell HMRC the value of items in your PAYE Settlement Agreement",
+   "url": "https://www.gov.uk/guidance/tell-hmrc-the-value-of-items-in-your-paye-settlement-agreement",
+   "path": "/guidance/tell-hmrc-the-value-of-items-in-your-paye-settlement-agreement",
+   "date": "2026-10-06T10:39:25Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use form PSA1 or send an informal calculation to tell HMRC about the value of items included in your PAYE Settlement Agreement.",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "Made it clearer that you need to tell HMRC the value of items in your PAYE Settlement Agreement even if you did not provide any benefits or expenses to employees (a nil return).",
+   "firstPublished": "2025-06-04T10:52:00+01:00",
+   "ai": {
+    "summary": "Employers or agents must report the value of benefits or expenses in a PAYE Settlement Agreement to HMRC, even if none were provided (a nil return).",
+    "whoAffected": "Employers, agents and businesses that operate PAYE Settlement Agreements, including SMEs, owner‑managed businesses and self‑employed employers.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Gather email, tax year, PAYE reference and applicable tax rates for all employees (including those below the personal allowance).",
+     "Submit the values using the online PSA1 form via Government Gateway or email confirmation code.",
+     "If preferred, send an informal written calculation to HMRC’s PAYE Settlement Agreements address, noting it may take longer to process.",
+     "Ensure all employees who received benefits or expenses are included, even when reporting a nil return."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-06T12:03:32.433Z"
+   }
+  },
+  {
+   "id": "e997c039e731fc2c",
+   "title": "Real Time Information internet submissions: 2027 to 2028 technical specifications",
+   "url": "https://www.gov.uk/government/publications/real-time-information-internet-submissions-2027-to-2028-technical-specifications",
+   "path": "/government/publications/real-time-information-internet-submissions-2027-to-2028-technical-specifications",
+   "date": "2026-10-06T09:39:38Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Real Time Information (RTI) Rules and Interface Management (RIM) artefacts and supporting technical specifications for software developers.",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "'RTI data item guide 2027 to 2028 v1.1' has been added.",
+   "firstPublished": "2026-09-09T13:45:00+01:00",
+   "ai": {
+    "summary": "Test service support for RTI internet submissions starts in October 2026, with the live service launching in March 2027.",
+    "whoAffected": "Software developers of RTI submission tools and payroll service providers serving SMEs and the self‑employed",
+    "effectiveDate": "Live service from March 2027",
+    "actions": [
+     "Begin testing against the RTI test service from October 2026",
+     "Review the technical specifications to ensure compliance",
+     "Update payroll software before the March 2027 live launch",
+     "Inform clients of upcoming changes and timelines"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-06T12:03:35.367Z"
+   }
+  },
+  {
+   "id": "1ace804503660064",
+   "title": "Check if a business is registered for money laundering supervision",
+   "url": "https://www.gov.uk/guidance/money-laundering-regulations-supervised-business-register",
+   "path": "/guidance/money-laundering-regulations-supervised-business-register",
+   "date": "2026-10-06T09:19:35Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out if a business has registered with HMRC under the money laundering regulations and report them if they have not.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The Supervised Business Register has been updated.",
+   "firstPublished": "2014-05-23T00:00:00+01:00",
+   "ai": {
+    "summary": "The HMRC Supervised Business Register lists companies registered for money‑laundering supervision. Check the register to confirm a counterpart’s registration; if not listed, contact them and, if still unregistered, report to HMRC. Registration provides guidance on AML, terrorist finance and related obligations.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who need to verify a trading partner’s AML registration status",
+    "effectiveDate": "2026-10-06",
+    "actions": [
+     "Search the Supervised Business Register for the business’s registration number, name and postcode",
+     "If the business is not on the register, contact it directly to confirm its registration status",
+     "If it remains unregistered and should be, report the case to HMRC",
+     "Advise clients to register for supervision to receive AML guidance and meet their regulatory obligations"
+    ],
+    "legislationRefs": [
+     "money laundering regulations"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-06T12:03:38.815Z"
+   }
+  },
+  {
+   "id": "f4c1df612000b7c2",
+   "title": "Local reference rents, listed by BRMA and property size (September 2026)",
+   "url": "https://www.gov.uk/government/publications/local-reference-rents-listed-by-brma-and-property-size-september-2026",
+   "path": "/government/publications/local-reference-rents-listed-by-brma-and-property-size-september-2026",
+   "date": "2026-10-06T08:30:01Z",
+   "type": "research",
+   "source": "HMRC (GOV.UK)",
+   "description": "Local reference rent (LRR) levels by number of rooms and broad rental market areas (BRMA) for residential properties in England in September 2026.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-06T09:30:01+01:00",
+   "ai": {
+    "summary": "The publication lists local reference rent (LRR) levels for residential properties in England by room count and Broad Rental Market Area (BRMA) for September 2026, and defines the BRMA and category terms.",
+    "whoAffected": "Landlords, property owners, letting agents, tenants and anyone dealing with Housing Benefit calculations in England",
+    "effectiveDate": "September 2026",
+    "actions": [
+     "Check the LRR tables for the relevant BRMA and room category when advising on rent levels",
+     "Apply the correct CAT 1A, 1B or 1C definition to each property",
+     "Consult the Housing Benefit referral section of the Rent Officer Handbook for detailed LRR calculations",
+     "Refer to the National Archives for previous LRR releases if historical comparison is needed"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-06T12:03:41.431Z"
+   }
+  },
+  {
+   "id": "cb0d95760dc6f3ae",
+   "title": "How to make a voluntary disclosure to HMRC",
+   "url": "https://www.gov.uk/government/publications/hmrc-your-guide-to-making-a-disclosure",
+   "path": "/government/publications/hmrc-your-guide-to-making-a-disclosure",
+   "date": "2026-10-05T14:38:39Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out about the different ways to make a voluntary disclosure to HMRC if you think you have not paid the correct amount of tax.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "The address to send disclosures to has been updated in section 'Other potential liabilities you can tell us about in your disclosure’.\r\nThe contact address has been changed in section 'If you leave something important out of your disclosure' and in section 'If you’re unhappy with HMRC’s service'.",
+   "firstPublished": "2016-09-05T00:00:00+01:00",
+   "ai": {
+    "summary": "If you owe tax on income or gains you must tell HMRC about any unpaid tax now. This guide explains how to make a voluntary disclosure, using the updated contact address for submissions.",
+    "whoAffected": "Anyone who owes tax on income or gains, including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "2026-10-05",
+    "actions": [
+     "Identify any client who may owe unpaid tax on income or gains",
+     "Advise the client to tell HMRC about the unpaid tax immediately",
+     "Send the disclosure to the updated HMRC address as noted in the guide",
+     "Ensure the disclosure includes all unpaid tax and any other potential liabilities"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-06T12:03:44.477Z"
+   }
+  },
   {
    "id": "3dd39c56715aec7d",
    "title": "Check if you need to pay tax when you sell cryptoassets",
@@ -1100,39 +1322,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-09-29T13:45:18.055Z"
-   }
-  },
-  {
-   "id": "1ace804503660064",
-   "title": "Check if a business is registered for money laundering supervision",
-   "url": "https://www.gov.uk/guidance/money-laundering-regulations-supervised-business-register",
-   "path": "/guidance/money-laundering-regulations-supervised-business-register",
-   "date": "2026-09-28T12:39:02Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out if a business has registered with HMRC under the money laundering regulations and report them if they have not.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "The Supervised Business Register has been updated.",
-   "firstPublished": "2014-05-23T00:00:00+01:00",
-   "ai": {
-    "summary": "The Supervised Business Register lists businesses registered with HMRC for money‑laundering supervision. Use it to verify a counter‑party’s registration; unregistered firms should be contacted and, if necessary, reported to HMRC.",
-    "whoAffected": "SMEs, owner‑managed businesses and self‑employed who need to confirm a trading partner’s AML registration",
-    "effectiveDate": "2026-09-28",
-    "actions": [
-     "Search the Supervised Business Register to confirm a business’s registration status",
-     "If the business is not listed, contact them directly to verify their registration",
-     "Advise any unregistered client to apply for registration with HMRC under the money laundering regulations",
-     "Report suspected unregistered businesses to HMRC"
-    ],
-    "legislationRefs": [
-     "money laundering regulations"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-29T13:45:21.410Z"
    }
   },
   {
@@ -2840,6 +3029,38 @@
    }
   },
   {
+   "id": "7e71c5d8b39fcc86",
+   "title": "Temporary zero rate of VAT for domestic electricity in Great Britain",
+   "url": "https://www.gov.uk/government/publications/temporary-zero-rate-of-vat-for-domestic-electricity-in-great-britain",
+   "path": "/government/publications/temporary-zero-rate-of-vat-for-domestic-electricity-in-great-britain",
+   "date": "2026-09-08T16:00:05Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about a temporary zero rate of VAT for qualifying supplies of electricity in Great Britain. ",
+   "categories": [
+    "vat",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-09-08T17:00:05+01:00",
+   "ai": {
+    "summary": "A temporary zero VAT rate applies to qualifying domestic electricity supplies in Great Britain from 1 Oct 2026 to 31 Mar 2027; all other domestic fuels continue at 5% VAT across the UK.",
+    "whoAffected": "Households and electricity suppliers providing qualifying domestic electricity in Great Britain",
+    "effectiveDate": "1 October 2026",
+    "actions": [
+     "Update client VAT calculations to reflect 0% rate for domestic electricity during the period",
+     "Notify affected clients of the continued 5% VAT on other domestic fuels",
+     "Adjust invoicing templates and accounting software accordingly",
+     "Monitor the end date (31 March 2027) for re‑application of standard rates"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-09-29T13:58:30.155Z"
+   }
+  },
+  {
    "id": "792c4e975ecde54b",
    "title": "Fuel and power (VAT Notice 701/19)",
    "url": "https://www.gov.uk/guidance/vat-on-fuel-and-power-notice-70119",
@@ -2875,38 +3096,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-03T10:26:25.812Z"
-   }
-  },
-  {
-   "id": "7e71c5d8b39fcc86",
-   "title": "Temporary zero rate of VAT for domestic electricity in Great Britain",
-   "url": "https://www.gov.uk/government/publications/temporary-zero-rate-of-vat-for-domestic-electricity-in-great-britain",
-   "path": "/government/publications/temporary-zero-rate-of-vat-for-domestic-electricity-in-great-britain",
-   "date": "2026-09-08T16:00:05Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This tax information and impact note is about a temporary zero rate of VAT for qualifying supplies of electricity in Great Britain. ",
-   "categories": [
-    "vat",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-09-08T17:00:05+01:00",
-   "ai": {
-    "summary": "A temporary zero VAT rate applies to qualifying domestic electricity supplies in Great Britain from 1 Oct 2026 to 31 Mar 2027; all other domestic fuels continue at 5% VAT across the UK.",
-    "whoAffected": "Households and electricity suppliers providing qualifying domestic electricity in Great Britain",
-    "effectiveDate": "1 October 2026",
-    "actions": [
-     "Update client VAT calculations to reflect 0% rate for domestic electricity during the period",
-     "Notify affected clients of the continued 5% VAT on other domestic fuels",
-     "Adjust invoicing templates and accounting software accordingly",
-     "Monitor the end date (31 March 2027) for re‑application of standard rates"
-    ],
-    "legislationRefs": [],
-    "relevance": "medium",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-29T13:58:30.155Z"
    }
   },
   {
@@ -4168,7 +4357,25 @@
    ],
    "hasBody": true,
    "changeNote": "A link to the new online form and information about who can apply and what happens after you apply has been added.",
-   "firstPublished": "2015-12-02T00:00:00+00:00"
+   "firstPublished": "2015-12-02T00:00:00+00:00",
+   "ai": {
+    "summary": "HMRC lets UK‑resident individuals, sole traders, companies and other entities apply online for a certificate of residence or a letter of confirmation to avoid double taxation, provided a double tax treaty exists. The application requires details of income, treaty, residency and supporting documents.",
+    "whoAffected": "Individuals, sole traders, partnerships, companies, trusts, charities, public bodies, pension schemes, collective investment schemes and other UK‑resident entities that may need to prove UK tax residence for double‑tax relief.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the client is UK resident and a double taxation agreement exists with the relevant country.",
+     "Gather required information: treaty name, country, income type, period, residency details (days in UK, SRT justification, director/shareholder details for companies) and any supporting documents.",
+     "Submit the application online via HMRC’s service (or by post), ensuring any agent authorisation forms (APSS146A‑D) are included where needed.",
+     "For large businesses, request a pre‑order before the accounting period end if needed, and monitor HMRC’s response for the issued certificate or letter."
+    ],
+    "legislationRefs": [
+     "chapter INTM120030 of the International manual",
+     "chapter INTM162000 of the International manual"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-06T12:03:55.266Z"
+   }
   },
   {
    "id": "c501f9fee8f1f627",
@@ -4406,7 +4613,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-08-20T12:00:07+01:00"
+   "firstPublished": "2026-08-20T12:00:07+01:00",
+   "ai": {
+    "summary": "Agent Updates provide guidance for tax agents and advisers; the next edition is due September 2026 and covers tax, borders and trade, Making Tax Digital, HMRC services and agent engagement. Sign up for email alerts.",
+    "whoAffected": "Tax agents and advisers",
+    "effectiveDate": "2026-08-20",
+    "actions": [
+     "Review the current Agent Update for relevant guidance",
+     "Note that the next edition will be published in September 2026",
+     "Sign up for email reminders to receive future editions",
+     "Monitor the highlighted topics (tax, borders and trade, Making Tax Digital, HMRC services, agent engagement)"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-06T12:04:01.837Z"
+   }
   },
   {
    "id": "14daee5540cd3a97",
@@ -4664,7 +4886,22 @@
    ],
    "hasBody": true,
    "changeNote": "The live webinar link for ‘Company directors — payroll and you’ has been updated. The recorded webinar link for ‘The Informants Scheme — reporting tax fraud or avoidance’ has been added.",
-   "firstPublished": "2017-09-06T00:00:00+01:00"
+   "firstPublished": "2017-09-06T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC offers email updates, webinars and videos covering Self Assessment, Corporation Tax, payroll for directors, work‑from‑home expenses and R&D relief, helping company directors understand responsibilities, record‑keeping and claim processes.",
+    "whoAffected": "Company directors, particularly those of SMEs and self‑employed owners, as well as their tax agents",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Subscribe clients to the HMRC help and support email service to receive updates",
+     "Register directors for the live “payroll and you” webinar and review the recorded sessions",
+     "Advise clients to watch videos on work‑related and home‑working expenses to ensure correct claims",
+     "Guide clients on adding taxes (Corporation Tax, PAYE, VAT) via their business tax account"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-06T12:04:17.926Z"
+   }
   },
   {
    "id": "80b63623a50fffbe",
@@ -4811,7 +5048,24 @@
    ],
    "hasBody": true,
    "changeNote": "VAT Notice 700/1: supplement been updated with the thresholds for 1 April 2026 to 31 March 2027",
-   "firstPublished": "2014-02-25T00:00:00+00:00"
+   "firstPublished": "2014-02-25T00:00:00+00:00",
+   "ai": {
+    "summary": "VAT registration is required for anyone making business supplies of goods or services in the UK, importing goods, handling import acquisitions in Northern Ireland, or selling certain assets.",
+    "whoAffected": "UK‑based businesses of any size, including SMEs, owner‑managed firms and the self‑employed, that supply goods/services, import goods or acquisitions, or sell specified assets",
+    "effectiveDate": "1 April 2026",
+    "actions": [
+     "Identify clients who make UK business supplies, import goods, handle NI import acquisitions or sell certain assets",
+     "Check whether their turnover exceeds the updated registration thresholds for 1 April 2026‑31 March 2027",
+     "Advise qualifying clients to register for VAT promptly",
+     "Assist clients with completing and submitting the VAT registration form"
+    ],
+    "legislationRefs": [
+     "VAT Notice 700/1"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-06T12:04:23.982Z"
+   }
   },
   {
    "id": "fde6549210f417df",
@@ -4893,7 +5147,22 @@
    ],
    "hasBody": true,
    "changeNote": "The mailing address in 'section 1.5 Help and advice' has been updated.",
-   "firstPublished": "2014-05-14T00:00:00+01:00"
+   "firstPublished": "2014-05-14T00:00:00+01:00",
+   "ai": {
+    "summary": "If a business or individual promotes or uses a scheme that gives a tax or National Insurance advantage, they may have to disclose it to HMRC.",
+    "whoAffected": "Businesses, owners, advisers or self‑employed persons who promote or use arrangements designed to obtain a tax or NI advantage",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check client activities for any promotion or use of tax advantage schemes",
+     "Assess whether the activity triggers a disclosure requirement under the guidance",
+     "Prepare the required tax avoidance scheme disclosure for HMRC",
+     "Submit the disclosure and retain supporting documentation"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-06T12:04:32.888Z"
+   }
   },
   {
    "id": "e685944b1020d21b",
@@ -5040,22 +5309,6 @@
    "hasBody": true,
    "changeNote": "First published.",
    "firstPublished": "2026-07-27T11:18:00+01:00"
-  },
-  {
-   "id": "d89c785473c275fd",
-   "title": "Authorising an agent to deal with your tax affairs",
-   "url": "https://www.gov.uk/guidance/authorising-an-agent-to-deal-with-your-tax-affairs",
-   "path": "/guidance/authorising-an-agent-to-deal-with-your-tax-affairs",
-   "date": "2026-07-24T11:45:18Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Check what a paid agent can do on your behalf. How you authorise the agent depends on the tax, and you may need to use paper form 64-8 or an online service.",
-   "categories": [
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "The 'Download the form' section has been updated to make it clear that you must sign and date the form.",
-   "firstPublished": "2014-04-04T00:00:00+01:00"
   },
   {
    "id": "54e5bb73ce7a79cd",
@@ -5921,7 +6174,7 @@
    "path": "/government/consultations/extending-online-marketplace-liability-to-combat-non-compliance",
    "date": "2026-06-23T13:19:00Z",
    "type": "closed_consultation",
-   "source": "HMRC (GOV.UK)",
+   "source": "HM Treasury (GOV.UK)",
    "description": "A proposal to extend current online marketplace VAT liability rules to sales on OMPs by UK based businesses, when their goods are in the UK at the point of sale.",
    "categories": [
     "vat",
