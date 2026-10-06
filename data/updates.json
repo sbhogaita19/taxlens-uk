@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-06T12:04:34.389Z",
+ "generatedAt": "2026-10-06T18:21:22.020Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,70 @@
    "label": "Other"
   }
  ],
- "count": 368,
+ "count": 369,
  "items": [
+  {
+   "id": "aa79600e51f18632",
+   "title": "Companies House accessibility statements",
+   "url": "https://www.gov.uk/government/publications/companies-house-accessibility-statements",
+   "path": "/government/publications/companies-house-accessibility-statements",
+   "date": "2026-10-06T15:54:48Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "These accessibility statements apply to service subdomains run by Companies House.",
+   "categories": [
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Added an English and Welsh language accessibility statement for the Companies House Webchat service.",
+   "firstPublished": "2025-12-09T00:00:00+00:00",
+   "ai": {
+    "summary": "Companies House provides separate accessibility statements for each of its services, detailing how accessible they are, how to report issues, and the dates the statements were prepared and last tested.",
+    "whoAffected": "Users of Companies House services, including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "2026-10-06",
+    "actions": [
+     "Review the accessibility statement for each Companies House service your clients use",
+     "Note the reported accessibility level and any identified issues",
+     "Follow the provided procedure to report any problems encountered",
+     "Record the statement preparation and last test dates for compliance tracking"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-06T18:20:23.238Z"
+   }
+  },
+  {
+   "id": "40a77cddff9ec691",
+   "title": "Apply for an increase in tax credits for a backdated disability benefit decision",
+   "url": "https://www.gov.uk/guidance/apply-for-an-increase-in-tax-credits-for-a-backdated-disability-benefit-decision",
+   "path": "/guidance/apply-for-an-increase-in-tax-credits-for-a-backdated-disability-benefit-decision",
+   "date": "2026-10-06T13:00:52Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Ask for a backdated disability benefit decision to be included in a period when you were claiming Working Tax Credit or Child Tax Credit.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-06T14:00:52+01:00",
+   "ai": {
+    "summary": "If a client receives a backdated disability benefit while claiming Working Tax Credit or Child Tax Credit, they can request extra tax credits. Apply within one month using the appropriate HMRC form (adult TC‑DB1 or child TC‑DB2) and follow the submission instructions.",
+    "whoAffected": "People who have received a backdated disability benefit decision during a period when they were claiming Working Tax Credit or Child Tax Credit",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check the client meets the conditions in helpsheet TC956",
+     "Ensure the application is submitted within one month of notification of the backdated benefit",
+     "Obtain the correct form (TC‑DB1 for adults or TC‑DB2 for children), complete it in Adobe Reader, save and email it to HMRC",
+     "Warn the client that providing false information can lead to a fine up to £3,000 and that HMRC will verify the claim and inform them of any payment"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-06T18:20:26.497Z"
+   }
+  },
   {
    "id": "f841ec78abde871f",
    "title": "Approved payers in the middleman scheme",
@@ -815,6 +877,41 @@
    }
   },
   {
+   "id": "d05959faa324fae3",
+   "title": "Refunds of UK VAT for non-UK businesses (VAT Notice 723A)",
+   "url": "https://www.gov.uk/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
+   "path": "/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
+   "date": "2026-10-01T09:00:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to claim a VAT refund in the UK if you're established outside the UK.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "The reference to the 'Northern Ireland Protocol' has been replaced with the 'Windsor Framework'.",
+   "firstPublished": "2020-12-31T00:00:00+00:00",
+   "ai": {
+    "summary": "The notice sets out how non‑UK businesses that are not VAT‑registered in the UK and have no UK presence can reclaim UK VAT on imports and UK‑based purchases, detailing eligibility, claimable items, minimum amounts, deadlines and electronic or postal submission procedures.",
+    "whoAffected": "Businesses established outside the UK (including EU businesses) that are not registered, liable or eligible for UK VAT and have no UK place of business or supplies, as well as UK/Isle of Man businesses seeking refunds of VAT incurred abroad.",
+    "effectiveDate": "1 January 2021",
+    "actions": [
+     "Confirm the client meets the eligibility criteria (no UK VAT registration, no UK place of business, and their home country offers a similar refund scheme).",
+     "Collect the required documents: VAT65A form, certificate of status, original invoices and any supporting evidence.",
+     "If using electronic filing, register for HMRC’s Secure Data Exchange Service (SDES) by emailing the Overseas Repayment Unit before 30 November to meet the 31 December claim deadline.",
+     "Submit the claim (electronically via SDES or by post) by 31 December of the prescribed year and retain all original documents for HMRC inspection."
+    ],
+    "legislationRefs": [
+     "Value Added Tax Act 1994, Section 39",
+     "Value Added Tax Regulations 1995 (SI 1995/2518) Parts 20A and XXI",
+     "Schedule 9 to the Value Added Tax Act 1994"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-02T11:07:50.160Z"
+   }
+  },
+  {
    "id": "7239dd64dd1fa5cb",
    "title": "VAT on movements of goods between Northern Ireland and the EU",
    "url": "https://www.gov.uk/guidance/vat-on-movements-of-goods-between-northern-ireland-and-the-eu",
@@ -853,41 +950,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-02T11:07:46.534Z"
-   }
-  },
-  {
-   "id": "d05959faa324fae3",
-   "title": "Refunds of UK VAT for non-UK businesses (VAT Notice 723A)",
-   "url": "https://www.gov.uk/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
-   "path": "/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
-   "date": "2026-10-01T09:00:02Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to claim a VAT refund in the UK if you're established outside the UK.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "The reference to the 'Northern Ireland Protocol' has been replaced with the 'Windsor Framework'.",
-   "firstPublished": "2020-12-31T00:00:00+00:00",
-   "ai": {
-    "summary": "The notice sets out how non‑UK businesses that are not VAT‑registered in the UK and have no UK presence can reclaim UK VAT on imports and UK‑based purchases, detailing eligibility, claimable items, minimum amounts, deadlines and electronic or postal submission procedures.",
-    "whoAffected": "Businesses established outside the UK (including EU businesses) that are not registered, liable or eligible for UK VAT and have no UK place of business or supplies, as well as UK/Isle of Man businesses seeking refunds of VAT incurred abroad.",
-    "effectiveDate": "1 January 2021",
-    "actions": [
-     "Confirm the client meets the eligibility criteria (no UK VAT registration, no UK place of business, and their home country offers a similar refund scheme).",
-     "Collect the required documents: VAT65A form, certificate of status, original invoices and any supporting evidence.",
-     "If using electronic filing, register for HMRC’s Secure Data Exchange Service (SDES) by emailing the Overseas Repayment Unit before 30 November to meet the 31 December claim deadline.",
-     "Submit the claim (electronically via SDES or by post) by 31 December of the prescribed year and retain all original documents for HMRC inspection."
-    ],
-    "legislationRefs": [
-     "Value Added Tax Act 1994, Section 39",
-     "Value Added Tax Regulations 1995 (SI 1995/2518) Parts 20A and XXI",
-     "Schedule 9 to the Value Added Tax Act 1994"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-02T11:07:50.160Z"
    }
   },
   {
@@ -4052,7 +4114,28 @@
    ],
    "hasBody": true,
    "changeNote": "The advisory fuel rates for company cars have been updated.",
-   "firstPublished": "2026-01-30T10:09:00+00:00"
+   "firstPublished": "2026-01-30T10:09:00+00:00",
+   "ai": {
+    "summary": "From 6 April 2026 the personal allowance, PAYE tax bands, NI thresholds and rates, emergency tax codes, Class 1A/B rates and minimum wage rates change. Employers must apply the new figures when running payroll, calculating NI, benefits, termination awards and statutory pay.",
+    "whoAffected": "All UK employers, including SMEs, owner‑managed businesses and self‑employed employers with staff, as well as directors",
+    "effectiveDate": "6 April 2026 to 5 April 2027 (specific rates from 1 April 2026 for minimum wage and from 5 April 2026 for SMP)",
+    "actions": [
+     "Update payroll software with the new personal allowance, tax bands and NI thresholds/rates",
+     "Apply the updated emergency tax codes (1257L W1, M1, X) and Class 1A/B NI rates of 15%",
+     "Check that employee pay meets the new National Minimum Wage rates and adjust if needed",
+     "Use HMRC calculators to compute statutory maternity, paternity, adoption, parental bereavement and neonatal care payments at the new rates"
+    ],
+    "legislationRefs": [
+     "PAYE tax and Class 1 National Insurance contributions",
+     "Emergency tax codes",
+     "Class 1A National Insurance",
+     "Class 1B National Insurance",
+     "National Minimum Wage"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-06T18:20:29.472Z"
+   }
   },
   {
    "id": "225c4567f13797b3",
@@ -4324,7 +4407,33 @@
    ],
    "hasBody": true,
    "changeNote": "Electric vehicle charging points have been added to the list of zero-rated items for VAT in section '13.8.1 Dwellings'.",
-   "firstPublished": "2014-08-13T00:00:00+01:00"
+   "firstPublished": "2014-08-13T00:00:00+01:00",
+   "ai": {
+    "summary": "VAT notice 708 details when building work, materials, sales or leases are zero‑rated or reduced‑rated, the need for customer certificates, reverse charge rules, input‑tax blocks and self‑supply charges for contractors, subcontractors and developers.",
+    "whoAffected": "Contractors, subcontractors, developers, self‑builders and their customers (including SMEs, owner‑managed businesses and the self‑employed).",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check if the building work or material qualifies for zero‑rate or 5% reduced‑rate using the relevant sections of the notice",
+     "Obtain a signed certificate from the customer confirming the qualifying purpose before applying zero or reduced rates",
+     "Apply the VAT domestic reverse charge where the supplier and customer are UK‑VAT registered and the CIS reporting applies",
+     "Advise clients on input‑tax blocking rules for non‑building materials and on self‑supply obligations if the certificated use ceases or the building is disposed of"
+    ],
+    "legislationRefs": [
+     "Value Added Tax Act 1994, section 30",
+     "Schedule 8, group 5",
+     "Schedule 8, group 6",
+     "Value Added Tax Act 1994, section 29A",
+     "Schedule 7A, group 6",
+     "Schedule 7A, group 7",
+     "Schedule 10, part 2",
+     "VAT (Input Tax) Order 1992 (Statutory Instrument 1992/3222) articles 2 and 6",
+     "Value Added Tax Regulations 1995 (Statutory Instrument 1995/2518) Regulations 89 and 93",
+     "Value Added Tax (Self‑Supply of Construction Services) Order 1989 (Statutory Instrument 1989/472)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-06T18:20:32.888Z"
+   }
   },
   {
    "id": "fe5912fc92092a64",
@@ -4691,7 +4800,25 @@
    ],
    "hasBody": true,
    "changeNote": "The message about being unable to process requests for company certificates until further notice has been removed. The issue has been resolved. ",
-   "firstPublished": "2019-06-17T00:00:00+01:00"
+   "firstPublished": "2019-06-17T00:00:00+01:00",
+   "ai": {
+    "summary": "Companies House lets you order certified company certificates or document copies via its online service or phone, with standard (£22) or express (£65) dispatch. You can add extra facts, but not PSC or share details. Legalisation is possible through the FCDO for Hague Convention countries.",
+    "whoAffected": "SMEs, owner‑managed companies and their advisers who need certified copies or certificates from Companies House",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Advise clients to order certificates or copies using the Find and update service or call 0303 1234 500",
+     "Recommend choosing standard or express dispatch, noting costs and timelines, and checking for postal delays",
+     "Ensure clients request any additional certified facts needed, remembering restrictions on PSC, shareholders and capital statements",
+     "If a document is needed abroad, guide clients to legalise it through the FCDO, confirming it has a British official’s original signature"
+    ],
+    "legislationRefs": [
+     "Foreign and Commonwealth Office (FCDO)",
+     "Hague Convention of 1961"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-06T18:20:42.840Z"
+   }
   },
   {
    "id": "18727cb4f5b62a38",
@@ -4997,7 +5124,22 @@
    ],
    "hasBody": true,
    "changeNote": "The register has been updated with 446 additions, 28 amendments and 219 removals.",
-   "firstPublished": "2014-10-24T00:00:00+01:00"
+   "firstPublished": "2014-10-24T00:00:00+01:00",
+   "ai": {
+    "summary": "The register lists companies in the Double Taxation Treaty Passport Scheme and lets borrowers verify a lender’s passport holder status; HMRC updates it regularly.",
+    "whoAffected": "Borrowers (including SMEs, owner‑managed businesses and the self‑employed) seeking UK loan interest relief",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Access the Double Taxation Treaty Passport Scheme register on the GOV.UK site",
+     "Check the lender’s name against the register to confirm passport holder status",
+     "Advise clients to rely on the register verification before finalising loan arrangements",
+     "Monitor the register periodically as HMRC adds new lenders"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-06T18:20:54.726Z"
+   }
   },
   {
    "id": "4bd9222cc7a1de1a",
@@ -5178,7 +5320,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-31T15:04:56+01:00"
+   "firstPublished": "2026-07-31T15:04:56+01:00",
+   "ai": {
+    "summary": "The Budget is scheduled for 28 October 2026.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "28 October 2026",
+    "actions": [
+     "Add the budget date to client planning calendars",
+     "Notify clients of the upcoming budget date",
+     "Prepare to review any tax changes announced on that date",
+     "Schedule a post‑budget briefing for clients"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-06T18:21:03.893Z"
+   }
   },
   {
    "id": "9cb41faa55b2104f",
@@ -5210,7 +5367,22 @@
    ],
    "hasBody": true,
    "changeNote": "Added text to explain you do not need to complete identity verification for a PSC who has died. The PSC should remain on the Companies House register until a grant of probate or letters of administration have been received.",
-   "firstPublished": "2025-03-18T00:00:00+00:00"
+   "firstPublished": "2025-03-18T00:00:00+00:00",
+   "ai": {
+    "summary": "Directors must give their Companies House personal code on each confirmation statement or new registration; PSCs need to verify identity within specific 14‑day periods, with special rules for deceased PSCs; authorised corporate service providers must verify identity to act as agents; other roles will face verification later.",
+    "whoAffected": "Company directors, people with significant control (PSCs), authorised corporate service providers, and future roles such as filing persons, limited partnerships, corporate directors and members, and corporate PSC officers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check each client director’s need to supply a personal code on confirmation statements and new company filings",
+     "Confirm PSCs submit their personal code within the correct 14‑day window, noting the exemption for deceased PSCs",
+     "Verify that any ACSP client has completed identity verification before registering as a Companies House authorised agent",
+     "Track upcoming identity‑verification requirements for other roles to advise clients when they become applicable"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-06T18:21:08.247Z"
+   }
   },
   {
    "id": "a09d1ac088c3f661",
@@ -5275,7 +5447,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-28T12:22:45+01:00"
+   "firstPublished": "2026-07-28T12:22:45+01:00",
+   "ai": {
+    "summary": "HM Treasury is consulting on applying the new IFRS 18 standard across Central Government and seeks comments on its proposed approach.",
+    "whoAffected": "Central Government bodies",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review the IFRS 18 consultation document",
+     "Submit comments if your practice or clients are interested",
+     "Monitor updates on any future implementation decisions",
+     "Inform relevant clients about the potential impact of the new standard"
+    ],
+    "legislationRefs": [
+     "IFRS 18"
+    ],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-06T18:21:15.886Z"
+   }
   },
   {
    "id": "b3ae22f9eeaae2cd",
@@ -7962,22 +8151,6 @@
    "hasBody": true,
    "changeNote": "Added translation",
    "firstPublished": "2026-01-13T16:22:00+00:00"
-  },
-  {
-   "id": "aa79600e51f18632",
-   "title": "Companies House accessibility statements",
-   "url": "https://www.gov.uk/government/publications/companies-house-accessibility-statements",
-   "path": "/government/publications/companies-house-accessibility-statements",
-   "date": "2026-01-08T16:18:00Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "These accessibility statements apply to service subdomains run by Companies House.",
-   "categories": [
-    "reporting"
-   ],
-   "hasBody": true,
-   "changeNote": "Added Welsh translation. ",
-   "firstPublished": "2025-12-09T00:00:00+00:00"
   },
   {
    "id": "b1fdfaf381343173",
