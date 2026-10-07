@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-06T18:21:22.020Z",
+ "generatedAt": "2026-10-07T11:50:06.746Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,108 @@
    "label": "Other"
   }
  ],
- "count": 369,
+ "count": 372,
  "items": [
+  {
+   "id": "fcd580b767b6dfba",
+   "title": "How to get authorised to act as a tax agent on behalf of your clients",
+   "url": "https://www.gov.uk/guidance/how-to-get-authorised-to-act-as-a-tax-agent-on-behalf-of-your-clients",
+   "path": "/guidance/how-to-get-authorised-to-act-as-a-tax-agent-on-behalf-of-your-clients",
+   "date": "2026-10-07T10:48:13Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out the different ways you can get client authorisation including the digital handshake, Online Agent Authorisation service, paper forms and through your client's business tax account.",
+   "categories": [
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "The 'Find out the different ways to get client authorisation' section has been updated to remove 'Online Tax Registration Service' as a way to get client authorisation.",
+   "firstPublished": "2022-09-07T00:00:00+01:00",
+   "ai": {
+    "summary": "After registering as a tax agent you must obtain client authorisation before transacting. Choose the method that matches each tax service—digital handshake, Online Agent Authorisation, business tax account or paper form (e.g., 64‑8). Do not use the client’s HMRC sign‑in details.",
+    "whoAffected": "Tax agents and their SME, owner‑managed and self‑employed clients who need authorisation to act on tax matters",
+    "effectiveDate": "2026-10-07",
+    "actions": [
+     "Register as a tax agent with HMRC",
+     "Select the appropriate authorisation method for each tax service (digital handshake, Online Agent Authorisation, client’s business tax account or the relevant paper form)",
+     "If the client is digitally excluded, give them the authorisation request link and HMRC contact number",
+     "Never use the client’s HMRC sign‑in details; obtain formal authorisation instead"
+    ],
+    "legislationRefs": [
+     "form 64-8",
+     "ATED1 form",
+     "ChV1",
+     "CH995",
+     "TC689",
+     "Comp1"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-07T11:49:06.436Z"
+   }
+  },
+  {
+   "id": "cf9b8afcd1556126",
+   "title": "Check the identity of someone representing HMRC in person",
+   "url": "https://www.gov.uk/guidance/confirm-the-identity-of-someone-representing-hmrc",
+   "path": "/guidance/confirm-the-identity-of-someone-representing-hmrc",
+   "date": "2026-10-07T10:11:34Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to verify the identity of an HMRC officer or an HMRC collector if they contact you in person.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The process to confirm the identity of an HMRC officer when meeting them in person has been updated.",
+   "firstPublished": "2023-09-05T00:00:00+01:00",
+   "ai": {
+    "summary": "To verify an in‑person HMRC officer or collector, ask for their ID card, note name and serial number, then call the dedicated verification line to confirm they are genuine; use only for identity checks, not general queries.",
+    "whoAffected": "SMEs, owner‑managed businesses and the self‑employed who may receive in‑person visits from HMRC officers or collectors",
+    "effectiveDate": "2026-10-07",
+    "actions": [
+     "Ask the visitor to show their HMRC identification card and record the name and serial number",
+     "Call the appropriate verification number (03000 565 656 for officers, 0300 200 3862 for collectors) and provide the recorded details",
+     "Use the verification line only to confirm identity, not for general enquiries",
+     "If a collector visits outside 8 am‑6 pm Mon‑Fri, arrange an appointment within those hours before confirming identity"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-07T11:49:09.401Z"
+   }
+  },
+  {
+   "id": "d938b99f7a5913e6",
+   "title": "Compliance checks: prohibition of promotion of certain tax avoidance schemes — CC/FS91",
+   "url": "https://www.gov.uk/government/publications/compliance-checks-prohibition-of-promotion-of-certain-tax-avoidance-schemes-ccfs91",
+   "path": "/government/publications/compliance-checks-prohibition-of-promotion-of-certain-tax-avoidance-schemes-ccfs91",
+   "date": "2026-10-07T06:00:05Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "This factsheet tells you about what happens if you promote certain tax avoidance schemes.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-07T07:00:05+01:00",
+   "ai": {
+    "summary": "The factsheet explains the rules against promoting certain tax avoidance schemes, defines promotion and arrangements, outlines civil and criminal penalties, rights during penalty considerations, how to dispute penalties, and where to get help.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check that your practice does not promote any prohibited tax avoidance schemes",
+     "Familiarise yourself with HMRC’s definitions of “promote” and “arrangements”",
+     "Put in place procedures to respond if HMRC considers imposing penalties",
+     "Seek HMRC guidance or professional advice if you receive a penalty notice"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-07T11:49:12.266Z"
+   }
+  },
   {
    "id": "aa79600e51f18632",
    "title": "Companies House accessibility statements",
@@ -776,6 +876,41 @@
    }
   },
   {
+   "id": "d05959faa324fae3",
+   "title": "Refunds of UK VAT for non-UK businesses (VAT Notice 723A)",
+   "url": "https://www.gov.uk/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
+   "path": "/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
+   "date": "2026-10-01T09:00:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to claim a VAT refund in the UK if you're established outside the UK.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "The reference to the 'Northern Ireland Protocol' has been replaced with the 'Windsor Framework'.",
+   "firstPublished": "2020-12-31T00:00:00+00:00",
+   "ai": {
+    "summary": "The notice sets out how non‑UK businesses that are not VAT‑registered in the UK and have no UK presence can reclaim UK VAT on imports and UK‑based purchases, detailing eligibility, claimable items, minimum amounts, deadlines and electronic or postal submission procedures.",
+    "whoAffected": "Businesses established outside the UK (including EU businesses) that are not registered, liable or eligible for UK VAT and have no UK place of business or supplies, as well as UK/Isle of Man businesses seeking refunds of VAT incurred abroad.",
+    "effectiveDate": "1 January 2021",
+    "actions": [
+     "Confirm the client meets the eligibility criteria (no UK VAT registration, no UK place of business, and their home country offers a similar refund scheme).",
+     "Collect the required documents: VAT65A form, certificate of status, original invoices and any supporting evidence.",
+     "If using electronic filing, register for HMRC’s Secure Data Exchange Service (SDES) by emailing the Overseas Repayment Unit before 30 November to meet the 31 December claim deadline.",
+     "Submit the claim (electronically via SDES or by post) by 31 December of the prescribed year and retain all original documents for HMRC inspection."
+    ],
+    "legislationRefs": [
+     "Value Added Tax Act 1994, Section 39",
+     "Value Added Tax Regulations 1995 (SI 1995/2518) Parts 20A and XXI",
+     "Schedule 9 to the Value Added Tax Act 1994"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-02T11:07:50.160Z"
+   }
+  },
+  {
    "id": "0e0fc7458e9b9ae8",
    "title": "Changes to accounting for VAT for Northern Ireland and Great Britain from 1 January 2021",
    "url": "https://www.gov.uk/government/publications/accounting-for-vat-on-goods-moving-between-great-britain-and-northern-ireland-from-1-january-2021",
@@ -843,75 +978,6 @@
    }
   },
   {
-   "id": "1328959c9bf5fedd",
-   "title": "Check how to report and pay VAT on distance sales of goods from Northern Ireland to the EU",
-   "url": "https://www.gov.uk/guidance/check-how-to-report-and-pay-vat-on-distance-sales-of-goods-from-northern-ireland-to-the-eu",
-   "path": "/guidance/check-how-to-report-and-pay-vat-on-distance-sales-of-goods-from-northern-ireland-to-the-eu",
-   "date": "2026-10-01T09:00:02Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to report and pay VAT due on the distance sales of goods from Northern Ireland to consumers in the EU using the One Stop Shop (OSS) Union scheme.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "The reference to the 'Northern Ireland Protocol' has been replaced with the 'Windsor Framework'.",
-   "firstPublished": "2021-06-28T00:00:00+01:00",
-   "ai": {
-    "summary": "Northern Irish businesses selling goods to EU consumers that exceed the distance‑selling threshold must account for VAT in the consumer’s country, but can use the OSS Union scheme to file a single return. Those below the UK VAT threshold must first register for UK VAT to join OSS.",
-    "whoAffected": "Businesses in Northern Ireland (including SMEs, owner‑managed firms and self‑employed) that sell goods to EU consumers, whether above or below the UK VAT registration threshold.",
-    "effectiveDate": "2026-10-01",
-    "actions": [
-     "Check eligibility: sales to EU consumers above the distance‑selling threshold and under the Windsor Framework",
-     "If turnover is below the UK VAT threshold, register for UK VAT and select activity code 63990 when registering",
-     "Register for the OSS Union scheme and complete the OSS return",
-     "Keep all required records for 10 years and submit OSS returns and payments as required"
-    ],
-    "legislationRefs": [
-     "Windsor Framework",
-     "63990 Distance sales of goods (below UK VAT threshold)"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-01T18:25:29.796Z"
-   }
-  },
-  {
-   "id": "d05959faa324fae3",
-   "title": "Refunds of UK VAT for non-UK businesses (VAT Notice 723A)",
-   "url": "https://www.gov.uk/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
-   "path": "/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
-   "date": "2026-10-01T09:00:02Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to claim a VAT refund in the UK if you're established outside the UK.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "The reference to the 'Northern Ireland Protocol' has been replaced with the 'Windsor Framework'.",
-   "firstPublished": "2020-12-31T00:00:00+00:00",
-   "ai": {
-    "summary": "The notice sets out how non‑UK businesses that are not VAT‑registered in the UK and have no UK presence can reclaim UK VAT on imports and UK‑based purchases, detailing eligibility, claimable items, minimum amounts, deadlines and electronic or postal submission procedures.",
-    "whoAffected": "Businesses established outside the UK (including EU businesses) that are not registered, liable or eligible for UK VAT and have no UK place of business or supplies, as well as UK/Isle of Man businesses seeking refunds of VAT incurred abroad.",
-    "effectiveDate": "1 January 2021",
-    "actions": [
-     "Confirm the client meets the eligibility criteria (no UK VAT registration, no UK place of business, and their home country offers a similar refund scheme).",
-     "Collect the required documents: VAT65A form, certificate of status, original invoices and any supporting evidence.",
-     "If using electronic filing, register for HMRC’s Secure Data Exchange Service (SDES) by emailing the Overseas Repayment Unit before 30 November to meet the 31 December claim deadline.",
-     "Submit the claim (electronically via SDES or by post) by 31 December of the prescribed year and retain all original documents for HMRC inspection."
-    ],
-    "legislationRefs": [
-     "Value Added Tax Act 1994, Section 39",
-     "Value Added Tax Regulations 1995 (SI 1995/2518) Parts 20A and XXI",
-     "Schedule 9 to the Value Added Tax Act 1994"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-02T11:07:50.160Z"
-   }
-  },
-  {
    "id": "7239dd64dd1fa5cb",
    "title": "VAT on movements of goods between Northern Ireland and the EU",
    "url": "https://www.gov.uk/guidance/vat-on-movements-of-goods-between-northern-ireland-and-the-eu",
@@ -950,6 +1016,40 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-02T11:07:46.534Z"
+   }
+  },
+  {
+   "id": "1328959c9bf5fedd",
+   "title": "Check how to report and pay VAT on distance sales of goods from Northern Ireland to the EU",
+   "url": "https://www.gov.uk/guidance/check-how-to-report-and-pay-vat-on-distance-sales-of-goods-from-northern-ireland-to-the-eu",
+   "path": "/guidance/check-how-to-report-and-pay-vat-on-distance-sales-of-goods-from-northern-ireland-to-the-eu",
+   "date": "2026-10-01T09:00:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to report and pay VAT due on the distance sales of goods from Northern Ireland to consumers in the EU using the One Stop Shop (OSS) Union scheme.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "The reference to the 'Northern Ireland Protocol' has been replaced with the 'Windsor Framework'.",
+   "firstPublished": "2021-06-28T00:00:00+01:00",
+   "ai": {
+    "summary": "Northern Irish businesses selling goods to EU consumers that exceed the distance‑selling threshold must account for VAT in the consumer’s country, but can use the OSS Union scheme to file a single return. Those below the UK VAT threshold must first register for UK VAT to join OSS.",
+    "whoAffected": "Businesses in Northern Ireland (including SMEs, owner‑managed firms and self‑employed) that sell goods to EU consumers, whether above or below the UK VAT registration threshold.",
+    "effectiveDate": "2026-10-01",
+    "actions": [
+     "Check eligibility: sales to EU consumers above the distance‑selling threshold and under the Windsor Framework",
+     "If turnover is below the UK VAT threshold, register for UK VAT and select activity code 63990 when registering",
+     "Register for the OSS Union scheme and complete the OSS return",
+     "Keep all required records for 10 years and submit OSS returns and payments as required"
+    ],
+    "legislationRefs": [
+     "Windsor Framework",
+     "63990 Distance sales of goods (below UK VAT threshold)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-01T18:25:29.796Z"
    }
   },
   {
@@ -4449,7 +4549,25 @@
    ],
    "hasBody": true,
    "changeNote": "The section 'When you can rely on information or advice given by HMRC' has been updated with information on when a clearance applies to you.",
-   "firstPublished": "2013-08-08T00:00:00+01:00"
+   "firstPublished": "2013-08-08T00:00:00+01:00",
+   "ai": {
+    "summary": "The Non‑Statutory Clearance Service lets clients request written HMRC advice on transactions where legislation is unclear, provided they have genuine uncertainty and have used all guidance. HMRC replies within 28 days (12 weeks for VAT), may request more info, and advice can be relied on if accurate and followed exactly.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who need HMRC advice on transactions not covered by a statutory clearance",
+    "effectiveDate": "2026-08-26",
+    "actions": [
+     "Check whether the transaction is covered by a statutory clearance or another appropriate route before applying for non‑statutory clearance",
+     "Confirm the client has read all relevant guidance, cannot find the needed information and has a genuine uncertainty about the legislation",
+     "Prepare the application using the correct annex checklist (A‑E) and submit it to the specified email address, ensuring all information is accurate and complete",
+     "If HMRC requests additional information, provide it within 30 days and advise the client that the advice can be relied on only if the supplied details remain correct and the transaction is carried out as described"
+    ],
+    "legislationRefs": [
+     "Income Tax (Trading and Other Income) Act 2005",
+     "Income Tax Act 2007"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-07T11:49:16.359Z"
+   }
   },
   {
    "id": "3d43401d7ccc5ade",
@@ -4501,7 +4619,25 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-08-25T12:58:07+01:00"
+   "firstPublished": "2026-08-25T12:58:07+01:00",
+   "ai": {
+    "summary": "Payslip fraud occurs when tax, NI or CIS deductions shown on a payslip aren’t paid to HMRC, risking benefits, State Pension and tax bills. Regularly checking payslips, matching deductions to HMRC records and reporting mismatches protect workers, especially agency, temporary and CIS‑paid staff.",
+    "whoAffected": "Agency workers, temporary workers, contractors, umbrella‑company employees, self‑employed workers paid under the Construction Industry Scheme, CIS sub‑contractors, and anyone receiving payslips or deduction statements",
+    "effectiveDate": "2026-08-25T11:58:07Z",
+    "actions": [
+     "Advise clients to obtain a payslip for every pay period and verify personal, employer and tax‑code details",
+     "Instruct clients to compare tax and NI deductions on payslips with their Personal Tax Account, HMRC app, NI record or student loan account",
+     "Prompt clients to report any missing, false or mismatched payslips or CIS statements to HMRC promptly",
+     "For CIS sub‑contractors, ensure they include full invoice amounts and CIS deductions on their Self‑Assessment return and keep supporting evidence"
+    ],
+    "legislationRefs": [
+     "Construction Industry Scheme (CIS)",
+     "Key Information Document"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-07T11:49:19.337Z"
+   }
   },
   {
    "id": "d9501802943f176b",
@@ -5223,7 +5359,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-08-04T09:30:04+01:00"
+   "firstPublished": "2026-08-04T09:30:04+01:00",
+   "ai": {
+    "summary": "Employers must now report ERS net settlement with one row per employee, keep records for the tax year plus six years, and follow updated SAYE prospectus rules. EMI notification is removed from 6 April 2027, with grants reported via the EMI end‑of‑year return from the 2027‑28 tax year.",
+    "whoAffected": "Employers of SMEs and owner‑managed businesses using employment‑related securities, SAYE schemes, or Enterprise Management Incentives (EMI).",
+    "effectiveDate": "6 April 2027 (EMI notification removal; ERS change applies to all tax years)",
+    "actions": [
+     "Update client ERS end‑of‑year returns to use a single row per employee and omit the two previous lines",
+     "Ensure clients retain Income Tax and NI records for the current tax year plus six years and can produce them on request",
+     "Check SAYE schemes comply with Schedule 3 of the Income Tax (Earnings and Pensions) Act 2003 and paragraph 21 of the prospectus, especially the ban on transferring contracts",
+     "Advise EMI clients that from 6 April 2027 no notification is needed and that grants must be reported via the EMI end‑of‑year return starting the 2027‑28 tax year (submission from 6 April 2028)"
+    ],
+    "legislationRefs": [
+     "Schedule 3 of the Income Tax (Earnings and Pensions) Act 2003"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-07T11:49:35.663Z"
+   }
   },
   {
    "id": "d56b43d517c6d2e2",
@@ -5351,7 +5504,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-31T15:03:00+01:00"
+   "firstPublished": "2026-07-31T15:03:00+01:00",
+   "ai": {
+    "summary": "The Chancellor announced the first Budget will be on Wednesday 28 October, promising to shift money and power from Westminster to every postcode, built on fiscal discipline and aimed at giving businesses and families stability.",
+    "whoAffected": "Businesses and families across the UK",
+    "effectiveDate": "Wednesday 28 October",
+    "actions": [
+     "Watch the Chancellor’s announcement video",
+     "Submit comments via the Budget Representation Portal before 23:59 on Wednesday 9 September",
+     "Inform clients of the upcoming Budget on 28 October",
+     "Prepare to discuss potential fiscal measures and stability for business planning"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-07T11:49:43.373Z"
+   }
   },
   {
    "id": "b25b2b1cc9ad5114",
@@ -5545,7 +5713,22 @@
    ],
    "hasBody": true,
    "changeNote": "The ‘Net impact on annual administrative burden’ in the ‘Continuing average annual impact’ table has been corrected from -£1 million to -£18 million in the 'Mandatory reporting of benefits in kind in Real Time Information (RTI) from April 2027' attachment.",
-   "firstPublished": "2026-07-13T13:11:00+01:00"
+   "firstPublished": "2026-07-13T13:11:00+01:00",
+   "ai": {
+    "summary": "From April 2027 employers must report certain benefits in kind (company cars, fuel, vans, medical benefits) through payroll software via RTI, moving from year‑end to real‑time reporting, with a first‑year penalty easement for non‑deliberate errors; the scope expands in April 2028.",
+    "whoAffected": "Employers providing company cars, car fuel, vans, van fuel or employer‑provided medical benefits (including SMEs and owner‑managed businesses)",
+    "effectiveDate": "April 2027",
+    "actions": [
+     "Update clients' payroll software to capture benefits in kind via RTI",
+     "Inform clients that from April 2027 company cars, fuel, vans and medical benefits must be reported in real time",
+     "Explain the temporary first‑year penalty easement for non‑deliberate reporting errors",
+     "Track forthcoming guidance on employer‑provided loans, accommodation and the April 2028 extension"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-07T11:49:57.859Z"
+   }
   },
   {
    "id": "dbe32093c3526e93",
@@ -5577,7 +5760,22 @@
    ],
    "hasBody": true,
    "changeNote": "Updated wording under 'Annex A - 87. Ombudsman' to clarify that the list of requirements only applies to non-statutory bodies.",
-   "firstPublished": "2013-06-01T00:00:00+01:00"
+   "firstPublished": "2013-06-01T00:00:00+01:00",
+   "ai": {
+    "summary": "The guide outlines what you need to know to set up a limited company, including choosing the company type, appointing officers, naming rules, and the public nature of registered addresses.",
+    "whoAffected": "Clients intending to incorporate a limited company, including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the appropriate company type for the client’s business",
+     "Ensure all required officers are identified and their details recorded",
+     "Check the proposed company name against naming controls and restrictions",
+     "Advise the client that any home address used as a service or registered address will be publicly visible"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-07T11:50:02.132Z"
+   }
   },
   {
    "id": "aff4f8d1ba377b93",
@@ -5746,7 +5944,7 @@
    "url": "https://www.gov.uk/government/consultations/modernising-payment-services-regulation",
    "path": "/government/consultations/modernising-payment-services-regulation",
    "date": "2026-07-14T15:10:00Z",
-   "type": "open_consultation",
+   "type": "closed_consultation",
    "source": "HM Treasury (GOV.UK)",
    "description": "A consultation on the government's approach to modernising payment services regulation.",
    "categories": [
