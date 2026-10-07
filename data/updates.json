@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-07T11:50:06.746Z",
+ "generatedAt": "2026-10-07T18:57:54.146Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -4747,7 +4747,22 @@
    ],
    "hasBody": true,
    "changeNote": "Added information about how CIS refunds work, when you can claim, when evidence should be uploaded with a claim, how to use CIS deductions to pay another tax and what happens after a claim is submitted. Changed contact details to Employers: general enquiries. ",
-   "firstPublished": "2017-07-20T00:00:00+01:00"
+   "firstPublished": "2017-07-20T00:00:00+01:00",
+   "ai": {
+    "summary": "Limited‑company subcontractors can claim a refund when CIS deductions exceed their tax liability. Claims can be made online for the last six years or by post for earlier years, and any surplus can be refunded or used to pay VAT or Corporation Tax.",
+    "whoAffected": "Limited company subcontractors (or agents representing them) who have had more CIS deductions taken than needed to cover their tax liabilities.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the client is a limited‑company subcontractor with an over‑payment of CIS deductions",
+     "Collect required information: overpayment amount, company details, PAYE and Corporation Tax references, bank details and supporting statements",
+     "Submit the claim online (or by post for earlier years) using the client’s Corporation Tax/PAYE sign‑in or agent services account, attaching form R38 if paying an agent",
+     "Advise the client on options for any surplus – refund, or allocation to VAT or upcoming Corporation Tax – and monitor HMRC’s response within the stated timeframe"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-07T18:56:54.277Z"
+   }
   },
   {
    "id": "f488eecb8d1d1d20",
@@ -4889,7 +4904,22 @@
    ],
    "hasBody": true,
    "changeNote": "Live webinars for 'Employees with more than one workplace', 'Employee travel', 'Phones, internet and homeworking' and 'Trivial benefits' have been added. The webinar links for 'Company cars, vans and fuel' and 'Labour supply chain due diligence for local authorities' have been updated.",
-   "firstPublished": "2017-10-06T00:00:00+01:00"
+   "firstPublished": "2017-10-06T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC offers email updates, videos and live/recorded webinars covering employer registration, payroll, tax codes, benefits, statutory pay and other obligations, helping new and existing employers manage taxes, reporting and compliance.",
+    "whoAffected": "Employers and small‑business owners, including owner‑managed businesses and self‑employed people who employ staff",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Subscribe to the HMRC help and support email service for updates",
+     "Register clients for relevant live webinars (e.g., employer filing obligations, payroll, trivial benefits)",
+     "Direct clients to the video collections for new‑employer guidance, tax codes and running a small business",
+     "Advise clients to use their HMRC business tax account to add and manage taxes such as PAYE, Corporation Tax, Self Assessment and VAT"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-07T18:56:57.537Z"
+   }
   },
   {
    "id": "c3881a9ce287b113",
@@ -5005,7 +5035,22 @@
    ],
    "hasBody": true,
    "changeNote": "Information about 'When to apply' for an exemption if you need to use Making Tax Digital for Income Tax from 6 April 2027 has been updated.",
-   "firstPublished": "2026-01-29T13:30:00+00:00"
+   "firstPublished": "2026-01-29T13:30:00+00:00",
+   "ai": {
+    "summary": "Clients may be exempt from Making Tax Digital for Income Tax if they are digitally excluded or meet other criteria; they must apply to HMRC with personal details and reasons, and continue filing Self Assessment as normal.",
+    "whoAffected": "Self Assessment taxpayers, including self‑employed individuals and owners of SMEs who may need to use Making Tax Digital for Income Tax",
+    "effectiveDate": "6 April 2026",
+    "actions": [
+     "Check whether the client is automatically exempt or needs to apply for an exemption",
+     "Collect the client’s NI number, address and a written explanation (including digital‑exclusion evidence if relevant)",
+     "Submit the application by calling or writing to HMRC using the correct subject line for the exemption type",
+     "If the application is refused, advise the client on the 30‑day appeal process and maintain normal Self Assessment record‑keeping"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-07T18:57:00.950Z"
+   }
   },
   {
    "id": "e598690519d1c171",
@@ -5117,7 +5162,26 @@
    ],
    "hasBody": true,
    "changeNote": "Updated to include information for a virtual roundtable event.",
-   "firstPublished": "2026-07-13T13:08:30+01:00"
+   "firstPublished": "2026-07-13T13:08:30+01:00",
+   "ai": {
+    "summary": "HMRC is consulting on simplifying the process for obtaining treaty relief from withholding tax on overseas interest payments, aiming to ease administration while preventing avoidance. Stakeholders are invited to a virtual roundtable on 3 Sept 2026 and to submit written views.",
+    "whoAffected": "Taxpayers making interest payments overseas, especially those involved in cross‑border financing and using existing treaty relief processes (e.g., Double Taxation Treaty Passport, Directions to make payments at the treaty rate).",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients who make overseas interest payments and may need treaty relief",
+     "Review their current treaty relief processes (Double Taxation Treaty Passport, Directions, claims)",
+     "Register for the virtual roundtable by emailing the address before 26 Aug 2026 (max 2 participants per firm)",
+     "Prepare and submit written responses to the consultation"
+    ],
+    "legislationRefs": [
+     "Double Taxation Agreements",
+     "Double Taxation Treaty Passport",
+     "Directions to make payments at the treaty rate"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-07T18:57:07.425Z"
+   }
   },
   {
    "id": "a9d9a2fd41f2765d",
@@ -5582,7 +5646,22 @@
    ],
    "hasBody": true,
    "changeNote": "Guidance on 'How to sign in' has been updated in the ‘What this means for an agent' attachment.",
-   "firstPublished": "2014-09-04T00:00:00+01:00"
+   "firstPublished": "2014-09-04T00:00:00+01:00",
+   "ai": {
+    "summary": "Employment intermediaries that place workers and do not operate PAYE must report all placed workers to HMRC using the prescribed template, uploading via the online service at least every three months, unless they are UK employers who operate PAYE for supplied workers.",
+    "whoAffected": "Employment intermediaries (agencies) that place workers for clients and do not run PAYE, and UK employers who supply workers and operate PAYE (exempt).",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify whether the client is an intermediary without PAYE or a UK employer operating PAYE",
+     "If an intermediary, create reports using HMRC’s report template",
+     "Upload and send the reports via HMRC’s online service at least quarterly (or more frequently as chosen)",
+     "Confirm exemption criteria are met for UK employers operating PAYE to avoid reporting"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-07T18:57:20.294Z"
+   }
   },
   {
    "id": "c45ccad23a4a7e2c",
@@ -5681,7 +5760,26 @@
    ],
    "hasBody": true,
    "changeNote": "The ‘Non-tax-advantaged schemes’ section has been updated with information about when you do not need to submit an employment related securities return.\r\n",
-   "firstPublished": "2014-01-01T00:00:00+00:00"
+   "firstPublished": "2014-01-01T00:00:00+00:00",
+   "ai": {
+    "summary": "Employers must register any employment‑related securities (ERS) scheme with HMRC by 6 July after the tax year it starts, obtain a PAYE reference, enrol the PAYE online service, and file an ERS return or nil return by the same deadline, otherwise tax benefits may be lost.",
+    "whoAffected": "Employers of SMEs, owner‑managed businesses and the self‑employed who run tax‑advantaged or non‑tax‑advantaged ERS schemes, and any agents they appoint",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Register as an employer and obtain a PAYE reference",
+     "Enrol and activate the PAYE online service within 28 days",
+     "Register the ERS scheme via HMRC Online Services before 6 July after the relevant tax year",
+     "Submit the required ERS return or a nil return by 6 July, or authorise an agent to do so"
+    ],
+    "legislationRefs": [
+     "PAYE",
+     "Employer of Record (EoR)",
+     "Online Agent Authorisation"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-07T18:57:28.694Z"
+   }
   },
   {
    "id": "5d36ebf0c492169b",
@@ -5744,7 +5842,22 @@
    ],
    "hasBody": true,
    "changeNote": "'Working sheet 1' and 'Working sheet 2' for income and expenses, along with 'Other taxable Income (HS325)' for tax years 2023 to 2025 have been removed from the page. A link to the National Archives website has been added to the page.",
-   "firstPublished": "2014-07-04T00:00:00+01:00"
+   "firstPublished": "2014-07-04T00:00:00+01:00",
+   "ai": {
+    "summary": "Use the HS325 helpsheet and related guides to calculate other UK income and additional information for your Self Assessment return; older helpsheets are available via the National Archives.",
+    "whoAffected": "Taxpayers completing a Self Assessment return, including self‑employed and owner‑managed businesses",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Access the HS325 helpsheet on the GOV.UK site",
+     "Use the provided guides and working sheets to work out figures for other UK income and additional information",
+     "Enter those figures into the corresponding sections of the Self Assessment return",
+     "If required, retrieve previous helpsheets from the National Archives website"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-07T18:57:33.046Z"
+   }
   },
   {
    "id": "46dd874b6a8f0945",
@@ -5857,7 +5970,22 @@
    ],
    "hasBody": true,
    "changeNote": "Uploaded the most recent version of the form to give notice of a move from administration to dissolution (AM23). ",
-   "firstPublished": "2017-04-06T00:15:00+01:00"
+   "firstPublished": "2017-04-06T00:15:00+01:00",
+   "ai": {
+    "summary": "Use form AM23 to notify Companies House when a company moves from administration to dissolution, and list any additional insolvency practitioners on the continuation page if there are more than two.",
+    "whoAffected": "Companies currently in administration and their insolvency practitioners",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Complete form AM23 to give notice of the move from administration to dissolution",
+     "If more than two insolvency practitioners are acting, record the additional ones on the continuation page",
+     "Submit the completed form to Companies House",
+     "Retain a copy of the submitted form for your records"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-07T18:57:42.044Z"
+   }
   },
   {
    "id": "ba4969f30d1e3682",
@@ -5873,7 +6001,26 @@
    ],
    "hasBody": true,
    "changeNote": "Updated tax year references in sections 12.3 and 16.6 of ‘Annex VIII A: tainted charity donations on or after 6 April 2026’ to reflect the 2026 to 2027 tax year.",
-   "firstPublished": "2013-09-17T00:00:00+01:00"
+   "firstPublished": "2013-09-17T00:00:00+01:00",
+   "ai": {
+    "summary": "Guidance outlines charities' direct tax duties, reliefs and VAT obligations, noting updates to tax year references in Annex VIII A and withdrawal of Chapter 1 and Annex v.",
+    "whoAffected": "Charities and advisers handling charity tax matters",
+    "effectiveDate": "6 April 2026",
+    "actions": [
+     "Review charity clients' current tax positions against the updated guidance",
+     "Amend advice to incorporate the new 2026‑2027 tax year references in Annex VIII A",
+     "Remove any reliance on withdrawn Chapter 1 and Annex v provisions",
+     "Confirm applicable VAT reliefs for each charity client"
+    ],
+    "legislationRefs": [
+     "Annex VIII A",
+     "Chapter 1",
+     "Annex v"
+    ],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-07T18:57:44.894Z"
+   }
   },
   {
    "id": "f126e0b8b9b04d81",
