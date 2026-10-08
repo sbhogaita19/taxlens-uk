@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-08T12:04:29.027Z",
+ "generatedAt": "2026-10-08T18:51:51.716Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -155,7 +155,22 @@
    ],
    "hasBody": true,
    "changeNote": "The recorded webinar link for 'Making Tax Digital if you are a landlord and joint property owner' and the video 'How to sign up your clients to Making Tax Digital for Income Tax' have been updated.",
-   "firstPublished": "2018-05-31T00:00:00+01:00"
+   "firstPublished": "2018-05-31T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC provides videos, webinars and guidance to help sole traders, landlords and agents prepare for Making Tax Digital for Income Tax, including software choice, registration, authorisations and digital record‑keeping, with mandatory use starting from 6 April 2026 for higher‑income earners.",
+    "whoAffected": "Sole traders, landlords (including joint owners), agents and their self‑employed or property‑income clients, plus any small business with qualifying income",
+    "effectiveDate": "6 April 2026 (first mandatory date)",
+    "actions": [
+     "Identify clients whose income exceeds the thresholds and note the applicable start dates",
+     "Recommend HMRC‑recognised compatible software that covers all their income streams",
+     "Assist clients in registering, authorising the agent services account and signing up for MTD",
+     "Set up digital record‑keeping and quarterly update processes"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-08T18:50:49.916Z"
+   }
   },
   {
    "id": "79959bfe7470b98b",
@@ -171,7 +186,28 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-08T10:30:17+01:00"
+   "firstPublished": "2026-10-08T10:30:17+01:00",
+   "ai": {
+    "summary": "HMRC urges Self Assessment customers to start their returns early to reduce anxiety, offering online guidance, a checker tool and tips like preparing records, filing in stages, budgeting payments and using digital services. Key deadlines are 31 Oct 2026 for paper and 31 Jan 2027 for online returns.",
+    "whoAffected": "Self Assessment taxpayers, including SMEs, owner‑managed businesses, the self‑employed, PAYE earners, those receiving Winter Fuel or Pension Age Winter Heating Payments, and High Income Child Benefit Charge payers",
+    "effectiveDate": "Paper return deadline 31 Oct 2026; online return deadline 31 Jan 2027 (2025‑2026 tax year)",
+    "actions": [
+     "Advise clients to gather all records and start the return early, using GOV.UK guidance",
+     "Encourage use of the Self Assessment checker tool to confirm filing requirement and register if needed",
+     "Recommend filing online before 30 Dec 2026 for PAYE clients and budgeting payments (e.g., monthly instalments)",
+     "Highlight digital options such as Making Tax Digital for Income Tax and the HICBC PAYE service for eligible clients"
+    ],
+    "legislationRefs": [
+     "Self Assessment",
+     "Making Tax Digital for Income Tax",
+     "High Income Child Benefit Charge (HICBC)",
+     "Winter Fuel Payment",
+     "Pension Age Winter Heating Payment"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-08T18:50:52.915Z"
+   }
   },
   {
    "id": "3de9b3b052fcfdde",
@@ -187,7 +223,22 @@
    ],
    "hasBody": true,
    "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved.",
-   "firstPublished": "2019-09-03T00:00:00+01:00"
+   "firstPublished": "2019-09-03T00:00:00+01:00",
+   "ai": {
+    "summary": "Guide explains when and how to pay General Betting, Pool Betting and Remote Gaming Duty, including deadlines (30 days after each accounting period), required 14‑character reference, payment methods (online, card, bank transfer, cheque) and steps if wrong reference is used.",
+    "whoAffected": "Businesses that operate remote gambling, general betting or pool betting and are liable for the respective duties, including owners of SMEs and self‑employed gambling operators.",
+    "effectiveDate": "2026-10-08",
+    "actions": [
+     "Confirm the client has the correct 14‑character reference number (starts with X) from HMRC online services.",
+     "Submit the duty return and ensure payment is made within 30 days of the accounting period end, reaching HMRC by the previous working day if the deadline falls on a weekend or bank holiday.",
+     "Choose an appropriate payment method (online bank approval, debit/corporate card, CHAPS/Faster Payments, Bacs or cheque) and follow the timing guidance for each method.",
+     "If the wrong reference is used, advise the client to contact Gambling duties enquiries promptly to request the payment be moved."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-08T18:50:56.803Z"
+   }
   },
   {
    "id": "6f689d4cb2554a1e",
@@ -203,7 +254,22 @@
    ],
    "hasBody": true,
    "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved.",
-   "firstPublished": "2014-11-03T00:00:00+00:00"
+   "firstPublished": "2014-11-03T00:00:00+00:00",
+   "ai": {
+    "summary": "Insurers must file their IPT return by the deadline and pay using the correct 15‑character reference. Payments can be made via Direct Debit, Faster Payments, CHAPS, BACS, online banking, cheque or overseas transfer, observing method‑specific processing times.",
+    "whoAffected": "Insurers liable for Insurance Premium Tax, including overseas insurers using agents, and any business that has an IPT liability",
+    "effectiveDate": "2026-10-08",
+    "actions": [
+     "Verify the 15‑character reference (starting with X) from the registration certificate or notice to file before paying",
+     "Choose a payment method that meets the deadline and allow the required processing time (10 days for Direct Debit setup, 3 days for BACS)",
+     "If the wrong reference is used, contact Insurance Premium Tax enquiries promptly to have the payment moved",
+     "Submit the return even when no tax is due"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-08T18:51:00.224Z"
+   }
   },
   {
    "id": "fcd580b767b6dfba",
@@ -5623,7 +5689,25 @@
    ],
    "hasBody": true,
    "changeNote": "Information about submitting your return online has been updated.",
-   "firstPublished": "2017-10-31T14:22:00+00:00"
+   "firstPublished": "2017-10-31T14:22:00+00:00",
+   "ai": {
+    "summary": "If you receive a statutory notice under Schedule 23 Finance Act 2011 or Section 887 Income Tax Act 2007, you must download the correct spreadsheet template, complete only the required fields without altering its structure, name it as instructed, and submit it to HMRC by the deadline via the secure service or email.",
+    "whoAffected": "Businesses or individuals (including SMEs, owner‑managed firms and the self‑employed) that have been issued a statutory notice under Schedule 23 of the Finance Act 2011 or under Section 887 of the Income Tax Act 2007",
+    "effectiveDate": "2026-08-03",
+    "actions": [
+     "Download the appropriate template from GOV.UK using the filename in the notice",
+     "Complete only the required fields, keep the original sheet layout and include correct currency codes",
+     "Name the file following the notice’s naming convention and submit by the deadline via the Secure Data Exchange Service or email (splitting files >8 MB)",
+     "If the return exceeds 65,000 rows or you need assistance, contact Statutory notice information returns enquiries"
+    ],
+    "legislationRefs": [
+     "Schedule 23 of the Finance Act 2011",
+     "Section 887 of the Income Tax Act 2007"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-08T18:51:09.398Z"
+   }
   },
   {
    "id": "fb930c9b29e98c89",
@@ -6102,7 +6186,17 @@
    ],
    "hasBody": true,
    "changeNote": "The CC/FS7a factsheet has been updated.",
-   "firstPublished": "2012-08-31T00:00:00+01:00"
+   "firstPublished": "2012-08-31T00:00:00+01:00",
+   "ai": {
+    "summary": "This factsheet explains HMRC penalties for inaccurate returns or documents.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-08T18:51:19.595Z"
+   }
   },
   {
    "id": "3ced062427433521",
@@ -6118,7 +6212,22 @@
    ],
    "hasBody": true,
    "changeNote": "Added newest version of the form to give notice of a court order in respect of date of dissolution (AM24). ",
-   "firstPublished": "2017-04-06T00:15:00+01:00"
+   "firstPublished": "2017-04-06T00:15:00+01:00",
+   "ai": {
+    "summary": "Form AM24 lets you inform Companies House of a court order setting a company's dissolution date, and includes a continuation page for additional insolvency practitioners.",
+    "whoAffected": "Companies facing dissolution and their insolvency practitioners",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Obtain the court order specifying the dissolution date",
+     "Complete form AM24 with the order details",
+     "If more than two insolvency practitioners are involved, fill the continuation page",
+     "Submit the form to Companies House"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-08T18:51:22.449Z"
+   }
   },
   {
    "id": "dd9c93a8ea22e03d",
@@ -6376,7 +6485,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:21:00+01:00"
+   "firstPublished": "2026-07-13T13:21:00+01:00",
+   "ai": {
+    "summary": "Income Tax will be deducted at source on rewards paid under the Strengthened Reward Scheme, allowing HMRC to withhold at the additional rate for informants, based on draft legislation using existing withholding frameworks.",
+    "whoAffected": "Informants receiving rewards under the Strengthened Reward Scheme (including any SME or self‑employed client who is an informant)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify any client receiving a reward under the Strengthened Reward Scheme",
+     "Inform them that tax will be withheld at source at the additional rate",
+     "Adjust their tax calculations and reporting to reflect the withheld amount",
+     "Keep abreast of the final legislation as it progresses"
+    ],
+    "legislationRefs": [
+     "Strengthened Reward Scheme"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-08T18:51:32.877Z"
+   }
   },
   {
    "id": "3540325bc860286f",
@@ -6429,7 +6555,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:19:38+01:00"
+   "firstPublished": "2026-07-13T13:19:38+01:00",
+   "ai": {
+    "summary": "Eligible stablecoins are treated like money: individuals and trustees are exempt from CGT on disposals, with any interest‑like returns taxed as savings income; companies tax transactions based on the amounts recorded in their accounts.",
+    "whoAffected": "Individuals, trustees and companies",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify any client holdings of eligible stablecoins",
+     "Advise individual and trustee clients that disposals are CGT‑exempt and interest‑like returns are savings income",
+     "Ensure corporate clients record stablecoin transaction amounts accurately in their accounts",
+     "Update tax return templates to reflect the appropriate treatment"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-08T18:51:36.052Z"
+   }
   },
   {
    "id": "29dc06925885aede",
@@ -6526,7 +6667,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:11:36+01:00"
+   "firstPublished": "2026-07-13T13:11:36+01:00",
+   "ai": {
+    "summary": "Stamp Duty and SDRT will be replaced by a new Securities Transfer Tax, a digital self‑assessed charge on all securities transfers, due to start in 2027. Draft legislation is out for comment until 7 Sept 2026.",
+    "whoAffected": "Anyone transferring securities, including companies and individuals who buy or sell shares",
+    "effectiveDate": "2027",
+    "actions": [
+     "Notify clients that Stamp Duty and SDRT will be replaced by Securities Transfer Tax",
+     "Review client share transfer activities for potential tax impact",
+     "Prepare advice on digital self‑assessment procedures for the new tax",
+     "Submit feedback on the draft legislation by 7 Sept 2026 if relevant"
+    ],
+    "legislationRefs": [
+     "Draft legislation"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-08T18:51:47.130Z"
+   }
   },
   {
    "id": "b35e79684c5dda32",
