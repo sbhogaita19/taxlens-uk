@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-07T18:57:54.146Z",
+ "generatedAt": "2026-10-08T12:04:29.027Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,139 @@
    "label": "Other"
   }
  ],
- "count": 372,
+ "count": 377,
  "items": [
+  {
+   "id": "3436364e7ca2ac33",
+   "title": "Find out about the loan charge settlement scheme",
+   "url": "https://www.gov.uk/guidance/find-out-about-the-loan-charge-settlement-scheme",
+   "path": "/guidance/find-out-about-the-loan-charge-settlement-scheme",
+   "date": "2026-10-08T10:50:59Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out about settling your outstanding disguised remuneration loan charge liability under the loan charge settlement scheme.",
+   "categories": [
+    "nic",
+    "personal",
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "A link to ‘How HMRC will implement the loan charge settlement scheme’ has been added to the section ‘What the settlement scheme includes’. ",
+   "firstPublished": "2026-07-17T14:30:00+01:00",
+   "ai": {
+    "summary": "The loan charge settlement scheme lets individuals or employers with unpaid disguised remuneration liabilities settle their tax, NIC and reduced fees, offering up to £70,000 reduction, a £5,000 extra cut, and exclusion of most penalties, but not late interest or Inheritance Tax beyond a short window.",
+    "whoAffected": "Individuals and employers who have a disguised remuneration loan charge liability that has not been paid in full, including any related Inheritance Tax liabilities arising from loan‑charge trusts.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check the client’s loan charge liability letter to confirm they have been identified as eligible for the settlement scheme.",
+     "Compare the figures in the settlement offer with the client’s records and discuss any discrepancies with the HMRC caseworker.",
+     "If the client cannot pay the full amount, contact the caseworker to arrange an instalment payment plan (up to five years) and explain the interest implications.",
+     "Assist the client in completing, signing and returning the acceptance form (by post or scanned email) and advise them to seek independent professional advice if needed."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-08T12:03:28.006Z"
+   }
+  },
+  {
+   "id": "9c4612891e72ef39",
+   "title": "Pay tax as a pension scheme administrator",
+   "url": "https://www.gov.uk/guidance/pension-scheme-administrators-paying-tax",
+   "path": "/guidance/pension-scheme-administrators-paying-tax",
+   "date": "2026-10-08T10:48:29Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay charges on payments from registered pension schemes and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "personal",
+    "pensions"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved.",
+   "firstPublished": "2014-10-30T00:00:00+00:00",
+   "ai": {
+    "summary": "Pension scheme administrators must submit returns and pay any tax within 45 days of the tax period end, using the correct 14‑character reference. Payments can be made online, by bank transfer, cheque or Government Banking Service, but wrong references or missed deadlines can cause delays, penalties or interest.",
+    "whoAffected": "Pension scheme administrators of registered pension schemes, including managers of overseas schemes and government departments using the Government Banking Service",
+    "effectiveDate": "2026-10-08",
+    "actions": [
+     "Ensure client returns and any tax are filed within 45 calendar days of the tax period end (or by 31 January for reportable events)",
+     "Check the 14‑character reference starts with X and matches the HMRC record before paying",
+     "Choose a payment method and confirm processing times (e.g., CHAPS/Faster Payments same‑day, Bacs 3 days)",
+     "Record the payment reference and date, and monitor for confirmation to avoid penalties"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-08T12:03:30.922Z"
+   }
+  },
+  {
+   "id": "24bfc81d1c267e62",
+   "title": "HMRC videos and webinars for Making Tax Digital for Income Tax",
+   "url": "https://www.gov.uk/guidance/help-and-support-for-making-tax-digital",
+   "path": "/guidance/help-and-support-for-making-tax-digital",
+   "date": "2026-10-08T10:29:21Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Learn more about Making Tax Digital for Income Tax if you're an agent, sole trader or landlord.",
+   "categories": [
+    "personal",
+    "selfemployed",
+    "mtd"
+   ],
+   "hasBody": true,
+   "changeNote": "The recorded webinar link for 'Making Tax Digital if you are a landlord and joint property owner' and the video 'How to sign up your clients to Making Tax Digital for Income Tax' have been updated.",
+   "firstPublished": "2018-05-31T00:00:00+01:00"
+  },
+  {
+   "id": "79959bfe7470b98b",
+   "title": "Starting early is key to less stress around Self Assessment",
+   "url": "https://www.gov.uk/government/news/starting-early-is-key-to-less-stress-around-self-assessment",
+   "path": "/government/news/starting-early-is-key-to-less-stress-around-self-assessment",
+   "date": "2026-10-08T09:30:17Z",
+   "type": "press_release",
+   "source": "HMRC (GOV.UK)",
+   "description": "Customers encouraged to start their Self Assessment tax return well ahead of the 31 January deadline.",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-08T10:30:17+01:00"
+  },
+  {
+   "id": "3de9b3b052fcfdde",
+   "title": "Pay General Betting, Pool Betting or Remote Gaming Duty",
+   "url": "https://www.gov.uk/guidance/pay-general-betting-pool-betting-or-remote-gaming-duty",
+   "path": "/guidance/pay-general-betting-pool-betting-or-remote-gaming-duty",
+   "date": "2026-10-08T09:24:22Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay General Betting, Pool Betting or Remote Gaming Duty, and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved.",
+   "firstPublished": "2019-09-03T00:00:00+01:00"
+  },
+  {
+   "id": "6f689d4cb2554a1e",
+   "title": "Pay Insurance Premium Tax",
+   "url": "https://www.gov.uk/guidance/pay-insurance-premium-tax",
+   "path": "/guidance/pay-insurance-premium-tax",
+   "date": "2026-10-08T09:23:38Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay Insurance Premium Tax, and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved.",
+   "firstPublished": "2014-11-03T00:00:00+00:00"
+  },
   {
    "id": "fcd580b767b6dfba",
    "title": "How to get authorised to act as a tax agent on behalf of your clients",
@@ -5197,7 +5328,26 @@
    ],
    "hasBody": true,
    "changeNote": "‘First-year allowances for zero-emission cars and electric vehicle charge points’ section has been updated to include electric vehicle charge points. ‘New requirements for Corporation Tax computation format’ section has been updated with the work HMRC are doing to standardise the format for computations.",
-   "firstPublished": "2022-03-04T00:00:00+00:00"
+   "firstPublished": "2022-03-04T00:00:00+00:00",
+   "ai": {
+    "summary": "HMRC will add new CT600 boxes for a 40% first‑year allowance (from 1 Jan 2026) and extend 100% FYA for zero‑emission cars and EV charge points to 31 Mar 2027. Updates to the online service and validation fixes for RDEC, creative‑industry reliefs and loans to participators are due in April 2027, with a new computation format under development.",
+    "whoAffected": "All companies filing Corporation Tax returns, especially SMEs and owner‑managed businesses that claim capital allowances, R&D credits, creative‑industry reliefs, or have loans to participators",
+    "effectiveDate": "1 Jan 2026 (40% FYA); 31 Mar 2027 (100% FYA extension); 6 Apr 2026 (loan rate); April 2027 (online service updates)",
+    "actions": [
+     "Add the new CT600 boxes (725, 750, 760) to client filing templates for the 40% first‑year allowance",
+     "Guide clients to use the correct boxes for zero‑emission car and EV charge point allowances based on their accounting period",
+     "Check RDEC exemption claims so box L75 equals L70 and note the validation issue until April 2027",
+     "Include CT600P for creative‑industry reliefs and apply the £1 workaround for cultural relief validation errors"
+    ],
+    "legislationRefs": [
+     "section CTA09/S1112E of the Corporation Tax Act (CTA) 2009",
+     "Corporation Tax Act 2010 section 455",
+     "Corporation Tax Act 2010 section 464A"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-08T12:03:43.863Z"
+   }
   },
   {
    "id": "2d6c7328c219dd5c",
@@ -5795,7 +5945,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-24T09:00:00+01:00"
+   "firstPublished": "2026-07-24T09:00:00+01:00",
+   "ai": {
+    "summary": "The July 2026 newsletter outlines updates on the public service pensions remedy, including new regulations, election deadlines, calculation service, immediate detriment, armed forces scheme elections, tax treatment of trivial commutation lump sum death benefits, reporting deadlines after death, excess teacher service and a transitional tax‑free amount certificate.",
+    "whoAffected": "Public service pension scheme members, armed forces pension scheme 75 members and re‑joiners, teachers with excess service, and other stakeholders of the public service pensions remedy.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the extended scheme pays election deadline and voluntary scheme pays deadline for clients",
+     "Advise clients to use the ‘calculate your public service pension adjustment service’ for scheme pays elections",
+     "Review the changes to tax treatment of trivial commutation lump sum death benefits for affected members",
+     "Update client reporting processes to reflect new deadlines after a member’s death"
+    ],
+    "legislationRefs": [
+     "the public service pension schemes (rectification of unlawful discrimination) (tax) regulations 2026"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-08T12:03:59.974Z"
+   }
   },
   {
    "id": "29054b26c52f22b8",
@@ -5904,7 +6071,22 @@
    ],
    "hasBody": true,
    "changeNote": "How to use Basic PAYE Tools section Calculate statutory payment has been updated to include Statutory Parental Bereavement Pay — Northern Ireland (SPBP-NIRE).",
-   "firstPublished": "2014-06-12T00:00:00+01:00"
+   "firstPublished": "2014-06-12T00:00:00+01:00",
+   "ai": {
+    "summary": "The guide provides step‑by‑step instructions for employers with under 10 staff to run payroll using Basic PAYE Tools, noting registration with HMRC for PAYE Online is required and updates occur only for major changes.",
+    "whoAffected": "Employers with fewer than 10 employees (SMEs/owner‑managed businesses)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the client is registered with HMRC for PAYE Online before using Basic PAYE Tools",
+     "Verify the client has fewer than 10 employees to qualify for Basic PAYE Tools",
+     "Use the guide’s step‑by‑step instructions to run payroll and make submissions",
+     "Monitor for major updates to the user guide, as yearly updates are not guaranteed"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-08T12:04:03.745Z"
+   }
   },
   {
    "id": "c673c735a78bea77",
@@ -5921,24 +6103,6 @@
    "hasBody": true,
    "changeNote": "The CC/FS7a factsheet has been updated.",
    "firstPublished": "2012-08-31T00:00:00+01:00"
-  },
-  {
-   "id": "3436364e7ca2ac33",
-   "title": "Find out about the loan charge settlement scheme",
-   "url": "https://www.gov.uk/guidance/find-out-about-the-loan-charge-settlement-scheme",
-   "path": "/guidance/find-out-about-the-loan-charge-settlement-scheme",
-   "date": "2026-07-17T13:30:00Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out about settling your outstanding disguised remuneration loan charge liability under the loan charge settlement scheme.",
-   "categories": [
-    "nic",
-    "personal",
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-07-17T14:30:00+01:00"
   },
   {
    "id": "3ced062427433521",
@@ -6038,7 +6202,22 @@
    ],
    "hasBody": true,
    "changeNote": "The 'Tax-free savings newsletter 22 — June 2026' has been updated to explain that draft legislation has now been published for technical consultation.",
-   "firstPublished": "2026-06-24T15:53:00+01:00"
+   "firstPublished": "2026-06-24T15:53:00+01:00",
+   "ai": {
+    "summary": "HMRC’s June 2026 newsletter updates ISA managers and Child Trust Fund providers on ISA rule reforms, a first‑time buyer ISA consultation and the future of Help to Save.",
+    "whoAffected": "ISA managers and Child Trust Fund providers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review the newsletter for details on ISA rule reforms",
+     "Monitor the first‑time buyer ISA consultation developments",
+     "Follow updates on the future of Help to Save",
+     "Inform relevant clients of any forthcoming changes"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-08T12:04:09.508Z"
+   }
   },
   {
    "id": "50abcb0466b49b31",
@@ -6133,7 +6312,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:24:00+01:00"
+   "firstPublished": "2026-07-13T13:24:00+01:00",
+   "ai": {
+    "summary": "The measure defers Capital Gains Tax on cryptoasset loans and liquidity pool activities until an economic disposal occurs, covering single lending, borrowing and automated market making arrangements.",
+    "whoAffected": "Clients who engage in cryptoasset lending, borrowing or participate in automated market making (liquidity pools), including SMEs, owner‑managed businesses and self‑employed individuals.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients with cryptoasset lending, borrowing or AMM activities",
+     "Explain that CGT is deferred until an economic disposal of the cryptoasset",
+     "Maintain records of these arrangements and monitor for disposal events",
+     "If unsure, email digitalassets@hmrc.gov.uk for guidance"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-08T12:04:19.517Z"
+   }
   },
   {
    "id": "5bd8bed58c6716b1",
@@ -6149,7 +6343,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:22:00+01:00"
+   "firstPublished": "2026-07-13T13:22:00+01:00",
+   "ai": {
+    "summary": "Companies no longer need to send a separate EMI grant notification; they will report option grants via the existing EMI year‑end return.",
+    "whoAffected": "Companies that grant Enterprise Management Incentives (EMI) options to employees",
+    "effectiveDate": "Options granted on or after 6 April 2027",
+    "actions": [
+     "Advise clients that separate EMI grant notifications are no longer required",
+     "Ensure clients include EMI option grant details in their year‑end EMI return",
+     "Update client checklists and guidance to reflect the change from 6 April 2027",
+     "Monitor the technical consultation deadline of 7 September 2026 for any further updates"
+    ],
+    "legislationRefs": [
+     "draft legislation"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-08T12:04:22.702Z"
+   }
   },
   {
    "id": "ec3a787e33c01726",
@@ -6182,7 +6393,26 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:20:33+01:00"
+   "firstPublished": "2026-07-13T13:20:33+01:00",
+   "ai": {
+    "summary": "HMRC will be able to publish more details about deliberate non‑compliance and Personal Liability Notices, with a new £50,000 revenue threshold for publication, following primary legislation under consultation.",
+    "whoAffected": "Businesses and individuals that could be named as deliberate defaulters or receive Personal Liability Notices",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review client exposure to deliberate defaulter publishing",
+     "Advise clients on potential impact of increased disclosure",
+     "Consider submitting feedback by 7 September 2026 to ipd.disclosure@hmrc.gov.uk",
+     "Prepare for the £50,000 publication threshold once secondary legislation is enacted"
+    ],
+    "legislationRefs": [
+     "deliberate defaulters legislation",
+     "Personal Liability Notices",
+     "draft primary legislation"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-08T12:04:27.526Z"
+   }
   },
   {
    "id": "9f8ff6a43ebef092",
