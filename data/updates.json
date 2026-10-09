@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-08T18:51:51.716Z",
+ "generatedAt": "2026-10-09T11:56:37.496Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,39 @@
    "label": "Other"
   }
  ],
- "count": 377,
+ "count": 378,
  "items": [
+  {
+   "id": "6d6911b5d666a944",
+   "title": "Request your employment history from National Insurance records",
+   "url": "https://www.gov.uk/government/publications/national-insurance-employment-history-request",
+   "path": "/government/publications/national-insurance-employment-history-request",
+   "date": "2026-10-09T10:26:38Z",
+   "type": "form",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use this form if you need confirmation of your employment history to make a claim for compensation.",
+   "categories": [
+    "nic"
+   ],
+   "hasBody": true,
+   "changeNote": "The employment history form has been updated with a new return address.",
+   "firstPublished": "2014-04-04T00:00:00+01:00",
+   "ai": {
+    "summary": "Use the updated form to request HMRC confirmation of employment history when making a compensation claim for industrial injury, personal injury, medical negligence or other causes.",
+    "whoAffected": "Individuals filing compensation claims (including employees and self‑employed) who need proof of their employment history",
+    "effectiveDate": "2026-10-09",
+    "actions": [
+     "Identify the client’s need for an employment‑history record for a compensation claim",
+     "Obtain the latest employment‑history form with the new return address",
+     "Complete and submit the form to HMRC on the client’s behalf",
+     "Monitor the request and provide the client with the received confirmation"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-09T11:55:39.876Z"
+   }
+  },
   {
    "id": "3436364e7ca2ac33",
    "title": "Find out about the loan charge settlement scheme",
@@ -5263,7 +5294,22 @@
    ],
    "hasBody": true,
    "changeNote": "The live webinar link for ‘Get ready for Making Tax Digital for Income Tax if you’re a sole trader or landlord without an accountant or bookkeeper’ has been updated.\r\n\r\nThe recorded webinar links for ‘Tax basics — a starter guide for small businesses’, ‘Residential property income for individuals — an introduction’ and 'Residential property income for individuals — expenses and deductions’ have been updated.",
-   "firstPublished": "2017-10-11T00:00:00+01:00"
+   "firstPublished": "2017-10-11T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC offers email updates and a range of live and recorded webinars covering tax basics, record keeping, Making Tax Digital for Income Tax, and Self Assessment, plus YouTube video guides for self‑employed and small business owners.",
+    "whoAffected": "Self‑employed individuals, sole traders, partnerships, landlords and joint property owners, and small business owners seeking guidance on tax obligations",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Subscribe clients to the HMRC help and support email service",
+     "Recommend and register clients for relevant live webinars (e.g., tax basics, record keeping, MTD, Self Assessment) and advise joining 5 minutes early",
+     "Provide links to recorded webinars and YouTube video collections for self‑assessment, MTD and property income guidance",
+     "Guide clients on using the resources to understand registration, record keeping, software choices and filing deadlines"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-09T11:55:42.693Z"
+   }
   },
   {
    "id": "da6c7b3b55ed5d46",
@@ -5279,7 +5325,26 @@
    ],
    "hasBody": true,
    "changeNote": "A 'Deadlines' section has been added to help you find out the filing and payment deadlines for your taxes, and add them to your calendar.",
-   "firstPublished": "2010-04-06T00:00:00+01:00"
+   "firstPublished": "2010-04-06T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC provides an extensive suite of online tools and calculators covering duties, allowances, taxes, benefits and compliance checks, including a new Deadlines tool to help clients track filing and payment dates, useful for SMEs, owner‑managed firms and the self‑employed.",
+    "whoAffected": "SMEs, owner‑managed businesses, self‑employed individuals, partnerships, limited companies, directors, employees, trustees and anyone needing to calculate tax, duties or compliance obligations",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify which HMRC tools are relevant to each client’s situation and bookmark them",
+     "Use the new Deadlines tool to add filing and payment dates to the practice’s calendar",
+     "Guide clients to specific calculators (e.g., Small Producer Relief, Capital Allowances, Self‑Assessment, VAT) to improve accuracy",
+     "Record tool usage and outcomes for client records and future reference"
+    ],
+    "legislationRefs": [
+     "Finance Act 2000",
+     "2024 to 2025 tax year",
+     "2023 to 2024 tax year"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-09T11:55:45.724Z"
+   }
   },
   {
    "id": "c88c6e723e0cab09",
@@ -5491,7 +5556,28 @@
    ],
    "hasBody": true,
    "changeNote": "Online service to apply to protect your details has been withdrawn while we develop new services. Users can continue to apply using the paper form.\r\n\r\nAlso edited section \"If your application is refused\". If your application is refused we will refund your application fee. ",
-   "firstPublished": "2020-09-16T00:00:00+01:00"
+   "firstPublished": "2020-09-16T00:00:00+01:00",
+   "ai": {
+    "summary": "Directors, LLP members and PSCs at serious risk can apply by paper to protect home address or all personal details from public view; protection hides data from credit agencies and is granted after review, costing £100 (or £15 for abbreviated).",
+    "whoAffected": "Company directors, LLP members and persons with significant control (PSCs) of SMEs or owner‑managed businesses who face serious risk of violence or intimidation.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients at risk and advise them of the protection option",
+     "Collect supporting evidence and complete the appropriate paper form",
+     "Submit the application with the correct fee by post to Companies House",
+     "Notify clients of the decision, update any changes and advise on appeal or refund if refused"
+    ],
+    "legislationRefs": [
+     "section 243 of the Companies Act 2006",
+     "section 790ZF of the Companies Act 2006",
+     "section 1088 of the Companies Act 2006",
+     "section 1112 of the Companies Act 2006",
+     "Animal (Scientific Procedures) Act 1986"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-09T11:55:49.348Z"
+   }
   },
   {
    "id": "be68f2ad5de47405",
@@ -6342,7 +6428,21 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-16T12:00:07+01:00"
+   "firstPublished": "2026-07-16T12:00:07+01:00",
+   "ai": {
+    "summary": "The Agent Update provides guidance for tax agents and advisers, with the next edition due in August 2026 covering tax, Making Tax Digital, HMRC services and engagement.",
+    "whoAffected": "Tax agents and advisers",
+    "effectiveDate": "August 2026",
+    "actions": [
+     "Sign up for email reminders to know future publication dates",
+     "Check the August 2026 edition for updates on tax, Making Tax Digital, HMRC services and agent engagement",
+     "Review the highlighted topics to ensure advice to clients stays current"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-09T11:56:01.272Z"
+   }
   },
   {
    "id": "b7b6a664c28837cc",
@@ -6371,7 +6471,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-14T16:10:12+01:00"
+   "firstPublished": "2026-07-14T16:10:12+01:00",
+   "ai": {
+    "summary": "The government is consulting on reforms to the ring‑fencing regime to make it more flexible and proportionate, supporting growth while keeping financial stability safeguards, with changes to be made via secondary legislation.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the consultation and any forthcoming secondary legislation",
+     "Assess how proposed ring‑fencing changes could affect client banking arrangements",
+     "Prepare advice for clients on potential impacts to financing and compliance",
+     "Stay updated on Treasury and Bank of England publications related to the reform"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-09T11:56:03.887Z"
+   }
   },
   {
    "id": "b46a2a5a99c8c205",
@@ -6586,7 +6701,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:17:00+01:00"
+   "firstPublished": "2026-07-13T13:17:00+01:00",
+   "ai": {
+    "summary": "New rules require taxpayers to correct errors in returns and documents, and give HMRC power to issue a customer correction notice.",
+    "whoAffected": "All taxpayers, including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check client filings for any identified errors",
+     "Inform clients of their duty to correct those errors",
+     "Prepare and submit correction statements to HMRC",
+     "Track any customer correction notices issued by HMRC"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-09T11:56:09.551Z"
+   }
   },
   {
    "id": "36c8f905ffd245d0",
@@ -6651,7 +6781,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:11:42+01:00"
+   "firstPublished": "2026-07-13T13:11:42+01:00",
+   "ai": {
+    "summary": "From April 2027 the higher Air Passenger Duty rate will apply to private or business jets weighing 5.7 tonnes or more, extending the higher rate previously limited to 20‑tonne aircraft with fewer than 19 seats.",
+    "whoAffected": "Owners of private or business jets of 5.7 tonnes or more, including SME or owner‑managed businesses that operate such aircraft",
+    "effectiveDate": "April 2027",
+    "actions": [
+     "Inform affected clients about the upcoming higher APD from April 2027",
+     "Recalculate their APD liability and forecast the cost impact",
+     "Explore alternative travel or charter arrangements to mitigate the higher tax",
+     "If desired, submit technical feedback to HMRC by 7 September 2026"
+    ],
+    "legislationRefs": [
+     "Air Passenger Duty"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-09T11:56:17.456Z"
+   }
   },
   {
    "id": "e3818f15ff52e151",
@@ -6750,7 +6897,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:08:38+01:00"
+   "firstPublished": "2026-07-13T13:08:38+01:00",
+   "ai": {
+    "summary": "The government is consulting on reforms to Land Remediation Relief, a 150% corporation tax incentive for brownfield regeneration, focusing on timing, expense alignment with planning, and relief for long‑term derelict land.",
+    "whoAffected": "Companies subject to corporation tax that undertake brownfield land regeneration, including SME developers and owner‑managed businesses",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Track the consultation and submit client‑relevant feedback",
+     "Review current client eligibility for existing Land Remediation Relief",
+     "Assess how proposed timing and expense changes could affect client projects",
+     "Prepare to update client advice once any reforms are confirmed"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-09T11:56:25.102Z"
+   }
   },
   {
    "id": "579140793fe5aaff",
