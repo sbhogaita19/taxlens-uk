@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-09T11:56:37.496Z",
+ "generatedAt": "2026-10-09T18:21:48.512Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -5758,7 +5758,25 @@
    ],
    "hasBody": true,
    "changeNote": "Information about submitting your return securely to HMRC has been updated in the section 'Submitting your return'.",
-   "firstPublished": "2021-12-02T00:00:00+00:00"
+   "firstPublished": "2021-12-02T00:00:00+00:00",
+   "ai": {
+    "summary": "HMRC may require an Other Interest return when you pay or receive interest for UK‑resident individuals. Returns must use the HMRC spreadsheet or approved flat file, be correctly labelled, and submitted by the due date, with penalties for errors or late filing.",
+    "whoAffected": "Businesses or organisations that pay interest to, or receive interest on behalf of, a reportable individual (UK‑resident), including SMEs, owner‑managed firms and the self‑employed.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check if the client pays interest to or receives interest for a UK‑resident individual and therefore needs an OI return",
+     "Choose the approved format (HMRC spreadsheet or electronic flat text file) and ensure each file is labelled with HMRC reference, sub‑return number, batch number, total batches and year",
+     "Complete the spreadsheet following the mandatory field rules and use the built‑in error validation to correct any issues before submission",
+     "Submit the return by the statutory due date, email HMRC by 31 January for sub‑return number changes and label all files correctly; avoid zipping files"
+    ],
+    "legislationRefs": [
+     "Schedule 23 of the Finance Act 2011",
+     "SI 03/3297"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-09T18:20:49.440Z"
+   }
   },
   {
    "id": "cba9b8b815486d04",
@@ -5810,7 +5828,25 @@
    ],
    "hasBody": true,
    "changeNote": "Information about transferring files securely with HMRC has been updated in the section 'Submitting your return'.",
-   "firstPublished": "2021-12-02T00:00:00+00:00"
+   "firstPublished": "2021-12-02T00:00:00+00:00",
+   "ai": {
+    "summary": "HMRC requires banks and building societies to submit annual interest returns via a specific spreadsheet or flat file, correctly labelled and formatted, with sub‑return numbers reported by 31 January. Errors can cause penalties, so use the official spreadsheet, validate data, and follow labelling rules.",
+    "whoAffected": "UK banks and building societies (and their reporting teams) that must file Bank and Building Society Interest returns",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Use the latest HMRC spreadsheet or approved flat file format; do not reformat or zip files",
+     "Label each file with HMRC reference, sub‑return number, batch number, total batches and year as specified",
+     "Notify HMRC by 31 January of any new or discontinued sub‑return numbers via the provided email address",
+     "Check the spreadsheet’s error validation, correct all highlighted errors before submission and avoid resubmitting full returns for omissions"
+    ],
+    "legislationRefs": [
+     "Schedule 23 of the Finance Act 2011",
+     "SI 03/3297"
+    ],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-09T18:20:52.587Z"
+   }
   },
   {
    "id": "1cdb0c4958d205f0",
@@ -5950,7 +5986,22 @@
    ],
    "hasBody": true,
    "changeNote": "Added text to explain you do not need to complete identity verification for a PSC who has died. The PSC should remain on the Companies House register until a grant of probate or letters of administration have been received.",
-   "firstPublished": "2020-11-09T00:00:00+00:00"
+   "firstPublished": "2020-11-09T00:00:00+00:00",
+   "ai": {
+    "summary": "Companies must identify any person with significant control (PSC), record their details, and submit them to Companies House, including identity verification within 14 days (except deceased PSCs until probate). Changes must be reported within 14 days, and a PSC statement is required if no PSC exists.",
+    "whoAffected": "Limited companies, including SMEs, owner‑managed businesses and self‑employed individuals operating through a company",
+    "effectiveDate": "2026-07-30",
+    "actions": [
+     "Identify any individuals meeting PSC criteria using the register of members and company constitution",
+     "Collect required PSC details and obtain their confirmation, including name, DOB, nationality, addresses, dates and nature of control",
+     "Submit the PSC information to Companies House and ensure the PSC provides their personal code within the 14‑day verification period (exempt deceased PSCs until probate)",
+     "Notify Companies House of any PSC detail changes within 14 days or file a PSC statement if the company has no PSC"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-09T18:20:55.560Z"
+   }
   },
   {
    "id": "d6fbbd73ae73e181",
@@ -5997,7 +6048,22 @@
    ],
    "hasBody": true,
    "changeNote": "Information has been added to the 'Who can get help' section to clarify who can get support from HMRC's Public Bodies Group. The 'Before you start' section has been added to give information on what to do before contacting HMRC and when to use the public body queries form. The 'Fill in the public body queries form' section has been added to give more information on how to fill in the form.",
-   "firstPublished": "2024-10-14T00:00:00+01:00"
+   "firstPublished": "2024-10-14T00:00:00+01:00",
+   "ai": {
+    "summary": "Public bodies can get HMRC help for tax issues by first reading guidance, then using the public body queries form to raise processing or technical issues or request non‑statutory clearance, providing required details and tax references.",
+    "whoAffected": "Public bodies such as NHS, government departments, police, fire and rescue services, housing associations, local authorities, higher and further education institutions, political parties, trade unions, trade or membership associations, worshipful companies and guilds.",
+    "effectiveDate": "2026-07-29",
+    "actions": [
+     "Confirm the client qualifies as a public body under the listed categories.",
+     "Read the relevant HMRC guidance and manuals before contacting HMRC.",
+     "Gather all required information: query details, proposed resolution, supporting evidence and the organisation’s tax reference.",
+     "Complete the online public body queries form and send it to HMRC by the email or postal address provided."
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-09T18:20:58.675Z"
+   }
   },
   {
    "id": "38eebdd21e61e8bf",
@@ -6502,7 +6568,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-14T16:10:43+01:00"
+   "firstPublished": "2026-07-14T16:10:43+01:00",
+   "ai": {
+    "summary": "The government is consulting on modernising payment services regulation to keep pace with tokenised payments, Open Banking and agentic payments, aiming to support innovation while protecting consumers.",
+    "whoAffected": "Payment service providers and users within the payments sector",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review the consultation and identify the highlighted innovation areas (tokenised payments, Open Banking, agentic payments)",
+     "Assess each client’s current use of these payment methods and potential regulatory exposure",
+     "Advise clients on preparing for possible regulatory changes and develop compliance roadmaps",
+     "Monitor future government and regulator updates for final rules"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-09T18:21:05.331Z"
+   }
   },
   {
    "id": "bbcd88b48d9b8748",
@@ -6765,7 +6846,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:12:19+01:00"
+   "firstPublished": "2026-07-13T13:12:19+01:00",
+   "ai": {
+    "summary": "The reform removes the joint‑ownership restriction on Cultural Gift Scheme objects and gives donors one chance, within the five‑year limit, to change their remaining tax credit allocation. It aims to increase flexibility and starts on 6 April 2027.",
+    "whoAffected": "Donors who give cultural objects, including joint owners, and advisers who manage Cultural Gift Scheme tax credits.",
+    "effectiveDate": "6 April 2027",
+    "actions": [
+     "Review client Cultural Gift Scheme donations for joint ownership eligibility.",
+     "Inform clients they can amend tax credit allocation once within the five‑year period.",
+     "Update internal processes to record the amendment opportunity before the 6 April 2027 start date.",
+     "Communicate the change and its effective date to affected clients."
+    ],
+    "legislationRefs": [
+     "Schedule 14 to the Finance Act 2012"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-09T18:21:13.198Z"
+   }
   },
   {
    "id": "fc8dfc68426400db",
@@ -7016,7 +7114,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-09T13:09:11+01:00"
+   "firstPublished": "2026-07-09T13:09:11+01:00",
+   "ai": {
+    "summary": "Professor David Miles has been nominated by the Chancellor for a second, final term on the OBR’s Budget Responsibility Committee, pending Treasury Committee approval, with the term starting on 2 January.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "2 January (year not specified)",
+    "actions": [
+     "Monitor OBR Budget Responsibility Committee updates and forecasts",
+     "Consider the impact of the fiscal lock on client financial planning",
+     "Incorporate OBR’s independent economic and fiscal forecasts into advice",
+     "Track Treasury Committee consent for reappointments"
+    ],
+    "legislationRefs": [
+     "Budget Responsibility and National Audit Act 2011"
+    ],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-09T18:21:26.725Z"
+   }
   },
   {
    "id": "970c77f10b473239",
@@ -7093,7 +7208,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-01T10:46:36+01:00"
+   "firstPublished": "2026-07-01T10:46:36+01:00",
+   "ai": {
+    "summary": "Compensation payments under the Horizon Family Members Redress Scheme are exempt from Income Tax, Capital Gains Tax, National Insurance and Inheritance Tax, so eligible individuals receive the full amount.",
+    "whoAffected": "Eligible individuals receiving compensation under the Horizon Family Members Redress Scheme",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients who qualify for the Horizon scheme",
+     "Confirm that any compensation they receive is exempt from Income Tax, Capital Gains Tax, NIC and Inheritance Tax",
+     "Advise clients they will receive the full payment without deductions",
+     "Maintain documentation showing the tax‑exempt status of the payments"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-09T18:21:32.684Z"
+   }
   },
   {
    "id": "beed80511e54c40a",
@@ -7174,7 +7304,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-06-29T12:30:18+01:00"
+   "firstPublished": "2026-06-29T12:30:18+01:00",
+   "ai": {
+    "summary": "The UK and Australia have signed a voluntary MoU to boost cross‑border investment by pension and superannuation funds, encouraging policy dialogue, expertise sharing and network building to reduce investment barriers.",
+    "whoAffected": "UK pension funds and Australian superannuation funds (and the members they serve)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor any policy or regulatory updates arising from the MoU",
+     "Advise client pension scheme trustees on potential cross‑border investment opportunities",
+     "Assess any compliance implications for UK employers offering pension schemes",
+     "Develop contacts with Australian superannuation experts to support client queries"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-09T18:21:41.330Z"
+   }
   },
   {
    "id": "47d78c51a094abd3",
@@ -7249,7 +7394,21 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-06-23T14:22:20+01:00"
+   "firstPublished": "2026-06-23T14:22:20+01:00",
+   "ai": {
+    "summary": "Explains changes and impacts of new rules on Capital Gains Tax relief for gifts of business assets.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Not stated in source"
+    ],
+    "legislationRefs": [
+     "Not stated in source"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-09T18:21:47.012Z"
+   }
   },
   {
    "id": "32f769946171404a",
