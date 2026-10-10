@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-09T18:21:48.512Z",
+ "generatedAt": "2026-10-10T11:13:07.729Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -6114,7 +6114,24 @@
    ],
    "hasBody": true,
    "changeNote": "Added translation",
-   "firstPublished": "2026-07-28T09:55:21+01:00"
+   "firstPublished": "2026-07-28T09:55:21+01:00",
+   "ai": {
+    "summary": "HMRC will send Simple Assessment (PA302) letters this summer for the 2025‑26 tax year to anyone with untaxed income. Recipients must check the details and pay any tax due by 31 January 2027 (or the date shown) using the HMRC app or other methods.",
+    "whoAffected": "Individuals and businesses with tax owed on interest, dividends, a second income, pension income, excess tax‑free allowance or larger untaxed amounts that cannot be collected through PAYE or Self Assessment.",
+    "effectiveDate": "31 January 2027 (unless a different date is shown)",
+    "actions": [
+     "Ask clients to review any Simple Assessment letter as soon as it arrives",
+     "Compare the tax figures in the letter with the client’s own records",
+     "Arrange payment – in full or instalments – via the HMRC app, online, bank transfer or cheque before the deadline",
+     "Direct clients to GOV.UK for guidance, authenticity checks and support resources"
+    ],
+    "legislationRefs": [
+     "PA302"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-10T11:12:05.369Z"
+   }
   },
   {
    "id": "4c787f633f514c09",
@@ -6130,7 +6147,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-27T11:18:00+01:00"
+   "firstPublished": "2026-07-27T11:18:00+01:00",
+   "ai": {
+    "summary": "Major UK pension providers plan a £1 billion Scale‑up Fund to invest in high‑growth British science and technology companies, aiming to give pension savers returns while providing growth capital for innovators and creating skilled jobs.",
+    "whoAffected": "Pension savers/members and UK high‑growth businesses, including SMEs and scale‑ups seeking capital",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Track the progress of the proposed UK Scale‑up Fund and its launch timeline",
+     "Advise client businesses on preparing investment‑ready documentation to attract pension‑capital funding",
+     "Inform pension‑savvy clients about the potential new avenue for long‑term returns",
+     "Encourage interested asset managers to contact the British Business Bank as indicated"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-10T11:12:08.986Z"
+   }
   },
   {
    "id": "54e5bb73ce7a79cd",
@@ -6601,7 +6633,22 @@
    ],
    "hasBody": true,
    "changeNote": "The 'Software products in development' section has been removed because they are now listed in the find software tool.",
-   "firstPublished": "2019-02-25T00:00:00+00:00"
+   "firstPublished": "2019-02-25T00:00:00+00:00",
+   "ai": {
+    "summary": "From 6 April 2026 sole traders and landlords must use HMRC‑compatible software to create digital records, send quarterly updates and submit their Income Tax return. Choose software that supports all income sources, works with any existing spreadsheets or VAT tools, and consider features like multiple agents and HMRC Assist.",
+    "whoAffected": "Sole traders and landlords (self‑employed and property income) who are required to use Making Tax Digital for Income Tax, and any agents acting for them",
+    "effectiveDate": "6 April 2026",
+    "actions": [
+     "Check whether each client is within the group that must use MTDIT and note the start date",
+     "Use HMRC’s software finder to select a recognised product that creates digital records or bridges existing spreadsheets",
+     "Confirm the software can send quarterly updates, submit the tax return and handle all income sources, including VAT if applicable",
+     "If more than one product is needed, ensure they can work together and that only one is used per HMRC submission"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-10T11:12:12.054Z"
+   }
   },
   {
    "id": "c402c95255887220",
@@ -6813,7 +6860,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:16:30+01:00"
+   "firstPublished": "2026-07-13T13:16:30+01:00",
+   "ai": {
+    "summary": "The measure makes the elective exemption for profits and losses of foreign permanent establishments mandatory for Corporation Tax.",
+    "whoAffected": "Companies subject to Corporation Tax that have foreign permanent establishments",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients with foreign permanent establishments",
+     "Inform them that the exemption will become mandatory for Corporation Tax",
+     "Advise on how this may affect profit and loss reporting",
+     "If relevant, submit a response to the consultation by 13 September 2026"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-10T11:12:14.782Z"
+   }
   },
   {
    "id": "aad658853cb92122",
@@ -6830,7 +6892,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:12:36+01:00"
+   "firstPublished": "2026-07-13T13:12:36+01:00",
+   "ai": {
+    "summary": "A new ISA compliance framework requires managers to file digital monthly and annual returns, subject to points‑based penalties, with HMRC able to suspend approvals and levy penalties for inaccurate returns.",
+    "whoAffected": "ISA managers and providers",
+    "effectiveDate": "April 2028 (overall); suspension powers from April 2027",
+    "actions": [
+     "Ensure clients' ISA managers have systems to submit monthly and annual returns digitally",
+     "Review compliance processes to meet the points‑based penalty regime",
+     "Maintain accurate records to avoid suspension of approval",
+     "Update client advice on new penalties and HMRC's power to collect tax and penalties"
+    ],
+    "legislationRefs": [
+     "ISA regulations"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-10T11:12:18.011Z"
+   }
   },
   {
    "id": "b8bc5aabef5c558f",
@@ -6946,7 +7025,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:11:25+01:00"
+   "firstPublished": "2026-07-13T13:11:25+01:00",
+   "ai": {
+    "summary": "A temporary SDLT relief is available for property purchases by Local Government Pension Scheme pooled investment vehicles from LGPS administering authorities, covering deals dated from Budget Day 2026 to 31 March 2032.",
+    "whoAffected": "Local Government Pension Scheme pooled investment vehicles buying land or property from LGPS administering authorities",
+    "effectiveDate": "Budget Day 2026 to 31 March 2032",
+    "actions": [
+     "Confirm client is a LGPS pooled investment vehicle",
+     "Verify the transaction effective date falls between Budget Day 2026 and 31 March 2032",
+     "Apply the SDLT relief when calculating duty",
+     "Record the relief claim in client documentation"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-10T11:12:21.250Z"
+   }
   },
   {
    "id": "21cd9a91c5880f0d",
@@ -6979,7 +7073,26 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:11:00+01:00"
+   "firstPublished": "2026-07-13T13:11:00+01:00",
+   "ai": {
+    "summary": "The measure brings the OECD Side-by-Side package into UK law and amends Multinational Top‑up Tax and Domestic Top‑up Tax to align with Inclusive Framework guidance.",
+    "whoAffected": "Businesses subject to Multinational Top‑up Tax and Domestic Top‑up Tax",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients affected by Multinational Top‑up Tax or Domestic Top‑up Tax",
+     "Check current tax calculations against the new amendments",
+     "Monitor OECD Side‑by‑Side guidance for further updates",
+     "Advise clients on any required adjustments to their tax positions"
+    ],
+    "legislationRefs": [
+     "Side-by-Side package",
+     "Multinational Top-up Tax",
+     "Domestic Top-up Tax"
+    ],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-10T11:12:25.539Z"
+   }
   },
   {
    "id": "f7f5ae2e6ca906cd",
@@ -7239,7 +7352,22 @@
    ],
    "hasBody": true,
    "changeNote": "Updated the service level agreement for 2026 to 2027.",
-   "firstPublished": "2020-02-19T00:00:00+00:00"
+   "firstPublished": "2020-02-19T00:00:00+00:00",
+   "ai": {
+    "summary": "The SLA ensures consistent service quality for Welsh taxpayers and helps HMRC and the Welsh Government meet their duties operating Welsh rates of Income Tax.",
+    "whoAffected": "Welsh taxpayers (including SMEs, owner‑managed businesses and the self‑employed in Wales)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Inform Welsh clients that HMRC has a service level agreement for Welsh rates of Income Tax",
+     "Monitor any service issues reported by Welsh clients and raise them with HMRC if needed",
+     "Keep records of client communications regarding Welsh tax matters",
+     "Stay updated on future SLA revisions via the National Archives"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-10T11:12:37.739Z"
+   }
   },
   {
    "id": "c25e11f49a21332d",
@@ -7255,7 +7383,22 @@
    ],
    "hasBody": true,
    "changeNote": "Updated the service level agreement for 2026 to 2027.",
-   "firstPublished": "2019-06-26T00:00:00+01:00"
+   "firstPublished": "2019-06-26T00:00:00+01:00",
+   "ai": {
+    "summary": "The SLA sets a consistent quality of service for Scottish taxpayers and defines HMRC and Scottish Government responsibilities for operating Scottish Income Tax.",
+    "whoAffected": "Scottish taxpayers, including SMEs, owner‑managed businesses and the self‑employed in Scotland",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Inform Scottish clients that a service level agreement aims to ensure consistent tax service",
+     "Monitor any service issues and reference the SLA when raising concerns",
+     "Contact HMRC if service does not meet expected standards",
+     "Stay alert for future SLA updates that may affect tax administration"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-10T11:12:40.800Z"
+   }
   },
   {
    "id": "3c4f4e01eb2db6da",
@@ -7336,7 +7479,22 @@
    ],
    "hasBody": true,
    "changeNote": "Closing date updated to 18 August 2026.",
-   "firstPublished": "2026-06-23T14:23:19+01:00"
+   "firstPublished": "2026-06-23T14:23:19+01:00",
+   "ai": {
+    "summary": "The government is consulting on a new, simpler ISA to help first‑time buyers purchase a home, which would replace the Lifetime ISA when launched.",
+    "whoAffected": "First‑time home buyers and current Lifetime ISA holders",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the consultation and any forthcoming decisions",
+     "Inform clients that a new ISA may replace the Lifetime ISA",
+     "Review existing Lifetime ISA positions for eligible clients",
+     "Prepare to update advice and documentation once the new product is available"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-10T11:12:46.710Z"
+   }
   },
   {
    "id": "662ea5b47f6191d5",
@@ -7441,7 +7599,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-06-23T14:18:33+01:00"
+   "firstPublished": "2026-06-23T14:18:33+01:00",
+   "ai": {
+    "summary": "The government proposes a new criminal offence for reckless untrue statements in direct tax, aligning it with indirect tax offences and giving prosecutors an alternative charge when dishonesty isn’t provable.",
+    "whoAffected": "Individuals, businesses and advisers, including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the consultation and note key dates",
+     "Assess current client advice on direct‑tax filings for risk of reckless statements",
+     "Prepare guidance for clients on avoiding reckless inaccuracies",
+     "Consider submitting feedback to the consultation"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-10T11:12:52.528Z"
+   }
   },
   {
    "id": "8ad652009c3adacf",
@@ -7491,7 +7664,22 @@
    ],
    "hasBody": true,
    "changeNote": "Consultation outcome added.",
-   "firstPublished": "2025-07-21T17:01:06+01:00"
+   "firstPublished": "2025-07-21T17:01:06+01:00",
+   "ai": {
+    "summary": "Land Remediation Relief offers a 150% corporation tax relief to encourage brownfield regeneration; the government is consulting on its effectiveness and robustness against abuse.",
+    "whoAffected": "Companies, including SMEs and owner‑managed businesses, that incur costs remediating contaminated or derelict brownfield land",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients with brownfield land remediation projects",
+     "Check eligibility for the 150% corporation tax relief",
+     "Track the consultation outcome and advise on any changes",
+     "Ensure proper documentation is kept to support any relief claim"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-10T11:12:58.330Z"
+   }
   },
   {
    "id": "c12f8d09587564f5",
