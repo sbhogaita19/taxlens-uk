@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-10T11:13:07.729Z",
+ "generatedAt": "2026-10-11T11:26:33.002Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -7057,7 +7057,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:11:12+01:00"
+   "firstPublished": "2026-07-13T13:11:12+01:00",
+   "ai": {
+    "summary": "A new authorised member surplus payment allows trustees of registered defined benefit occupational pension schemes to make discretionary direct payments to eligible members from surplus, taxed as pension income, for payments on or after 6 April 2027.",
+    "whoAffected": "Trustees of registered defined benefit occupational pension schemes and eligible scheme members (including SME owners with such schemes)",
+    "effectiveDate": "Payments made on or after 6 April 2027",
+    "actions": [
+     "Inform clients with defined benefit schemes about the new surplus payment option",
+     "Review scheme surplus and identify eligible members before the effective date",
+     "Ensure any payments are recorded as pension income for tax purposes",
+     "Consider submitting feedback by 7 September 2026 if appropriate"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-11T11:25:29.141Z"
+   }
   },
   {
    "id": "c513e58e3d072d22",
@@ -7139,7 +7154,25 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:08:18+01:00"
+   "firstPublished": "2026-07-13T13:08:18+01:00",
+   "ai": {
+    "summary": "The government is consulting on how pre‑development costs should be taxed, seeking stakeholder views on current treatment and its commercial impact following a Supreme Court judgment.",
+    "whoAffected": "Businesses",
+    "effectiveDate": "2026-07-13",
+    "actions": [
+     "Monitor the consultation and its deadlines",
+     "Collect information on clients' predevelopment costs and current tax treatment",
+     "Prepare evidence and viewpoints on the commercial impact",
+     "Submit a response to the government consultation"
+    ],
+    "legislationRefs": [
+     "Corporate Tax Roadmap",
+     "Orsted West of Duddon Sands (UK) Ltd and others v HMRC [2026]"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-11T11:25:32.510Z"
+   }
   },
   {
    "id": "72faa9e57ffb182c",
@@ -7179,7 +7212,22 @@
    ],
    "hasBody": true,
    "changeNote": "Edited section 'If you verified using GOV.UK One Login'. If you verified your identity after 8 July 2026, we sent your personal code to your email address. ",
-   "firstPublished": "2025-09-01T00:00:00+01:00"
+   "firstPublished": "2025-09-01T00:00:00+01:00",
+   "ai": {
+    "summary": "A personal code, an 11‑character identifier issued after identity verification, must be used by directors and PSCs to confirm verification on filings from 18 Nov 2025. Codes can be viewed via Companies House ‘Manage account’, emailed after 8 Jul 2026, or sent by an ACSP, and should be kept safe but can be shared with agents.",
+    "whoAffected": "Company directors, persons with significant control, anyone filing on behalf of a company, authorised corporate service providers and their clients (including SMEs and self‑employed directors).",
+    "effectiveDate": "18 November 2025",
+    "actions": [
+     "Verify client identity via GOV.UK One Login or an ACSP and obtain the personal code",
+     "Advise clients to save the code in their Companies House account and record it securely",
+     "Use the same personal code for each confirmation statement, director appointment or filing from 18 Nov 2025",
+     "If details mismatch or code is compromised, update date of birth in WebFiling or contact Companies House/ACSP to replace the code"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-11T11:25:35.977Z"
+   }
   },
   {
    "id": "13d96e6344f5ab1a",
@@ -7195,7 +7243,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-07-10T14:06:36+01:00"
+   "firstPublished": "2026-07-10T14:06:36+01:00",
+   "ai": {
+    "summary": "The DWP set four growth goals for The Pensions Regulator for 2026‑27: reform workplace pensions, unlock surplus capital, support productive investment, and promote responsible AI use in pensions to improve outcomes for savers and employers.",
+    "whoAffected": "Employers, pension savers and the wider economy",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Advise SME clients on upcoming workplace pension reforms and compliance requirements",
+     "Help clients assess opportunities to unlock surplus or capital within pension schemes",
+     "Guide clients on investing pension assets productively to enhance returns",
+     "Monitor AI developments in pensions and advise on responsible adoption"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-11T11:25:38.715Z"
+   }
   },
   {
    "id": "6a50811a5184f507",
@@ -7211,7 +7274,45 @@
    ],
    "hasBody": true,
    "changeNote": "The section 'Energy-saving materials installed in residential accommodation and certain charitable buildings' has been updated with information on which energy-saving materials are subject to VAT relief at 0% until 31 March 2027.",
-   "firstPublished": "2014-02-04T00:00:00+00:00"
+   "firstPublished": "2014-02-04T00:00:00+00:00",
+   "ai": {
+    "summary": "VAT rates vary by product/service; many items are zero‑rated, exempt or at reduced rates. Energy‑saving materials installed in homes and certain charities are 0% until 31 Mar 2027. Temporary reduced rates apply to children’s meals and admissions from 25 Jun 2026 to 1 Sep 2026.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed traders who supply the listed goods or services, including builders, restaurants, charities, health and education providers.",
+    "effectiveDate": "2026-07-10",
+    "actions": [
+     "Check client supplies against the VAT rate tables and apply the correct rate (standard, reduced, 0% or exempt).",
+     "Confirm eligibility for the 0% relief on energy‑saving materials and ensure the cost threshold is met before invoicing.",
+     "Maintain the required evidence and records to satisfy the conditions for each rate or exemption.",
+     "Advise clients on the temporary reduced rates for children’s meals and admissions and ensure they charge the correct rate during the specified period."
+    ],
+    "legislationRefs": [
+     "VAT Notice 701/14",
+     "VAT Notice 709/1",
+     "VAT Notice 701/15",
+     "VAT Notice 701/38",
+     "VAT Notice 701/45",
+     "VAT Notice 701/29",
+     "VAT Notice 701/47",
+     "VAT Notice 701/12",
+     "VAT Notice 701/58",
+     "VAT Notice 708",
+     "VAT Notice 708/6",
+     "VAT Notice 701/7",
+     "VAT Notice 701/32",
+     "VAT Notice 701/36",
+     "VAT Notice 701/1",
+     "VAT Notice 701/31",
+     "VAT Notice 701/57",
+     "VAT Notice 701/18",
+     "VAT Notice 701/30",
+     "VAT Notice 701/19",
+     "Budget Note BN77",
+     "VAT Water and Sewerage Services manual"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-11T11:25:43.440Z"
+   }
   },
   {
    "id": "4f8264770866fbc2",
@@ -7522,7 +7623,22 @@
    ],
    "hasBody": true,
    "changeNote": "Links added to the modernising the distributions framework consultation, call for evidence on Customs Modernisation and  the Improving the Quality of Customs Intermediaries consultation.\r\n",
-   "firstPublished": "2026-06-23T14:23:00+01:00"
+   "firstPublished": "2026-06-23T14:23:00+01:00",
+   "ai": {
+    "summary": "The government announced on 23 June 2026 a package of tax and customs measures aimed at cutting admin burdens, boosting certainty, fairness and customer experience, so businesses can focus on growth.",
+    "whoAffected": "Businesses",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review client administrative processes for simplification opportunities",
+     "Monitor forthcoming details of the announced tax and customs measures",
+     "Inform clients how reduced admin burdens may free time for growth activities",
+     "Prepare advice on how improved certainty and fairness could affect client operations"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-11T11:25:52.844Z"
+   }
   },
   {
    "id": "47e839e5cd5e5a03",
@@ -7631,7 +7747,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-06-23T14:18:18+01:00"
+   "firstPublished": "2026-06-23T14:18:18+01:00",
+   "ai": {
+    "summary": "Consultation proposes a new VAT zero rate for land used to build social housing, examining current VAT impacts on acquisition, timing and cashflow, and seeking input on the relief’s scope and administration.",
+    "whoAffected": "Developers, landowners and contractors (including SMEs and self‑employed) involved in acquiring land for social‑housing projects",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Track the consultation and any forthcoming legislation",
+     "Advise clients on existing VAT rules for land purchases for social housing",
+     "Assess potential cash‑flow benefits of a zero‑rate if introduced",
+     "Collect client views to contribute to the consultation"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-11T11:25:56.982Z"
+   }
   },
   {
    "id": "d1ee3ea3722747ef",
@@ -7775,7 +7906,24 @@
    ],
    "hasBody": true,
    "changeNote": "Removed message about delays to filings, as our filings are now being processed as normal. ",
-   "firstPublished": "2010-05-01T00:00:00+01:00"
+   "firstPublished": "2010-05-01T00:00:00+01:00",
+   "ai": {
+    "summary": "The SH19 form is used by private (and public with court order) limited companies to declare capital when reducing it, supported by a solvency statement or court order. Documents are uploaded online unless a court order requires posting; fees are £20 standard (10‑14 days) or £89 same‑day, with refunds if rejected.",
+    "whoAffected": "Private limited companies reducing capital (and public limited companies with a court order), including SMEs and owner‑managed businesses considering a capital reduction",
+    "effectiveDate": "2026-06-19",
+    "actions": [
+     "Confirm whether the reduction is supported by a solvency statement or a court order",
+     "Prepare the SH19 form plus the resolution, solvency statement and directors' statement as required",
+     "If no court order, upload supporting documents first then the SH19 online; if a court order, post all documents to Companies House",
+     "Select standard or same‑day service, note the applicable fee and processing time"
+    ],
+    "legislationRefs": [
+     "section 644 and 649 of the Companies Act 2006"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-11T11:26:09.200Z"
+   }
   },
   {
    "id": "31e21392d332ec16",
@@ -7791,7 +7939,22 @@
    ],
    "hasBody": true,
    "changeNote": "Removed message about delays to filings, as our filings are now being processed as normal. ",
-   "firstPublished": "2014-09-23T00:00:00+01:00"
+   "firstPublished": "2014-09-23T00:00:00+01:00",
+   "ai": {
+    "summary": "Changing a company’s registered name requires a special resolution and filing a form; paper filings cost £30, online filings cost £20 (or £85 for same‑day service).",
+    "whoAffected": "Companies, including SMEs and owner‑managed businesses, that wish to change their registered name",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Prepare a special resolution to change the company name",
+     "Choose filing method: paper form (£30) or online service (£20 or £85 for same‑day)",
+     "Make the cheque payable to ‘Companies House’ if using paper",
+     "Submit the form and pay the fee to Companies House"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-11T11:26:11.982Z"
+   }
   },
   {
    "id": "389f49496d0b4829",
@@ -7868,7 +8031,22 @@
    ],
    "hasBody": true,
    "changeNote": "Valuation of non-investment assets application guidance updated, and HTML version added.",
-   "firstPublished": "2014-07-09T00:00:00+01:00"
+   "firstPublished": "2014-07-09T00:00:00+01:00",
+   "ai": {
+    "summary": "The Government Financial Reporting Manual provides technical accounting guidance for preparing central government annual reports and accounts, detailing HM Treasury's IFRS implementation advice for the public sector.",
+    "whoAffected": "Preparers of central government annual reports and accounts (public sector entities)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review the manual to understand IFRS guidance applicable to public‑sector clients",
+     "Apply the guidance when preparing or reviewing public‑sector financial statements",
+     "Monitor updates to the manual for any changes affecting public‑sector reporting",
+     "Inform SME clients that this guidance does not directly impact private‑sector reporting"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-11T11:26:19.063Z"
+   }
   },
   {
    "id": "2d6cffbcd123efdf",
@@ -7900,7 +8078,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-06-11T14:30:10+01:00"
+   "firstPublished": "2026-06-11T14:30:10+01:00",
+   "ai": {
+    "summary": "Baroness Hogg has been reappointed as a non‑executive member of the Office for Budget Responsibility for a further year, serving until 19 June 2027. Dame Susan Rice will leave the board on 19 June 2026 and a recruitment process for her replacement will begin.",
+    "whoAffected": "Office for Budget Responsibility and its Board members",
+    "effectiveDate": "19 June 2026",
+    "actions": [
+     "Note the change in OBR non‑executive membership for future commentary",
+     "Monitor OBR publications for any shifts in fiscal outlook",
+     "Inform clients that the leadership change does not affect current tax rules",
+     "Stay alert for any new OBR guidance that may arise from the new appointment"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-11T11:26:24.306Z"
+   }
   },
   {
    "id": "3c98f9f005228fd1",
@@ -7977,7 +8170,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-06-09T00:00:00+01:00"
+   "firstPublished": "2026-06-09T00:00:00+01:00",
+   "ai": {
+    "summary": "From April 2028 all UK companies must file accounts using commercial software; small firms and micro‑entities must file profit‑and‑loss statements but can choose not to publish them.",
+    "whoAffected": "Small companies, micro‑entities and all other UK companies",
+    "effectiveDate": "April 2028",
+    "actions": [
+     "Recommend clients adopt commercial accounting software for filing",
+     "Ensure small‑company and micro‑entity clients prepare profit‑and‑loss accounts",
+     "Advise eligible clients on opting out of publication",
+     "Update internal filing timelines to use the extended preparation period"
+    ],
+    "legislationRefs": [
+     "Economic Crime and Corporate Transparency Act 2023"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-11T11:26:31.501Z"
+   }
   },
   {
    "id": "72c49b1d5ef3d48b",
