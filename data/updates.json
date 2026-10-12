@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-11T11:26:33.002Z",
+ "generatedAt": "2026-10-12T13:13:18.724Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,101 @@
    "label": "Other"
   }
  ],
- "count": 378,
+ "count": 379,
  "items": [
+  {
+   "id": "77b16f7f6b40d705",
+   "title": "Filing your Company Tax Return online",
+   "url": "https://www.gov.uk/government/publications/corporation-tax-commercial-software-suppliers",
+   "path": "/government/publications/corporation-tax-commercial-software-suppliers",
+   "date": "2026-10-12T11:37:24Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find recognised commercial software suppliers and software you can use to file your Company Tax Return and any supplementary pages online.",
+   "categories": [
+    "corptax"
+   ],
+   "hasBody": true,
+   "changeNote": "The list of commercial software suppliers for Corporation Tax has been updated with one addition to the ‘Produce and Submit CT600’ and ‘iXBRL integrated Software Application providers’ sections.",
+   "firstPublished": "2011-11-21T00:00:00+00:00",
+   "ai": {
+    "summary": "Companies must file their Corporation Tax return online using HMRC‑approved commercial software; paper returns are only allowed with a reasonable excuse or in Welsh. The software can also produce iXBRL accounts and may file annual accounts together.",
+    "whoAffected": "Companies required to file a Company Tax Return, including SMEs and owner‑managed businesses",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify a recognised commercial software supplier from HMRC's list",
+     "Prepare the CT600 and iXBRL accounts using the software",
+     "Submit the return online unless you have a reasonable excuse or need to file in Welsh",
+     "If desired, file annual accounts together via the software or separately with Companies House"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-12T13:12:20.027Z"
+   }
+  },
+  {
+   "id": "484d8989a830d1eb",
+   "title": "Approved offshore reporting funds",
+   "url": "https://www.gov.uk/government/publications/approved-offshore-reporting-funds",
+   "path": "/government/publications/approved-offshore-reporting-funds",
+   "date": "2026-10-12T10:30:44Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find a list of offshore funds that have applied for and been approved as reporting funds.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The list of reporting funds has been updated.",
+   "firstPublished": "2014-12-04T00:00:00+00:00",
+   "ai": {
+    "summary": "A monthly‑updated list shows offshore funds approved by HMRC as reporting funds, including their reference numbers and identification codes.",
+    "whoAffected": "Offshore funds and advisers/clients who need to confirm reporting‑fund status",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check the HMRC‑approved reporting fund list each month",
+     "Match client offshore fund references to the list entries",
+     "Confirm that client funds have reporting fund status for compliance",
+     "Record the fund identifiers (ISIN, SEDR, CUSIP) for client files"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-12T13:12:22.599Z"
+   }
+  },
+  {
+   "id": "7a00ce2e68bded52",
+   "title": "Corporation Tax technical specifications for CT600 RIM artefacts",
+   "url": "https://www.gov.uk/government/publications/corporation-tax-technical-specifications-ct600-rim-artefacts",
+   "path": "/government/publications/corporation-tax-technical-specifications-ct600-rim-artefacts",
+   "date": "2026-10-12T10:23:53Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "CT600 V3 (2027), CT600 V3 (2026) and CT600 V2 (2009) RIM artefacts for Corporation Tax software developers.",
+   "categories": [
+    "corptax"
+   ],
+   "hasBody": true,
+   "changeNote": "'CT600 V3 (2026) Artefacts V1.995' has been renamed to 'CT600 V3 (2027) Artifacts V1.995'.",
+   "firstPublished": "2014-08-13T00:00:00+01:00",
+   "ai": {
+    "summary": "CT600 V3 (2027) artefacts version V1.995 released 25 Sept 2026, pending implementation in LTS, TPVS and live; earlier versions already live.",
+    "whoAffected": "Corporation Tax software developers (and firms using their software)",
+    "effectiveDate": "25 September 2026",
+    "actions": [
+     "Check that your corporation tax software is prepared for CT600 V3 (2027) artefacts V1.995",
+     "Confirm the artefacts are still awaiting implementation in LTS, TPVS and live",
+     "Plan to update software once the artefacts move to live status",
+     "Inform SME/owner‑managed clients of upcoming filing changes"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-12T13:12:25.434Z"
+   }
+  },
   {
    "id": "6d6911b5d666a944",
    "title": "Request your employment history from National Insurance records",
@@ -1563,37 +1656,6 @@
    }
   },
   {
-   "id": "77b16f7f6b40d705",
-   "title": "Filing your Company Tax Return online",
-   "url": "https://www.gov.uk/government/publications/corporation-tax-commercial-software-suppliers",
-   "path": "/government/publications/corporation-tax-commercial-software-suppliers",
-   "date": "2026-09-29T09:37:24Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find recognised commercial software suppliers and software you can use to file your Company Tax Return and any supplementary pages online.",
-   "categories": [
-    "corptax"
-   ],
-   "hasBody": true,
-   "changeNote": "The list of commercial software suppliers for Corporation Tax has been updated with one addition to the 'Produce and Submit CT600' and 'iXBRL integrated Software Application providers' sections.",
-   "firstPublished": "2011-11-21T00:00:00+00:00",
-   "ai": {
-    "summary": "Companies must file their Corporation Tax returns online using HMRC‑approved commercial software, unless they have a reasonable excuse or are filing in Welsh. Some software also lets you submit annual accounts together.",
-    "whoAffected": "Companies required to file a Company Tax Return, including SMEs and owner‑managed businesses",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Identify a recognised commercial software supplier from HMRC's list",
-     "Use the software to file the Company Tax Return online",
-     "Confirm the client does not qualify for a paper return (reasonable excuse or Welsh filing)",
-     "If available, file annual accounts together with the return using the same software"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-29T13:45:04.642Z"
-   }
-  },
-  {
    "id": "fd0b4863be1ae16d",
    "title": "Tax-free savings newsletter 23",
    "url": "https://www.gov.uk/government/publications/tax-free-savings-newsletter-23",
@@ -2001,37 +2063,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-09-29T13:48:39.591Z"
-   }
-  },
-  {
-   "id": "7a00ce2e68bded52",
-   "title": "Corporation Tax technical specifications for CT600 RIM artefacts",
-   "url": "https://www.gov.uk/government/publications/corporation-tax-technical-specifications-ct600-rim-artefacts",
-   "path": "/government/publications/corporation-tax-technical-specifications-ct600-rim-artefacts",
-   "date": "2026-09-25T07:54:49Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "CT600 V3 (2026) and V2 (2009) RIM artefacts for Corporation Tax software developers.",
-   "categories": [
-    "corptax"
-   ],
-   "hasBody": true,
-   "changeNote": "CT600 V3 (2026) Artefacts V1.995 has been added.",
-   "firstPublished": "2014-08-13T00:00:00+01:00",
-   "ai": {
-    "summary": "A new CT600 V3 artefact (version 1.995) was released on 25 September 2026 and is awaiting implementation in the Local Test Service, Third‑Party Validation Service and live environment.",
-    "whoAffected": "Corporation tax software developers and firms using CT600 filing software",
-    "effectiveDate": "25 September 2026",
-    "actions": [
-     "Confirm your CT600 software provider is aware of the V1.995 artefact release",
-     "Monitor the rollout into LTS, TPVS and live systems",
-     "Plan to test client filings once the artefact is live",
-     "Advise clients to update their software before the next filing deadline"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-29T13:45:42.887Z"
    }
   },
   {
@@ -7362,7 +7393,25 @@
    ],
    "hasBody": true,
    "changeNote": "Edited sections 'How to apply', 'Option 1: Apply to access trust information for a single overseas entity' and 'Option 2: Apply to access trust information for multiple overseas entities or where a person connected to a trust is aged 17 or under'. You are no longer required to provide the names of trusts when applying for information about a trust. If the trust contains details about a person aged 17 or under, we can release the trust information but remove details relating to the minor.  \r\n",
-   "firstPublished": "2025-08-29T00:00:00+01:00"
+   "firstPublished": "2025-08-29T00:00:00+01:00",
+   "ai": {
+    "summary": "Companies House lets you request trust information linked to overseas entities. Use the single‑entity form or the multiple‑entity/minor form, pay £55 per entity, and demonstrate legitimate interest if a minor is involved. Partial data may be shared.",
+    "whoAffected": "Anyone seeking trust information about overseas entities, including business owners, accountants and other advisers who need the data for compliance or investigations",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Determine whether the request is for a single overseas entity or involves multiple entities/a minor",
+     "Complete the appropriate online form, providing the overseas entity name, ID and payment details",
+     "If a minor is involved or multiple entities are requested, prepare a written statement showing legitimate interest with supporting evidence",
+     "Submit the request, keep the confirmation reference and advise the client of possible conditions, partial information or removal of minor‑related details"
+    ],
+    "legislationRefs": [
+     "Sanctions and Anti-Money Laundering Act 2018",
+     "Economic Crime (Transparency and Enforcement) Act 2022"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-12T13:12:29.060Z"
+   }
   },
   {
    "id": "d54275a62ed40379",
@@ -7515,7 +7564,22 @@
    ],
    "hasBody": true,
    "changeNote": "Form LLP288c added for limited liability partnership (LLP) members appointed before 1 October 2009.",
-   "firstPublished": "2026-01-30T11:32:00+00:00"
+   "firstPublished": "2026-01-30T11:32:00+00:00",
+   "ai": {
+    "summary": "Correct a director’s, PSC’s or LLP member’s date of birth by submitting a replacement filing. Use online WebFiling where possible; otherwise send RP01 and the original registration form with proof of DOB. Pre‑1 Oct 2009 appointments use a change‑of‑particulars form. Processing may take up to 20 working days.",
+    "whoAffected": "Directors, persons with significant control (PSCs), LLP members and the companies that appointed them, especially SMEs and owner‑managed businesses",
+    "effectiveDate": "2026-06-29",
+    "actions": [
+     "Determine the original filing type (IN01, AP01, PSC01, CS01 or pre‑1 Oct 2009) from the company’s filing history",
+     "If filed online, replace the filing via WebFiling selecting the appropriate replace option",
+     "If paper is required, complete RP01 and the relevant registration form, attach proof of correct DOB and post to the 2nd Filings Team address",
+     "For appointments before 1 Oct 2009, file the appropriate change‑of‑particulars form (Form 288c, Form 296 or Form LLP288c) and include PR03 if the company uses PROOF"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-12T13:12:33.828Z"
+   }
   },
   {
    "id": "4f0cbbc910b200d8",
@@ -7531,7 +7595,25 @@
    ],
    "hasBody": true,
    "changeNote": "Updated the member list for the taskforce",
-   "firstPublished": "2026-06-29T12:49:00+01:00"
+   "firstPublished": "2026-06-29T12:49:00+01:00",
+   "ai": {
+    "summary": "The government has created a Child Trust Fund Taskforce to improve coordination and help over 750,000 young adults with unclaimed matured CTFs, worth about £2,200 each, to locate and claim their savings using the free GOV.UK ‘Find my Child Trust Fund’ tool.",
+    "whoAffected": "Young people born between 1 September 2002 and 2 January 2011, now aged roughly 15‑23, especially those 18 and over who may have unclaimed Child Trust Funds",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Advise clients to search for any Child Trust Fund using the free ‘Find my Child Trust Fund’ tool on GOV.UK (requires NI number)",
+     "Assist clients in gathering required documentation and completing the claim process",
+     "Inform clients about the Taskforce’s outreach and any direct letters from HMRC",
+     "Monitor HMRC communications and follow up with clients to ensure they claim any identified funds"
+    ],
+    "legislationRefs": [
+     "National Youth Strategy",
+     "Child Trust Fund scheme"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-12T13:12:36.861Z"
+   }
   },
   {
    "id": "7309e1fe7b59809a",
@@ -8138,7 +8220,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-06-09T11:48:13+01:00"
+   "firstPublished": "2026-06-09T11:48:13+01:00",
+   "ai": {
+    "summary": "The Insolvency Service has wound up two firms that registered over 4,300 UK companies for mainly China‑based clients, breaching AML rules and operating without HMRC approval, highlighting abuse of Companies House and the need for accurate, transparent company information.",
+    "whoAffected": "UK businesses that use third‑party registered office or company secretarial services, directors, and firms acting as trust or company service providers",
+    "effectiveDate": "2026-06-09",
+    "actions": [
+     "Confirm any service provider acting as a trust or company service provider is registered with HMRC",
+     "Carry out AML and identity checks on any third‑party address or secretarial service before recommending it",
+     "Advise clients to ensure all Companies House information is accurate and to avoid unregistered brokers",
+     "Monitor Companies House filings for signs of abuse and report concerns to the Insolvency Service"
+    ],
+    "legislationRefs": [
+     "Economic Crime and Corporate Transparency Act 2023"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-12T13:12:59.165Z"
+   }
   },
   {
    "id": "54f8fced05687597",
@@ -8258,7 +8357,22 @@
    ],
    "hasBody": true,
    "changeNote": "Updated list with new company information.",
-   "firstPublished": "2014-11-10T00:00:00+00:00"
+   "firstPublished": "2014-11-10T00:00:00+00:00",
+   "ai": {
+    "summary": "The guide lists services offered by agents and provides a list of agents authorised to incorporate companies electronically with Companies House.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals needing to register a new company",
+    "effectiveDate": "2026-06-01",
+    "actions": [
+     "Review the guide to understand services agents provide",
+     "Select an agent from the authorised list for electronic incorporation",
+     "Submit the incorporation electronically through the chosen agent",
+     "Retain documentation of the agent and filing for client records"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-12T13:13:04.842Z"
+   }
   },
   {
    "id": "15978868bc0d0d0b",
@@ -8384,7 +8498,22 @@
    ],
    "hasBody": true,
    "changeNote": "paragraph 2.19 removed from consultation outcome document.",
-   "firstPublished": "2025-07-15T10:21:53+01:00"
+   "firstPublished": "2025-07-15T10:21:53+01:00",
+   "ai": {
+    "summary": "The government proposes reforms to the Financial Ombudsman Service’s legislative framework to stop it acting as a quasi‑regulator and to ensure it remains an impartial dispute‑resolution service, giving consumers and firms more certainty and predictability.",
+    "whoAffected": "Consumers and firms that use the Financial Ombudsman Service, including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the consultation and any forthcoming legislation",
+     "Inform clients of potential changes to FOS dispute handling",
+     "Review internal complaint procedures to align with anticipated reforms",
+     "Prepare guidance for clients on using the FOS under the new framework"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-12T13:13:17.224Z"
+   }
   },
   {
    "id": "7f7ff04b9e3b0dd1",
