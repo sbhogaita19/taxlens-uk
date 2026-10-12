@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-12T13:13:18.724Z",
+ "generatedAt": "2026-10-12T21:16:51.919Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,41 @@
    "label": "Other"
   }
  ],
- "count": 379,
+ "count": 380,
  "items": [
+  {
+   "id": "5deb14574606c02d",
+   "title": "Insolvency (VAT Notice 700/56)",
+   "url": "https://www.gov.uk/guidance/insolvency-and-vat-notice-70056",
+   "path": "/guidance/insolvency-and-vat-notice-70056",
+   "date": "2026-10-12T14:45:28Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how to account for VAT and who to contact if you're an insolvency practitioner and you're appointed over insolvent VAT-registered businesses.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "The information in section 11 'Cash accounting' has been removed and replaced with a link to section 11 of the insolvency practitioner's handbook.",
+   "firstPublished": "2014-04-01T00:00:00+01:00",
+   "ai": {
+    "summary": "The notice directs insolvency practitioners on VAT duties, including notifying HMRC, handling dividend payments, post‑bankruptcy VAT returns, Crown set‑off and taking control of goods, with payment details and reference formats.",
+    "whoAffected": "Insolvency practitioners, bankrupt individuals, companies in administration or liquidation, trustees, liquidators and any SME or owner‑managed business undergoing insolvency.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Ensure the client notifies HMRC of the insolvency as outlined in the practitioner’s handbook",
+     "Advise on making dividend payments using the correct 13‑character reference and the specified UK or overseas bank details",
+     "Confirm post‑bankruptcy VAT returns exclude tax from the period of office and request HMRC forms if needed",
+     "Explain Crown set‑off rules and how any pre‑insolvency credits may be applied or repaid"
+    ],
+    "legislationRefs": [
+     "Tribunals, Courts and Enforcement Act 2007 (TCEA07)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-12T21:15:50.953Z"
+   }
+  },
   {
    "id": "77b16f7f6b40d705",
    "title": "Filing your Company Tax Return online",
@@ -431,6 +464,37 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-07T11:49:06.436Z"
+   }
+  },
+  {
+   "id": "e4f317788914102f",
+   "title": "Check the identity of someone representing HMRC in person",
+   "url": "https://www.gov.uk/guidance/check-the-identity-of-someone-representing-hmrc-in-person",
+   "path": "/guidance/check-the-identity-of-someone-representing-hmrc-in-person",
+   "date": "2026-10-07T10:11:34Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to verify the identity of an HMRC officer or an HMRC collector if they contact you in person.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The process to confirm the identity of an HMRC officer when meeting them in person has been updated.",
+   "firstPublished": "2023-09-05T00:00:00+01:00",
+   "ai": {
+    "summary": "When an HMRC officer or collector visits in person, ask to see their ID card, record the name and serial number, then call the provided HMRC verification number to confirm their identity. Use the number only for verification, not general enquiries.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who may receive face‑to‑face visits from HMRC officers or collectors",
+    "effectiveDate": "2026-10-07",
+    "actions": [
+     "Ask the visitor to show their HMRC identification card and note name and serial number",
+     "Call the appropriate HMRC verification line (03000 565 656 for officers, 0300 200 3862 for collectors) and give the details",
+     "If the visit is outside 8 am‑6 pm Mon‑Fri, arrange a later appointment before confirming identity",
+     "Do not use the verification number for any other HMRC enquiries"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-12T21:15:53.746Z"
    }
   },
   {
@@ -1098,40 +1162,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-01T18:25:22.397Z"
-   }
-  },
-  {
-   "id": "5deb14574606c02d",
-   "title": "Insolvency (VAT Notice 700/56)",
-   "url": "https://www.gov.uk/guidance/insolvency-and-vat-notice-70056",
-   "path": "/guidance/insolvency-and-vat-notice-70056",
-   "date": "2026-10-01T10:59:14Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out how to account for VAT and who to contact if you're an insolvency practitioner and you're appointed over insolvent VAT-registered businesses.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "The information in sections 3, 5, 10, 15, 17, 18 and 23 has been removed and replaced with links to the relevant sections of the Insolvency practitioner's handbook. ",
-   "firstPublished": "2014-04-01T00:00:00+01:00",
-   "ai": {
-    "summary": "The notice directs insolvency practitioners to the Insolvency practitioner’s handbook for handling VAT matters in insolvency, covering notifications, claims, returns, registration cancellation, dividend payments, post‑bankruptcy VAT responsibilities, cash‑accounting adjustments and Crown set‑off rules.",
-    "whoAffected": "Insolvency practitioners, bankrupt individuals, companies in administration, voluntary arrangements, trust deeds, and any SME or owner‑managed business facing insolvency",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Refer clients to the Insolvency practitioner’s handbook sections for notifications, claims, returns and registration cancellation",
-     "Ensure dividend payments use the correct 13‑character reference and follow the specified bank details",
-     "Advise bankrupt traders to continue filing VAT returns for post‑bankruptcy periods and not include pre‑bankruptcy tax on those returns",
-     "Check eligibility for cash‑accounting and apply the post‑insolvency adjustment as required"
-    ],
-    "legislationRefs": [
-     "Cash Accounting Scheme (Notice 731)",
-     "VAT Notice 700"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-01T11:38:38.320Z"
    }
   },
   {
@@ -7440,7 +7470,30 @@
    ],
    "hasBody": true,
    "changeNote": "'Reallocated UK expenditure for Audio-Visual Expenditure Credit and Video Games Expenditure Credit' section added, to explain how to record this on the CT600P supplementary page.",
-   "firstPublished": "2026-04-08T15:58:00+01:00"
+   "firstPublished": "2026-04-08T15:58:00+01:00",
+   "ai": {
+    "summary": "The CT600P supplementary page must be completed by companies claiming any creative industry tax reliefs, detailing relevant global, UK, qualifying, and credit amounts for each production type, with combined totals and specific rules for visual effects and negative credits.",
+    "whoAffected": "Companies claiming Audio‑Visual Expenditure Credit, Film Tax Relief, High‑end TV, Children’s TV, Animation, Video Games Expenditure Credit, Video Games Tax Relief, Theatre, Orchestra, or Museums and Galleries Exhibition tax reliefs",
+    "effectiveDate": "2026-07-01",
+    "actions": [
+     "Confirm the client is claiming one of the listed creative industry reliefs",
+     "Collect production‑level data on relevant global, UK, qualifying expenditure and credit amounts for each category",
+     "Enter the data on CT600P boxes P1‑P30, using combined totals and ensuring detailed calculations are retained",
+     "Check for any negative visual‑effects credit and adjust column D entries as required, referencing HMRC manual guidance"
+    ],
+    "legislationRefs": [
+     "Parts 14A to 15E of the Corporation Tax Act 2009",
+     "section 1179CA(2) of the Corporation Tax Act 2009",
+     "section 1179AB(1) of the Corporation Tax Act 2009",
+     "section 1179CA(1) of the Corporation Tax Act 2009",
+     "section 1179EC(3) of the Corporation Tax Act 2009",
+     "section 1179DR of the Corporation Tax Act 2009",
+     "HMRC manual CREC061460 — Expenditure credit calculation for visual effects and negative amounts"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-12T21:15:57.165Z"
+   }
   },
   {
    "id": "5b4e2a3c47886a7f",
@@ -7781,7 +7834,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-06-23T14:19:09+01:00"
+   "firstPublished": "2026-06-23T14:19:09+01:00",
+   "ai": {
+    "summary": "The government proposes extending VAT liability on online marketplaces to include sales by UK businesses, covering domestic retail and takeaway food, aiming to reduce non‑compliance and level competition.",
+    "whoAffected": "UK‑based businesses selling goods via online marketplaces (including retail items and takeaway food) and the online marketplace platforms themselves",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the consultation and any forthcoming guidance",
+     "Identify clients using online marketplaces and assess their current VAT status",
+     "Advise clients on potential future registration requirements and compliance steps",
+     "Prepare documentation and support processes for possible VAT registration and reporting"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-12T21:16:00.052Z"
+   }
   },
   {
    "id": "cc5ebe2c81726fec",
@@ -7861,7 +7929,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-06-23T14:18:28+01:00"
+   "firstPublished": "2026-06-23T14:18:28+01:00",
+   "ai": {
+    "summary": "HMRC is consulting on new software standards to stop electronic sales suppression (till fraud) affecting EPOS developers and POS‑using businesses.",
+    "whoAffected": "Electronic Point of Sale (EPOS) developers, businesses that use Point of Sale (POS) systems, and tax‑compliance organisations",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Track the consultation and key dates",
+     "Advise POS‑using SME clients of the proposed standards",
+     "Prepare feedback or questions for HMRC on behalf of clients",
+     "Review client POS processes for compliance readiness"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-12T21:16:02.452Z"
+   }
   },
   {
    "id": "2d06f9999393be31",
@@ -8053,7 +8136,22 @@
    ],
    "hasBody": true,
    "changeNote": "Consultation outcome added.",
-   "firstPublished": "2025-11-06T16:00:04+00:00"
+   "firstPublished": "2025-11-06T16:00:04+00:00",
+   "ai": {
+    "summary": "The government proposes that the FCA take over AML/CTF supervision of legal, accountancy, and trust and company service providers, outlining new duties, powers and accountability, with a consultation running 6 Nov‑24 Dec 2025.",
+    "whoAffected": "Legal firms, accountancy firms and trust/company service providers (and their SME, owner‑managed and self‑employed clients)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the consultation period (6 Nov‑24 Dec 2025)",
+     "Review current AML/CTF procedures in anticipation of FCA oversight",
+     "Align policies with the proposed FCA duties, powers and accountability mechanisms",
+     "Submit feedback to anti‑moneylaunderingbranch@hmtreasury.gov.uk before the deadline"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-12T21:16:13.778Z"
+   }
   },
   {
    "id": "11ddee3d45e18911",
@@ -8253,7 +8351,25 @@
    ],
    "hasBody": true,
    "changeNote": "Added translation",
-   "firstPublished": "2026-06-09T09:51:00+01:00"
+   "firstPublished": "2026-06-09T09:51:00+01:00",
+   "ai": {
+    "summary": "From April 2028, all UK companies must file annual accounts in iXBRL using commercial software; small companies and micro‑entities must also file profit and loss statements but can opt out of public publication. Abridged accounts are removed, audit‑exemption statements are strengthened, and component parts must be filed together.",
+    "whoAffected": "All UK registered companies, including small companies, micro‑entities and those using accountants or third‑party agents",
+    "effectiveDate": "April 2028",
+    "actions": [
+     "Ensure clients prepare profit and loss accounts for filing and discuss the opt‑out option for small companies and micro‑entities",
+     "Select and implement an approved commercial iXBRL software solution for filing accounts",
+     "Update internal filing procedures to submit full accounts together and discontinue abridged accounts",
+     "Communicate the new requirements and timelines to clients and adjust engagement letters accordingly"
+    ],
+    "legislationRefs": [
+     "Economic Crime and Corporate Transparency Act 2023",
+     "ECCT Act 2023"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-12T21:16:23.745Z"
+   }
   },
   {
    "id": "8323eb243a707117",
@@ -8482,7 +8598,22 @@
    ],
    "hasBody": true,
    "changeNote": "Added translation",
-   "firstPublished": "2026-05-21T10:00:01+01:00"
+   "firstPublished": "2026-05-21T10:00:01+01:00",
+   "ai": {
+    "summary": "Companies House and the IPO warn that scammers send fake invoices for their services; these may arrive by post or email, request inflated fees, and appear to be official. Verify addresses, check for non‑government disclaimers, contact the agencies before paying, and report any suspicious requests.",
+    "whoAffected": "All businesses, including SMEs, owner‑managed firms and the self‑employed, that may receive unsolicited payment requests claiming to be from Companies House or the IPO.",
+    "effectiveDate": "2026-05-21",
+    "actions": [
+     "Check website and email domains on any invoice; official services use GOV.UK addresses",
+     "Look for disclaimers stating the sender is not affiliated with government",
+     "Contact Companies House or the IPO directly to verify any payment request before paying",
+     "Report suspicious invoices to Report Fraud and the local Trading Standards office"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-12T21:16:36.361Z"
+   }
   },
   {
    "id": "8dcdc389a17ac297",
@@ -8646,7 +8777,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-05-12T10:00:06+01:00"
+   "firstPublished": "2026-05-12T10:00:06+01:00",
+   "ai": {
+    "summary": "Companies House is reviewing the 20‑year retention rule for dissolved company records, pausing their destruction and transfer while the review runs. Access via online services remains, and records not online can still be requested for a fee.",
+    "whoAffected": "Owners of dissolved companies and anyone needing access to dissolved company records, including SME and self‑employed clients",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Tell clients that destruction and transfer of dissolved company records is currently paused",
+     "Explain that the Find and update company information service and the Search for a dissolved company service remain available",
+     "Offer to request access to records not online, noting a fee applies",
+     "Recommend signing up for GOV.UK alerts and the Companies House newsletter for updates"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-12T21:16:47.547Z"
+   }
   },
   {
    "id": "d8d991d850eaf4c3",
@@ -8662,7 +8808,22 @@
    ],
    "hasBody": true,
    "changeNote": "Outcome of response added.",
-   "firstPublished": "2025-10-27T09:30:08+00:00"
+   "firstPublished": "2025-10-27T09:30:08+00:00",
+   "ai": {
+    "summary": "The government is consulting on possible enhancements to the Bank Referral Scheme after its second post‑implementation review, and may consider legislative changes or guidance based on feedback.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review the consultation documents and timeline",
+     "Gather feedback from SME and self‑employed clients about the Bank Referral Scheme",
+     "Submit comments or evidence to the consultation as appropriate",
+     "Monitor for any announced changes to legislation or guidance"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-12T21:16:50.419Z"
+   }
   },
   {
    "id": "9ff11bae99135847",
