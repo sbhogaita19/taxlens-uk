@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-12T21:16:51.919Z",
+ "generatedAt": "2026-10-13T12:45:14.041Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,167 @@
    "label": "Other"
   }
  ],
- "count": 380,
+ "count": 383,
  "items": [
+  {
+   "id": "db022e9c64466c3f",
+   "title": "Pay the VAT due on your One Stop Shop VAT Return",
+   "url": "https://www.gov.uk/guidance/pay-the-vat-due-on-your-one-stop-shop-vat-return",
+   "path": "/guidance/pay-the-vat-due-on-your-one-stop-shop-vat-return",
+   "date": "2026-10-13T10:29:52Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay the VAT due on your One Stop Shop VAT (OSS) Return and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved. ",
+   "firstPublished": "2021-10-01T00:00:00+01:00",
+   "ai": {
+    "summary": "Clients must submit their OSS VAT return and pay the VAT due by the last day of the month after each quarter, using the pre‑populated 15‑character reference. Choose a payment method (online bank, debit/corporate card, CHAPS/Faster Payments or BACS) and ensure the correct reference to avoid delays or penalties.",
+    "whoAffected": "Businesses registered for the One Stop Shop VAT scheme, including SMEs, owner‑managed businesses and the self‑employed who file OSS returns",
+    "effectiveDate": "2026-10-13",
+    "actions": [
+     "Confirm the OSS return deadline (last day of the month after each quarter) and advise clients to pay by then",
+     "Verify the 15‑character NI‑starting payment reference is used for all payments",
+     "Select an appropriate payment method and check bank processing times (instant, up to 2 hours, same/next day, or 3 working days)",
+     "If the wrong reference is used, instruct clients to contact paymentteam.moss@hmrc.gov.uk to move the payment"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-13T12:44:13.508Z"
+   }
+  },
+  {
+   "id": "1ace804503660064",
+   "title": "Check if a business is registered for money laundering supervision",
+   "url": "https://www.gov.uk/guidance/money-laundering-regulations-supervised-business-register",
+   "path": "/guidance/money-laundering-regulations-supervised-business-register",
+   "date": "2026-10-13T09:58:20Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out if a business has registered with HMRC under the money laundering regulations and report them if they have not.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The Supervised Business Register has been updated.",
+   "firstPublished": "2014-05-23T00:00:00+01:00",
+   "ai": {
+    "summary": "The Supervised Business Register lists businesses registered with HMRC for money‑laundering supervision; you can check a counter‑party’s registration, contact them if not listed, and report unregistered businesses to HMRC.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who need to verify a counterparty’s AML registration status",
+    "effectiveDate": "2026-10-13",
+    "actions": [
+     "Search the Supervised Business Register to confirm a business is registered for money‑laundering supervision",
+     "If the business does not appear, contact it directly to confirm its registration status",
+     "If it should be registered but is not, report the unregistered business to HMRC as tax fraud or avoidance",
+     "Advise clients to ensure they are registered to receive AML guidance and meet their regulatory obligations"
+    ],
+    "legislationRefs": [
+     "money laundering regulations"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-13T12:44:16.784Z"
+   }
+  },
+  {
+   "id": "11b7a49387b62a0b",
+   "title": "More than 600,000 families conjure up Hallowe’en savings with Tax-Free Childcare",
+   "url": "https://www.gov.uk/government/news/more-than-600000-families-conjure-up-halloween-savings-with-tax-free-childcare",
+   "path": "/government/news/more-than-600000-families-conjure-up-halloween-savings-with-tax-free-childcare",
+   "date": "2026-10-13T09:08:06Z",
+   "type": "press_release",
+   "source": "HMRC (GOV.UK)",
+   "description": "Working families urged to sign up to Tax-Free Childcare to save on their childcare costs.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-13T10:08:06+01:00",
+   "ai": {
+    "summary": "Tax-Free Childcare lets working families save up to £2,000 per child annually (or £4,000 if disabled) with a government top‑up of £2 for every £8 deposited. Eligibility requires children under 11 (or under 16 if disabled), earnings at least minimum wage and under £100k, and no Universal Credit or vouchers.",
+    "whoAffected": "Working parents (including self‑employed) with children aged 11 or under (or up to 16 if disabled), earning at least the National Minimum or Living Wage and no more than £100,000, who do not receive Universal Credit or childcare vouchers; also childcare providers who wish to receive payments via the scheme.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check client eligibility (child age, earnings, benefit status)",
+     "Help client register a separate Tax-Free Childcare account for each eligible child on GOV.UK",
+     "Explain the government top‑up (£2 for every £8 deposited) and how savings can be used for approved childcare",
+     "Remind client to confirm details every 3 months to keep receiving the top‑up"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-13T12:44:20.556Z"
+   }
+  },
+  {
+   "id": "f488eecb8d1d1d20",
+   "title": "Sign up for Making Tax Digital for Income Tax",
+   "url": "https://www.gov.uk/guidance/sign-up-for-making-tax-digital-for-income-tax",
+   "path": "/guidance/sign-up-for-making-tax-digital-for-income-tax",
+   "date": "2026-10-13T09:07:56Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "If you're a sole trader or landlord, use the online service to sign up for Making Tax Digital for Income Tax.",
+   "categories": [
+    "personal",
+    "selfemployed",
+    "mtd"
+   ],
+   "hasBody": true,
+   "changeNote": "The option to prove your identity by answering questions has been removed.",
+   "firstPublished": "2020-02-10T00:00:00+00:00",
+   "ai": {
+    "summary": "Sole traders and landlords with self‑employment or property turnover over £50,000 must sign up for Making Tax Digital for Income Tax by 6 April 2026, using compatible software to send quarterly updates and a Self Assessment return. HMRC will auto‑enrol from September 2026 if not signed up.",
+    "whoAffected": "Sole traders, landlords and their agents whose combined self‑employment and property income exceeds £50,000; also anyone who may be exempt or whose income has ceased must confirm their status.",
+    "effectiveDate": "From 6 April 2026 for required users; HMRC will begin auto‑enrolments in September 2026 for the 2026‑2027 tax year.",
+    "actions": [
+     "Check client’s qualifying self‑employment and property income against the £50,000 threshold using the previous year’s tax return",
+     "Confirm the client is registered for Self Assessment and has filed a return in the last two years",
+     "Ensure the client has compatible Making Tax Digital software and advise on keeping digital records and sending quarterly updates",
+     "If not already signed up, either sign the client up as an agent or guide them to sign up before September 2026, and verify any exemptions or ceased income are reported"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-13T12:44:23.663Z"
+   }
+  },
+  {
+   "id": "2788d808021611c3",
+   "title": "Find software suppliers for filing charities repayments online",
+   "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers",
+   "path": "/government/publications/charities-online-commercial-software-suppliers",
+   "date": "2026-10-13T07:34:16Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find recognised suppliers and software to file charity repayment claims online.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The list of commercial software supplier details has been updated.",
+   "firstPublished": "2014-06-05T00:00:00+01:00",
+   "ai": {
+    "summary": "Charities can file repayment claims online using HMRC or commercial internet‑filing software; HMRC accepts any product listed, and technical support is available for software developers.",
+    "whoAffected": "Charities submitting repayment claims and software developers creating charity filing tools",
+    "effectiveDate": "2026-10-13",
+    "actions": [
+     "Check the latest list of recognised software suppliers in the document",
+     "Advise charity clients to use an internet‑filing enabled product to submit repayment claims",
+     "Confirm the chosen software is on HMRC's accepted list before filing",
+     "If developing software, contact HMRC technical support for assistance"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-13T12:44:26.292Z"
+   }
+  },
   {
    "id": "5deb14574606c02d",
    "title": "Insolvency (VAT Notice 700/56)",
@@ -746,39 +905,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-06T12:03:35.367Z"
-   }
-  },
-  {
-   "id": "1ace804503660064",
-   "title": "Check if a business is registered for money laundering supervision",
-   "url": "https://www.gov.uk/guidance/money-laundering-regulations-supervised-business-register",
-   "path": "/guidance/money-laundering-regulations-supervised-business-register",
-   "date": "2026-10-06T09:19:35Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out if a business has registered with HMRC under the money laundering regulations and report them if they have not.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "The Supervised Business Register has been updated.",
-   "firstPublished": "2014-05-23T00:00:00+01:00",
-   "ai": {
-    "summary": "The HMRC Supervised Business Register lists companies registered for money‑laundering supervision. Check the register to confirm a counterpart’s registration; if not listed, contact them and, if still unregistered, report to HMRC. Registration provides guidance on AML, terrorist finance and related obligations.",
-    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who need to verify a trading partner’s AML registration status",
-    "effectiveDate": "2026-10-06",
-    "actions": [
-     "Search the Supervised Business Register for the business’s registration number, name and postcode",
-     "If the business is not on the register, contact it directly to confirm its registration status",
-     "If it remains unregistered and should be, report the case to HMRC",
-     "Advise clients to register for supervision to receive AML guidance and meet their regulatory obligations"
-    ],
-    "legislationRefs": [
-     "money laundering regulations"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-06T12:03:38.815Z"
    }
   },
   {
@@ -5054,39 +5180,6 @@
    }
   },
   {
-   "id": "f488eecb8d1d1d20",
-   "title": "Sign up for Making Tax Digital for Income Tax",
-   "url": "https://www.gov.uk/guidance/sign-up-for-making-tax-digital-for-income-tax",
-   "path": "/guidance/sign-up-for-making-tax-digital-for-income-tax",
-   "date": "2026-08-24T10:58:32Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "If you're a sole trader or landlord, use the online service to sign up for Making Tax Digital for Income Tax.",
-   "categories": [
-    "personal",
-    "selfemployed",
-    "mtd"
-   ],
-   "hasBody": true,
-   "changeNote": "Information about what happens from September 2026 if you do not sign up to Making Tax Digital for Income Tax has been added.",
-   "firstPublished": "2020-02-10T00:00:00+00:00",
-   "ai": {
-    "summary": "Sole traders and landlords with self‑employment or property turnover over £50,000 must use Making Tax Digital for Income Tax from 6 April 2026. Sign up now or risk HMRC auto‑enrolling you from September 2026. Voluntary sign‑up is allowed, and penalties apply for late returns or payments.",
-    "whoAffected": "Sole traders and landlords whose combined self‑employment and property income exceeds £50,000, and their agents who sign clients up; also those below the threshold who may be exempt.",
-    "effectiveDate": "6 April 2026 (mandatory use); September 2026 (HMRC may auto‑enrol)",
-    "actions": [
-     "Check each client’s self‑employment and property turnover against the £50,000 threshold.",
-     "Confirm the client is registered for Self Assessment and has filed a return in the past two years.",
-     "Ensure the client has compatible software and assist them to sign up via the online service (or advise voluntary sign‑up).",
-     "If the client has not signed up by September 2026, remind them to sign up or update their details before HMRC auto‑enrols them."
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-04T11:08:37.712Z"
-   }
-  },
-  {
    "id": "80a080dd332abab5",
    "title": "How to treat public service pensions remedy unauthorised payments",
    "url": "https://www.gov.uk/guidance/how-to-treat-unauthorised-payments-following-the-public-service-pensions-remedy",
@@ -7991,7 +8084,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-06-23T13:13:25+01:00"
+   "firstPublished": "2026-06-23T13:13:25+01:00",
+   "ai": {
+    "summary": "Professor Jonathan Haskel has been nominated as the preferred Chair of the Office for Budget Responsibility, pending Treasury Select Committee approval, to lead the OBR’s economic and fiscal forecasts and oversight of public finances.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the OBR’s official economic and fiscal forecasts once released",
+     "Consider how the OBR’s assessment of fiscal rules may impact client tax planning",
+     "Incorporate OBR analysis of public‑finance risks into advice for SMEs and the self‑employed",
+     "Stay alert for any changes in OBR leadership that could affect future forecasts"
+    ],
+    "legislationRefs": [
+     "Governance Code for Public Appointments"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-13T12:44:29.213Z"
+   }
   },
   {
    "id": "72052fa1e97ec3fd",
@@ -8183,7 +8293,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-06-17T12:04:35+01:00"
+   "firstPublished": "2026-06-17T12:04:35+01:00",
+   "ai": {
+    "summary": "The UK’s OFSI fined travel tech firm Sabre Global Technologies over £1 million for repeatedly breaching Russia sanctions, including circumvention by routing payments through a non‑UK account, highlighting the need for robust senior oversight and sanctions risk management.",
+    "whoAffected": "UK businesses, including SMEs and self‑employed firms, that provide services or payments to parties that could be designated under the Russia sanctions regime.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review and update client sanctions screening procedures regularly",
+     "Establish clear senior oversight of sanctions compliance within the firm",
+     "Implement controls to prevent circumvention, such as monitoring alternative payment routes",
+     "Encourage voluntary disclosure and cooperate fully with OFSI if a breach is identified"
+    ],
+    "legislationRefs": [
+     "Russia (Sanctions) (EU Exit) Regulations 2019"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-13T12:44:40.835Z"
+   }
   },
   {
    "id": "4e88167c5c748ec6",
@@ -8660,7 +8787,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-05-19T17:54:50+01:00"
+   "firstPublished": "2026-05-19T17:54:50+01:00",
+   "ai": {
+    "summary": "The government is consulting on a new High Value Council Tax Surcharge for England homes worth £2 million or more, targeting the top 1% of properties, with the charge starting in April 2028 after five‑year revaluations.",
+    "whoAffected": "Owners of residential property in England valued at £2 million or above (approximately the top 1% of homes) and any taxpayers affected by the surcharge process.",
+    "effectiveDate": "April 2028",
+    "actions": [
+     "Monitor the eight‑week consultation and note any client‑specific concerns",
+     "Advise high‑value property owners on the upcoming surcharge and potential financial impact",
+     "Prepare clients for the five‑year revaluation cycle and possible valuation reviews",
+     "Assist clients with billing, deferral options and any appeals process"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-13T12:44:56.168Z"
+   }
   },
   {
    "id": "e361dd3109d6d966",
@@ -8839,7 +8981,22 @@
    ],
    "hasBody": true,
    "changeNote": "Outcome of response added.",
-   "firstPublished": "2025-09-25T17:34:59+01:00"
+   "firstPublished": "2025-09-25T17:34:59+01:00",
+   "ai": {
+    "summary": "The government is consulting on proposals to improve the Commercial Credit Data Sharing scheme and may amend legislation or issue guidance based on feedback.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review the CCDS consultation documents",
+     "Gather and document client views on commercial credit data sharing",
+     "Submit evidence or comments to HM Treasury as part of the call for evidence",
+     "Monitor for any legislative amendments or new guidance arising from the consultation"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-13T12:45:04.864Z"
+   }
   },
   {
    "id": "4b6f64477e3c491c",
@@ -8942,7 +9099,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-04-29T09:30:02+01:00"
+   "firstPublished": "2026-04-29T09:30:02+01:00",
+   "ai": {
+    "summary": "The draft Code of Practice outlines how collective money purchase (trust‑based occupational) pension schemes must apply for authorisation and the factors The Pensions Regulator will consider for ongoing supervision, replacing the previous code.",
+    "whoAffected": "Collective money purchase schemes and their trustees or sponsors seeking authorisation",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review the new draft Code with clients who run collective money purchase schemes",
+     "Ensure clients follow the outlined application process for authorisation",
+     "Check that clients understand the matters the Regulator will consider for supervision",
+     "Update the practice’s compliance checklists to reflect the new Code"
+    ],
+    "legislationRefs": [
+     "Authorisation and supervision of collective defined contribution schemes"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-13T12:45:12.540Z"
+   }
   },
   {
    "id": "c0d2f07166c978c4",
