@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-13T12:45:14.041Z",
+ "generatedAt": "2026-10-13T19:15:54.201Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -74,6 +74,101 @@
  ],
  "count": 383,
  "items": [
+  {
+   "id": "df10b42a381d1de2",
+   "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
+   "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
+   "path": "/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
+   "date": "2026-10-13T13:34:54Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "This list includes details of businesses and sole traders that have had their ACSP status either suspended or ceased (removed).",
+   "categories": [
+    "reporting",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated ceased or suspended ACSPs list.",
+   "firstPublished": "2025-10-10T00:00:00+01:00",
+   "ai": {
+    "summary": "The government updates a list of Authorised Corporate Service Providers whose status is suspended or ceased, based on investigations, AML issues, filings, identity checks, voluntary removal or non‑compliance. Updates occur every two weeks and may lag up to two weeks.",
+    "whoAffected": "Authorised Corporate Service Providers (businesses and sole traders) and any clients that rely on them for company formation or compliance services",
+    "effectiveDate": "2026-10-13",
+    "actions": [
+     "Check the fortnightly ACSP list for any status changes affecting your clients",
+     "Advise clients to confirm their ACSP is active before using their services",
+     "If an ACSP is suspended or ceased, recommend an alternative compliant provider",
+     "Document due‑diligence checks on ACSP status for client records"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-13T19:14:54.269Z"
+   }
+  },
+  {
+   "id": "89234ab4a254c6f0",
+   "title": "List of Authorised Corporate Service Providers (ACSPs)",
+   "url": "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps",
+   "path": "/government/publications/list-of-authorised-corporate-service-providers-acsps",
+   "date": "2026-10-13T13:34:37Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "This list includes details of businesses and sole traders that have registered as an Authorised Corporate Service Provider (ACSP). This is also known as an authorised agent.",
+   "categories": [
+    "reporting",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated list of ACSPs.",
+   "firstPublished": "2025-10-31T00:00:00+00:00",
+   "ai": {
+    "summary": "ACSPs are accountants or solicitors registered with Companies House to act for clients; they must be supervised by a UK AML body. The list of authorised agents may be incomplete, not regularly updated, and does not include ceased or suspended agents. Choose agents after checking reputation, services, fees and identity verification guidance.",
+    "whoAffected": "Companies and sole traders who use agents to file or complete activities with Companies House",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check the list of ceased and suspended ACSPs to ensure the agent is not on it",
+     "Confirm the agent appears on the published list of authorised ACSPs",
+     "Research the agent’s reputation, services offered, fees, terms and whether they can work remotely",
+     "Follow Companies House guidance on using an ACSP to verify client identity"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-13T19:14:57.886Z"
+   }
+  },
+  {
+   "id": "b62644ad304669e8",
+   "title": "Apply for an agent services account",
+   "url": "https://www.gov.uk/guidance/apply-for-an-agent-services-account",
+   "path": "/guidance/apply-for-an-agent-services-account",
+   "date": "2026-10-13T13:06:00Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Apply for an agent services account (ASA) to register with HMRC as a tax adviser and use certain HMRC services.",
+   "categories": [
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "The link to check the progress of an existing application has been updated.",
+   "firstPublished": "2018-03-15T00:00:00+00:00",
+   "ai": {
+    "summary": "Tax advisers who are paid to handle others’ tax affairs must apply for an Agent Services Account, providing Gateway IDs, UTR, registration numbers and proof of AML supervision, then use the account to interact with HMRC on clients’ behalf.",
+    "whoAffected": "Tax advisers dealing with other people’s tax affairs for payment",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Gather required details: business and personal Government Gateway IDs, UTR, postcode, company/VAT numbers, AML supervisory body name and proof of supervision",
+     "Confirm AML supervision is approved before applying",
+     "Sign in to Government Gateway and submit the Agent Services Account application",
+     "After approval, create individual staff Gateway IDs, set permissions and use the account to act for clients"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-13T19:15:00.992Z"
+   }
+  },
   {
    "id": "db022e9c64466c3f",
    "title": "Pay the VAT due on your One Stop Shop VAT Return",
@@ -1165,70 +1260,6 @@
    }
   },
   {
-   "id": "df10b42a381d1de2",
-   "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
-   "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
-   "path": "/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
-   "date": "2026-10-02T12:51:12Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "This list includes details of businesses and sole traders that have had their ACSP status either suspended or ceased (removed).",
-   "categories": [
-    "reporting",
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated ceased or suspended ACSPs list.",
-   "firstPublished": "2025-10-10T00:00:00+01:00",
-   "ai": {
-    "summary": "The list shows ACSPs whose status is suspended (due to investigations or info requests on AML supervision, filings, or identity verification) or ceased (they quit or breach legal duties). Updates occur bi‑weekly and may lag up to two weeks.",
-    "whoAffected": "Authorised Corporate Service Providers (businesses and sole traders) and their clients, including SMEs, owner‑managed businesses and the self‑employed who use their services",
-    "effectiveDate": "2026-10-02",
-    "actions": [
-     "Check the published ACSP status list at least every two weeks",
-     "Confirm whether your ACSP appears as active, suspended or ceased",
-     "If suspended, be ready to provide additional AML, filing or identity‑verification information",
-     "If ceased, consider engaging a new compliant ACSP"
-    ],
-    "legislationRefs": [],
-    "relevance": "medium",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-02T17:52:19.387Z"
-   }
-  },
-  {
-   "id": "89234ab4a254c6f0",
-   "title": "List of Authorised Corporate Service Providers (ACSPs)",
-   "url": "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps",
-   "path": "/government/publications/list-of-authorised-corporate-service-providers-acsps",
-   "date": "2026-10-02T12:50:56Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "This list includes details of businesses and sole traders that have registered as an Authorised Corporate Service Provider (ACSP). This is also known as an authorised agent.",
-   "categories": [
-    "reporting",
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated list of ACSPs.",
-   "firstPublished": "2025-10-31T00:00:00+00:00",
-   "ai": {
-    "summary": "ACSPs are agents like accountants or solicitors registered with Companies House to act for clients. They must be supervised by a UK AML supervisory body and must not appear on the ceased or suspended list. Companies House does not endorse them; users should research reputation, services, fees and identity‑verification guidance.",
-    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who use accountants, solicitors or other agents to file or complete Companies House activities",
-    "effectiveDate": "2026-10-02",
-    "actions": [
-     "Check the ACSP is on the current list and not on the ceased or suspended list",
-     "Confirm the ACSP is supervised by a UK AML supervisory body",
-     "Research the agent’s reputation, services, fees and terms before engaging",
-     "Follow Companies House guidance on identity verification when using the ACSP"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-02T17:52:22.061Z"
-   }
-  },
-  {
    "id": "c4261d6298df3010",
    "title": "Tell HMRC about a gift or other transfers of value in a trust (IHT100a)",
    "url": "https://www.gov.uk/government/publications/inheritance-tax-gifts-and-other-transfers-of-value-iht100a",
@@ -1257,37 +1288,6 @@
     "relevance": "medium",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-01T18:25:19.163Z"
-   }
-  },
-  {
-   "id": "b62644ad304669e8",
-   "title": "Apply for an agent services account",
-   "url": "https://www.gov.uk/guidance/apply-for-an-agent-services-account",
-   "path": "/guidance/apply-for-an-agent-services-account",
-   "date": "2026-10-01T11:46:40Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Apply for an agent services account (ASA) to register with HMRC as a tax adviser and use certain HMRC services.",
-   "categories": [
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Information has been added, telling you that HMRC may reject an application for an agent services account if you've applied for anti-money laundering supervision and it's not yet been approved. ",
-   "firstPublished": "2018-03-15T00:00:00+00:00",
-   "ai": {
-    "summary": "Tax advisers who handle other people’s tax affairs must register for an agent services account (ASA) with HMRC, providing business and personal Gateway IDs, UTR, AML supervision proof, and staff details. Applications are rejected without approved AML supervision.",
-    "whoAffected": "Tax advisers (including sole traders, partnerships or firms) who deal with HMRC on behalf of clients and receive payment for those services",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Confirm you have approved anti‑money laundering supervision before applying",
-     "Gather required information: business and personal Government Gateway IDs, firm UTR and postcode, company and VAT numbers if any, AML supervisory body name and proof, and staff contact details",
-     "Apply for the agent services account via the Government Gateway, creating sign‑in details if needed and have each staff member create their own Gateway ID",
-     "After approval, set up client authorisations, create individual staff IDs, assign appropriate permissions and ensure you do not imply HMRC endorsement"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-01T18:25:22.397Z"
    }
   },
   {
@@ -8117,7 +8117,22 @@
    ],
    "hasBody": true,
    "changeNote": "Edited 'What this service is for' section to explain that you cannot use the service to tell us your own identity has been verified and explain how you can verify your own identity.",
-   "firstPublished": "2025-04-08T08:00:00+01:00"
+   "firstPublished": "2025-04-08T08:00:00+01:00",
+   "ai": {
+    "summary": "Authorised agents (ACSPs) must use the Companies House service to report when they have verified a person’s identity (e.g., directors, PSCs). They must meet the identity verification standard, keep records for 7 years, and provide details online; the person receives a personal code to link their verified identity.",
+    "whoAffected": "Authorised Corporate Service Providers (accountants, solicitors, formation agents) and the individuals they verify – directors, persons with significant control, equivalent roles and anyone filing with Companies House.",
+    "effectiveDate": "2026-06-19",
+    "actions": [
+     "Confirm your firm is registered as a Companies House authorised agent.",
+     "Complete identity checks that meet the Companies House verification standard and retain records for 7 years.",
+     "Submit the required personal details and check information via the authorised agent online service and save the confirmation copy.",
+     "Be prepared to provide evidence of the checks if Companies House requests it."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-13T19:15:04.039Z"
+   }
   },
   {
    "id": "924b8440f88cc64d",
@@ -8133,7 +8148,25 @@
    ],
    "hasBody": true,
    "changeNote": "Documents that have been cancelled or replaced with a newer one are now on the list of documents that cannot be used as evidence to verify someone's identity. \r\n\r\neVisa is now on the list of photographic identity documents someone can provide an Authorised Corporate Service Provider (ACSP) when documents are being checked with identification document validation technology. \r\n\r\nInsurance policy is now on the list of Group B documents someone can provide an ACSP when documents are being checked by a person. ",
-   "firstPublished": "2025-02-19T00:00:00+00:00"
+   "firstPublished": "2025-02-19T00:00:00+00:00",
+   "ai": {
+    "summary": "ACSPs must follow a six‑step process to verify a person’s identity for Companies House, using either ID‑validation technology or manual checks with specific document groups, keep records for 7 years, and report verification online; failure can lead to suspension.",
+    "whoAffected": "Authorised Corporate Service Providers (including accountants) who verify client identities for Companies House",
+    "effectiveDate": "2026-06-19T13:28:14Z",
+    "actions": [
+     "Collect full name, DOB, current and 12‑month address history, email and required documents",
+     "Choose Option 1 (IDVT) or Option 2 (manual) and ensure documents meet the listed Group A/B criteria",
+     "Check documents for authenticity, match to the person and retain copies for 7 years",
+     "Submit verification details to Companies House via the online service"
+    ],
+    "legislationRefs": [
+     "Home Office best practice guide",
+     "PRADO"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-13T19:15:06.788Z"
+   }
   },
   {
    "id": "a4a3867184162a87",
@@ -8558,7 +8591,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-06-04T09:48:40+01:00"
+   "firstPublished": "2026-06-04T09:48:40+01:00",
+   "ai": {
+    "summary": "£4 million over three years will expand Money and Pensions Service debt advice, helping an extra 16,000 small businesses, sole traders and the self‑employed. The boost builds on Business Debtline’s success and includes £2 million for modernising advice services.",
+    "whoAffected": "Small businesses, sole traders, self‑employed individuals and business owners facing financial pressure",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Alert clients that enhanced Business Debtline support is available",
+     "Refer eligible clients to Business Debtline for expert debt advice",
+     "Monitor the £2 million modernisation fund for new digital tools that may improve client referrals",
+     "Update client risk assessments to include the possibility of accessing this government‑funded advice"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-13T19:15:17.404Z"
+   }
   },
   {
    "id": "e770058201d0d880",
@@ -8831,7 +8879,22 @@
    ],
    "hasBody": true,
    "changeNote": "This page has been updated to reflect new published guidance which updates the discount rates used for calculating cash equivalent transfer values payable by public service pension schemes, bringing them into line with the change to the SCAPE discount rate announced on 19 May 2026.",
-   "firstPublished": "2016-03-16T13:35:00+00:00"
+   "firstPublished": "2016-03-16T13:35:00+00:00",
+   "ai": {
+    "summary": "Guidance updates discount rates for calculating cash equivalent transfer values in unfunded public service and local government pension schemes, aligning them with the SCAPE rate change announced 19 May 2026; schemes must adopt the new rates immediately.",
+    "whoAffected": "Scheme managers of unfunded public service pension schemes and local government pension schemes in England, Wales, Scotland and Northern Ireland; deferred pension members and clients needing transfer value calculations (e.g., divorce cases).",
+    "effectiveDate": "Immediate effect",
+    "actions": [
+     "Notify clients who are deferred members of public service pension schemes about the updated discount rates",
+     "Review any client transfer value calculations to ensure the new rates are applied",
+     "Update advice on pension asset division in divorce or dissolution proceedings using the new rates",
+     "Confirm with scheme managers that the updated rates have been adopted and obtain written confirmation"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-13T19:15:28.132Z"
+   }
   },
   {
    "id": "1ed7369bc5544bbe",
@@ -9054,7 +9117,22 @@
    ],
    "hasBody": true,
    "changeNote": "Outcome of response added.",
-   "firstPublished": "2026-01-05T15:30:03+00:00"
+   "firstPublished": "2026-01-05T15:30:03+00:00",
+   "ai": {
+    "summary": "HM Treasury and the DMO are consulting on expanding the UK Treasury bill market, seeking input on issuance structure and ways to boost participation and liquidity, with decisions to be announced in the 2026‑27 financial year.",
+    "whoAffected": "Current and potential participants in the UK Treasury bill market",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review the consultation details and assess relevance for any client cash‑management or investment strategies",
+     "Identify clients who are current or potential T‑bill investors and consider their interest",
+     "Prepare a response indicating your organisation’s view, following the email guidance provided",
+     "Monitor for the government’s decision announcement in the 2026‑27 financial year"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-13T19:15:37.399Z"
+   }
   },
   {
    "id": "1e91af1f3a58084b",
@@ -9132,7 +9210,24 @@
    ],
    "hasBody": true,
    "changeNote": "Updated with Consultation response document ",
-   "firstPublished": "2025-07-15T00:00:00+01:00"
+   "firstPublished": "2025-07-15T00:00:00+01:00",
+   "ai": {
+    "summary": "The government plans reforms to risk transformation and captive insurance markets, adding flexible funding for transformer vehicles, allowing protected cell companies to take multiple risks and operate insurance contracts, and broadening use of protected cell companies for insurance undertakings.",
+    "whoAffected": "Insurers, captive insurance operators, protected cell companies and investors using these structures",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review client exposure to insurance‑linked securities and protected cell structures",
+     "Advise on potential benefits of flexible funding and authorisation for transformer vehicles",
+     "Monitor forthcoming guidance on the Risk Transformation Regulations reforms",
+     "Assess suitability of captive or protected cell arrangements for client risk management"
+    ],
+    "legislationRefs": [
+     "Risk Transformation Regulations"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-13T19:15:41.803Z"
+   }
   },
   {
    "id": "5d8925937541028b",
@@ -9228,7 +9323,22 @@
    ],
    "hasBody": true,
    "changeNote": "Outcome for consultation added.",
-   "firstPublished": "2025-09-08T09:00:08+01:00"
+   "firstPublished": "2025-09-08T09:00:08+01:00",
+   "ai": {
+    "summary": "The government plans to merge the Payment Systems Regulator into the FCA, giving the FCA full responsibility for payment system competition, innovation and consumer/business interests, aiming for a simpler regulatory landscape.",
+    "whoAffected": "Firms and stakeholders that use payment systems, including businesses and consumers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review clients' payment service arrangements for upcoming FCA oversight",
+     "Monitor consultation outcomes and any legislative changes",
+     "Advise clients on potential reporting or licensing adjustments",
+     "Prepare to liaise with the FCA on competition and innovation matters"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-13T19:15:52.701Z"
+   }
   },
   {
    "id": "a6504a230b718b53",
