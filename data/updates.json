@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-14T10:15:48.494Z",
+ "generatedAt": "2026-10-14T17:09:09.783Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,181 @@
    "label": "Other"
   }
  ],
- "count": 385,
+ "count": 389,
  "items": [
+  {
+   "id": "cf03e9ee2875bd31",
+   "title": "Find out which HMRC services are experiencing issues",
+   "url": "https://www.gov.uk/guidance/find-out-which-hmrc-services-are-experiencing-issues",
+   "path": "/guidance/find-out-which-hmrc-services-are-experiencing-issues",
+   "date": "2026-10-14T14:48:54Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out which HMRC services are currently experiencing unplanned downtime.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-14T15:48:54+01:00",
+   "ai": {
+    "summary": "The page reports that no HMRC services are currently experiencing unplanned downtime.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "2026-10-14",
+    "actions": [
+     "Monitor this page regularly for any unplanned downtime updates",
+     "Visit the HMRC service availability and issues page for information on planned downtime",
+     "Inform clients to check these sources before filing or making payments",
+     "Advise clients that, at present, no unplanned service disruptions are reported"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-14T17:08:07.934Z"
+   }
+  },
+  {
+   "id": "6484bb49aca11bc9",
+   "title": "Declare goods that you're moving to or from Northern Ireland using the Trader Support Service (TSS)",
+   "url": "https://www.gov.uk/guidance/declare-goods-that-youre-moving-to-or-from-northern-ireland-using-the-trader-support-service-tss",
+   "path": "/guidance/declare-goods-that-youre-moving-to-or-from-northern-ireland-using-the-trader-support-service-tss",
+   "date": "2026-10-14T13:51:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Sign in to make and manage movements of goods to or from Northern Ireland and get support with your declarations and payments.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-14T14:51:02+01:00",
+   "ai": {
+    "summary": "The free Trader Support Service (TSS) lets businesses and hauliers make customs, safety and security declarations for movements between Great Britain and Northern Ireland, access guidance, check balances, make payments and manage account users. Registration is required, and existing users need an invitation to add new users.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed hauliers that move goods between Great Britain and Northern Ireland, or make customs declarations on their own or for others",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Advise clients to register for the Trader Support Service before moving goods",
+     "Ensure clients have their sign‑in details and, if needed, request an invitation from the account administrator",
+     "Help clients use TSS to draft and submit customs, safety and security declarations",
+     "Assist clients in checking balances, making duty payments and managing user permissions"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-14T17:08:10.730Z"
+   }
+  },
+  {
+   "id": "7a6e5d95423949f7",
+   "title": "Making an entry summary declaration",
+   "url": "https://www.gov.uk/guidance/making-an-entry-summary-declaration",
+   "path": "/guidance/making-an-entry-summary-declaration",
+   "date": "2026-10-14T13:21:07Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Make an entry summary declaration if you move goods into Great Britain, into Northern Ireland from Great Britain, or into Northern Ireland from countries outside the EU.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The file 'Entry summary declaration data elements for the S&S GB service' has been updated.",
+   "firstPublished": "2019-01-10T00:00:00+00:00",
+   "ai": {
+    "summary": "You must submit an entry summary declaration before goods arrive when moving them into Great Britain or Northern Ireland (from GB or non‑EU countries). Carriers are responsible, using S&S GB for GB imports or ICS2 for NI imports, via compatible software or a customs agent.",
+    "whoAffected": "Carriers, importers and their customs agents handling goods moving into Great Britain or Northern Ireland – including SMEs, owner‑managed businesses and self‑employed traders who import or transport goods.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm whether the client’s goods require an entry summary declaration and check for any waivers",
+     "Ensure the client has the correct EORI number (GB for GB imports, XI or EU EORI for NI imports)",
+     "Select compatible software or a qualified customs agent to file the declaration via S&S GB or ICS2 before arrival",
+     "Advise the client to keep the declaration accurate, amend any errors before arrival and retain access for multiple team members"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-14T17:08:13.638Z"
+   }
+  },
+  {
+   "id": "a32ea0407b172eb5",
+   "title": "Pay duty on biofuels or road fuel gas",
+   "url": "https://www.gov.uk/guidance/pay-duty-on-biofuels-or-gas-for-road-use",
+   "path": "/guidance/pay-duty-on-biofuels-or-gas-for-road-use",
+   "date": "2026-10-14T12:55:06Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay duty on biofuels or road fuel gas, and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved.",
+   "firstPublished": "2018-09-26T00:00:00+01:00",
+   "ai": {
+    "summary": "Duty on biofuels or road fuel gas must be paid by the 15th day after each return period using the correct X‑prefixed reference; late payments can incur penalties. Various payment methods are available, each with specific processing times, and wrong references may delay or misallocate funds.",
+    "whoAffected": "Businesses that produce, import or use biofuels or gas for road vehicles, including SMEs, owner‑managed businesses and self‑employed operators who must file returns and pay the associated duty.",
+    "effectiveDate": "2026-10-14",
+    "actions": [
+     "Submit the return and pay any duty by the 15th day after the end of the return period, ensuring it reaches HMRC before the deadline if the 15th falls on a weekend or bank holiday.",
+     "Check that you are using the correct 15‑character payment reference (XMBF for biofuels, XMGR for road fuel gas) to avoid delays or misallocation.",
+     "Choose a payment method that meets the timing requirements (e.g., Direct Debit – allow 10 working days, Bacs – allow 3 working days, CHAPS/Faster Payments – same or next day) and verify bank limits.",
+     "If the wrong reference is used, email morc.exciseenquiries@hmrc.gov.uk to request the payment be moved to the correct tax account."
+    ],
+    "legislationRefs": [
+     "EEITT15"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-14T17:08:17.462Z"
+   }
+  },
+  {
+   "id": "46ed7a6a2875fbdc",
+   "title": "Seven linked companies shut down after Insolvency Service investigation with Companies House",
+   "url": "https://www.gov.uk/government/news/seven-linked-companies-shut-down-after-insolvency-service-investigation-with-companies-house",
+   "path": "/government/news/seven-linked-companies-shut-down-after-insolvency-service-investigation-with-companies-house",
+   "date": "2026-10-14T12:12:13Z",
+   "type": "press_release",
+   "source": "Companies House (GOV.UK)",
+   "description": "The companies appeared unrelated until a joint investigation uncovered similar conduct concerns.",
+   "categories": [
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Removed address details for Kevin Steven Fryer Ltd.",
+   "firstPublished": "2026-09-24T11:01:00+01:00",
+   "ai": {
+    "summary": "Seven companies were wound up by the High Court after the Insolvency Service and Companies House uncovered false filings, misleading audit information and no genuine trading presence, highlighting the risk of non‑compliance for small firms.",
+    "whoAffected": "Directors and owners of SMEs, owner‑managed businesses and other companies that file at Companies House, plus anyone relying on the register for business decisions.",
+    "effectiveDate": "22 September 2026",
+    "actions": [
+     "Check that all accounts and audit statements filed at Companies House are accurate and can be verified by the audit firm",
+     "Ensure the registered office address is a genuine, occupied location and is kept up to date",
+     "Maintain clear records of actual trading activity to demonstrate a real business presence",
+     "Co‑operate fully with any regulator or Insolvency Service enquiries"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-14T17:08:20.369Z"
+   }
+  },
+  {
+   "id": "db022e9c64466c3f",
+   "title": "Pay the VAT due on your One Stop Shop VAT Return",
+   "url": "https://www.gov.uk/guidance/pay-the-vat-due-on-your-one-stop-shop-vat-return",
+   "path": "/guidance/pay-the-vat-due-on-your-one-stop-shop-vat-return",
+   "date": "2026-10-14T11:25:16Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay the VAT due on your One Stop Shop VAT (OSS) Return and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "The payment reference to use when paying by bank transfer has been updated.",
+   "firstPublished": "2021-10-01T00:00:00+01:00"
+  },
   {
    "id": "71a5ca125eef97f5",
    "title": "Pay Air Passenger Duty",
@@ -224,37 +397,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-13T19:15:00.992Z"
-   }
-  },
-  {
-   "id": "db022e9c64466c3f",
-   "title": "Pay the VAT due on your One Stop Shop VAT Return",
-   "url": "https://www.gov.uk/guidance/pay-the-vat-due-on-your-one-stop-shop-vat-return",
-   "path": "/guidance/pay-the-vat-due-on-your-one-stop-shop-vat-return",
-   "date": "2026-10-13T10:29:52Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to pay the VAT due on your One Stop Shop VAT (OSS) Return and how long it takes for your payment to reach HMRC.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved. ",
-   "firstPublished": "2021-10-01T00:00:00+01:00",
-   "ai": {
-    "summary": "Clients must submit their OSS VAT return and pay the VAT due by the last day of the month after each quarter, using the pre‑populated 15‑character reference. Choose a payment method (online bank, debit/corporate card, CHAPS/Faster Payments or BACS) and ensure the correct reference to avoid delays or penalties.",
-    "whoAffected": "Businesses registered for the One Stop Shop VAT scheme, including SMEs, owner‑managed businesses and the self‑employed who file OSS returns",
-    "effectiveDate": "2026-10-13",
-    "actions": [
-     "Confirm the OSS return deadline (last day of the month after each quarter) and advise clients to pay by then",
-     "Verify the 15‑character NI‑starting payment reference is used for all payments",
-     "Select an appropriate payment method and check bank processing times (instant, up to 2 hours, same/next day, or 3 working days)",
-     "If the wrong reference is used, instruct clients to contact paymentteam.moss@hmrc.gov.uk to move the payment"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-13T12:44:13.508Z"
    }
   },
   {
@@ -1962,7 +2104,7 @@
    "title": "Provide or update your partnership details for VAT",
    "url": "https://www.gov.uk/guidance/provide-or-update-your-partnership-details-for-vat",
    "path": "/guidance/provide-or-update-your-partnership-details-for-vat",
-   "date": "2026-09-28T13:10:47Z",
+   "date": "2026-09-28T13:10:00Z",
    "type": "detailed_guide",
    "source": "HMRC (GOV.UK)",
    "description": "Use form VAT2 to tell HMRC about a new partnership or update partner details.",
@@ -1972,21 +2114,21 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-28T14:10:47+01:00",
+   "firstPublished": "2026-09-28T14:10:00+01:00",
    "ai": {
-    "summary": "Form VAT2 is used by partnerships to provide or update partner details when registering for VAT, adding/removing partners, or changing the partnership’s bank account. Up to 8 partners per form; extra forms needed for more.",
-    "whoAffected": "Partnerships registering for VAT and existing VAT‑registered partnerships that need to add, remove or update partner information, including bank‑account changes",
+    "summary": "Use form VAT2 to give HMRC partner details when registering for VAT, updating partners, adding/removing partners, or changing the partnership’s bank account; up to 8 partners per form, extra forms needed for more.",
+    "whoAffected": "Partnerships that need to register for VAT or update partner information, including adding/removing partners or changing bank details",
     "effectiveDate": "Not stated in source",
     "actions": [
-     "Gather the partnership’s VAT registration number, business name, each partner’s date of birth, National Insurance number and signatures",
-     "Print the VAT2 form and complete the registration number, business name and reason for sending",
-     "Have each partner fill in and sign their allocated section (up to 8 per form; use additional forms if more partners)",
-     "Upload the completed form via the VAT registration portal or post it to the VAT registration applications and changes team; request an accessible format if required"
+     "Collect the VAT registration number, business name, and each partner’s date of birth, NI number and signature",
+     "Complete a VAT2 form (one per up to 8 partners) and state the reason for sending",
+     "Upload the form via the VAT registration portal or post it to the VAT registration applications and changes team",
+     "Tell the client to await HMRC’s outcome notification by post or in their business tax account"
     ],
     "legislationRefs": [],
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-29T13:45:18.055Z"
+    "generatedAt": "2026-10-14T17:08:25.337Z"
    }
   },
   {
@@ -2431,37 +2573,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-09-29T13:49:00.491Z"
-   }
-  },
-  {
-   "id": "46ed7a6a2875fbdc",
-   "title": "Seven linked companies shut down after Insolvency Service investigation with Companies House",
-   "url": "https://www.gov.uk/government/news/seven-linked-companies-shut-down-after-insolvency-service-investigation-with-companies-house",
-   "path": "/government/news/seven-linked-companies-shut-down-after-insolvency-service-investigation-with-companies-house",
-   "date": "2026-09-24T10:01:12Z",
-   "type": "press_release",
-   "source": "Companies House (GOV.UK)",
-   "description": "The companies appeared unrelated until a joint investigation uncovered similar conduct concerns.",
-   "categories": [
-    "reporting"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-09-24T11:01:12+01:00",
-   "ai": {
-    "summary": "Seven companies were wound up after the Insolvency Service and Companies House uncovered false filings, misleading audit information and non‑existent offices, highlighting the risk of fraudulent registrations and the need for accurate company records.",
-    "whoAffected": "Company directors, SME owners and anyone relying on Companies House information",
-    "effectiveDate": "22 September 2026",
-    "actions": [
-     "Check client filings for accuracy and completeness",
-     "Confirm that registered office addresses are genuine and occupied",
-     "Verify audit engagements and retain audit documentation",
-     "Direct directors to the Insolvency Service’s Director Information Hub for guidance"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-29T13:54:13.683Z"
    }
   },
   {
@@ -9030,7 +9141,25 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-05-19T12:11:16+01:00"
+   "firstPublished": "2026-05-19T12:11:16+01:00",
+   "ai": {
+    "summary": "The 2013 Act requires regular actuarial valuations of public service pensions; updated Treasury Directions will use new assumptions for the 2024 valuations, after consulting the Government Actuary in May 2026.",
+    "whoAffected": "Public service pension scheme employers, scheme members and taxpayers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the Treasury Directions for the updated assumptions used in the 2024 valuations",
+     "Advise public‑sector employer clients on potential impact on future contribution rates",
+     "Inform clients that the statutory consultation with the Government Actuary was completed in May 2026",
+     "Update client pension cost‑control planning in line with the reformed mechanism under the 2013 and 2022 Acts"
+    ],
+    "legislationRefs": [
+     "Public Service Pensions Act 2013",
+     "Public Service Pensions and Judicial Offices Act 2022"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-14T17:08:38.262Z"
+   }
   },
   {
    "id": "de3ed46f1320ab64",
@@ -9394,7 +9523,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-04-23T11:14:00+01:00"
+   "firstPublished": "2026-04-23T11:14:00+01:00",
+   "ai": {
+    "summary": "Government will write to all 21‑year‑olds with unclaimed Child Trust Funds, urging them to use the free “Find My Child Trust Fund” service. The campaign aims to reunite young people with average £2,200 accounts, raising awareness through publicity and sector roundtables.",
+    "whoAffected": "Young people born between 1 September 2002 and 2 January 2011, especially those turning 21 who have unclaimed Child Trust Funds.",
+    "effectiveDate": "2026-04-23",
+    "actions": [
+     "Check client birth dates (2002‑2011) and use the GOV.UK finder to see if they have a CTF",
+     "Advise clients to claim any unclaimed CTF via the free “Find My Child Trust Fund” service",
+     "Help clients complete the claim process and liaise with the CTF provider if required",
+     "Track HMRC letters and maintain records of claimed or pending CTFs"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-14T17:08:48.229Z"
+   }
   },
   {
    "id": "25981428abaf7815",
@@ -9675,7 +9819,22 @@
    ],
    "hasBody": true,
    "changeNote": "The 23-26 Government Debt Strategy has been replaced by the 26-30 Government Debt Management Strategy.",
-   "firstPublished": "2026-03-20T09:00:00+00:00"
+   "firstPublished": "2026-03-20T09:00:00+00:00",
+   "ai": {
+    "summary": "The strategy focuses on preventing avoidable debt, resolving debt to clear standards, and improving capability through data, skills, technology and bespoke support, driven by the GDMF functional centre.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Assess client debts to identify avoidable amounts",
+     "Align debt resolution processes with the clear standards described",
+     "Enhance client capability using appropriate skills and technology",
+     "Contact the Government Debt Management Function (gdmfcentre@hmtreasury.gov.uk) for bespoke support"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-14T17:08:58.920Z"
+   }
   },
   {
    "id": "fde6351582f95821",
@@ -9835,7 +9994,22 @@
    ],
    "hasBody": true,
    "changeNote": "A Welsh language version of the form has been added to the Welsh page. ",
-   "firstPublished": "2025-11-18T00:00:00+00:00"
+   "firstPublished": "2025-11-18T00:00:00+00:00",
+   "ai": {
+    "summary": "Representations can be made only after a default letter, must be submitted within 28 days, and need evidence of exceptional circumstances; if accepted, enforcement is paused up to two months.",
+    "whoAffected": "Companies that must file confirmation statements or identity verification statements, including directors and persons with significant control (PSCs) of SMEs and owner‑managed businesses",
+    "effectiveDate": "2026-03-10",
+    "actions": [
+     "Confirm the client has received a default (overdue) letter before preparing a representation",
+     "Submit the representation using the prescribed form within 28 days of the default letter date",
+     "Collect and attach evidence of exceptional circumstances (e.g., IT failure) to support the claim",
+     "Inform the client that, if accepted, enforcement will be paused for up to two months to allow filing"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-14T17:09:05.159Z"
+   }
   },
   {
    "id": "062861d4149f4a46",
