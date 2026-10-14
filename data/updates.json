@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-13T19:15:54.201Z",
+ "generatedAt": "2026-10-14T10:15:48.494Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,65 @@
    "label": "Other"
   }
  ],
- "count": 383,
+ "count": 385,
  "items": [
+  {
+   "id": "71a5ca125eef97f5",
+   "title": "Pay Air Passenger Duty",
+   "url": "https://www.gov.uk/guidance/pay-air-passenger-duty",
+   "path": "/guidance/pay-air-passenger-duty",
+   "date": "2026-10-14T07:59:31Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay Air Passenger Duty, and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved.",
+   "firstPublished": "2014-11-03T00:00:00+00:00",
+   "ai": {
+    "summary": "Guide explains when Air Passenger Duty must be paid, how to use the correct 15‑character reference, payment methods (online, Direct Debit, CHAPS, Faster Payments, Bacs, cheque) and deadlines, including extensions and penalties for late payment.",
+    "whoAffected": "Businesses and operators that owe Air Passenger Duty, including occasional operators and any entity filing a return with HMRC.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the client has the 15‑character reference number starting with X and record it for each payment",
+     "Check the filing deadline and remind the client to pay by the due date, using the 7‑day extension if paying by Direct Debit, Faster Payments, CHAPS or Bacs",
+     "Select an appropriate payment method and advise on processing times (instant/2 hrs for online, same/next day for CHAPS/Faster Payments, 3 days for Bacs)",
+     "If the wrong reference is used, instruct the client to email APDHelpdesk@hmrc.gov.uk to request the payment be moved"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-14T10:14:45.476Z"
+   }
+  },
+  {
+   "id": "01879178741c82d7",
+   "title": "Joint and several liability — penalties charged for facilitating avoidance or evasion — JAS/FS3",
+   "url": "https://www.gov.uk/government/publications/joint-and-several-liability-penalties-charged-for-facilitating-avoidance-or-evasion-jasfs3",
+   "path": "/government/publications/joint-and-several-liability-penalties-charged-for-facilitating-avoidance-or-evasion-jasfs3",
+   "date": "2026-10-14T06:00:00Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "This factsheet gives information about whether you may be jointly and severally liable for the relevant tax liability of a company that has been charged penalties for facilitating avoidance or evasion.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "The 'Conditions for giving a joint liability notice' section has been updated to include additional provisions under 'Condition A'.",
+   "firstPublished": "2021-11-17T00:00:00+00:00",
+   "ai": {
+    "summary": "Not stated in source",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-14T10:14:48.038Z"
+   }
+  },
   {
    "id": "df10b42a381d1de2",
    "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
@@ -8182,7 +8239,22 @@
    ],
    "hasBody": true,
    "changeNote": "Added guidance on how to sign into the authorised agent account and how to give colleagues access to ACSP services to the 'How to use your authorised agent account' section. ",
-   "firstPublished": "2025-02-19T00:00:00+00:00"
+   "firstPublished": "2025-02-19T00:00:00+00:00",
+   "ai": {
+    "summary": "ACSP registration is now required for agents who verify client identities for Companies House. Agents must be supervised by an AML body, register online, maintain a 7‑year record of identity checks, and report any changes within 14 days to avoid fines, prosecution, suspension or cessation of status.",
+    "whoAffected": "Accountants, solicitors, company formation agents, and sole traders who verify client identities for Companies House, plus any staff added to the authorised agent account.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Determine if your firm verifies client identities for Companies House and therefore must register as an ACSP.",
+     "Confirm the firm is supervised by a UK AML supervisory body and appoint a senior director or sole trader to apply.",
+     "Register online, create the authorised agent account and add staff with appropriate roles (owner, administrator, standard).",
+     "Keep identity‑check records for 7 years and update any agent information within 14 days of change to stay compliant."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-14T10:14:51.869Z"
+   }
   },
   {
    "id": "1fe7c80e38120428",
@@ -8198,7 +8270,22 @@
    ],
    "hasBody": true,
    "changeNote": "Edited the 'Verify your identity' section. In most cases you only need to verify your identity once for Companies House. You can read the guidance about verifying your identity for Companies House for more information. ",
-   "firstPublished": "2025-02-19T00:00:00+00:00"
+   "firstPublished": "2025-02-19T00:00:00+00:00",
+   "ai": {
+    "summary": "To act as a Companies House authorised agent you must be AML‑registered, verify your identity once, provide business and AML details, confirm legal responsibilities and, once approved, manage the agent account.",
+    "whoAffected": "Sole traders, directors, general partners, partners, members and other senior personnel of businesses wishing to register as Companies House authorised agents (ACSPs).",
+    "effectiveDate": "2026-06-19",
+    "actions": [
+     "Check eligibility – you must hold a senior role and be registered with a UK AML supervisory body.",
+     "Verify your identity through the Companies House online service (only needed once).",
+     "Collect required information (company number, authentication code, addresses, email, AML membership numbers, etc.) and submit the application.",
+     "After approval, set up the authorised agent account and add other authorised users as needed."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-14T10:14:55.195Z"
+   }
   },
   {
    "id": "7539254990724574",
@@ -8402,7 +8489,25 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-06-11T16:57:25+01:00"
+   "firstPublished": "2026-06-11T16:57:25+01:00",
+   "ai": {
+    "summary": "The Economic Crime and Corporate Transparency Act 2023 reforms have introduced mandatory identity verification, removed fraudulent addresses and boosted enforcement, improving Companies House data accuracy and protecting businesses from fraud.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed who rely on Companies House information for credit, purchasing and compliance decisions",
+    "effectiveDate": "November 2025 (introduction of mandatory identity verification)",
+    "actions": [
+     "Ensure client directors and secretaries have completed identity verification and linked appointments",
+     "Check and update client company addresses on the register to remove outdated or fraudulent entries",
+     "Monitor the Companies House register for suspicious entries affecting clients and advise corrective action",
+     "Incorporate the new offences under the ECCT Act into client risk assessments and compliance advice"
+    ],
+    "legislationRefs": [
+     "Economic Crime and Corporate Transparency Act 2023",
+     "section 213(1) of the Economic Crime and Corporate Transparency Act 2023"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-14T10:15:00.151Z"
+   }
   },
   {
    "id": "5af687ecad7c6f3f",
@@ -8695,7 +8800,22 @@
    ],
    "hasBody": true,
    "changeNote": "Added translation",
-   "firstPublished": "2026-05-28T15:17:50+01:00"
+   "firstPublished": "2026-05-28T15:17:50+01:00",
+   "ai": {
+    "summary": "To verify a client’s identity for Companies House you can act as an Authorised Corporate Service Provider (ACSP). Provide the client’s name, address, email and approved ID evidence, then receive a personal code by email which links the verification to the public register.",
+    "whoAffected": "Individuals who need to verify their identity for Companies House – e.g., directors, shareholders or anyone filing through an accountant or solicitor.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm your firm is registered with Companies House as an ACSP and is AML‑supervised",
+     "Collect the client’s full name, home address, email and acceptable identity evidence as advised by Companies House",
+     "Submit the verification to Companies House and ensure the client’s email is correct to receive the personal code",
+     "Advise the client to check for the email (including spam), update their email address if it changes, and explain the verification statement that will appear on the public register"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-14T10:15:06.809Z"
+   }
   },
   {
    "id": "700d76d25e19a30d",
@@ -9243,7 +9363,22 @@
    ],
    "hasBody": true,
    "changeNote": "Guidance added to 'How to complete your form SR01' - Section 1: Home address to be removed. If the address is also the company’s single alternative inspection location (SAIL), you will need to change your SAIL address before completing the SR01.",
-   "firstPublished": "2019-02-27T00:00:00+00:00"
+   "firstPublished": "2019-02-27T00:00:00+00:00",
+   "ai": {
+    "summary": "Individuals can use form SR01 to remove home address, signatures, day of birth or business occupation from the public Companies House register, paying £34 per document. Payment must be made via GOV.UK Pay and the reference included when submitting the application.",
+    "whoAffected": "Directors, members of limited liability partnerships and other individuals with personal details on the Companies House register, including owners of SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify which company documents contain the personal details to be removed",
+     "Complete the SR01 form and calculate the £34 fee for each document",
+     "Pay the fee via GOV.UK Pay and note the payment reference",
+     "Email the completed form and payment reference to dsr@companieshouse.gov.uk (or post if preferred)"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-14T10:15:22.169Z"
+   }
   },
   {
    "id": "241ea7496162bb14",
@@ -9354,7 +9489,22 @@
    ],
    "hasBody": true,
    "changeNote": "'What happened' and 'What we're doing next' – Updated with latest information on our investigation. ",
-   "firstPublished": "2026-03-20T17:13:00+00:00"
+   "firstPublished": "2026-03-20T17:13:00+00:00",
+   "ai": {
+    "summary": "A security flaw in Companies House WebFiling discovered on 13 Mar 2026 could let a logged‑in user alter another company’s details without consent, affecting many companies and individuals.",
+    "whoAffected": "Companies and individuals that use the Companies House WebFiling service, including SMEs, owner‑managed businesses and the self‑employed.",
+    "effectiveDate": "2026-03-13",
+    "actions": [
+     "Ask clients to review recent filings for any unauthorised changes",
+     "Advise clients to change their WebFiling passwords and use strong credentials",
+     "Encourage clients to monitor their company details regularly for unexpected updates",
+     "Instruct clients to report any suspected unauthorised changes to Companies House promptly"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-14T10:15:31.448Z"
+   }
   },
   {
    "id": "68c4b6b7e303defd",
@@ -9370,7 +9520,22 @@
    ],
    "hasBody": true,
    "changeNote": "Clarified that you need to file one form OS VS01 for each company, and include details for all company directors on the form. ",
-   "firstPublished": "2025-11-18T00:00:00+00:00"
+   "firstPublished": "2025-11-18T00:00:00+00:00",
+   "ai": {
+    "summary": "Overseas companies must file form OS VS01 confirming that every director has completed identity verification and has a Companies House personal code, filing by the anniversary of the UK establishment’s opening.",
+    "whoAffected": "Directors of overseas companies (and the overseas companies themselves)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the company is classified as an overseas company",
+     "Ensure each director completes identity verification and obtains a Companies House personal code",
+     "Complete one OS VS01 form per company, listing all directors (use continuation pages if more than two)",
+     "File the form by the anniversary of the date the UK establishment was opened"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-14T10:15:34.947Z"
+   }
   },
   {
    "id": "73b81d2e77dba72c",
@@ -9539,7 +9704,22 @@
    ],
    "hasBody": true,
    "changeNote": "Northern Growth Strategy: Next Steps and Invitation for Views on Northern Growth - Privacy Notice documents added along with updated details on submitting responses through the survey.",
-   "firstPublished": "2026-01-14T12:55:00+00:00"
+   "firstPublished": "2026-01-14T12:55:00+00:00",
+   "ai": {
+    "summary": "The government’s Northern Growth Strategy: Next Steps, published 19 March 2026, outlines actions to boost growth in the North, invites stakeholder views until 31 July 2026, and will be reviewed over the summer with a further update in autumn, building on rail investment commitments.",
+    "whoAffected": "Businesses, SMEs, local authorities, mayors and other stakeholders in northern England",
+    "effectiveDate": "19 March 2026",
+    "actions": [
+     "Encourage northern clients to submit feedback via the SmartSurvey link before 31 July 2026",
+     "Monitor the government’s summer review and autumn update for any policy changes affecting northern SMEs",
+     "Assess how the Northern Powerhouse Rail investment may create opportunities for clients",
+     "Keep clients informed of the next‑step actions and partnership approach outlined in the strategy"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-14T10:15:42.640Z"
+   }
   },
   {
    "id": "d6d61fd2fb3940b8",
@@ -9596,7 +9776,22 @@
    ],
    "hasBody": true,
    "changeNote": "The fee has been updated. ",
-   "firstPublished": "2014-10-06T00:00:00+01:00"
+   "firstPublished": "2014-10-06T00:00:00+01:00",
+   "ai": {
+    "summary": "Form EE MP01 is used to notify Companies House of documents and particulars for a UK Economic Interest Grouping. A £30 fee applies if the amendment includes a name change.",
+    "whoAffected": "UK Economic Interest Groupings (UKEIGs) and their managers or advisers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the client needs to file documents for a UKEIG",
+     "Complete form EE MP01 with the required particulars",
+     "If the amendment changes the grouping’s name, include the £30 fee",
+     "Submit the form to Companies House and check the guidance on registration changes"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-14T10:15:46.994Z"
+   }
   },
   {
    "id": "12efcee88793dac7",
