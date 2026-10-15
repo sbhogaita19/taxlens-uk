@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-14T17:09:09.783Z",
+ "generatedAt": "2026-10-15T09:57:48.825Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -74,6 +74,38 @@
  ],
  "count": 389,
  "items": [
+  {
+   "id": "280594d00bb3e5d7",
+   "title": "Check the recognised overseas pension schemes notification list",
+   "url": "https://www.gov.uk/guidance/check-the-recognised-overseas-pension-schemes-notification-list",
+   "path": "/guidance/check-the-recognised-overseas-pension-schemes-notification-list",
+   "date": "2026-10-15T08:00:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find schemes that have told HMRC they meet the conditions to be a recognised overseas pension scheme (ROPS).",
+   "categories": [
+    "personal",
+    "pensions"
+   ],
+   "hasBody": true,
+   "changeNote": "The recognised overseas pension schemes notification list has been updated with 25 schemes added, 17 schemes removed and one scheme amended.",
+   "firstPublished": "2018-06-15T00:00:00+01:00",
+   "ai": {
+    "summary": "The ROPS list, updated twice monthly, shows schemes claiming recognised overseas pension status, but HMRC does not guarantee tax‑free transfers. Advisors must verify tax liability and monitor list changes before any pension move.",
+    "whoAffected": "SME owners, self‑employed individuals and their advisers considering overseas pension transfers",
+    "effectiveDate": "Published on the 1st and 15th of each month (or the next working day if a weekend or UK public holiday)",
+    "actions": [
+     "Check the latest ROPS notification list before advising any overseas pension transfer",
+     "Confirm the tax treatment of the transfer with HMRC or a qualified financial adviser",
+     "Monitor the list for short‑notice removals or amendments up to the transfer date",
+     "Maintain documentation in case HMRC pursues tax charges, interest or penalties"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-15T09:56:49.546Z"
+   }
+  },
   {
    "id": "cf03e9ee2875bd31",
    "title": "Find out which HMRC services are experiencing issues",
@@ -245,7 +277,22 @@
    ],
    "hasBody": true,
    "changeNote": "The payment reference to use when paying by bank transfer has been updated.",
-   "firstPublished": "2021-10-01T00:00:00+01:00"
+   "firstPublished": "2021-10-01T00:00:00+01:00",
+   "ai": {
+    "summary": "OSS VAT returns must be submitted and the VAT paid in full by the last day of the month after each quarter; payments can be made online, by card, or bank transfer using the pre‑populated NI reference, with specific processing times and penalties for late or incorrect payments.",
+    "whoAffected": "Businesses registered for the One Stop Shop (OSS) VAT scheme, including SMEs, owner‑managed businesses and the self‑employed.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Ensure the OSS VAT return is filed and payment is made by the last day of the month following the quarter (or the previous working day if the deadline falls on a weekend/holiday).",
+     "Confirm the 11‑character NI payment reference is used; an incorrect reference can delay or misallocate the payment.",
+     "Choose a payment method and allow for its processing time (instant/2 hrs for online bank approval, same/next day for CHAPS/Faster Payments, 3 working days for BACS).",
+     "If payment issues arise, advise the client to contact HMRC at paymentteam.moss@hmrc.gov.uk for assistance."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-15T09:56:53.081Z"
+   }
   },
   {
    "id": "71a5ca125eef97f5",
@@ -1788,38 +1835,6 @@
     "relevance": "medium",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-01T18:25:36.570Z"
-   }
-  },
-  {
-   "id": "280594d00bb3e5d7",
-   "title": "Check the recognised overseas pension schemes notification list",
-   "url": "https://www.gov.uk/guidance/check-the-recognised-overseas-pension-schemes-notification-list",
-   "path": "/guidance/check-the-recognised-overseas-pension-schemes-notification-list",
-   "date": "2026-10-01T08:00:04Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find schemes that have told HMRC they meet the conditions to be a recognised overseas pension scheme (ROPS).",
-   "categories": [
-    "personal",
-    "pensions"
-   ],
-   "hasBody": true,
-   "changeNote": "The recognised overseas pension schemes notification list has been updated with 46 schemes added and 7 schemes removed.",
-   "firstPublished": "2018-06-15T00:00:00+01:00",
-   "ai": {
-    "summary": "The HMRC list of recognised overseas pension schemes (ROPS) is published on the 1st and 15th of each month (or the next working day). Inclusion does not guarantee tax‑free transfers; advisers must confirm any UK tax liability before recommending a transfer.",
-    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals considering transferring UK pension savings to an overseas scheme",
-    "effectiveDate": "Published on the 1st and 15th day of each month (or the next working day if the date falls on a weekend or UK public holiday)",
-    "actions": [
-     "Check the latest ROPS list on each publication date before advising any overseas pension transfer",
-     "Confirm with the client that HMRC does not guarantee tax‑free status and assess any UK tax charge that may arise",
-     "Advise the client to obtain suitable professional advice from a regulated financial adviser",
-     "Monitor the list for short‑notice removals or updates and inform clients promptly"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-02T11:07:53.124Z"
    }
   },
   {
@@ -8508,7 +8523,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-06-17T16:30:00+01:00"
+   "firstPublished": "2026-06-17T16:30:00+01:00",
+   "ai": {
+    "summary": "Major leisure businesses will pass on the temporary VAT cut under the Great British Summer Savings scheme, reducing costs of children’s meals, tickets and attractions from 25 June, with all families eligible and free bus travel for children 5‑15 in August.",
+    "whoAffected": "Families with children (including those aged 5‑15) and leisure/hospitality SMEs such as cinemas, theme parks, pubs and restaurants offering eligible meals and tickets",
+    "effectiveDate": "25 June",
+    "actions": [
+     "Ensure client pricing reflects the temporary VAT cut on eligible children’s meals and tickets",
+     "Download and use the government digital toolkit for promotional stickers, posters and materials",
+     "Inform customers about free local bus travel for children aged five to fifteen throughout August",
+     "Track footfall and revenue changes to demonstrate the scheme’s benefit"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-15T09:56:56.282Z"
+   }
   },
   {
    "id": "71e043871fafd03f",
@@ -8895,7 +8925,22 @@
    ],
    "hasBody": true,
    "changeNote": "In the 'Who needs to verify' section, removed 'someone who files for a company - for example, a company secretary' .",
-   "firstPublished": "2025-03-18T00:00:00+00:00"
+   "firstPublished": "2025-03-18T00:00:00+00:00",
+   "ai": {
+    "summary": "Identity verification is now a legal requirement for directors, equivalent officers, overseas directors, persons with significant control and authorised corporate service providers. Verification is done once via GOV.UK One Login or an ACSP, producing a personal code that must be used in filings. Non‑compliance can lead to offences and penalties.",
+    "whoAffected": "Directors, members, general partners, managing officers, overseas company directors, persons with significant control (PSCs), and Authorised Corporate Service Providers (ACSPs). Future groups include people who file at Companies House, limited partnerships, corporate directors, corporate LLP members and corporate PSC officers.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify which of your clients fall into the director, PSC or ACSP categories and need to verify their identity",
+     "Advise clients to verify using the GOV.UK One Login service or an authorised corporate service provider, providing required documents",
+     "Ensure clients obtain their Companies House personal code and include it in confirmation statements, director appointments and PSC filings",
+     "Monitor verification deadlines and warn clients of the offences and penalties for non‑compliance"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-15T09:57:00.870Z"
+   }
   },
   {
    "id": "dd791693a5d9e68c",
@@ -9336,7 +9381,22 @@
    ],
    "hasBody": true,
    "changeNote": "Added translation",
-   "firstPublished": "2026-05-06T13:08:29+01:00"
+   "firstPublished": "2026-05-06T13:08:29+01:00",
+   "ai": {
+    "summary": "Before applying to become an Authorised Corporate Service Provider you must ensure you are registered for AML supervision, that the supervision is active and matches your business or personal name, that you have the correct AML reference number, and that you avoid duplicate supervision details across applications.",
+    "whoAffected": "Businesses and individuals applying to register as an Authorised Corporate Service Provider (ACSP), including sole traders, limited companies, LLPs and other business types",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm you are registered for AML supervision with a recognised supervisory body",
+     "Verify the supervision status is active and the supervisory body’s record shows the same name as on Companies House (or your personal name)",
+     "Obtain the correct AML reference or membership number from the supervisory body and ensure it is provided in the application",
+     "If registering multiple businesses, use a single ACSP with an agent account to avoid duplicate AML supervision details"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-15T09:57:12.693Z"
+   }
   },
   {
    "id": "39d72899610371bf",
@@ -9696,7 +9756,24 @@
    ],
    "hasBody": true,
    "changeNote": "Added Welsh language translation. ",
-   "firstPublished": "2024-09-27T00:00:00+01:00"
+   "firstPublished": "2024-09-27T00:00:00+01:00",
+   "ai": {
+    "summary": "Companies House can issue financial penalties under the Economic Crime and Corporate Transparency Act 2023 (Financial Penalty) Regulations 2024, outlining when penalties are applied, notice types, representations, calculation, payment, appeals and non‑payment consequences.",
+    "whoAffected": "Companies subject to the Registrar of Companies' enforcement powers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review any warning or penalty notice received from Companies House",
+     "Advise the client on making a representation within the prescribed period",
+     "Assist in calculating the penalty amount using Companies House guidance",
+     "Arrange payment or lodge an appeal if appropriate"
+    ],
+    "legislationRefs": [
+     "Economic Crime and Corporate Transparency Act 2023 (Financial Penalty) Regulations 2024"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-15T09:57:22.589Z"
+   }
   },
   {
    "id": "1767d78945fe48da",
@@ -10054,7 +10131,22 @@
    ],
    "hasBody": true,
    "changeNote": "Corrected fee to file a charge online. ",
-   "firstPublished": "2014-09-17T00:00:00+01:00"
+   "firstPublished": "2014-09-17T00:00:00+01:00",
+   "ai": {
+    "summary": "Use form MR01 to register any mortgage or charge created on or after 6 April 2013 for a UK company. File online via WebFiling for £14 (paper £24) and print on A4; older charges use MG01/MG01s.",
+    "whoAffected": "UK registered companies, including SMEs and owner‑managed businesses, that create a mortgage or charge on or after 6 April 2013",
+    "effectiveDate": "6 April 2013",
+    "actions": [
+     "Confirm the charge was created on or after 6 April 2013",
+     "Complete form MR01 with the required particulars",
+     "File the form online via WebFiling (cost £14) for faster processing, or submit a paper form (£24) on A4 white paper if needed",
+     "If the charge was created before 6 April 2013, advise using form MG01 (England/Wales/N.I.) or MG01s (Scotland)"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-15T09:57:32.320Z"
+   }
   },
   {
    "id": "0a243987343b3ab6",
@@ -10144,7 +10236,19 @@
    ],
    "hasBody": true,
    "changeNote": "Added the environmental policy for 2026. ",
-   "firstPublished": "2012-07-31T00:00:00+01:00"
+   "firstPublished": "2012-07-31T00:00:00+01:00",
+   "ai": {
+    "summary": "Companies House outlines its approach to continually improve its environmental performance.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Not stated in source"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-15T09:57:39.529Z"
+   }
   },
   {
    "id": "6937195ef326eb95",
