@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-15T09:57:48.825Z",
+ "generatedAt": "2026-10-15T16:59:02.292Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,164 @@
    "label": "Other"
   }
  ],
- "count": 389,
+ "count": 392,
  "items": [
+  {
+   "id": "4a17038c1e1bf0e0",
+   "title": "Chancellor says ‘It is my job to protect resilience of the UK economy and the budget will do that’ in the face of international headwinds",
+   "url": "https://www.gov.uk/government/news/chancellor-says-it-is-my-job-to-protect-resilience-of-the-uk-economy-and-the-budget-will-do-that-in-the-face-of-international-headwinds",
+   "path": "/government/news/chancellor-says-it-is-my-job-to-protect-resilience-of-the-uk-economy-and-the-budget-will-do-that-in-the-face-of-international-headwinds",
+   "date": "2026-10-15T14:51:51Z",
+   "type": "news_story",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "Chancellor of the Exchequer, John Healey used the IMF Annual Meetings in Bangkok to set out how the UK and its international partners can work together to respond to global economic headwinds and strengthen the conditions for growth.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-15T15:51:51+01:00",
+   "ai": {
+    "summary": "The Chancellor highlighted the UK’s resilience and announced the upcoming budget will protect growth amid Middle‑East and Ukraine conflicts, rising energy costs, and AI challenges, while promoting international cooperation, G20 leadership and finance for developing economies.",
+    "whoAffected": "UK households, SMEs, owner‑managed businesses and the self‑employed, plus broader global businesses and developing economies",
+    "effectiveDate": "early 2027 (announced priorities for the G20 presidency)",
+    "actions": [
+     "Monitor the Chancellor’s budget announcements for fiscal measures affecting SMEs",
+     "Advise clients on AI adoption, identifying barriers and risk management",
+     "Prepare clients for potential energy price impacts and borrowing cost changes",
+     "Stay updated on G20 finance track outcomes that may influence international finance opportunities"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-15T16:57:59.000Z"
+   }
+  },
+  {
+   "id": "cb0d95760dc6f3ae",
+   "title": "How to make a voluntary disclosure to HMRC",
+   "url": "https://www.gov.uk/government/publications/hmrc-your-guide-to-making-a-disclosure",
+   "path": "/government/publications/hmrc-your-guide-to-making-a-disclosure",
+   "date": "2026-10-15T14:48:40Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out about the different ways to make a voluntary disclosure to HMRC if you think you have not paid the correct amount of tax.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "The section ‘Ways to make a disclosure’ has been updated to explain errors you should correct and information to provide when making a disclosure, and what to do when you should have treated a worker as an employee for tax purposes.",
+   "firstPublished": "2016-09-05T00:00:00+01:00",
+   "ai": {
+    "summary": "If you owe tax on income or gains, you must inform HMRC immediately about any unpaid tax. This guide outlines how to make a voluntary disclosure.",
+    "whoAffected": "Businesses and individuals, including SMEs, owner‑managed businesses and the self‑employed, who have unpaid tax on income or gains",
+    "effectiveDate": "2026-10-15",
+    "actions": [
+     "Identify any unpaid tax on income or gains",
+     "Contact HMRC promptly to disclose the unpaid tax",
+     "Gather details of the tax owed and the period involved",
+     "Submit the voluntary disclosure using HMRC’s preferred method (online, phone or written)"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-15T16:58:01.960Z"
+   }
+  },
+  {
+   "id": "37c4e6204280bde6",
+   "title": "CWG2: further guide to PAYE and National Insurance contributions",
+   "url": "https://www.gov.uk/government/publications/cwg2-further-guide-to-paye-and-national-insurance-contributions",
+   "path": "/government/publications/cwg2-further-guide-to-paye-and-national-insurance-contributions",
+   "date": "2026-10-15T13:05:36Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out about detailed Pay As You Earn (PAYE) and National Insurance contributions for current and previous years if you're an employer.",
+   "categories": [
+    "paye",
+    "nic"
+   ],
+   "hasBody": true,
+   "changeNote": "HTML document ‘2026 to 2027: Employer further guide to PAYE and National Insurance contributions’ has been updated in section 5.4.2 to reflect the new 'car or van' hire rate from 44 percent per mile to 55 percent per mile,",
+   "firstPublished": "2014-04-06T00:00:00+01:00",
+   "ai": {
+    "summary": "The guide explains PAYE and NIC handling in less common cases and notes the car/van hire rate has been updated to 55% per mile.",
+    "whoAffected": "Employers, including SMEs and owner‑managed businesses, that operate PAYE/NIC and have car or van hire arrangements",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check client records for car/van hire mileage calculations",
+     "Apply the new 55% per mile rate for hire vehicles",
+     "Adjust PAYE and NIC computations accordingly",
+     "Review the guide for any other uncommon PAYE/NIC issues affecting clients"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-15T16:58:04.680Z"
+   }
+  },
+  {
+   "id": "62115cc7bdb7eae4",
+   "title": "Ask your employer for Statutory Sick Pay",
+   "url": "https://www.gov.uk/guidance/ask-your-employer-for-statutory-sick-pay",
+   "path": "/guidance/ask-your-employer-for-statutory-sick-pay",
+   "date": "2026-10-15T11:53:00Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "You can use the SC2 form to ask your employer for Statutory Sick Pay (SSP).",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "Added Welsh translation.",
+   "firstPublished": "2014-07-10T00:00:00+01:00",
+   "ai": {
+    "summary": "Use the online SC2 form to self‑certify a sick absence and claim Statutory Sick Pay; you must be off work at least one full working day and provide your NI number, contact details, sickness dates, last working day and payroll number.",
+    "whoAffected": "Employees who are off work sick and need to claim Statutory Sick Pay from their employer",
+    "effectiveDate": "2026-10-15",
+    "actions": [
+     "Check the employee’s contract for any specific sickness procedures",
+     "Confirm the employee has been off work for at least one full working day",
+     "Gather required details: NI number, phone, sickness dates, last working day before sickness, payroll number",
+     "Complete the online SC2 form, give it to the employer and keep a copy"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-15T16:58:07.510Z"
+   }
+  },
+  {
+   "id": "5e701fe9d0777c2b",
+   "title": "Agent update: issue 148",
+   "url": "https://www.gov.uk/government/publications/agent-update-issue-148",
+   "path": "/government/publications/agent-update-issue-148",
+   "date": "2026-10-15T11:00:00Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Get guidance from HMRC if you're a tax agent or an adviser",
+   "categories": [
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-15T12:00:00+01:00",
+   "ai": {
+    "summary": "Agent updates provide guidance and news for tax agents and advisers, covering topics like tax, Making Tax Digital, HMRC services and engagement, with the next edition due in November 2026.",
+    "whoAffected": "Tax agents and advisers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Read this month’s Agent Update highlights",
+     "Mark November 2026 for the next edition",
+     "Sign up for email reminders for future editions",
+     "Distribute relevant updates to your client‑base"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-15T16:58:10.365Z"
+   }
+  },
   {
    "id": "280594d00bb3e5d7",
    "title": "Check the recognised overseas pension schemes notification list",
@@ -1277,37 +1433,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-06T12:03:41.431Z"
-   }
-  },
-  {
-   "id": "cb0d95760dc6f3ae",
-   "title": "How to make a voluntary disclosure to HMRC",
-   "url": "https://www.gov.uk/government/publications/hmrc-your-guide-to-making-a-disclosure",
-   "path": "/government/publications/hmrc-your-guide-to-making-a-disclosure",
-   "date": "2026-10-05T14:38:39Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out about the different ways to make a voluntary disclosure to HMRC if you think you have not paid the correct amount of tax.",
-   "categories": [
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "The address to send disclosures to has been updated in section 'Other potential liabilities you can tell us about in your disclosure’.\r\nThe contact address has been changed in section 'If you leave something important out of your disclosure' and in section 'If you’re unhappy with HMRC’s service'.",
-   "firstPublished": "2016-09-05T00:00:00+01:00",
-   "ai": {
-    "summary": "If you owe tax on income or gains you must tell HMRC about any unpaid tax now. This guide explains how to make a voluntary disclosure, using the updated contact address for submissions.",
-    "whoAffected": "Anyone who owes tax on income or gains, including SMEs, owner‑managed businesses and the self‑employed",
-    "effectiveDate": "2026-10-05",
-    "actions": [
-     "Identify any client who may owe unpaid tax on income or gains",
-     "Advise the client to tell HMRC about the unpaid tax immediately",
-     "Send the disclosure to the updated HMRC address as noted in the guide",
-     "Ensure the disclosure includes all unpaid tax and any other potential liabilities"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-06T12:03:44.477Z"
    }
   },
   {
@@ -2843,35 +2968,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-09-29T13:57:33.855Z"
-   }
-  },
-  {
-   "id": "37c4e6204280bde6",
-   "title": "CWG2: further guide to PAYE and National Insurance contributions",
-   "url": "https://www.gov.uk/government/publications/cwg2-further-guide-to-paye-and-national-insurance-contributions",
-   "path": "/government/publications/cwg2-further-guide-to-paye-and-national-insurance-contributions",
-   "date": "2026-09-21T13:52:32Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out about detailed Pay As You Earn (PAYE) and National Insurance contributions for current and previous years if you're an employer.",
-   "categories": [
-    "paye",
-    "nic"
-   ],
-   "hasBody": true,
-   "changeNote": "‘2026 to 2027: Employer further guide to PAYE and National Insurance contributions’ has been updated with a new section ‘2.2.6 Relevant accretions’.",
-   "firstPublished": "2014-04-06T00:00:00+01:00",
-   "ai": {
-    "summary": "The guide explains how employers should handle PAYE and National Insurance contributions in less common situations.",
-    "whoAffected": "Employers, including SMEs and owner‑managed businesses, who need guidance on atypical PAYE/NIC matters",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Not stated in source"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-29T13:49:21.095Z"
    }
   },
   {
@@ -8708,7 +8804,26 @@
    ],
    "hasBody": true,
    "changeNote": "'Service information' section updated - 'Links to external websites'. Information added about content including 2D optical codes.",
-   "firstPublished": "2019-06-19T00:00:00+01:00"
+   "firstPublished": "2019-06-19T00:00:00+01:00",
+   "ai": {
+    "summary": "Companies House’s Find and update service provides free access to company data, including basic details, filings, officers and dissolved records, and offers a free ‘Follow’ email alert. Records of dissolved companies will now be kept for up to 20 years.",
+    "whoAffected": "SMEs, owner‑managed businesses, self‑employed professionals and company officers who need company information for due diligence or compliance",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Use the free Find and update service to obtain client company details for due‑diligence checks",
+     "Register and use the ‘Follow’ feature to receive email alerts on client or competitor filings",
+     "Advise clients to review officer information as dissolved records will be retained longer",
+     "If required, access real‑time data via the Companies House API while respecting acceptable‑use limits"
+    ],
+    "legislationRefs": [
+     "Corporate Transparency and Register Reform consultation",
+     "Companies Act 2006",
+     "The Reports on Payments to Governments Regulations 2014"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-15T16:58:13.909Z"
+   }
   },
   {
    "id": "e6e2377762d00c0c",
@@ -9003,7 +9118,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-05-21T12:43:00+01:00"
+   "firstPublished": "2026-05-21T12:43:00+01:00",
+   "ai": {
+    "summary": "From 25 June to 1 September 2026 a temporary 5% VAT rate replaces the standard 20% on eligible children’s meals in restaurants and family tickets for cinemas, theatres, attractions and similar leisure activities across the UK, plus free bus travel for children 5‑15 in England during August.",
+    "whoAffected": "Families with children, especially those aged 5‑15; restaurants, cinemas, theatres, amusement parks, museums, zoos, soft‑play centres and other eligible leisure providers; and any business selling qualifying children’s meals or tickets.",
+    "effectiveDate": "25 June 2026 – 1 September 2026 (VAT relief); August 2026 (free bus travel for children 5‑15 in England)",
+    "actions": [
+     "Identify client businesses that sell eligible children’s meals or tickets and confirm the dates they fall within the relief period.",
+     "Advise them to apply the 5% VAT rate on qualifying sales and, where possible, reduce prices so the saving is passed to families at the till.",
+     "Ensure they record which sales are eligible and consider applying the reduced rate or issuing a VAT refund for sales made before the legislation took effect.",
+     "Direct clients to HMRC guidance for detailed rules and any sector‑specific queries."
+    ],
+    "legislationRefs": [
+     "HMRC guidance"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-15T16:58:19.146Z"
+   }
   },
   {
    "id": "e08a2e9babd6c708",
@@ -9457,7 +9589,22 @@
    ],
    "hasBody": true,
    "changeNote": "Section added with guidance about 'If your photo ID has expired'.",
-   "firstPublished": "2025-04-08T00:00:00+01:00"
+   "firstPublished": "2025-04-08T00:00:00+01:00",
+   "ai": {
+    "summary": "From 18 Nov 2025 identity verification is legally required for company directors and persons with significant control, with a 12‑month transition to meet due dates. Acceptable IDs include biometric passports, UK driving licences, BRP, BRC or FWP, with specific rules for expired documents.",
+    "whoAffected": "Company directors, persons with significant control (PSCs) of SMEs and owner‑managed businesses, and accountants acting as Authorised Corporate Service Providers (ACSPs) who verify client identities",
+    "effectiveDate": "18 November 2025",
+    "actions": [
+     "Check each client’s directors and PSCs have verified identity before their due dates",
+     "Confirm clients have an acceptable photo ID and current address details ready for GOV.UK One Login",
+     "Assist clients to create or sign into a GOV.UK One Login and complete verification, or arrange verification through an ACSP",
+     "Ensure clients use a unique email for verification and avoid using expired documents outside the permitted periods"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-15T16:58:27.027Z"
+   }
   },
   {
    "id": "4b62fd1fc0153910",
@@ -9984,7 +10131,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-03-17T16:49:00+00:00"
+   "firstPublished": "2026-03-17T16:49:00+00:00",
+   "ai": {
+    "summary": "Companies House will email all UK‑registered companies between 17‑19 March 2026 about a WebFiling security issue, explaining the incident, how to verify details and what to do with concerns.",
+    "whoAffected": "All companies registered in the UK (including SMEs and owner‑managed businesses)",
+    "effectiveDate": "17 March 2026",
+    "actions": [
+     "Review the email content when it arrives",
+     "Advise clients to check their WebFiling details for any anomalies",
+     "Instruct clients to contact Companies House if they have concerns",
+     "Direct clients to the Chief Executive's statement for further information"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-15T16:58:36.358Z"
+   }
   },
   {
    "id": "a6c6793be9b8361a",
@@ -10102,7 +10264,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-03-09T09:30:00+00:00"
+   "firstPublished": "2026-03-09T09:30:00+00:00",
+   "ai": {
+    "summary": "The paper outlines DWP policy principles for scale measures in the Pension Schemes Bill, which will apply to multi‑employer defined contribution pension schemes.",
+    "whoAffected": "Employers and trustees of multi‑employer defined contribution pension schemes (including SMEs that participate in such schemes)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify any client businesses that are part of multi‑employer DC pension schemes",
+     "Monitor the forthcoming detailed consultation on the regulations",
+     "Assess how the proposed scale measures could affect those schemes",
+     "Prepare advisory guidance for trustees/employers on potential changes"
+    ],
+    "legislationRefs": [
+     "Pension Schemes Bill"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-15T16:58:40.632Z"
+   }
   },
   {
    "id": "8d127e6f7ef7b467",
@@ -10220,7 +10399,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-02-19T10:45:38+00:00"
+   "firstPublished": "2026-02-19T10:45:38+00:00",
+   "ai": {
+    "summary": "These are the terms and conditions that apply to any contract with Companies House where the total value, including VAT, is under £12,000.",
+    "whoAffected": "Suppliers, contractors and service providers entering low‑value contracts (under £12,000) with Companies House.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm whether the contract value, including VAT, is below £12,000.",
+     "Review the specific Companies House terms and conditions attached to low‑value contracts.",
+     "Advise the client to keep written evidence of the contract value and compliance with the terms.",
+     "Ensure any invoicing and VAT treatment matches the low‑value threshold."
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-15T16:58:46.669Z"
+   }
   },
   {
    "id": "a40e41d060a721d9",
@@ -10391,7 +10585,22 @@
    ],
    "hasBody": true,
    "changeNote": "Fees updated.",
-   "firstPublished": "2014-02-01T00:00:00+00:00"
+   "firstPublished": "2014-02-01T00:00:00+00:00",
+   "ai": {
+    "summary": "Guidance tells directors, secretaries and advisers what filings are required when company changes occur, ensuring Companies House records stay up‑to‑date.",
+    "whoAffected": "Directors, company secretaries and advisers to UK registered companies",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify any change in company details or structure",
+     "Determine the specific filing required for that change",
+     "Prepare and submit the correct form to Companies House promptly",
+     "Confirm the filing was accepted and update client records"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-15T16:59:00.791Z"
+   }
   },
   {
    "id": "e60b613e21df2a63",
