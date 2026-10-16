@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-16T09:52:39.213Z",
+ "generatedAt": "2026-10-16T16:37:23.668Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,134 @@
    "label": "Other"
   }
  ],
- "count": 394,
+ "count": 396,
  "items": [
+  {
+   "id": "df10b42a381d1de2",
+   "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
+   "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
+   "path": "/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
+   "date": "2026-10-16T15:29:19Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "This list includes details of businesses and sole traders that have had their ACSP status either suspended or ceased (removed).",
+   "categories": [
+    "reporting",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated list of ceased or suspended Authorised Corporate Service Providers (ACSPs)",
+   "firstPublished": "2025-10-10T00:00:00+01:00",
+   "ai": {
+    "summary": "The UK regulator suspends ACSP status when under investigation or missing AML, filing or identity checks, and ceases it if the provider withdraws or breaches legal duties. The public list of ceased or suspended ACSPs is refreshed every two weeks.",
+    "whoAffected": "Authorised Corporate Service Providers (businesses and sole traders) and their clients who rely on them for company formation or compliance services",
+    "effectiveDate": "2026-10-16",
+    "actions": [
+     "Check the published ceased/suspended ACSP list at least every two weeks",
+     "Verify that any ACSP your client uses is currently active before relying on their services",
+     "Advise clients to switch to an active ACSP if their provider appears on the ceased or suspended list",
+     "Document any ACSP status changes for client records"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T16:36:14.167Z"
+   }
+  },
+  {
+   "id": "89234ab4a254c6f0",
+   "title": "List of Authorised Corporate Service Providers (ACSPs)",
+   "url": "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps",
+   "path": "/government/publications/list-of-authorised-corporate-service-providers-acsps",
+   "date": "2026-10-16T15:29:12Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "This list includes details of businesses and sole traders that have registered as an Authorised Corporate Service Provider (ACSP). This is also known as an authorised agent.",
+   "categories": [
+    "reporting",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated ACSP list. ",
+   "firstPublished": "2025-10-31T00:00:00+00:00",
+   "ai": {
+    "summary": "ACSPs are agents registered with Companies House to act for clients; they must be supervised by a UK AML supervisory body. Lists may be incomplete, so check for ceased/suspended status and research reputation, services, fees and terms before using them.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who need an agent to file or complete Companies House activities",
+    "effectiveDate": "2026-10-16",
+    "actions": [
+     "Check the ACSP against the ceased and suspended list before recommending it",
+     "Confirm the ACSP is supervised by a UK AML supervisory body",
+     "Research the ACSP’s reputation, services, fees, terms and remote capability",
+     "Advise clients to read Companies House guidance on using an ACSP to verify identity"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T16:36:17.023Z"
+   }
+  },
+  {
+   "id": "f72c9615b09ace09",
+   "title": "Community Amateur Sports Clubs detailed guidance notes",
+   "url": "https://www.gov.uk/government/publications/community-amateur-sports-clubs-detailed-guidance-notes",
+   "path": "/government/publications/community-amateur-sports-clubs-detailed-guidance-notes",
+   "date": "2026-10-16T14:19:49Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out about how the Community Amateur Sports Club (CASC) scheme works and about reliefs you might be able to benefit from.\r\n",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Section 3 updated to include information that CASCs are not eligible to participate in the Payroll Pension Scheme.",
+   "firstPublished": "2015-03-27T00:00:00+00:00",
+   "ai": {
+    "summary": "The Community Amateur Sports Club (CASC) scheme, introduced in April 2002, lets clubs register with HMRC to claim tax reliefs, but they cannot join the Payroll Pension Scheme.",
+    "whoAffected": "Community Amateur Sports Clubs",
+    "effectiveDate": "April 2002",
+    "actions": [
+     "Advise CASC clients to register with HMRC for the scheme",
+     "Identify and claim the tax reliefs available to CASCs",
+     "Inform clubs they are not eligible for the Payroll Pension Scheme",
+     "Monitor updates to the CASC guidance for any changes"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T16:36:19.831Z"
+   }
+  },
+  {
+   "id": "90a5852029284069",
+   "title": "Find payroll software that is recognised by HMRC",
+   "url": "https://www.gov.uk/guidance/find-payroll-software-that-is-recognised-by-hmrc",
+   "path": "/guidance/find-payroll-software-that-is-recognised-by-hmrc",
+   "date": "2026-10-16T10:47:47Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Check for free and paid-for software recognised by HMRC that you can use to report PAYE information online.",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "The page has been updated with one removal, 3 additions and 3 amendments.\r\n",
+   "firstPublished": "2022-02-23T00:00:00+00:00",
+   "ai": {
+    "summary": "HMRC recognises a list of free and paid payroll software you can use to report PAYE online; free options apply to businesses with fewer than 10 employees. Choose software based on needed features; HMRC does not endorse any product.",
+    "whoAffected": "SMEs, owner‑managed businesses and any employer needing HMRC‑recognised payroll software, especially those with under 10 staff",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Determine the client’s employee count and payroll requirements",
+     "Check the free HMRC‑recognised software list if the client has fewer than 10 employees",
+     "Compare paid‑for software features against the client’s needs using the provided supplier list",
+     "Confirm the chosen software is on HMRC’s recognised list before submitting PAYE returns"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T16:36:22.869Z"
+   }
+  },
   {
    "id": "ff63e8c69c564e4a",
    "title": "Compliance checks: Penalties for digital platform operators — CC/FS98",
@@ -369,6 +495,37 @@
    }
   },
   {
+   "id": "e1b11e0a7f5d383e",
+   "title": "Sign in to the outgoing Trader Support Service (TSS)",
+   "url": "https://www.gov.uk/guidance/trader-support-service",
+   "path": "/guidance/trader-support-service",
+   "date": "2026-10-14T13:50:38Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "If you signed up for the outgoing Trader Support Service before 14 October 2026, you can use this service to manage goods movements and add users to your account.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about the launch of the new Trader Support Service has been added. Updates have been added to tell you what you need to do if you've already signed up for the outgoing Trader Support Service and what you need to do if you're registering for the Trader Support Service for the first time.",
+   "firstPublished": "2020-06-11T10:55:00+01:00",
+   "ai": {
+    "summary": "The new Trader Support Service, supporting customs for goods moving to/from Northern Ireland, replaces the outgoing service. Existing users are migrated automatically; new users must register. From 20 Oct 2026 all new movements must use the new service.",
+    "whoAffected": "Businesses that move goods to or from Northern Ireland, including SMEs, owner‑managed businesses and the self‑employed who use the Trader Support Service.",
+    "effectiveDate": "From 20 October 2026 (new movements must be submitted using the new service).",
+    "actions": [
+     "Check client accounts to confirm they were signed up before 14 Oct 2026 and will be migrated automatically.",
+     "Advise clients not signed up to register for the new Trader Support Service.",
+     "Submit all client goods movements to/from Northern Ireland via the new service from 20 Oct 2026.",
+     "Provide the TSS phone number 0800 870 8173 for client queries."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T16:36:26.583Z"
+   }
+  },
+  {
    "id": "7a6e5d95423949f7",
    "title": "Making an entry summary declaration",
    "url": "https://www.gov.uk/guidance/making-an-entry-summary-declaration",
@@ -549,70 +706,6 @@
     "relevance": "medium",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-14T10:14:48.038Z"
-   }
-  },
-  {
-   "id": "df10b42a381d1de2",
-   "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
-   "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
-   "path": "/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
-   "date": "2026-10-13T13:34:54Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "This list includes details of businesses and sole traders that have had their ACSP status either suspended or ceased (removed).",
-   "categories": [
-    "reporting",
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated ceased or suspended ACSPs list.",
-   "firstPublished": "2025-10-10T00:00:00+01:00",
-   "ai": {
-    "summary": "The government updates a list of Authorised Corporate Service Providers whose status is suspended or ceased, based on investigations, AML issues, filings, identity checks, voluntary removal or non‑compliance. Updates occur every two weeks and may lag up to two weeks.",
-    "whoAffected": "Authorised Corporate Service Providers (businesses and sole traders) and any clients that rely on them for company formation or compliance services",
-    "effectiveDate": "2026-10-13",
-    "actions": [
-     "Check the fortnightly ACSP list for any status changes affecting your clients",
-     "Advise clients to confirm their ACSP is active before using their services",
-     "If an ACSP is suspended or ceased, recommend an alternative compliant provider",
-     "Document due‑diligence checks on ACSP status for client records"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-13T19:14:54.269Z"
-   }
-  },
-  {
-   "id": "89234ab4a254c6f0",
-   "title": "List of Authorised Corporate Service Providers (ACSPs)",
-   "url": "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps",
-   "path": "/government/publications/list-of-authorised-corporate-service-providers-acsps",
-   "date": "2026-10-13T13:34:37Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "This list includes details of businesses and sole traders that have registered as an Authorised Corporate Service Provider (ACSP). This is also known as an authorised agent.",
-   "categories": [
-    "reporting",
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated list of ACSPs.",
-   "firstPublished": "2025-10-31T00:00:00+00:00",
-   "ai": {
-    "summary": "ACSPs are accountants or solicitors registered with Companies House to act for clients; they must be supervised by a UK AML body. The list of authorised agents may be incomplete, not regularly updated, and does not include ceased or suspended agents. Choose agents after checking reputation, services, fees and identity verification guidance.",
-    "whoAffected": "Companies and sole traders who use agents to file or complete activities with Companies House",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Check the list of ceased and suspended ACSPs to ensure the agent is not on it",
-     "Confirm the agent appears on the published list of authorised ACSPs",
-     "Research the agent’s reputation, services offered, fees, terms and whether they can work remotely",
-     "Follow Companies House guidance on using an ACSP to verify client identity"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-13T19:14:57.886Z"
    }
   },
   {
@@ -2659,37 +2752,6 @@
     "relevance": "medium",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-09-29T13:48:46.953Z"
-   }
-  },
-  {
-   "id": "90a5852029284069",
-   "title": "Find payroll software that is recognised by HMRC",
-   "url": "https://www.gov.uk/guidance/find-payroll-software-that-is-recognised-by-hmrc",
-   "path": "/guidance/find-payroll-software-that-is-recognised-by-hmrc",
-   "date": "2026-09-24T13:59:41Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Check for free and paid-for software recognised by HMRC that you can use to report PAYE information online.",
-   "categories": [
-    "paye"
-   ],
-   "hasBody": true,
-   "changeNote": "The page has been updated with 7 removals and one amendment.",
-   "firstPublished": "2022-02-23T00:00:00+00:00",
-   "ai": {
-    "summary": "HMRC provides a list of payroll software it recognises for online PAYE reporting, including free options for businesses with under 10 staff and many paid products. Choose software that matches client needs; HMRC does not endorse any specific product.",
-    "whoAffected": "Businesses that need to report PAYE, especially SMEs and owner‑managed firms, including those with fewer than 10 employees.",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Determine the client’s employee count to decide if the free HMRC‑recognised software applies",
-     "Identify the payroll features the client requires and compare them with the listed products",
-     "Select a software solution that appears on HMRC’s recognised list",
-     "Remind the client that HMRC does not recommend any specific product and they are responsible for any issues"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-29T13:54:10.400Z"
    }
   },
   {
@@ -9889,7 +9951,30 @@
    ],
    "hasBody": true,
    "changeNote": "Warning added. Check the details match across all documents in your application – including the company name, company number, and information such as an appointment date. These must also match what is shown on the Companies House register, or your filing will be rejected.",
-   "firstPublished": "2014-09-17T00:00:00+01:00"
+   "firstPublished": "2014-09-17T00:00:00+01:00",
+   "ai": {
+    "summary": "If a company filing after 1 Oct 2009 contains errors, you can replace it by submitting a correct document with form RP01, ensuring all details match the Companies House register.",
+    "whoAffected": "Companies (including SMEs and owner‑managed businesses) that have filed a document on or after 1 Oct 2009 and need to correct information such as director appointments or PSC details.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Gather the company name, number, original document type and filing date from the register",
+     "Prepare the correct replacement form (e.g., AP01) and attach it to form RP01",
+     "File the replacement online via Companies House WebFiling, ensuring all details match the register",
+     "If filing on paper or under PROOF, obtain any required consent form (PR03) and post the documents"
+    ],
+    "legislationRefs": [
+     "RP01",
+     "AP01",
+     "PSC01",
+     "CS01",
+     "SH01",
+     "PR03",
+     "Registrar of Companies: rules and powers"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T16:36:37.931Z"
+   }
   },
   {
    "id": "c0ab2ae5b4c263aa",
@@ -10616,7 +10701,22 @@
    ],
    "hasBody": true,
    "changeNote": "Updated fee to register a UK establishment of an overseas company.",
-   "firstPublished": "2010-05-03T00:00:00+01:00"
+   "firstPublished": "2010-05-03T00:00:00+01:00",
+   "ai": {
+    "summary": "Registering a UK establishment of an overseas company requires completing form OS IN01, paying a £124 fee, providing each director’s Companies House personal code after identity verification, and using the standard list of nationalities and countries.",
+    "whoAffected": "Overseas companies setting up a UK establishment and their directors",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Complete form OS IN01 before submission",
+     "Ensure each director has a Companies House personal code and has verified their identity",
+     "Use the standard list of nationalities and countries for entries",
+     "Pay the £124 registration fee when filing"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T16:36:47.456Z"
+   }
   },
   {
    "id": "324c08dba8691ee5",
@@ -10837,7 +10937,22 @@
    ],
    "hasBody": true,
    "changeNote": "Fees updated.",
-   "firstPublished": "2017-06-23T00:00:00+01:00"
+   "firstPublished": "2017-06-23T00:00:00+01:00",
+   "ai": {
+    "summary": "The guide tells directors, secretaries and advisers of Scottish qualifying partnerships how to register as a qualifying partnership and what PSC information must be filed with Companies House.",
+    "whoAffected": "Directors, secretaries and advisers to Scottish qualifying partnerships",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Register the partnership as a qualifying partnership",
+     "Identify persons with significant control (PSCs)",
+     "Collect the required PSC information",
+     "Submit the PSC details to Companies House"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T16:36:56.779Z"
+   }
   },
   {
    "id": "c0f3414e3d9e38c6",
@@ -10869,7 +10984,23 @@
    ],
    "hasBody": true,
    "changeNote": "Fees updated.",
-   "firstPublished": "2013-08-01T00:00:00+01:00"
+   "firstPublished": "2013-08-01T00:00:00+01:00",
+   "ai": {
+    "summary": "Guide for anyone registering, designating as a private fund, partnering in, or advising a limited partnership, including PSC rules for Scottish LPs.",
+    "whoAffected": "Individuals intending to register a limited partnership, private fund LPs, limited or general partners, and advisers to limited partnerships",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm client’s role (registrant, private fund, partner or adviser)",
+     "Explain People with Significant Control rules for Scottish limited partnerships",
+     "Assist with the registration paperwork and filing requirements",
+     "Provide ongoing compliance advice for the partnership",
+     ""
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T16:37:01.159Z"
+   }
   },
   {
    "id": "0c57fb05394f6c4b",
@@ -11016,7 +11147,22 @@
    ],
    "hasBody": true,
    "changeNote": "Fee updated.",
-   "firstPublished": "2024-03-04T00:00:00+00:00"
+   "firstPublished": "2024-03-04T00:00:00+00:00",
+   "ai": {
+    "summary": "The LL CS01 form confirms an LLP’s details on the Companies House register, requires a £110 paper filing fee, a registered email address, identity verification for all members, and special date rules when restoring a struck‑off LLP.",
+    "whoAffected": "Limited liability partnerships that need to file a confirmation statement",
+    "effectiveDate": "2026-02-01",
+    "actions": [
+     "Provide a registered email address in part 1 if not already on record",
+     "Submit identity verification details for all current members unless already provided",
+     "If restoring a struck‑off LLP, use the statement date that was due before strike‑off and contact Companies House if unsure",
+     "Pay the £110 fee when filing the statement on paper"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T16:37:11.288Z"
+   }
   },
   {
    "id": "c331ef8d2b8330d2",
@@ -11109,7 +11255,22 @@
    ],
    "hasBody": true,
    "changeNote": "More detail added to the 'how we determine the penalty' and 'representations' sections. ",
-   "firstPublished": "2023-06-21T00:00:00+01:00"
+   "firstPublished": "2023-06-21T00:00:00+01:00",
+   "ai": {
+    "summary": "Companies House will enforce the Register of Overseas Entities using its powers, choosing actions based on the failure’s seriousness, impact on individuals or businesses, duration, public interest and any other agency action.",
+    "whoAffected": "Individuals and businesses that are subject to the Register of Overseas Entities, and the integrity of the registers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Advise clients to ensure all overseas entity information is up‑to‑date and compliant",
+     "Monitor any communications from Companies House for enforcement warnings",
+     "Document any identified failures and assess their seriousness and duration",
+     "Seek professional representation promptly if a penalty or enforcement action is proposed"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T16:37:20.558Z"
+   }
   },
   {
    "id": "8504f1ee2e4fe151",
