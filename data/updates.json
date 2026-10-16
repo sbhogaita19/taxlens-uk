@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-15T16:59:02.292Z",
+ "generatedAt": "2026-10-16T09:52:39.213Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,39 @@
    "label": "Other"
   }
  ],
- "count": 392,
+ "count": 394,
  "items": [
+  {
+   "id": "ff63e8c69c564e4a",
+   "title": "Compliance checks: Penalties for digital platform operators — CC/FS98",
+   "url": "https://www.gov.uk/government/publications/compliance-checks-penalties-for-digital-platform-operators-ccfs98",
+   "path": "/government/publications/compliance-checks-penalties-for-digital-platform-operators-ccfs98",
+   "date": "2026-10-16T05:00:10Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "This factsheet explains the penalties HMRC may charge digital platform operators for not meeting their reporting obligations.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-16T06:00:10+01:00",
+   "ai": {
+    "summary": "The factsheet outlines HMRC penalties for digital platform operators who fail to meet reporting duties, where to find registration guidance, rights during penalty considerations, and consequences of providing false information.",
+    "whoAffected": "Digital platform operators in the UK",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check that the platform is registered with HMRC and understands its reporting obligations",
+     "Maintain accurate records to demonstrate compliance with reporting duties",
+     "Review the operator’s rights and procedures if HMRC proposes a penalty",
+     "Ensure all information supplied to HMRC is truthful and complete"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T09:51:37.272Z"
+   }
+  },
   {
    "id": "4a17038c1e1bf0e0",
    "title": "Chancellor says ‘It is my job to protect resilience of the UK economy and the budget will do that’ in the face of international headwinds",
@@ -167,6 +198,19 @@
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-15T16:58:04.680Z"
    }
+  },
+  {
+   "id": "d72d25df4f182671",
+   "title": "The Income Tax (Pay As You Earn) (Amendment No. 3) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/1082",
+   "date": "2026-10-15T12:56:08.412Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations make amendments to the \nIncome Tax (Pay As You Earn) Regulations 2003 (S.I. 2003/2682) (“the PAYE regulations”) to make loans and living accommodation a “specified benefit” for the purposes of Chapter 3A of the PAYE regulations and provide methods for calculating their cash equivalent or the relevant amount for the purposes of the PAYE regulations. This allows employers to apply ",
+   "categories": [
+    "legislation",
+    "personal"
+   ]
   },
   {
    "id": "62115cc7bdb7eae4",
@@ -9102,7 +9146,24 @@
    ],
    "hasBody": true,
    "changeNote": "Updated Registrar’s Rules – Volume 8: Identity Verification by the Registrar. Updated required evidence to allow UK driving licences expired within 90 days, removed health and education records, and excluded replaced passports",
-   "firstPublished": "2014-12-23T00:00:00+00:00"
+   "firstPublished": "2014-12-23T00:00:00+00:00",
+   "ai": {
+    "summary": "The Registrar’s Rules – Volume 8 was amended on 20 May 2026 (effective 22 May 2026) to accept UK driving licences expired within 90 days as identity evidence, remove health and education records, and exclude replaced passports. This changes the proof of identity required for Companies House filings.",
+    "whoAffected": "All companies, authorised corporate service providers and their clients—including SMEs, owner‑managed businesses and the self‑employed—who need to verify identity for filing documents with Companies House.",
+    "effectiveDate": "22 May 2026",
+    "actions": [
+     "Update client ID checklists to accept UK driving licences expired up to 90 days",
+     "Remove health and education records from required identity documents",
+     "Ensure replaced passports are no longer accepted as evidence",
+     "Notify staff and clients of the new evidence rules"
+    ],
+    "legislationRefs": [
+     "section 1117 of the Companies Act 2006"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T09:51:40.199Z"
+   }
   },
   {
    "id": "d41aebb5108234a8",
@@ -9151,7 +9212,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-05-21T12:33:00+01:00"
+   "firstPublished": "2026-05-21T12:33:00+01:00",
+   "ai": {
+    "summary": "From 25 June to 1 September 2026 VAT on children’s meals, family tickets and many attractions falls from 20% to 5% across the UK, and children 5‑15 in England travel free on local buses in August, boosting footfall for hospitality and leisure firms.",
+    "whoAffected": "Families with children, restaurants, cinemas, theatres, amusement parks and other attractions, and any business selling eligible tickets or meals; also children aged 5‑15 in England using local bus services.",
+    "effectiveDate": "25 June 2026",
+    "actions": [
+     "Check client eligibility for the reduced 5% VAT rate on children’s meals and tickets and adjust VAT returns accordingly",
+     "Update pricing and invoicing systems to apply the 5% rate and retain evidence of eligible sales",
+     "Advise clients to communicate the VAT saving to customers and monitor that the benefit is passed on",
+     "Inform clients of the free‑bus travel for children 5‑15 in England during August and the 10p‑per‑mile increase in tax‑free mileage rates for 2026‑27"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T09:51:43.116Z"
+   }
   },
   {
    "id": "7c52db2323b2e623",
@@ -9352,7 +9428,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-05-19T10:07:59+01:00"
+   "firstPublished": "2026-05-19T10:07:59+01:00",
+   "ai": {
+    "summary": "Companies House’s 2026‑27 business plan focuses on improving register data quality, expanding identity‑verification compliance, tackling economic crime, and enhancing digital services, with public targets such as 99.5% service uptime and 225,000 enforcement actions.",
+    "whoAffected": "All companies filing with Companies House, notably SMEs, owner‑managed businesses and the self‑employed who must meet identity‑verification and data‑accuracy requirements.",
+    "effectiveDate": "Financial year 2026‑2027",
+    "actions": [
+     "Check that each client’s identity‑verification is up to date for their confirmation statement",
+     "Advise clients on the importance of accurate company information to avoid enforcement action",
+     "Monitor Companies House service updates for any changes affecting filing deadlines",
+     "Prepare clients for possible increased enforcement scrutiny under the Economic Crime and Corporate Transparency Act 2023"
+    ],
+    "legislationRefs": [
+     "Economic Crime and Corporate Transparency Act 2023"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T09:51:45.847Z"
+   }
   },
   {
    "id": "c53102a3add7edf6",
@@ -9761,7 +9854,26 @@
    ],
    "hasBody": true,
    "changeNote": "Consultation outcome added.",
-   "firstPublished": "2025-07-15T10:20:55+01:00"
+   "firstPublished": "2025-07-15T10:20:55+01:00",
+   "ai": {
+    "summary": "The government is consulting on reforms to the Senior Managers & Certification Regime (SM&CR) to cut compliance burdens, especially for firms appointing new executives, while keeping high standards in the financial services sector.",
+    "whoAffected": "Firms regulated by the FCA and PRA, including owner‑managed financial services businesses and those hiring senior managers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review clients' SM&CR compliance arrangements",
+     "Track the progress of the proposed legislative changes",
+     "Advise clients on how to prepare for reduced regulatory burdens",
+     "Update advice and documentation once the final reforms are published"
+    ],
+    "legislationRefs": [
+     "Senior Managers & Certification Regime (SM&CR)",
+     "Financial Conduct Authority (FCA)",
+     "Prudential Regulation Authority (PRA)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T09:51:50.343Z"
+   }
   },
   {
    "id": "da2852c1a288abae",
@@ -10217,7 +10329,22 @@
    ],
    "hasBody": true,
    "changeNote": "A Welsh language version of the form has been added to the Welsh page.",
-   "firstPublished": "2025-11-18T00:00:00+00:00"
+   "firstPublished": "2025-11-18T00:00:00+00:00",
+   "ai": {
+    "summary": "Use this form to request a further identity‑verification deadline extension for a PSC after two extensions have already been granted, provided the request is submitted before the current deadline and includes supporting evidence. An examiner will decide, granting up to 14 extra days.",
+    "whoAffected": "Companies with a person with significant control that have already received two identity‑verification extensions",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the client has already received two extensions via the Provide identity verification details for a PSC service",
+     "Submit a request using this form before the current verification deadline expires",
+     "Upload all required supporting evidence with the request",
+     "If granted, ensure the client complies by the new deadline; if rejected, advise compliance by the existing deadline"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T09:51:57.605Z"
+   }
   },
   {
    "id": "b2a4d33b22f8f9f2",
@@ -10458,7 +10585,22 @@
    ],
    "hasBody": true,
    "changeNote": "Updated fee to apply for designation as a private fund limited partnership. ",
-   "firstPublished": "2017-04-06T00:30:00+01:00"
+   "firstPublished": "2017-04-06T00:30:00+01:00",
+   "ai": {
+    "summary": "Use the LP8 form to apply for designating an existing limited partnership as a private fund limited partnership, with a £30 filing fee.",
+    "whoAffected": "Existing limited partnerships seeking private fund limited partnership status",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the client is an existing limited partnership and wants PFLP designation",
+     "Complete the LP8 application form",
+     "Pay the £30 filing fee",
+     "Submit the form to the designated authority"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T09:52:03.537Z"
+   }
   },
   {
    "id": "ea900d9b03dcae93",
@@ -10521,7 +10663,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-02-05T10:15:00+00:00"
+   "firstPublished": "2026-02-05T10:15:00+00:00",
+   "ai": {
+    "summary": "Andy King, currently Chief Executive of Companies House, has been appointed as the new Regulator of Community Interest Companies, replacing Louise Smyth CBE, effective 5 February 2026.",
+    "whoAffected": "Existing and prospective Community Interest Companies and their owners/managers",
+    "effectiveDate": "5 February 2026",
+    "actions": [
+     "Check that any client CICs are aware of the new regulator and any forthcoming guidance",
+     "Monitor announcements from the CIC Regulator for changes to eligibility or reporting requirements",
+     "Review complaint handling procedures to align with the regulator’s investigative powers",
+     "Advise clients on maintaining compliance to avoid referral to enforcement agencies"
+    ],
+    "legislationRefs": [
+     "Companies (Audit, Investigations and Community Enterprise) Act 2004"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T09:52:10.263Z"
+   }
   },
   {
    "id": "d25816282f425c46",
@@ -10616,7 +10775,22 @@
    ],
    "hasBody": true,
    "changeNote": "Fees updated.",
-   "firstPublished": "2013-06-01T00:00:00+01:00"
+   "firstPublished": "2013-06-01T00:00:00+01:00",
+   "ai": {
+    "summary": "The guide explains how to set up a limited liability partnership, choose a compliant name, and change the LLP name later.",
+    "whoAffected": "Businesses and individuals planning to incorporate a limited liability partnership, including SMEs, owner‑managed firms and the self‑employed",
+    "effectiveDate": "2026-02-01",
+    "actions": [
+     "Explain the incorporation process and required documentation to clients",
+     "Check proposed LLP names against the listed controls and restrictions",
+     "Assist clients in filing the incorporation with Companies House",
+     "Support any future LLP name changes or updates"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T09:52:17.628Z"
+   }
   },
   {
    "id": "9fa8927daecfeedb",
@@ -10632,7 +10806,22 @@
    ],
    "hasBody": true,
    "changeNote": "Fees updated.",
-   "firstPublished": "2014-08-01T00:00:00+01:00"
+   "firstPublished": "2014-08-01T00:00:00+01:00",
+   "ai": {
+    "summary": "The guide tells LLP members, designated members and advisers what filings are required with Companies House to keep the LLP on the public register.",
+    "whoAffected": "Members or designated members of limited liability partnerships and advisers to LLPs (including SME and owner‑managed LLPs).",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify the specific Companies House filing requirements for each LLP client",
+     "Set up a filing calendar to ensure deadlines are met",
+     "Prepare and submit the required documents on behalf of the LLP",
+     "Maintain records to demonstrate ongoing compliance"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T09:52:20.164Z"
+   }
   },
   {
    "id": "3fe1a648bc76f22c",
@@ -10696,7 +10885,25 @@
    ],
    "hasBody": true,
    "changeNote": "Fee updated.",
-   "firstPublished": "2020-12-31T00:00:00+00:00"
+   "firstPublished": "2020-12-31T00:00:00+00:00",
+   "ai": {
+    "summary": "Guidance outlines that existing UK‑registered Societas Europaea were automatically turned into UK Societas from 1 Jan 2021. Affected entities can stay as a UK Societas, be wound up, or become a PLC; new SEs cannot be formed and UK branches must follow overseas company rules.",
+    "whoAffected": "Companies that were registered as Societas Europaea (SE) in the UK and UK branches of SEs registered in an EU member state",
+    "effectiveDate": "1 January 2021",
+    "actions": [
+     "Identify if the client is an SE still registered in the UK",
+     "Advise the client to remain a UK Societas, wind up, or convert to a PLC",
+     "Ensure any UK branch of an EU‑registered SE complies with overseas company regulations",
+     "Review the two EU Exit Regulations for compliance requirements"
+    ],
+    "legislationRefs": [
+     "The European Public Limited-Liability Company (Amendment etc.) (EU Exit) Regulations 2018",
+     "The International Accounting Standards and European Public Limited-Liability Company (Amendment etc.) (EU Exit) Regulations 2019"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T09:52:28.248Z"
+   }
   },
   {
    "id": "014f8f1bf6625e69",
@@ -10777,7 +10984,22 @@
    ],
    "hasBody": true,
    "changeNote": "Fee updated.",
-   "firstPublished": "2025-07-07T00:00:00+01:00"
+   "firstPublished": "2025-07-07T00:00:00+01:00",
+   "ai": {
+    "summary": "The CS01c form lets Welsh‑registered companies confirm their details with Companies House, costing £110 on paper, with online filing available. It covers updates to SIC codes, capital, share trading status, PSC exemption, shareholders, and requires a registered email and director identity verification.",
+    "whoAffected": "Companies that have their registered office address in Wales and need to file a confirmation statement",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check if any changes are needed to SIC codes, capital, share trading status, PSC exemption or shareholder details and complete parts 1‑4 accordingly",
+     "Ensure a registered email address is provided using part 5 if not already on record",
+     "Collect and submit identity verification details for all current directors",
+     "Advise filing the confirmation statement online to avoid the £110 paper fee"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-16T09:52:37.712Z"
+   }
   },
   {
    "id": "f3d4dd2bdbfeaefb",
