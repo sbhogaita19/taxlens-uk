@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-16T16:37:23.668Z",
+ "generatedAt": "2026-10-17T09:24:35.564Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -9990,7 +9990,22 @@
    ],
    "hasBody": true,
    "changeNote": "When to file your confirmation statement – Added information on how to check your confirmation date and filing deadline and sign up for email filing reminders. Updated the guidance about the review period to make it clearer when it ends and what happens if you file early. ",
-   "firstPublished": "2018-01-15T00:00:00+00:00"
+   "firstPublished": "2018-01-15T00:00:00+00:00",
+   "ai": {
+    "summary": "All UK companies must file a confirmation statement at least yearly, even if no changes occurred, confirming up‑to‑date details and lawful future activities. Failure can lead to fines or striking off. Filing is done online, requires identity verification, and incurs an annual fee.",
+    "whoAffected": "All UK limited companies, including dormant and non‑trading firms such as SMEs and owner‑managed businesses.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check and update company details (directors, PSCs, registered office and email) before filing",
+     "Ensure every director and PSC has verified their identity and obtained a Companies House personal code",
+     "File the confirmation statement online before the deadline (or within 14 days after) and pay the applicable fee for the current payment period",
+     "Sign up for email filing reminders and monitor the review period date on the company information register"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-17T09:23:41.112Z"
+   }
   },
   {
    "id": "a9af0f13ff127536",
@@ -10224,7 +10239,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-03-20T12:03:05+00:00"
+   "firstPublished": "2026-03-20T12:03:05+00:00",
+   "ai": {
+    "summary": "The government will use better data and early contact to create personalised, affordable repayment plans for people and businesses owing money, while keeping a firm approach to fraud and deliberate non‑payment.",
+    "whoAffected": "People and businesses that owe money to government, including SMEs, owner‑managed firms and the self‑employed, especially those in genuine financial difficulty.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Assess clients' outstanding tax, fee or loan debts and determine what they can realistically afford to pay",
+     "Encourage clients to engage early with the relevant government department to set up a repayment plan",
+     "Help clients prepare evidence of income and expenses to support an affordable plan",
+     "Warn clients of the strict consequences for deliberate non‑payment or fraud"
+    ],
+    "legislationRefs": [
+     "2026–2030 Government Debt Management Strategy"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-17T09:23:44.245Z"
+   }
   },
   {
    "id": "aad40fbbde147bee",
@@ -10565,7 +10597,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-02-26T09:30:17+00:00"
+   "firstPublished": "2026-02-26T09:30:17+00:00",
+   "ai": {
+    "summary": "Dr Ros Rivaz has been appointed Chair of Companies House, starting 1 March 2026, bringing experience in digital transformation and corporate governance to guide the agency’s transparency and economic‑crime reforms.",
+    "whoAffected": "All companies and business owners who file with Companies House, including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "1 March 2026",
+    "actions": [
+     "Monitor Companies House updates on digital filing and compliance requirements",
+     "Advise clients to ensure their filings meet any new transparency or economic‑crime standards",
+     "Prepare clients for any changes to digital submission processes",
+     "Stay informed of guidance issued by Companies House under the new chair"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-17T09:23:46.795Z"
+   }
   },
   {
    "id": "0870b155e87d3190",
@@ -10594,7 +10641,24 @@
    ],
    "hasBody": true,
    "changeNote": "Applying as a company, or as a person who registers a charge – Removed line about asking for an assessment from a relevant authority. This is no longer part of the process. ",
-   "firstPublished": "2020-09-16T00:00:00+01:00"
+   "firstPublished": "2020-09-16T00:00:00+01:00",
+   "ai": {
+    "summary": "Guidance explains how companies, LLPs and individuals can apply to remove home address, signature, occupation or day of birth from the public register, the required forms, fees, evidence, processing times and appeal rights.",
+    "whoAffected": "Directors, secretaries, persons with significant control, LLP members and other officers of UK companies or LLPs, and any individual applying to remove personal details from a Companies House document.",
+    "effectiveDate": "2026-02-23",
+    "actions": [
+     "Determine whether the client is applying as an individual (use form SR01) or as a company/charge registrant (use SR02 or SR03) and confirm eligibility criteria.",
+     "Collect any required replacement address, supporting evidence and, if applicable, a court order under section 117(3).",
+     "Complete the appropriate form, pay the £34 fee for each document, and post the application to the Registrar of Companies in Cardiff.",
+     "Inform the client of the minimum 30‑day processing time, possible requests for additional evidence, and the right to appeal a refusal within 28 days."
+    ],
+    "legislationRefs": [
+     "section 117(3)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-17T09:23:50.230Z"
+   }
   },
   {
    "id": "64ace2b9681cfa08",
@@ -11050,7 +11114,24 @@
    ],
    "hasBody": true,
    "changeNote": "Fee updated.",
-   "firstPublished": "2020-12-31T00:00:00+00:00"
+   "firstPublished": "2020-12-31T00:00:00+00:00",
+   "ai": {
+    "summary": "Guidance outlines UKEIG features, who must register with Companies House, and notes that UK EEIGs were automatically converted on 1 Jan 2021. It applies to existing UKEIGs, prospective members/managers, and UK offices of overseas EEIGs.",
+    "whoAffected": "Businesses currently registered as EEIGs in the UK, members or managers of UKEIGs, and organisations establishing a UK office for an EEIG whose official address is outside the UK",
+    "effectiveDate": "2026-02-01",
+    "actions": [
+     "Confirm whether any client EEIG was registered in the UK before 1 Jan 2021 and note its automatic conversion to a UKEIG",
+     "Advise members and managers of UKEIGs on their Companies House filing obligations",
+     "Update client registration details with Companies House to reflect UKEIG status where required",
+     "Ensure clients setting up a UK office for a foreign EEIG comply with the UKEIG filing guidance"
+    ],
+    "legislationRefs": [
+     "The European Economic Interest Grouping (Amendment) (EU Exit) Regulations 2018"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-17T09:24:01.603Z"
+   }
   },
   {
    "id": "6ff6479113693613",
@@ -11083,7 +11164,22 @@
    ],
    "hasBody": true,
    "changeNote": "Fees updated.",
-   "firstPublished": "2016-04-05T00:00:00+01:00"
+   "firstPublished": "2016-04-05T00:00:00+01:00",
+   "ai": {
+    "summary": "Guide for directors or permanent representatives of overseas companies with a UK establishment to apply to hide their residential address and suppress specified addresses on the public register.",
+    "whoAffected": "Directors or permanent representatives of overseas companies with a registered UK establishment, and advisers to such companies",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients who are directors or permanent representatives of overseas companies with a UK establishment",
+     "Prepare and submit the application to restrict disclosure of their residential address",
+     "Ensure any specified addresses are suppressed from the public register",
+     "Advise clients on ongoing compliance and record‑keeping requirements"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-17T09:24:05.779Z"
+   }
   },
   {
    "id": "67f9132102f13a61",
@@ -11226,7 +11322,22 @@
    ],
    "hasBody": true,
    "changeNote": "Added translation",
-   "firstPublished": "2026-01-13T16:22:00+00:00"
+   "firstPublished": "2026-01-13T16:22:00+00:00",
+   "ai": {
+    "summary": "ACSPs and their users must sign in with GOV.UK One Login to access services like identity verification, view user lists, and manage account details; owners can update details within 14 days and close the account, while admins can manage users.",
+    "whoAffected": "Account owners, administrators and standard users of an Authorised Corporate Service Provider (ACSP), and the ACSP itself",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Ensure the client has a GOV.UK One Login to sign in to their authorised agent account",
+     "Advise owners to review and update ACSP details within 14 days of any change",
+     "Guide administrators on adding/removing users and assigning appropriate roles",
+     "Remind all users they can verify identities for Companies House and view the user list"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-17T09:24:15.660Z"
+   }
   },
   {
    "id": "b1fdfaf381343173",
@@ -11348,7 +11459,25 @@
    ],
    "hasBody": true,
    "changeNote": "Outcome added.",
-   "firstPublished": "2024-04-18T09:54:13+01:00"
+   "firstPublished": "2024-04-18T09:54:13+01:00",
+   "ai": {
+    "summary": "The government is consulting on VAT impacts of two High Court judgments affecting private hire vehicles and passengers, seeking views on possible interventions to reduce adverse effects.",
+    "whoAffected": "Private hire vehicle operators, drivers, owners and their passengers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the consultation and its deadlines",
+     "Assess how the judgments could affect clients' VAT positions",
+     "Gather client input on potential adverse effects",
+     "Prepare and submit comments to HMRC on behalf of affected clients"
+    ],
+    "legislationRefs": [
+     "Uber Britannia Limited v Sefton Borough Council",
+     "Uber London Limited v Transport for London"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-17T09:24:23.524Z"
+   }
   },
   {
    "id": "3bbd84dc52974000",
@@ -11413,7 +11542,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2025-11-19T11:30:03+00:00"
+   "firstPublished": "2025-11-19T11:30:03+00:00",
+   "ai": {
+    "summary": "Companies must meet legal duties to identify and record people with significant control (PSCs); non‑compliance can be a criminal offence punishable by fine or imprisonment.",
+    "whoAffected": "Companies, including SMEs and owner‑managed businesses, and any individuals who qualify as people with significant control",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify any individuals who meet the PSC criteria for each client company",
+     "Maintain an up‑to‑date PSC register as required by law",
+     "File PSC information with Companies House within the statutory deadlines",
+     "Review compliance regularly to avoid criminal liability"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-17T09:24:30.909Z"
+   }
   },
   {
    "id": "b40ffbebb26a9436",
