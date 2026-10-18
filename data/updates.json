@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-17T09:24:35.564Z",
+ "generatedAt": "2026-10-18T09:40:26.433Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -10811,7 +10811,26 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-02-05T10:17:49+00:00"
+   "firstPublished": "2026-02-05T10:17:49+00:00",
+   "ai": {
+    "summary": "Three firms providing company‑secretary services to overseas clients, mainly from China, were wound‑up for operating unregistered, failing AML checks and creating false UK business appearances, prompting the Insolvency Service to protect the Companies House register.",
+    "whoAffected": "UK company directors, owners of SMEs/owner‑managed businesses, self‑employed professionals and consumers dealing with companies formed through third‑party agents.",
+    "effectiveDate": "29 January (wound‑up date)",
+    "actions": [
+     "Verify that any formation or secretarial agent is registered with HMRC as a trust and company service provider (TCSP).",
+     "Carry out anti‑money laundering due‑diligence checks on clients before registering a UK company.",
+     "Confirm the client has a genuine operational UK address and not just a mailbox address.",
+     "Monitor Companies House filings to ensure dormant accounts match actual trading activity."
+    ],
+    "legislationRefs": [
+     "HM Revenue and Customs (HMRC) registration as trust and company service providers (TCSPs)",
+     "anti‑money laundering rules",
+     "Companies House register"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-18T09:39:50.867Z"
+   }
   },
   {
    "id": "e428123e647fb370",
@@ -10860,7 +10879,24 @@
    ],
    "hasBody": true,
    "changeNote": "Fee updated.",
-   "firstPublished": "2022-07-25T00:00:00+01:00"
+   "firstPublished": "2022-07-25T00:00:00+01:00",
+   "ai": {
+    "summary": "Overseas entities buying, selling or transferring UK property must register with Companies House, providing details of the entity, its beneficial owners or managing officers, and the UK‑regulated agent, to obtain an Overseas Entity ID. Non‑compliance can lead to fines, imprisonment or restrictions on property transactions.",
+    "whoAffected": "Overseas entities that deal with UK property or land, their registrable beneficial owners or managing officers, and the UK‑regulated agents acting for them",
+    "effectiveDate": "1 August 2022",
+    "actions": [
+     "Confirm whether any overseas‑entity clients are acquiring, disposing or holding UK property and verify their registration status",
+     "Collect all required information – entity details, beneficial owners, managing officers and UK‑regulated agent data – as set out in the guidance",
+     "Submit the registration to Companies House before the applicable deadline and obtain the Overseas Entity ID",
+     "Notify clients of the penalties for non‑compliance and ensure the ID is supplied to the land registry for future transactions"
+    ],
+    "legislationRefs": [
+     "Economic Crime (Transparency and Enforcement) Act 2022"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-18T09:39:53.974Z"
+   }
   },
   {
    "id": "c5864c1e8ac0169f",
@@ -10876,7 +10912,22 @@
    ],
    "hasBody": true,
    "changeNote": "Fee updated.",
-   "firstPublished": "2024-04-17T00:00:00+01:00"
+   "firstPublished": "2024-04-17T00:00:00+01:00",
+   "ai": {
+    "summary": "Overseas entities that no longer own UK property can apply to be removed from the Register of Overseas Entities, provided all information is up‑to‑date and any required verification checks are completed.",
+    "whoAffected": "Overseas entities that own or have owned UK property, their beneficial owners, managing officers, and the UK‑regulated agents assisting them",
+    "effectiveDate": "2026-02-01",
+    "actions": [
+     "Confirm the entity is no longer listed as a registered owner on the relevant land‑registry records by conducting searches with HM Land Registry, Land Register of Scotland and Land Registry for Northern Ireland",
+     "Update any changed information about the entity, beneficial owners or managing officers and have it verified by a UK‑regulated agent within the last 3 months",
+     "Gather the Overseas Entity ID, authentication code, contact details and, if applicable, the agent assurance code for the verification agent",
+     "Submit the removal application via a Companies House account, provide required details and pay the £301 fee"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-18T09:39:57.573Z"
+   }
   },
   {
    "id": "6e70451e9b30d3c4",
@@ -11148,7 +11199,22 @@
    ],
    "hasBody": true,
    "changeNote": "Fee updated.",
-   "firstPublished": "2017-07-18T00:00:00+01:00"
+   "firstPublished": "2017-07-18T00:00:00+01:00",
+   "ai": {
+    "summary": "To file a Scottish limited partnership confirmation statement, complete and save the CS01 form, then upload it to Companies House online, paying the £110 fee by card. Online filing is faster than posting paper copies.",
+    "whoAffected": "Scottish limited partnerships that need to submit a confirmation statement (SLP CS01)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Complete the SLP CS01 form",
+     "Save the completed form to your device",
+     "Upload the form to Companies House and pay the £110 fee by debit or credit card",
+     "Use the online filing service instead of posting to avoid longer processing times"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-18T09:40:03.547Z"
+   }
   },
   {
    "id": "4cae9e2d2d5b3525",
@@ -11306,7 +11372,22 @@
    ],
    "hasBody": true,
    "changeNote": "Fee updated.",
-   "firstPublished": "2010-08-01T00:00:00+01:00"
+   "firstPublished": "2010-08-01T00:00:00+01:00",
+   "ai": {
+    "summary": "Apply for administrative restoration by submitting RT01 with required documents and fees (£341 plus £64 waiver) if the client was a director/shareholder of a trading company dissolved within 6 years; missing info or fee leads to rejection.",
+    "whoAffected": "Directors or shareholders of a company that was struck off and dissolved by the Registrar within the last 6 years while it was trading",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm client meets eligibility (director/shareholder, dissolved within 6 years and was trading)",
+     "Collect completed RT01, any outstanding accounts or confirmation statements, late filing penalties and a bona vacantia waiver letter",
+     "Include the correct fees (£341 application fee and £64 waiver fee) with the submission",
+     "Post the full package to Companies House main office; advise client not to call for assistance"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-18T09:40:11.258Z"
+   }
   },
   {
    "id": "f7f56e70b1ef5202",
@@ -11641,7 +11722,25 @@
    ],
    "hasBody": true,
    "changeNote": "Accessible version added.",
-   "firstPublished": "2023-07-18T14:33:28+01:00"
+   "firstPublished": "2023-07-18T14:33:28+01:00",
+   "ai": {
+    "summary": "The government proposes to modernise the VAT rules for wholesale commodity trades under the Terminal Markets Order, adding the UK Emissions Trading Scheme and updating post‑EU exit rules for greater certainty.",
+    "whoAffected": "Businesses that conduct wholesale commodity transactions on named commodity exchanges or market associations (terminal markets), including SMEs, owner‑managed firms and self‑employed traders in that sector",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review which clients trade on terminal markets and assess current VAT treatment",
+     "Track the consultation and consider submitting client feedback",
+     "Prepare to advise clients on potential VAT changes once the TMO is updated",
+     "Update client guidance to include the UK Emissions Trading Scheme within the TMO scope"
+    ],
+    "legislationRefs": [
+     "Terminal Markets Order (TMO)",
+     "UK Emissions Trading Scheme"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-18T09:40:24.932Z"
+   }
   }
  ]
 }
