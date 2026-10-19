@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-19T10:48:57.804Z",
+ "generatedAt": "2026-10-19T18:43:43.347Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,108 @@
    "label": "Other"
   }
  ],
- "count": 397,
+ "count": 400,
  "items": [
+  {
+   "id": "9a8bffc236f5e1cc",
+   "title": "VAT refunds for constructing a new charity building",
+   "url": "https://www.gov.uk/guidance/vat-refunds-for-constructing-a-new-charity-building",
+   "path": "/guidance/vat-refunds-for-constructing-a-new-charity-building",
+   "date": "2026-10-19T11:57:03Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Check if you can claim a VAT refund using the DIY housebuilders scheme if you’re constructing a new charity building, for a charitable or relevant residential purpose. ",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Section ‘Claims rejected or not paid in full’ has been updated with what to do if you think HMRC has missed key information or misunderstood something in your claim.",
+   "firstPublished": "2023-12-05T00:00:00+00:00",
+   "ai": {
+    "summary": "Charities building new premises for a charitable or relevant residential purpose can claim a VAT refund under the DIY housebuilders scheme, provided the use is at least 95% qualifying. Claims must be submitted within 3 months (pre‑5 Dec 2023) or 6 months (post‑5 Dec 2023) of completion with full documentation.",
+    "whoAffected": "Charities constructing new buildings for charitable or relevant residential purposes, and any agents authorised to act on their behalf",
+    "effectiveDate": "2026-10-19",
+    "actions": [
+     "Confirm the charity is HMRC‑recognised and the building’s use meets the 95% ‘solely’ requirement",
+     "Collect all required documents: claim form, invoice schedule, construction evidence, planning permission, building plans and any minor‑use declaration",
+     "Submit the claim via the online service or form VAT431NB, optionally authorising an agent using form 64‑8",
+     "Track the claim timeline (3 months or 6 months after completion) and respond to HMRC queries or appeal decisions within 30 days"
+    ],
+    "legislationRefs": [
+     "VAT431NB",
+     "64-8"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-19T18:43:16.375Z"
+   }
+  },
+  {
+   "id": "2d4af363f72f5883",
+   "title": "VAT refunds for new builds if you’re a DIY housebuilder",
+   "url": "https://www.gov.uk/guidance/vat-refunds-for-new-builds-if-youre-a-diy-housebuilder",
+   "path": "/guidance/vat-refunds-for-new-builds-if-youre-a-diy-housebuilder",
+   "date": "2026-10-19T11:56:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Check if you can claim a VAT refund using the DIY housebuilders scheme, if you’re building a new house.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Section ‘Claims rejected or not paid in full’ has been updated with what to do if you think HMRC has missed key information or misunderstood something in your claim.",
+   "firstPublished": "2023-12-05T00:00:00+00:00",
+   "ai": {
+    "summary": "DIY housebuilders can claim back VAT on eligible building materials for new residential builds, provided they have planning permission, the property is for personal or family use, and only qualifying goods are purchased.",
+    "whoAffected": "Individuals or relatives building a new dwelling for residential or holiday use under the DIY housebuilders scheme, including those buying a shell and fitting it out; not applicable to builds intended for sale, letting or other business purposes.",
+    "effectiveDate": "2026-10-19T11:56:02Z",
+    "actions": [
+     "Obtain and submit copies of full or outline planning permission (including any reserved matters) and any Section 106 or Section 75 agreement, keeping originals safe.",
+     "Confirm the project meets the definition of a new build and is intended as a family home, not for business or rental use.",
+     "Identify only eligible building‑material purchases (exclude furniture, appliances, carpets, garden items, tools, consumables, and land) and ensure VAT was correctly charged on those items.",
+     "Prepare the VAT refund claim with the required evidence of lawful works and eligible goods, and submit it to HMRC following the scheme’s guidance."
+    ],
+    "legislationRefs": [
+     "Section 106 Agreement",
+     "Section 75 Agreement"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-19T18:43:19.746Z"
+   }
+  },
+  {
+   "id": "c58deec4c696d76c",
+   "title": "Pay money laundering regulations fees",
+   "url": "https://www.gov.uk/guidance/pay-money-laundering-regulations-fees-and-penalty-charges",
+   "path": "/guidance/pay-money-laundering-regulations-fees-and-penalty-charges",
+   "date": "2026-10-19T11:51:10Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay money laundering fees, and the time it takes for your payment to reach HMRC.\r\n\r\n\r\n",
+   "categories": [
+    "compliance",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved. ",
+   "firstPublished": "2014-10-30T00:00:00+00:00",
+   "ai": {
+    "summary": "Clients must pay money‑laundering supervision fees to HMRC when registering and annually. Payments must use the correct 14‑character reference, be made by the deadline (earlier if weekend/holiday), and can be paid online, by card, or bank transfer. Wrong references cause delays or misallocation.",
+    "whoAffected": "Businesses and individuals required to register for anti‑money laundering supervision (e.g., SMEs, owner‑managed firms, self‑employed)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Obtain and record the 14‑character reference number; email MLRCIT@hmrc.gov.uk if missing",
+     "Pay the fee when first applying and at each annual supervision using the correct reference and a suitable method (online, card or bank transfer)",
+     "Ensure payment is sent so it reaches HMRC by the end of the previous working day if the deadline falls on a weekend or bank holiday",
+     "If the wrong reference is used, advise the client to contact MLRCIT@hmrc.gov.uk to have the payment moved"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-19T18:43:23.276Z"
+   }
+  },
   {
    "id": "d21dc43c14e9a042",
    "title": "How VAT affects charities (VAT Notice 701/1)",
@@ -11390,7 +11490,22 @@
    ],
    "hasBody": true,
    "changeNote": "Fee updated.",
-   "firstPublished": "2014-09-19T00:00:00+01:00"
+   "firstPublished": "2014-09-19T00:00:00+01:00",
+   "ai": {
+    "summary": "Apply to strike off a company using form DS01, ensuring all business closure duties are met; online applications cost £13, paper forms £18, and the company’s bank account freezes at dissolution with any assets passing to the Crown.",
+    "whoAffected": "Directors and owners of limited companies seeking to dissolve their business",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the client has fulfilled all closure responsibilities before filing",
+     "Choose online DS01 unless a paper form is required",
+     "Pay the correct fee (£13 online or £18 by cheque/postal order)",
+     "Warn that the bank account will be frozen and assets will pass to the Crown unless the company is restored"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-19T18:43:31.083Z"
+   }
   },
   {
    "id": "733bebb340204113",
@@ -11644,7 +11759,24 @@
    ],
    "hasBody": true,
    "changeNote": "Outcome added.",
-   "firstPublished": "2024-10-30T13:53:27+00:00"
+   "firstPublished": "2024-10-30T13:53:27+00:00",
+   "ai": {
+    "summary": "The government is consulting on extending the higher Air Passenger Duty rate to all private jets, including business jets, and reviewing if the weight and passenger‑capacity criteria remain suitable.",
+    "whoAffected": "Operators and passengers of private jets, including business jets",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the consultation and any forthcoming decisions",
+     "Inform clients who own or use private jets about the potential higher APD",
+     "Review current APD liabilities for affected clients",
+     "Prepare to adjust cost forecasts if the higher rate is applied"
+    ],
+    "legislationRefs": [
+     "Air Passenger Duty (APD)"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-19T18:43:36.967Z"
+   }
   },
   {
    "id": "6dbf838223df0cd1",
@@ -11660,7 +11792,26 @@
    ],
    "hasBody": true,
    "changeNote": "Outcome of consultation added.",
-   "firstPublished": "2025-03-26T13:07:21+00:00"
+   "firstPublished": "2025-03-26T13:07:21+00:00",
+   "ai": {
+    "summary": "The government is consulting on a new process to give major projects tax certainty, confirming that Cost Contribution Arrangements can be secured via existing Advance Pricing Agreements, and proposing a revised advance clearance system for R&D reliefs.",
+    "whoAffected": "Businesses undertaking major projects, firms using Cost Contribution Arrangements, and companies claiming Research & Development reliefs",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the consultation outcomes for major‑project tax certainty",
+     "Advise clients on using the existing Advance Pricing Agreement programme for CCAs",
+     "Prepare clients for a possible revised advance clearance system for R&D reliefs",
+     "Submit client responses to advancetaxcertainty@hmtreasury.gov.uk and advancetaxcertainty@hmrc.gov.uk"
+    ],
+    "legislationRefs": [
+     "Corporate Tax Roadmap",
+     "Advance Pricing Agreement programme",
+     "Research & Development reliefs"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-19T18:43:40.277Z"
+   }
   },
   {
    "id": "773e22d1ef11af50",
