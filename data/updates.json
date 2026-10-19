@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-18T09:40:26.433Z",
+ "generatedAt": "2026-10-19T10:48:57.804Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,138 @@
    "label": "Other"
   }
  ],
- "count": 396,
+ "count": 397,
  "items": [
+  {
+   "id": "d21dc43c14e9a042",
+   "title": "How VAT affects charities (VAT Notice 701/1)",
+   "url": "https://www.gov.uk/guidance/how-vat-affects-charities-notice-7011",
+   "path": "/guidance/how-vat-affects-charities-notice-7011",
+   "date": "2026-10-19T10:45:15Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out what a charity is, how VAT affects charities, how to treat a charity's income for VAT and what VAT reliefs a charity can get on what it buys.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "The guidance in ‘Charity acting as an agent’ within section 10 (Charity challenge events) has been updated to show the correct rate of VAT due from the charity as output tax.",
+   "firstPublished": "2014-10-28T00:00:00+00:00",
+   "ai": {
+    "summary": "VAT Notice 701/1 explains what qualifies as a charity, when charities must register for VAT, the categories of supplies (taxable, exempt, zero‑rated), reliefs on purchases, and rules for trading subsidiaries and VAT groups.",
+    "whoAffected": "Charities, their trading subsidiaries, businesses that supply to charities, charity fundraisers and users of charity services",
+    "effectiveDate": "2026-10-19T10:45:15Z",
+    "actions": [
+     "Confirm the organisation meets the statutory definition of a charity and has HMRC recognition",
+     "Check the charity’s taxable sales against the VAT registration threshold and advise on compulsory or voluntary registration",
+     "Identify which of the charity’s purchases qualify for VAT reliefs under Schedule 7A, 8 or 9 and ensure proper documentation",
+     "If the charity has a trading subsidiary, assess whether a VAT group registration is beneficial"
+    ],
+    "legislationRefs": [
+     "Value Added Tax Act 1994 Section 29A",
+     "Value Added Tax Act 1994 Section 30",
+     "Value Added Tax Act 1994 Section 31"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-19T10:48:22.780Z"
+   }
+  },
+  {
+   "id": "46dd874b6a8f0945",
+   "title": "Incorporation and names",
+   "url": "https://www.gov.uk/government/publications/incorporation-and-names",
+   "path": "/government/publications/incorporation-and-names",
+   "date": "2026-10-19T10:39:28Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "Sets out the main requirements for incorporating and naming a company in the UK, including business names and charitable incorporated organisations (CIOs).",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "'Chancery Division of the High Court' has been updated to 'Business and Property Division of the High Court' in Annex B. In Annex A, under heading 'University', subheading 'England and Wales' has been updated to 'England and Wales (except Welsh companies within section 88 Companies Act 2006)'. Subheading 'Wales (a Welsh company as specified in section 88 Companies Act 2006)' has become 'Wales (Welsh companies within section 88 Companies Act 2006)'.",
+   "firstPublished": "2013-06-01T00:00:00+01:00",
+   "ai": {
+    "summary": "Guide outlines steps to set up a limited company, covering company type, officers, name rules and public disclosure of addresses.",
+    "whoAffected": "Individuals and entities planning to incorporate a limited company in the UK",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Determine the appropriate type of limited company for the client",
+     "Identify and record the required company officers",
+     "Assist in selecting a company name that meets the stated controls and restrictions",
+     "Inform the client that any home address used as a service or registered address will be publicly available"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-19T10:48:25.413Z"
+   }
+  },
+  {
+   "id": "7a6e5d95423949f7",
+   "title": "Making an entry summary declaration",
+   "url": "https://www.gov.uk/guidance/making-an-entry-summary-declaration",
+   "path": "/guidance/making-an-entry-summary-declaration",
+   "date": "2026-10-19T09:14:51Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Make an entry summary declaration if you move goods into Great Britain, into Northern Ireland from Great Britain, or into Northern Ireland from countries outside the EU.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Section ‘If you cannot submit declarations’ has been updated to include what you need to provide to identify your declaration.\r\nThe file 'Entry summary declaration data elements for the S&S GB service' has been updated.",
+   "firstPublished": "2019-01-10T00:00:00+00:00",
+   "ai": {
+    "summary": "Carriers must submit an entry summary declaration before goods arrive when moving goods into Great Britain or Northern Ireland, using the S&S GB or ICS2 services, with an appropriate GB or XI/EU EORI, via compatible software or a customs agent.",
+    "whoAffected": "Carriers (including SMEs, owner‑managed businesses and self‑employed importers) moving goods into Great Britain or Northern Ireland",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check if the goods being moved require an entry summary declaration (imports into GB or NI)",
+     "Ensure the client has the correct EORI number (GB for GB imports, XI or EU EORI for NI imports)",
+     "Choose a submission method – either self‑submit using compatible XML software or appoint a customs agent/Trader Support Service",
+     "Submit the declaration before arrival (up to 200 days in advance) and amend any errors before the goods reach their destination"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-19T10:48:28.688Z"
+   }
+  },
+  {
+   "id": "1ace804503660064",
+   "title": "Check if a business is registered for money laundering supervision",
+   "url": "https://www.gov.uk/guidance/money-laundering-regulations-supervised-business-register",
+   "path": "/guidance/money-laundering-regulations-supervised-business-register",
+   "date": "2026-10-19T06:29:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out if a business has registered with HMRC under the money laundering regulations and report them if they have not.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The Supervised Business Register has been updated.",
+   "firstPublished": "2014-05-23T00:00:00+01:00",
+   "ai": {
+    "summary": "The Supervised Business Register lists HMRC‑registered businesses under the money‑laundering regulations; use it to confirm a business’s registration, contact them if not listed, and report any unregistered firms.",
+    "whoAffected": "Businesses that must be supervised under the money laundering regulations and anyone checking their registration status",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Search the Supervised Business Register to verify a client’s registration",
+     "If the business does not appear, contact them directly to confirm status",
+     "Advise any unregistered business to register for supervision under the money laundering regulations",
+     "Report suspected unregistered businesses to HMRC"
+    ],
+    "legislationRefs": [
+     "money laundering regulations"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-19T10:48:32.110Z"
+   }
+  },
   {
    "id": "df10b42a381d1de2",
    "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
@@ -526,37 +656,6 @@
    }
   },
   {
-   "id": "7a6e5d95423949f7",
-   "title": "Making an entry summary declaration",
-   "url": "https://www.gov.uk/guidance/making-an-entry-summary-declaration",
-   "path": "/guidance/making-an-entry-summary-declaration",
-   "date": "2026-10-14T13:21:07Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Make an entry summary declaration if you move goods into Great Britain, into Northern Ireland from Great Britain, or into Northern Ireland from countries outside the EU.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "The file 'Entry summary declaration data elements for the S&S GB service' has been updated.",
-   "firstPublished": "2019-01-10T00:00:00+00:00",
-   "ai": {
-    "summary": "You must submit an entry summary declaration before goods arrive when moving them into Great Britain or Northern Ireland (from GB or non‑EU countries). Carriers are responsible, using S&S GB for GB imports or ICS2 for NI imports, via compatible software or a customs agent.",
-    "whoAffected": "Carriers, importers and their customs agents handling goods moving into Great Britain or Northern Ireland – including SMEs, owner‑managed businesses and self‑employed traders who import or transport goods.",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Confirm whether the client’s goods require an entry summary declaration and check for any waivers",
-     "Ensure the client has the correct EORI number (GB for GB imports, XI or EU EORI for NI imports)",
-     "Select compatible software or a qualified customs agent to file the declaration via S&S GB or ICS2 before arrival",
-     "Advise the client to keep the declaration accurate, amend any errors before arrival and retain access for multiple team members"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-14T17:08:13.638Z"
-   }
-  },
-  {
    "id": "a32ea0407b172eb5",
    "title": "Pay duty on biofuels or road fuel gas",
    "url": "https://www.gov.uk/guidance/pay-duty-on-biofuels-or-gas-for-road-use",
@@ -737,39 +836,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-13T19:15:00.992Z"
-   }
-  },
-  {
-   "id": "1ace804503660064",
-   "title": "Check if a business is registered for money laundering supervision",
-   "url": "https://www.gov.uk/guidance/money-laundering-regulations-supervised-business-register",
-   "path": "/guidance/money-laundering-regulations-supervised-business-register",
-   "date": "2026-10-13T09:58:20Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out if a business has registered with HMRC under the money laundering regulations and report them if they have not.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "The Supervised Business Register has been updated.",
-   "firstPublished": "2014-05-23T00:00:00+01:00",
-   "ai": {
-    "summary": "The Supervised Business Register lists businesses registered with HMRC for money‑laundering supervision; you can check a counter‑party’s registration, contact them if not listed, and report unregistered businesses to HMRC.",
-    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who need to verify a counterparty’s AML registration status",
-    "effectiveDate": "2026-10-13",
-    "actions": [
-     "Search the Supervised Business Register to confirm a business is registered for money‑laundering supervision",
-     "If the business does not appear, contact it directly to confirm its registration status",
-     "If it should be registered but is not, report the unregistered business to HMRC as tax fraud or avoidance",
-     "Advise clients to ensure they are registered to receive AML guidance and meet their regulatory obligations"
-    ],
-    "legislationRefs": [
-     "money laundering regulations"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-13T12:44:16.784Z"
    }
   },
   {
@@ -6834,37 +6900,6 @@
    }
   },
   {
-   "id": "46dd874b6a8f0945",
-   "title": "Incorporation and names",
-   "url": "https://www.gov.uk/government/publications/incorporation-and-names",
-   "path": "/government/publications/incorporation-and-names",
-   "date": "2026-07-21T14:53:08Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "Sets out the main requirements for incorporating and naming a company in the UK, including business names and charitable incorporated organisations (CIOs).",
-   "categories": [
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated wording under 'Annex A - 87. Ombudsman' to clarify that the list of requirements only applies to non-statutory bodies.",
-   "firstPublished": "2013-06-01T00:00:00+01:00",
-   "ai": {
-    "summary": "The guide outlines what you need to know to set up a limited company, including choosing the company type, appointing officers, naming rules, and the public nature of registered addresses.",
-    "whoAffected": "Clients intending to incorporate a limited company, including SMEs, owner‑managed businesses and the self‑employed",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Confirm the appropriate company type for the client’s business",
-     "Ensure all required officers are identified and their details recorded",
-     "Check the proposed company name against naming controls and restrictions",
-     "Advise the client that any home address used as a service or registered address will be publicly visible"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-07T11:50:02.132Z"
-   }
-  },
-  {
    "id": "aff4f8d1ba377b93",
    "title": "Basic PAYE Tools user guide",
    "url": "https://www.gov.uk/government/publications/basic-paye-tools-user-guide",
@@ -11261,7 +11296,22 @@
    ],
    "hasBody": true,
    "changeNote": "Fee updated.",
-   "firstPublished": "2024-03-04T00:00:00+00:00"
+   "firstPublished": "2024-03-04T00:00:00+00:00",
+   "ai": {
+    "summary": "The CS01 form confirms a company’s details on the Companies House register. It costs £110 on paper, but filing online is quicker, easier and cheaper. Use parts 1‑4 for changes to SIC, capital, share status, PSC and shareholders; part 5 for a registered email; provide director identity verification.",
+    "whoAffected": "All limited companies, including SMEs and owner‑managed businesses, that must file a confirmation statement with Companies House",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Advise clients to file the confirmation statement online to reduce cost and time",
+     "Check the CS01 for any required updates to SIC codes, capital, share trading status, PSC or shareholder details",
+     "Ensure a registered email address is supplied using part 5 if not already on record",
+     "Confirm that identity verification details for all current directors are provided"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-19T10:48:39.558Z"
+   }
   },
   {
    "id": "1574bcee72946d59",
@@ -11491,7 +11541,17 @@
    ],
    "hasBody": true,
    "changeNote": "Added Welsh translation. ",
-   "firstPublished": "2025-11-17T00:00:00+00:00"
+   "firstPublished": "2025-11-17T00:00:00+00:00",
+   "ai": {
+    "summary": "Companies House will monitor and adjust its enforcement approach for mandatory identity verification over time.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-19T10:48:45.375Z"
+   }
   },
   {
    "id": "cdc5d448484a701b",
@@ -11507,7 +11567,17 @@
    ],
    "hasBody": true,
    "changeNote": "Correction slip added to web and print versions of Budget 2025 document",
-   "firstPublished": "2025-11-26T00:00:00+00:00"
+   "firstPublished": "2025-11-26T00:00:00+00:00",
+   "ai": {
+    "summary": "Not stated in source",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-19T10:48:47.667Z"
+   }
   },
   {
    "id": "bbac4733128d2f7a",
@@ -11607,7 +11677,24 @@
    ],
    "hasBody": true,
    "changeNote": "Summary of responses document added.",
-   "firstPublished": "2025-04-28T14:42:46+01:00"
+   "firstPublished": "2025-04-28T14:42:46+01:00",
+   "ai": {
+    "summary": "The government is consulting on a new VAT relief for business‑donated goods given to charities for free distribution or service use, aiming to align current rules that only cover charitable sales, while maintaining VAT system security.",
+    "whoAffected": "Businesses that donate goods to charities and the charities receiving those goods for distribution or service delivery",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the consultation and note key dates",
+     "Gather client opinions on potential relief and its impact",
+     "Advise clients on current VAT treatment and possible future changes",
+     "Prepare briefing material for clients once proposals are finalised"
+    ],
+    "legislationRefs": [
+     "VAT rules"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-19T10:48:54.763Z"
+   }
   },
   {
    "id": "3e1c877b24832ed6",
