@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-19T18:43:43.347Z",
+ "generatedAt": "2026-10-20T10:06:41.157Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,39 @@
    "label": "Other"
   }
  ],
- "count": 400,
+ "count": 401,
  "items": [
+  {
+   "id": "f1a1a862d762efa5",
+   "title": "Tell HMRC an entity liable for the Economic Crime Levy has become insolvent",
+   "url": "https://www.gov.uk/guidance/tell-hmrc-an-entity-liable-for-the-economic-crime-levy-has-become-insolvent",
+   "path": "/guidance/tell-hmrc-an-entity-liable-for-the-economic-crime-levy-has-become-insolvent",
+   "date": "2026-10-20T09:54:57Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Cancel an organisation or individual's registration for the Economic Crime Levy and send any final returns to HMRC, if they've become insolvent.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The link to the online form has been updated. ",
+   "firstPublished": "2026-04-10T14:34:00+01:00",
+   "ai": {
+    "summary": "Use HMRC’s online form to submit final Economic Crime Levy returns and cancel registration when a liable organisation or individual becomes insolvent, provided you’re the appointed trustee, liquidator or administrator.",
+    "whoAffected": "Organisations or individuals liable for the Economic Crime Levy that have entered insolvency, and their appointed trustees, liquidators or administrators.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Gather the required details: name, address, levy registration number, insolvency type, insolvency start date and intended deregistration date.",
+     "Confirm you are an authorised party (trustee in bankruptcy, liquidator or administrator).",
+     "Sign in to the online form using HMRC credentials or email verification and submit the final returns and cancellation request.",
+     "Record the reference number and await HMRC confirmation, noting they will respond within 28 working days."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-20T10:06:18.039Z"
+   }
+  },
   {
    "id": "9a8bffc236f5e1cc",
    "title": "VAT refunds for constructing a new charity building",
@@ -11078,7 +11109,25 @@
    ],
    "hasBody": true,
    "changeNote": "Fee updated.",
-   "firstPublished": "2023-06-28T00:00:00+01:00"
+   "firstPublished": "2023-06-28T00:00:00+01:00",
+   "ai": {
+    "summary": "Overseas entities must file an annual update statement confirming register details, even if unchanged. Late filing is a criminal offence and invalidates the entity ID. Information must be verified by a UK‑regulated agent within 3 months, and an authentication code and fee are required.",
+    "whoAffected": "All overseas entities and anyone filing on their behalf (beneficial owners, managing officers, UK‑regulated agents)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review the entity’s register information and note any changes or confirm it is unchanged",
+     "Ensure any new or changed information is verified by a UK‑regulated agent no more than 3 months before the statement date",
+     "Obtain the entity’s authentication code (and agent assurance code if applicable) and file the online update statement within 14 days of the statement date, paying the required fee",
+     "If required information cannot be provided online, contact enquiries@companieshouse.gov.uk to file a paper statement"
+    ],
+    "legislationRefs": [
+     "Economic Crime and Corporate Transparency Act 2023",
+     "Money Laundering, Terrorist Financing and Transfer of Funds Regulations 2017"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-20T10:06:29.871Z"
+   }
   },
   {
    "id": "7c901d791e0250ef",
@@ -11218,7 +11267,22 @@
    ],
    "hasBody": true,
    "changeNote": "Fee updated.",
-   "firstPublished": "2019-01-15T00:00:00+00:00"
+   "firstPublished": "2019-01-15T00:00:00+00:00",
+   "ai": {
+    "summary": "A charge (e.g., mortgage) must be registered with Companies House within 21 days of creation, using form MR01 online (fee £14) or paper (£24). Include a certified copy of the instrument, optionally redacting personal data. Registering later requires a court order. Keep records up‑to‑date and notify Companies House when a charge is satisfied or property released.",
+    "whoAffected": "Limited companies, limited liability partnerships, their lenders or agents, and any person interested in the charge",
+    "effectiveDate": "2026-02-01",
+    "actions": [
+     "Check that any new charge is registered within 21 days of creation",
+     "Obtain a certified copy of the charge instrument and redact allowed personal information",
+     "File the charge online using form MR01 (or paper form) and pay the £14 fee",
+     "Notify Companies House via MR04/MR05 when the charge is paid off or property is released"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-20T10:06:32.824Z"
+   }
   },
   {
    "id": "b041070aa431fede",
@@ -11916,7 +11980,29 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2025-06-09T00:00:00+01:00"
+   "firstPublished": "2025-06-09T00:00:00+01:00",
+   "ai": {
+    "summary": "From winter 2025/26, all pensioners in England and Wales earning £35,000 or less will automatically receive a Winter Fuel Payment (£200 or £300). Those earning above the threshold will have the amount recovered via PAYE or Self‑Assessment, with an opt‑out option.",
+    "whoAffected": "Pensioners over State Pension age residing in England and Wales – those with taxable income at or below £35,000 are eligible for the payment; those with income above £35,000 will have the payment recovered via tax mechanisms.",
+    "effectiveDate": "Winter 2025/26 (qualifying week 15‑21 September 2025)",
+    "actions": [
+     "Inform pensioner clients that the payment is automatic and no registration is required",
+     "Check clients' taxable income to determine if recovery via PAYE or Self‑Assessment will apply",
+     "Advise clients on the opt‑out process and any implications for their tax return",
+     "Ensure any recovery is correctly reflected in clients' PAYE records or Self‑Assessment filings"
+    ],
+    "legislationRefs": [
+     "Winter Fuel Payments",
+     "Office for Budget Responsibility (OBR)",
+     "HMRC",
+     "PAYE",
+     "Self‑Assessment",
+     "DWP"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-20T10:06:39.657Z"
+   }
   },
   {
    "id": "26ff2842e1b1414b",
