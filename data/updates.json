@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-20T10:06:41.157Z",
+ "generatedAt": "2026-10-20T17:00:16.358Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,70 @@
    "label": "Other"
   }
  ],
- "count": 401,
+ "count": 402,
  "items": [
+  {
+   "id": "415571634eb2fe66",
+   "title": "Updates on VAT appeals",
+   "url": "https://www.gov.uk/government/publications/vat-appeal-updates",
+   "path": "/government/publications/vat-appeal-updates",
+   "date": "2026-10-20T11:30:59Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Check the list of VAT appeals that HMRC has lost, or partly lost, that could have implications for other businesses.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "The list of VAT appeals that HMRC has lost and that may have implications for other businesses has been updated with 3 additions, 5 amendments and 3 removals.",
+   "firstPublished": "2010-01-01T00:00:00+00:00",
+   "ai": {
+    "summary": "A regularly updated list shows VAT appeals HMRC has lost or partly lost, which may affect other businesses.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who could be impacted by the precedents set in these appeals",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the HMRC lost‑appeals list for new entries",
+     "Assess whether any listed cases are relevant to a client’s VAT position",
+     "Advise clients on potential implications and any needed corrective actions",
+     "Document any advice and keep records for six months as per the list’s retention period"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-20T16:59:56.762Z"
+   }
+  },
+  {
+   "id": "ba4969f30d1e3682",
+   "title": "Detailed tax guidance for charities",
+   "url": "https://www.gov.uk/government/publications/charities-detailed-guidance-notes",
+   "path": "/government/publications/charities-detailed-guidance-notes",
+   "date": "2026-10-20T10:20:42Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to register a charity for tax, charities' tax obligations, and the reliefs and exemptions available.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "‘Annex ii: non-charitable expenditure’ has been updated to clarify HMRC’s approach to due diligence, record keeping, payments to beneficiaries and overseas bodies. Sections ‘Paying individual beneficiaries’ and ‘Proportionality’ have been added, together with guidance on monitoring the use of charitable funds, maintaining audit trails, and evidencing overseas payments.",
+   "firstPublished": "2013-09-17T00:00:00+01:00",
+   "ai": {
+    "summary": "Guidance outlines charities' direct and indirect tax duties, reliefs and recent updates on non‑charitable expenditure, due diligence, record‑keeping and overseas payments.",
+    "whoAffected": "Charities and their trustees",
+    "effectiveDate": "2026-10-20",
+    "actions": [
+     "Review the updated Annex ii with charity clients to ensure compliance with due‑diligence and record‑keeping requirements",
+     "Check that payments to individual beneficiaries and overseas bodies are properly documented and evidence is retained",
+     "Implement audit‑trail procedures for monitoring the use of charitable funds",
+     "Confirm that any VAT obligations and reliefs are correctly applied"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-20T16:59:59.285Z"
+   }
+  },
   {
    "id": "f1a1a862d762efa5",
    "title": "Tell HMRC an entity liable for the Economic Crime Levy has become insolvent",
@@ -7150,41 +7212,6 @@
    }
   },
   {
-   "id": "ba4969f30d1e3682",
-   "title": "Detailed tax guidance for charities",
-   "url": "https://www.gov.uk/government/publications/charities-detailed-guidance-notes",
-   "path": "/government/publications/charities-detailed-guidance-notes",
-   "date": "2026-07-17T11:17:02Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to register a charity for tax, charities' tax obligations, and the reliefs and exemptions available.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated tax year references in sections 12.3 and 16.6 of ‘Annex VIII A: tainted charity donations on or after 6 April 2026’ to reflect the 2026 to 2027 tax year.",
-   "firstPublished": "2013-09-17T00:00:00+01:00",
-   "ai": {
-    "summary": "Guidance outlines charities' direct tax duties, reliefs and VAT obligations, noting updates to tax year references in Annex VIII A and withdrawal of Chapter 1 and Annex v.",
-    "whoAffected": "Charities and advisers handling charity tax matters",
-    "effectiveDate": "6 April 2026",
-    "actions": [
-     "Review charity clients' current tax positions against the updated guidance",
-     "Amend advice to incorporate the new 2026‑2027 tax year references in Annex VIII A",
-     "Remove any reliance on withdrawn Chapter 1 and Annex v provisions",
-     "Confirm applicable VAT reliefs for each charity client"
-    ],
-    "legislationRefs": [
-     "Annex VIII A",
-     "Chapter 1",
-     "Annex v"
-    ],
-    "relevance": "low",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-07T18:57:44.894Z"
-   }
-  },
-  {
    "id": "f126e0b8b9b04d81",
    "title": "Tax-free savings newsletter 22",
    "url": "https://www.gov.uk/government/publications/tax-free-savings-newsletter-22",
@@ -11585,7 +11612,22 @@
    ],
    "hasBody": true,
    "changeNote": "Fees updated.",
-   "firstPublished": "2020-07-16T00:00:00+01:00"
+   "firstPublished": "2020-07-16T00:00:00+01:00",
+   "ai": {
+    "summary": "From 13 Oct 2025 Companies House WebFiling will require a GOV.UK One Login, replacing the current sign‑in method. Companies must update email details, create or link a One Login, and ensure authorised company lists are current. Online filing saves time, money and reduces penalties, with built‑in checks and faster processing.",
+    "whoAffected": "All limited companies using Companies House WebFiling, including SMEs, owner‑managed businesses and self‑employed directors who file accounts, confirmation statements or other company information online.",
+    "effectiveDate": "13 October 2025",
+    "actions": [
+     "Update the email address on the client’s WebFiling account and match it to any Companies House account",
+     "Create a GOV.UK One Login for the client (using the same email) before 13 Oct 2025",
+     "Connect the client’s WebFiling account to GOV.UK One Login when signing in after 13 Oct 2025",
+     "Review the ‘Your companies’ list in WebFiling and remove any companies the client no longer files for"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-20T17:00:10.907Z"
+   }
   },
   {
    "id": "ef1caac04e184da0",
@@ -11772,7 +11814,27 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2025-11-26T15:58:51+00:00"
+   "firstPublished": "2025-11-26T15:58:51+00:00",
+   "ai": {
+    "summary": "The 2025 Budget announces new tax incentives for businesses, a 40% first‑year capital allowance, expanded EMI and EIS/VCT schemes, a three‑year Stamp Duty Reserve Tax exemption for UK listings, and from April 2027 a reformed ISA with £8,000 dedicated to investments.",
+    "whoAffected": "SMEs, owner‑managed businesses, scale‑up companies, self‑employed entrepreneurs, investors and savers (including over‑65s).",
+    "effectiveDate": "April 2027 (ISA reform)",
+    "actions": [
+     "Advise clients on the upcoming ISA change and the £8,000 investment‑only allowance from April 2027",
+     "Explain the new 40% first‑year capital allowance and how it can accelerate asset purchases",
+     "Review eligibility for expanded Enterprise Management Incentive, Enterprise Investment Scheme and Venture Capital Trust reliefs",
+     "Consider the three‑year Stamp Duty Reserve Tax exemption for clients planning a UK listing"
+    ],
+    "legislationRefs": [
+     "Enterprise Management Incentive",
+     "Enterprise Investment and Venture Capital Trust Schemes",
+     "UK listings relief",
+     "Stamp Duty Reserve Tax"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-20T17:00:14.857Z"
+   }
   },
   {
    "id": "698ab6b0a51cc4ea",
