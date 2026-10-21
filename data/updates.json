@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-21T10:10:55.354Z",
+ "generatedAt": "2026-10-21T17:09:09.809Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,140 @@
    "label": "Other"
   }
  ],
- "count": 403,
+ "count": 404,
  "items": [
+  {
+   "id": "df10b42a381d1de2",
+   "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
+   "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
+   "path": "/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
+   "date": "2026-10-21T12:52:16Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "This list includes details of businesses and sole traders that have had their ACSP status either suspended or ceased (removed).",
+   "categories": [
+    "reporting",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated list of ceased and suspended ACSPs.",
+   "firstPublished": "2025-10-10T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC suspends an ACSP’s status when investigating AML supervision, Companies House filings or identity verification, and ceases it if the provider withdraws or breaches legal duties. The list of ceased or suspended ACSPs is refreshed every two weeks, with up to a two‑week lag.",
+    "whoAffected": "Authorised Corporate Service Providers (businesses and sole traders) and their clients",
+    "effectiveDate": "2026-10-21",
+    "actions": [
+     "Check that ACSP clients keep AML, filing and identity‑verification obligations up to date",
+     "Promptly respond to any HMRC request for information to avoid suspension",
+     "Monitor the bi‑weekly HMRC list for status changes affecting clients",
+     "If status is suspended or ceased, advise remedial steps or re‑registration"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-21T17:08:59.077Z"
+   }
+  },
+  {
+   "id": "3fd5d9da5a8343da",
+   "title": "Self Assessment commercial software suppliers",
+   "url": "https://www.gov.uk/government/publications/self-assessment-commercial-software-suppliers",
+   "path": "/government/publications/self-assessment-commercial-software-suppliers",
+   "date": "2026-10-21T12:34:02Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find software suppliers for tax returns, supplementary pages and attachments.",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "The list of Self Assessment commercial software suppliers has been updated with one addition.",
+   "firstPublished": "2014-01-01T00:00:00+00:00",
+   "ai": {
+    "summary": "Use listed commercial software to file Self Assessment returns; check if it can pull HMRC data for agents or individuals, and ensure users have a unique ID/password via GOV.UK One Login. Get technical support if you develop the software.",
+    "whoAffected": "Agents, individual taxpayers and Self Assessment software developers using commercial software",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check with the software supplier whether their product includes the HMRC data‑pull feature",
+     "Ensure clients using GOV.UK One Login create a unique user ID and password for submissions",
+     "Advise clients to use a listed supplier to submit valid returns, supplementary pages and attachments",
+     "Contact HMRC technical support if you are a software developer needing assistance"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-21T17:09:01.720Z"
+   }
+  },
+  {
+   "id": "7c0f9c706f97f245",
+   "title": "Technical interface specifications for Companies House software",
+   "url": "https://www.gov.uk/government/publications/technical-interface-specifications-for-companies-house-software",
+   "path": "/government/publications/technical-interface-specifications-for-companies-house-software",
+   "date": "2026-10-21T11:14:45Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "Technical specifications for developing software to send information to Companies House digitally.",
+   "categories": [
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Edited attachment 'Important information for software developers - read first'. Under heading 'Applying for a test account', the list of what you'll need to tell us when you set up a test account has been updated. And a link to the form to apply for a test account has been added. Also added the latest version of the attachment 'Companies House technical interface specification (TIS) for accounts'. ",
+   "firstPublished": "2023-09-14T00:00:00+01:00",
+   "ai": {
+    "summary": "Technical specs outline XML, iXBRL and zip requirements for software that files company information digitally to Companies House.",
+    "whoAffected": "Software developers and package accounts filers creating or maintaining Companies House filing applications",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check that the filing software used by the practice complies with the Companies House technical interface specifications",
+     "Confirm the software developer has XML (and iXBRL for accounts) expertise as required",
+     "Review the file structure and validation rules before submitting filings",
+     "Contact xml@companieshouse.gov.uk with any TIS queries"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-21T17:09:04.357Z"
+   }
+  },
+  {
+   "id": "49e9b856e62f42fe",
+   "title": "Benefits for families with more than 2 children before 6 April 2026",
+   "url": "https://www.gov.uk/guidance/claiming-benefits-for-2-or-more-children",
+   "path": "/guidance/claiming-benefits-for-2-or-more-children",
+   "date": "2026-10-21T10:50:18Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "The rules and exceptions that apply if you had more than 2 children before 6 April 2026 and claimed Universal Credit. ",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Universal Credit now pays the extra amount for every child. Removed information on when you will receive any increased payment.",
+   "firstPublished": "2017-04-06T00:00:00+01:00",
+   "ai": {
+    "summary": "From 6 April 2026 the 2‑child limit ends; Universal Credit now pays an extra amount for every child, but extra payments for children born after 6 April 2017 only apply if an exception (multiple birth, adoption, non‑consensual conception, caring arrangement, etc.) is met and count towards the benefit cap.",
+    "whoAffected": "Clients who claim Universal Credit and have more than two children, especially those with children born before or after 6 April 2017 and any with applicable exceptions (multiple birth, adoption, non‑consensual conception, caring arrangements).",
+    "effectiveDate": "6 April 2026",
+    "actions": [
+     "Check each child’s birth date against 6 April 2017 to determine basic entitlement.",
+     "Identify any applicable exceptions and collect the required supporting documents.",
+     "Advise clients to report any new births or changes in responsibility promptly to DWP.",
+     "Use a benefits calculator to see overall entitlement and whether the benefit cap limits the extra child amount."
+    ],
+    "legislationRefs": [
+     "benefit cap",
+     "Severe Disability Premium",
+     "Universal Credit",
+     "Child Tax Credit",
+     "Income Support",
+     "Jobseeker’s Allowance"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-21T17:09:08.308Z"
+   }
+  },
   {
    "id": "4b8dabbef20fb890",
    "title": "What will happen if you do not pay your tax bill",
@@ -467,38 +599,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-19T10:48:32.110Z"
-   }
-  },
-  {
-   "id": "df10b42a381d1de2",
-   "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
-   "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
-   "path": "/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
-   "date": "2026-10-16T15:29:19Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "This list includes details of businesses and sole traders that have had their ACSP status either suspended or ceased (removed).",
-   "categories": [
-    "reporting",
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated list of ceased or suspended Authorised Corporate Service Providers (ACSPs)",
-   "firstPublished": "2025-10-10T00:00:00+01:00",
-   "ai": {
-    "summary": "The UK regulator suspends ACSP status when under investigation or missing AML, filing or identity checks, and ceases it if the provider withdraws or breaches legal duties. The public list of ceased or suspended ACSPs is refreshed every two weeks.",
-    "whoAffected": "Authorised Corporate Service Providers (businesses and sole traders) and their clients who rely on them for company formation or compliance services",
-    "effectiveDate": "2026-10-16",
-    "actions": [
-     "Check the published ceased/suspended ACSP list at least every two weeks",
-     "Verify that any ACSP your client uses is currently active before relying on their services",
-     "Advise clients to switch to an active ACSP if their provider appears on the ceased or suspended list",
-     "Document any ACSP status changes for client records"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-16T16:36:14.167Z"
    }
   },
   {
@@ -2587,38 +2687,6 @@
    }
   },
   {
-   "id": "3fd5d9da5a8343da",
-   "title": "Self Assessment commercial software suppliers",
-   "url": "https://www.gov.uk/government/publications/self-assessment-commercial-software-suppliers",
-   "path": "/government/publications/self-assessment-commercial-software-suppliers",
-   "date": "2026-09-29T10:29:14Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find software suppliers for tax returns, supplementary pages and attachments.",
-   "categories": [
-    "personal"
-   ],
-   "hasBody": true,
-   "changeNote": "The list of Self Assessment commercial software suppliers has been updated with one addition.",
-   "firstPublished": "2014-01-01T00:00:00+00:00",
-   "ai": {
-    "summary": "The updated list of approved commercial software can be used to file Self Assessment returns, supplementary pages and attachments. Some products can retrieve HMRC data for agents or individuals. Users must log in via GOV.UK One Login with a unique ID/password and can seek technical support if they develop software.",
-    "whoAffected": "Agents, individual taxpayers and Self Assessment software developers using commercial software",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Check that your chosen software is on the approved list and includes the HMRC data retrieval feature",
-     "If you are an agent, confirm the software can pull client data for Self Assessment returns",
-     "Create a unique user ID and password via GOV.UK One Login before submitting returns",
-     "Contact the software supplier for technical support if you are a developer",
-     ""
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-29T13:44:59.257Z"
-   }
-  },
-  {
    "id": "fd0b4863be1ae16d",
    "title": "Tax-free savings newsletter 23",
    "url": "https://www.gov.uk/government/publications/tax-free-savings-newsletter-23",
@@ -2799,37 +2867,6 @@
     "relevance": "medium",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-09-29T13:45:25.849Z"
-   }
-  },
-  {
-   "id": "7c0f9c706f97f245",
-   "title": "Technical interface specifications for Companies House software",
-   "url": "https://www.gov.uk/government/publications/technical-interface-specifications-for-companies-house-software",
-   "path": "/government/publications/technical-interface-specifications-for-companies-house-software",
-   "date": "2026-09-25T09:09:13Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "Technical specifications for developing software to send information to Companies House digitally.",
-   "categories": [
-    "reporting"
-   ],
-   "hasBody": true,
-   "changeNote": "TIS for accounts updated.",
-   "firstPublished": "2023-09-14T00:00:00+01:00",
-   "ai": {
-    "summary": "Technical specs detail how to develop software for digitally filing information to Companies House, requiring XML, iXBRL for accounts, zip handling for complex packages, and understanding file structures and validation rules.",
-    "whoAffected": "Software developers of accounts packages, package accounts filers, and developers using Companies House filing service",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Ensure developers have XML expertise",
-     "If filing accounts, ensure iXBRL expertise is available",
-     "Review the required file structure and validation rules before development",
-     "Contact Companies House at xml@companieshouse.gov.uk for clarification"
-    ],
-    "legislationRefs": [],
-    "relevance": "medium",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-29T13:48:21.952Z"
    }
   },
   {
