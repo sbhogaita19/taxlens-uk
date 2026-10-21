@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-20T17:00:16.358Z",
+ "generatedAt": "2026-10-21T10:10:55.354Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,80 @@
    "label": "Other"
   }
  ],
- "count": 402,
+ "count": 403,
  "items": [
+  {
+   "id": "4b8dabbef20fb890",
+   "title": "What will happen if you do not pay your tax bill",
+   "url": "https://www.gov.uk/guidance/what-will-happen-if-you-do-not-pay-your-tax-bill",
+   "path": "/guidance/what-will-happen-if-you-do-not-pay-your-tax-bill",
+   "date": "2026-10-21T09:21:31Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How HMRC uses debt enforcement powers, debt collection agencies and what happens if you live abroad when you do not pay your tax bill. ",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "The list of debt collection agencies who may contact you has been updated.",
+   "firstPublished": "2021-10-18T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC will try to work with taxpayers who can’t pay, offering Time‑to‑Pay or using over‑paid tax, but may visit, use debt collectors or enforce powers like taking possessions if you don’t respond.",
+    "whoAffected": "Individuals, self‑employed, SMEs and owner‑managed businesses in the UK or abroad who owe tax and cannot pay it in full.",
+    "effectiveDate": "2026-10-21",
+    "actions": [
+     "Advise clients to contact the Payment Support Service (UK) or the non‑UK residents helpline immediately if they can’t pay.",
+     "Encourage clients to agree a Time‑to‑Pay arrangement or discuss using over‑paid tax to clear debts.",
+     "Assist clients in completing form 64‑8 if they need an authorised agent to deal with HMRC or a debt collector.",
+     "Monitor any contact from listed debt‑collection agencies and ensure complaints are handled via the agency or HMRC."
+    ],
+    "legislationRefs": [
+     "taking control of goods regulations",
+     "distraint",
+     "summary warrant",
+     "Financial Conduct Authority"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-21T10:10:45.086Z"
+   }
+  },
+  {
+   "id": "60bb768632a84ca5",
+   "title": "Employer Bulletin: October 2026",
+   "url": "https://www.gov.uk/government/publications/employer-bulletin-october-2026",
+   "path": "/government/publications/employer-bulletin-october-2026",
+   "date": "2026-10-21T09:00:03Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "A bi-monthly magazine for employers and agents that gives up-to-date information on payroll topics. ",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-21T10:00:03+01:00",
+   "ai": {
+    "summary": "The October 2026 Employer Bulletin updates on payrolling benefits in kind exceptions and Class 1A NICs, reminds PSA payments are due by 22 Oct 2026, announces mandatory tax adviser registration opening 18 Nov 2026, outlines trade union law changes, highlights the 2026 Tell ABAB Report and child‑benefit entitlement for parent/carer staff.",
+    "whoAffected": "Employers, payroll agents and tax advisers; also parent or carer employees",
+    "effectiveDate": "22 October 2026 (PSA payment deadline) and 18 November 2026 (tax adviser registration opens)",
+    "actions": [
+     "Tell client employers to make their PAYE Settlement Agreement payment by 22 Oct 2026",
+     "Prepare clients for the mandatory tax adviser registration that starts 18 Nov 2026",
+     "Review client payroll for benefits‑in‑kind exceptions and Class 1A NIC implications",
+     "Inform clients about child‑benefit entitlement for parent/carer employees and recent trade‑union law changes"
+    ],
+    "legislationRefs": [
+     "Class 1A National Insurance contributions",
+     "PAYE Settlement Agreement (PSA)",
+     "mandatory tax adviser registration",
+     "trade union law"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-21T10:10:48.928Z"
+   }
+  },
   {
    "id": "415571634eb2fe66",
    "title": "Updates on VAT appeals",
@@ -4666,37 +4738,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-09-30T18:00:42.693Z"
-   }
-  },
-  {
-   "id": "4b8dabbef20fb890",
-   "title": "What will happen if you do not pay your tax bill",
-   "url": "https://www.gov.uk/guidance/what-will-happen-if-you-do-not-pay-your-tax-bill",
-   "path": "/guidance/what-will-happen-if-you-do-not-pay-your-tax-bill",
-   "date": "2026-09-04T10:19:20Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How HMRC uses debt enforcement powers, debt collection agencies and what happens if you live abroad when you do not pay your tax bill. ",
-   "categories": [
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "The list of debt collection agencies used by HMRC has been updated to remove one agency. ",
-   "firstPublished": "2021-10-18T00:00:00+01:00",
-   "ai": {
-    "summary": "If you can’t pay your tax bill, HMRC will first try to contact you and agree an affordable payment plan, using Time‑to‑Pay, adjusting tax codes or using over‑payments. If you don’t engage, they may visit, use debt collection agencies, or enforce by taking possessions, with fees applied.",
-    "whoAffected": "Businesses and individuals (including SMEs, owner‑managed businesses and the self‑employed) who owe tax and may be unable to pay",
-    "effectiveDate": "2026-09-04",
-    "actions": [
-     "Advise the client to contact HMRC’s Payment Support Service (UK) or the non‑UK residents helpline immediately to discuss their situation",
-     "Encourage prompt agreement of a Time‑to‑Pay arrangement or other affordable repayment plan before enforcement action is taken",
-     "If a debt collection agency is involved, guide the client on communication, consent requirements and completing form 64‑8 if an agent acts on their behalf",
-     "Prepare the client for possible enforcement (e.g., possession removal) by explaining the process, associated fees and their rights to complain"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-04T11:08:11.412Z"
    }
   },
   {
@@ -9740,7 +9781,25 @@
    ],
    "hasBody": true,
    "changeNote": "Updated information on Companies House's review of the retention period for dissolved company records.",
-   "firstPublished": "2018-05-25T00:00:00+01:00"
+   "firstPublished": "2018-05-25T00:00:00+01:00",
+   "ai": {
+    "summary": "Companies House makes certain company and officer details public, including service address, nationality and month/year of birth. Home addresses and full dates of birth are kept private but can be accessed by credit agencies and authorities. Records stay on the register for the company’s life and up to 20 years after dissolution.",
+    "whoAffected": "Directors, company secretaries, persons with significant control, authorised corporate service providers and any SME or owner‑managed business that registers a limited company.",
+    "effectiveDate": "2026-05-12",
+    "actions": [
+     "Advise clients to use a service address (not home) for the public register and consider a separate registered office or SAIL.",
+     "Ensure directors, PSCs and secretaries submit required details (name, nationality, month/year DOB) and complete identity verification.",
+     "Explain that home address and full DOB are private but may be disclosed to credit agencies or police; discuss any restriction options.",
+     "Remind clients that company information remains public for up to 20 years after dissolution and that a review of record retention is underway."
+    ],
+    "legislationRefs": [
+     "section 3(6) of the Public Records Act 1958",
+     "Corporate Transparency and Register Reform consultation"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-21T10:10:53.853Z"
+   }
   },
   {
    "id": "2d97c41fb3ebdd11",
