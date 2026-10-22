@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-21T17:09:09.809Z",
+ "generatedAt": "2026-10-22T10:13:09.812Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,74 @@
    "label": "Other"
   }
  ],
- "count": 404,
+ "count": 406,
  "items": [
+  {
+   "id": "3232fad80501cb35",
+   "title": "Use a software provider to prepare package accounts for Companies House",
+   "url": "https://www.gov.uk/guidance/use-a-software-provider-to-prepare-package-accounts-for-companies-house",
+   "path": "/guidance/use-a-software-provider-to-prepare-package-accounts-for-companies-house",
+   "date": "2026-10-22T08:44:31Z",
+   "type": "detailed_guide",
+   "source": "Companies House (GOV.UK)",
+   "description": "A list of software providers you can use to prepare certain specialist package accounts types, such as audit exempt subsidiary accounts.",
+   "categories": [
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Welsh translation added.",
+   "firstPublished": "2025-08-19T00:00:00+01:00",
+   "ai": {
+    "summary": "The guide lists approved software providers for preparing iXBRL‑tagged ZIP package accounts, required for filing various specialist accounts (CICs, audit‑exempt subsidiaries, limited partnerships, UKSEF, group and Welsh accounts) with Companies House online.",
+    "whoAffected": "Companies that must file package accounts – e.g., community interest companies, audit‑exempt or dormant subsidiaries, limited partnerships, UKSEF filers, group accounts and Welsh accounts – and the accountants advising them.",
+    "effectiveDate": "2026-10-22",
+    "actions": [
+     "Identify which type of package accounts the client needs to file",
+     "Select a suitable software provider from the listed options that supports ZIP and iXBRL tagging",
+     "Prepare the accounts using the software, ensuring the correct package type is selected",
+     "Upload the ZIP file to Companies House via the online filing service"
+    ],
+    "legislationRefs": [
+     "section 400, parent incorporated under UK law",
+     "section 401, parent incorporated under non-UK law",
+     "Companies Act 2006"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-22T10:13:04.854Z"
+   }
+  },
+  {
+   "id": "a7c2f2b8b2de843c",
+   "title": "Tell HMRC your employment related securities scheme has ended",
+   "url": "https://www.gov.uk/guidance/tell-hmrc-your-employment-related-securitiesscheme-has-ended",
+   "path": "/guidance/tell-hmrc-your-employment-related-securitiesscheme-has-ended",
+   "date": "2026-10-22T07:45:08Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "What you need to do to cease an employment related securities scheme.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Information has been added about submitting an annual return, including a nil return, after the scheme end date has passed.",
+   "firstPublished": "2024-10-10T14:00:00+01:00",
+   "ai": {
+    "summary": "Employers must formally end an employment related securities (ERS) scheme by signing into HMRC Online Services, selecting the scheme, providing the final event date and filing any outstanding annual returns (including nil) by 6 July after the tax year ends.",
+    "whoAffected": "Employers who have registered an employment related securities (ERS) scheme, including SMEs and owner‑managed businesses",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Sign in to HMRC Online Services for employers and choose the ‘Employment related Securities’ card",
+     "View your schemes, select the one to end and provide the date the scheme stopped",
+     "Submit any outstanding ERS annual returns (including a nil return) for the relevant tax year by 6 July following the year‑end",
+     "If closing the linked PAYE scheme, ensure the ERS scheme is ended first"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-22T10:13:08.312Z"
+   }
+  },
   {
    "id": "df10b42a381d1de2",
    "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
