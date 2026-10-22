@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-22T10:13:09.812Z",
+ "generatedAt": "2026-10-22T17:07:52.769Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,103 @@
    "label": "Other"
   }
  ],
- "count": 406,
+ "count": 407,
  "items": [
+  {
+   "id": "781d205529cc0d61",
+   "title": "PM puts communities first in government investment rules shake up",
+   "url": "https://www.gov.uk/government/news/pm-puts-communities-first-in-government-investment-rules-shake-up",
+   "path": "/government/news/pm-puts-communities-first-in-government-investment-rules-shake-up",
+   "date": "2026-10-22T15:34:37Z",
+   "type": "news_story",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "Partnership with local leaders shows No10 North in action putting power back into communities",
+   "categories": [
+    "selfemployed"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-22T16:34:37+01:00",
+   "ai": {
+    "summary": "The government will reform the Green Book investment framework so projects are assessed together, giving overlooked areas a stronger case for funding. No10 North will help local authorities build place‑based business cases, and the upcoming Budget will detail further reforms and fiscal devolution.",
+    "whoAffected": "Local and strategic authorities, regions previously overlooked for investment, and businesses operating in those areas",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the upcoming Budget for detailed Green Book reforms and fiscal devolution plans",
+     "Advise SME clients on how place‑based investment cases could affect funding opportunities in their locality",
+     "Assist clients in preparing joint business cases that combine housing, transport, skills and other projects",
+     "Liaise with No10 North resources to stay informed about support for non‑mayor areas"
+    ],
+    "legislationRefs": [
+     "Green Book"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-22T17:07:45.042Z"
+   }
+  },
+  {
+   "id": "e1b11e0a7f5d383e",
+   "title": "Sign in to the outgoing Trader Support Service (TSS)",
+   "url": "https://www.gov.uk/guidance/trader-support-service",
+   "path": "/guidance/trader-support-service",
+   "date": "2026-10-22T13:32:47Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "If you signed up for the outgoing Trader Support Service before 14 October 2026, you can use this service to manage goods movements and add users to your account.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Information has been updated to confirm that from 20 October 2026 all new movements must be made using the new Trader Support Service. Existing movements that began before 20 October 2026 can continue to be managed through the outgoing Trader Support Service.",
+   "firstPublished": "2020-06-11T10:55:00+01:00",
+   "ai": {
+    "summary": "All new goods movements to or from Northern Ireland must be submitted via the new Trader Support Service. Existing users are automatically migrated; those not signed up must register. The old service closes on 30 Nov 2026, but existing declarations can be finished.",
+    "whoAffected": "Businesses that move goods to or from Northern Ireland, including SMEs, owner‑managed businesses and self‑employed traders using the Trader Support Service",
+    "effectiveDate": "20 October 2026",
+    "actions": [
+     "Confirm whether each client is already signed up for the outgoing Trader Support Service and verify migration to the new service",
+     "Register any client not yet signed up for the new Trader Support Service",
+     "Ensure all new goods movements to/from Northern Ireland are submitted via the new service from 20 Oct 2026",
+     "Advise clients to complete any existing declarations in the old service before it closes on 30 Nov 2026 and provide the support line number for queries"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-22T17:07:48.392Z"
+   }
+  },
+  {
+   "id": "54e5bb73ce7a79cd",
+   "title": "Register your employment related securities scheme",
+   "url": "https://www.gov.uk/guidance/tell-hmrc-about-your-employment-related-securities",
+   "path": "/guidance/tell-hmrc-about-your-employment-related-securities",
+   "date": "2026-10-22T12:14:41Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "When and how to tell HMRC about new employment related securities (ERS) schemes.",
+   "categories": [
+    "cgt"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated the 'How to get an agent authorised to submit ERS returns' section with steps to follow to get an agent authorised to use the ERS online service.",
+   "firstPublished": "2014-01-01T00:00:00+00:00",
+   "ai": {
+    "summary": "Employers must register new tax‑advantaged ERS schemes by 6 July after the tax year they’re set up, and non‑tax‑advantaged schemes by 6 July after the first reportable event. After registration, a return or nil return is due by the same deadline, or penalties may apply.",
+    "whoAffected": "Employers of SMEs, owner‑managed businesses and self‑employed owners who run employment‑related securities schemes (tax‑advantaged or non‑tax‑advantaged).",
+    "effectiveDate": "2026-10-22",
+    "actions": [
+     "Ensure the client is registered as an employer and obtain a PAYE reference (up to 30 working days).",
+     "Enroll and activate the PAYE online service using the PAYE reference and activation code within 28 days.",
+     "Register the ERS scheme via HMRC Online Services before the 6 July deadline for the relevant scheme type.",
+     "Submit the required ERS return or a nil return by 6 July following the tax year, or authorize an agent to file on their behalf."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-22T17:07:51.269Z"
+   }
+  },
   {
    "id": "3232fad80501cb35",
    "title": "Use a software provider to prepare package accounts for Companies House",
@@ -1053,37 +1148,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-14T17:08:10.730Z"
-   }
-  },
-  {
-   "id": "e1b11e0a7f5d383e",
-   "title": "Sign in to the outgoing Trader Support Service (TSS)",
-   "url": "https://www.gov.uk/guidance/trader-support-service",
-   "path": "/guidance/trader-support-service",
-   "date": "2026-10-14T13:50:38Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "If you signed up for the outgoing Trader Support Service before 14 October 2026, you can use this service to manage goods movements and add users to your account.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "Information about the launch of the new Trader Support Service has been added. Updates have been added to tell you what you need to do if you've already signed up for the outgoing Trader Support Service and what you need to do if you're registering for the Trader Support Service for the first time.",
-   "firstPublished": "2020-06-11T10:55:00+01:00",
-   "ai": {
-    "summary": "The new Trader Support Service, supporting customs for goods moving to/from Northern Ireland, replaces the outgoing service. Existing users are migrated automatically; new users must register. From 20 Oct 2026 all new movements must use the new service.",
-    "whoAffected": "Businesses that move goods to or from Northern Ireland, including SMEs, owner‑managed businesses and the self‑employed who use the Trader Support Service.",
-    "effectiveDate": "From 20 October 2026 (new movements must be submitted using the new service).",
-    "actions": [
-     "Check client accounts to confirm they were signed up before 14 Oct 2026 and will be migrated automatically.",
-     "Advise clients not signed up to register for the new Trader Support Service.",
-     "Submit all client goods movements to/from Northern Ireland via the new service from 20 Oct 2026.",
-     "Provide the TSS phone number 0800 870 8173 for client queries."
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-16T16:36:26.583Z"
    }
   },
   {
@@ -7104,41 +7168,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-10T11:12:08.986Z"
-   }
-  },
-  {
-   "id": "54e5bb73ce7a79cd",
-   "title": "Register your employment related securities scheme",
-   "url": "https://www.gov.uk/guidance/tell-hmrc-about-your-employment-related-securities",
-   "path": "/guidance/tell-hmrc-about-your-employment-related-securities",
-   "date": "2026-07-24T09:43:44Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "When and how to tell HMRC about new employment related securities (ERS) schemes.",
-   "categories": [
-    "cgt"
-   ],
-   "hasBody": true,
-   "changeNote": "The ‘Non-tax-advantaged schemes’ section has been updated with information about when you do not need to submit an employment related securities return.\r\n",
-   "firstPublished": "2014-01-01T00:00:00+00:00",
-   "ai": {
-    "summary": "Employers must register any employment‑related securities (ERS) scheme with HMRC by 6 July after the tax year it starts, obtain a PAYE reference, enrol the PAYE online service, and file an ERS return or nil return by the same deadline, otherwise tax benefits may be lost.",
-    "whoAffected": "Employers of SMEs, owner‑managed businesses and the self‑employed who run tax‑advantaged or non‑tax‑advantaged ERS schemes, and any agents they appoint",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Register as an employer and obtain a PAYE reference",
-     "Enrol and activate the PAYE online service within 28 days",
-     "Register the ERS scheme via HMRC Online Services before 6 July after the relevant tax year",
-     "Submit the required ERS return or a nil return by 6 July, or authorise an agent to do so"
-    ],
-    "legislationRefs": [
-     "PAYE",
-     "Employer of Record (EoR)",
-     "Online Agent Authorisation"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-07T18:57:28.694Z"
    }
   },
   {
