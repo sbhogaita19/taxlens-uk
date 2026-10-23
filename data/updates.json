@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-22T17:07:52.769Z",
+ "generatedAt": "2026-10-23T10:05:35.626Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,176 @@
    "label": "Other"
   }
  ],
- "count": 407,
+ "count": 410,
  "items": [
+  {
+   "id": "ae2c067ad3092432",
+   "title": "Self Assessment deadline incoming – 100 days to go",
+   "url": "https://www.gov.uk/government/news/self-assessment-deadline-incoming-100-days-to-go",
+   "path": "/government/news/self-assessment-deadline-incoming-100-days-to-go",
+   "date": "2026-10-23T09:30:00Z",
+   "type": "press_release",
+   "source": "HMRC (GOV.UK)",
+   "description": "Self Assessment customers have just 100 days to file their tax return for the 2025 to 2026 tax year and pay any tax owed.",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-23T10:30:00+01:00",
+   "ai": {
+    "summary": "Self Assessment returns for the 2025‑26 tax year must be filed by 31 January 2027 (paper by 31 October 2026). HMRC urges early online filing to avoid penalties, get refunds sooner and budget tax. Support, tools and guidance are available on GOV.UK.",
+    "whoAffected": "All Self Assessment customers – including individuals, SMEs, owner‑managed businesses and the self‑employed, new registrants, those with PAYE income, Making Tax Digital users, and anyone needing to report crypto gains or the High Income Child Benefit Charge.",
+    "effectiveDate": "31 January 2027 (online filing deadline) and 31 October 2026 (paper filing deadline)",
+    "actions": [
+     "Notify clients of the 31 Jan 2027 deadline and encourage early online filing via GOV.UK",
+     "Check if clients need to register for a UTR before filing and assist with registration",
+     "Advise clients on using the GOV.UK checker tool and available video/help resources",
+     "Warn clients about HMRC phishing scams and remind them to use only official GOV.UK channels"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-23T10:05:21.686Z"
+   }
+  },
+  {
+   "id": "3fd5d9da5a8343da",
+   "title": "Self Assessment commercial software suppliers",
+   "url": "https://www.gov.uk/government/publications/self-assessment-commercial-software-suppliers",
+   "path": "/government/publications/self-assessment-commercial-software-suppliers",
+   "date": "2026-10-23T08:58:57Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find software suppliers for tax returns, supplementary pages and attachments.",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "The list of Self Assessment commercial software suppliers has been updated with one addition.",
+   "firstPublished": "2014-01-01T00:00:00+00:00",
+   "ai": {
+    "summary": "The list of approved commercial software can be used to file Self Assessment returns, supplementary pages and attachments. Some products can retrieve HMRC data for agents or individuals. Users must log in via GOV.UK One Login with a unique ID/password, and developers can seek technical support.",
+    "whoAffected": "Agents filing client returns, individuals filing their own Self Assessment, and software developers of Self Assessment commercial products",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check with the software supplier whether their product includes the HMRC data retrieval feature",
+     "Ensure a unique user ID and password are created via GOV.UK One Login before submitting returns",
+     "Advise clients to use listed commercial software for filing returns and attachments",
+     "Contact the software supplier for technical support if you develop Self Assessment software"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-23T10:05:24.623Z"
+   }
+  },
+  {
+   "id": "7af2c24a5f5a9e41",
+   "title": "Open Banking: privacy notice",
+   "url": "https://www.gov.uk/government/publications/open-banking-privacy-notice",
+   "path": "/government/publications/open-banking-privacy-notice",
+   "date": "2026-10-23T08:06:18Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out about HMRC’s privacy policy on using your personal information when you use Open Banking to make a payment.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The ‘Open Banking privacy notice’ has been updated to include information about the use of Ecospend to verify your identity.\r\n ",
+   "firstPublished": "2021-03-23T00:00:00+00:00",
+   "ai": {
+    "summary": "HMRC’s privacy notice explains how it uses personal data when you pay via Open Banking, covering only that payment method and not bank transfers or card payments. Read it together with the main HMRC Privacy Notice.",
+    "whoAffected": "Individuals and businesses using Open Banking to make payments to HMRC",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Tell clients the notice only applies to Open Banking payments to HMRC",
+     "Explain that other payment methods are not covered by this notice",
+     "Advise clients to read the main HMRC Privacy Notice alongside this notice",
+     "Check that any client data handling aligns with the described use"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-23T10:05:27.470Z"
+   }
+  },
+  {
+   "id": "5bcced1d31352eb7",
+   "title": "VAT: reduced rate for hospitality, holiday accommodation and attractions",
+   "url": "https://www.gov.uk/guidance/vat-reduced-rate-for-hospitality-holiday-accommodation-and-attractions",
+   "path": "/guidance/vat-reduced-rate-for-hospitality-holiday-accommodation-and-attractions",
+   "date": "2026-10-23T07:06:08Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "If you’re a VAT registered business, check if you can temporarily reduce the rate of VAT on supplies relating to hospitality, accommodation, or admission to certain attractions.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Section 'Admission to certain attractions' has been removed because the temporary VAT relief period has ended.",
+   "firstPublished": "2020-07-09T14:10:00+01:00",
+   "ai": {
+    "summary": "The temporary reduced VAT rates for hospitality, hotel/holiday accommodation and attraction admissions ran from 15 July 2020 to 31 March 2022 (5% then 12.5%). From 1 April 2022 the standard 20% rate applies, affecting VAT‑registered SMEs and related schemes.",
+    "whoAffected": "VAT‑registered hospitality, restaurant, café, pub, hotel, holiday accommodation, caravan/tent pitch providers, attraction operators, small businesses on the Flat Rate Scheme, Tour Operators using the Margin Scheme, and catering businesses using retail or adaptation schemes.",
+    "effectiveDate": "Reduced rate ended 31 March 2022; standard rate applies from 1 April 2022",
+    "actions": [
+     "Check client invoices and VAT returns to confirm the standard 20% rate is applied from 1 April 2022",
+     "Correct any remaining reduced‑rate entries and adjust VAT accounting periods accordingly",
+     "Update accounting software and retail‑scheme settings for the post‑relief period",
+     "Inform flat‑rate and catering‑scheme clients of the re‑version to normal rates and retain supporting records"
+    ],
+    "legislationRefs": [
+     "VAT Notice 709/1",
+     "VAT Notice 709/3",
+     "VAT Flat Rate Scheme",
+     "VAT Notice 709/5",
+     "VAT Notice 700",
+     "Notice 727"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-23T10:05:30.679Z"
+   }
+  },
+  {
+   "id": "4b8dabbef20fb890",
+   "title": "What will happen if you do not pay your tax bill",
+   "url": "https://www.gov.uk/guidance/what-will-happen-if-you-do-not-pay-your-tax-bill",
+   "path": "/guidance/what-will-happen-if-you-do-not-pay-your-tax-bill",
+   "date": "2026-10-23T07:02:22Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How HMRC uses debt enforcement powers, debt collection agencies and what happens if you live abroad when you do not pay your tax bill. ",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "The list of debt collection agencies who may contact you has been updated.",
+   "firstPublished": "2021-10-18T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC will try to work with you if you can’t pay tax, offering affordable options and Time to Pay, but may visit, use debt collection agencies or enforcement powers such as taking possessions if you do not engage.",
+    "whoAffected": "Businesses and individuals who owe tax and cannot pay, including SMEs, owner‑managed businesses and the self‑employed, whether UK‑resident or abroad.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Contact HMRC immediately (Payment Support Service in the UK or non‑UK residents helpline) to discuss the debt",
+     "Assist the client in arranging a Time to Pay or using over‑paid tax or tax‑code adjustment",
+     "If a debt collection agency is involved, ensure the client knows they can pay or negotiate a Time to Pay and complete form 64‑8 for longer authorisation",
+     "Prepare the client for possible enforcement actions (e.g., possession removal) and advise on complaint procedures"
+    ],
+    "legislationRefs": [
+     "taking control of goods regulations",
+     "distraint",
+     "summary warrant",
+     "Financial Conduct Authority",
+     "international recovery agreements"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-23T10:05:34.126Z"
+   }
+  },
   {
    "id": "781d205529cc0d61",
    "title": "PM puts communities first in government investment rules shake up",
@@ -268,37 +436,6 @@
    }
   },
   {
-   "id": "3fd5d9da5a8343da",
-   "title": "Self Assessment commercial software suppliers",
-   "url": "https://www.gov.uk/government/publications/self-assessment-commercial-software-suppliers",
-   "path": "/government/publications/self-assessment-commercial-software-suppliers",
-   "date": "2026-10-21T12:34:02Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find software suppliers for tax returns, supplementary pages and attachments.",
-   "categories": [
-    "personal"
-   ],
-   "hasBody": true,
-   "changeNote": "The list of Self Assessment commercial software suppliers has been updated with one addition.",
-   "firstPublished": "2014-01-01T00:00:00+00:00",
-   "ai": {
-    "summary": "Use listed commercial software to file Self Assessment returns; check if it can pull HMRC data for agents or individuals, and ensure users have a unique ID/password via GOV.UK One Login. Get technical support if you develop the software.",
-    "whoAffected": "Agents, individual taxpayers and Self Assessment software developers using commercial software",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Check with the software supplier whether their product includes the HMRC data‑pull feature",
-     "Ensure clients using GOV.UK One Login create a unique user ID and password for submissions",
-     "Advise clients to use a listed supplier to submit valid returns, supplementary pages and attachments",
-     "Contact HMRC technical support if you are a software developer needing assistance"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-21T17:09:01.720Z"
-   }
-  },
-  {
    "id": "7c0f9c706f97f245",
    "title": "Technical interface specifications for Companies House software",
    "url": "https://www.gov.uk/government/publications/technical-interface-specifications-for-companies-house-software",
@@ -365,42 +502,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-21T17:09:08.308Z"
-   }
-  },
-  {
-   "id": "4b8dabbef20fb890",
-   "title": "What will happen if you do not pay your tax bill",
-   "url": "https://www.gov.uk/guidance/what-will-happen-if-you-do-not-pay-your-tax-bill",
-   "path": "/guidance/what-will-happen-if-you-do-not-pay-your-tax-bill",
-   "date": "2026-10-21T09:21:31Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How HMRC uses debt enforcement powers, debt collection agencies and what happens if you live abroad when you do not pay your tax bill. ",
-   "categories": [
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "The list of debt collection agencies who may contact you has been updated.",
-   "firstPublished": "2021-10-18T00:00:00+01:00",
-   "ai": {
-    "summary": "HMRC will try to work with taxpayers who can’t pay, offering Time‑to‑Pay or using over‑paid tax, but may visit, use debt collectors or enforce powers like taking possessions if you don’t respond.",
-    "whoAffected": "Individuals, self‑employed, SMEs and owner‑managed businesses in the UK or abroad who owe tax and cannot pay it in full.",
-    "effectiveDate": "2026-10-21",
-    "actions": [
-     "Advise clients to contact the Payment Support Service (UK) or the non‑UK residents helpline immediately if they can’t pay.",
-     "Encourage clients to agree a Time‑to‑Pay arrangement or discuss using over‑paid tax to clear debts.",
-     "Assist clients in completing form 64‑8 if they need an authorised agent to deal with HMRC or a debt collector.",
-     "Monitor any contact from listed debt‑collection agencies and ensure complaints are handled via the agency or HMRC."
-    ],
-    "legislationRefs": [
-     "taking control of goods regulations",
-     "distraint",
-     "summary warrant",
-     "Financial Conduct Authority"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-21T10:10:45.086Z"
    }
   },
   {
