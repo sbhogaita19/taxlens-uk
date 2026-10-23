@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-23T10:05:35.626Z",
+ "generatedAt": "2026-10-23T17:04:04.066Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,142 @@
    "label": "Other"
   }
  ],
- "count": 410,
+ "count": 411,
  "items": [
+  {
+   "id": "89234ab4a254c6f0",
+   "title": "List of Authorised Corporate Service Providers (ACSPs)",
+   "url": "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps",
+   "path": "/government/publications/list-of-authorised-corporate-service-providers-acsps",
+   "date": "2026-10-23T14:52:28Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "This list includes details of businesses and sole traders that have registered as an Authorised Corporate Service Provider (ACSP). This is also known as an authorised agent.",
+   "categories": [
+    "reporting",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated ACSP list. ",
+   "firstPublished": "2025-10-31T00:00:00+00:00",
+   "ai": {
+    "summary": "ACSPs are agents like accountants or solicitors registered with Companies House to act for clients. They must be supervised by a UK AML supervisory body and must not appear on the ceased or suspended list. Companies House does not endorse them; clients should research reputation, services, fees and terms.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who use accountants, solicitors or other agents to file or complete Companies House activities",
+    "effectiveDate": "2026-10-23",
+    "actions": [
+     "Check the ACSP against the ceased and suspended list before recommending them",
+     "Confirm the ACSP is supervised by a UK AML supervisory body",
+     "Advise clients to research the agent's reputation, services, fees and terms",
+     "Direct clients to the Companies House guidance on using an ACSP to verify identity"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-23T17:03:53.051Z"
+   }
+  },
+  {
+   "id": "5deb14574606c02d",
+   "title": "Insolvency (VAT Notice 700/56)",
+   "url": "https://www.gov.uk/guidance/insolvency-and-vat-notice-70056",
+   "path": "/guidance/insolvency-and-vat-notice-70056",
+   "date": "2026-10-23T12:27:25Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how to account for VAT and who to contact if you're an insolvency practitioner and you're appointed over insolvent VAT-registered businesses.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Information in sections '9 — Trading after bankruptcy', '14 — Taking control of goods or distraint', '22 — Funded pension schemes' and '26 — The Mid-sized Business (MSB) temporary Customer Compliance Manager (tCCM) model' has been removed and replaced with links to this information within the 'Insolvency practitioner's handbook'.",
+   "firstPublished": "2014-04-01T00:00:00+01:00",
+   "ai": {
+    "summary": "The notice directs insolvency practitioners to the Insolvency practitioner’s handbook for all VAT matters in insolvency, including notifications, claims, returns, registration cancellation, dividend payments, partnership handling, Crown set‑off and property assets.",
+    "whoAffected": "Insolvency practitioners handling insolvent VAT‑registered businesses, including partnerships and companies, and the firms they advise (SMEs, owner‑managed businesses, self‑employed).",
+    "effectiveDate": "2026-10-23",
+    "actions": [
+     "Consult the Insolvency practitioner’s handbook for detailed guidance on notifications, claims, returns and registration cancellation",
+     "Use the correct 13‑character payment reference and HMRC bank details when paying dividends",
+     "Determine solvent vs insolvent partners and ensure returns are filed by the responsible parties",
+     "Check Crown set‑off rules to understand how pre‑insolvency credits may be applied"
+    ],
+    "legislationRefs": [
+     "VAT Notice 700",
+     "VAT Notice 700/56",
+     "Law of Property Act"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-23T17:03:56.045Z"
+   }
+  },
+  {
+   "id": "d8b8964d55975ed2",
+   "title": "Filing your Companies House accounts",
+   "url": "https://www.gov.uk/government/publications/filing-your-companies-house-accounts",
+   "path": "/government/publications/filing-your-companies-house-accounts",
+   "date": "2026-10-23T10:19:47Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "How to prepare and file annual accounts with Companies House for your UK registered company.",
+   "categories": [
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Following recommendations of the Small Business Regulatory Taskforce, the government has decided to pause implementing the requirement for small and micro entities to file profit and loss accounts with Companies House from April 2028. Removed all references from the guidance.",
+   "firstPublished": "2014-08-01T00:00:00+01:00",
+   "ai": {
+    "summary": "Companies must file annual accounts with Companies House each year, even if dormant. Filing must be done via commercial software; the online service ended 31 Mar 2026. Small and micro entities will not need to file profit‑and‑loss statements from Apr 2028.",
+    "whoAffected": "All UK‑registered companies, including dormant, small, micro, and larger entities that need to file annual accounts.",
+    "effectiveDate": "April 2028 (pause for small and micro entities)",
+    "actions": [
+     "Confirm the client has a valid company authentication code",
+     "Advise use of commercial filing software as the online service closed 31 Mar 2026",
+     "Check filing deadlines to avoid penalties",
+     "Inform small and micro entities that profit‑and‑loss accounts filing is paused from Apr 2028"
+    ],
+    "legislationRefs": [
+     "section 400",
+     "section 401"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-23T17:03:59.121Z"
+   }
+  },
+  {
+   "id": "b3c5d04eb52fbdae",
+   "title": "Companies House update to accounts filing from April 2028",
+   "url": "https://www.gov.uk/government/news/companies-house-update-to-accounts-filing-from-april-2028",
+   "path": "/government/news/companies-house-update-to-accounts-filing-from-april-2028",
+   "date": "2026-10-23T10:16:40Z",
+   "type": "news_story",
+   "source": "Companies House (GOV.UK)",
+   "description": "Companies House will pause the introduction of small companies and micro-entities filing profit and loss accounts while the government considers alternative options to simplify filing processes. The government reconfirms its commitment to mandatory software filing of accounts and other planned reforms for April 2028. ",
+   "categories": [
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-23T11:16:40+01:00",
+   "ai": {
+    "summary": "The government will pause the requirement for small companies and micro‑entities to file profit and loss accounts from 1 April 2028, but will still require all UK companies to file accounts in iXBRL using commercial software.",
+    "whoAffected": "All UK registered companies, including small companies and micro‑entities, and their accountants or agents filing annual accounts.",
+    "effectiveDate": "1 April 2028",
+    "actions": [
+     "Review client accounts to confirm they are small or micro‑entity and note the profit‑and‑loss filing pause.",
+     "Select and implement commercial software that supports iXBRL filing before the April 2028 deadline.",
+     "Update filing procedures to use Companies House web filing for non‑account filings only, as paper/web accounts filing will close.",
+     "Inform clients of the strengthened audit exemption eligibility statement and other filing changes effective April 2028."
+    ],
+    "legislationRefs": [
+     "Economic Crime and Corporate Transparency Act 2023 (ECCTA 2023)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-23T17:04:02.565Z"
+   }
+  },
   {
    "id": "ae2c067ad3092432",
    "title": "Self Assessment deadline incoming – 100 days to go",
@@ -864,38 +998,6 @@
    }
   },
   {
-   "id": "89234ab4a254c6f0",
-   "title": "List of Authorised Corporate Service Providers (ACSPs)",
-   "url": "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps",
-   "path": "/government/publications/list-of-authorised-corporate-service-providers-acsps",
-   "date": "2026-10-16T15:29:12Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "This list includes details of businesses and sole traders that have registered as an Authorised Corporate Service Provider (ACSP). This is also known as an authorised agent.",
-   "categories": [
-    "reporting",
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated ACSP list. ",
-   "firstPublished": "2025-10-31T00:00:00+00:00",
-   "ai": {
-    "summary": "ACSPs are agents registered with Companies House to act for clients; they must be supervised by a UK AML supervisory body. Lists may be incomplete, so check for ceased/suspended status and research reputation, services, fees and terms before using them.",
-    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who need an agent to file or complete Companies House activities",
-    "effectiveDate": "2026-10-16",
-    "actions": [
-     "Check the ACSP against the ceased and suspended list before recommending it",
-     "Confirm the ACSP is supervised by a UK AML supervisory body",
-     "Research the ACSP’s reputation, services, fees, terms and remote capability",
-     "Advise clients to read Companies House guidance on using an ACSP to verify identity"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-16T16:36:17.023Z"
-   }
-  },
-  {
    "id": "f72c9615b09ace09",
    "title": "Community Amateur Sports Clubs detailed guidance notes",
    "url": "https://www.gov.uk/government/publications/community-amateur-sports-clubs-detailed-guidance-notes",
@@ -1527,39 +1629,6 @@
     "relevance": "medium",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-13T12:44:26.292Z"
-   }
-  },
-  {
-   "id": "5deb14574606c02d",
-   "title": "Insolvency (VAT Notice 700/56)",
-   "url": "https://www.gov.uk/guidance/insolvency-and-vat-notice-70056",
-   "path": "/guidance/insolvency-and-vat-notice-70056",
-   "date": "2026-10-12T14:45:28Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out how to account for VAT and who to contact if you're an insolvency practitioner and you're appointed over insolvent VAT-registered businesses.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "The information in section 11 'Cash accounting' has been removed and replaced with a link to section 11 of the insolvency practitioner's handbook.",
-   "firstPublished": "2014-04-01T00:00:00+01:00",
-   "ai": {
-    "summary": "The notice directs insolvency practitioners on VAT duties, including notifying HMRC, handling dividend payments, post‑bankruptcy VAT returns, Crown set‑off and taking control of goods, with payment details and reference formats.",
-    "whoAffected": "Insolvency practitioners, bankrupt individuals, companies in administration or liquidation, trustees, liquidators and any SME or owner‑managed business undergoing insolvency.",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Ensure the client notifies HMRC of the insolvency as outlined in the practitioner’s handbook",
-     "Advise on making dividend payments using the correct 13‑character reference and the specified UK or overseas bank details",
-     "Confirm post‑bankruptcy VAT returns exclude tax from the period of office and request HMRC forms if needed",
-     "Explain Crown set‑off rules and how any pre‑insolvency credits may be applied or repaid"
-    ],
-    "legislationRefs": [
-     "Tribunals, Courts and Enforcement Act 2007 (TCEA07)"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-12T21:15:50.953Z"
    }
   },
   {
@@ -3223,40 +3292,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-09-29T13:45:36.954Z"
-   }
-  },
-  {
-   "id": "d8b8964d55975ed2",
-   "title": "Filing your Companies House accounts",
-   "url": "https://www.gov.uk/government/publications/filing-your-companies-house-accounts",
-   "path": "/government/publications/filing-your-companies-house-accounts",
-   "date": "2026-09-25T08:40:36Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "How to prepare and file annual accounts with Companies House for your UK registered company.",
-   "categories": [
-    "reporting"
-   ],
-   "hasBody": true,
-   "changeNote": "Overseas companies can now file iXBRL package accounts online.",
-   "firstPublished": "2014-08-01T00:00:00+01:00",
-   "ai": {
-    "summary": "All UK‑registered companies, even dormant ones, must file annual accounts with Companies House. The online filing service ended 31 Mar 2026, so future filings require commercial software. Certain iXBRL package accounts, including overseas company accounts, can now be filed online.",
-    "whoAffected": "All UK‑registered companies, including dormant, micro, small, medium, audited, unaudited, group and overseas companies that need to file annual accounts",
-    "effectiveDate": "2026-09-25",
-    "actions": [
-     "Obtain the company authentication code for each client",
-     "Use commercial accounting software to prepare and file accounts, as the online service closed on 31 Mar 2026",
-     "Check if the client qualifies for iXBRL package filing (e.g., overseas company, CIC, group accounts) and use the required ZIP/iXBRL format",
-     "File accounts before the statutory deadline to avoid penalties"
-    ],
-    "legislationRefs": [
-     "section 400",
-     "section 401"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-29T13:48:34.858Z"
    }
   },
   {
