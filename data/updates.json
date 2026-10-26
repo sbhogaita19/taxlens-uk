@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-25T09:50:12.091Z",
+ "generatedAt": "2026-10-26T11:09:03.312Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,73 @@
    "label": "Other"
   }
  ],
- "count": 411,
+ "count": 412,
  "items": [
+  {
+   "id": "105567b1eb1627b1",
+   "title": "Government response to SSAC Occasional Paper 27: The influence of the social security system on educational and vocational decision-making at age 16",
+   "url": "https://www.gov.uk/government/publications/government-response-to-ssac-occasional-paper-27-the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16",
+   "path": "/government/publications/government-response-to-ssac-occasional-paper-27-the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16",
+   "date": "2026-10-26T11:00:03Z",
+   "type": "correspondence",
+   "source": "HMRC (GOV.UK)",
+   "description": "Government's response to the Social Security Advisory Committee report on how the social security system influences educational and vocational decision-making at age 16.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-26T11:00:03+00:00",
+   "ai": {
+    "summary": "The government has issued a response to the SSAC’s Occasional Paper 27, which examined how the social security system affects 16‑year‑olds’ choices between staying in full‑time education or pursuing other pathways.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Not stated in source"
+    ],
+    "legislationRefs": [
+     "Not stated in source"
+    ],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-26T11:08:58.347Z"
+   }
+  },
+  {
+   "id": "065b47cac579e131",
+   "title": "Pay Stamp Duty Land Tax",
+   "url": "https://www.gov.uk/guidance/pay-stamp-duty-land-tax",
+   "path": "/guidance/pay-stamp-duty-land-tax",
+   "date": "2026-10-26T10:22:09Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay Stamp Duty Land Tax, and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated the guidance to clarify that Stamp Duty Land Tax applies to property purchases in England, Northern Ireland and Scotland before 1 April 2015 and Wales before 1 April 2018.",
+   "firstPublished": "2014-10-30T00:00:00+00:00",
+   "ai": {
+    "summary": "SDLT is due on property purchases in England, NI and historic Scotland/Wales. Return and payment must be made within 14 days of the effective date using the correct 11‑character reference; various online, bank transfer or cheque methods are available, with specific processing times and penalties for late payment.",
+    "whoAffected": "Clients buying property in England, Northern Ireland, Scotland (before 1 April 2015) or Wales (before 1 April 2018) who must file an SDLT return and pay the tax.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the property’s location and which tax (SDLT, LBTT or LTT) applies",
+     "Obtain the 11‑character unique transaction reference and ensure it is entered correctly on the payment",
+     "Submit the SDLT return and arrange payment within 14 days of the effective transaction date, using a method that meets the client’s timing needs",
+     "Check bank processing times and advise the client to send payment before weekends or bank holidays to avoid penalties"
+    ],
+    "legislationRefs": [
+     "Stamp Duty Land Tax",
+     "Land and Buildings Transaction Tax",
+     "Land Transaction Tax"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-26T11:09:01.811Z"
+   }
+  },
   {
    "id": "89234ab4a254c6f0",
    "title": "List of Authorised Corporate Service Providers (ACSPs)",
@@ -3417,42 +3482,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-09-29T13:45:50.317Z"
-   }
-  },
-  {
-   "id": "065b47cac579e131",
-   "title": "Pay Stamp Duty Land Tax",
-   "url": "https://www.gov.uk/guidance/pay-stamp-duty-land-tax",
-   "path": "/guidance/pay-stamp-duty-land-tax",
-   "date": "2026-09-24T10:37:33Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to pay Stamp Duty Land Tax, and how long it takes for your payment to reach HMRC.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved. ",
-   "firstPublished": "2014-10-30T00:00:00+00:00",
-   "ai": {
-    "summary": "SDLT must be paid within 14 days of the effective transaction date using the 11‑character reference. Choose an online, bank transfer or cheque method and ensure the reference matches to avoid delays or misallocation. Wrong references can be corrected by contacting SDLT enquiries.",
-    "whoAffected": "Property purchasers (including SMEs and owner‑managed businesses) and their advisers who need to pay Stamp Duty Land Tax in England, Wales or Northern Ireland",
-    "effectiveDate": "2026-09-24",
-    "actions": [
-     "Obtain the 11‑character unique transaction reference from the SDLT5 certificate or paper return",
-     "Submit the SDLT return and arrange payment within 14 days of the effective date, using a method that meets the deadline",
-     "Check that the reference entered matches exactly to avoid delays or misallocation; if incorrect, contact SDLT enquiries to move the payment",
-     "Advise clients on payment method timings (online instant, CHAPS/Faster same‑day, Bacs up to 3 days) and ensure funds arrive before the deadline"
-    ],
-    "legislationRefs": [
-     "Land and Buildings Transaction Tax",
-     "Land Transaction Tax",
-     "Stamp Duty Reserve Tax",
-     "Stamp Duty on shares"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-29T13:49:00.491Z"
    }
   },
   {
