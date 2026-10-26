@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-26T11:09:03.312Z",
+ "generatedAt": "2026-10-26T18:40:53.345Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -75,11 +75,42 @@
  "count": 412,
  "items": [
   {
+   "id": "e598690519d1c171",
+   "title": "HMRC email updates, videos and webinars if you’re self-employed",
+   "url": "https://www.gov.uk/guidance/help-and-support-if-youre-self-employed",
+   "path": "/guidance/help-and-support-if-youre-self-employed",
+   "date": "2026-10-26T14:54:29Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Learn more about your responsibilities if you’re running a small business including registration, tax returns, record keeping, tax bills and payments.",
+   "categories": [
+    "selfemployed"
+   ],
+   "hasBody": true,
+   "changeNote": "The recorded webinar link for  ‘How to get ready for Making Tax Digital for Income Tax if you are a landlord and joint property owner’ has been updated.\r\nLive and recorded webinar links have been added covering ‘New to Self Assessment — an introduction’ and ‘New to Self Assessment — budgeting and payments’. \r\nYouTube video links to 'What self-employment expenses you can include in your tax return' and 'What self-employment records do you need to keep?' have been updated. \r\nA link to a new video about 'Cash basis and simplified expenses' has been added.",
+   "firstPublished": "2017-10-11T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC offers email updates, live and recorded webinars, and YouTube videos covering tax basics, record keeping, Making Tax Digital, and Self Assessment for the self‑employed, including sole traders, partnerships and landlords.",
+    "whoAffected": "Self‑employed individuals – sole traders, partnerships, landlords and joint property owners",
+    "effectiveDate": "2026-10-26T14:54:29Z",
+    "actions": [
+     "Subscribe clients to the HMRC help and support email service",
+     "Register clients for relevant live webinars (e.g., record keeping, Making Tax Digital, Self Assessment)",
+     "Direct clients to watch recorded webinars and YouTube videos that match their needs",
+     "Assist clients in signing up for Making Tax Digital and choosing compliant software"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-26T18:40:49.310Z"
+   }
+  },
+  {
    "id": "105567b1eb1627b1",
    "title": "Government response to SSAC Occasional Paper 27: The influence of the social security system on educational and vocational decision-making at age 16",
    "url": "https://www.gov.uk/government/publications/government-response-to-ssac-occasional-paper-27-the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16",
    "path": "/government/publications/government-response-to-ssac-occasional-paper-27-the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16",
-   "date": "2026-10-26T11:00:03Z",
+   "date": "2026-10-26T11:00:00Z",
    "type": "correspondence",
    "source": "HMRC (GOV.UK)",
    "description": "Government's response to the Social Security Advisory Committee report on how the social security system influences educational and vocational decision-making at age 16.",
@@ -88,20 +119,18 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-26T11:00:03+00:00",
+   "firstPublished": "2026-10-26T11:00:00+00:00",
    "ai": {
-    "summary": "The government has issued a response to the SSAC’s Occasional Paper 27, which examined how the social security system affects 16‑year‑olds’ choices between staying in full‑time education or pursuing other pathways.",
-    "whoAffected": "Not stated in source",
+    "summary": "The government replies to the SSAC paper on how the social security system influences 16‑year‑olds' decisions to stay in full‑time education or pursue alternative pathways.",
+    "whoAffected": "16‑year‑olds deciding whether to remain in full‑time education or take an alternative vocational route",
     "effectiveDate": "Not stated in source",
     "actions": [
      "Not stated in source"
     ],
-    "legislationRefs": [
-     "Not stated in source"
-    ],
+    "legislationRefs": [],
     "relevance": "low",
     "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-26T11:08:58.347Z"
+    "generatedAt": "2026-10-26T18:40:51.844Z"
    }
   },
   {
@@ -6449,37 +6478,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-07T18:57:00.950Z"
-   }
-  },
-  {
-   "id": "e598690519d1c171",
-   "title": "HMRC email updates, videos and webinars if you’re self-employed",
-   "url": "https://www.gov.uk/guidance/help-and-support-if-youre-self-employed",
-   "path": "/guidance/help-and-support-if-youre-self-employed",
-   "date": "2026-08-14T11:10:36Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Learn more about your responsibilities if you’re running a small business including registration, tax returns, record keeping, tax bills and payments.",
-   "categories": [
-    "selfemployed"
-   ],
-   "hasBody": true,
-   "changeNote": "The live webinar link for ‘Get ready for Making Tax Digital for Income Tax if you’re a sole trader or landlord without an accountant or bookkeeper’ has been updated.\r\n\r\nThe recorded webinar links for ‘Tax basics — a starter guide for small businesses’, ‘Residential property income for individuals — an introduction’ and 'Residential property income for individuals — expenses and deductions’ have been updated.",
-   "firstPublished": "2017-10-11T00:00:00+01:00",
-   "ai": {
-    "summary": "HMRC offers email updates and a range of live and recorded webinars covering tax basics, record keeping, Making Tax Digital for Income Tax, and Self Assessment, plus YouTube video guides for self‑employed and small business owners.",
-    "whoAffected": "Self‑employed individuals, sole traders, partnerships, landlords and joint property owners, and small business owners seeking guidance on tax obligations",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Subscribe clients to the HMRC help and support email service",
-     "Recommend and register clients for relevant live webinars (e.g., tax basics, record keeping, MTD, Self Assessment) and advise joining 5 minutes early",
-     "Provide links to recorded webinars and YouTube video collections for self‑assessment, MTD and property income guidance",
-     "Guide clients on using the resources to understand registration, record keeping, software choices and filing deadlines"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-09T11:55:42.693Z"
    }
   },
   {
