@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-27T10:36:46.450Z",
+ "generatedAt": "2026-10-27T17:59:02.862Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,141 @@
    "label": "Other"
   }
  ],
- "count": 414,
+ "count": 417,
  "items": [
+  {
+   "id": "105f8b1536c38b83",
+   "title": "Hotels and holiday accommodation (VAT Notice 709/3)",
+   "url": "https://www.gov.uk/guidance/hotels-holiday-accommodation-and-vat-notice-7093",
+   "path": "/guidance/hotels-holiday-accommodation-and-vat-notice-7093",
+   "date": "2026-10-27T14:24:22Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out when you need to pay VAT if you provide holiday accommodation, caravans and camping facilities.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Information to help calculate reduced VAT value under the temporary reduced rate has been removed, as the temporary reduced rate which applied to tourism and hospitality ended on 31 March 2022.",
+   "firstPublished": "2013-06-08T00:00:00+01:00",
+   "ai": {
+    "summary": "The notice explains VAT treatment for hotels, inns, boarding houses and holiday accommodation, covering temporary reduced rates (15 July 2020‑31 Mar 2022), the reduced‑value rule for stays over 28 days, and rules for catering, employee accommodation and other supplies.",
+    "whoAffected": "Anyone who makes supplies of accommodation or related services in the hotel, inn, boarding house, holiday accommodation, caravan or camping sector, including owners of SMEs and self‑employed operators.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify whether the client’s premises qualify as a hotel, inn, boarding house or similar establishment or as holiday accommodation under the definitions provided.",
+     "Check if any supplies were made between 15 July 2020 and 31 Mar 2022 to apply the temporary reduced rate where applicable.",
+     "Apply the reduced‑value rule for guests staying more than 28 consecutive days, apportioning charges and charging VAT only on the non‑accommodation element from day 29 onward.",
+     "Ensure employee accommodation and catering charges are treated as inclusive of VAT and accounted for on the VAT return."
+    ],
+    "legislationRefs": [
+     "paragraph (d) to Item 1, Group 1, Schedule 9",
+     "paragraph (e) to Item 1, Group 1, Schedule 9",
+     "paragraph (f) to Item 1, Group 1, Schedule 9",
+     "paragraph (g) to Item 1 Group 1, Schedule 9",
+     "paragraph 9 of Schedule 6",
+     "Section 29A of the VAT Act 1994",
+     "The Value Added Tax (Reduced Rate) (Hospitality and Tourism) (Coronavirus) Order 2020",
+     "Schedule 7A, Group 15"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-27T17:58:53.404Z"
+   }
+  },
+  {
+   "id": "06d454855e5408d3",
+   "title": "Social security agreement between the UK and India",
+   "url": "https://www.gov.uk/government/publications/social-security-agreement-between-the-uk-and-india",
+   "path": "/government/publications/social-security-agreement-between-the-uk-and-india",
+   "date": "2026-10-27T14:08:05Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out information on the new social security agreement between the UK and India.",
+   "categories": [
+    "nic"
+   ],
+   "hasBody": true,
+   "changeNote": "Information on National Insurance contributions for employees from India temporarily coming to work in the UK and UK employees temporarily going to work in India has been updated. The link to the National Insurance Double Contributions Convention (DCC) with India has been updated.",
+   "firstPublished": "2026-07-07T21:00:00+01:00",
+   "ai": {
+    "summary": "The UK‑India social security agreement decides where workers and employers pay National Insurance and ensures contributions are made in only one territory at a time.",
+    "whoAffected": "Workers and employers who move temporarily between the UK and India",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify any employee or employer moving between the UK and India",
+     "Determine which territory the National Insurance contributions must be paid under the agreement",
+     "Advise the client to pay contributions only in that territory to avoid double payment",
+     "Maintain records showing the basis for the contribution location"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-27T17:58:56.110Z"
+   }
+  },
+  {
+   "id": "2788d808021611c3",
+   "title": "Find software suppliers for filing charities repayments online",
+   "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers",
+   "path": "/government/publications/charities-online-commercial-software-suppliers",
+   "date": "2026-10-27T12:53:48Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find recognised suppliers and software to file charity repayment claims online.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The list of commercial software supplier details has been updated.",
+   "firstPublished": "2014-06-05T00:00:00+01:00",
+   "ai": {
+    "summary": "Charities can file repayment claims online using HMRC or commercial internet-enabled software; HMRC accepts claims filed with any listed product and offers technical support for charity software developers.",
+    "whoAffected": "Charitable organisations filing repayment claims and software developers creating charity filing solutions",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check the latest list of recognised commercial software suppliers",
+     "Advise charity clients to use internet filing‑enabled software for repayment claims",
+     "Confirm claims are submitted using a product listed in the document",
+     "Refer charity software developers to HMRC technical support"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-27T17:58:58.808Z"
+   }
+  },
+  {
+   "id": "26f01eeb3ac85edb",
+   "title": "Fees and commissions — statutory notice (FAC-01)",
+   "url": "https://www.gov.uk/government/publications/statutory-notice-section-16-return",
+   "path": "/government/publications/statutory-notice-section-16-return",
+   "date": "2026-10-27T11:00:06Z",
+   "type": "statutory_guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use this template to send your FAC-01 return to HMRC if you receive a statutory notice for fees and commissions.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The FAC-01 return template has been updated and new guidance provided on how to complete it.\r\n\r\n",
+   "firstPublished": "2015-05-22T11:31:00+01:00",
+   "ai": {
+    "summary": "Send HMRC a FAC‑01 return using the prescribed spreadsheet, completing all fields and submitting by the notice deadline.",
+    "whoAffected": "Businesses that receive a statutory notice for fees and commissions, including SMEs, owner‑managed firms and the self‑employed",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Download the FAC‑01 spreadsheet attached to the notice",
+     "Select ‘Enable Editing’ in the spreadsheet",
+     "Enter all required information in the relevant fields",
+     "Submit the completed return to HMRC by the date specified in the notice"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-27T17:59:01.362Z"
+   }
+  },
   {
    "id": "b50fe74d885b4843",
    "title": "Predevelopment costs research",
@@ -1757,37 +1890,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-13T12:44:23.663Z"
-   }
-  },
-  {
-   "id": "2788d808021611c3",
-   "title": "Find software suppliers for filing charities repayments online",
-   "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers",
-   "path": "/government/publications/charities-online-commercial-software-suppliers",
-   "date": "2026-10-13T07:34:16Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find recognised suppliers and software to file charity repayment claims online.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "The list of commercial software supplier details has been updated.",
-   "firstPublished": "2014-06-05T00:00:00+01:00",
-   "ai": {
-    "summary": "Charities can file repayment claims online using HMRC or commercial internet‑filing software; HMRC accepts any product listed, and technical support is available for software developers.",
-    "whoAffected": "Charities submitting repayment claims and software developers creating charity filing tools",
-    "effectiveDate": "2026-10-13",
-    "actions": [
-     "Check the latest list of recognised software suppliers in the document",
-     "Advise charity clients to use an internet‑filing enabled product to submit repayment claims",
-     "Confirm the chosen software is on HMRC's accepted list before filing",
-     "If developing software, contact HMRC technical support for assistance"
-    ],
-    "legislationRefs": [],
-    "relevance": "medium",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-13T12:44:26.292Z"
    }
   },
   {
