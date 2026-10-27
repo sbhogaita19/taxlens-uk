@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-26T18:40:53.345Z",
+ "generatedAt": "2026-10-27T10:36:46.450Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,73 @@
    "label": "Other"
   }
  ],
- "count": 412,
+ "count": 414,
  "items": [
+  {
+   "id": "b50fe74d885b4843",
+   "title": "Predevelopment costs research",
+   "url": "https://www.gov.uk/government/publications/predevelopment-costs-research",
+   "path": "/government/publications/predevelopment-costs-research",
+   "date": "2026-10-27T09:30:01Z",
+   "type": "research",
+   "source": "HMRC (GOV.UK)",
+   "description": "Research into the prevalence and nature of predevelopment costs among UK Corporation Tax-paying businesses, their tax treatment and their impact on investment decisions",
+   "categories": [
+    "corptax"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-27T09:30:01+00:00",
+   "ai": {
+    "summary": "HMRC commissioned research on predevelopment costs among UK Corporation Tax‑paying businesses, covering prevalence, nature, tax treatment and investment impact.",
+    "whoAffected": "UK Corporation Tax‑paying businesses",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Not stated in source"
+    ],
+    "legislationRefs": [
+     "Not stated in source"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-27T10:36:40.725Z"
+   }
+  },
+  {
+   "id": "2288f934befb09aa",
+   "title": "Everyday fixes to make life easier for millions of Britons",
+   "url": "https://www.gov.uk/government/news/everyday-fixes-to-make-life-easier-for-millions-of-britons",
+   "path": "/government/news/everyday-fixes-to-make-life-easier-for-millions-of-britons",
+   "date": "2026-10-26T22:31:09Z",
+   "type": "press_release",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "Chancellor unveils five everyday fixes to ease household costs, support working families and end the Carer’s Allowance cliff edge ahead of Wednesday’s Budget.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-26T22:31:09+00:00",
+   "ai": {
+    "summary": "The Chancellor announced five everyday fixes: permanent higher tax‑free mileage rates, extended parental pay for more parents including self‑employed, removal of the Carer’s Allowance cliff‑edge, removal of import tariffs on over 100 food items, and more Post Office drop‑boxes, plus a Warm Homes loans scheme.",
+    "whoAffected": "Working people, families, unpaid carers, employees and self‑employed individuals who drive for work, self‑employed parents, homeowners, and households that purchase affected food products.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Advise self‑employed and employee clients on the permanent 55p per mile tax‑free rate for the first 10,000 business miles and the 35p rate above 10,000 miles and calculate their tax savings.",
+     "Assist eligible parents, including self‑employed dads and partners, to claim the two‑week extended parental pay of up to £194 per week.",
+     "Counsel unpaid carers on the new Carer’s Allowance taper – £1 of support withdrawn for each £1 earned – and help them plan earnings to avoid loss of benefits.",
+     "Update business and retail clients on the removal of import tariffs on over 100 food items, highlighting potential cost reductions for inventory and pricing."
+    ],
+    "legislationRefs": [
+     "Carer’s Allowance",
+     "Weekly Earnings Limit",
+     "National Living Wage"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-27T10:36:44.950Z"
+   }
+  },
   {
    "id": "e598690519d1c171",
    "title": "HMRC email updates, videos and webinars if you’re self-employed",
