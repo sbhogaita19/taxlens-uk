@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-28T11:21:49.657Z",
+ "generatedAt": "2026-10-28T18:22:15.297Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,1948 @@
    "label": "Other"
   }
  ],
- "count": 418,
+ "count": 501,
  "items": [
+  {
+   "id": "1889b9e6965bdfa5",
+   "title": "Stamp Duty Land Tax relief for land or property transactions",
+   "url": "https://www.gov.uk/guidance/stamp-duty-land-tax-relief-for-land-or-property-transactions",
+   "path": "/guidance/stamp-duty-land-tax-relief-for-land-or-property-transactions",
+   "date": "2026-10-28T18:09:07Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out what the main Stamp Duty Land Tax (SDLT) reliefs are for land or property transactions.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about Local Government Pension Scheme relief and how to claim it has been added.",
+   "firstPublished": "2014-05-06T00:00:00+01:00",
+   "ai": {
+    "summary": "The guidance outlines SDLT reliefs – first‑time buyer, shared‑ownership, multiple‑dwellings (ended 1 June 2024), building‑company, employer‑employee, compulsory purchase, planning‑obligation, group and seeding reliefs – and the relief codes to use on the SDLT return.",
+    "whoAffected": "First‑time home buyers, shared‑ownership buyers, purchasers of multiple dwellings, building companies buying homes, employers buying employee homes, local authorities or bodies making compulsory purchases, property developers with planning obligations, companies within the same group, and investment funds eligible for seeding relief.",
+    "effectiveDate": "2026-10-28",
+    "actions": [
+     "Identify which relief may apply to the client’s transaction and confirm eligibility criteria listed in the guidance",
+     "Enter the correct relief code (e.g., 32, 33, 08, 09, 10, 11, 12) on box 9 of the SDLT return",
+     "Keep supporting documentation to demonstrate eligibility and avoid penalties for incorrect claims",
+     "Advise the client on any limits (e.g., property value, land size, dates) that affect the relief"
+    ],
+    "legislationRefs": [
+     "Stamp Duty Land Tax (SDLT)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-28T18:21:04.920Z"
+   }
+  },
+  {
+   "id": "b72d55d838886a17",
+   "title": "Zero rating medicines supplied free of charge (VAT Notice 1004)",
+   "url": "https://www.gov.uk/guidance/zero-rating-medicines-supplied-free-of-charge-vat-notice-1004",
+   "path": "/guidance/zero-rating-medicines-supplied-free-of-charge-vat-notice-1004",
+   "date": "2026-10-28T18:07:29Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out when you can zero-rate medicines supplied free of charge, including medicines for NHS treatment, clinical trials and continued treatment after a clinical trial.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T18:07:29+00:00",
+   "ai": {
+    "summary": "Medicines supplied free of charge to the NHS, in clinical trials or for post‑trial treatment are zero‑rated for VAT from 23 June 2026, provided they meet authorisation and certificate requirements; otherwise they remain standard rated.",
+    "whoAffected": "Pharmaceutical companies supplying free medicines for NHS treatment, sponsors of clinical trials, companies participating in the Early Access to Medicines Scheme, importers/distributors of such medicines, and any business receiving free‑of‑charge medicines for qualifying uses.",
+    "effectiveDate": "23 June 2026",
+    "actions": [
+     "Check whether the client supplies medicines free of charge for NHS use, a clinical trial, or post‑trial treatment and confirm the product meets the authorisation criteria.",
+     "Verify the supply meets one of the qualifying conditions (marketing authorisation, regulation 167, or Early Access scheme).",
+     "Obtain and retain a valid certificate for each zero‑rated supply or import as required by the notice.",
+     "If VAT was charged on supplies between 23 June 2026 and 27 October 2026, advise the client to correct the VAT accounting."
+    ],
+    "legislationRefs": [
+     "Schedule 8, Group 12, Items 1ZA to 1ZC",
+     "section 62",
+     "Human Medicines Regulations 2012",
+     "Medicines for Human Use (Clinical Trials) Regulations 2004",
+     "Schedule 9, Group 7 of the VAT Act 1994",
+     "Health and Social Care (Reform) Act (Northern Ireland) 2009",
+     "National Health Service Act 2006",
+     "National Health Service (Wales) Act 2006",
+     "National Health Service (Scotland) Act 1978",
+     "Health and Personal Social Services (Northern Ireland) Order 1991"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-28T18:21:09.112Z"
+   }
+  },
+  {
+   "id": "792c4e975ecde54b",
+   "title": "Fuel and power (VAT Notice 701/19)",
+   "url": "https://www.gov.uk/guidance/vat-on-fuel-and-power-notice-70119",
+   "path": "/guidance/vat-on-fuel-and-power-notice-70119",
+   "date": "2026-10-28T18:03:42Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out what VAT should be charged on supplies of fuel and power if you're a supplier or a user.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Information from Budget 2026 about an extension to the temporary zero rate has been added. Section 3.1.1 'Electric vehicle charging supplies' with guidance on new legislation has been added. Sections 2.3, 3.2.2, 3.3, 5.3, 10.1 and 10.7 have been updated with guidance related to this new legislation.",
+   "firstPublished": "2016-04-28T00:00:00+01:00"
+  },
+  {
+   "id": "22a0942c6b43c639",
+   "title": "Stamp Duty Land Tax on Leasehold sales",
+   "url": "https://www.gov.uk/guidance/stamp-duty-land-tax-leasehold-purchases",
+   "path": "/guidance/stamp-duty-land-tax-leasehold-purchases",
+   "date": "2026-10-28T18:01:04Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out about Stamp Duty Land Tax (SDLT) on leasehold properties.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "From 1 May 2026, you do not need to work out the NPV of rent for a residential property under an assured tenancy.",
+   "firstPublished": "2013-08-19T00:00:00+01:00"
+  },
+  {
+   "id": "0bac5c4d871ef734",
+   "title": "Conveyancers: Lifetime ISA technical guidance",
+   "url": "https://www.gov.uk/government/publications/conveyancers-lifetime-isa-technical-guidance",
+   "path": "/government/publications/conveyancers-lifetime-isa-technical-guidance",
+   "date": "2026-10-28T17:58:32Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out about first time residential purchases with funds from a Lifetime Individual Savings Account (ISA) if you're a conveyancer.",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "From 29 October 2026, if funds are withdrawn to buy a property and the purchase price is more than £450,000 a 20% withdrawal charge will apply.",
+   "firstPublished": "2018-03-20T11:18:00+00:00",
+   "ai": {
+    "summary": "From 29 Oct 2026 a 20% charge applies when Lifetime ISA funds are withdrawn for a first‑time residential purchase over £450,000.",
+    "whoAffected": "Conveyancers handling first‑time residential purchases using Lifetime ISA funds",
+    "effectiveDate": "29 October 2026",
+    "actions": [
+     "Verify the purchase price exceeds £450,000",
+     "Calculate the 20% withdrawal charge if applicable",
+     "Inform the client of the charge before completing the transaction",
+     "Record the charge and update client files"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-28T18:21:14.778Z"
+   }
+  },
+  {
+   "id": "5e9619bee297fb6b",
+   "title": "Conveyancers: first time residential purchase with a Lifetime ISA",
+   "url": "https://www.gov.uk/guidance/conveyancers-first-time-residential-purchase-with-a-lifetime-isa",
+   "path": "/guidance/conveyancers-first-time-residential-purchase-with-a-lifetime-isa",
+   "date": "2026-10-28T17:58:22Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out about first time residential purchases with funds from a Lifetime Individual Savings Account (ISA) if you’re a conveyancer.",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "'Example of a model investor declaration' and 'Example of a model conveyancer declaration' have been updated.\r\nFrom 29 October 2026, if funds are withdrawn to buy a property and the purchase price is more than £450,000 a 20% withdrawal charge will apply.",
+   "firstPublished": "2018-03-20T00:00:00+00:00"
+  },
+  {
+   "id": "b722f1e28855587e",
+   "title": "Digital reporting for Lifetime ISAs",
+   "url": "https://www.gov.uk/guidance/digital-reporting-for-lifetime-isas",
+   "path": "/guidance/digital-reporting-for-lifetime-isas",
+   "date": "2026-10-28T17:57:48Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out the software requirements for reporting Lifetime ISA payments, transfers and withdrawals to HMRC.",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "Added there is a 20% withdrawal charge if investors take money out of their Lifetime ISA for a first time residential property purchase and the property value is above £450,000.",
+   "firstPublished": "2019-07-01T12:18:00+01:00"
+  },
+  {
+   "id": "dcaf4af22349dada",
+   "title": "Check employment related securities files",
+   "url": "https://www.gov.uk/guidance/spreadsheet-checking-service-employment-related-securities-ers",
+   "path": "/guidance/spreadsheet-checking-service-employment-related-securities-ers",
+   "date": "2026-10-28T17:56:58Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use this service to check your files for formatting errors before submitting annual returns for employment related securities.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "Information has been added to confirm that Company Share Option Plans (CSOP) can also be known as Enterprise Management Incentives 2 (EMI2).",
+   "firstPublished": "2014-10-31T00:00:00+00:00",
+   "ai": {
+    "summary": "Employers and agents must use the ERS checking service to validate .ods or .csv files before filing annual ERS returns (including nil returns) by 6 July after the tax year ends, to avoid rejection and penalties.",
+    "whoAffected": "Employers and their agents who need to submit ERS annual returns, including SMEs, owner‑managed businesses and self‑employed employers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Download the appropriate ERS spreadsheet template or create one using the technical notes",
+     "Populate the spreadsheet with scheme data and save as .ods or .csv",
+     "Run the file through the ERS checking service using a Government Gateway ID",
+     "Correct any errors identified, then submit the annual (or nil) return by 6 July"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-28T18:21:21.078Z"
+   }
+  },
+  {
+   "id": "853097d90d28c882",
+   "title": "Late registrations for employment related securities",
+   "url": "https://www.gov.uk/guidance/late-registrations-for-employment-related-securities",
+   "path": "/guidance/late-registrations-for-employment-related-securities",
+   "date": "2026-10-28T17:56:14Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "What to do if you miss the registration deadline for employment related securities.",
+   "categories": [
+    "cgt"
+   ],
+   "hasBody": true,
+   "changeNote": "Information has been added to confirm that Company Share Option Plans (CSOP) can also be known as Enterprise Management Incentives 2 (EMI2).",
+   "firstPublished": "2024-10-10T00:00:00+01:00",
+   "ai": {
+    "summary": "Missing the registration deadline for employment related securities can forfeit tax benefits. Contact HMRC in writing, explain the reason, and if a reasonable excuse is accepted, follow their steps to register late and submit any overdue returns, noting possible penalties.",
+    "whoAffected": "Employers who run EMI, CSOP (EMI2), Save As You Earn, or Share Incentive Plan schemes and their employees",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Advise client to write to HMRC (email or post) explaining why the registration deadline was missed",
+     "If HMRC accepts a reasonable excuse, help client prepare and submit the late scheme registration and any required returns",
+     "Assist with using HMRC’s secure file transfer service for late returns if required",
+     "Inform client of possible late filing penalties and guide them on how to appeal"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-28T18:21:26.904Z"
+   }
+  },
+  {
+   "id": "f24802f0a2649009",
+   "title": "How employment related securities work if you're an employer",
+   "url": "https://www.gov.uk/guidance/how-employment-related-securities-work-if-youre-an-employer",
+   "path": "/guidance/how-employment-related-securities-work-if-youre-an-employer",
+   "date": "2026-10-28T17:55:14Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use employment related securities (ERS) to reward, retain or give incentives to your employees, including any tax advantages.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Information has been added to confirm that Company Share Option Plans (CSOP) can also be known as Enterprise Management Incentives 2 (EMI2). ",
+   "firstPublished": "2024-10-10T00:00:00+01:00"
+  },
+  {
+   "id": "5be13e939747b9f8",
+   "title": "Capital gains: preventing protected cell company avoidance ",
+   "url": "https://www.gov.uk/government/publications/capital-gains-preventing-protected-cell-company-avoidance",
+   "path": "/government/publications/capital-gains-preventing-protected-cell-company-avoidance",
+   "date": "2026-10-28T17:37:07Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note affects UK resident individuals, trustees and companies who hold assets through a non-UK resident protected cell company. ",
+   "categories": [
+    "cgt",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:37:07+00:00",
+   "ai": {
+    "summary": "Capital gains rules are changed for gains from non‑resident close companies attributed to UK resident individuals, trusts and companies, effective 28 Oct 2026.",
+    "whoAffected": "UK resident individuals, trusts and companies that hold assets through a non‑UK resident protected cell company (non‑resident close companies).",
+    "effectiveDate": "28 October 2026",
+    "actions": [
+     "Identify clients with assets held via non‑UK resident protected cell companies",
+     "Assess how the new capital gains rules affect their tax position",
+     "Advise clients on compliance steps required under the new rules",
+     "Update client records and monitoring processes for the 28 Oct 2026 changeover"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-28T18:21:31.301Z"
+   }
+  },
+  {
+   "id": "b35e79684c5dda32",
+   "title": "Stamp Duty Land Tax — Local Government Pension Scheme Relief",
+   "url": "https://www.gov.uk/government/publications/stamp-duty-land-tax-local-government-pension-scheme-relief",
+   "path": "/government/publications/stamp-duty-land-tax-local-government-pension-scheme-relief",
+   "date": "2026-10-28T17:37:04Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure is about changes to Stamp Duty Land Tax (SDLT) for purchases made by Local Government Pension Scheme pooled investment vehicles.",
+   "categories": [
+    "personal",
+    "pensions"
+   ],
+   "hasBody": true,
+   "changeNote": "New guidance has been added about Stamp Duty Land Tax relief for transfers of land and property from Local Government Pension Scheme Administering Authorities to qualifying pooled investment vehicles, and the exchequer impact table has been updated for Budget 2026.",
+   "firstPublished": "2026-07-13T13:11:00+01:00",
+   "ai": {
+    "summary": "A temporary SDLT relief for LGPS pooled investment vehicles buying land/property from LGPS authorities, effective from Budget Day 2026 until 31 March 2032.",
+    "whoAffected": "Local Government Pension Scheme pooled investment vehicles and the LGPS administering authorities that sell land or property",
+    "effectiveDate": "Budget Day 2026",
+    "actions": [
+     "Confirm the client is a LGPS pooled investment vehicle",
+     "Verify the purchase date falls between Budget Day 2026 and 31 March 2032",
+     "Apply the SDLT relief when calculating duty due",
+     "Keep documentation of the relief claim for HMRC records"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-28T18:21:34.591Z"
+   }
+  },
+  {
+   "id": "32dacb043351daf9",
+   "title": "Capital Gains Tax relief on gifts of business assets",
+   "url": "https://www.gov.uk/government/publications/capital-gains-tax-relief-on-gifts-of-business-assets",
+   "path": "/government/publications/capital-gains-tax-relief-on-gifts-of-business-assets",
+   "date": "2026-10-28T17:36:58Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about reforms to UK law relating to Capital Gains Tax relief for gifts of business assets.",
+   "categories": [
+    "cgt",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "The equalities impacts information and exchequer impact table have been updated for Budget 2026.",
+   "firstPublished": "2026-06-23T14:22:00+01:00"
+  },
+  {
+   "id": "3a2cb17e7302f3f0",
+   "title": "VAT: electronic invoicing",
+   "url": "https://www.gov.uk/government/publications/vat-electronic-invoicing",
+   "path": "/government/publications/vat-electronic-invoicing",
+   "date": "2026-10-28T17:36:44Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about the introduction of e-invoicing requirements for VAT invoices (including public bodies) from April 2029.",
+   "categories": [
+    "vat",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:36:44+00:00"
+  },
+  {
+   "id": "e3818f15ff52e151",
+   "title": "Securities Transfer Tax — modernisation of the Stamp Taxes on Shares Framework",
+   "url": "https://www.gov.uk/government/publications/securities-transfer-tax-modernisation-of-the-stamp-taxes-on-shares-framework",
+   "path": "/government/publications/securities-transfer-tax-modernisation-of-the-stamp-taxes-on-shares-framework",
+   "date": "2026-10-28T17:36:41Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "The measure is about the Securities Transfer Tax that will apply on the transfer of securities and replace Stamp Duty and Stamp Duty Reserve Tax.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated to confirm that Securities Transfer Tax (STT) will commence in late 2027. The Exchequer impact and economic impact have been updated, along with information about the impact on individuals and businesses, including use of the new digital system for transfers outside CREST.",
+   "firstPublished": "2026-07-13T13:11:00+01:00",
+   "ai": {
+    "summary": "Stamp Duty and SDRT will be replaced by a single Securities Transfer Tax, a digital self‑assessed charge on securities transfers, starting in late 2027.",
+    "whoAffected": "Anyone who transfers securities, including individuals, companies and partnerships that hold or trade shares.",
+    "effectiveDate": "Late 2027",
+    "actions": [
+     "Inform clients that Stamp Duty and SDRT will cease and a new digital STT will apply",
+     "Review clients' current share transfer processes and identify any upcoming transactions",
+     "Prepare clients for self‑assessment by setting up digital reporting mechanisms",
+     "Monitor HMRC guidance for detailed compliance requirements"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-28T18:21:41.293Z"
+   }
+  },
+  {
+   "id": "d87d713e307e67b1",
+   "title": "Exploitation rights",
+   "url": "https://www.gov.uk/government/publications/exploitation-rights",
+   "path": "/government/publications/exploitation-rights",
+   "date": "2026-10-28T17:36:40Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure addresses the rights in relation to exploration and exploitation activities in the UK Continental Shelf.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The effective date of this measure in respect of profits arising on or after 1 April 2027 for Corporation Tax purposes has changed. This measure will now have effect for accounting periods beginning on or after 13 July 2026 for Corporation Tax and for profits arising from 6 April 2027 for Income Tax.",
+   "firstPublished": "2026-07-13T13:11:00+01:00"
+  },
+  {
+   "id": "c513e58e3d072d22",
+   "title": "Introduction of the Side-by-Side package and amendments to Multinational Top-up Tax and Domestic Top-up Tax",
+   "url": "https://www.gov.uk/government/publications/introduction-of-the-side-by-side-package-and-amendments-to-multinational-top-up-tax-and-domestic-top-up-tax",
+   "path": "/government/publications/introduction-of-the-side-by-side-package-and-amendments-to-multinational-top-up-tax-and-domestic-top-up-tax",
+   "date": "2026-10-28T17:36:33Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure is about the UK implementation of the Side-by-Side package and amendments being made to Multinational Top-up Tax and Domestic Top-up Tax.",
+   "categories": [
+    "corptax"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about the Side-by-Side package operative date and amendments made to Schedules 14 to 18 of the Finance (No.2) Act 2023 have been added for Budget 2026.",
+   "firstPublished": "2026-07-13T13:11:00+01:00"
+  },
+  {
+   "id": "3540325bc860286f",
+   "title": "Publishing details of deliberate defaulters reform",
+   "url": "https://www.gov.uk/government/publications/publishing-details-of-deliberate-defaulters-reform",
+   "path": "/government/publications/publishing-details-of-deliberate-defaulters-reform",
+   "date": "2026-10-28T17:36:27Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure is about changes to the publishing details of deliberate defaulters policy.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "This measure has been updated as the publication threshold increase to £50,000 was made by Statutory Instrument laid on 11 September 2026 and came into force on 2 October 2026.",
+   "firstPublished": "2026-07-13T13:20:00+01:00"
+  },
+  {
+   "id": "29dc06925885aede",
+   "title": "Modernising the correction of errors",
+   "url": "https://www.gov.uk/government/publications/modernising-the-correction-of-errors",
+   "path": "/government/publications/modernising-the-correction-of-errors",
+   "date": "2026-10-28T17:36:24Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure introduces draft legislation on new requirements to correct inaccuracies in returns and documents provided to HMRC.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "This legislation becomes operative on 1 April 2028. The section ‘policy objective’ has been updated to confirm we will use assessment and penalty provisions in an aim to improve compliance. The ‘current law’ section has been updated with more information. ‘Proposed revisions’ has been updated with more detail about the legislation. The update in section ‘Impact on individuals, households and families’ and in section ‘Administrative impact on business including civil society organisations’ confirms there is an explicit obligation on taxpayers to correct errors once they are identified.",
+   "firstPublished": "2026-07-13T13:17:00+01:00",
+   "ai": {
+    "summary": "New legislation requires all taxpayers to correct any identified errors in returns or documents to HMRC, and gives HMRC power to issue a customer correction notice.",
+    "whoAffected": "All taxpayers, including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "1 April 2028",
+    "actions": [
+     "Check client returns and filings for any inaccuracies",
+     "Advise clients to promptly correct any identified errors",
+     "Prepare and submit correction notices to HMRC where required",
+     "Maintain records of corrections and correspondence with HMRC"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-28T18:21:48.809Z"
+   }
+  },
+  {
+   "id": "c402c95255887220",
+   "title": "Cryptoasset loans and liquidity pools",
+   "url": "https://www.gov.uk/government/publications/cryptoasset-loans-and-liquidity-pools",
+   "path": "/government/publications/cryptoasset-loans-and-liquidity-pools",
+   "date": "2026-10-28T17:36:21Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure is about the treatment of certain disposals involving cryptoasset loans and liquidity pools for Capital Gains Tax. ",
+   "categories": [
+    "cgt"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about Exchequer impact and how Single Cryptoasset Lending Arrangements are treated have been updated. ",
+   "firstPublished": "2026-07-13T13:24:00+01:00"
+  },
+  {
+   "id": "29054b26c52f22b8",
+   "title": "Changes to reporting of benefits in kind from April 2027",
+   "url": "https://www.gov.uk/government/publications/changes-to-reporting-of-benefits-in-kind-from-april-2027",
+   "path": "/government/publications/changes-to-reporting-of-benefits-in-kind-from-april-2027",
+   "date": "2026-10-28T17:36:16Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure is about the changes to the reporting of certain benefits in kind from April 2027.",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about the background to this measure, the operative dates, proposed revisions, Exchequer impact, impact on individuals, households and families, equalities impacts, and administrative impacts has been updated.",
+   "firstPublished": "2026-07-13T13:11:00+01:00"
+  },
+  {
+   "id": "fbca7661ba2f16a8",
+   "title": "Lifetime ISA withdrawal charge",
+   "url": "https://www.gov.uk/government/publications/lifetime-isa-withdrawal-charge",
+   "path": "/government/publications/lifetime-isa-withdrawal-charge",
+   "date": "2026-10-28T17:36:15Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note explains the reduced Lifetime ISA withdrawal charge for first-time buyers purchasing a property above the property price cap.",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:36:15+00:00",
+   "ai": {
+    "summary": "From 29 Oct 2026, relevant Lifetime ISA withdrawals will let savers keep their own contributions but lose the government bonus; unauthorised withdrawals still incur a 25% charge.",
+    "whoAffected": "Savers with a Lifetime ISA making a relevant withdrawal after 29 Oct 2026",
+    "effectiveDate": "29 October 2026",
+    "actions": [
+     "Check whether a client’s withdrawal is a relevant Lifetime ISA withdrawal after the effective date",
+     "Explain that contributions can be retained but the government bonus will be removed",
+     "Confirm that any unauthorised withdrawal will still attract a 25% charge",
+     "Record the change in the client’s file and advise on tax implications"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-28T18:21:55.203Z"
+   }
+  },
+  {
+   "id": "dfa0b7b0c25fe0de",
+   "title": "Income Tax treatment of image rights payments connected to employment",
+   "url": "https://www.gov.uk/government/publications/income-tax-treatment-of-image-rights-payments-connected-to-employment",
+   "path": "/government/publications/income-tax-treatment-of-image-rights-payments-connected-to-employment",
+   "date": "2026-10-28T17:36:15Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about the tax treatment of image rights payments connected to an employment.",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:36:15+00:00"
+  },
+  {
+   "id": "36c8f905ffd245d0",
+   "title": "Reform of the foreign permanent establishment exemption",
+   "url": "https://www.gov.uk/government/publications/reform-of-the-foreign-permanent-establishment-exemption",
+   "path": "/government/publications/reform-of-the-foreign-permanent-establishment-exemption",
+   "date": "2026-10-28T17:36:11Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure reforms the taxation of foreign permanent establishments, making the elective exemption regime that applies to their profits and losses mandatory for Corporation Tax. ",
+   "categories": [
+    "corptax"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about the Exchequer impact has been updated.",
+   "firstPublished": "2026-07-13T13:16:00+01:00"
+  },
+  {
+   "id": "0b7b4f710cff6694",
+   "title": "Changes to employee share schemes, including Company Share Option Plan and Enterprise Management Incentives",
+   "url": "https://www.gov.uk/government/publications/changes-to-employee-share-schemes-including-company-share-option-plan-and-enterprise-management-incentives",
+   "path": "/government/publications/changes-to-employee-share-schemes-including-company-share-option-plan-and-enterprise-management-incentives",
+   "date": "2026-10-28T17:36:10Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about changes to the rules for employee share schemes. ",
+   "categories": [
+    "cgt",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:36:10+00:00"
+  },
+  {
+   "id": "1e84b0d46634fc06",
+   "title": "VAT changes following the abolition of NHS England",
+   "url": "https://www.gov.uk/government/publications/vat-changes-following-the-abolition-of-nhs-england",
+   "path": "/government/publications/vat-changes-following-the-abolition-of-nhs-england",
+   "date": "2026-10-28T17:36:09Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about changes to the VAT Act 1994 which are required because NHS England will be abolished in 2027.",
+   "categories": [
+    "vat",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:36:09+00:00"
+  },
+  {
+   "id": "aad658853cb92122",
+   "title": "Individual Savings Accounts (ISAs) compliance package",
+   "url": "https://www.gov.uk/government/publications/individual-savings-accounts-isas-compliance-package",
+   "path": "/government/publications/individual-savings-accounts-isas-compliance-package",
+   "date": "2026-10-28T17:36:05Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "The measure introduces a modern, fair and effective Individual Savings Account (ISA) compliance framework that supports digital reporting and makes sure the ISA system operates as intended.",
+   "categories": [
+    "personal",
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about the Exchequer impact has been updated. ",
+   "firstPublished": "2026-07-13T13:12:00+01:00",
+   "ai": {
+    "summary": "A new ISA compliance framework requires managers to submit digital monthly and annual returns, introduces a points‑based penalty regime, allows HMRC to suspend managers, and lets HMRC collect tax and penalties for compliance failures.",
+    "whoAffected": "ISA managers and providers (including any SME or self‑employed clients that operate ISA schemes)",
+    "effectiveDate": "April 2028 (suspension powers from April 2027)",
+    "actions": [
+     "Check that ISA‑manager clients have systems to file monthly and annual returns digitally",
+     "Implement checks to improve accuracy of returns to avoid points‑based penalties",
+     "Inform clients of the new suspension powers and prepare contingency plans",
+     "Advise clients on the updated ISA regulations and potential tax‑penalty calculations"
+    ],
+    "legislationRefs": [
+     "ISA regulations"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-28T18:22:05.069Z"
+   }
+  },
+  {
+   "id": "27d5179900cb327e",
+   "title": "Corporation Tax treatment of investment life insurance contract payouts",
+   "url": "https://www.gov.uk/government/publications/corporation-tax-treatment-of-investment-life-insurance-contract-payouts",
+   "path": "/government/publications/corporation-tax-treatment-of-investment-life-insurance-contract-payouts",
+   "date": "2026-10-28T17:36:02Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about a change that clarifies when a company that is not a life insurance company can claim a partial Corporation Tax exemption on a payout from an investment life insurance contract.",
+   "categories": [
+    "corptax",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:36:02+00:00"
+  },
+  {
+   "id": "53f1822c82fe5a90",
+   "title": "High Value Council Tax Surcharge on residential properties",
+   "url": "https://www.gov.uk/government/publications/high-value-council-tax-surcharge-on-residential-properties",
+   "path": "/government/publications/high-value-council-tax-surcharge-on-residential-properties",
+   "date": "2026-10-28T17:36:01Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about the High Value Council Tax Surcharge, a new annual charge on owners of residential property in England worth £2 million or above.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:36:01+00:00"
+  },
+  {
+   "id": "0a56df854f27138a",
+   "title": "Income Tax: changes resulting from new savings and property rates",
+   "url": "https://www.gov.uk/government/publications/income-tax-changes-resulting-from-new-savings-and-property-rates",
+   "path": "/government/publications/income-tax-changes-resulting-from-new-savings-and-property-rates",
+   "date": "2026-10-28T17:36:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about changes to the savings and property rates of Income Tax.",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:36:00+00:00",
+   "ai": {
+    "summary": "From 6 April 2027 the basic rate for savings income rises and separate property income rates start; rules on insurers’ reporting, foreign life policy gains, deduction at source and Transfer of Assets Abroad are preserved.",
+    "whoAffected": "Insurers, holders of certain foreign life insurance policies, and taxpayers with savings or property income.",
+    "effectiveDate": "6 April 2027",
+    "actions": [
+     "Check client savings and property income to apply the new basic and separate rates from 6 April 2027",
+     "Confirm insurers’ reporting obligations remain unchanged for relevant clients",
+     "Verify that tax treatment of gains from foreign life policies continues as before",
+     "Review deduction‑at‑source and Transfer of Assets Abroad compliance for affected clients"
+    ],
+    "legislationRefs": [
+     "Transfer of Assets Abroad legislation"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-28T18:22:13.797Z"
+   }
+  },
+  {
+   "id": "9f8ff6a43ebef092",
+   "title": "Tax treatment of stablecoins",
+   "url": "https://www.gov.uk/government/publications/tax-treatment-of-stablecoins",
+   "path": "/government/publications/tax-treatment-of-stablecoins",
+   "date": "2026-10-28T17:35:57Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure will treat eligible stablecoins more like money for tax purposes. ",
+   "categories": [
+    "personal",
+    "cgt"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about the taxation of eligible stablecoins for individuals, trustees and companies and deduction of sums representing Income Tax has been added, and the exchequer impact table has been updated for Budget 2026.",
+   "firstPublished": "2026-07-13T13:19:00+01:00"
+  },
+  {
+   "id": "19c6009c6e5c2d6c",
+   "title": "Company director disqualification following breach of HMRC securities legislation ",
+   "url": "https://www.gov.uk/government/publications/company-director-disqualification-following-breach-of-hmrc-securities-legislation",
+   "path": "/government/publications/company-director-disqualification-following-breach-of-hmrc-securities-legislation",
+   "date": "2026-10-28T17:35:55Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note explains changes that allow courts to consider director disqualification following a conviction for an offence under HMRC securities legislation.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:55+00:00"
+  },
+  {
+   "id": "56defe2a0f7de9db",
+   "title": "Remote Gaming Duty: changes to freeplays, prizes and tournaments",
+   "url": "https://www.gov.uk/government/publications/remote-gaming-duty-changes-to-freeplays-prizes-and-tournaments",
+   "path": "/government/publications/remote-gaming-duty-changes-to-freeplays-prizes-and-tournaments",
+   "date": "2026-10-28T17:35:54Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about changes to the Remote Gaming Duty rules for restricted plays (commonly known as freeplays), prizes and tournaments.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:54+00:00"
+  },
+  {
+   "id": "226d3d4a60211cb8",
+   "title": "Capital Gains Tax exit charges for temporarily migrated trusts",
+   "url": "https://www.gov.uk/government/publications/capital-gains-tax-exit-charges-for-temporarily-migrated-trusts",
+   "path": "/government/publications/capital-gains-tax-exit-charges-for-temporarily-migrated-trusts",
+   "date": "2026-10-28T17:35:50Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about trusts that become UK resident when a trustee moves to the UK.",
+   "categories": [
+    "cgt",
+    "iht",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:50+00:00"
+  },
+  {
+   "id": "34a0a05480f078ad",
+   "title": "Income Tax: assessing and collecting tax on lump sum death benefits above the allowance",
+   "url": "https://www.gov.uk/government/publications/income-tax-assessing-and-collecting-tax-on-lump-sum-death-benefits-above-the-allowance",
+   "path": "/government/publications/income-tax-assessing-and-collecting-tax-on-lump-sum-death-benefits-above-the-allowance",
+   "date": "2026-10-28T17:35:49Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about changes to how Income Tax is charged on certain pension lump sum death benefits paid above the deceased member’s available lump sum and death benefit allowance.",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:49+00:00"
+  },
+  {
+   "id": "d263bfe823b22e23",
+   "title": "Income Tax — withholding tax exemption for Scottish Government bonds",
+   "url": "https://www.gov.uk/government/publications/income-tax-withholding-tax-exemption-for-scottish-government-bonds",
+   "path": "/government/publications/income-tax-withholding-tax-exemption-for-scottish-government-bonds",
+   "date": "2026-10-28T17:35:46Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about the removal of the obligation on the Scottish Government to apply withholding tax to certain interest payments.",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:46+00:00"
+  },
+  {
+   "id": "944f6e1290092d93",
+   "title": "Reverse charge on supplies received from abroad",
+   "url": "https://www.gov.uk/government/publications/reverse-charge-on-supplies-received-from-abroad",
+   "path": "/government/publications/reverse-charge-on-supplies-received-from-abroad",
+   "date": "2026-10-28T17:35:45Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about changes to the business to business reverse charge for services supplied by overseas businesses to UK VAT registered recipients.",
+   "categories": [
+    "vat",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:45+00:00"
+  },
+  {
+   "id": "d9597b9973b1af57",
+   "title": "Tax treatment of payments under the Department for Energy Security and Net Zero Electricity Bill Discount Scheme",
+   "url": "https://www.gov.uk/government/publications/tax-treatment-of-payments-under-the-department-for-energy-security-and-net-zero-electricity-bill-discount-scheme",
+   "path": "/government/publications/tax-treatment-of-payments-under-the-department-for-energy-security-and-net-zero-electricity-bill-discount-scheme",
+   "date": "2026-10-28T17:35:40Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about a new Income Tax exemption for payments made under the Electricity Bill Discount Scheme.",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:40+00:00"
+  },
+  {
+   "id": "6d97b777d4733a61",
+   "title": "Increase in the banking surcharge rate for a temporary period",
+   "url": "https://www.gov.uk/government/publications/increase-in-the-banking-surcharge-rate-for-a-temporary-period",
+   "path": "/government/publications/increase-in-the-banking-surcharge-rate-for-a-temporary-period",
+   "date": "2026-10-28T17:35:38Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note sets out the rate of surcharge on banking companies.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:38+00:00"
+  },
+  {
+   "id": "56fae08cca880c25",
+   "title": "Income Tax: removing the pensions tax two-year rule",
+   "url": "https://www.gov.uk/government/publications/income-tax-removing-the-pensions-tax-two-year-rule",
+   "path": "/government/publications/income-tax-removing-the-pensions-tax-two-year-rule",
+   "date": "2026-10-28T17:35:34Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about removing the two-year rule for tax-free pension and lump sum death benefits.",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:34+00:00"
+  },
+  {
+   "id": "05493d8a78bf87c2",
+   "title": "VAT: removal of the exemption for a deputy for a medical practitioner",
+   "url": "https://www.gov.uk/government/publications/vat-removal-of-the-exemption-for-a-deputy-for-a-medical-practitioner",
+   "path": "/government/publications/vat-removal-of-the-exemption-for-a-deputy-for-a-medical-practitioner",
+   "date": "2026-10-28T17:35:29Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about the removal of the VAT exemption for a deputy for a medical practitioner.",
+   "categories": [
+    "vat",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:29+00:00"
+  },
+  {
+   "id": "fdf2867a9122ef7f",
+   "title": "Capital Gains Tax — capital sums received for surrendering rights ",
+   "url": "https://www.gov.uk/government/publications/capital-gains-tax-capital-sums-received-for-surrendering-rights",
+   "path": "/government/publications/capital-gains-tax-capital-sums-received-for-surrendering-rights",
+   "date": "2026-10-28T17:35:23Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about the surrender of rights under the terms of a contract.",
+   "categories": [
+    "cgt",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:23+00:00"
+  },
+  {
+   "id": "56a0c1a46c24be1a",
+   "title": "Statutory reorganisations: general power",
+   "url": "https://www.gov.uk/government/publications/statutory-reorganisations-general-power",
+   "path": "/government/publications/statutory-reorganisations-general-power",
+   "date": "2026-10-28T17:35:22Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about the creation of a general power to neutralise any tax consequences of a reorganisation of public sector bodies. ",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:22+00:00"
+  },
+  {
+   "id": "c57ee87c117007d6",
+   "title": "VAT refund claims made using form VAT126",
+   "url": "https://www.gov.uk/government/publications/vat-refund-claims-made-using-form-vat126",
+   "path": "/government/publications/vat-refund-claims-made-using-form-vat126",
+   "date": "2026-10-28T17:35:22Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about legislation that will allow powers and safeguards to be introduced for VAT refund claims made using form VAT126.",
+   "categories": [
+    "vat",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:22+00:00"
+  },
+  {
+   "id": "770242d5da9c46e1",
+   "title": "Income Tax: increasing the trading allowance",
+   "url": "https://www.gov.uk/government/publications/income-tax-increasing-the-trading-allowance",
+   "path": "/government/publications/income-tax-increasing-the-trading-allowance",
+   "date": "2026-10-28T17:35:21Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note details legislation introduced to increase the income tax trading allowance to £3,000, for trades and miscellaneous income. ",
+   "categories": [
+    "personal",
+    "selfemployed",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:21+00:00"
+  },
+  {
+   "id": "40eb34abc22ee277",
+   "title": "Capital Gains Tax: returns for disposals of UK land and late filing penalties",
+   "url": "https://www.gov.uk/government/publications/capital-gains-tax-returns-for-disposals-of-uk-land-and-late-filing-penalties",
+   "path": "/government/publications/capital-gains-tax-returns-for-disposals-of-uk-land-and-late-filing-penalties",
+   "date": "2026-10-28T17:35:20Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about people who have disposed of an interest in UK residential property and have not reported the disposal on the correct return.",
+   "categories": [
+    "cgt",
+    "compliance",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:20+00:00"
+  },
+  {
+   "id": "6c90333c9c120070",
+   "title": "Stamp Duty Land Tax — changes to group relief",
+   "url": "https://www.gov.uk/government/publications/stamp-duty-land-tax-changes-to-group-relief",
+   "path": "/government/publications/stamp-duty-land-tax-changes-to-group-relief",
+   "date": "2026-10-28T17:35:16Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure is about changes to Stamp Duty Land Tax (SDLT) where group relief has been claimed on a purchase of land or property.",
+   "categories": [
+    "corptax"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:16+00:00"
+  },
+  {
+   "id": "2a1f2cceb0c00d3c",
+   "title": "Income Tax: changes to the definition of serious ill health lump sums and medical evidence requirements",
+   "url": "https://www.gov.uk/government/publications/income-tax-changes-to-the-definition-of-serious-ill-health-lump-sums-and-medical-evidence-requirements",
+   "path": "/government/publications/income-tax-changes-to-the-definition-of-serious-ill-health-lump-sums-and-medical-evidence-requirements",
+   "date": "2026-10-28T17:35:16Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note explains changes to the test for qualifying for a serious ill health lump sum and to the medical evidence that practitioners outside the UK can provide.",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:16+00:00"
+  },
+  {
+   "id": "7a099516e267440a",
+   "title": "Stamp Duty Land Tax: assured tenancies",
+   "url": "https://www.gov.uk/government/publications/stamp-duty-land-tax-assured-tenancies",
+   "path": "/government/publications/stamp-duty-land-tax-assured-tenancies",
+   "date": "2026-10-28T17:35:11Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure changes the Stamp Duty Land Tax (SDLT) treatment of rent payable under assured tenancies.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:11+00:00"
+  },
+  {
+   "id": "2092432535d3a2c5",
+   "title": "Changes to the Seed Enterprise Investment Scheme, Enterprise Investment Scheme and Venture Capital Trusts",
+   "url": "https://www.gov.uk/government/publications/changes-to-the-seed-enterprise-investment-scheme-enterprise-investment-scheme-and-venture-capital-trusts",
+   "path": "/government/publications/changes-to-the-seed-enterprise-investment-scheme-enterprise-investment-scheme-and-venture-capital-trusts",
+   "date": "2026-10-28T17:35:08Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about changes to the Seed Enterprise Investment Scheme (SEIS), Enterprise Investment Scheme (EIS) and Venture Capital Trusts (VCT) scheme.  ",
+   "categories": [
+    "iht",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:08+00:00"
+  },
+  {
+   "id": "aaf81cfd5ab654f8",
+   "title": "Updating the tax treatment of certain lease and leaseback arrangements",
+   "url": "https://www.gov.uk/government/publications/updating-the-tax-treatment-of-certain-lease-and-leaseback-arrangements",
+   "path": "/government/publications/updating-the-tax-treatment-of-certain-lease-and-leaseback-arrangements",
+   "date": "2026-10-28T17:35:04Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about a change that maintains the existing treatment of finance leaseback arrangements following changes to accounting standards.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:04+00:00"
+  },
+  {
+   "id": "7404cc60533fc0fe",
+   "title": "Inheritance Tax: preventing unintended deductions for liabilities in trust arrangements",
+   "url": "https://www.gov.uk/government/publications/inheritance-tax-preventing-unintended-deductions-for-liabilities-in-trust-arrangements",
+   "path": "/government/publications/inheritance-tax-preventing-unintended-deductions-for-liabilities-in-trust-arrangements",
+   "date": "2026-10-28T17:35:03Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure will amend the Inheritance Tax rules on liabilities relating to settled property to make sure they operate as intended and provide greater certainty about how liabilities are taken into account for Inheritance Tax purposes.",
+   "categories": [
+    "iht"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:03+00:00"
+  },
+  {
+   "id": "c3721787c502704d",
+   "title": "VAT: introducing a new zero rate on donated medicines",
+   "url": "https://www.gov.uk/government/publications/vat-introducing-a-new-zero-rate-on-donated-medicines",
+   "path": "/government/publications/vat-introducing-a-new-zero-rate-on-donated-medicines",
+   "date": "2026-10-28T17:35:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about introducing a new zero rate of VAT for qualifying donations of medicines.",
+   "categories": [
+    "vat",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:00+00:00"
+  },
+  {
+   "id": "1d203f0c004f3b01",
+   "title": "National Savings and Investments tracing issue: tax treatment",
+   "url": "https://www.gov.uk/government/publications/national-savings-and-investments-tracing-issue-tax-treatment",
+   "path": "/government/publications/national-savings-and-investments-tracing-issue-tax-treatment",
+   "date": "2026-10-28T17:34:58Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure gives the Treasury a regulation-making power to introduce tax reliefs and administrative easements for holdings and payments affected by historic failures in National Savings & Investments (NS&I) tracing processes for bereavement claims.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:34:58+00:00"
+  },
+  {
+   "id": "d7297b7ae394ec89",
+   "title": "Income Tax treatment of immigration skills charge and certificate of sponsorship fees",
+   "url": "https://www.gov.uk/government/publications/income-tax-treatment-of-immigration-skills-charge-and-certificate-of-sponsorship-fees",
+   "path": "/government/publications/income-tax-treatment-of-immigration-skills-charge-and-certificate-of-sponsorship-fees",
+   "date": "2026-10-28T17:34:57Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure will exempt employer paid immigration skills charge and certificate of sponsorship fees from Income Tax and Class 1a National Insurance contributions.",
+   "categories": [
+    "nic",
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:34:57+00:00"
+  },
+  {
+   "id": "5bd8bed58c6716b1",
+   "title": "Enterprise Management Incentives (EMI): simplification of the process to grant options",
+   "url": "https://www.gov.uk/government/publications/enterprise-management-incentives-emi-simplification-of-the-process-to-grant-options",
+   "path": "/government/publications/enterprise-management-incentives-emi-simplification-of-the-process-to-grant-options",
+   "date": "2026-10-28T17:34:52Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure is about the removal of the requirement to submit a notification of a grant of Enterprise Management Incentives (EMI) options.  ",
+   "categories": [
+    "cgt"
+   ],
+   "hasBody": true,
+   "changeNote": "From on or after 6 April 2027 changes apply to Enterprise Management Incentives (EMI) options granted. The 'Background to the measure' section has been updated to confirm the draft legislation about the EMI options was published for technical consultation on 13 July 2026 as part of Legislation Day. Changes to the EMI options have been added to the sections 'Proposed revisions' and 'Administrative impact on business including civil society organisations'. The exchequer impact table has been updated for Budget 2026.",
+   "firstPublished": "2026-07-13T13:22:00+01:00"
+  },
+  {
+   "id": "365332b464e94892",
+   "title": "VAT online marketplace liability extension",
+   "url": "https://www.gov.uk/government/publications/vat-online-marketplace-liability-extension",
+   "path": "/government/publications/vat-online-marketplace-liability-extension",
+   "date": "2026-10-28T17:34:49Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about the extension of online marketplace liability to all sales of goods where the marketplace facilitates the sale of those goods by UK businesses.",
+   "categories": [
+    "vat",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:34:49+00:00"
+  },
+  {
+   "id": "0bde358e845747a8",
+   "title": "Corporate Interest Restriction — interaction with creative reliefs",
+   "url": "https://www.gov.uk/government/publications/corporate-interest-restriction-interaction-with-creative-reliefs",
+   "path": "/government/publications/corporate-interest-restriction-interaction-with-creative-reliefs",
+   "date": "2026-10-28T17:34:43Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure makes technical changes to the Corporate Interest Restriction rules so they work as intended.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:34:43+00:00"
+  },
+  {
+   "id": "be0ac07ff1d7d288",
+   "title": "Income Tax: company car tax rates for 2030 to 2032",
+   "url": "https://www.gov.uk/government/publications/income-tax-company-car-tax-rates-for-2030-to-2032",
+   "path": "/government/publications/income-tax-company-car-tax-rates-for-2030-to-2032",
+   "date": "2026-10-28T17:34:41Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about changes to the appropriate percentage used to calculate company car tax for tax years 2030 to 2031 and 2031 to 2032.",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:34:41+00:00"
+  },
+  {
+   "id": "a873c93129af2f51",
+   "title": "Capital Gains Tax: introduction of a founder relief",
+   "url": "https://www.gov.uk/government/publications/capital-gains-tax-introduction-of-a-founder-relief",
+   "path": "/government/publications/capital-gains-tax-introduction-of-a-founder-relief",
+   "date": "2026-10-28T17:34:38Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note explains the launch of a technical consultation into the introduction of a new relief for founders of and early investors in the UK’s most high-growth and innovative companies. ",
+   "categories": [
+    "cgt",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:34:38+00:00"
+  },
+  {
+   "id": "7abb199c894d5086",
+   "title": "Income Tax: Child Benefit overpayments and the High Income Child Benefit Charge",
+   "url": "https://www.gov.uk/government/publications/income-tax-child-benefit-overpayments-and-the-high-income-child-benefit-charge",
+   "path": "/government/publications/income-tax-child-benefit-overpayments-and-the-high-income-child-benefit-charge",
+   "date": "2026-10-28T17:34:34Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note explains the treatment of Child Benefit overpayments and High Income Child Benefit Charge payments made in relation to that overpayment.  ",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:34:34+00:00"
+  },
+  {
+   "id": "b8bc5aabef5c558f",
+   "title": "Cultural Gift Scheme reform",
+   "url": "https://www.gov.uk/government/publications/cultural-gift-scheme-reform",
+   "path": "/government/publications/cultural-gift-scheme-reform",
+   "date": "2026-10-28T17:34:31Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure is about reforms to the Cultural Gift Scheme allowing joint owners to claim relief and providing greater flexibility in tax credit allocation. ",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "The exchequer impact table has been updated for Budget 2026. The 'Monitoring and evaluation' section has been updated to confirm consideration will be given to monitoring this measure.\r\n",
+   "firstPublished": "2026-07-13T13:12:00+01:00"
+  },
+  {
+   "id": "0ba5062c87d9657e",
+   "title": "Income Tax reduction for eligible pensioners",
+   "url": "https://www.gov.uk/government/publications/income-tax-reduction-for-eligible-pensioners",
+   "path": "/government/publications/income-tax-reduction-for-eligible-pensioners",
+   "date": "2026-10-28T17:34:27Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about the introduction of an Income Tax reduction for eligible pensioners.",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:34:27+00:00"
+  },
+  {
+   "id": "fc8dfc68426400db",
+   "title": "Air Passenger Duty and private jets",
+   "url": "https://www.gov.uk/government/publications/air-passenger-duty-and-private-jets",
+   "path": "/government/publications/air-passenger-duty-and-private-jets",
+   "date": "2026-10-28T17:34:26Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "The measure confirms that from April 2027, the higher rate of Air Passenger Duty will apply to aircraft of 5.7 tonnes or more that are used as a private or business jet. ",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The exchequer impact table has been updated for Budget 2026.",
+   "firstPublished": "2026-07-13T13:11:00+01:00"
+  },
+  {
+   "id": "015784bf56f463b9",
+   "title": "Changes to the promoters of tax avoidance scheme legislation",
+   "url": "https://www.gov.uk/government/publications/changes-to-the-promoters-of-tax-avoidance-scheme-legislation",
+   "path": "/government/publications/changes-to-the-promoters-of-tax-avoidance-scheme-legislation",
+   "date": "2026-10-28T17:34:20Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about changes to the anti avoidance legislation.",
+   "categories": [
+    "compliance",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:34:20+00:00"
+  },
+  {
+   "id": "e7d36d2df7d46c3e",
+   "title": "Research and Development (R&D) Tax Reliefs: improving the customer experience",
+   "url": "https://www.gov.uk/government/publications/research-and-development-rd-tax-reliefs-improving-the-customer-experience",
+   "path": "/government/publications/research-and-development-rd-tax-reliefs-improving-the-customer-experience",
+   "date": "2026-10-28T17:34:18Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about removing the requirement to submit a claim notification form for R&D tax reliefs and simplifying the information required in the additional information form.",
+   "categories": [
+    "corptax",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:34:18+00:00"
+  },
+  {
+   "id": "21cd9a91c5880f0d",
+   "title": "Defined benefit pension scheme surplus payments to members",
+   "url": "https://www.gov.uk/government/publications/defined-benefit-pension-scheme-surplus-payments-to-members",
+   "path": "/government/publications/defined-benefit-pension-scheme-surplus-payments-to-members",
+   "date": "2026-10-28T17:34:17Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure allows defined benefit pension schemes to make authorised surplus payments to members.",
+   "categories": [
+    "personal",
+    "pensions"
+   ],
+   "hasBody": true,
+   "changeNote": "The Exchequer impact has been updated to reflect an additional financial year, updated data and revised National Accounts methodology. The background has also been updated to clarify the changes made by the Pension Schemes Act 2026.",
+   "firstPublished": "2026-07-13T13:11:00+01:00"
+  },
+  {
+   "id": "7252ad9fb75e61b1",
+   "title": "Budget 2026 speech",
+   "url": "https://www.gov.uk/government/speeches/budget-2026-speech",
+   "path": "/government/speeches/budget-2026-speech",
+   "date": "2026-10-28T15:45:59Z",
+   "type": "speech",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "Budget 2026 speech as delivered by Chancellor John Healey.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T15:45:59+00:00"
+  },
+  {
+   "id": "f8bb0e965bb5a1f6",
+   "title": "Budget 2026 Fact Sheet: Delivering for Every Region",
+   "url": "https://www.gov.uk/government/news/budget-2026-fact-sheet-delivering-for-every-region",
+   "path": "/government/news/budget-2026-fact-sheet-delivering-for-every-region",
+   "date": "2026-10-28T15:12:34Z",
+   "type": "news_story",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "A factsheet on local and regional growth measures in England.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T15:12:34+00:00"
+  },
+  {
+   "id": "ffd658a24ff6c81d",
+   "title": "Enterprise Management Incentives (EMI) and Enterprise Management Incentives 2 (EMI2)",
+   "url": "https://www.gov.uk/government/publications/enterprise-management-incentives-emi-and-enterprise-management-incentives-2-emi2",
+   "path": "/government/publications/enterprise-management-incentives-emi-and-enterprise-management-incentives-2-emi2",
+   "date": "2026-10-28T15:00:01Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Giving employees the opportunity to share in the growth they help create through tax-advantaged share options.",
+   "categories": [
+    "cgt"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T15:00:01+00:00"
+  },
+  {
+   "id": "2c228aebfe813376",
+   "title": "Breathing space for Scottish families and businesses at Budget",
+   "url": "https://www.gov.uk/government/news/breathing-space-for-scottish-families-and-businesses-at-budget",
+   "path": "/government/news/breathing-space-for-scottish-families-and-businesses-at-budget",
+   "date": "2026-10-28T14:40:17Z",
+   "type": "news_story",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "Families and businesses in Scotland will get breathing space from action announced in Budget 2026. ",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T14:40:17+00:00"
+  },
+  {
+   "id": "df10b42a381d1de2",
+   "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
+   "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
+   "path": "/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
+   "date": "2026-10-28T14:36:11Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "This list includes details of businesses and sole traders that have had their ACSP status either suspended or ceased (removed).",
+   "categories": [
+    "reporting",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated the list of ceased and suspended ACSPs.",
+   "firstPublished": "2025-10-10T00:00:00+01:00"
+  },
+  {
+   "id": "488cc81523a0b757",
+   "title": "Breathing space for Northern Ireland families and businesses",
+   "url": "https://www.gov.uk/government/news/breathing-space-for-northern-ireland-families-and-businesses",
+   "path": "/government/news/breathing-space-for-northern-ireland-families-and-businesses",
+   "date": "2026-10-28T14:35:33Z",
+   "type": "news_story",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "Families and businesses in Northern Ireland will get breathing space from Budget 2026. ",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T14:35:33+00:00"
+  },
+  {
+   "id": "5b17b7aeda40cc79",
+   "title": "Breathing space for Welsh families and businesses at Budget 2026",
+   "url": "https://www.gov.uk/government/news/breathing-space-for-welsh-families-and-businesses-at-budget-2026",
+   "path": "/government/news/breathing-space-for-welsh-families-and-businesses-at-budget-2026",
+   "date": "2026-10-28T14:29:04Z",
+   "type": "news_story",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "Families and businesses in Wales will get breathing space from action announced in Budget 2026. ",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T14:29:04+00:00"
+  },
+  {
+   "id": "27dd1b6eb4aaaa6d",
+   "title": "Budget 2026: Breathing space for Welsh families and businesses",
+   "url": "https://www.gov.uk/government/news/budget-2026-breathing-space-for-welsh-families-and-businesses",
+   "path": "/government/news/budget-2026-breathing-space-for-welsh-families-and-businesses",
+   "date": "2026-10-28T14:05:42Z",
+   "type": "press_release",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "Families and businesses in Wales will get breathing space as a result of action announced in Budget 2026. ",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T14:05:42+00:00"
+  },
+  {
+   "id": "605734d489a5db7a",
+   "title": "Modernising and standardising company tax returns",
+   "url": "https://www.gov.uk/government/consultations/modernising-and-standardising-company-tax-returns--2",
+   "path": "/government/consultations/modernising-and-standardising-company-tax-returns--2",
+   "date": "2026-10-28T13:50:46Z",
+   "type": "consultation_outcome",
+   "source": "HMRC (GOV.UK)",
+   "description": "A consultation exploring delivery timescales and enforcement for full prescription of the content, format, and data tagging of Corporation Tax computations.",
+   "categories": [
+    "corptax",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "Published outcome, including summary of responses.",
+   "firstPublished": "2026-03-10T12:18:31+00:00"
+  },
+  {
+   "id": "cbcb939567e3c353",
+   "title": "Modernising the distributions framework",
+   "url": "https://www.gov.uk/government/consultations/modernising-the-distributions-framework",
+   "path": "/government/consultations/modernising-the-distributions-framework",
+   "date": "2026-10-28T13:50:33Z",
+   "type": "consultation_outcome",
+   "source": "HMRC (GOV.UK)",
+   "description": "This consultation seeks views on proposals to update the distributions framework.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "Published outcome, including summary of responses.",
+   "firstPublished": "2026-06-23T14:18:39+01:00"
+  },
+  {
+   "id": "d879e3b1e63322fa",
+   "title": "Requiring payment of VAT and PAYE return liabilities by Direct Debit",
+   "url": "https://www.gov.uk/government/consultations/requiring-paymentof-vat-and-paye-return-liabilitiesbydirect-debit",
+   "path": "/government/consultations/requiring-paymentof-vat-and-paye-return-liabilitiesbydirect-debit",
+   "date": "2026-10-28T13:50:22Z",
+   "type": "consultation_outcome",
+   "source": "HMRC (GOV.UK)",
+   "description": "The Government is seeking views on requiring VAT and PAYE payments to be made by Direct Debit.",
+   "categories": [
+    "paye",
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Published outcome, including summary of responses.",
+   "firstPublished": "2026-06-23T14:17:50+01:00"
+  },
+  {
+   "id": "2fc08a7270913cc8",
+   "title": "Machine Games Duty — changing who is liable for the duty",
+   "url": "https://www.gov.uk/government/consultations/machine-games-duty-changing-who-is-liable-for-the-duty",
+   "path": "/government/consultations/machine-games-duty-changing-who-is-liable-for-the-duty",
+   "date": "2026-10-28T13:50:04Z",
+   "type": "open_consultation",
+   "source": "HMRC (GOV.UK)",
+   "description": "This consultation seeks views on the implementation of changes to Machine Games Duty (MGD) liability.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:50:04+00:00"
+  },
+  {
+   "id": "17d3256119ead41e",
+   "title": "Improving Property Income Data Reporting",
+   "url": "https://www.gov.uk/government/consultations/improving-property-income-data-reporting",
+   "path": "/government/consultations/improving-property-income-data-reporting",
+   "date": "2026-10-28T13:49:52Z",
+   "type": "open_consultation",
+   "source": "HMRC (GOV.UK)",
+   "description": "We welcome views on proposals to improve the reporting of property income data to HMRC by letting agents and tenancy deposit scheme providers to support effective tax administration and help taxpayers get their tax right.",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:49:52+00:00"
+  },
+  {
+   "id": "2733031b2473bcc3",
+   "title": "Advance Tax Certainty Service",
+   "url": "https://www.gov.uk/guidance/advance-tax-certainty-service",
+   "path": "/guidance/advance-tax-certainty-service",
+   "date": "2026-10-28T13:49:51Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Get certainty on how UK tax rules will apply to a major investment project before investment takes place.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated to reflect change in qualifying expenditure.",
+   "firstPublished": "2026-05-12T09:30:00+01:00"
+  },
+  {
+   "id": "4a2bf79cba07c6c2",
+   "title": "UK resident individual members of LLCs and other reverse hybrids  ",
+   "url": "https://www.gov.uk/government/consultations/uk-residentindividualmembers-of-llcs-and-otherreversehybrids",
+   "path": "/government/consultations/uk-residentindividualmembers-of-llcs-and-otherreversehybrids",
+   "date": "2026-10-28T13:49:49Z",
+   "type": "consultation_outcome",
+   "source": "HMRC (GOV.UK)",
+   "description": "Consultation on a new measure to mitigate double taxation for individuals investing in certain overseas entities (including US Limited Liability Companies (LLCs). \r\n",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "Published outcome, including summary of responses.",
+   "firstPublished": "2026-06-10T17:27:13+01:00"
+  },
+  {
+   "id": "e24dd4900f4f1cc7",
+   "title": "Tackling lower value tax debts",
+   "url": "https://www.gov.uk/government/consultations/tackling-lower-value-tax-debts",
+   "path": "/government/consultations/tackling-lower-value-tax-debts",
+   "date": "2026-10-28T13:49:43Z",
+   "type": "consultation_outcome",
+   "source": "HMRC (GOV.UK)",
+   "description": "A consultation seeking views on proposals to extend existing powers to enforce lower value tax debts through directly deducted monthly instalments.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "Published outcome, including summary of responses.",
+   "firstPublished": "2026-06-23T14:18:03+01:00"
+  },
+  {
+   "id": "8ad652009c3adacf",
+   "title": "VAT treatment of land for social housing",
+   "url": "https://www.gov.uk/government/consultations/vat-treatment-of-land-for-social-housing",
+   "path": "/government/consultations/vat-treatment-of-land-for-social-housing",
+   "date": "2026-10-28T13:49:43Z",
+   "type": "consultation_outcome",
+   "source": "HMRC (GOV.UK)",
+   "description": "Consultation on introducing a new VAT zero rate for land intended for the construction of social housing across the UK.",
+   "categories": [
+    "vat",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "Published outcome, including summary of responses.",
+   "firstPublished": "2026-06-23T14:18:18+01:00"
+  },
+  {
+   "id": "52738b4646a35f55",
+   "title": "Timely Payments in income tax Self Assessment",
+   "url": "https://www.gov.uk/government/consultations/timely-payments-in-income-tax-self-assessment",
+   "path": "/government/consultations/timely-payments-in-income-tax-self-assessment",
+   "date": "2026-10-28T13:49:41Z",
+   "type": "consultation_outcome",
+   "source": "HMRC (GOV.UK)",
+   "description": "This consultation seeks views on implementing more timely payment in Income Tax Self Assessment (ITSA), following the government’s announcement at Budget 2025.",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "Published outcome, including summary of responses. ",
+   "firstPublished": "2026-06-23T14:18:20+01:00"
+  },
+  {
+   "id": "84f1f22ed065c2dc",
+   "title": "Reporting company payments to participators",
+   "url": "https://www.gov.uk/government/consultations/reporting-company-payments-to-participators",
+   "path": "/government/consultations/reporting-company-payments-to-participators",
+   "date": "2026-10-28T13:49:34Z",
+   "type": "consultation_outcome",
+   "source": "HMRC (GOV.UK)",
+   "description": "This consultation seeks views on proposals to introduce new requirements to report transactions between close companies and their participators to HMRC",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "Published outcome, including summary of responses.",
+   "firstPublished": "2026-03-19T09:30:09+00:00"
+  },
+  {
+   "id": "d1ee3ea3722747ef",
+   "title": "Electronic Sales Suppression: Introduction of software standards",
+   "url": "https://www.gov.uk/government/consultations/electronic-sales-suppression-introduction-of-software-standards",
+   "path": "/government/consultations/electronic-sales-suppression-introduction-of-software-standards",
+   "date": "2026-10-28T13:49:25Z",
+   "type": "consultation_outcome",
+   "source": "HMRC (GOV.UK)",
+   "description": "HMRC is seeking views on proposed software standards to prevent electronic sales suppression and help ensure businesses report sales accurately.",
+   "categories": [
+    "compliance",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "Published outcome, includes summary of responses.",
+   "firstPublished": "2026-06-23T14:18:28+01:00"
+  },
+  {
+   "id": "ff8e0de08255f7dd",
+   "title": "E-invoicing digital reporting",
+   "url": "https://www.gov.uk/government/consultations/e-invoicing-digital-reporting",
+   "path": "/government/consultations/e-invoicing-digital-reporting",
+   "date": "2026-10-28T13:49:00Z",
+   "type": "open_consultation",
+   "source": "HMRC (GOV.UK)",
+   "description": "We are seeking views on the potential future use of E-invoicing Digital Reporting and how information created through e-invoicing could be used more effectively.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:49:16+00:00"
+  },
+  {
+   "id": "70a49eae5da7d10e",
+   "title": "Budget 2026: Overview of tax legislation and rates (OOTLAR)",
+   "url": "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar",
+   "path": "/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar",
+   "date": "2026-10-28T13:43:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "Tax policy announcements at Budget 2026.\r\n\r\n",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:43:00+00:00"
+  },
+  {
+   "id": "620889997a17495e",
+   "title": "Budget 2026: Breathing space for today, hope for the future",
+   "url": "https://www.gov.uk/government/news/budget-2026-breathing-space-for-today-hope-for-the-future",
+   "path": "/government/news/budget-2026-breathing-space-for-today-hope-for-the-future",
+   "date": "2026-10-28T13:41:00Z",
+   "type": "news_story",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "The Chancellor has unveiled a Budget that gives families and businesses breathing space today, while delivering the big structural changes needed for the future. ",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:41:00+00:00"
+  },
+  {
+   "id": "a3167c831688be5e",
+   "title": "Founders’ Relief: technical consultation",
+   "url": "https://www.gov.uk/government/consultations/founders-relief-technical-consultation",
+   "path": "/government/consultations/founders-relief-technical-consultation",
+   "date": "2026-10-28T13:40:29Z",
+   "type": "open_consultation",
+   "source": "HM Treasury (GOV.UK)",
+   "description": " This consultation seeks views on the implementation of a new tax relief for founders and significant early investors in high-growth, innovative UK companies.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:40:29+00:00"
+  },
+  {
+   "id": "3ba502b446f004ad",
+   "title": "Modernising taxation of foreign sovereign investments",
+   "url": "https://www.gov.uk/government/consultations/modernising-taxation-of-foreign-sovereign-investments",
+   "path": "/government/consultations/modernising-taxation-of-foreign-sovereign-investments",
+   "date": "2026-10-28T13:32:40Z",
+   "type": "open_consultation",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "A consultation on the modernisation of the current sovereign immunity from direct tax regime by introducing “sovereign tax status”.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:32:40+00:00"
+  },
+  {
+   "id": "231fb61e6da27ff1",
+   "title": "High Value Council Tax Surcharge",
+   "url": "https://www.gov.uk/government/consultations/high-value-council-tax-surcharge",
+   "path": "/government/consultations/high-value-council-tax-surcharge",
+   "date": "2026-10-28T13:32:08Z",
+   "type": "consultation_outcome",
+   "source": "HMRC (GOV.UK)",
+   "description": "We are seeking views on the design and delivery of the High Value Council Tax Surcharge (HVCTS), a new charge on residential properties worth £2 million and above in England.  ",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "Consultation response added. ",
+   "firstPublished": "2026-05-19T10:50:57+01:00"
+  },
+  {
+   "id": "47d78c51a094abd3",
+   "title": "First Time Buyer ISA consultation",
+   "url": "https://www.gov.uk/government/consultations/first-time-buyer-isa-consultation",
+   "path": "/government/consultations/first-time-buyer-isa-consultation",
+   "date": "2026-10-28T13:31:54Z",
+   "type": "consultation_outcome",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "The government is publishing a consultation on the implementation of a new, simpler ISA product to support first time buyers to buy a home.",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "Summary of response added.",
+   "firstPublished": "2026-06-23T14:23:19+01:00"
+  },
+  {
+   "id": "d8dc2dd87cb419e1",
+   "title": "Monetary policy remit: Budget 2026",
+   "url": "https://www.gov.uk/government/publications/monetary-policy-remit-budget-2026",
+   "path": "/government/publications/monetary-policy-remit-budget-2026",
+   "date": "2026-10-28T13:31:20Z",
+   "type": "correspondence",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "The Chancellor’s letter to the Bank of England setting the remit for the Monetary Policy Committee.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:31:20+00:00"
+  },
+  {
+   "id": "32f769946171404a",
+   "title": "Extending online marketplace liability to combat non-compliance",
+   "url": "https://www.gov.uk/government/consultations/extending-online-marketplace-liability-to-combat-non-compliance",
+   "path": "/government/consultations/extending-online-marketplace-liability-to-combat-non-compliance",
+   "date": "2026-10-28T13:31:09Z",
+   "type": "consultation_outcome",
+   "source": "HMRC (GOV.UK)",
+   "description": "A proposal to extend current online marketplace VAT liability rules to sales on OMPs by UK based businesses, when their goods are in the UK at the point of sale.",
+   "categories": [
+    "vat",
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "Summary of response added.",
+   "firstPublished": "2026-06-23T14:19:09+01:00"
+  },
+  {
+   "id": "9ddcfba15d30a733",
+   "title": "Northern Growth Strategy: Case for change",
+   "url": "https://www.gov.uk/government/publications/northern-growth-strategy-case-for-change",
+   "path": "/government/publications/northern-growth-strategy-case-for-change",
+   "date": "2026-10-28T13:31:04Z",
+   "type": "policy_paper",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "This document sets out a vision for a stronger, more dynamic northern economy and how government will work in partnership with local leaders to achieve this.\r\n\r\n",
+   "categories": [
+    "selfemployed"
+   ],
+   "hasBody": true,
+   "changeNote": "Northern Growth Strategy: Invitation for Views - Summary of Responses and Government Response added.",
+   "firstPublished": "2026-01-14T12:55:00+00:00"
+  },
+  {
+   "id": "579140793fe5aaff",
+   "title": "Tax Treatment of Predevelopment costs",
+   "url": "https://www.gov.uk/government/consultations/tax-treatment-of-predevelopment-costs--2",
+   "path": "/government/consultations/tax-treatment-of-predevelopment-costs--2",
+   "date": "2026-10-28T13:31:00Z",
+   "type": "consultation_outcome",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "The government is consulting on the tax treatment of predevelopment costs. The consultation seeks views and evidence from stakeholders on the types of costs incurred, their treatment under the current rules, and the impact on investment decisions.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "Summary of response added.",
+   "firstPublished": "2026-07-13T13:08:18+01:00"
+  },
+  {
+   "id": "c25bebd47f086aa9",
+   "title": "Pension Tax Allowance Explainer",
+   "url": "https://www.gov.uk/government/publications/pension-tax-allowance-explainer",
+   "path": "/government/publications/pension-tax-allowance-explainer",
+   "date": "2026-10-28T13:30:51Z",
+   "type": "guidance",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "This document is a policy explainer on the Pension Tax Allowance, which was announced at Budget 2026. ",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:30:51+00:00"
+  },
+  {
+   "id": "5cbabed5e1ccd550",
+   "title": "Supporting documents for Budget 2026",
+   "url": "https://www.gov.uk/government/publications/supporting-documents-for-budget-2026",
+   "path": "/government/publications/supporting-documents-for-budget-2026",
+   "date": "2026-10-28T13:30:42Z",
+   "type": "policy_paper",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "Supporting documents alongside the main Budget 2026 document: distributional analysis, presentational scorecard, recostings table and policy costings.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:30:42+00:00"
+  },
+  {
+   "id": "0d2850d938e40d85",
+   "title": "Corporate Tax Simplification for Business Investment",
+   "url": "https://www.gov.uk/government/consultations/corporate-tax-simplification-for-business-investment",
+   "path": "/government/consultations/corporate-tax-simplification-for-business-investment",
+   "date": "2026-10-28T13:30:30Z",
+   "type": "open_consultation",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "Consultation on areas of the Corporate Tax system where targeted simplification could improve certainty and support investment, growth and competitiveness. ",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:30:30+00:00"
+  },
+  {
+   "id": "b066379bffe2c78f",
+   "title": "Government letter to the British Business Bank",
+   "url": "https://www.gov.uk/government/publications/government-letter-to-the-british-business-bank",
+   "path": "/government/publications/government-letter-to-the-british-business-bank",
+   "date": "2026-10-28T13:30:26Z",
+   "type": "correspondence",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "Letter setting out a strategic steer to the British Business Bank following a £2 billion funding uplift at Budget 2026.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:30:26+00:00"
+  },
+  {
+   "id": "c8d543da5b338e59",
+   "title": "Modernisation of the UK’s Distributions Framework",
+   "url": "https://www.gov.uk/government/publications/modernisation-of-the-uks-distributions-framework",
+   "path": "/government/publications/modernisation-of-the-uks-distributions-framework",
+   "date": "2026-10-28T13:30:17Z",
+   "type": "guidance",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "This document is a policy explainer for the package of reforms to the rules for distributions from companies to individual (non-corporate) shareholders, which was announced at Budget 2026.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:30:17+00:00"
+  },
+  {
+   "id": "a6f0e59f02c52b3e",
+   "title": "Factsheet on Extending VAT Online Marketplace Liability Rules",
+   "url": "https://www.gov.uk/government/publications/factsheet-on-extending-vat-online-marketplace-liability-rules",
+   "path": "/government/publications/factsheet-on-extending-vat-online-marketplace-liability-rules",
+   "date": "2026-10-28T13:30:13Z",
+   "type": "guidance",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "This factsheet provides information about the extension of online marketplace liability for VAT.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:30:13+00:00"
+  },
+  {
+   "id": "4777a03ca5640772",
+   "title": "Remit and recommendations for the Financial Policy Committee: Budget 2026",
+   "url": "https://www.gov.uk/government/publications/remit-and-recommendations-for-the-financial-policy-committee-budget-2026",
+   "path": "/government/publications/remit-and-recommendations-for-the-financial-policy-committee-budget-2026",
+   "date": "2026-10-28T13:30:12Z",
+   "type": "correspondence",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "Letter from the Chancellor of the Exchequer to the Governor of the Bank of England providing recommendations for the Financial Policy Committee (FPC).",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:30:12+00:00"
+  },
+  {
+   "id": "074690d7b7862a56",
+   "title": "Budget 2026 document",
+   "url": "https://www.gov.uk/government/publications/budget-2026-document",
+   "path": "/government/publications/budget-2026-document",
+   "date": "2026-10-28T13:30:00Z",
+   "type": "policy_paper",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "This is the full Budget 2026 document in print, web and HTML accessible versions.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:30:00+00:00"
+  },
   {
    "id": "1a2f3a7a4aad80e7",
    "title": "Companies House third-party code of conduct",
@@ -858,38 +2798,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-22T10:13:08.312Z"
-   }
-  },
-  {
-   "id": "df10b42a381d1de2",
-   "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
-   "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
-   "path": "/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
-   "date": "2026-10-21T12:52:16Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "This list includes details of businesses and sole traders that have had their ACSP status either suspended or ceased (removed).",
-   "categories": [
-    "reporting",
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated list of ceased and suspended ACSPs.",
-   "firstPublished": "2025-10-10T00:00:00+01:00",
-   "ai": {
-    "summary": "HMRC suspends an ACSP’s status when investigating AML supervision, Companies House filings or identity verification, and ceases it if the provider withdraws or breaches legal duties. The list of ceased or suspended ACSPs is refreshed every two weeks, with up to a two‑week lag.",
-    "whoAffected": "Authorised Corporate Service Providers (businesses and sole traders) and their clients",
-    "effectiveDate": "2026-10-21",
-    "actions": [
-     "Check that ACSP clients keep AML, filing and identity‑verification obligations up to date",
-     "Promptly respond to any HMRC request for information to avoid suspension",
-     "Monitor the bi‑weekly HMRC list for status changes affecting clients",
-     "If status is suspended or ceased, advise remedial steps or re‑registration"
-    ],
-    "legislationRefs": [],
-    "relevance": "medium",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-21T17:08:59.077Z"
    }
   },
   {
@@ -4913,44 +6821,6 @@
    }
   },
   {
-   "id": "792c4e975ecde54b",
-   "title": "Fuel and power (VAT Notice 701/19)",
-   "url": "https://www.gov.uk/guidance/vat-on-fuel-and-power-notice-70119",
-   "path": "/guidance/vat-on-fuel-and-power-notice-70119",
-   "date": "2026-09-08T16:00:05Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out what VAT should be charged on supplies of fuel and power if you're a supplier or a user.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "Information about a temporary zero rate of VAT for domestic supplies of electricity and other supplies of qualifying use for Great Britain from 1 October 2026 to 31 March 2027 has been added.",
-   "firstPublished": "2016-04-28T00:00:00+01:00",
-   "ai": {
-    "summary": "A temporary VAT zero‑rate applies to domestic electricity and qualifying fuel supplies in Great Britain from 1 Oct 2026 to 31 Mar 2027. In Northern Ireland the reduced 5% rate remains. The notice also outlines reduced‑rate, standard‑rate and reverse‑charge rules for fuel‑power supplies and related services.",
-    "whoAffected": "Suppliers of fuel and power, domestic electricity consumers in Great Britain, charities, businesses using fuel/power for qualifying purposes, contractors, and any SME or self‑employed client dealing with fuel‑power invoices.",
-    "effectiveDate": "1 Oct 2026 – 31 Mar 2027 (temporary zero‑rate period)",
-    "actions": [
-     "Check client contracts to confirm qualifying use and apply the 0% rate during the temporary period",
-     "Update invoicing and accounting systems to reflect the zero‑rate for domestic electricity in GB and 5% reduced rate in NI",
-     "Inform contractors that any work billed by them, not the supplier, must be charged at the standard rate",
-     "Review apportionment where less than 60% of use is qualifying and apply reduced‑rate to the qualifying portion"
-    ],
-    "legislationRefs": [
-     "VAT Act 1994",
-     "schedule 7A",
-     "VAT Notice 703",
-     "VAT Notice 708",
-     "VAT Notice 701/45",
-     "VAT Notice 735"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-03T10:26:25.812Z"
-   }
-  },
-  {
    "id": "e718d7e53ff3576d",
    "title": "The Value Added Tax (Supplies of Domestic Electricity) Order 2026",
    "url": "https://www.legislation.gov.uk/id/uksi/2026/987",
@@ -7565,37 +9435,6 @@
    }
   },
   {
-   "id": "29054b26c52f22b8",
-   "title": "Changes to reporting of benefits in kind from April 2027",
-   "url": "https://www.gov.uk/government/publications/changes-to-reporting-of-benefits-in-kind-from-april-2027",
-   "path": "/government/publications/changes-to-reporting-of-benefits-in-kind-from-april-2027",
-   "date": "2026-07-23T10:28:01Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This measure is about the changes to the reporting of certain benefits in kind from April 2027.",
-   "categories": [
-    "paye"
-   ],
-   "hasBody": true,
-   "changeNote": "The ‘Net impact on annual administrative burden’ in the ‘Continuing average annual impact’ table has been corrected from -£1 million to -£18 million in the 'Mandatory reporting of benefits in kind in Real Time Information (RTI) from April 2027' attachment.",
-   "firstPublished": "2026-07-13T13:11:00+01:00",
-   "ai": {
-    "summary": "From April 2027 employers must report certain benefits in kind (company cars, fuel, vans, medical benefits) through payroll software via RTI, moving from year‑end to real‑time reporting, with a first‑year penalty easement for non‑deliberate errors; the scope expands in April 2028.",
-    "whoAffected": "Employers providing company cars, car fuel, vans, van fuel or employer‑provided medical benefits (including SMEs and owner‑managed businesses)",
-    "effectiveDate": "April 2027",
-    "actions": [
-     "Update clients' payroll software to capture benefits in kind via RTI",
-     "Inform clients that from April 2027 company cars, fuel, vans and medical benefits must be reported in real time",
-     "Explain the temporary first‑year penalty easement for non‑deliberate reporting errors",
-     "Track forthcoming guidance on employer‑provided loans, accommodation and the April 2028 extension"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-07T11:49:57.859Z"
-   }
-  },
-  {
    "id": "dbe32093c3526e93",
    "title": "Other taxable income for Self Assessment helpsheet (HS325)",
    "url": "https://www.gov.uk/government/publications/other-taxable-income-hs325-self-assessment-helpsheet",
@@ -7917,70 +9756,6 @@
    }
   },
   {
-   "id": "c402c95255887220",
-   "title": "Cryptoasset loans and liquidity pools",
-   "url": "https://www.gov.uk/government/publications/cryptoasset-loans-and-liquidity-pools",
-   "path": "/government/publications/cryptoasset-loans-and-liquidity-pools",
-   "date": "2026-07-13T12:24:00Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This measure is about the treatment of certain disposals involving cryptoasset loans and liquidity pools for Capital Gains Tax. ",
-   "categories": [
-    "cgt"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:24:00+01:00",
-   "ai": {
-    "summary": "The measure defers Capital Gains Tax on cryptoasset loans and liquidity pool activities until an economic disposal occurs, covering single lending, borrowing and automated market making arrangements.",
-    "whoAffected": "Clients who engage in cryptoasset lending, borrowing or participate in automated market making (liquidity pools), including SMEs, owner‑managed businesses and self‑employed individuals.",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Identify clients with cryptoasset lending, borrowing or AMM activities",
-     "Explain that CGT is deferred until an economic disposal of the cryptoasset",
-     "Maintain records of these arrangements and monitor for disposal events",
-     "If unsure, email digitalassets@hmrc.gov.uk for guidance"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-08T12:04:19.517Z"
-   }
-  },
-  {
-   "id": "5bd8bed58c6716b1",
-   "title": "Enterprise Management Incentives (EMI): simplification of the process to grant options",
-   "url": "https://www.gov.uk/government/publications/enterprise-management-incentives-emi-simplification-of-the-process-to-grant-options",
-   "path": "/government/publications/enterprise-management-incentives-emi-simplification-of-the-process-to-grant-options",
-   "date": "2026-07-13T12:22:00Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This measure is about the removal of the requirement to submit a notification of a grant of Enterprise Management Incentives (EMI) options.  ",
-   "categories": [
-    "cgt"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:22:00+01:00",
-   "ai": {
-    "summary": "Companies no longer need to send a separate EMI grant notification; they will report option grants via the existing EMI year‑end return.",
-    "whoAffected": "Companies that grant Enterprise Management Incentives (EMI) options to employees",
-    "effectiveDate": "Options granted on or after 6 April 2027",
-    "actions": [
-     "Advise clients that separate EMI grant notifications are no longer required",
-     "Ensure clients include EMI option grant details in their year‑end EMI return",
-     "Update client checklists and guidance to reflect the change from 6 April 2027",
-     "Monitor the technical consultation deadline of 7 September 2026 for any further updates"
-    ],
-    "legislationRefs": [
-     "draft legislation"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-08T12:04:22.702Z"
-   }
-  },
-  {
    "id": "ec3a787e33c01726",
    "title": "Withholding of Income Tax for rewards received under the Strengthened Reward Scheme",
    "url": "https://www.gov.uk/government/publications/withholding-of-income-tax-for-rewards-received-under-the-strengthened-reward-scheme",
@@ -8014,368 +9789,6 @@
    }
   },
   {
-   "id": "3540325bc860286f",
-   "title": "Publishing details of deliberate defaulters reform",
-   "url": "https://www.gov.uk/government/publications/publishing-details-of-deliberate-defaulters-reform",
-   "path": "/government/publications/publishing-details-of-deliberate-defaulters-reform",
-   "date": "2026-07-13T12:20:33Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This measure is about changes to the publishing details of deliberate defaulters policy.",
-   "categories": [
-    "compliance",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:20:33+01:00",
-   "ai": {
-    "summary": "HMRC will be able to publish more details about deliberate non‑compliance and Personal Liability Notices, with a new £50,000 revenue threshold for publication, following primary legislation under consultation.",
-    "whoAffected": "Businesses and individuals that could be named as deliberate defaulters or receive Personal Liability Notices",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Review client exposure to deliberate defaulter publishing",
-     "Advise clients on potential impact of increased disclosure",
-     "Consider submitting feedback by 7 September 2026 to ipd.disclosure@hmrc.gov.uk",
-     "Prepare for the £50,000 publication threshold once secondary legislation is enacted"
-    ],
-    "legislationRefs": [
-     "deliberate defaulters legislation",
-     "Personal Liability Notices",
-     "draft primary legislation"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-08T12:04:27.526Z"
-   }
-  },
-  {
-   "id": "9f8ff6a43ebef092",
-   "title": "Tax treatment of stablecoins",
-   "url": "https://www.gov.uk/government/publications/tax-treatment-of-stablecoins",
-   "path": "/government/publications/tax-treatment-of-stablecoins",
-   "date": "2026-07-13T12:19:38Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This measure will treat eligible stablecoins more like money for tax purposes. ",
-   "categories": [
-    "personal",
-    "cgt"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:19:38+01:00",
-   "ai": {
-    "summary": "Eligible stablecoins are treated like money: individuals and trustees are exempt from CGT on disposals, with any interest‑like returns taxed as savings income; companies tax transactions based on the amounts recorded in their accounts.",
-    "whoAffected": "Individuals, trustees and companies",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Identify any client holdings of eligible stablecoins",
-     "Advise individual and trustee clients that disposals are CGT‑exempt and interest‑like returns are savings income",
-     "Ensure corporate clients record stablecoin transaction amounts accurately in their accounts",
-     "Update tax return templates to reflect the appropriate treatment"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-08T18:51:36.052Z"
-   }
-  },
-  {
-   "id": "29dc06925885aede",
-   "title": "Modernising the correction of errors",
-   "url": "https://www.gov.uk/government/publications/modernising-the-correction-of-errors",
-   "path": "/government/publications/modernising-the-correction-of-errors",
-   "date": "2026-07-13T12:17:00Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This measure introduces draft legislation on new requirements to correct inaccuracies in returns and documents provided to HMRC.",
-   "categories": [
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:17:00+01:00",
-   "ai": {
-    "summary": "New rules require taxpayers to correct errors in returns and documents, and give HMRC power to issue a customer correction notice.",
-    "whoAffected": "All taxpayers, including SMEs, owner‑managed businesses and the self‑employed",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Check client filings for any identified errors",
-     "Inform clients of their duty to correct those errors",
-     "Prepare and submit correction statements to HMRC",
-     "Track any customer correction notices issued by HMRC"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-09T11:56:09.551Z"
-   }
-  },
-  {
-   "id": "36c8f905ffd245d0",
-   "title": "Reform of the foreign permanent establishment exemption",
-   "url": "https://www.gov.uk/government/publications/reform-of-the-foreign-permanent-establishment-exemption",
-   "path": "/government/publications/reform-of-the-foreign-permanent-establishment-exemption",
-   "date": "2026-07-13T12:16:30Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This measure reforms the taxation of foreign permanent establishments, making the elective exemption regime that applies to their profits and losses mandatory for Corporation Tax. ",
-   "categories": [
-    "corptax"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:16:30+01:00",
-   "ai": {
-    "summary": "The measure makes the elective exemption for profits and losses of foreign permanent establishments mandatory for Corporation Tax.",
-    "whoAffected": "Companies subject to Corporation Tax that have foreign permanent establishments",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Identify clients with foreign permanent establishments",
-     "Inform them that the exemption will become mandatory for Corporation Tax",
-     "Advise on how this may affect profit and loss reporting",
-     "If relevant, submit a response to the consultation by 13 September 2026"
-    ],
-    "legislationRefs": [],
-    "relevance": "low",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-10T11:12:14.782Z"
-   }
-  },
-  {
-   "id": "aad658853cb92122",
-   "title": "Individual Savings Accounts (ISAs) compliance package",
-   "url": "https://www.gov.uk/government/publications/individual-savings-accounts-isas-compliance-package",
-   "path": "/government/publications/individual-savings-accounts-isas-compliance-package",
-   "date": "2026-07-13T12:12:36Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "The measure introduces a modern, fair and effective Individual Savings Account (ISA) compliance framework that supports digital reporting and makes sure the ISA system operates as intended.",
-   "categories": [
-    "personal",
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:12:36+01:00",
-   "ai": {
-    "summary": "A new ISA compliance framework requires managers to file digital monthly and annual returns, subject to points‑based penalties, with HMRC able to suspend approvals and levy penalties for inaccurate returns.",
-    "whoAffected": "ISA managers and providers",
-    "effectiveDate": "April 2028 (overall); suspension powers from April 2027",
-    "actions": [
-     "Ensure clients' ISA managers have systems to submit monthly and annual returns digitally",
-     "Review compliance processes to meet the points‑based penalty regime",
-     "Maintain accurate records to avoid suspension of approval",
-     "Update client advice on new penalties and HMRC's power to collect tax and penalties"
-    ],
-    "legislationRefs": [
-     "ISA regulations"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-10T11:12:18.011Z"
-   }
-  },
-  {
-   "id": "b8bc5aabef5c558f",
-   "title": "Cultural Gift Scheme reform",
-   "url": "https://www.gov.uk/government/publications/cultural-gift-scheme-reform",
-   "path": "/government/publications/cultural-gift-scheme-reform",
-   "date": "2026-07-13T12:12:19Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This measure is about reforms to the Cultural Gift Scheme allowing joint owners to claim relief and providing greater flexibility in tax credit allocation. ",
-   "categories": [
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:12:19+01:00",
-   "ai": {
-    "summary": "The reform removes the joint‑ownership restriction on Cultural Gift Scheme objects and gives donors one chance, within the five‑year limit, to change their remaining tax credit allocation. It aims to increase flexibility and starts on 6 April 2027.",
-    "whoAffected": "Donors who give cultural objects, including joint owners, and advisers who manage Cultural Gift Scheme tax credits.",
-    "effectiveDate": "6 April 2027",
-    "actions": [
-     "Review client Cultural Gift Scheme donations for joint ownership eligibility.",
-     "Inform clients they can amend tax credit allocation once within the five‑year period.",
-     "Update internal processes to record the amendment opportunity before the 6 April 2027 start date.",
-     "Communicate the change and its effective date to affected clients."
-    ],
-    "legislationRefs": [
-     "Schedule 14 to the Finance Act 2012"
-    ],
-    "relevance": "medium",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-09T18:21:13.198Z"
-   }
-  },
-  {
-   "id": "fc8dfc68426400db",
-   "title": "Air Passenger Duty and private jets",
-   "url": "https://www.gov.uk/government/publications/air-passenger-duty-and-private-jets",
-   "path": "/government/publications/air-passenger-duty-and-private-jets",
-   "date": "2026-07-13T12:11:42Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "The measure confirms that from April 2027, the higher rate of Air Passenger Duty will apply to aircraft of 5.7 tonnes or more that are used as a private or business jet. ",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:11:42+01:00",
-   "ai": {
-    "summary": "From April 2027 the higher Air Passenger Duty rate will apply to private or business jets weighing 5.7 tonnes or more, extending the higher rate previously limited to 20‑tonne aircraft with fewer than 19 seats.",
-    "whoAffected": "Owners of private or business jets of 5.7 tonnes or more, including SME or owner‑managed businesses that operate such aircraft",
-    "effectiveDate": "April 2027",
-    "actions": [
-     "Inform affected clients about the upcoming higher APD from April 2027",
-     "Recalculate their APD liability and forecast the cost impact",
-     "Explore alternative travel or charter arrangements to mitigate the higher tax",
-     "If desired, submit technical feedback to HMRC by 7 September 2026"
-    ],
-    "legislationRefs": [
-     "Air Passenger Duty"
-    ],
-    "relevance": "medium",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-09T11:56:17.456Z"
-   }
-  },
-  {
-   "id": "e3818f15ff52e151",
-   "title": "Securities Transfer Tax — modernisation of the Stamp Taxes on Shares Framework",
-   "url": "https://www.gov.uk/government/publications/securities-transfer-tax-modernisation-of-the-stamp-taxes-on-shares-framework",
-   "path": "/government/publications/securities-transfer-tax-modernisation-of-the-stamp-taxes-on-shares-framework",
-   "date": "2026-07-13T12:11:36Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "The measure is about the Securities Transfer Tax that will apply on the transfer of securities and replace Stamp Duty and Stamp Duty Reserve Tax.",
-   "categories": [
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:11:36+01:00",
-   "ai": {
-    "summary": "Stamp Duty and SDRT will be replaced by a new Securities Transfer Tax, a digital self‑assessed charge on all securities transfers, due to start in 2027. Draft legislation is out for comment until 7 Sept 2026.",
-    "whoAffected": "Anyone transferring securities, including companies and individuals who buy or sell shares",
-    "effectiveDate": "2027",
-    "actions": [
-     "Notify clients that Stamp Duty and SDRT will be replaced by Securities Transfer Tax",
-     "Review client share transfer activities for potential tax impact",
-     "Prepare advice on digital self‑assessment procedures for the new tax",
-     "Submit feedback on the draft legislation by 7 Sept 2026 if relevant"
-    ],
-    "legislationRefs": [
-     "Draft legislation"
-    ],
-    "relevance": "medium",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-08T18:51:47.130Z"
-   }
-  },
-  {
-   "id": "b35e79684c5dda32",
-   "title": "Stamp Duty Land Tax — Local Government Pension Scheme Relief",
-   "url": "https://www.gov.uk/government/publications/stamp-duty-land-tax-local-government-pension-scheme-relief",
-   "path": "/government/publications/stamp-duty-land-tax-local-government-pension-scheme-relief",
-   "date": "2026-07-13T12:11:25Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This measure is about changes to Stamp Duty Land Tax (SDLT) for purchases made by Local Government Pension Scheme pooled investment vehicles.",
-   "categories": [
-    "personal",
-    "pensions"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:11:25+01:00",
-   "ai": {
-    "summary": "A temporary SDLT relief is available for property purchases by Local Government Pension Scheme pooled investment vehicles from LGPS administering authorities, covering deals dated from Budget Day 2026 to 31 March 2032.",
-    "whoAffected": "Local Government Pension Scheme pooled investment vehicles buying land or property from LGPS administering authorities",
-    "effectiveDate": "Budget Day 2026 to 31 March 2032",
-    "actions": [
-     "Confirm client is a LGPS pooled investment vehicle",
-     "Verify the transaction effective date falls between Budget Day 2026 and 31 March 2032",
-     "Apply the SDLT relief when calculating duty",
-     "Record the relief claim in client documentation"
-    ],
-    "legislationRefs": [],
-    "relevance": "low",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-10T11:12:21.250Z"
-   }
-  },
-  {
-   "id": "21cd9a91c5880f0d",
-   "title": "Defined benefit pension scheme surplus payments to members",
-   "url": "https://www.gov.uk/government/publications/defined-benefit-pension-scheme-surplus-payments-to-members",
-   "path": "/government/publications/defined-benefit-pension-scheme-surplus-payments-to-members",
-   "date": "2026-07-13T12:11:12Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This measure allows defined benefit pension schemes to make authorised surplus payments to members.",
-   "categories": [
-    "personal",
-    "pensions"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:11:12+01:00",
-   "ai": {
-    "summary": "A new authorised member surplus payment allows trustees of registered defined benefit occupational pension schemes to make discretionary direct payments to eligible members from surplus, taxed as pension income, for payments on or after 6 April 2027.",
-    "whoAffected": "Trustees of registered defined benefit occupational pension schemes and eligible scheme members (including SME owners with such schemes)",
-    "effectiveDate": "Payments made on or after 6 April 2027",
-    "actions": [
-     "Inform clients with defined benefit schemes about the new surplus payment option",
-     "Review scheme surplus and identify eligible members before the effective date",
-     "Ensure any payments are recorded as pension income for tax purposes",
-     "Consider submitting feedback by 7 September 2026 if appropriate"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-11T11:25:29.141Z"
-   }
-  },
-  {
-   "id": "c513e58e3d072d22",
-   "title": "Introduction of the Side-by-Side package and amendments to Multinational Top-up Tax and Domestic Top-up Tax",
-   "url": "https://www.gov.uk/government/publications/introduction-of-the-side-by-side-package-and-amendments-to-multinational-top-up-tax-and-domestic-top-up-tax",
-   "path": "/government/publications/introduction-of-the-side-by-side-package-and-amendments-to-multinational-top-up-tax-and-domestic-top-up-tax",
-   "date": "2026-07-13T12:11:00Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This measure is about the UK implementation of the Side-by-Side package and amendments being made to Multinational Top-up Tax and Domestic Top-up Tax.",
-   "categories": [
-    "corptax"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:11:00+01:00",
-   "ai": {
-    "summary": "The measure brings the OECD Side-by-Side package into UK law and amends Multinational Top‑up Tax and Domestic Top‑up Tax to align with Inclusive Framework guidance.",
-    "whoAffected": "Businesses subject to Multinational Top‑up Tax and Domestic Top‑up Tax",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Identify clients affected by Multinational Top‑up Tax or Domestic Top‑up Tax",
-     "Check current tax calculations against the new amendments",
-     "Monitor OECD Side‑by‑Side guidance for further updates",
-     "Advise clients on any required adjustments to their tax positions"
-    ],
-    "legislationRefs": [
-     "Side-by-Side package",
-     "Multinational Top-up Tax",
-     "Domestic Top-up Tax"
-    ],
-    "relevance": "low",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-10T11:12:25.539Z"
-   }
-  },
-  {
    "id": "f7f5ae2e6ca906cd",
    "title": "Consultation on Reforming Land Remediation Relief",
    "url": "https://www.gov.uk/government/consultations/consultation-on-reforming-land-remediation-relief",
@@ -8404,40 +9817,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-09T11:56:25.102Z"
-   }
-  },
-  {
-   "id": "579140793fe5aaff",
-   "title": "Tax Treatment of Predevelopment costs",
-   "url": "https://www.gov.uk/government/consultations/tax-treatment-of-predevelopment-costs--2",
-   "path": "/government/consultations/tax-treatment-of-predevelopment-costs--2",
-   "date": "2026-07-13T12:08:00Z",
-   "type": "closed_consultation",
-   "source": "HM Treasury (GOV.UK)",
-   "description": "The government is consulting on the tax treatment of predevelopment costs. The consultation seeks views and evidence from stakeholders on the types of costs incurred, their treatment under the current rules, and the impact on investment decisions.",
-   "categories": [
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-07-13T13:08:18+01:00",
-   "ai": {
-    "summary": "The government is consulting on how pre‑development costs should be taxed, seeking stakeholder views on current treatment and its commercial impact following a Supreme Court judgment.",
-    "whoAffected": "Businesses",
-    "effectiveDate": "2026-07-13",
-    "actions": [
-     "Monitor the consultation and its deadlines",
-     "Collect information on clients' predevelopment costs and current tax treatment",
-     "Prepare evidence and viewpoints on the commercial impact",
-     "Submit a response to the government consultation"
-    ],
-    "legislationRefs": [
-     "Corporate Tax Roadmap",
-     "Orsted West of Duddon Sands (UK) Ltd and others v HMRC [2026]"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-11T11:25:32.510Z"
    }
   },
   {
@@ -8906,38 +10285,6 @@
    }
   },
   {
-   "id": "47d78c51a094abd3",
-   "title": "First Time Buyer ISA consultation",
-   "url": "https://www.gov.uk/government/consultations/first-time-buyer-isa-consultation",
-   "path": "/government/consultations/first-time-buyer-isa-consultation",
-   "date": "2026-06-29T10:19:15Z",
-   "type": "closed_consultation",
-   "source": "HM Treasury (GOV.UK)",
-   "description": "The government is publishing a consultation on the implementation of a new, simpler ISA product to support first time buyers to buy a home.",
-   "categories": [
-    "personal",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "Closing date updated to 18 August 2026.",
-   "firstPublished": "2026-06-23T14:23:19+01:00",
-   "ai": {
-    "summary": "The government is consulting on a new, simpler ISA to help first‑time buyers purchase a home, which would replace the Lifetime ISA when launched.",
-    "whoAffected": "First‑time home buyers and current Lifetime ISA holders",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Monitor the consultation and any forthcoming decisions",
-     "Inform clients that a new ISA may replace the Lifetime ISA",
-     "Review existing Lifetime ISA positions for eligible clients",
-     "Prepare to update advice and documentation once the new product is available"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-10T11:12:46.710Z"
-   }
-  },
-  {
    "id": "662ea5b47f6191d5",
    "title": "The Social Security (Contributions) (Amendment No. 4) Regulations 2026",
    "url": "https://www.legislation.gov.uk/id/uksi/2026/684",
@@ -8994,69 +10341,6 @@
    ]
   },
   {
-   "id": "32dacb043351daf9",
-   "title": "Capital Gains Tax relief on gifts of business assets",
-   "url": "https://www.gov.uk/government/publications/capital-gains-tax-relief-on-gifts-of-business-assets",
-   "path": "/government/publications/capital-gains-tax-relief-on-gifts-of-business-assets",
-   "date": "2026-06-23T13:22:20Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This tax information and impact note is about reforms to UK law relating to Capital Gains Tax relief for gifts of business assets.",
-   "categories": [
-    "cgt",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-06-23T14:22:20+01:00",
-   "ai": {
-    "summary": "Explains changes and impacts of new rules on Capital Gains Tax relief for gifts of business assets.",
-    "whoAffected": "Not stated in source",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Not stated in source"
-    ],
-    "legislationRefs": [
-     "Not stated in source"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-09T18:21:47.012Z"
-   }
-  },
-  {
-   "id": "32f769946171404a",
-   "title": "Extending online marketplace liability to combat non-compliance",
-   "url": "https://www.gov.uk/government/consultations/extending-online-marketplace-liability-to-combat-non-compliance",
-   "path": "/government/consultations/extending-online-marketplace-liability-to-combat-non-compliance",
-   "date": "2026-06-23T13:19:00Z",
-   "type": "closed_consultation",
-   "source": "HM Treasury (GOV.UK)",
-   "description": "A proposal to extend current online marketplace VAT liability rules to sales on OMPs by UK based businesses, when their goods are in the UK at the point of sale.",
-   "categories": [
-    "vat",
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-06-23T14:19:09+01:00",
-   "ai": {
-    "summary": "The government proposes extending VAT liability on online marketplaces to include sales by UK businesses, covering domestic retail and takeaway food, aiming to reduce non‑compliance and level competition.",
-    "whoAffected": "UK‑based businesses selling goods via online marketplaces (including retail items and takeaway food) and the online marketplace platforms themselves",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Monitor the consultation and any forthcoming guidance",
-     "Identify clients using online marketplaces and assess their current VAT status",
-     "Advise clients on potential future registration requirements and compliance steps",
-     "Prepare documentation and support processes for possible VAT registration and reporting"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-12T21:16:00.052Z"
-   }
-  },
-  {
    "id": "cc5ebe2c81726fec",
    "title": "Proposed offence for reckless untrue statements — Direct taxes",
    "url": "https://www.gov.uk/government/consultations/proposed-offence-for-reckless-untrue-statements-direct-taxes",
@@ -9085,70 +10369,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-10T11:12:52.528Z"
-   }
-  },
-  {
-   "id": "8ad652009c3adacf",
-   "title": "VAT treatment of land for social housing",
-   "url": "https://www.gov.uk/government/consultations/vat-treatment-of-land-for-social-housing",
-   "path": "/government/consultations/vat-treatment-of-land-for-social-housing",
-   "date": "2026-06-23T13:18:00Z",
-   "type": "closed_consultation",
-   "source": "HM Treasury (GOV.UK)",
-   "description": "Consultation on introducing a new VAT zero rate for land intended for the construction of social housing across the UK.",
-   "categories": [
-    "vat",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-06-23T14:18:18+01:00",
-   "ai": {
-    "summary": "Consultation proposes a new VAT zero rate for land used to build social housing, examining current VAT impacts on acquisition, timing and cashflow, and seeking input on the relief’s scope and administration.",
-    "whoAffected": "Developers, landowners and contractors (including SMEs and self‑employed) involved in acquiring land for social‑housing projects",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Track the consultation and any forthcoming legislation",
-     "Advise clients on existing VAT rules for land purchases for social housing",
-     "Assess potential cash‑flow benefits of a zero‑rate if introduced",
-     "Collect client views to contribute to the consultation"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-11T11:25:56.982Z"
-   }
-  },
-  {
-   "id": "d1ee3ea3722747ef",
-   "title": "Electronic Sales Suppression: Introduction of software standards",
-   "url": "https://www.gov.uk/government/consultations/electronic-sales-suppression-introduction-of-software-standards",
-   "path": "/government/consultations/electronic-sales-suppression-introduction-of-software-standards",
-   "date": "2026-06-23T13:18:00Z",
-   "type": "closed_consultation",
-   "source": "HMRC (GOV.UK)",
-   "description": "HMRC is seeking views on proposed software standards to prevent electronic sales suppression and help ensure businesses report sales accurately.",
-   "categories": [
-    "compliance",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-06-23T14:18:28+01:00",
-   "ai": {
-    "summary": "HMRC is consulting on new software standards to stop electronic sales suppression (till fraud) affecting EPOS developers and POS‑using businesses.",
-    "whoAffected": "Electronic Point of Sale (EPOS) developers, businesses that use Point of Sale (POS) systems, and tax‑compliance organisations",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Track the consultation and key dates",
-     "Advise POS‑using SME clients of the proposed standards",
-     "Prepare feedback or questions for HMRC on behalf of clients",
-     "Review client POS processes for compliance readiness"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-12T21:16:02.452Z"
    }
   },
   {
@@ -11046,37 +12266,6 @@
     "legislation",
     "budget"
    ]
-  },
-  {
-   "id": "9ddcfba15d30a733",
-   "title": "Northern Growth Strategy: Case for change",
-   "url": "https://www.gov.uk/government/publications/northern-growth-strategy-case-for-change",
-   "path": "/government/publications/northern-growth-strategy-case-for-change",
-   "date": "2026-03-19T09:56:49Z",
-   "type": "policy_paper",
-   "source": "HM Treasury (GOV.UK)",
-   "description": "This document sets out a vision for a stronger, more dynamic northern economy and how government will work in partnership with local leaders to achieve this.\r\n\r\n",
-   "categories": [
-    "selfemployed"
-   ],
-   "hasBody": true,
-   "changeNote": "Northern Growth Strategy: Next Steps and Invitation for Views on Northern Growth - Privacy Notice documents added along with updated details on submitting responses through the survey.",
-   "firstPublished": "2026-01-14T12:55:00+00:00",
-   "ai": {
-    "summary": "The government’s Northern Growth Strategy: Next Steps, published 19 March 2026, outlines actions to boost growth in the North, invites stakeholder views until 31 July 2026, and will be reviewed over the summer with a further update in autumn, building on rail investment commitments.",
-    "whoAffected": "Businesses, SMEs, local authorities, mayors and other stakeholders in northern England",
-    "effectiveDate": "19 March 2026",
-    "actions": [
-     "Encourage northern clients to submit feedback via the SmartSurvey link before 31 July 2026",
-     "Monitor the government’s summer review and autumn update for any policy changes affecting northern SMEs",
-     "Assess how the Northern Powerhouse Rail investment may create opportunities for clients",
-     "Keep clients informed of the next‑step actions and partnership approach outlined in the strategy"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-14T10:15:42.640Z"
-   }
   },
   {
    "id": "d6d61fd2fb3940b8",
