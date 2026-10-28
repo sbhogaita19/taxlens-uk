@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-27T17:59:02.862Z",
+ "generatedAt": "2026-10-28T11:21:49.657Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,39 @@
    "label": "Other"
   }
  ],
- "count": 417,
+ "count": 418,
  "items": [
+  {
+   "id": "1a2f3a7a4aad80e7",
+   "title": "Companies House third-party code of conduct",
+   "url": "https://www.gov.uk/government/publications/companies-house-third-party-code-of-conduct",
+   "path": "/government/publications/companies-house-third-party-code-of-conduct",
+   "date": "2026-10-28T10:12:13Z",
+   "type": "policy_paper",
+   "source": "Companies House (GOV.UK)",
+   "description": "Expected standards of behaviour for third parties engaging with Companies House. ",
+   "categories": [
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T10:12:13+00:00",
+   "ai": {
+    "summary": "Companies House commits to preventing harassment, including by third parties, and sets a code of conduct to define acceptable behaviour.",
+    "whoAffected": "Third parties engaging with Companies House, such as service providers and agents used by SMEs and self‑employed clients",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review the Companies House code of conduct with any third‑party service providers used by clients",
+     "Inform clients and their agents of the harassment‑prevention standards required by Companies House",
+     "Include reference to the code of conduct in client engagement and service agreements",
+     "Monitor third‑party interactions and report any breaches to Companies House"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-28T11:21:48.157Z"
+   }
+  },
   {
    "id": "105f8b1536c38b83",
    "title": "Hotels and holiday accommodation (VAT Notice 709/3)",
