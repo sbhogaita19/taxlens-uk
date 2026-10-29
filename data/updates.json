@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-29T11:34:02.422Z",
+ "generatedAt": "2026-10-29T18:28:42.928Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,254 @@
    "label": "Other"
   }
  ],
- "count": 509,
+ "count": 515,
  "items": [
+  {
+   "id": "d7f4c82527a0b80f",
+   "title": "Reporting fund — annual report (CISC2)",
+   "url": "https://www.gov.uk/government/publications/collective-investment-schemes-annual-reporting-requirements-for-reporting-funds-cisc2",
+   "path": "/government/publications/collective-investment-schemes-annual-reporting-requirements-for-reporting-funds-cisc2",
+   "date": "2026-10-29T15:37:28Z",
+   "type": "form",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use form CISC2 to report your approved annual offshore funds to HMRC.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Information on what to include in the 'Share Class details' section on page 4 of the form has been updated.",
+   "firstPublished": "2014-04-04T00:00:00+01:00",
+   "ai": {
+    "summary": "Use form CISC2 to submit the annual report for offshore funds approved as reporting funds, downloading the form, opening it in the latest free Adobe Reader, completing it on-screen, and contacting support if it won’t open.",
+    "whoAffected": "Owners or managers of offshore funds that have been approved as reporting funds",
+    "effectiveDate": "2026-10-29",
+    "actions": [
+     "Email HMRC to request a Welsh version of the form if required",
+     "Download and save the CISC2 form to your computer",
+     "Open the form using the latest free version of Adobe Reader and complete it on-screen",
+     "If the form won’t open, contact online services support for assistance"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-29T18:27:39.503Z"
+   }
+  },
+  {
+   "id": "9897155374528922",
+   "title": "HMRC email updates, videos and webinars for tax agents and advisers",
+   "url": "https://www.gov.uk/guidance/help-and-support-for-agents",
+   "path": "/guidance/help-and-support-for-agents",
+   "date": "2026-10-29T15:35:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Learn more about the support available to tax agents and advisers which will help you and your clients.",
+   "categories": [
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Recorded webinars for 'Carbon Border Adjustment Mechanism (CBAM) overview' and 'VAT on private school fees' have been added. Recorded webinar links for 'Tackling criminal activity within the waste industry' and 'Labour supply chains featuring umbrella companies' have been updated. The live webinar for 'How to pay Vaping Products Duty and use the Vaping Duty Stamps scheme' has been replaced with a recorded webinar. The recorded webinar for 'The reduced rate of VAT during the children's summer holidays 2026' has been removed.",
+   "firstPublished": "2017-11-30T00:00:00+00:00",
+   "ai": {
+    "summary": "HMRC provides email updates and a range of live and recorded webinars covering Making Tax Digital for Income Tax, Carbon Border Adjustment Mechanism, multi‑factor authentication, OECD Pillar 2, Theatre Tax Relief, capital allowances and compliance standards, helping agents advise SME, owner‑managed and self‑employed clients.",
+    "whoAffected": "Tax agents and advisers and the SME, owner‑managed and self‑employed clients they support",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Subscribe to the HMRC help and support email service",
+     "Register for live webinars relevant to client needs",
+     "Watch recorded webinars to stay current on MDIT, CBAM, Pillar 2 and other topics",
+     "Use the guidance to prepare client authorisations and compliance processes"
+    ],
+    "legislationRefs": [
+     "Making Tax Digital for Income Tax",
+     "Carbon Border Adjustment Mechanism (CBAM)",
+     "OECD Pillar 2",
+     "Theatre Tax Relief",
+     "Capital allowances — full expensing and 50% first year allowances",
+     "Guidelines for Compliance 13"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-29T18:27:42.537Z"
+   }
+  },
+  {
+   "id": "34511cccee58e424",
+   "title": "Personal Tax: Offshore Anti-Avoidance external engagement",
+   "url": "https://www.gov.uk/government/publications/personal-tax-offshore-anti-avoidance-external-engagement",
+   "path": "/government/publications/personal-tax-offshore-anti-avoidance-external-engagement",
+   "date": "2026-10-29T15:32:58Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "The government will adopt a co-creation approach involving a small group of external expert alongside wider stakeholder engagement to help shape reform.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Included an update on external engagement.",
+   "firstPublished": "2025-11-26T15:25:00+00:00",
+   "ai": {
+    "summary": "The government will use a co‑creation approach, inviting representative bodies and wider stakeholders to help design new policy and modernised legislation for Personal Tax Offshore Anti‑Avoidance, with periodic updates posted online.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the HMRC engagement page for updates on the offshore anti‑avoidance review",
+     "Determine if your practice could be invited as a representative body and express interest",
+     "Prepare to contribute to policy design discussions if invited",
+     "Inform clients that reforms are being considered and may affect offshore arrangements"
+    ],
+    "legislationRefs": [
+     "Personal Tax Offshore Anti Avoidance legislation"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-29T18:27:45.183Z"
+   }
+  },
+  {
+   "id": "48666b041bf16240",
+   "title": "Tell HMRC you want to claim Research and Development (R&D) tax relief",
+   "url": "https://www.gov.uk/guidance/tell-hmrc-that-youre-planning-to-claim-research-and-development-rd-tax-relief",
+   "path": "/guidance/tell-hmrc-that-youre-planning-to-claim-research-and-development-rd-tax-relief",
+   "date": "2026-10-29T14:42:55Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Check if you need to submit a claim notification form before you claim R&D Corporation Tax relief, what information you’ll need to provide and how to send it.",
+   "categories": [
+    "corptax"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated information to explain that you will no longer need to submit a claim notification form for Research and Development tax relief for claims made on or after 1 April 2027.",
+   "firstPublished": "2023-04-01T00:00:00+01:00",
+   "ai": {
+    "summary": "Companies claiming R&D tax relief must submit a claim notification form if it’s their first claim or their last claim was over three years ago, unless the claim is for periods starting on or after 1 April 2027, when the form is no longer required.",
+    "whoAffected": "UK companies (including SMEs and owner‑managed businesses) planning to claim R&D tax relief, especially first‑time claimants or those whose previous claim was more than three years ago",
+    "effectiveDate": "From 1 April 2023; exemption from 1 April 2027",
+    "actions": [
+     "Check whether the client needs to submit a claim notification form (first claim or last claim >3 years)",
+     "Calculate the claim notification period – from the start of the period of account to six months after its end",
+     "Collect required details: UTR, senior R&D contact, agent contacts, accounting‑period dates, period‑of‑account dates and a high‑level activity summary",
+     "Submit the form via Government Gateway within the period, save the confirmation reference and advise the client on next steps"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-29T18:27:48.982Z"
+   }
+  },
+  {
+   "id": "f5c86b0ad83876b1",
+   "title": "Choose the right software for Pillar 2 Top-up Taxes",
+   "url": "https://www.gov.uk/government/publications/choose-the-right-software-for-pillar-2-top-up-taxes",
+   "path": "/government/publications/choose-the-right-software-for-pillar-2-top-up-taxes",
+   "date": "2026-10-29T14:29:41Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out what commercial software is available to report Domestic Top-up Tax and Multinational Top-up Tax.\r\n\r\n",
+   "categories": [
+    "corptax"
+   ],
+   "hasBody": true,
+   "changeNote": "The list of Pillar 2 commercial software suppliers has been updated with one addition.",
+   "firstPublished": "2026-08-11T10:41:00+01:00",
+   "ai": {
+    "summary": "Domestic and Multinational Top‑up Taxes impose a 15% global minimum corporate tax on the largest groups, effective for accounting periods starting on or after 31 December 2023. HMRC does not endorse any software; agents must ensure they have Pillar 2 access.",
+    "whoAffected": "Largest corporate groups and any agents acting on behalf of those groups",
+    "effectiveDate": "Accounting periods beginning on or after 31 December 2023",
+    "actions": [
+     "Confirm whether the client needs to report Pillar 2 Top‑up Taxes",
+     "Ensure you have Pillar 2 access as an agent if representing a client",
+     "Review available commercial software options (HMRC does not recommend any specific product)",
+     "Contact the chosen software provider for any technical issues"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-29T18:27:52.507Z"
+   }
+  },
+  {
+   "id": "dc642ffa66e81314",
+   "title": "Amend a VAT group",
+   "url": "https://www.gov.uk/guidance/amend-a-vat-group",
+   "path": "/guidance/amend-a-vat-group",
+   "date": "2026-10-29T14:05:03Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use form VAT50/51 to amend or remove an existing VAT group.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "New information added to explain how changes to VAT group membership can affect a business’s EORI number and customs activity.",
+   "firstPublished": "2025-04-14T00:00:00+01:00"
+  },
+  {
+   "id": "67f9132102f13a61",
+   "title": "Confirmation statement (CS01)",
+   "url": "https://www.gov.uk/government/publications/confirmation-statement-form-cs01-new-version",
+   "path": "/government/publications/confirmation-statement-form-cs01-new-version",
+   "date": "2026-10-29T13:53:03Z",
+   "type": "form",
+   "source": "Companies House (GOV.UK)",
+   "description": "Use this form to confirm that the company's details are up to date.",
+   "categories": [
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Edited section 'Restoring a company' to clarify that you need to file a paper confirmation statement (CS01) if you’re restoring a company to the register.",
+   "firstPublished": "2024-03-04T00:00:00+00:00"
+  },
+  {
+   "id": "217f98d1d4fee008",
+   "title": "Draft legislation: Better use of new and improved third-party data",
+   "url": "https://www.gov.uk/government/consultations/draft-legislation-better-use-of-new-and-improved-third-party-data",
+   "path": "/government/consultations/draft-legislation-better-use-of-new-and-improved-third-party-data",
+   "date": "2026-10-29T12:34:31Z",
+   "type": "consultation_outcome",
+   "source": "HMRC (GOV.UK)",
+   "description": "We welcome views on this technical consultation to improve the quality and consistency of data HMRC receives on interest income and card sales.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "Published outcome. ",
+   "firstPublished": "2026-07-20T09:30:13+01:00",
+   "ai": {
+    "summary": "The consultation proposes new reporting duties for banks, building societies, merchant acquirers and payment facilitators to supply HMRC with interest income and card‑sales data, improving data matching and compliance, with obligations starting 6 April 2028.",
+    "whoAffected": "Banks, building societies, merchant acquirers, payment facilitators and other organisations that hold interest income or card‑sales data for customers.",
+    "effectiveDate": "6 April 2028",
+    "actions": [
+     "Check which of your clients are data‑holders (banks, building societies, merchant acquirers or payment facilitators) and confirm they fall within the new reporting scope.",
+     "Advise clients to collect and verify the correct tax reference for each customer before data submission.",
+     "Set up a schedule to report interest income and card‑sales data to HMRC at the required frequency and within the set timeframe.",
+     "Implement a process to notify HMRC before each reporting run and to make reasonable efforts to obtain any missing data."
+    ],
+    "legislationRefs": [
+     "Schedule 23 Finance Act 2026"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-29T18:27:59.241Z"
+   }
+  },
+  {
+   "id": "a278bf1f3d15193c",
+   "title": "Income Tax: changes to tax rates for property and savings income",
+   "url": "https://www.gov.uk/government/publications/income-tax-changes-to-tax-rates-for-property-and-savings-income",
+   "path": "/government/publications/income-tax-changes-to-tax-rates-for-property-and-savings-income",
+   "date": "2026-10-29T12:06:49Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about the changes to property rates and savings rates for 2027 to 2028 tax year.",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-29T12:06:49+00:00"
+  },
   {
    "id": "e5c5f78ab5bc2014",
    "title": "Tax-free savings newsletter 24",
@@ -871,7 +1117,22 @@
    ],
    "hasBody": true,
    "changeNote": "Information about Exchequer impact and how Single Cryptoasset Lending Arrangements are treated have been updated. ",
-   "firstPublished": "2026-07-13T13:24:00+01:00"
+   "firstPublished": "2026-07-13T13:24:00+01:00",
+   "ai": {
+    "summary": "The measure defers Capital Gains Tax on cryptoassets until an economic disposal, applying to single cryptoasset lending, borrowing, and automated market making arrangements.",
+    "whoAffected": "Taxpayers with cryptoasset lending, borrowing or automated market making arrangements, including SMEs, owner‑managed businesses and the self‑employed who hold cryptoassets.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients with the listed cryptoasset arrangements",
+     "Determine if the deferral conditions are met for each client",
+     "Ensure clients keep records of any economic disposal of the cryptoasset",
+     "Direct any client queries to digitalassets@hmrc.gov.uk"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-29T18:28:12.960Z"
+   }
   },
   {
    "id": "29054b26c52f22b8",
@@ -951,7 +1212,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:36:15+00:00"
+   "firstPublished": "2026-10-28T17:36:15+00:00",
+   "ai": {
+    "summary": "All image rights payments linked to employment will be treated as taxable employment income, subject to PAYE Income Tax and NICs from 6 April 2027.",
+    "whoAffected": "Employers and employees who receive image‑rights payments connected to employment",
+    "effectiveDate": "6 April 2027",
+    "actions": [
+     "Review client contracts for image‑rights clauses",
+     "Ensure PAYE calculations include image‑rights payments from 6 April 2027",
+     "Update payroll software to treat these payments as taxable earnings",
+     "Advise clients to adjust tax planning for the new treatment"
+    ],
+    "legislationRefs": [
+     "Finance Bill 2026 to 2027"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-29T18:28:15.861Z"
+   }
   },
   {
    "id": "36c8f905ffd245d0",
@@ -984,7 +1262,25 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:36:10+00:00"
+   "firstPublished": "2026-10-28T17:36:10+00:00",
+   "ai": {
+    "summary": "From 6 April 2027 the CSOP and EMI schemes will see higher option limits, longer exercise periods, broader exceptions from disguised remuneration rules, and extended EMI exercise windows after disqualifying events.",
+    "whoAffected": "Employers offering CSOP or EMI share schemes, including SMEs and owner‑managed businesses, and their employee participants.",
+    "effectiveDate": "6 April 2027",
+    "actions": [
+     "Review current CSOP option limits and adjust to the increased individual limit",
+     "Update EMI documentation to reflect removal of interaction with CSOP limits and the extended exercise window after disqualifying events",
+     "Amend share option agreements to incorporate the longer CSOP exercise period and expanded disguised remuneration exceptions",
+     "Advise clients on the extended Employee Ownership Trusts exception within EMI rules"
+    ],
+    "legislationRefs": [
+     "Company Share Option Plan (CSOP)",
+     "Enterprise Management Incentives (EMI)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-29T18:28:21.660Z"
+   }
   },
   {
    "id": "1e84b0d46634fc06",
@@ -1055,22 +1351,6 @@
    "firstPublished": "2026-10-28T17:36:02+00:00"
   },
   {
-   "id": "53f1822c82fe5a90",
-   "title": "High Value Council Tax Surcharge on residential properties",
-   "url": "https://www.gov.uk/government/publications/high-value-council-tax-surcharge-on-residential-properties",
-   "path": "/government/publications/high-value-council-tax-surcharge-on-residential-properties",
-   "date": "2026-10-28T17:36:01Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This tax information and impact note is about the High Value Council Tax Surcharge, a new annual charge on owners of residential property in England worth £2 million or above.",
-   "categories": [
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:36:01+00:00"
-  },
-  {
    "id": "0a56df854f27138a",
    "title": "Income Tax: changes resulting from new savings and property rates",
    "url": "https://www.gov.uk/government/publications/income-tax-changes-resulting-from-new-savings-and-property-rates",
@@ -1105,6 +1385,22 @@
    }
   },
   {
+   "id": "53f1822c82fe5a90",
+   "title": "High Value Council Tax Surcharge on residential properties",
+   "url": "https://www.gov.uk/government/publications/high-value-council-tax-surcharge-on-residential-properties",
+   "path": "/government/publications/high-value-council-tax-surcharge-on-residential-properties",
+   "date": "2026-10-28T17:36:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about the High Value Council Tax Surcharge, a new annual charge on owners of residential property in England worth £2 million or above.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:36:00+00:00"
+  },
+  {
    "id": "9f8ff6a43ebef092",
    "title": "Tax treatment of stablecoins",
    "url": "https://www.gov.uk/government/publications/tax-treatment-of-stablecoins",
@@ -1135,22 +1431,6 @@
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-29T11:33:54.340Z"
    }
-  },
-  {
-   "id": "19c6009c6e5c2d6c",
-   "title": "Company director disqualification following breach of HMRC securities legislation ",
-   "url": "https://www.gov.uk/government/publications/company-director-disqualification-following-breach-of-hmrc-securities-legislation",
-   "path": "/government/publications/company-director-disqualification-following-breach-of-hmrc-securities-legislation",
-   "date": "2026-10-28T17:35:55Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This tax information and impact note explains changes that allow courts to consider director disqualification following a conviction for an offence under HMRC securities legislation.",
-   "categories": [
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:55+00:00"
   },
   {
    "id": "56defe2a0f7de9db",
@@ -1201,7 +1481,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:50+00:00"
+   "firstPublished": "2026-10-28T17:35:50+00:00",
+   "ai": {
+    "summary": "Trusts that become UK resident because a trustee moves to the UK can stay resident for up to one year without triggering the CGT exit charge.",
+    "whoAffected": "Trusts that become UK resident due to a trustee moving to the UK and their trustees",
+    "effectiveDate": "28 October 2026",
+    "actions": [
+     "Identify any client trusts where a trustee has relocated to the UK",
+     "Confirm the trust meets the relief condition (resident because of the trustee move)",
+     "Advise the trust can remain UK resident for up to 12 months to avoid the CGT exit charge",
+     "Record the trustee’s move and track the one‑year residency period"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-29T18:28:29.260Z"
+   }
   },
   {
    "id": "34a0a05480f078ad",
@@ -1269,7 +1564,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:40+00:00"
+   "firstPublished": "2026-10-28T17:35:40+00:00",
+   "ai": {
+    "summary": "Payments received under the Electricity Bill Discount Scheme are exempt from Income Tax from 6 April 2026.",
+    "whoAffected": "Anyone receiving payments under the Electricity Bill Discount Scheme, including community groups and potentially SME or self‑employed participants.",
+    "effectiveDate": "6 April 2026",
+    "actions": [
+     "Identify clients who receive Electricity Bill Discount Scheme payments",
+     "Confirm the exemption applies to those payments from 6 April 2026",
+     "Adjust clients' Income Tax calculations to remove the payments from taxable income",
+     "Maintain documentation showing the exemption for future HMRC queries"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-29T18:28:36.739Z"
+   }
   },
   {
    "id": "6d97b777d4733a61",
@@ -1507,6 +1817,22 @@
    "firstPublished": "2026-10-28T17:35:00+00:00"
   },
   {
+   "id": "19c6009c6e5c2d6c",
+   "title": "Company director disqualification following breach of HMRC securities legislation ",
+   "url": "https://www.gov.uk/government/publications/company-director-disqualification-following-breach-of-hmrc-securities-legislation",
+   "path": "/government/publications/company-director-disqualification-following-breach-of-hmrc-securities-legislation",
+   "date": "2026-10-28T17:35:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note explains changes that allow courts to consider director disqualification following a conviction for an offence under HMRC securities legislation.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:00+00:00"
+  },
+  {
    "id": "7a099516e267440a",
    "title": "Stamp Duty Land Tax: assured tenancies",
    "url": "https://www.gov.uk/government/publications/stamp-duty-land-tax-assured-tenancies",
@@ -1672,23 +1998,6 @@
    "firstPublished": "2026-07-13T13:12:00+01:00"
   },
   {
-   "id": "0ba5062c87d9657e",
-   "title": "Income Tax reduction for eligible pensioners",
-   "url": "https://www.gov.uk/government/publications/income-tax-reduction-for-eligible-pensioners",
-   "path": "/government/publications/income-tax-reduction-for-eligible-pensioners",
-   "date": "2026-10-28T17:34:27Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This tax information and impact note is about the introduction of an Income Tax reduction for eligible pensioners.",
-   "categories": [
-    "personal",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:34:27+00:00"
-  },
-  {
    "id": "fc8dfc68426400db",
    "title": "Air Passenger Duty and private jets",
    "url": "https://www.gov.uk/government/publications/air-passenger-duty-and-private-jets",
@@ -1754,6 +2063,23 @@
    "hasBody": true,
    "changeNote": "The Exchequer impact has been updated to reflect an additional financial year, updated data and revised National Accounts methodology. The background has also been updated to clarify the changes made by the Pension Schemes Act 2026.",
    "firstPublished": "2026-07-13T13:11:00+01:00"
+  },
+  {
+   "id": "0ba5062c87d9657e",
+   "title": "Income Tax reduction for eligible pensioners",
+   "url": "https://www.gov.uk/government/publications/income-tax-reduction-for-eligible-pensioners",
+   "path": "/government/publications/income-tax-reduction-for-eligible-pensioners",
+   "date": "2026-10-28T17:34:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about the introduction of an Income Tax reduction for eligible pensioners.",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:34:00+00:00"
   },
   {
    "id": "7252ad9fb75e61b1",
@@ -1873,7 +2199,7 @@
    "title": "Budget 2026: Breathing space for Welsh families and businesses",
    "url": "https://www.gov.uk/government/news/budget-2026-breathing-space-for-welsh-families-and-businesses",
    "path": "/government/news/budget-2026-breathing-space-for-welsh-families-and-businesses",
-   "date": "2026-10-28T14:05:42Z",
+   "date": "2026-10-28T14:05:00Z",
    "type": "press_release",
    "source": "HM Treasury (GOV.UK)",
    "description": "Families and businesses in Wales will get breathing space as a result of action announced in Budget 2026. ",
@@ -1882,7 +2208,7 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T14:05:42+00:00"
+   "firstPublished": "2026-10-28T14:05:00+00:00"
   },
   {
    "id": "605734d489a5db7a",
@@ -2260,23 +2586,6 @@
    "firstPublished": "2026-07-13T13:08:18+01:00"
   },
   {
-   "id": "c25bebd47f086aa9",
-   "title": "Pension Tax Allowance Explainer",
-   "url": "https://www.gov.uk/government/publications/pension-tax-allowance-explainer",
-   "path": "/government/publications/pension-tax-allowance-explainer",
-   "date": "2026-10-28T13:30:51Z",
-   "type": "guidance",
-   "source": "HM Treasury (GOV.UK)",
-   "description": "This document is a policy explainer on the Pension Tax Allowance, which was announced at Budget 2026. ",
-   "categories": [
-    "personal",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:30:51+00:00"
-  },
-  {
    "id": "5cbabed5e1ccd550",
    "title": "Supporting documents for Budget 2026",
    "url": "https://www.gov.uk/government/publications/supporting-documents-for-budget-2026",
@@ -2371,6 +2680,23 @@
    "hasBody": true,
    "changeNote": "First published.",
    "firstPublished": "2026-10-28T13:30:12+00:00"
+  },
+  {
+   "id": "c25bebd47f086aa9",
+   "title": "Pension Tax Allowance Explainer",
+   "url": "https://www.gov.uk/government/publications/pension-tax-allowance-explainer",
+   "path": "/government/publications/pension-tax-allowance-explainer",
+   "date": "2026-10-28T13:30:00Z",
+   "type": "guidance",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "This document is a policy explainer on the Pension Tax Allowance, which was announced at Budget 2026. ",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:30:00+00:00"
   },
   {
    "id": "074690d7b7862a56",
@@ -6265,37 +6591,6 @@
    }
   },
   {
-   "id": "f5c86b0ad83876b1",
-   "title": "Choose the right software for Pillar 2 Top-up Taxes",
-   "url": "https://www.gov.uk/government/publications/choose-the-right-software-for-pillar-2-top-up-taxes",
-   "path": "/government/publications/choose-the-right-software-for-pillar-2-top-up-taxes",
-   "date": "2026-09-21T09:42:51Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out what commercial software is available to report Domestic Top-up Tax and Multinational Top-up Tax.\r\n\r\n",
-   "categories": [
-    "corptax"
-   ],
-   "hasBody": true,
-   "changeNote": "The list of Pillar 2 commercial software suppliers has been updated with one amendment.",
-   "firstPublished": "2026-08-11T10:41:00+01:00",
-   "ai": {
-    "summary": "Domestic and Multinational Top‑up Taxes impose a 15% global minimum corporate tax on large groups for accounting periods starting on or after 31 Dec 2023. HMRC does not endorse any software; agents must ensure they have Pillar 2 access before selecting a solution.",
-    "whoAffected": "Large corporate groups and tax agents advising clients",
-    "effectiveDate": "Accounting periods beginning on or after 31 December 2023",
-    "actions": [
-     "Confirm whether the client is required to report Pillar 2 Top‑up Taxes",
-     "Ensure you have Pillar 2 agent access in HMRC’s system",
-     "Evaluate commercial software options (HMRC does not recommend any)",
-     "If software issues arise, contact the software provider directly"
-    ],
-    "legislationRefs": [],
-    "relevance": "low",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-29T13:57:37.726Z"
-   }
-  },
-  {
    "id": "cce3ae5a9f2a4b5f",
    "title": "More than £300 million paid out through Help to Save with thousands more savers set to benefit",
    "url": "https://www.gov.uk/government/news/more-than-300-million-paid-out-through-help-to-save-with-thousands-more-savers-set-to-benefit",
@@ -6389,42 +6684,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-09-29T13:49:32.357Z"
-   }
-  },
-  {
-   "id": "9897155374528922",
-   "title": "HMRC email updates, videos and webinars for tax agents and advisers",
-   "url": "https://www.gov.uk/guidance/help-and-support-for-agents",
-   "path": "/guidance/help-and-support-for-agents",
-   "date": "2026-09-18T09:55:03Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Learn more about the support available to tax agents and advisers which will help you and your clients.",
-   "categories": [
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "A new 'Multi-factor authorisation and what agents need to know' recorded webinar has been added.\r\nThe recorded webinar links for 'Overseas workday relief', 'Income from property for individual landlords — capital expenditure and revenue repairs' and 'Income from property for individual landlords — finance costs, travel expenses and the property income allowance' have been updated.\r\nA link for a 'How to pay Vaping Products Duty and use Vaping Duty Stamps' live webinar has been added. ",
-   "firstPublished": "2017-11-30T00:00:00+00:00",
-   "ai": {
-    "summary": "HMRC offers email updates and a range of live and recorded webinars for agents, covering Making Tax Digital for Income Tax, multi‑factor authentication, Pillar 2, and other reliefs. Agents must prepare clients, especially those with property or self‑employment income, for upcoming MTDT thresholds starting 6 April 2026.",
-    "whoAffected": "Tax agents and advisers, their SME/owner‑managed and self‑employed clients with income from property or self‑employment",
-    "effectiveDate": "2026-09-18",
-    "actions": [
-     "Subscribe to the HMRC help and support email service",
-     "Register for and attend relevant webinars (e.g., MTDT, MFA)",
-     "Check each client’s qualifying income against the MTDT thresholds and set up an Agent Services Account if needed",
-     "Advise clients to use HMRC‑recognised software and keep digital records throughout the year"
-    ],
-    "legislationRefs": [
-     "Making Tax Digital for Income Tax",
-     "Multi‑factor authentication (MFA)",
-     "OECD Pillar 2",
-     "The Carbon Border Adjustment Mechanism (CBAM)"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-30T11:11:50.781Z"
    }
   },
   {
@@ -13571,37 +13830,6 @@
     "relevance": "medium",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-17T09:24:05.779Z"
-   }
-  },
-  {
-   "id": "67f9132102f13a61",
-   "title": "Confirmation statement (CS01)",
-   "url": "https://www.gov.uk/government/publications/confirmation-statement-form-cs01-new-version",
-   "path": "/government/publications/confirmation-statement-form-cs01-new-version",
-   "date": "2026-02-01T00:01:09Z",
-   "type": "form",
-   "source": "Companies House (GOV.UK)",
-   "description": "Use this form to confirm that the company's details are up to date.",
-   "categories": [
-    "reporting"
-   ],
-   "hasBody": true,
-   "changeNote": "Fee updated.",
-   "firstPublished": "2024-03-04T00:00:00+00:00",
-   "ai": {
-    "summary": "The CS01 form confirms a company’s details on the Companies House register. It costs £110 on paper, but filing online is quicker, easier and cheaper. Use parts 1‑4 for changes to SIC, capital, share status, PSC and shareholders; part 5 for a registered email; provide director identity verification.",
-    "whoAffected": "All limited companies, including SMEs and owner‑managed businesses, that must file a confirmation statement with Companies House",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Advise clients to file the confirmation statement online to reduce cost and time",
-     "Check the CS01 for any required updates to SIC codes, capital, share trading status, PSC or shareholder details",
-     "Ensure a registered email address is supplied using part 5 if not already on record",
-     "Confirm that identity verification details for all current directors are provided"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-19T10:48:39.558Z"
    }
   },
   {
