@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-29T18:28:42.928Z",
+ "generatedAt": "2026-10-30T11:25:49.094Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,106 @@
    "label": "Other"
   }
  ],
- "count": 515,
+ "count": 516,
  "items": [
+  {
+   "id": "2f7a149f6a6b5419",
+   "title": "Fulfilment House Due Diligence Scheme registered businesses list",
+   "url": "https://www.gov.uk/government/publications/fulfilment-house-due-diligence-scheme-registered-businesses-list",
+   "path": "/government/publications/fulfilment-house-due-diligence-scheme-registered-businesses-list",
+   "date": "2026-10-30T11:19:45Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Check if the business that stores your goods in the UK is registered with the Fulfilment House Due Diligence Scheme if you’re a trader based outside of the UK.",
+   "categories": [
+    "vat",
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "The list has been updated with 23 additions, 2 amendments and 7 removals.",
+   "firstPublished": "2019-04-17T00:00:00+01:00",
+   "ai": {
+    "summary": "Use the list to confirm if a UK‑based fulfilment house storing your overseas client’s goods is registered under the Fulfilment House Due Diligence Scheme.",
+    "whoAffected": "Traders not established in the UK who store goods in the UK",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify overseas clients who use UK fulfilment houses",
+     "Check the HMRC list to see if the fulfilment house is registered",
+     "If the house is not on the list, advise the client to contact VAT enquiries or email notificationofnoncompliance.fulfilmenthouse@hmrc.gov.uk",
+     "Record the verification outcome for client files"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T11:24:45.147Z"
+   }
+  },
+  {
+   "id": "d05959faa324fae3",
+   "title": "Refunds of UK VAT for non-UK businesses (VAT Notice 723A)",
+   "url": "https://www.gov.uk/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
+   "path": "/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
+   "date": "2026-10-30T09:37:34Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to claim a VAT refund in the UK if you're established outside the UK.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about submitting an electronic claim for a VAT refund has been updated at section 2.10.",
+   "firstPublished": "2020-12-31T00:00:00+00:00",
+   "ai": {
+    "summary": "The notice sets out how non‑UK businesses can reclaim UK VAT they’ve paid on imports or UK purchases, provided they’re not UK‑VAT registered and meet residency conditions. Claims must be filed electronically or by post by 31 December of the prescribed year, with supporting documents retained.",
+    "whoAffected": "Businesses established outside the UK (including EU firms) that incur UK VAT and are not registered, liable or eligible for UK VAT, and have no UK place of business or supplies (except limited transport services).",
+    "effectiveDate": "1 January 2021",
+    "actions": [
+     "Confirm client meets eligibility – not UK‑VAT registered, no UK residence or supplies, and their home country offers reciprocal relief",
+     "Collect required documents: completed VAT65A form, certificate of status, original invoices and any supporting evidence",
+     "Submit the claim electronically via HMRC’s Transfer Files service before 31 December of the prescribed year, keeping all original documents",
+     "If no receipt or response within 6 months, email the Overseas Repayment Unit (ORU) with the receipt and retain proof of postage for postal claims"
+    ],
+    "legislationRefs": [
+     "Value Added Tax Act 1994, Section 39",
+     "Value Added Tax Regulations 1995 (SI 1995/2518) Parts 20A and XXI",
+     "Schedule 9 to the Value Added Tax Act 1994"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T11:24:48.654Z"
+   }
+  },
+  {
+   "id": "38c7a7b57641889d",
+   "title": "Prohibition of promotion of certain tax avoidance arrangements",
+   "url": "https://www.gov.uk/government/publications/prohibition-of-promotion-of-certain-tax-avoidance-arrangements",
+   "path": "/government/publications/prohibition-of-promotion-of-certain-tax-avoidance-arrangements",
+   "date": "2026-10-30T09:00:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "HMRC guidance on sections 159 to 165 of the Finance Act 2026 to introduce new rules that prohibit the promotion of certain tax avoidance arrangements (POP).",
+   "categories": [
+    "compliance",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-30T09:00:00+00:00",
+   "ai": {
+    "summary": "Guidance outlines rules that ban promoting certain tax avoidance schemes under sections 159‑165 of the Finance Act 2026.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Not stated in source"
+    ],
+    "legislationRefs": [
+     "sections 159 to 165 of the Finance Act 2026"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T11:24:51.562Z"
+   }
+  },
   {
    "id": "d7f4c82527a0b80f",
    "title": "Reporting fund — annual report (CISC2)",
@@ -252,7 +350,27 @@
    ],
    "hasBody": true,
    "changeNote": "New information added to explain how changes to VAT group membership can affect a business’s EORI number and customs activity.",
-   "firstPublished": "2025-04-14T00:00:00+01:00"
+   "firstPublished": "2025-04-14T00:00:00+01:00",
+   "ai": {
+    "summary": "Use form VAT50/51 to add, remove or disband a VAT group. Gather each member’s incorporation details, turnover, VAT number, exemption status and capital asset info, confirm control conditions, and consider EORI changes. Submit online (or paper) via an authorised signatory, adding VAT53 if an agent.",
+    "whoAffected": "Businesses that are part of a VAT group, including SMEs, owner‑managed businesses and self‑employed entities with a VAT registration",
+    "effectiveDate": "2026-10-29T14:05:03Z",
+    "actions": [
+     "Collect all required details for each existing or proposed group member (incorporation, turnover, VAT number, exemption status, capital assets, control conditions)",
+     "Complete and submit form VAT50/51 online or by post, ensuring it is signed by an authorised company director, secretary or group controller",
+     "If an employee, accountant or agent files the form, also provide a completed VAT53 form",
+     "Check EORI implications: cancel any EORI linked to the old group and apply for a new EORI if needed"
+    ],
+    "legislationRefs": [
+     "VAT Notice 700/2",
+     "VAT50/51",
+     "VAT53",
+     "VAT56"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T11:24:54.815Z"
+   }
   },
   {
    "id": "67f9132102f13a61",
@@ -268,7 +386,22 @@
    ],
    "hasBody": true,
    "changeNote": "Edited section 'Restoring a company' to clarify that you need to file a paper confirmation statement (CS01) if you’re restoring a company to the register.",
-   "firstPublished": "2024-03-04T00:00:00+00:00"
+   "firstPublished": "2024-03-04T00:00:00+00:00",
+   "ai": {
+    "summary": "The CS01 form confirms a company’s details on the Companies House register. It can be filed online (cheaper) or on paper (£110). Use parts 1‑4 for changes to SIC, capital, share trading status, PSC and shareholders; part 5 for a registered email. Paper filing is required when restoring a company.",
+    "whoAffected": "All limited companies, including SMEs and owner‑managed businesses, that need to file a confirmation statement, especially those restoring a company to the register.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check if the client is restoring a company; if so, advise filing a paper CS01.",
+     "Gather and verify identity details for all current directors before completing the form.",
+     "Update any changes to SIC codes, capital, share trading status, PSC exemption, shareholder information and provide a registered email using the appropriate parts of the form.",
+     "Submit the completed form on full‑size A4 paper (or recommend online filing for non‑restoration cases) and ensure the correct confirmation date is used."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T11:24:59.469Z"
+   }
   },
   {
    "id": "217f98d1d4fee008",
@@ -318,7 +451,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-29T12:06:49+00:00"
+   "firstPublished": "2026-10-29T12:06:49+00:00",
+   "ai": {
+    "summary": "Property and savings income tax rates rise to 24% basic, 44% higher and 49% additional from 6 April 2027.",
+    "whoAffected": "Individuals with property rental income and savings interest, including owners of SMEs, owner‑managed businesses and the self‑employed.",
+    "effectiveDate": "6 April 2027",
+    "actions": [
+     "Inform affected clients of the new rates",
+     "Recalculate projected tax liabilities for 2027/28",
+     "Review timing of property and savings income for possible planning",
+     "Update tax software settings to reflect the new rates"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T11:25:02.499Z"
+   }
   },
   {
    "id": "e5c5f78ab5bc2014",
@@ -816,38 +964,6 @@
    "firstPublished": "2024-10-10T00:00:00+01:00"
   },
   {
-   "id": "5be13e939747b9f8",
-   "title": "Capital gains: preventing protected cell company avoidance ",
-   "url": "https://www.gov.uk/government/publications/capital-gains-preventing-protected-cell-company-avoidance",
-   "path": "/government/publications/capital-gains-preventing-protected-cell-company-avoidance",
-   "date": "2026-10-28T17:37:07Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This tax information and impact note affects UK resident individuals, trustees and companies who hold assets through a non-UK resident protected cell company. ",
-   "categories": [
-    "cgt",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:37:07+00:00",
-   "ai": {
-    "summary": "Capital gains rules are changed for gains from non‑resident close companies attributed to UK resident individuals, trusts and companies, effective 28 Oct 2026.",
-    "whoAffected": "UK resident individuals, trusts and companies that hold assets through a non‑UK resident protected cell company (non‑resident close companies).",
-    "effectiveDate": "28 October 2026",
-    "actions": [
-     "Identify clients with assets held via non‑UK resident protected cell companies",
-     "Assess how the new capital gains rules affect their tax position",
-     "Advise clients on compliance steps required under the new rules",
-     "Update client records and monitoring processes for the 28 Oct 2026 changeover"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-28T18:21:31.301Z"
-   }
-  },
-  {
    "id": "b35e79684c5dda32",
    "title": "Stamp Duty Land Tax — Local Government Pension Scheme Relief",
    "url": "https://www.gov.uk/government/publications/stamp-duty-land-tax-local-government-pension-scheme-relief",
@@ -878,6 +994,22 @@
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-28T18:21:34.591Z"
    }
+  },
+  {
+   "id": "5be13e939747b9f8",
+   "title": "Capital gains: preventing protected cell company avoidance ",
+   "url": "https://www.gov.uk/government/publications/capital-gains-preventing-protected-cell-company-avoidance",
+   "path": "/government/publications/capital-gains-preventing-protected-cell-company-avoidance",
+   "date": "2026-10-28T17:37:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure affects UK resident individuals, trustees and companies who hold assets through a non-UK resident protected cell company. ",
+   "categories": [
+    "cgt"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:37:00+00:00"
   },
   {
    "id": "32dacb043351daf9",
@@ -1245,7 +1377,22 @@
    ],
    "hasBody": true,
    "changeNote": "Information about the Exchequer impact has been updated.",
-   "firstPublished": "2026-07-13T13:16:00+01:00"
+   "firstPublished": "2026-07-13T13:16:00+01:00",
+   "ai": {
+    "summary": "The measure makes the elective exemption for profits and losses of foreign permanent establishments mandatory for UK Corporation Tax.",
+    "whoAffected": "Businesses with foreign permanent establishments that are subject to Corporation Tax",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients with foreign permanent establishments",
+     "Inform them that the exemption will become mandatory for Corporation Tax",
+     "Adjust tax planning and filing to reflect the mandatory exemption",
+     "If appropriate, submit a consultation response to foreignpepolicy@hmrc.gov.uk by 13 September 2026"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T11:25:16.234Z"
+   }
   },
   {
    "id": "0b7b4f710cff6694",
@@ -1398,7 +1545,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:36:00+00:00"
+   "firstPublished": "2026-10-28T17:36:00+00:00",
+   "ai": {
+    "summary": "A new annual High Value Council Tax Surcharge applies from April 2028 to owners of English residential properties valued at £2 million or more, collected with Council Tax. Valuations will be targeted, with a deferral scheme, discounts, exemptions and a 100% premium on properties empty for 12 months.",
+    "whoAffected": "Owners of residential property in England worth £2 million or more, including those whose properties are empty for 12 months or longer",
+    "effectiveDate": "April 2028",
+    "actions": [
+     "Identify clients who own residential property in England valued at £2 million or above",
+     "Advise them on the upcoming valuation exercise and record keeping requirements",
+     "Explain the deferral scheme, available discounts and exemptions, and the 100% premium for long‑term empty properties",
+     "Prepare tax planning to incorporate the surcharge into cash‑flow forecasts"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T11:25:22.754Z"
+   }
   },
   {
    "id": "9f8ff6a43ebef092",
@@ -1595,7 +1757,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:38+00:00"
+   "firstPublished": "2026-10-28T17:35:38+00:00",
+   "ai": {
+    "summary": "The surcharge rate on banking companies is set at 6% for a fixed 15‑month period, starting 1 January 2027.",
+    "whoAffected": "Banking companies",
+    "effectiveDate": "1 January 2027",
+    "actions": [
+     "Record the temporary 6% surcharge rate in client files",
+     "Update any advice that references banking fees to reflect the new rate",
+     "Monitor the 15‑month period for any further changes",
+     "Inform clients with banking relationships of the start date"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T11:25:30.005Z"
+   }
   },
   {
    "id": "56fae08cca880c25",
@@ -1632,23 +1809,6 @@
    "firstPublished": "2026-10-28T17:35:29+00:00"
   },
   {
-   "id": "fdf2867a9122ef7f",
-   "title": "Capital Gains Tax — capital sums received for surrendering rights ",
-   "url": "https://www.gov.uk/government/publications/capital-gains-tax-capital-sums-received-for-surrendering-rights",
-   "path": "/government/publications/capital-gains-tax-capital-sums-received-for-surrendering-rights",
-   "date": "2026-10-28T17:35:23Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This tax information and impact note is about the surrender of rights under the terms of a contract.",
-   "categories": [
-    "cgt",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:23+00:00"
-  },
-  {
    "id": "c57ee87c117007d6",
    "title": "VAT refund claims made using form VAT126",
    "url": "https://www.gov.uk/government/publications/vat-refund-claims-made-using-form-vat126",
@@ -1663,7 +1823,28 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:22+00:00"
+   "firstPublished": "2026-10-28T17:35:22+00:00",
+   "ai": {
+    "summary": "New powers and safeguards will apply to VAT refund claims using form VAT126 made by bodies not registered for VAT, treating them like claims by VAT‑registered entities under specific sections of the VAT Act 1994.",
+    "whoAffected": "Businesses and individuals that are not VAT‑registered but submit VAT refund claims using form VAT126",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients making VAT126 refund claims who are not VAT‑registered",
+     "Advise them that their claims will now be subject to the same powers and safeguards as VAT‑registered claims",
+     "Ensure claim documentation meets the standards applied to VAT‑registered bodies",
+     "Monitor any further guidance on implementation of the new powers"
+    ],
+    "legislationRefs": [
+     "sections 33(1) of the Value Added Tax Act 1994",
+     "section 33A(2) of the Value Added Tax Act 1994",
+     "section 33B(2) of the Value Added Tax Act 1994",
+     "section 33C(3) of the Value Added Tax Act 1994",
+     "section 33E(2) of the Value Added Tax Act 1994"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T11:25:36.315Z"
+   }
   },
   {
    "id": "56a0c1a46c24be1a",
@@ -1700,24 +1881,6 @@
    "firstPublished": "2026-10-28T17:35:21+00:00"
   },
   {
-   "id": "40eb34abc22ee277",
-   "title": "Capital Gains Tax: returns for disposals of UK land and late filing penalties",
-   "url": "https://www.gov.uk/government/publications/capital-gains-tax-returns-for-disposals-of-uk-land-and-late-filing-penalties",
-   "path": "/government/publications/capital-gains-tax-returns-for-disposals-of-uk-land-and-late-filing-penalties",
-   "date": "2026-10-28T17:35:20Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This tax information and impact note is about people who have disposed of an interest in UK residential property and have not reported the disposal on the correct return.",
-   "categories": [
-    "cgt",
-    "compliance",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:20+00:00"
-  },
-  {
    "id": "2a1f2cceb0c00d3c",
    "title": "Income Tax: changes to the definition of serious ill health lump sums and medical evidence requirements",
    "url": "https://www.gov.uk/government/publications/income-tax-changes-to-the-definition-of-serious-ill-health-lump-sums-and-medical-evidence-requirements",
@@ -1748,7 +1911,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:16+00:00"
+   "firstPublished": "2026-10-28T17:35:16+00:00",
+   "ai": {
+    "summary": "A change of control test is added to SDLT group relief; if a company that claimed group relief later uses the winding‑up exception and its control changes within 3 years, relief is withdrawn and extra SDLT charged.",
+    "whoAffected": "Companies that have claimed SDLT group relief on land or property purchases and may later de‑group or experience a change of control, including SME owner‑managed groups.",
+    "effectiveDate": "on or after 29 October 2026",
+    "actions": [
+     "Review client transactions where group relief was claimed to spot any pending control changes within three years",
+     "Advise clients to manage or avoid ownership/control changes that could trigger the new test",
+     "Calculate potential additional SDLT if the winding‑up exception applies after a control change",
+     "Update client tax planning and documentation to reflect the withdrawal of group relief under the new rule"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T11:25:44.478Z"
+   }
   },
   {
    "id": "2092432535d3a2c5",
@@ -1768,22 +1946,6 @@
    "firstPublished": "2026-10-28T17:35:08+00:00"
   },
   {
-   "id": "aaf81cfd5ab654f8",
-   "title": "Updating the tax treatment of certain lease and leaseback arrangements",
-   "url": "https://www.gov.uk/government/publications/updating-the-tax-treatment-of-certain-lease-and-leaseback-arrangements",
-   "path": "/government/publications/updating-the-tax-treatment-of-certain-lease-and-leaseback-arrangements",
-   "date": "2026-10-28T17:35:04Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This tax information and impact note is about a change that maintains the existing treatment of finance leaseback arrangements following changes to accounting standards.",
-   "categories": [
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:04+00:00"
-  },
-  {
    "id": "7404cc60533fc0fe",
    "title": "Inheritance Tax: preventing unintended deductions for liabilities in trust arrangements",
    "url": "https://www.gov.uk/government/publications/inheritance-tax-preventing-unintended-deductions-for-liabilities-in-trust-arrangements",
@@ -1800,6 +1962,22 @@
    "firstPublished": "2026-10-28T17:35:03+00:00"
   },
   {
+   "id": "fdf2867a9122ef7f",
+   "title": "Capital Gains Tax — capital sums received for surrendering rights ",
+   "url": "https://www.gov.uk/government/publications/capital-gains-tax-capital-sums-received-for-surrendering-rights",
+   "path": "/government/publications/capital-gains-tax-capital-sums-received-for-surrendering-rights",
+   "date": "2026-10-28T17:35:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure is about the surrender of rights under the terms of a contract.",
+   "categories": [
+    "cgt"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:00+00:00"
+  },
+  {
    "id": "c3721787c502704d",
    "title": "VAT: introducing a new zero rate on donated medicines",
    "url": "https://www.gov.uk/government/publications/vat-introducing-a-new-zero-rate-on-donated-medicines",
@@ -1811,6 +1989,23 @@
    "categories": [
     "vat",
     "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:00+00:00"
+  },
+  {
+   "id": "40eb34abc22ee277",
+   "title": "Capital Gains Tax: returns for disposals of UK land and late filing penalties",
+   "url": "https://www.gov.uk/government/publications/capital-gains-tax-returns-for-disposals-of-uk-land-and-late-filing-penalties",
+   "path": "/government/publications/capital-gains-tax-returns-for-disposals-of-uk-land-and-late-filing-penalties",
+   "date": "2026-10-28T17:35:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure is about people who have disposed of an interest in UK residential property and have not reported the disposal on the correct return.",
+   "categories": [
+    "cgt",
+    "compliance"
    ],
    "hasBody": true,
    "changeNote": "First published.",
@@ -1841,6 +2036,22 @@
    "type": "policy_paper",
    "source": "HMRC (GOV.UK)",
    "description": "This measure changes the Stamp Duty Land Tax (SDLT) treatment of rent payable under assured tenancies.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:00+00:00"
+  },
+  {
+   "id": "aaf81cfd5ab654f8",
+   "title": "Updating the tax treatment of certain lease and leaseback arrangements",
+   "url": "https://www.gov.uk/government/publications/updating-the-tax-treatment-of-certain-lease-and-leaseback-arrangements",
+   "path": "/government/publications/updating-the-tax-treatment-of-certain-lease-and-leaseback-arrangements",
+   "date": "2026-10-28T17:35:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure is about a change that maintains the existing treatment of finance leaseback arrangements following changes to accounting standards.",
    "categories": [
     "general"
    ],
@@ -5492,41 +5703,6 @@
    }
   },
   {
-   "id": "d05959faa324fae3",
-   "title": "Refunds of UK VAT for non-UK businesses (VAT Notice 723A)",
-   "url": "https://www.gov.uk/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
-   "path": "/guidance/refunds-of-uk-vat-for-non-uk-businesses-or-eu-vat-for-uk-businesses",
-   "date": "2026-10-01T09:00:02Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to claim a VAT refund in the UK if you're established outside the UK.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "The reference to the 'Northern Ireland Protocol' has been replaced with the 'Windsor Framework'.",
-   "firstPublished": "2020-12-31T00:00:00+00:00",
-   "ai": {
-    "summary": "The notice sets out how non‑UK businesses that are not VAT‑registered in the UK and have no UK presence can reclaim UK VAT on imports and UK‑based purchases, detailing eligibility, claimable items, minimum amounts, deadlines and electronic or postal submission procedures.",
-    "whoAffected": "Businesses established outside the UK (including EU businesses) that are not registered, liable or eligible for UK VAT and have no UK place of business or supplies, as well as UK/Isle of Man businesses seeking refunds of VAT incurred abroad.",
-    "effectiveDate": "1 January 2021",
-    "actions": [
-     "Confirm the client meets the eligibility criteria (no UK VAT registration, no UK place of business, and their home country offers a similar refund scheme).",
-     "Collect the required documents: VAT65A form, certificate of status, original invoices and any supporting evidence.",
-     "If using electronic filing, register for HMRC’s Secure Data Exchange Service (SDES) by emailing the Overseas Repayment Unit before 30 November to meet the 31 December claim deadline.",
-     "Submit the claim (electronically via SDES or by post) by 31 December of the prescribed year and retain all original documents for HMRC inspection."
-    ],
-    "legislationRefs": [
-     "Value Added Tax Act 1994, Section 39",
-     "Value Added Tax Regulations 1995 (SI 1995/2518) Parts 20A and XXI",
-     "Schedule 9 to the Value Added Tax Act 1994"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-02T11:07:50.160Z"
-   }
-  },
-  {
    "id": "0e0fc7458e9b9ae8",
    "title": "Changes to accounting for VAT for Northern Ireland and Great Britain from 1 January 2021",
    "url": "https://www.gov.uk/government/publications/accounting-for-vat-on-goods-moving-between-great-britain-and-northern-ireland-from-1-january-2021",
@@ -7245,38 +7421,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-01T11:39:12.086Z"
-   }
-  },
-  {
-   "id": "2f7a149f6a6b5419",
-   "title": "Fulfilment House Due Diligence Scheme registered businesses list",
-   "url": "https://www.gov.uk/government/publications/fulfilment-house-due-diligence-scheme-registered-businesses-list",
-   "path": "/government/publications/fulfilment-house-due-diligence-scheme-registered-businesses-list",
-   "date": "2026-09-10T11:08:50Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Check if the business that stores your goods in the UK is registered with the Fulfilment House Due Diligence Scheme if you’re a trader based outside of the UK.",
-   "categories": [
-    "vat",
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "The list has been updated with 5 additions and 1 amendment. ",
-   "firstPublished": "2019-04-17T00:00:00+01:00",
-   "ai": {
-    "summary": "Use the list to confirm if a UK‑based fulfilment house storing your overseas client’s goods is registered under the Fulfilment House Due Diligence Scheme.",
-    "whoAffected": "Traders not established in the UK who store goods in the UK",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Ask overseas clients to consult the HMRC registered‑business list",
-     "Check that the fulfilment house appears on the list before using its services",
-     "If the business is not listed, advise the client to contact VAT enquiries or email notificationofnoncompliance.fulfilmenthouse@hmrc.gov.uk",
-     "Record the verification outcome for client files"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-29T13:58:12.478Z"
    }
   },
   {
