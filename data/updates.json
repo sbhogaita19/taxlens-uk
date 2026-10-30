@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-30T11:25:49.094Z",
+ "generatedAt": "2026-10-30T18:05:08.940Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,105 @@
    "label": "Other"
   }
  ],
- "count": 516,
+ "count": 518,
  "items": [
+  {
+   "id": "1ace804503660064",
+   "title": "Check if a business is registered for money laundering supervision",
+   "url": "https://www.gov.uk/guidance/money-laundering-regulations-supervised-business-register",
+   "path": "/guidance/money-laundering-regulations-supervised-business-register",
+   "date": "2026-10-30T13:39:48Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out if a business has registered with HMRC under the money laundering regulations and report them if they have not.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The Supervised Business Register has been updated.",
+   "firstPublished": "2014-05-23T00:00:00+01:00",
+   "ai": {
+    "summary": "The Supervised Business Register lists businesses registered with HMRC for money‑laundering supervision. Use it to confirm a counterpart’s status; if absent, contact them and, if still unregistered, report the suspicion to HMRC. Registration provides AML guidance but is not an endorsement.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed who need to verify AML supervision of counterparties and businesses that must be supervised under the money‑laundering regulations",
+    "effectiveDate": "2026-10-30",
+    "actions": [
+     "Search the Supervised Business Register to confirm a business’s registration number and details",
+     "If the business is not listed, contact it directly to verify its registration status",
+     "Advise any unregistered business to apply for supervision with HMRC",
+     "Report a suspected unregistered business to HMRC as tax fraud or avoidance"
+    ],
+    "legislationRefs": [
+     "money laundering regulations"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T18:04:05.261Z"
+   }
+  },
+  {
+   "id": "c6dc7d524956f3bb",
+   "title": "Edition 8: Making Tax Digital for Income Tax — software developer newsletter",
+   "url": "https://www.gov.uk/government/publications/edition-8-making-tax-digital-for-income-tax-software-developer-newsletter",
+   "path": "/government/publications/edition-8-making-tax-digital-for-income-tax-software-developer-newsletter",
+   "date": "2026-10-30T13:22:27Z",
+   "type": "correspondence",
+   "source": "HMRC (GOV.UK)",
+   "description": "HMRC's newsletter for software developers for Making Tax Digital for Income Tax.",
+   "categories": [
+    "personal",
+    "selfemployed",
+    "mtd"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-30T13:22:27+00:00",
+   "ai": {
+    "summary": "HMRC’s newsletter updates software developers on Making Tax Digital for Income Tax, covering changes, service performance and required developer actions. Next edition due November 2026.",
+    "whoAffected": "Software developers building Making Tax Digital for Income Tax solutions",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor HMRC’s newsletter for updates",
+     "Review any developer action items communicated",
+     "Plan for the next edition release in November 2026",
+     "Inform clients of any software changes that may affect them"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T18:04:07.706Z"
+   }
+  },
+  {
+   "id": "2283db208c7c62e4",
+   "title": "Inheritance Tax: application for a clearance certificate (IHT30)",
+   "url": "https://www.gov.uk/government/publications/inheritance-tax-application-for-a-clearance-certificate-iht30",
+   "path": "/government/publications/inheritance-tax-application-for-a-clearance-certificate-iht30",
+   "date": "2026-10-30T11:37:14Z",
+   "type": "form",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use form IHT30 to apply for a clearance certificate, showing you have paid all the Inheritance Tax due.",
+   "categories": [
+    "iht"
+   ],
+   "hasBody": true,
+   "changeNote": "The formatting in the section \"Date of amendments to the account\" has been updated in the IHT30 form.",
+   "firstPublished": "2014-04-04T01:00:00+01:00",
+   "ai": {
+    "summary": "Use form IHT30 to apply for a clearance certificate once you are sure all inheritance tax has been paid, and you can request the form in Welsh by emailing HMRC.",
+    "whoAffected": "Anyone (e.g., personal representatives or executors) needing a clearance certificate to confirm inheritance tax is fully paid",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm that all inheritance tax due has been paid",
+     "Email HMRC to request the IHT30 form (or a Welsh version)",
+     "Complete the IHT30 form with the required details",
+     "Submit the completed form to HMRC for the clearance certificate"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T18:04:10.500Z"
+   }
+  },
   {
    "id": "2f7a149f6a6b5419",
    "title": "Fulfilment House Due Diligence Scheme registered businesses list",
@@ -682,7 +779,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-29T10:00:05+00:00"
+   "firstPublished": "2026-10-29T10:00:05+00:00",
+   "ai": {
+    "summary": "From April 2027 the CSOP limit doubles to £120k, its options can run 15 years and no longer count towards EMI limits; CSOP is rebranded EMI2. EMI rules gain longer post‑disqualification exercise windows, EOT eligibility extension, and removal of separate grant notifications. BADR lifetime limit halves and securities transfer tax changes are delayed.",
+    "whoAffected": "Companies that run CSOP or EMI share‑option schemes and their employee shareholders, including SMEs and owner‑managed businesses using these incentives.",
+    "effectiveDate": "28 October 2026 (CSOP rebranding) and 6 April 2027 (main changes)",
+    "actions": [
+     "Review client CSOP agreements to increase option values to £120,000 and extend exercise periods to 15 years, amending existing plans where possible",
+     "Inform clients that CSOP options no longer affect EMI individual limits and adjust EMI option modelling accordingly",
+     "Update EMI compliance: use the annual return for grant notification, note the extended 180‑day post‑disqualification window, and confirm EOT eligibility for upcoming transitions",
+     "Notify clients of the reduced BADR lifetime limit and upcoming securities transfer tax changes to plan for CGT impact and reporting responsibilities"
+    ],
+    "legislationRefs": [
+     "Finance Bill 2026-27"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T18:04:14.492Z"
+   }
   },
   {
    "id": "7d02a51b1eda544f",
@@ -804,7 +918,29 @@
    ],
    "hasBody": true,
    "changeNote": "Information from Budget 2026 about an extension to the temporary zero rate has been added. Section 3.1.1 'Electric vehicle charging supplies' with guidance on new legislation has been added. Sections 2.3, 3.2.2, 3.3, 5.3, 10.1 and 10.7 have been updated with guidance related to this new legislation.",
-   "firstPublished": "2016-04-28T00:00:00+01:00"
+   "firstPublished": "2016-04-28T00:00:00+01:00",
+   "ai": {
+    "summary": "From 1 Oct 2026 to 30 Jun 2027 domestic electricity supplies in Great Britain are zero‑rated for VAT, while Northern Ireland continues at the 5% reduced rate. Qualifying use supplies receive the 0% rate; other supplies remain standard‑rated. The change affects both suppliers and end‑users of electricity.",
+    "whoAffected": "Suppliers of domestic electricity in England, Scotland and Wales, their business customers and residential users; Northern Ireland electricity suppliers (still 5% reduced rate); charities using electricity for non‑business purposes; any contractor invoicing for electricity‑related work must note the rate change.",
+    "effectiveDate": "1 October 2026 – 30 June 2027",
+    "actions": [
+     "Confirm that the electricity you supply or purchase is for domestic qualifying use and apply 0% VAT during the temporary period",
+     "If you are a Northern Ireland supplier, continue to charge the 5% reduced rate on qualifying supplies",
+     "Review contracts and invoices to ensure reduced‑rate work is billed by the fuel‑or‑power supplier, not a third‑party contractor",
+     "Update accounting systems to automatically apply the correct VAT rate for the specified dates"
+    ],
+    "legislationRefs": [
+     "VAT Act 1994 (VATA 1994)",
+     "schedule 7A",
+     "VAT Notice 703",
+     "VAT Notice 708",
+     "VAT Notice 701/45",
+     "VAT Notice 735"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T18:04:17.719Z"
+   }
   },
   {
    "id": "22a0942c6b43c639",
@@ -1009,7 +1145,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:37:00+00:00"
+   "firstPublished": "2026-10-28T17:37:00+00:00",
+   "ai": {
+    "summary": "The rules for capital gains on assets held through non‑UK resident protected cell companies are changed, affecting gains attributed to UK resident individuals, trusts and companies, effective 28 Oct 2026.",
+    "whoAffected": "UK resident individuals, trusts and companies that hold assets via a non‑UK resident protected cell company",
+    "effectiveDate": "28 October 2026",
+    "actions": [
+     "Identify clients with assets held through non‑UK resident protected cell companies",
+     "Review their capital gains exposure under the new attribution rules",
+     "Advise on any reporting or tax liability implications",
+     "Update client records and monitor for further guidance"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T18:04:27.017Z"
+   }
   },
   {
    "id": "32dacb043351daf9",
@@ -1330,40 +1481,6 @@
    }
   },
   {
-   "id": "dfa0b7b0c25fe0de",
-   "title": "Income Tax treatment of image rights payments connected to employment",
-   "url": "https://www.gov.uk/government/publications/income-tax-treatment-of-image-rights-payments-connected-to-employment",
-   "path": "/government/publications/income-tax-treatment-of-image-rights-payments-connected-to-employment",
-   "date": "2026-10-28T17:36:15Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This tax information and impact note is about the tax treatment of image rights payments connected to an employment.",
-   "categories": [
-    "personal",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:36:15+00:00",
-   "ai": {
-    "summary": "All image rights payments linked to employment will be treated as taxable employment income, subject to PAYE Income Tax and NICs from 6 April 2027.",
-    "whoAffected": "Employers and employees who receive image‑rights payments connected to employment",
-    "effectiveDate": "6 April 2027",
-    "actions": [
-     "Review client contracts for image‑rights clauses",
-     "Ensure PAYE calculations include image‑rights payments from 6 April 2027",
-     "Update payroll software to treat these payments as taxable earnings",
-     "Advise clients to adjust tax planning for the new treatment"
-    ],
-    "legislationRefs": [
-     "Finance Bill 2026 to 2027"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-29T18:28:15.861Z"
-   }
-  },
-  {
    "id": "36c8f905ffd245d0",
    "title": "Reform of the foreign permanent establishment exemption",
    "url": "https://www.gov.uk/government/publications/reform-of-the-foreign-permanent-establishment-exemption",
@@ -1444,7 +1561,25 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:36:09+00:00"
+   "firstPublished": "2026-10-28T17:36:09+00:00",
+   "ai": {
+    "summary": "Amendments will be made to Groups 12 and 15 of Schedule 8 VAT Act 1994 when NHS England is abolished in 2027, preserving existing VAT treatment and removing NHS England references.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "2027",
+    "actions": [
+     "Review client VAT positions under Groups 12 and 15 of Schedule 8 VAT Act 1994",
+     "Monitor the 2027 abolition of NHS England for any VAT changes",
+     "Update VAT records to remove references to NHS England",
+     "Advise clients on any impact to their VAT treatment"
+    ],
+    "legislationRefs": [
+     "Groups 12 and 15 of Schedule 8 VAT Act 1994",
+     "VAT Act 1994"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T18:04:30.506Z"
+   }
   },
   {
    "id": "aad658853cb92122",
@@ -1496,6 +1631,40 @@
    "hasBody": true,
    "changeNote": "First published.",
    "firstPublished": "2026-10-28T17:36:02+00:00"
+  },
+  {
+   "id": "dfa0b7b0c25fe0de",
+   "title": "Income Tax treatment of image rights payments connected to employment",
+   "url": "https://www.gov.uk/government/publications/income-tax-treatment-of-image-rights-payments-connected-to-employment",
+   "path": "/government/publications/income-tax-treatment-of-image-rights-payments-connected-to-employment",
+   "date": "2026-10-28T17:36:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about the tax treatment of image rights payments connected to an employment.",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:36:00+00:00",
+   "ai": {
+    "summary": "All image rights payments linked to employment will be treated as taxable employment income, subject to Income Tax and NICs via PAYE from 6 April 2028.",
+    "whoAffected": "Employees receiving image‑rights payments and their employers, including SMEs and owner‑managed businesses that use such arrangements",
+    "effectiveDate": "6 April 2028",
+    "actions": [
+     "Review client contracts for any image‑rights payments",
+     "Inform clients that these payments will become taxable employment income via PAYE from 6 April 2028",
+     "Update payroll systems to treat image‑rights payments as earnings subject to Income Tax and NICs",
+     "Adjust tax planning and compliance advice to reflect the new treatment"
+    ],
+    "legislationRefs": [
+     "Finance Bill 2026 to 2027"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T18:04:35.093Z"
+   }
   },
   {
    "id": "0a56df854f27138a",
@@ -1709,7 +1878,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:45+00:00"
+   "firstPublished": "2026-10-28T17:35:45+00:00",
+   "ai": {
+    "summary": "The B2B reverse charge now only applies when the UK buyer is VAT‑registered; if the buyer isn’t registered, the overseas supplier must charge and account for UK VAT.",
+    "whoAffected": "UK businesses receiving services from overseas suppliers, whether they are VAT‑registered or not",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Verify each client’s VAT registration status before applying the reverse charge",
+     "If a client is not VAT‑registered, advise that the overseas supplier must charge UK VAT",
+     "Adjust the client’s VAT accounting to remove the reverse charge for non‑registered clients",
+     "Notify overseas suppliers of the change in VAT treatment"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T18:04:41.253Z"
+   }
   },
   {
    "id": "d9597b9973b1af57",
@@ -1773,23 +1957,6 @@
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-30T11:25:30.005Z"
    }
-  },
-  {
-   "id": "56fae08cca880c25",
-   "title": "Income Tax: removing the pensions tax two-year rule",
-   "url": "https://www.gov.uk/government/publications/income-tax-removing-the-pensions-tax-two-year-rule",
-   "path": "/government/publications/income-tax-removing-the-pensions-tax-two-year-rule",
-   "date": "2026-10-28T17:35:34Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This tax information and impact note is about removing the two-year rule for tax-free pension and lump sum death benefits.",
-   "categories": [
-    "personal",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:34+00:00"
   },
   {
    "id": "05493d8a78bf87c2",
@@ -1863,24 +2030,6 @@
    "firstPublished": "2026-10-28T17:35:22+00:00"
   },
   {
-   "id": "770242d5da9c46e1",
-   "title": "Income Tax: increasing the trading allowance",
-   "url": "https://www.gov.uk/government/publications/income-tax-increasing-the-trading-allowance",
-   "path": "/government/publications/income-tax-increasing-the-trading-allowance",
-   "date": "2026-10-28T17:35:21Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This tax information and impact note details legislation introduced to increase the income tax trading allowance to £3,000, for trades and miscellaneous income. ",
-   "categories": [
-    "personal",
-    "selfemployed",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:21+00:00"
-  },
-  {
    "id": "2a1f2cceb0c00d3c",
    "title": "Income Tax: changes to the definition of serious ill health lump sums and medical evidence requirements",
    "url": "https://www.gov.uk/government/publications/income-tax-changes-to-the-definition-of-serious-ill-health-lump-sums-and-medical-evidence-requirements",
@@ -1943,7 +2092,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:08+00:00"
+   "firstPublished": "2026-10-28T17:35:08+00:00",
+   "ai": {
+    "summary": "The rules for SEIS, EIS and VCT are updated: relief stays within scheme limits when limits are exceeded, same‑day investments are allowed, one investor’s late payment won’t affect others, interest‑charge rules are aligned, and VCT relief withdrawal uses the original rate.",
+    "whoAffected": "Investors in SEIS, EIS and VCT and companies raising finance through these schemes, including SME owners and their advisers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check client investment amounts against scheme limits and adjust relief calculations accordingly",
+     "Confirm that SEIS, EIS or VCT investments can be scheduled on the same day without affecting eligibility",
+     "Update client agreements to note that a late payment by one investor does not impact other investors' tax relief",
+     "Revise advice on interest charges and VCT relief withdrawal to reflect the aligned EIS rules"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T18:04:48.440Z"
+   }
   },
   {
    "id": "7404cc60533fc0fe",
@@ -1962,6 +2126,23 @@
    "firstPublished": "2026-10-28T17:35:03+00:00"
   },
   {
+   "id": "56fae08cca880c25",
+   "title": "Income Tax: removing the pensions tax two-year rule",
+   "url": "https://www.gov.uk/government/publications/income-tax-removing-the-pensions-tax-two-year-rule",
+   "path": "/government/publications/income-tax-removing-the-pensions-tax-two-year-rule",
+   "date": "2026-10-28T17:35:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about removing the two-year rule for tax-free pension and lump sum death benefits.",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:00+00:00"
+  },
+  {
    "id": "fdf2867a9122ef7f",
    "title": "Capital Gains Tax — capital sums received for surrendering rights ",
    "url": "https://www.gov.uk/government/publications/capital-gains-tax-capital-sums-received-for-surrendering-rights",
@@ -1975,7 +2156,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:00+00:00"
+   "firstPublished": "2026-10-28T17:35:00+00:00",
+   "ai": {
+    "summary": "Capital sums received for surrendering contractual rights are treated as capital gains and fall within Capital Gains Tax.",
+    "whoAffected": "Individuals and businesses that receive capital sums when they give up rights under a contract",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients receiving capital sums for surrendering rights",
+     "Confirm the receipt is subject to CGT",
+     "Include the amount in the client’s CGT calculation and reporting",
+     "Advise on record‑keeping and any available reliefs"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T18:04:54.171Z"
+   }
   },
   {
    "id": "c3721787c502704d",
@@ -2028,6 +2224,39 @@
    "firstPublished": "2026-10-28T17:35:00+00:00"
   },
   {
+   "id": "770242d5da9c46e1",
+   "title": "Income Tax: increasing the trading allowance",
+   "url": "https://www.gov.uk/government/publications/income-tax-increasing-the-trading-allowance",
+   "path": "/government/publications/income-tax-increasing-the-trading-allowance",
+   "date": "2026-10-28T17:35:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note details legislation introduced to increase the income tax trading allowance to £3,000, for trades and miscellaneous income. ",
+   "categories": [
+    "personal",
+    "selfemployed",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:00+00:00",
+   "ai": {
+    "summary": "The trading allowance rises from £1,000 to £3,000 for the 2027‑2028 tax year, also raising the self‑assessment reporting threshold to £3,000 for trade and miscellaneous income.",
+    "whoAffected": "Self‑employed individuals, SMEs and owner‑managed businesses with trading or miscellaneous income who file Income Tax self‑assessment",
+    "effectiveDate": "Tax year 2027‑2028",
+    "actions": [
+     "Notify affected clients of the higher trading allowance and reporting threshold",
+     "Adjust tax calculations and self‑assessment forms to reflect the £3,000 allowance",
+     "Update practice software and templates with the new figures",
+     "Review whether clients should claim the allowance or opt for actual expense deduction"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T18:05:01.276Z"
+   }
+  },
+  {
    "id": "7a099516e267440a",
    "title": "Stamp Duty Land Tax: assured tenancies",
    "url": "https://www.gov.uk/government/publications/stamp-duty-land-tax-assured-tenancies",
@@ -2073,7 +2302,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:34:58+00:00"
+   "firstPublished": "2026-10-28T17:34:58+00:00",
+   "ai": {
+    "summary": "The Treasury can grant tax reliefs and administrative easements for estates affected by historic NS&I tracing failures, exempting the holdings from Inheritance Tax and removing Income Tax on accrued interest, with compensation where appropriate.",
+    "whoAffected": "Estates of customers whose NS&I savings were not traced and paid after death due to historic failures.",
+    "effectiveDate": "From Royal Assent to the Finance Act 2027",
+    "actions": [
+     "Identify clients with untraced NS&I accounts after death",
+     "Advise clients to claim the full value of holdings from NS&I",
+     "Prepare claims for Inheritance Tax exemption and Income Tax relief on accrued interest",
+     "Monitor secondary legislation for detailed reliefs and ensure compliance"
+    ],
+    "legislationRefs": [
+     "Finance Act 2027"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T18:05:07.440Z"
+   }
   },
   {
    "id": "d7297b7ae394ec89",
@@ -4104,39 +4350,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-19T10:48:28.688Z"
-   }
-  },
-  {
-   "id": "1ace804503660064",
-   "title": "Check if a business is registered for money laundering supervision",
-   "url": "https://www.gov.uk/guidance/money-laundering-regulations-supervised-business-register",
-   "path": "/guidance/money-laundering-regulations-supervised-business-register",
-   "date": "2026-10-19T06:29:02Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out if a business has registered with HMRC under the money laundering regulations and report them if they have not.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "The Supervised Business Register has been updated.",
-   "firstPublished": "2014-05-23T00:00:00+01:00",
-   "ai": {
-    "summary": "The Supervised Business Register lists HMRC‑registered businesses under the money‑laundering regulations; use it to confirm a business’s registration, contact them if not listed, and report any unregistered firms.",
-    "whoAffected": "Businesses that must be supervised under the money laundering regulations and anyone checking their registration status",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Search the Supervised Business Register to verify a client’s registration",
-     "If the business does not appear, contact them directly to confirm status",
-     "Advise any unregistered business to register for supervision under the money laundering regulations",
-     "Report suspected unregistered businesses to HMRC"
-    ],
-    "legislationRefs": [
-     "money laundering regulations"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-19T10:48:32.110Z"
    }
   },
   {
