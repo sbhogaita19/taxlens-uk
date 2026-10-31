@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-30T18:05:08.940Z",
+ "generatedAt": "2026-10-31T10:57:45.826Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -956,7 +956,29 @@
    ],
    "hasBody": true,
    "changeNote": "From 1 May 2026, you do not need to work out the NPV of rent for a residential property under an assured tenancy.",
-   "firstPublished": "2013-08-19T00:00:00+01:00"
+   "firstPublished": "2013-08-19T00:00:00+01:00",
+   "ai": {
+    "summary": "From 1 May 2026 you no longer calculate NPV of rent for residential leases under an assured tenancy. SDLT on leasehold purchases is based on the premium and, where rent exceeds a nominal amount, the NPV of rent (except the above). Returns must be filed if the price is £40,000 or more, with specific exemptions.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals buying or selling leasehold properties (new or assigned leases) in England and Northern Ireland",
+    "effectiveDate": "1 May 2026",
+    "actions": [
+     "Determine whether the lease is a new lease or an assigned lease and identify the premium and rent terms",
+     "Calculate SDLT on the premium using the same rates as for a freehold purchase",
+     "If rent is more than nominal and not an assured tenancy after 1 May 2026, compute the NPV of the rent and apply the 1% SDLT rate on any amount above the residential or non‑residential threshold",
+     "Submit an SDLT return online whenever the sale price is £40,000 or more, or when required by the specific lease‑duration and rent‑threshold exemptions"
+    ],
+    "legislationRefs": [
+     "Land and Buildings Transaction Tax",
+     "Land Transaction Tax (LTT)",
+     "SDL T NPV threshold",
+     "£125,000 residential threshold",
+     "£150,000 non‑residential threshold",
+     "assured tenancy"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-31T10:56:45.581Z"
+   }
   },
   {
    "id": "0bac5c4d871ef734",
@@ -1003,7 +1025,25 @@
    ],
    "hasBody": true,
    "changeNote": "'Example of a model investor declaration' and 'Example of a model conveyancer declaration' have been updated.\r\nFrom 29 October 2026, if funds are withdrawn to buy a property and the purchase price is more than £450,000 a 20% withdrawal charge will apply.",
-   "firstPublished": "2018-03-20T00:00:00+00:00"
+   "firstPublished": "2018-03-20T00:00:00+00:00",
+   "ai": {
+    "summary": "Conveyancers must ensure Lifetime ISA withdrawals for first‑time home purchases meet conditions, collect investor details, send required declarations to the ISA manager, and monitor the 90‑day completion rule, noting a 20% charge applies for properties over £450,000 from 29 Oct 2026.",
+    "whoAffected": "Conveyancers, their first‑time buyer clients using a Lifetime ISA, and ISA managers",
+    "effectiveDate": "From 6 April 2018 (original rules) and from 29 Oct 2026 (20% charge for purchases over £450,000)",
+    "actions": [
+     "Collect all required investor information and verify eligibility criteria before withdrawal",
+     "Prepare and submit the model conveyancer declaration to the Lifetime ISA manager with required details",
+     "Track that the ISA manager releases funds within 30 days and ensure the purchase completes within 90 days",
+     "If the purchase fails or is delayed, notify the ISA manager within the specified timeframes and arrange any extensions or fund returns"
+    ],
+    "legislationRefs": [
+     "Lifetime ISA regulations",
+     "HM Revenue and Customs (HMRC)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-31T10:56:49.178Z"
+   }
   },
   {
    "id": "b722f1e28855587e",
@@ -1019,7 +1059,22 @@
    ],
    "hasBody": true,
    "changeNote": "Added there is a 20% withdrawal charge if investors take money out of their Lifetime ISA for a first time residential property purchase and the property value is above £450,000.",
-   "firstPublished": "2019-07-01T12:18:00+01:00"
+   "firstPublished": "2019-07-01T12:18:00+01:00",
+   "ai": {
+    "summary": "LISA managers must digitally report all LISA activity via HMRC’s API, using authorised endpoints and OAuth tokens, including annual returns, bonuses, withdrawals and property purchases. Unmatched investor data causes failures; a 20% withdrawal charge applies for property buys over £450,000.",
+    "whoAffected": "LISA managers (including practice clients) and Lifetime ISA investors",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Integrate your practice software with HMRC’s LISA API and obtain OAuth 2.0 tokens",
+     "Test the integration in HMRC’s test environment before live use",
+     "Confirm investor personal details match HMRC records before creating investor records",
+     "Submit required annual returns and report any withdrawal charges, especially for property purchases above £450,000"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-31T10:56:52.701Z"
+   }
   },
   {
    "id": "dcaf4af22349dada",
@@ -1973,7 +2028,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:29+00:00"
+   "firstPublished": "2026-10-28T17:35:29+00:00",
+   "ai": {
+    "summary": "From 1 May 2027 the VAT exemption for supplying a deputy to a registered medical practitioner ends; medical care remains exempt, but deputy services will be subject to VAT.",
+    "whoAffected": "Businesses that supply deputy services to registered medical practitioners",
+    "effectiveDate": "1 May 2027",
+    "actions": [
+     "Identify any client providing deputy services to registered medical practitioners",
+     "Advise them that VAT will apply from 1 May 2027",
+     "Ensure they are VAT‑registered or adjust pricing to include VAT",
+     "Update contracts and invoicing to reflect the change"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-31T10:57:02.205Z"
+   }
   },
   {
    "id": "c57ee87c117007d6",
@@ -2044,7 +2114,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:16+00:00"
+   "firstPublished": "2026-10-28T17:35:16+00:00",
+   "ai": {
+    "summary": "The test for a serious ill‑health lump‑sum is now based on a member expected to live less than 12 months, and overseas doctors can supply evidence if the member lives in the same country or the scheme is established there.",
+    "whoAffected": "Pension scheme members and the pension schemes they belong to, especially where members reside abroad or the scheme is set up outside the UK",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check client pension scheme rules to see if any members may qualify under the new less‑than‑12‑months test",
+     "Update client advice to reflect the new eligibility criteria for serious ill‑health lump sums",
+     "Notify clients that medical evidence can now be provided by overseas practitioners when the member lives in the same country or the scheme is established there",
+     "Amend documentation templates to capture and verify overseas medical evidence and residency details"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-31T10:57:06.927Z"
+   }
   },
   {
    "id": "6c90333c9c120070",
@@ -2270,7 +2355,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:00+00:00"
+   "firstPublished": "2026-10-28T17:35:00+00:00",
+   "ai": {
+    "summary": "Rent payable under assured tenancies is no longer subject to SDLT and most reporting requirements are removed.",
+    "whoAffected": "Landlords of assured tenancies and their tenants, including SME landlords and self‑employed property owners",
+    "effectiveDate": "1 May 2026",
+    "actions": [
+     "Check client assured tenancy agreements to confirm they are covered by the new rules",
+     "Advise clients that SDLT is not payable on rent under assured tenancies",
+     "Remove SDLT reporting tasks from client compliance checklists",
+     "Notify affected clients of the change and update engagement letters"
+    ],
+    "legislationRefs": [
+     "Renters’ Rights Act 2025"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-31T10:57:17.493Z"
+   }
   },
   {
    "id": "aaf81cfd5ab654f8",
@@ -2369,7 +2471,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:34:49+00:00"
+   "firstPublished": "2026-10-28T17:34:49+00:00",
+   "ai": {
+    "summary": "VAT online marketplace rules now require marketplaces to collect VAT on sales by UK VAT‑registered businesses and other UK businesses with sales over £90,000 per platform, when goods are in the UK at sale. Personal, second‑hand and B2B sales are excluded.",
+    "whoAffected": "UK VAT‑registered businesses and other UK businesses exceeding the £90,000 per‑platform threshold, and the online marketplaces that facilitate those sales",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check client sales on each marketplace to see if the £90,000 threshold is met",
+     "Advise clients that the marketplace must account for VAT on qualifying sales and adjust their VAT returns accordingly",
+     "Update client accounting systems to record VAT collected by the marketplace",
+     "Confirm that personal, second‑hand and B2B sales remain outside the new rules"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-31T10:57:25.499Z"
+   }
   },
   {
    "id": "0bde358e845747a8",
@@ -2419,7 +2536,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:34:38+00:00"
+   "firstPublished": "2026-10-28T17:34:38+00:00",
+   "ai": {
+    "summary": "A consultation proposes a founder relief giving a 10% CGT rate on qualifying share disposals from 6 April 2027, with a £10 million lifetime limit. The view period ends 30 Nov 2026.",
+    "whoAffected": "Founders and early investors in UK high‑growth, innovative companies",
+    "effectiveDate": "6 April 2027",
+    "actions": [
+     "Advise clients to factor the proposed 10% CGT rate into share disposal planning after 6 April 2027",
+     "Monitor the consultation deadline of 30 Nov 2026 and consider submitting feedback",
+     "Check client eligibility as founders or early investors and assess the £10 million lifetime limit",
+     "Update tax planning notes and client advice to reflect the potential relief"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-31T10:57:31.798Z"
+   }
   },
   {
    "id": "7abb199c894d5086",
@@ -2502,7 +2634,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:34:18+00:00"
+   "firstPublished": "2026-10-28T17:34:18+00:00",
+   "ai": {
+    "summary": "The requirement to submit a claim notification form for R&D tax reliefs is being removed from 1 April 2027 and the additional information form will be simplified from autumn 2027, easing administration for companies.",
+    "whoAffected": "Companies claiming R&D tax reliefs, including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "From 1 April 2027 (CNF removal) and autumn 2027 (AIF changes)",
+    "actions": [
+     "Tell clients the claim notification form will no longer be needed for claims from 1 April 2027",
+     "Update internal claim checklists to remove the CNF step",
+     "Monitor forthcoming guidance on the simplified AIF and prepare revised templates before autumn 2027",
+     "Communicate the changes to clients and adjust advice on R&D claim preparation"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-31T10:57:41.180Z"
+   }
   },
   {
    "id": "21cd9a91c5880f0d",
