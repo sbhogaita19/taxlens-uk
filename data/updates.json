@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-10-31T10:57:45.826Z",
+ "generatedAt": "2026-11-01T11:52:11.706Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,109 @@
    "label": "Other"
   }
  ],
- "count": 518,
+ "count": 521,
  "items": [
+  {
+   "id": "b7472518fb00f600",
+   "title": "How to move parcels from Great Britain to Northern Ireland for express operators",
+   "url": "https://www.gov.uk/guidance/how-to-move-parcels-from-great-britain-to-northern-ireland-for-express-operators",
+   "path": "/guidance/how-to-move-parcels-from-great-britain-to-northern-ireland-for-express-operators",
+   "date": "2026-11-01T06:00:05Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how to send parcels from Great Britain to Northern Ireland if you're a courier or an express operator.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated the section ‘Consumer parcel movements’ to confirm that distance sales moving into Northern Ireland that are ‘at risk’ of entering the EU are charged a handling fee of 2 euros for each item. Updated the section ‘Moving parcels if you’re authorised under the UK Carrier Scheme’ to confirm that import VAT is due on the value of any goods worth more than £135.",
+   "firstPublished": "2025-03-19T00:00:00+00:00",
+   "ai": {
+    "summary": "Guidance explains how couriers and express operators can move parcels from Great Britain to Northern Ireland, detailing when customs declarations, duties, and handling fees apply, the UK Carrier Scheme requirements, data reporting to HMRC, and import VAT on goods over £135.",
+    "whoAffected": "Couriers and express operators, UK‑based businesses and private individuals sending parcels GB → NI, and their recipients in Northern Ireland.",
+    "effectiveDate": "2026-11-01",
+    "actions": [
+     "Check if parcels meet the UK Carrier Scheme eligibility criteria (UK‑established sender, authorised carrier, personal use, weight limits, no prohibited goods).",
+     "If eligible, ensure the carrier is authorised and submit required movement data to HMRC within 24 hours (consumer‑to‑consumer) or before delivery (business‑to‑consumer).",
+     "For parcels ‘at risk’ of entering the EU, apply a €2 handling fee per line item and charge import VAT on goods valued over £135.",
+     "Advise clients to provide full parcel details (description, sender type) and, where required, include the Import One‑Stop Shop number on customs declarations."
+    ],
+    "legislationRefs": [
+     "UK Carrier Scheme",
+     "Windsor Framework",
+     "Import One‑Stop Shop",
+     "UK Internal Market Scheme"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-01T11:51:10.071Z"
+   }
+  },
+  {
+   "id": "fcd25abc88f6a392",
+   "title": "Moving goods you bring into Northern Ireland as ‘not at risk’ of moving to the EU",
+   "url": "https://www.gov.uk/guidance/check-if-you-can-declare-goods-you-bring-into-northern-ireland-not-at-risk-of-moving-to-the-eu",
+   "path": "/guidance/check-if-you-can-declare-goods-you-bring-into-northern-ireland-not-at-risk-of-moving-to-the-eu",
+   "date": "2026-11-01T06:00:05Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out if goods you bring into Northern Ireland can move as ‘not at risk’ of moving to the EU.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Information has been added to explain that distance sales moving into Northern Ireland that are ‘at risk’ of entering the EU are charged a handling fee of 2 euros for each item.",
+   "firstPublished": "2020-12-14T00:00:00+00:00",
+   "ai": {
+    "summary": "Businesses moving goods into Northern Ireland must declare them as ‘at risk’ or ‘not at risk’, based on duty rates, processing status and the UK Internal Market Scheme, and may face a €2 handling fee for at‑risk distance sales.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed traders who import goods into Northern Ireland from Great Britain or non‑EU/UK countries",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check duty rates and processing requirements to decide if goods are ‘at risk’ or ‘not at risk’.",
+     "Submit the required movement information to HMRC, using the Customs Declaration Service or the Trader Support Service if needed.",
+     "If using the UK Internal Market Scheme, confirm authorisation and keep records proving end‑consumer location in the UK/Northern Ireland.",
+     "Inform clients about the €2 handling fee for at‑risk distance sales and advise on repayment or waiver claims for incorrect declarations."
+    ],
+    "legislationRefs": [
+     "UK Internal Market Scheme",
+     "Customs Duty"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-01T11:51:13.240Z"
+   }
+  },
+  {
+   "id": "83ee3112cd75a8e6",
+   "title": "Pay handling fees for distance sales to Northern Ireland ‘at risk’ of entering the EU",
+   "url": "https://www.gov.uk/guidance/pay-handling-fees-for-distance-sales-to-northern-ireland-at-risk-of-entering-the-eu",
+   "path": "/guidance/pay-handling-fees-for-distance-sales-to-northern-ireland-at-risk-of-entering-the-eu",
+   "date": "2026-11-01T06:00:05Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay handling fees for distance sales moving into Northern Ireland that are ‘at risk’ of entering the EU, and how long it takes for your payment to reach HMRC. ",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-01T06:00:05+00:00",
+   "ai": {
+    "summary": "Submit the return by the 13th of the month after each period, then pay the exact handling fee by the 16th using the 14‑character reference from HMRC, choosing a payment method that meets the timing rules and using the correct UK or overseas account details in pounds sterling.",
+    "whoAffected": "Businesses making distance sales to Northern Ireland that are ‘at risk’ of entering the EU, including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Submit the completed return form to HMRC by the 13th of the calendar month after each reporting period",
+     "Use the 14‑character reference number from HMRC’s email when making the payment",
+     "Pay the exact amount by the 16th of the month, using CHAPS/Faster Payments for same‑day receipt or Bacs (allow 3 working days) and the correct UK or overseas account details in GBP",
+     "If paying by cheque, ensure it reaches HMRC before the deadline, is payable to ‘HM Revenue and Customs only’, includes the reference on the back, and is sent to the address provided"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-01T11:51:16.380Z"
+   }
+  },
   {
    "id": "1ace804503660064",
    "title": "Check if a business is registered for money laundering supervision",
@@ -1899,7 +2000,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:49+00:00"
+   "firstPublished": "2026-10-28T17:35:49+00:00",
+   "ai": {
+    "summary": "Pension lump‑sum death benefits above the allowance will no longer be treated as pension income; HMRC will charge Income Tax at the recipient’s marginal rate and make minor changes to preserve Inheritance Tax relief.",
+    "whoAffected": "Recipients of pension lump‑sum death benefits that exceed the deceased member’s lump‑sum and death‑benefit allowance (and the related estates)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients receiving lump‑sum death benefits above the allowance",
+     "Reclassify those amounts as separate taxable income, not pension income",
+     "Calculate the Income Tax charge using the recipient’s marginal rate",
+     "Confirm any Inheritance Tax relief is preserved where applicable"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-01T11:51:22.245Z"
+   }
   },
   {
    "id": "d263bfe823b22e23",
@@ -1916,7 +2032,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:46+00:00"
+   "firstPublished": "2026-10-28T17:35:46+00:00",
+   "ai": {
+    "summary": "From 28 Oct 2026 the Scottish Government will no longer withhold Income Tax on interest from certain bonds, meaning interest is paid gross.",
+    "whoAffected": "Investors who hold the specified Scottish Government bonds",
+    "effectiveDate": "on or after 28 October 2026",
+    "actions": [
+     "Inform clients holding these bonds that no tax will be deducted at source",
+     "Adjust interest‑income calculations to reflect gross amounts",
+     "Update client records and tax returns accordingly",
+     "Watch for any further guidance from HMRC"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-01T11:51:24.908Z"
+   }
   },
   {
    "id": "944f6e1290092d93",
@@ -2097,7 +2228,25 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:22+00:00"
+   "firstPublished": "2026-10-28T17:35:22+00:00",
+   "ai": {
+    "summary": "A new general power lets tax provisions for public sector body reorganisations be made via secondary legislation, removing the need for bespoke primary legislation while keeping ministerial oversight.",
+    "whoAffected": "Public sector bodies undergoing reorganisation and the ministers overseeing secondary legislation",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor any secondary legislation issued for public body reorganisations",
+     "Advise clients that tax consequences will be addressed through secondary legislation rather than primary statutes",
+     "Review client reorganisations to identify any tax implications that may be covered by the new power",
+     "Ensure compliance with any tax provisions made under the secondary legislation process"
+    ],
+    "legislationRefs": [
+     "primary legislation",
+     "secondary legislation"
+    ],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-01T11:51:28.229Z"
+   }
   },
   {
    "id": "2a1f2cceb0c00d3c",
@@ -2225,7 +2374,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:00+00:00"
+   "firstPublished": "2026-10-28T17:35:00+00:00",
+   "ai": {
+    "summary": "The 2‑year rule that taxed tax‑free lump‑sum death benefits, annuity payments from drawdown funds and overseas drawdown contributions after death is removed, so these payments are no longer taxed solely for missing the 2‑year deadline.",
+    "whoAffected": "Pension scheme members, their beneficiaries and pension scheme administrators (including SMEs and self‑employed with personal or occupational pensions)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Inform clients that the 2‑year tax rule on death benefits has been removed",
+     "Review existing pension death benefit arrangements to ensure they reflect the change",
+     "Update client guidance and communications on tax treatment of lump‑sum, annuity and overseas drawdown payments after death",
+     "Advise clients on any planning opportunities arising from the rule’s removal"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-01T11:51:32.862Z"
+   }
   },
   {
    "id": "fdf2867a9122ef7f",
@@ -2502,7 +2666,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:34:43+00:00"
+   "firstPublished": "2026-10-28T17:34:43+00:00",
+   "ai": {
+    "summary": "The rule now excludes AVECs and VGECs when calculating taxable earnings (tax‑EBITDA) for Corporate Interest Restriction.",
+    "whoAffected": "Businesses that claim Audio‑Visual Expenditure Credits or Video Games Expenditure Credits",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review client tax‑EBITDA calculations to ensure AVECs and VGECs are excluded",
+     "Update tax software or calculation templates accordingly",
+     "Notify clients with AVEC/VGEC claims of the change",
+     "Re‑assess Corporate Interest Restriction calculations for affected clients"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-01T11:51:45.155Z"
+   }
   },
   {
    "id": "be0ac07ff1d7d288",
@@ -2584,7 +2763,24 @@
    ],
    "hasBody": true,
    "changeNote": "The exchequer impact table has been updated for Budget 2026. The 'Monitoring and evaluation' section has been updated to confirm consideration will be given to monitoring this measure.\r\n",
-   "firstPublished": "2026-07-13T13:12:00+01:00"
+   "firstPublished": "2026-07-13T13:12:00+01:00",
+   "ai": {
+    "summary": "The reform removes the joint‑ownership restriction in Schedule 14 of the Finance Act 2012 for the Cultural Gift Scheme and gives donors one chance, within the existing five‑year limit, to amend their remaining tax‑credit allocation, effective 6 April 2027.",
+    "whoAffected": "Donors who are joint owners of objects under the Cultural Gift Scheme, including SMEs, owner‑managed businesses and self‑employed individuals who claim tax credits for cultural gifts.",
+    "effectiveDate": "6 April 2027",
+    "actions": [
+     "Notify affected clients that joint‑ownership restrictions are removed",
+     "Check existing tax‑credit allocations to see if an amendment can be made within the five‑year window",
+     "Update client records and tax‑credit calculations accordingly",
+     "Contact HMRC at the provided email for any clarification"
+    ],
+    "legislationRefs": [
+     "Schedule 14 to the Finance Act 2012"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-01T11:51:51.560Z"
+   }
   },
   {
    "id": "fc8dfc68426400db",
@@ -2683,7 +2879,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:34:00+00:00"
+   "firstPublished": "2026-10-28T17:34:00+00:00",
+   "ai": {
+    "summary": "A new Income Tax reduction applies to people over State Pension age whose total income is at most the full new State Pension, calculated using the basic rate on the gap between Personal Allowance and the pension; it phases out £1 per £3 of income above that level for the 2027‑30 tax years.",
+    "whoAffected": "Individuals above State Pension age, including self‑employed and owner‑managers, whose total income is equal to or less than the full new State Pension (full reduction) or above it (partial reduction).",
+    "effectiveDate": "Tax year 2027‑2028 (applies through 2029‑2030)",
+    "actions": [
+     "Identify clients over State Pension age and check their total income against the full new State Pension",
+     "Calculate the maximum pension tax allowance using the basic rate on the difference between Personal Allowance and the new State Pension",
+     "Apply the £1 per £3 withdrawal rule for income above the pension amount",
+     "Update clients' tax returns and advise them of the reduction and its gradual withdrawal"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-01T11:51:59.128Z"
+   }
   },
   {
    "id": "7252ad9fb75e61b1",
@@ -2764,7 +2975,22 @@
    ],
    "hasBody": true,
    "changeNote": "Updated the list of ceased and suspended ACSPs.",
-   "firstPublished": "2025-10-10T00:00:00+01:00"
+   "firstPublished": "2025-10-10T00:00:00+01:00",
+   "ai": {
+    "summary": "The list shows ACSPs whose status is suspended (due to investigations or missing information) or ceased (by request or non‑compliance). Updates are posted every two weeks, with a possible two‑week lag for recent changes.",
+    "whoAffected": "Authorised Corporate Service Providers (businesses and sole traders) and any clients who use their services",
+    "effectiveDate": "2026-10-28",
+    "actions": [
+     "Check the published ceased/suspended ACSP list at least every two weeks",
+     "Confirm an ACSP’s status before recommending them to SME or self‑employed clients",
+     "If an ACSP is suspended, advise clients of the investigation risk and consider alternatives",
+     "If an ACSP is ceased, recommend a different provider promptly"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-01T11:52:08.556Z"
+   }
   },
   {
    "id": "488cc81523a0b757",
