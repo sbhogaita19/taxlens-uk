@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-01T11:52:11.706Z",
+ "generatedAt": "2026-11-02T13:32:40.501Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,702 @@
    "label": "Other"
   }
  ],
- "count": 521,
+ "count": 553,
  "items": [
+  {
+   "id": "b4705b408391d269",
+   "title": "Hundreds of employers handed penalties for illegally underpaying workers",
+   "url": "https://www.gov.uk/government/news/hundreds-of-employers-handed-penalties-for-illegally-underpaying-workers",
+   "path": "/government/news/hundreds-of-employers-handed-penalties-for-illegally-underpaying-workers",
+   "date": "2026-11-02T12:09:14Z",
+   "type": "press_release",
+   "source": "HMRC (GOV.UK)",
+   "description": "389 employers from across the UK named for failing to pay workers the minimum wage to tens of thousands of workers.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "'Holiday Inn Express Bristol - Filton' changed to 'Holiday Inn Bristol - Filton' in 'Naming Round 23' spreadsheet.",
+   "firstPublished": "2026-03-19T00:01:00+00:00",
+   "ai": {
+    "summary": "The government has named 389 employers for underpaying the National Minimum Wage, issuing £12.6 million in penalties and repaying over £7.3 million to about 60,000 workers. The new Fair Work Agency starts on 7 April 2026 to enforce wage rules and expand enforcement to holiday and sick pay.",
+    "whoAffected": "SME owners, OMBs and self‑employed employers who pay staff, as well as their employees who may be underpaid",
+    "effectiveDate": "7 April 2026",
+    "actions": [
+     "Check payroll calculations against the latest National Minimum Wage rates using the Check Your Pay website",
+     "Review the full list of named employers and compare your own records to ensure no arrears",
+     "Seek guidance from HMRC, Acas or the upcoming Fair Work Agency to confirm compliance",
+     "Put in place regular audit procedures to keep payroll up‑to‑date and avoid future penalties"
+    ],
+    "legislationRefs": [
+     "Employment Rights Act"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T13:31:40.571Z"
+   }
+  },
+  {
+   "id": "f0162fb712cbd2df",
+   "title": "Claim tax relief if you paid UK-source yearly interest to an overseas lender without deducting tax",
+   "url": "https://www.gov.uk/guidance/claim-tax-relief-if-you-paid-uk-source-yearly-interest-to-an-overseas-lender-without-deducting-tax",
+   "path": "/guidance/claim-tax-relief-if-you-paid-uk-source-yearly-interest-to-an-overseas-lender-without-deducting-tax",
+   "date": "2026-11-02T11:17:41Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out if you can claim Income Tax relief under a double taxation agreement if you paid interest to an overseas lender without making the correct deductions to account for Income Tax.",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T11:17:41+00:00",
+   "ai": {
+    "summary": "Clients who paid UK‑source yearly interest to an overseas lender without deducting Income Tax can claim relief under a double taxation agreement if they meet specific conditions and submit a claim within four years of the tax year end.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who have made UK‑source interest payments to overseas lenders without the required tax deductions and meet the treaty criteria.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify any interest payments made to overseas lenders where tax was not deducted and confirm a double taxation treaty applies.",
+     "Check all eligibility conditions: no HMRC direction, treaty limits tax, and relief conditions are met.",
+     "Collect required evidence – payer/lender details, payment data, treaty reference, residence certificates, entitlement declarations and a signed declaration.",
+     "Complete a separate claim form for each loan/lender and submit it by the appropriate email address within the four‑year deadline."
+    ],
+    "legislationRefs": [
+     "double taxation agreement",
+     "International INTM413205 manual"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T13:31:43.683Z"
+   }
+  },
+  {
+   "id": "2af400a0abc72fe3",
+   "title": "Save As You Earn (SAYE): end of year return template and guidance notes",
+   "url": "https://www.gov.uk/government/publications/save-as-you-earn-end-of-year-template",
+   "path": "/government/publications/save-as-you-earn-end-of-year-template",
+   "date": "2026-11-02T10:57:15Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use the template or technical note to create your own template to tell HMRC of registered tax advantaged Save As You Earn (SAYE) options. ",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Added the new end of year template, guidance notes and technical notes for April 2027. ",
+   "firstPublished": "2015-03-03T00:00:00+00:00",
+   "ai": {
+    "summary": "Complete the SAYE end‑of‑year return using HMRC’s template or a self‑made one per the technical note, follow the guidance notes for each section, check for formatting errors, then submit to HMRC.",
+    "whoAffected": "Employers who run registered Save As You Earn (SAYE) schemes and their advisers",
+    "effectiveDate": "April 2027",
+    "actions": [
+     "Use HMRC’s end‑of‑year return template or create your own using the technical note",
+     "Follow the guidance notes to fill each section of the template",
+     "Check your files for formatting errors before submission",
+     "Submit the completed return to HMRC"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T13:31:46.529Z"
+   }
+  },
+  {
+   "id": "86bcbfbbc23822af",
+   "title": "Share Incentive Plan (SIP): end of year template, technical note and guidance notes",
+   "url": "https://www.gov.uk/government/publications/share-incentive-plan-end-of-year-template",
+   "path": "/government/publications/share-incentive-plan-end-of-year-template",
+   "date": "2026-11-02T10:35:27Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use this template or the technical note to create your own template to tell HMRC of registered tax advantaged Share Incentive Plan shares.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Added the new end of year template, guidance notes and technical notes for April 2027. ",
+   "firstPublished": "2015-03-03T00:00:00+00:00",
+   "ai": {
+    "summary": "Use HMRC’s template or a self‑made one (per the technical note) to complete the Share Incentive Plan end‑of‑year return, follow guidance notes for each section, check for formatting errors, then submit the return.",
+    "whoAffected": "Employers who operate a Share Incentive Plan and must file the end‑of‑year return",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Choose HMRC’s return template or create your own using the technical note",
+     "Use the guidance notes to complete each section of the template",
+     "Check the completed files for formatting errors",
+     "Submit the completed return to HMRC"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T13:31:49.329Z"
+   }
+  },
+  {
+   "id": "a7f1bcbaa6d13dbd",
+   "title": "Non-tax advantaged share schemes: end of year return template, technical note and guidance notes",
+   "url": "https://www.gov.uk/government/publications/other-employment-related-securities-schemes-and-arrangements-end-of-year-return-template",
+   "path": "/government/publications/other-employment-related-securities-schemes-and-arrangements-end-of-year-return-template",
+   "date": "2026-11-02T10:34:53Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use the template or technical note to create your own template to tell HMRC of other non-tax advantaged shares and securities events.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Added the new end of year template, guidance notes and technical notes for April 2027. ",
+   "firstPublished": "2015-03-03T00:00:00+00:00",
+   "ai": {
+    "summary": "Use HMRC’s template or a self‑made one (per the technical note) to report other non‑tax advantaged share schemes, follow guidance notes for each section, check formatting to avoid delays, then submit the return.",
+    "whoAffected": "Employers who need to file end‑of‑year returns for other non‑tax advantaged share schemes",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Choose HMRC’s template or create your own using the technical note",
+     "Use the guidance notes to complete each section of the template",
+     "Check your files for formatting errors before submission",
+     "Submit the completed return to HMRC"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T13:31:52.359Z"
+   }
+  },
+  {
+   "id": "3baef838ab05c719",
+   "title": "Enterprise Management Incentives (EMI): end of year return template and guidance notes",
+   "url": "https://www.gov.uk/government/publications/enterprise-management-incentives-end-of-year-template",
+   "path": "/government/publications/enterprise-management-incentives-end-of-year-template",
+   "date": "2026-11-02T10:34:32Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use the template or technical note to create your own template to tell HMRC of registered Enterprise Management Incentives (EMI) options.",
+   "categories": [
+    "cgt"
+   ],
+   "hasBody": true,
+   "changeNote": "Added the new end of year template, guidance notes and technical notes for April 2027. ",
+   "firstPublished": "2015-03-03T00:00:00+00:00",
+   "ai": {
+    "summary": "Use HMRC’s template or a self‑made one (per the technical note) to complete the EMI end‑of‑year return, follow guidance notes for each section, check formatting to avoid delays, then submit the return.",
+    "whoAffected": "Employers who run Enterprise Management Incentive (EMI) schemes and need to file an end‑of‑year return",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Choose HMRC’s template or create your own using the technical note",
+     "Follow the guidance notes to complete each section of the template",
+     "Check your files for formatting errors before submission",
+     "Submit the completed EMI end‑of‑year return"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T13:31:55.161Z"
+   }
+  },
+  {
+   "id": "0030467f071c0efa",
+   "title": "Company Share Option Plan (CSOP): end of year return template, technical notes and guidance notes",
+   "url": "https://www.gov.uk/government/publications/company-share-option-plan-end-of-year-return-template",
+   "path": "/government/publications/company-share-option-plan-end-of-year-return-template",
+   "date": "2026-11-02T10:34:09Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use the template or technical notes to create your own template (also known as EMI2) to tell HMRC of registered tax advantaged Company Share Option Plan (CSOP) options.",
+   "categories": [
+    "cgt"
+   ],
+   "hasBody": true,
+   "changeNote": "Added the new end of year template, guidance notes and technical notes for April 2027. ",
+   "firstPublished": "2015-03-03T00:00:00+00:00"
+  },
+  {
+   "id": "fa5068b2045935bb",
+   "title": "Employment related securities bulletin 70 (November 2026)",
+   "url": "https://www.gov.uk/guidance/employment-related-securities-bulletin-70-november-2026",
+   "path": "/guidance/employment-related-securities-bulletin-70-november-2026",
+   "date": "2026-11-02T10:33:54Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Read about accessibility improvements to the employment related securities (ERS) end of year templates, guidance and technical notes. ",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T10:33:54+00:00"
+  },
+  {
+   "id": "00e36162b2655174",
+   "title": "Five things you need to know ahead of Making Tax Digital for Income Tax quarterly deadline",
+   "url": "https://www.gov.uk/government/news/five-things-you-need-to-know-ahead-of-making-tax-digital-for-income-tax-quarterly-deadline",
+   "path": "/government/news/five-things-you-need-to-know-ahead-of-making-tax-digital-for-income-tax-quarterly-deadline",
+   "date": "2026-11-02T10:30:05Z",
+   "type": "press_release",
+   "source": "HMRC (GOV.UK)",
+   "description": "HMRC busts five common Making Tax Digital myths ahead of the 7 November quarterly update deadline.",
+   "categories": [
+    "personal",
+    "selfemployed",
+    "mtd"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T10:30:05+00:00"
+  },
+  {
+   "id": "e0e783d2b07ab8ff",
+   "title": "Tax on lump sum death benefit payments",
+   "url": "https://www.gov.uk/guidance/pension-administrators-lump-sum-death-benefit-payments",
+   "path": "/guidance/pension-administrators-lump-sum-death-benefit-payments",
+   "date": "2026-11-02T10:01:05Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to deal with lump sum death benefit payments and what tax to deduct.\r\n",
+   "categories": [
+    "paye",
+    "personal",
+    "pensions"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about what you need to provide for payments on or after 6 April 2024 has been added. ",
+   "firstPublished": "2016-04-06T00:16:00+01:00"
+  },
+  {
+   "id": "d9351b3c1b40b81b",
+   "title": "Check if you need to report cryptoasset data to HMRC",
+   "url": "https://www.gov.uk/guidance/check-if-youll-need-to-report-cryptoasset-data-to-hmrc",
+   "path": "/guidance/check-if-youll-need-to-report-cryptoasset-data-to-hmrc",
+   "date": "2026-11-02T10:00:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out whether you need to report to HMRC under the Cryptoasset Reporting Framework (CARF). ",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Removed 1 January 2027 start date for submitting reports, as the online service will not be available by this date. Removed 31 January 2027 deadline to register with the online service, as this deadline does not apply in the first year of reporting.",
+   "firstPublished": "2025-05-14T00:00:00+01:00"
+  },
+  {
+   "id": "d9c8e43626e46da2",
+   "title": "Reporting cryptoasset user and transaction data",
+   "url": "https://www.gov.uk/guidance/reporting-cryptoasset-user-and-transaction-data",
+   "path": "/guidance/reporting-cryptoasset-user-and-transaction-data",
+   "date": "2026-11-02T10:00:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out when and how to report to HMRC under the Cryptoasset Reporting Framework (CARF). ",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Added guidance about how to create your report, including a link to the 'HMRC file requirements and error messages' attachment. Removed the 1 January 2027 start date for submitting reports, as the online service will not be available from this date.\r\n",
+   "firstPublished": "2025-05-14T00:00:00+01:00",
+   "ai": {
+    "summary": "UK cryptoasset service providers must collect details of UK‑resident (or CARF‑signed) users and a summary of their transactions, create XML files using the OECD schema and HMRC requirements, and upload them by 31 May each year, with penalties for non‑compliance.",
+    "whoAffected": "Businesses and individuals in the UK that provide cryptoasset services, including SMEs, owner‑managed firms and self‑employed cryptoasset providers.",
+    "effectiveDate": "First report due by 31 May 2027 covering 1 Jan 2026‑31 Dec 2026",
+    "actions": [
+     "Identify which of your cryptoasset users are UK tax residents or from CARF‑signed countries",
+     "Gather required user details and transaction summaries for the reporting year",
+     "Create XML files using the OECD schema and HMRC file‑requirements guidance",
+     "Upload the XML report via HMRC’s online service by 31 May each year"
+    ],
+    "legislationRefs": [
+     "Cryptoasset Reporting Framework (CARF)",
+     "International Exchange of Information Manual: IEIM8000600"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T13:32:06.195Z"
+   }
+  },
+  {
+   "id": "03023a9b9cf4f062",
+   "title": "How to work out the margin and VAT due using VAT margin schemes",
+   "url": "https://www.gov.uk/guidance/how-to-work-out-the-margin-and-vat-due-using-vat-margin-schemes",
+   "path": "/guidance/how-to-work-out-the-margin-and-vat-due-using-vat-margin-schemes",
+   "date": "2026-11-02T09:30:06Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to work out the margin and VAT due and how to calculate the purchase and selling price.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T09:30:06+00:00"
+  },
+  {
+   "id": "b4162a42dbaeceb2",
+   "title": "Using the VAT margin scheme for hire-purchase and part-exchange goods",
+   "url": "https://www.gov.uk/guidance/using-the-vat-margin-scheme-for-hire-purchase-and-part-exchange-goods",
+   "path": "/guidance/using-the-vat-margin-scheme-for-hire-purchase-and-part-exchange-goods",
+   "date": "2026-11-02T09:00:03Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to account for VAT using the VAT margin scheme for hire-purchase sales and part-exchange goods.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T09:00:03+00:00"
+  },
+  {
+   "id": "280594d00bb3e5d7",
+   "title": "Check the recognised overseas pension schemes notification list",
+   "url": "https://www.gov.uk/guidance/check-the-recognised-overseas-pension-schemes-notification-list",
+   "path": "/guidance/check-the-recognised-overseas-pension-schemes-notification-list",
+   "date": "2026-11-02T09:00:03Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find schemes that have told HMRC they meet the conditions to be a recognised overseas pension scheme (ROPS).",
+   "categories": [
+    "personal",
+    "pensions"
+   ],
+   "hasBody": true,
+   "changeNote": "The recognised overseas pension schemes notification list has been updated with 24 schemes added and 6 schemes removed.",
+   "firstPublished": "2018-06-15T00:00:00+01:00"
+  },
+  {
+   "id": "8142319e50cfe0fd",
+   "title": "Recording VAT margin scheme transactions",
+   "url": "https://www.gov.uk/guidance/recording-vat-margin-scheme-transactions",
+   "path": "/guidance/recording-vat-margin-scheme-transactions",
+   "date": "2026-11-02T09:00:03Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to record margin scheme transactions if you do not make a profit on the sale of the goods and what to do if you want to change a margin scheme transaction",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T09:00:03+00:00"
+  },
+  {
+   "id": "bf545f4be5316ff1",
+   "title": "Using the VAT margin scheme for repossessed goods and goods subject to insurance claims",
+   "url": "https://www.gov.uk/guidance/using-the-vat-margin-scheme-for-repossessed-goods-and-goods-subject-to-insurance-claims",
+   "path": "/guidance/using-the-vat-margin-scheme-for-repossessed-goods-and-goods-subject-to-insurance-claims",
+   "date": "2026-11-02T09:00:03Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to account for VAT using the VAT margin scheme for repossessed goods and goods subject to insurance claims.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T09:00:03+00:00",
+   "ai": {
+    "summary": "Guidance on using the VAT margin scheme for repossessed or insurance‑claim goods, outlining when banks, finance firms and others can avoid VAT and how to calculate and record the margin.",
+    "whoAffected": "Banks, financial institutions, finance companies and other businesses that buy and sell repossessed or insurance‑claim second‑hand goods under the VAT margin scheme",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the goods were bought from a person who would not have charged VAT (e.g., a private individual)",
+     "Check the goods are sold in the same condition (or, for finance companies, that any improvements qualify) and meet margin‑scheme eligibility",
+     "Calculate the margin and VAT due using the normal margin‑scheme calculation",
+     "Keep the normal VAT margin‑scheme records and report the transactions on the VAT return"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T13:32:15.620Z"
+   }
+  },
+  {
+   "id": "2362ba249a5222bb",
+   "title": "Goods eligible for the VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/goods-eligible-for-the-vat-margin-scheme",
+   "path": "/guidance/goods-eligible-for-the-vat-margin-scheme",
+   "date": "2026-11-02T09:00:03Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "What goods are eligible and not eligible for the scheme and what purchase conditions apply.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T09:00:03+00:00"
+  },
+  {
+   "id": "a7f5366f68673308",
+   "title": "Accounting for VAT on bad debts when using the VAT margin scheme if you’re a seller",
+   "url": "https://www.gov.uk/guidance/accounting-for-vat-on-bad-debts-when-using-the-vat-margin-scheme-if-youre-a-seller",
+   "path": "/guidance/accounting-for-vat-on-bad-debts-when-using-the-vat-margin-scheme-if-youre-a-seller",
+   "date": "2026-11-02T09:00:03Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to account for VAT on bad debts when using the VAT margin scheme.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T09:00:03+00:00"
+  },
+  {
+   "id": "2dbaed53bc78ab58",
+   "title": "Buying or selling joint purchases and shares using the VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/buying-or-selling-joint-purchases-and-shares-using-the-vat-margin-scheme",
+   "path": "/guidance/buying-or-selling-joint-purchases-and-shares-using-the-vat-margin-scheme",
+   "date": "2026-11-02T09:00:03Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to use the margin scheme to account for VAT on joint purchases and shares.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T09:00:03+00:00"
+  },
+  {
+   "id": "72b9b8fa06c7b481",
+   "title": "Using a VAT margin scheme if you’re an agent",
+   "url": "https://www.gov.uk/guidance/using-a-vat-margin-scheme-if-youre-an-agent",
+   "path": "/guidance/using-a-vat-margin-scheme-if-youre-an-agent",
+   "date": "2026-11-02T09:00:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to account for VAT using the VAT margin scheme if you are an agent, or a seller using an agent. ",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance from withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been added.",
+   "firstPublished": "2021-12-23T00:00:00+00:00"
+  },
+  {
+   "id": "402fa2716d7c9e3d",
+   "title": "Buying and selling horses and ponies using the British Equestrian Trade Association form",
+   "url": "https://www.gov.uk/guidance/buying-and-selling-horses-and-ponies-using-the-british-equestrian-trade-association-form",
+   "path": "/guidance/buying-and-selling-horses-and-ponies-using-the-british-equestrian-trade-association-form",
+   "date": "2026-11-02T09:00:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to use the British Equestrian Trade Association (BETA) form when buying and selling horses and ponies.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T09:00:02+00:00"
+  },
+  {
+   "id": "8783e867a90ea6b1",
+   "title": "Exporting goods using the VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/exporting-goods-using-the-vat-margin-scheme",
+   "path": "/guidance/exporting-goods-using-the-vat-margin-scheme",
+   "date": "2026-11-02T09:00:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how to account for VAT on margin scheme goods that are exported outside the UK.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T09:00:02+00:00",
+   "ai": {
+    "summary": "Exports under the VAT margin scheme are zero‑rated before 1 May 2023 if export conditions are met; from that date the zero‑rating is removed and VAT must be charged on the margin, with normal records kept and shown on the VAT return.",
+    "whoAffected": "Businesses that export goods using the VAT margin scheme, including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "1 May 2023",
+    "actions": [
+     "Determine whether each export occurred before or on/after 1 May 2023",
+     "If before 1 May 2023, confirm export conditions are met and record ‘nil’ VAT in the stock book",
+     "If on/after 1 May 2023, calculate VAT on the margin at the appropriate rate and include it on the VAT return",
+     "Maintain the normal VAT margin scheme records and ensure all margin‑scheme goods are shown on the VAT return"
+    ],
+    "legislationRefs": [
+     "Goods exported from the UK (VAT Notice 703)",
+     "Notice 703"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T13:32:26.523Z"
+   }
+  },
+  {
+   "id": "a49ea48998fd4bce",
+   "title": "Buying goods as a transfer of going concern or assignments of rights using the VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/buying-goods-as-a-transfer-of-going-concern-or-assignments-of-rights-using-the-vat-margin-scheme",
+   "path": "/guidance/buying-goods-as-a-transfer-of-going-concern-or-assignments-of-rights-using-the-vat-margin-scheme",
+   "date": "2026-11-02T09:00:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to use the margin scheme to account for VAT on transfers of going concerns and assignments of rights.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T09:00:02+00:00"
+  },
+  {
+   "id": "38aec13e8e52ca23",
+   "title": "Using the VAT margin scheme for linked insurance products and warranties",
+   "url": "https://www.gov.uk/guidance/using-the-vat-margin-scheme-for-linked-insurance-products-and-warranties",
+   "path": "/guidance/using-the-vat-margin-scheme-for-linked-insurance-products-and-warranties",
+   "date": "2026-11-02T09:00:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to account for VAT on linked insurance products and warranties.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T09:00:02+00:00"
+  },
+  {
+   "id": "2700630bd0b2727b",
+   "title": "Buying and selling goods in Northern Ireland using the VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/buying-and-selling-goods-in-northern-ireland-using-the-vat-margin-scheme",
+   "path": "/guidance/buying-and-selling-goods-in-northern-ireland-using-the-vat-margin-scheme",
+   "date": "2026-11-02T09:00:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "If you buy and sell goods between Northern Ireland and the EU or between Great Britain and Northern Ireland check how to use the VAT margin scheme (VAT Notice 718).",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance from withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been added.",
+   "firstPublished": "2021-12-23T00:00:00+00:00"
+  },
+  {
+   "id": "b3cc68e3b5dfebb4",
+   "title": "Buying and selling goods at auction using the VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/buying-and-selling-goods-at-auction-using-the-vat-margin-scheme",
+   "path": "/guidance/buying-and-selling-goods-at-auction-using-the-vat-margin-scheme",
+   "date": "2026-11-02T09:00:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to account for VAT using the VAT margin scheme when buying or selling second-hand goods at auctions.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T09:00:02+00:00",
+   "ai": {
+    "summary": "Guidance on using the VAT margin scheme for buying and selling second‑hand goods at auction, covering eligibility, purchase and selling price calculations, handling of service charges, indemnity fees, record‑keeping and VAT return reporting.",
+    "whoAffected": "Businesses that buy and sell second‑hand goods at auction, including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "2026-11-02",
+    "actions": [
+     "Check goods are eligible for the margin scheme using the auctioneer’s sales catalogue",
+     "Calculate the purchase price as hammer price plus service charges (excluding any VAT‑charged fees) and record it in the stock book",
+     "Exclude indemnity fees from the purchase price and treat any separately invoiced VAT‑charged services as normal VAT recoverable",
+     "Identify the correct selling price per the auctioneer’s scheme, work out the margin and VAT due, keep required records and report the transaction on the VAT return"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T13:32:34.256Z"
+   }
+  },
+  {
+   "id": "477bee5faab8d927",
+   "title": "Buying and selling houseboats and caravans using the VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/buying-and-selling-houseboats-and-caravans-using-the-vat-margin-scheme",
+   "path": "/guidance/buying-and-selling-houseboats-and-caravans-using-the-vat-margin-scheme",
+   "date": "2026-11-02T09:00:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "If you sell second-hand houseboats or caravans in the UK, find out how to use a margin scheme to account for VAT.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance from withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been added.",
+   "firstPublished": "2021-12-23T00:00:00+00:00"
+  },
+  {
+   "id": "1d626e7926601043",
+   "title": "Using the auctioneers' VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/using-the-auctioneers-vat-margin-scheme",
+   "path": "/guidance/using-the-auctioneers-vat-margin-scheme",
+   "date": "2026-11-02T09:00:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to account for VAT using the auctioneers’ scheme.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance from the withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been incorporated into this guidance.",
+   "firstPublished": "2021-12-23T13:28:00+00:00"
+  },
+  {
+   "id": "d974747b4630ba11",
+   "title": "Selling unredeemed pawns if you use a VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/selling-unredeemed-pawns-if-you-use-a-vat-margin-scheme",
+   "path": "/guidance/selling-unredeemed-pawns-if-you-use-a-vat-margin-scheme",
+   "date": "2026-11-02T09:00:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to use the margin scheme to account for VAT when selling unredeemed pawns.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance from withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been added.",
+   "firstPublished": "2021-12-23T00:00:00+00:00"
+  },
+  {
+   "id": "660612c530ca4cca",
+   "title": "Buying and selling horses and ponies using the VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/buying-and-selling-horses-and-ponies-using-the-vat-margin-scheme",
+   "path": "/guidance/buying-and-selling-horses-and-ponies-using-the-vat-margin-scheme",
+   "date": "2026-11-02T09:00:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to use the margin scheme when buying and selling horses and ponies.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance from withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been added.",
+   "firstPublished": "2021-12-23T00:00:00+00:00"
+  },
+  {
+   "id": "3c03c14e433dbffd",
+   "title": "Using the global accounting VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/using-the-global-accounting-vat-margin-scheme",
+   "path": "/guidance/using-the-global-accounting-vat-margin-scheme",
+   "date": "2026-11-02T09:00:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to account for VAT using the global accounting scheme.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance from withdrawn VAT notices, The Margin and Global Accounting Scheme (VAT Notice 718) and The Margin Scheme on second-hand cars and other vehicles (VAT Notice 718/1), has been added.",
+   "firstPublished": "2021-12-23T00:00:00+00:00"
+  },
+  {
+   "id": "ced372f13fe717b2",
+   "title": "Buying and selling second-hand motor vehicles using the VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/buying-and-selling-second-hand-motor-vehicles-using-the-vat-margin-scheme",
+   "path": "/guidance/buying-and-selling-second-hand-motor-vehicles-using-the-vat-margin-scheme",
+   "date": "2026-11-02T09:00:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to use a margin scheme to account for VAT if you sell second-hand vehicles.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance from withdrawn VAT notices, The Margin and Global Accounting Scheme (VAT Notice 718) and The Margin Scheme on second-hand cars and other vehicles (VAT Notice 718/1), has been added.",
+   "firstPublished": "2021-12-23T13:28:00+00:00"
+  },
   {
    "id": "b7472518fb00f600",
    "title": "How to move parcels from Great Britain to Northern Ireland for express operators",
@@ -2457,22 +3151,6 @@
    "firstPublished": "2026-10-28T17:35:00+00:00"
   },
   {
-   "id": "19c6009c6e5c2d6c",
-   "title": "Company director disqualification following breach of HMRC securities legislation ",
-   "url": "https://www.gov.uk/government/publications/company-director-disqualification-following-breach-of-hmrc-securities-legislation",
-   "path": "/government/publications/company-director-disqualification-following-breach-of-hmrc-securities-legislation",
-   "date": "2026-10-28T17:35:00Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This tax information and impact note explains changes that allow courts to consider director disqualification following a conviction for an offence under HMRC securities legislation.",
-   "categories": [
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:00+00:00"
-  },
-  {
    "id": "770242d5da9c46e1",
    "title": "Income Tax: increasing the trading allowance",
    "url": "https://www.gov.uk/government/publications/income-tax-increasing-the-trading-allowance",
@@ -2549,6 +3227,22 @@
    "description": "This measure is about a change that maintains the existing treatment of finance leaseback arrangements following changes to accounting standards.",
    "categories": [
     "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:00+00:00"
+  },
+  {
+   "id": "19c6009c6e5c2d6c",
+   "title": "Company director disqualification following breach of HMRC securities legislation ",
+   "url": "https://www.gov.uk/government/publications/company-director-disqualification-following-breach-of-hmrc-securities-legislation",
+   "path": "/government/publications/company-director-disqualification-following-breach-of-hmrc-securities-legislation",
+   "date": "2026-10-28T17:35:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note explains changes that allow courts to consider director disqualification following a conviction for an offence under HMRC securities legislation.",
+   "categories": [
+    "budget"
    ],
    "hasBody": true,
    "changeNote": "First published.",
@@ -4985,38 +5679,6 @@
     "relevance": "medium",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-15T16:58:10.365Z"
-   }
-  },
-  {
-   "id": "280594d00bb3e5d7",
-   "title": "Check the recognised overseas pension schemes notification list",
-   "url": "https://www.gov.uk/guidance/check-the-recognised-overseas-pension-schemes-notification-list",
-   "path": "/guidance/check-the-recognised-overseas-pension-schemes-notification-list",
-   "date": "2026-10-15T08:00:02Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find schemes that have told HMRC they meet the conditions to be a recognised overseas pension scheme (ROPS).",
-   "categories": [
-    "personal",
-    "pensions"
-   ],
-   "hasBody": true,
-   "changeNote": "The recognised overseas pension schemes notification list has been updated with 25 schemes added, 17 schemes removed and one scheme amended.",
-   "firstPublished": "2018-06-15T00:00:00+01:00",
-   "ai": {
-    "summary": "The ROPS list, updated twice monthly, shows schemes claiming recognised overseas pension status, but HMRC does not guarantee tax‑free transfers. Advisors must verify tax liability and monitor list changes before any pension move.",
-    "whoAffected": "SME owners, self‑employed individuals and their advisers considering overseas pension transfers",
-    "effectiveDate": "Published on the 1st and 15th of each month (or the next working day if a weekend or UK public holiday)",
-    "actions": [
-     "Check the latest ROPS notification list before advising any overseas pension transfer",
-     "Confirm the tax treatment of the transfer with HMRC or a qualified financial adviser",
-     "Monitor the list for short‑notice removals or amendments up to the transfer date",
-     "Maintain documentation in case HMRC pursues tax charges, interest or penalties"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-15T09:56:49.546Z"
    }
   },
   {
