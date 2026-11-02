@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-02T13:32:40.501Z",
+ "generatedAt": "2026-11-02T21:42:49.770Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -74,6 +74,38 @@
  ],
  "count": 553,
  "items": [
+  {
+   "id": "89234ab4a254c6f0",
+   "title": "List of Authorised Corporate Service Providers (ACSPs)",
+   "url": "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps",
+   "path": "/government/publications/list-of-authorised-corporate-service-providers-acsps",
+   "date": "2026-11-02T16:08:59Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "This list includes details of businesses and sole traders that have registered as an Authorised Corporate Service Provider (ACSP). This is also known as an authorised agent.",
+   "categories": [
+    "reporting",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated list of ACSPs.",
+   "firstPublished": "2025-10-31T00:00:00+00:00",
+   "ai": {
+    "summary": "ACSPs are agents like accountants or solicitors registered with Companies House to act for clients. They must be supervised by a UK AML supervisory body. Lists of ACSPs may be incomplete, and ceased or suspended agents cannot act. Companies House does not endorse agents; clients should research reputation, services, fees and identity‑verification guidance.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who use agents to file or complete Companies House activities",
+    "effectiveDate": "2026-11-02",
+    "actions": [
+     "Check the ceased and suspended ACSP list before recommending an agent",
+     "Confirm the ACSP is supervised by a UK AML supervisory body",
+     "Conduct due‑diligence on the agent’s reputation, services, fees and terms",
+     "Advise clients to read Companies House guidance on using an ACSP for identity verification"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T21:41:48.458Z"
+   }
+  },
   {
    "id": "b4705b408391d269",
    "title": "Hundreds of employers handed penalties for illegally underpaying workers",
@@ -279,7 +311,22 @@
    ],
    "hasBody": true,
    "changeNote": "Added the new end of year template, guidance notes and technical notes for April 2027. ",
-   "firstPublished": "2015-03-03T00:00:00+00:00"
+   "firstPublished": "2015-03-03T00:00:00+00:00",
+   "ai": {
+    "summary": "Employers with a tax‑advantaged Company Share Option Plan must use the correct end‑of‑year return template (HMRC’s or a self‑made one based on technical notes), follow the guidance notes, ensure the template matches the tax year, and check for formatting errors to avoid submission delays.",
+    "whoAffected": "Employers that run a CSOP and their tax advisers (including SME and owner‑managed business advisors)",
+    "effectiveDate": "April 2027",
+    "actions": [
+     "Confirm the tax year and select the matching CSOP end‑of‑year template",
+     "Use HMRC’s template or create your own using the technical notes",
+     "Follow the guidance notes to complete each section of the template",
+     "Check the completed file for formatting errors before submitting"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T21:41:51.176Z"
+   }
   },
   {
    "id": "fa5068b2045935bb",
@@ -295,7 +342,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-02T10:33:54+00:00"
+   "firstPublished": "2026-11-02T10:33:54+00:00",
+   "ai": {
+    "summary": "HMRC will replace current ERS end‑of‑year return templates with new accessible versions on 6 April 2027. Both old and new versions are available until then, after which only the new templates may be used and older ones will be rejected.",
+    "whoAffected": "Employers submitting ERS returns, including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "6 April 2027",
+    "actions": [
+     "Download the new ERS templates published on 2 Nov 2026 and replace old files in client records",
+     "Update client processes to match new template headings, case, date formats and avoid abbreviations before 6 April 2027",
+     "Use the ERS checking service after 1 Feb 2027 to validate the new templates",
+     "Train staff on the accessibility changes (simplified titles, table format, Arial 12, etc.) and ensure old templates are not used after the deadline"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T21:41:54.318Z"
+   }
   },
   {
    "id": "00e36162b2655174",
@@ -313,7 +375,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-02T10:30:05+00:00"
+   "firstPublished": "2026-11-02T10:30:05+00:00",
+   "ai": {
+    "summary": "Sole traders and landlords earning over £50k must submit their second MTD Income Tax quarterly update by 7 Nov 2026; updates are summaries, not tax returns, can be sent via any HMRC‑recognised software, corrections roll into the next update, and support is available via the Self Assessment helpline.",
+    "whoAffected": "Sole traders and landlords earning more than £50,000 (subject to Making Tax Digital for Income Tax)",
+    "effectiveDate": "Second quarterly update deadline: 7 Nov 2026 (mandatory MTD from 6 Apr 2026)",
+    "actions": [
+     "Confirm clients >£50k are using HMRC‑recognised MTD software and have completed the first update",
+     "Remind clients to submit their second quarterly update by 7 Nov 2026, preferably early",
+     "Tell clients they can correct errors in their software; the correction will appear in the next update – no need to resend",
+     "Provide Self Assessment helpline details (0300 200 3310) for support on the deadline day"
+    ],
+    "legislationRefs": [
+     "MTD for Income Tax"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T21:41:57.878Z"
+   }
   },
   {
    "id": "e0e783d2b07ab8ff",
@@ -331,7 +410,27 @@
    ],
    "hasBody": true,
    "changeNote": "Information about what you need to provide for payments on or after 6 April 2024 has been added. ",
-   "firstPublished": "2016-04-06T00:16:00+01:00"
+   "firstPublished": "2016-04-06T00:16:00+01:00",
+   "ai": {
+    "summary": "Lump sum death benefits paid after a member’s death are taxable if the person was 75 or over. Tax must be deducted via PAYE, emergency tax code or the special lump sum death benefits charge depending on the recipient, and administrators must supply specific payment details to personal representatives within three months.",
+    "whoAffected": "Pension scheme administrators, personal representatives, beneficiaries, trustees, directors, partners and limited liability partnership members receiving lump sum death benefits",
+    "effectiveDate": "6 April 2024",
+    "actions": [
+     "Identify the type of lump sum and whether the member/beneficiary was 75 or over",
+     "Deduct tax using the emergency tax code for individuals or the special lump sum death benefits charge for non‑individuals or trustees etc.",
+     "Provide the required payment details (amount, date and allowance used) to the personal representative within 3 months of the final payment",
+     "If the special charge is applied, complete the Accounting for Tax (AFT) Return"
+    ],
+    "legislationRefs": [
+     "special lump sum death benefits charge",
+     "PAYE",
+     "Accounting for Tax (AFT) Return",
+     "Pension Tax Manual"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T21:42:01.229Z"
+   }
   },
   {
    "id": "d9351b3c1b40b81b",
@@ -347,7 +446,27 @@
    ],
    "hasBody": true,
    "changeNote": "Removed 1 January 2027 start date for submitting reports, as the online service will not be available by this date. Removed 31 January 2027 deadline to register with the online service, as this deadline does not apply in the first year of reporting.",
-   "firstPublished": "2025-05-14T00:00:00+01:00"
+   "firstPublished": "2025-05-14T00:00:00+01:00",
+   "ai": {
+    "summary": "UK cryptoasset service providers must collect user and transaction data and report it to HMRC under the Cryptoasset Reporting Framework. Reporting applies to any UK‑based business that transacts cryptoassets or enables users to do so.",
+    "whoAffected": "UK‑based reporting cryptoasset service providers (RCASPs) – businesses that transact cryptoassets on behalf of users or provide a means for users to transact cryptoassets.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Determine if the client qualifies as an RCASP by reviewing its cryptoasset activities",
+     "Confirm UK‑based status using tax residence, incorporation, management or UK branch criteria",
+     "Implement data‑collection processes for user and transaction information and notify users of reporting obligations",
+     "Register with HMRC’s online reporting service when available and submit required reports"
+    ],
+    "legislationRefs": [
+     "International Exchange of Information Manual: IEIM8000100",
+     "International Exchange of Information Manual: IEIM8000200",
+     "International Exchange of Information Manual: IEIM8000300",
+     "International Exchange of Information Manual: IEIM8000600"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T21:42:04.746Z"
+   }
   },
   {
    "id": "d9c8e43626e46da2",
@@ -446,7 +565,32 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-02T09:00:03+00:00"
+   "firstPublished": "2026-11-02T09:00:03+00:00",
+   "ai": {
+    "summary": "Keep standard VAT records and add specific margin‑scheme entries. Record nil margin when purchase price meets or exceeds sale price. To move a sale out of the scheme, cancel the original entry, cross‑reference and issue a replacement invoice showing the cancellation. Report all margin‑scheme goods on the VAT return and register as a high‑value dealer for cash sales of €10,000 or more.",
+    "whoAffected": "Businesses using the VAT margin scheme, including SMEs, owner‑managed firms and self‑employed traders dealing in second‑hand or high‑value goods",
+    "effectiveDate": "2026-11-02",
+    "actions": [
+     "Maintain normal VAT records plus the required margin‑scheme specific records",
+     "If purchase price ≥ selling price, record margin and VAT as ‘nil’ in the stock book",
+     "When a buyer opts out, cancel the original entry, cross‑refer and issue a replacement invoice that notes the cancellation and instructs the buyer to amend their VAT account",
+     "Show all margin‑scheme purchases and sales on the VAT return and register as a high‑value dealer for cash sales of €10,000 or more"
+    ],
+    "legislationRefs": [
+     "section 19 of VAT Notice 700",
+     "Section 2 – stock book requirements",
+     "Section 3 – stock number",
+     "Section 4 – sales invoice requirements",
+     "Section 5 – self-billed invoices requirements",
+     "Section 6 – global accounting",
+     "Section 7 – pawned goods",
+     "Section 8 – occasional sales",
+     "Section 9 – sale or return"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T21:42:12.628Z"
+   }
   },
   {
    "id": "bf545f4be5316ff1",
@@ -607,7 +751,25 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-02T09:00:02+00:00"
+   "firstPublished": "2026-11-02T09:00:02+00:00",
+   "ai": {
+    "summary": "When buying goods via a transfer of a going concern or assignment of rights, VAT isn’t charged on the transfer, but you can only use the margin scheme if the seller was entitled to it and you have the necessary records.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed persons acquiring a business or assets through a transfer of a going concern or assignment of rights and wishing to use the VAT margin scheme.",
+    "effectiveDate": "2026-11-02",
+    "actions": [
+     "Check whether the seller was using the VAT margin scheme before the transfer.",
+     "Obtain all purchase invoices and related records; arrange transfer of VAT records from the seller if required (HMRC permission may be needed).",
+     "Identify the original purchase price from the invoices to confirm the goods are eligible for the margin scheme.",
+     "Calculate the margin and VAT due using the normal margin‑scheme method and report the transaction on the VAT return."
+    ],
+    "legislationRefs": [
+     "VAT act",
+     "VAT margin scheme"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T21:42:23.349Z"
+   }
   },
   {
    "id": "38aec13e8e52ca23",
@@ -2480,7 +2642,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:36:02+00:00"
+   "firstPublished": "2026-10-28T17:36:02+00:00",
+   "ai": {
+    "summary": "Corporation Tax exemption on investment life insurance payouts only applies if the contract is held for a purpose unrelated to the company’s trade.",
+    "whoAffected": "Companies (including SMEs, owner‑managed businesses and the self‑employed) that hold investment life insurance contracts and are not life‑insurance companies",
+    "effectiveDate": "Accounting periods beginning on or after 1 January 2027",
+    "actions": [
+     "Review each investment life insurance contract to confirm it is held for a non‑trade purpose",
+     "If a contract is held for trade purposes, consider restructuring or disposing of it",
+     "Adjust corporation tax calculations to claim the partial exemption where the purpose test is met",
+     "Maintain documentation showing the purpose of each contract for HMRC compliance"
+    ],
+    "legislationRefs": [
+     "Budget 2026"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T21:42:39.785Z"
+   }
   },
   {
    "id": "dfa0b7b0c25fe0de",
@@ -2975,37 +3154,6 @@
    }
   },
   {
-   "id": "6c90333c9c120070",
-   "title": "Stamp Duty Land Tax — changes to group relief",
-   "url": "https://www.gov.uk/government/publications/stamp-duty-land-tax-changes-to-group-relief",
-   "path": "/government/publications/stamp-duty-land-tax-changes-to-group-relief",
-   "date": "2026-10-28T17:35:16Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This measure is about changes to Stamp Duty Land Tax (SDLT) where group relief has been claimed on a purchase of land or property.",
-   "categories": [
-    "corptax"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:16+00:00",
-   "ai": {
-    "summary": "A change of control test is added to SDLT group relief; if a company that claimed group relief later uses the winding‑up exception and its control changes within 3 years, relief is withdrawn and extra SDLT charged.",
-    "whoAffected": "Companies that have claimed SDLT group relief on land or property purchases and may later de‑group or experience a change of control, including SME owner‑managed groups.",
-    "effectiveDate": "on or after 29 October 2026",
-    "actions": [
-     "Review client transactions where group relief was claimed to spot any pending control changes within three years",
-     "Advise clients to manage or avoid ownership/control changes that could trigger the new test",
-     "Calculate potential additional SDLT if the winding‑up exception applies after a control change",
-     "Update client tax planning and documentation to reflect the withdrawal of group relief under the new rule"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-30T11:25:44.478Z"
-   }
-  },
-  {
    "id": "2092432535d3a2c5",
    "title": "Changes to the Seed Enterprise Investment Scheme, Enterprise Investment Scheme and Venture Capital Trusts",
    "url": "https://www.gov.uk/government/publications/changes-to-the-seed-enterprise-investment-scheme-enterprise-investment-scheme-and-venture-capital-trusts",
@@ -3036,22 +3184,6 @@
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-30T18:04:48.440Z"
    }
-  },
-  {
-   "id": "7404cc60533fc0fe",
-   "title": "Inheritance Tax: preventing unintended deductions for liabilities in trust arrangements",
-   "url": "https://www.gov.uk/government/publications/inheritance-tax-preventing-unintended-deductions-for-liabilities-in-trust-arrangements",
-   "path": "/government/publications/inheritance-tax-preventing-unintended-deductions-for-liabilities-in-trust-arrangements",
-   "date": "2026-10-28T17:35:03Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This measure will amend the Inheritance Tax rules on liabilities relating to settled property to make sure they operate as intended and provide greater certainty about how liabilities are taken into account for Inheritance Tax purposes.",
-   "categories": [
-    "iht"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:03+00:00"
   },
   {
    "id": "56fae08cca880c25",
@@ -3131,7 +3263,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:00+00:00"
+   "firstPublished": "2026-10-28T17:35:00+00:00",
+   "ai": {
+    "summary": "A new VAT zero rate applies to medicines donated to the NHS, used in clinical trials, or for continued treatment after trial participation, including imports, effective 23 June 2026.",
+    "whoAffected": "Businesses that donate medicines, pharmaceutical suppliers and importers who give medicines to the NHS, for clinical trials, or for post‑trial patient treatment",
+    "effectiveDate": "23 June 2026",
+    "actions": [
+     "Check if any client supplies or donates medicines that meet the qualifying purposes",
+     "Apply the zero‑rate to VAT accounting for those qualifying donations and imports",
+     "Maintain documentation showing the donation purpose and recipient",
+     "Update VAT returns from 23 June 2026 to reflect the zero‑rate"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T21:42:42.526Z"
+   }
   },
   {
    "id": "40eb34abc22ee277",
@@ -3149,6 +3296,37 @@
    "hasBody": true,
    "changeNote": "First published.",
    "firstPublished": "2026-10-28T17:35:00+00:00"
+  },
+  {
+   "id": "7404cc60533fc0fe",
+   "title": "Inheritance Tax: preventing unintended deductions for liabilities in trust arrangements",
+   "url": "https://www.gov.uk/government/publications/inheritance-tax-preventing-unintended-deductions-for-liabilities-in-trust-arrangements",
+   "path": "/government/publications/inheritance-tax-preventing-unintended-deductions-for-liabilities-in-trust-arrangements",
+   "date": "2026-10-28T17:35:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure will amend the Inheritance Tax rules on liabilities relating to settled property to make sure they operate as intended and provide greater certainty about how liabilities are taken into account for Inheritance Tax purposes.",
+   "categories": [
+    "iht"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:00+00:00",
+   "ai": {
+    "summary": "The measure stops avoidance‑related liabilities from lowering Inheritance Tax and adds clear rules on how trustees’ legitimate liabilities are counted when valuing settled property for IHT, ensuring consistent application and certainty.",
+    "whoAffected": "Trustees and taxpayers with settled property trusts (including owners of SME family trusts)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify any liabilities from avoidance arrangements in client trusts and ensure they are not claimed to reduce IHT",
+     "Review how trustees' properly incurred liabilities are currently reflected in IHT valuations",
+     "Adjust trust valuation calculations to incorporate the new liability rules",
+     "Inform clients of the changes to ensure compliance and certainty"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T21:42:46.736Z"
+   }
   },
   {
    "id": "770242d5da9c46e1",
@@ -3184,6 +3362,54 @@
    }
   },
   {
+   "id": "aaf81cfd5ab654f8",
+   "title": "Updating the tax treatment of certain lease and leaseback arrangements",
+   "url": "https://www.gov.uk/government/publications/updating-the-tax-treatment-of-certain-lease-and-leaseback-arrangements",
+   "path": "/government/publications/updating-the-tax-treatment-of-certain-lease-and-leaseback-arrangements",
+   "date": "2026-10-28T17:35:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure is about a change that maintains the existing treatment of finance leaseback arrangements following changes to accounting standards.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:00+00:00"
+  },
+  {
+   "id": "6c90333c9c120070",
+   "title": "Stamp Duty Land Tax — changes to group relief",
+   "url": "https://www.gov.uk/government/publications/stamp-duty-land-tax-changes-to-group-relief",
+   "path": "/government/publications/stamp-duty-land-tax-changes-to-group-relief",
+   "date": "2026-10-28T17:35:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure is about changes to Stamp Duty Land Tax (SDLT) where group relief has been claimed on a purchase of land or property.",
+   "categories": [
+    "corptax"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:00+00:00"
+  },
+  {
+   "id": "19c6009c6e5c2d6c",
+   "title": "Company director disqualification following breach of HMRC securities legislation ",
+   "url": "https://www.gov.uk/government/publications/company-director-disqualification-following-breach-of-hmrc-securities-legislation",
+   "path": "/government/publications/company-director-disqualification-following-breach-of-hmrc-securities-legislation",
+   "date": "2026-10-28T17:35:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note explains changes that allow courts to consider director disqualification following a conviction for an offence under HMRC securities legislation.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:00+00:00"
+  },
+  {
    "id": "7a099516e267440a",
    "title": "Stamp Duty Land Tax: assured tenancies",
    "url": "https://www.gov.uk/government/publications/stamp-duty-land-tax-assured-tenancies",
@@ -3215,38 +3441,6 @@
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-31T10:57:17.493Z"
    }
-  },
-  {
-   "id": "aaf81cfd5ab654f8",
-   "title": "Updating the tax treatment of certain lease and leaseback arrangements",
-   "url": "https://www.gov.uk/government/publications/updating-the-tax-treatment-of-certain-lease-and-leaseback-arrangements",
-   "path": "/government/publications/updating-the-tax-treatment-of-certain-lease-and-leaseback-arrangements",
-   "date": "2026-10-28T17:35:00Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This measure is about a change that maintains the existing treatment of finance leaseback arrangements following changes to accounting standards.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:00+00:00"
-  },
-  {
-   "id": "19c6009c6e5c2d6c",
-   "title": "Company director disqualification following breach of HMRC securities legislation ",
-   "url": "https://www.gov.uk/government/publications/company-director-disqualification-following-breach-of-hmrc-securities-legislation",
-   "path": "/government/publications/company-director-disqualification-following-breach-of-hmrc-securities-legislation",
-   "date": "2026-10-28T17:35:00Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This tax information and impact note explains changes that allow courts to consider director disqualification following a conviction for an offence under HMRC securities legislation.",
-   "categories": [
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:00+00:00"
   },
   {
    "id": "1d203f0c004f3b01",
@@ -4559,38 +4753,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-26T11:09:01.811Z"
-   }
-  },
-  {
-   "id": "89234ab4a254c6f0",
-   "title": "List of Authorised Corporate Service Providers (ACSPs)",
-   "url": "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps",
-   "path": "/government/publications/list-of-authorised-corporate-service-providers-acsps",
-   "date": "2026-10-23T14:52:28Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "This list includes details of businesses and sole traders that have registered as an Authorised Corporate Service Provider (ACSP). This is also known as an authorised agent.",
-   "categories": [
-    "reporting",
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated ACSP list. ",
-   "firstPublished": "2025-10-31T00:00:00+00:00",
-   "ai": {
-    "summary": "ACSPs are agents like accountants or solicitors registered with Companies House to act for clients. They must be supervised by a UK AML supervisory body and must not appear on the ceased or suspended list. Companies House does not endorse them; clients should research reputation, services, fees and terms.",
-    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who use accountants, solicitors or other agents to file or complete Companies House activities",
-    "effectiveDate": "2026-10-23",
-    "actions": [
-     "Check the ACSP against the ceased and suspended list before recommending them",
-     "Confirm the ACSP is supervised by a UK AML supervisory body",
-     "Advise clients to research the agent's reputation, services, fees and terms",
-     "Direct clients to the Companies House guidance on using an ACSP to verify identity"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-23T17:03:53.051Z"
    }
   },
   {
