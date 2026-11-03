@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-03T12:49:42.570Z",
+ "generatedAt": "2026-11-03T19:30:10.014Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,75 @@
    "label": "Other"
   }
  ],
- "count": 557,
+ "count": 559,
  "items": [
+  {
+   "id": "294ab79b7c1ca41e",
+   "title": "Sign in to your HMRC business tax account",
+   "url": "https://www.gov.uk/guidance/sign-in-to-your-hmrc-business-tax-account",
+   "path": "/guidance/sign-in-to-your-hmrc-business-tax-account",
+   "date": "2026-11-03T13:43:47Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "If you manage one or more business taxes online, sign in to your business tax account to view your tax position and manage all your taxes from one place.",
+   "categories": [
+    "paye",
+    "personal",
+    "corptax",
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Senior Accounting Officer (SAO) has been added to the list of services you can use from the business tax account.",
+   "firstPublished": "2020-09-28T00:00:00+01:00",
+   "ai": {
+    "summary": "The HMRC business tax account lets individuals, sole traders, partnerships and limited companies view and manage over 40 taxes, make returns, add/remove taxes, give team access, and update details from one portal.",
+    "whoAffected": "Individuals, sole traders, partnerships, limited companies and their authorised team members or agents who manage any UK business taxes online.",
+    "effectiveDate": "2026-11-03",
+    "actions": [
+     "Confirm clients have the sign‑in details used when they first registered a business tax online",
+     "Register any client who has not yet enrolled for a business tax online to enable account access",
+     "Use the account to add or remove taxes, set up paperless notifications and update contact details as needed",
+     "Grant appropriate team‑member or agent access to specific taxes or schemes through the account"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T19:29:07.728Z"
+   }
+  },
+  {
+   "id": "2c93d2137f4fd93b",
+   "title": "Child Trust Fund injustice to end under Government plans",
+   "url": "https://www.gov.uk/government/news/child-trust-fund-injustice-to-end-under-government-plans",
+   "path": "/government/news/child-trust-fund-injustice-to-end-under-government-plans",
+   "date": "2026-11-03T13:00:11Z",
+   "type": "press_release",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "Young people lacking the mental capacity to make financial decisions will finally have easier access to their Child Trust Funds.",
+   "categories": [
+    "iht"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-03T13:00:11+00:00",
+   "ai": {
+    "summary": "New legislation will let parents and carers directly access Child Trust Funds for young adults who lack mental capacity, removing the need for Court of Protection and simplifying the process for up to 126,000 people.",
+    "whoAffected": "Young adults lacking mental capacity to make financial decisions (estimated 63,000‑126,000) and their parents, carers and families",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients who hold a Child Trust Fund and lack mental capacity",
+     "Explain the forthcoming simpler access route and what evidence may be needed",
+     "Prepare or review paperwork for direct submission to CTF providers once secondary legislation is issued",
+     "Track the amendment to the Financial Services and Markets Bill and inform clients of any changes"
+    ],
+    "legislationRefs": [
+     "Financial Services and Markets Bill"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T19:29:11.596Z"
+   }
+  },
   {
    "id": "314e8641a76d7668",
    "title": "Better use of new and improved third-party data (interest income and card sales)",
@@ -747,7 +814,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-02T09:00:03+00:00"
+   "firstPublished": "2026-11-02T09:00:03+00:00",
+   "ai": {
+    "summary": "Guidance on VAT margin scheme for hire‑purchase and part‑exchange: record sales price in stock book, keep or reference hire‑purchase agreements, don’t show VAT on finance charges, and include part‑exchange values in margin calculations.",
+    "whoAffected": "Businesses that arrange hire‑purchase agreements or accept part‑exchange goods under the VAT margin scheme, including SMEs, owner‑managed firms and the self‑employed.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Record the hire‑purchase sales price in your margin‑scheme stock book and ensure finance charges are itemised separately with no VAT shown",
+     "Attach a copy of the hire‑purchase agreement to the customer invoice or cross‑reference it, and keep required documents if the agreement is held by the finance company",
+     "Do not show VAT on the hire‑purchase agreement or the customer’s sales invoice; treat finance charges as VAT‑free",
+     "When accepting part‑exchange, include the agreed part‑exchange value in the selling price, record the correct purchase price in the stock book, and obtain a purchase invoice if the goods come from a VAT‑registered dealer"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T19:29:15.231Z"
+   }
   },
   {
    "id": "280594d00bb3e5d7",
@@ -764,7 +846,22 @@
    ],
    "hasBody": true,
    "changeNote": "The recognised overseas pension schemes notification list has been updated with 24 schemes added and 6 schemes removed.",
-   "firstPublished": "2018-06-15T00:00:00+01:00"
+   "firstPublished": "2018-06-15T00:00:00+01:00",
+   "ai": {
+    "summary": "The HMRC list of recognised overseas pension schemes (ROPS) is published on the 1st and 15th of each month (or next working day if a holiday). It may be updated at short notice and does not guarantee tax‑free transfers. Professionals must verify tax liability and advise clients accordingly.",
+    "whoAffected": "UK taxpayers with pension savings – including self‑employed individuals, SME owners and directors who consider transferring pensions abroad",
+    "effectiveDate": "Published on the 1st and 15th day of each month (or next working day if a weekend/public holiday)",
+    "actions": [
+     "Check the latest ROPS notification list before any client transfer advice",
+     "Confirm the tax consequences of any overseas pension transfer, not relying solely on the list",
+     "Recommend clients obtain advice from a regulated financial adviser",
+     "Monitor the list for regular updates and any short‑notice removals"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T19:29:18.206Z"
+   }
   },
   {
    "id": "8142319e50cfe0fd",
@@ -852,7 +949,25 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-02T09:00:03+00:00"
+   "firstPublished": "2026-11-02T09:00:03+00:00",
+   "ai": {
+    "summary": "The VAT margin scheme can be used for second‑hand goods, works of art, antiques and collectors’ items bought without VAT, with specific purchase conditions and record‑keeping; non‑eligible items must be taxed normally.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed traders who buy and sell second‑hand goods, art, antiques or collectors’ items.",
+    "effectiveDate": "2026-11-02",
+    "actions": [
+     "Confirm the goods are eligible (second‑hand, works of art, antiques, collectors’ items) and were purchased without VAT.",
+     "Keep documented evidence of both purchase price and selling price for each eligible item.",
+     "Exclude any VAT‑charged purchases, spare parts, services or overheads from the margin calculation and treat them normally.",
+     "Report all margin‑scheme purchases and sales on the VAT return, charging normal VAT on non‑eligible items."
+    ],
+    "legislationRefs": [
+     "Gold acquisitions, imports and investments (VAT Notice 701/21)",
+     "Investment gold coins (VAT Notice 701/21A)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T19:29:23.439Z"
+   }
   },
   {
    "id": "a7f5366f68673308",
@@ -1082,7 +1197,24 @@
    ],
    "hasBody": true,
    "changeNote": "Guidance from withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been added.",
-   "firstPublished": "2021-12-23T00:00:00+00:00"
+   "firstPublished": "2021-12-23T00:00:00+00:00",
+   "ai": {
+    "summary": "VAT margin scheme can be used when selling second‑hand houseboats or caravans that aren’t zero‑rated, and for standard‑rated fixtures or removable contents attached to zero‑rated units. Calculate the standard‑rated element as 10% of the tax‑exclusive price, keep supporting records, and report on the VAT return.",
+    "whoAffected": "Businesses and self‑employed traders who buy and sell second‑hand houseboats or caravans, including any standard‑rated fixtures or removable contents attached to zero‑rated units.",
+    "effectiveDate": "2026-11-02T09:00:01Z",
+    "actions": [
+     "Confirm the sale meets margin‑scheme eligibility (second‑hand and not zero‑rated or includes standard‑rated contents with a zero‑rated unit)",
+     "Calculate the standard‑rated element as 10% of the tax‑exclusive selling price or use a fair alternative method",
+     "Retain calculations and normal margin‑scheme records for each transaction",
+     "Show the margin‑scheme purchase and sale on the VAT return"
+    ],
+    "legislationRefs": [
+     "VAT notice 701/20"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T19:29:34.295Z"
+   }
   },
   {
    "id": "1d626e7926601043",
@@ -1099,6 +1231,38 @@
    "hasBody": true,
    "changeNote": "Guidance from the withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been incorporated into this guidance.",
    "firstPublished": "2021-12-23T13:28:00+00:00"
+  },
+  {
+   "id": "ced372f13fe717b2",
+   "title": "Buying and selling second-hand motor vehicles using the VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/buying-and-selling-second-hand-motor-vehicles-using-the-vat-margin-scheme",
+   "path": "/guidance/buying-and-selling-second-hand-motor-vehicles-using-the-vat-margin-scheme",
+   "date": "2026-11-02T09:00:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to use a margin scheme to account for VAT if you sell second-hand vehicles.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance from withdrawn VAT notices, The Margin and Global Accounting Scheme (VAT Notice 718) and The Margin Scheme on second-hand cars and other vehicles (VAT Notice 718/1), has been added.",
+   "firstPublished": "2021-12-23T13:28:00+00:00"
+  },
+  {
+   "id": "3c03c14e433dbffd",
+   "title": "Using the global accounting VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/using-the-global-accounting-vat-margin-scheme",
+   "path": "/guidance/using-the-global-accounting-vat-margin-scheme",
+   "date": "2026-11-02T09:00:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to account for VAT using the global accounting scheme.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance from withdrawn VAT notices, The Margin and Global Accounting Scheme (VAT Notice 718) and The Margin Scheme on second-hand cars and other vehicles (VAT Notice 718/1), has been added.",
+   "firstPublished": "2021-12-23T00:00:00+00:00"
   },
   {
    "id": "d974747b4630ba11",
@@ -1131,38 +1295,6 @@
    "hasBody": true,
    "changeNote": "Guidance from withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been added.",
    "firstPublished": "2021-12-23T00:00:00+00:00"
-  },
-  {
-   "id": "3c03c14e433dbffd",
-   "title": "Using the global accounting VAT margin scheme",
-   "url": "https://www.gov.uk/guidance/using-the-global-accounting-vat-margin-scheme",
-   "path": "/guidance/using-the-global-accounting-vat-margin-scheme",
-   "date": "2026-11-02T09:00:01Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to account for VAT using the global accounting scheme.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "Guidance from withdrawn VAT notices, The Margin and Global Accounting Scheme (VAT Notice 718) and The Margin Scheme on second-hand cars and other vehicles (VAT Notice 718/1), has been added.",
-   "firstPublished": "2021-12-23T00:00:00+00:00"
-  },
-  {
-   "id": "ced372f13fe717b2",
-   "title": "Buying and selling second-hand motor vehicles using the VAT margin scheme",
-   "url": "https://www.gov.uk/guidance/buying-and-selling-second-hand-motor-vehicles-using-the-vat-margin-scheme",
-   "path": "/guidance/buying-and-selling-second-hand-motor-vehicles-using-the-vat-margin-scheme",
-   "date": "2026-11-02T09:00:01Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to use a margin scheme to account for VAT if you sell second-hand vehicles.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "Guidance from withdrawn VAT notices, The Margin and Global Accounting Scheme (VAT Notice 718) and The Margin Scheme on second-hand cars and other vehicles (VAT Notice 718/1), has been added.",
-   "firstPublished": "2021-12-23T13:28:00+00:00"
   },
   {
    "id": "b7472518fb00f600",
@@ -3658,7 +3790,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:00+00:00"
+   "firstPublished": "2026-10-28T17:35:00+00:00",
+   "ai": {
+    "summary": "Late filing penalties for missing a UK residential property disposal return are cancelled once the disposal is reported and tax paid via Self Assessment. The change applies from 28 Oct 2026.",
+    "whoAffected": "People who have disposed of a UK residential property and did not file the separate UK property disposal return by the deadline but later report the disposal on their Self Assessment tax return.",
+    "effectiveDate": "28 October 2026",
+    "actions": [
+     "Identify clients who missed the UK property disposal return deadline",
+     "Advise them to report the disposal on their Self Assessment as soon as possible",
+     "Ensure the tax due is paid through Self Assessment to stop penalties",
+     "Record that no separate UK property disposal return is now required"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T19:29:46.704Z"
+   }
   },
   {
    "id": "19c6009c6e5c2d6c",
@@ -3788,7 +3935,22 @@
    ],
    "hasBody": true,
    "changeNote": "From on or after 6 April 2027 changes apply to Enterprise Management Incentives (EMI) options granted. The 'Background to the measure' section has been updated to confirm the draft legislation about the EMI options was published for technical consultation on 13 July 2026 as part of Legislation Day. Changes to the EMI options have been added to the sections 'Proposed revisions' and 'Administrative impact on business including civil society organisations'. The exchequer impact table has been updated for Budget 2026.",
-   "firstPublished": "2026-07-13T13:22:00+01:00"
+   "firstPublished": "2026-07-13T13:22:00+01:00",
+   "ai": {
+    "summary": "From 6 April 2027 companies can stop sending separate EMI option notifications to HMRC and instead report them via the annual EMI return.",
+    "whoAffected": "SMEs, owner‑managed businesses and the self‑employed that grant EMI share options to employees.",
+    "effectiveDate": "6 April 2027",
+    "actions": [
+     "Update client guidance to remove the separate EMI grant notification requirement after 6 April 2027",
+     "Advise clients to record all EMI option grants in their annual EMI return",
+     "Adjust client filing calendars to eliminate the separate notification task",
+     "Notify clients of the technical consultation deadline (7 September 2026) if they wish to comment"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T19:29:51.502Z"
+   }
   },
   {
    "id": "365332b464e94892",
@@ -4079,7 +4241,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:34:00+00:00"
+   "firstPublished": "2026-10-28T17:34:00+00:00",
+   "ai": {
+    "summary": "Overpaid Child Benefit can be offset against any High Income Child Benefit Charge (HICBC) already paid, correcting the tax position retroactively to January 2013.",
+    "whoAffected": "Taxpayers who have paid HICBC and later discover a Child Benefit overpayment, including high‑earning individuals and self‑employed owners who claim Child Benefit",
+    "effectiveDate": "January 2013 (retrospective)",
+    "actions": [
+     "Identify clients with both HICBC payments and a Child Benefit over‑payment",
+     "Calculate the amount of over‑payment that can be offset against HICBC",
+     "Amend the client’s tax return or HMRC account to reflect the offset",
+     "Inform the client of the retrospective correction and any impact on their tax liability"
+    ],
+    "legislationRefs": [
+     "High Income Child Benefit Charge"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T19:29:59.040Z"
+   }
   },
   {
    "id": "7252ad9fb75e61b1",
