@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-02T21:42:49.770Z",
+ "generatedAt": "2026-11-03T12:49:42.570Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,206 @@
    "label": "Other"
   }
  ],
- "count": 553,
+ "count": 557,
  "items": [
+  {
+   "id": "314e8641a76d7668",
+   "title": "Better use of new and improved third-party data (interest income and card sales)",
+   "url": "https://www.gov.uk/government/publications/better-use-of-new-and-improved-third-party-data-interest-income-and-card-sales",
+   "path": "/government/publications/better-use-of-new-and-improved-third-party-data-interest-income-and-card-sales",
+   "date": "2026-11-03T11:36:13Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "On 3 November 2026 the SI 'The Data-gathering (Ongoing Data: Interest and Payment Card Transactions) Regulations 2026' was laid, and the policy will come into force on 1 March 2028.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-03T11:36:13+00:00",
+   "ai": {
+    "summary": "Policy introduces new rules for using third‑party data on interest income and card sales, based on the Data‑gathering (Ongoing Data: Interest and Payment Card Transactions) Regulations 2026.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "1 March 2028",
+    "actions": [],
+    "legislationRefs": [
+     "The Data-gathering (Ongoing Data: Interest and Payment Card Transactions) Regulations 2026"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T12:48:37.980Z"
+   }
+  },
+  {
+   "id": "08bfa77a38a6d3e9",
+   "title": "Pay overclaimed Research and Development (R&D) tax relief",
+   "url": "https://www.gov.uk/guidance/pay-overclaimed-research-and-development-rd-tax-relief",
+   "path": "/guidance/pay-overclaimed-research-and-development-rd-tax-relief",
+   "date": "2026-11-03T10:42:58Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to repay R&D tax relief if you claimed too much.",
+   "categories": [
+    "corptax"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved. ",
+   "firstPublished": "2024-12-31T00:15:00+00:00",
+   "ai": {
+    "summary": "If you’ve overclaimed R&D tax relief, inform HMRC, get the 15‑character payment reference and pay the amount within 30 days using the correct reference to avoid delays or misallocation.",
+    "whoAffected": "Businesses that have overclaimed Research and Development tax relief, including SMEs, owner‑managed firms and the self‑employed",
+    "effectiveDate": "2026-11-03",
+    "actions": [
+     "Tell HMRC about the overclaimed R&D relief and obtain the 15‑character payment reference number from the letter sent after disclosure",
+     "Make a payment within 30 calendar days using the correct reference, choosing an online method, Direct Debit, card or bank transfer as appropriate",
+     "If the reference is wrong, contact Corporation Tax general enquiries to have the payment moved to the correct tax bill",
+     "If you cannot pay the full amount, contact HMRC immediately using the details in your letter"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T12:48:40.869Z"
+   }
+  },
+  {
+   "id": "80ff6d2caa39080d",
+   "title": "Guided retirement: policy consultation",
+   "url": "https://www.gov.uk/government/consultations/guided-retirement-policy-consultation",
+   "path": "/government/consultations/guided-retirement-policy-consultation",
+   "date": "2026-11-03T10:05:45Z",
+   "type": "open_consultation",
+   "source": "The Pensions Regulator (GOV.UK)",
+   "description": "This consultation seeks views on initial policy proposals for the implementation of guided retirement across contract-based and trust-based pension providers. ",
+   "categories": [
+    "personal",
+    "iht",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-03T10:05:46+00:00",
+   "ai": {
+    "summary": "The government proposes guided retirement rules so people with defined‑contribution workplace pensions won’t need to make complex choices when accessing benefits, requiring secondary legislation under the Pension Schemes Act 2026 and new FCA rules, with draft regulations also published.",
+    "whoAffected": "Individuals saving into defined‑contribution workplace pensions and contract‑based or trust‑based pension providers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the guided retirement consultation and draft regulations for any upcoming changes",
+     "Assess how the proposed FCA rules and secondary legislation could affect client pension arrangements",
+     "Prepare client guidance on potential simplifications to pension access",
+     "Consider submitting feedback to the consultation if relevant"
+    ],
+    "legislationRefs": [
+     "Pension Schemes Act 2026",
+     "Part 2, Chapter 6",
+     "Financial Conduct Authority (FCA) rules",
+     "Retirement Collective Pension Schemes draft regulations"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T12:48:43.777Z"
+   }
+  },
+  {
+   "id": "7e94c97fc1163eda",
+   "title": "Pay Gaming or Bingo Duty",
+   "url": "https://www.gov.uk/guidance/pay-gambling-duties",
+   "path": "/guidance/pay-gambling-duties",
+   "date": "2026-11-03T09:42:03Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay Gaming or Bingo Duty, and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved.",
+   "firstPublished": "2014-10-30T00:00:00+00:00",
+   "ai": {
+    "summary": "The guide sets payment deadlines for Gaming and Bingo Duty, details how to calculate duty with form GD95, warns of penalties for late payment, outlines acceptable payment methods and processing times, and requires returns even when no tax is due.",
+    "whoAffected": "Businesses that operate gaming machines, betting, pool betting, remote gaming or bingo halls – including SME gambling operators and self‑employed licence holders.",
+    "effectiveDate": "2026-11-03",
+    "actions": [
+     "Confirm the accounting period and ensure the GD95 return and payment are submitted by the required deadline (31 Oct or 30 Apr for Gaming Duty; 15 days after period for Bingo Duty).",
+     "Verify the 15‑character reference number (starting with X) before making any payment to avoid delays or misallocation.",
+     "Choose a payment method that meets processing‑time requirements (e.g., allow 10 working days for Direct Debit set‑up, 3 working days for Bacs, instant for CHAPS/Faster Payments).",
+     "Submit a nil return for Bingo Duty when the business is closed for a season and inform HMRC of the closed dates in advance."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T12:48:47.986Z"
+   }
+  },
+  {
+   "id": "60bb768632a84ca5",
+   "title": "Employer Bulletin: October 2026",
+   "url": "https://www.gov.uk/government/publications/employer-bulletin-october-2026",
+   "path": "/government/publications/employer-bulletin-october-2026",
+   "date": "2026-11-03T08:55:00Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "A bi-monthly magazine for employers and agents that gives up-to-date information on payroll topics. ",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance has been updated to make clear that the ‘mandatory payrolling of benefits in kind expenses’ guidance will be updated in autumn and information that has not yet been confirmed to be included in the update has been removed.",
+   "firstPublished": "2026-10-21T10:00:00+01:00",
+   "ai": {
+    "summary": "The October 2026 employer bulletin highlights updates on payrolling benefits in kind, a PSA payment deadline of 22 Oct 2026, opening of mandatory tax adviser registration for payroll agents on 18 Nov 2026, changes to trade union law, the 2026 Tell ABAB Report and child‑benefit support for parent/carer staff.",
+    "whoAffected": "Employers and payroll agents (including those handling PAYE Settlement Agreements)",
+    "effectiveDate": "22 Oct 2026 (PSA payment deadline) and 18 Nov 2026 (tax adviser registration opens)",
+    "actions": [
+     "Remind client employers to make their PAYE Settlement Agreement payment by 22 Oct 2026",
+     "Advise payroll agents to prepare for the mandatory tax adviser registration opening on 18 Nov 2026",
+     "Check client benefit‑in‑kind arrangements for globally mobile employee exceptions and Class 1A NIC implications",
+     "Inform eligible parent or carer employees about claiming Child Benefit"
+    ],
+    "legislationRefs": [
+     "Class 1A National Insurance contributions",
+     "PAYE Settlement Agreement (PSA)",
+     "Mandatory tax adviser registration"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T12:48:51.582Z"
+   }
+  },
+  {
+   "id": "56bf11ed2af6f0ac",
+   "title": "Reforming information powers and modernising computer records law",
+   "url": "https://www.gov.uk/government/publications/reforming-information-powers-and-modernising-computer-records-law",
+   "path": "/government/publications/reforming-information-powers-and-modernising-computer-records-law",
+   "date": "2026-11-03T08:33:52Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure reforms HMRC’s powers to require information and carry out inspections for tax checks, plus updates definitions about computer records.",
+   "categories": [
+    "compliance",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about the number of businesses impacted has been updated.",
+   "firstPublished": "2026-07-13T13:20:00+01:00",
+   "ai": {
+    "summary": "The measure reforms HMRC’s information and inspection powers under Schedule 36 and computer records rules in Section 114 of the Finance Act 2008, aiming to improve digital data access and meet international standards.",
+    "whoAffected": "Businesses and individuals subject to HMRC information requests and inspections, including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review the proposed changes to HMRC’s information and inspection powers under Schedule 36 and Section 114",
+     "Advise clients to ensure their computer records comply with the updated legislation",
+     "Prepare clients for possible increased HMRC information requests and inspections",
+     "Submit comments to HMRC by 7 September 2026 using the provided email address"
+    ],
+    "legislationRefs": [
+     "Schedule 36 to the Finance Act 2008",
+     "Section 114 of the Finance Act 2008"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T12:48:54.982Z"
+   }
+  },
   {
    "id": "89234ab4a254c6f0",
    "title": "List of Authorised Corporate Service Providers (ACSPs)",
@@ -516,7 +714,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-02T09:30:06+00:00"
+   "firstPublished": "2026-11-02T09:30:06+00:00",
+   "ai": {
+    "summary": "To calculate VAT under a margin scheme, work out the purchase and selling prices, subtract to get the gross margin, then multiply by the correct VAT fraction (1/6 for standard, 1/21 for reduced, zero for zero‑rated). Report the result on your VAT return.",
+    "whoAffected": "Businesses that buy and sell second‑hand goods using VAT margin schemes, including SMEs, owner‑managed firms and self‑employed traders",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Determine the purchase price (excluding overheads, repairs, parts or accessories)",
+     "Determine the selling price (including any incidental expenses linked to the sale)",
+     "Calculate gross margin = selling price – purchase price",
+     "Multiply the margin by the appropriate VAT fraction (1/6, 1/21 or 0) and record the VAT due on the VAT return"
+    ],
+    "legislationRefs": [
+     "Notice 700, section 7.2"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T12:48:57.836Z"
+   }
   },
   {
    "id": "b4162a42dbaeceb2",
@@ -801,7 +1016,26 @@
    ],
    "hasBody": true,
    "changeNote": "Guidance from withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been added.",
-   "firstPublished": "2021-12-23T00:00:00+00:00"
+   "firstPublished": "2021-12-23T00:00:00+00:00",
+   "ai": {
+    "summary": "Special VAT margin scheme rules apply when buying or selling second‑hand goods, works of art, antiques or collectors’ items between Northern Ireland, Great Britain and the EU. Motor vehicles from GB are excluded, and new transport is never eligible. Record‑keeping, invoicing and reporting requirements differ from standard supplies.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed traders dealing with second‑hand goods, works of art, antiques, collectors’ items, motor vehicles or new means of transport between Northern Ireland, Great Britain and the EU.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check whether the goods (second‑hand, art, antiques, collectors’ items) are eligible for the margin scheme before any transaction",
+     "Ensure purchase invoices from EU VAT‑registered suppliers contain a margin‑scheme indication or confirm with the supplier",
+     "Maintain normal VAT margin scheme records and issue margin‑scheme sales invoices for eligible sales",
+     "Exclude margin‑scheme transactions from EC Sales Lists and Intrastat and report them on the VAT return"
+    ],
+    "legislationRefs": [
+     "Articles 313, 326 or 333 of the EC VAT Directive 2006/112/EC",
+     "VAT Notice 718",
+     "VAT Notice 728"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T12:49:14.135Z"
+   }
   },
   {
    "id": "b3cc68e3b5dfebb4",
@@ -967,6 +1201,37 @@
    }
   },
   {
+   "id": "83ee3112cd75a8e6",
+   "title": "Pay handling fees for distance sales to Northern Ireland ‘at risk’ of entering the EU",
+   "url": "https://www.gov.uk/guidance/pay-handling-fees-for-distance-sales-to-northern-ireland-at-risk-of-entering-the-eu",
+   "path": "/guidance/pay-handling-fees-for-distance-sales-to-northern-ireland-at-risk-of-entering-the-eu",
+   "date": "2026-11-01T06:00:05Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay handling fees for distance sales moving into Northern Ireland that are ‘at risk’ of entering the EU, and how long it takes for your payment to reach HMRC. ",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-01T06:00:05+00:00",
+   "ai": {
+    "summary": "Submit the return by the 13th of the month after each period, then pay the exact handling fee by the 16th using the 14‑character reference from HMRC, choosing a payment method that meets the timing rules and using the correct UK or overseas account details in pounds sterling.",
+    "whoAffected": "Businesses making distance sales to Northern Ireland that are ‘at risk’ of entering the EU, including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Submit the completed return form to HMRC by the 13th of the calendar month after each reporting period",
+     "Use the 14‑character reference number from HMRC’s email when making the payment",
+     "Pay the exact amount by the 16th of the month, using CHAPS/Faster Payments for same‑day receipt or Bacs (allow 3 working days) and the correct UK or overseas account details in GBP",
+     "If paying by cheque, ensure it reaches HMRC before the deadline, is payable to ‘HM Revenue and Customs only’, includes the reference on the back, and is sent to the address provided"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-01T11:51:16.380Z"
+   }
+  },
+  {
    "id": "fcd25abc88f6a392",
    "title": "Moving goods you bring into Northern Ireland as ‘not at risk’ of moving to the EU",
    "url": "https://www.gov.uk/guidance/check-if-you-can-declare-goods-you-bring-into-northern-ireland-not-at-risk-of-moving-to-the-eu",
@@ -998,37 +1263,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-01T11:51:13.240Z"
-   }
-  },
-  {
-   "id": "83ee3112cd75a8e6",
-   "title": "Pay handling fees for distance sales to Northern Ireland ‘at risk’ of entering the EU",
-   "url": "https://www.gov.uk/guidance/pay-handling-fees-for-distance-sales-to-northern-ireland-at-risk-of-entering-the-eu",
-   "path": "/guidance/pay-handling-fees-for-distance-sales-to-northern-ireland-at-risk-of-entering-the-eu",
-   "date": "2026-11-01T06:00:05Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to pay handling fees for distance sales moving into Northern Ireland that are ‘at risk’ of entering the EU, and how long it takes for your payment to reach HMRC. ",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-11-01T06:00:05+00:00",
-   "ai": {
-    "summary": "Submit the return by the 13th of the month after each period, then pay the exact handling fee by the 16th using the 14‑character reference from HMRC, choosing a payment method that meets the timing rules and using the correct UK or overseas account details in pounds sterling.",
-    "whoAffected": "Businesses making distance sales to Northern Ireland that are ‘at risk’ of entering the EU, including SMEs, owner‑managed businesses and the self‑employed",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Submit the completed return form to HMRC by the 13th of the calendar month after each reporting period",
-     "Use the 14‑character reference number from HMRC’s email when making the payment",
-     "Pay the exact amount by the 16th of the month, using CHAPS/Faster Payments for same‑day receipt or Bacs (allow 3 working days) and the correct UK or overseas account details in GBP",
-     "If paying by cheque, ensure it reaches HMRC before the deadline, is payable to ‘HM Revenue and Customs only’, includes the reference on the back, and is sent to the address provided"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-01T11:51:16.380Z"
    }
   },
   {
@@ -3281,23 +3515,6 @@
    }
   },
   {
-   "id": "40eb34abc22ee277",
-   "title": "Capital Gains Tax: returns for disposals of UK land and late filing penalties",
-   "url": "https://www.gov.uk/government/publications/capital-gains-tax-returns-for-disposals-of-uk-land-and-late-filing-penalties",
-   "path": "/government/publications/capital-gains-tax-returns-for-disposals-of-uk-land-and-late-filing-penalties",
-   "date": "2026-10-28T17:35:00Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This measure is about people who have disposed of an interest in UK residential property and have not reported the disposal on the correct return.",
-   "categories": [
-    "cgt",
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:00+00:00"
-  },
-  {
    "id": "7404cc60533fc0fe",
    "title": "Inheritance Tax: preventing unintended deductions for liabilities in trust arrangements",
    "url": "https://www.gov.uk/government/publications/inheritance-tax-preventing-unintended-deductions-for-liabilities-in-trust-arrangements",
@@ -3375,7 +3592,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:00+00:00"
+   "firstPublished": "2026-10-28T17:35:00+00:00",
+   "ai": {
+    "summary": "The measure expands the finance lease definition to include right‑of‑use leases, restoring intended tax treatment for certain lease and leaseback arrangements.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify any client right‑of‑use lease arrangements",
+     "Assess whether they now meet the expanded finance lease definition",
+     "Adjust the tax treatment of those leases accordingly",
+     "Record the changes for HMRC compliance"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T12:49:27.644Z"
+   }
   },
   {
    "id": "6c90333c9c120070",
@@ -3388,6 +3620,41 @@
    "description": "This measure is about changes to Stamp Duty Land Tax (SDLT) where group relief has been claimed on a purchase of land or property.",
    "categories": [
     "corptax"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:00+00:00",
+   "ai": {
+    "summary": "A change of control test is added to SDLT group relief: if a company that claimed group relief later qualifies for the winding‑up exception and its control changes within 3 years, relief is withdrawn and extra SDLT is charged.",
+    "whoAffected": "Companies that have claimed SDLT group relief on land or property purchases, including SME and owner‑managed corporate structures that may later face a winding‑up exception or change control.",
+    "effectiveDate": "on or after 29 October 2026",
+    "actions": [
+     "Review any client transactions where SDLT group relief was claimed",
+     "Assess whether the winding‑up exception could apply in the future",
+     "Monitor any change of control in the purchasing company within three years of the transaction",
+     "Inform clients of the risk of additional SDLT and consider structuring to avoid the relief withdrawal"
+    ],
+    "legislationRefs": [
+     "SDLT group relief rules",
+     "winding‑up exception"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T12:49:30.503Z"
+   }
+  },
+  {
+   "id": "40eb34abc22ee277",
+   "title": "Capital Gains Tax: returns for disposals of UK land and late filing penalties",
+   "url": "https://www.gov.uk/government/publications/capital-gains-tax-returns-for-disposals-of-uk-land-and-late-filing-penalties",
+   "path": "/government/publications/capital-gains-tax-returns-for-disposals-of-uk-land-and-late-filing-penalties",
+   "date": "2026-10-28T17:35:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure is about people who have disposed of an interest in UK residential property and have not reported the disposal on the correct return.",
+   "categories": [
+    "cgt",
+    "compliance"
    ],
    "hasBody": true,
    "changeNote": "First published.",
@@ -3407,7 +3674,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:00+00:00"
+   "firstPublished": "2026-10-28T17:35:00+00:00",
+   "ai": {
+    "summary": "Courts can now consider disqualifying directors after a conviction for a qualifying offence under HMRC securities legislation; disqualification is not automatic and will depend on case evidence and circumstances.",
+    "whoAffected": "Company directors, especially those of SMEs and owner‑managed businesses, and the companies they run",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review client compliance with HMRC securities legislation",
+     "Advise directors on the risk of disqualification if convicted",
+     "Implement internal controls to prevent qualifying offences",
+     "Monitor any convictions and prepare for possible disqualification proceedings"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T12:49:34.801Z"
+   }
   },
   {
    "id": "7a099516e267440a",
@@ -3586,7 +3868,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:34:41+00:00"
+   "firstPublished": "2026-10-28T17:34:41+00:00",
+   "ai": {
+    "summary": "Company car tax rates for zero‑emission/electric vehicles rise by 1‑2 percentage points each year, reaching 12% or 15% in the 2031‑32 tax year.",
+    "whoAffected": "Businesses that provide company cars, especially those with zero‑emission or electric vehicles, including SMEs and owner‑managed firms",
+    "effectiveDate": "Tax year 2030‑31 and 2031‑32",
+    "actions": [
+     "Review client company‑car policies for zero‑emission/electric vehicles",
+     "Calculate the impact of the higher appropriate percentages on clients' tax liabilities",
+     "Advise clients on alternative vehicle options or timing of purchases to mitigate tax costs",
+     "Update client records and reporting templates to reflect the new rates"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T12:49:41.070Z"
+   }
   },
   {
    "id": "a873c93129af2f51",
@@ -3619,23 +3916,6 @@
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-31T10:57:31.798Z"
    }
-  },
-  {
-   "id": "7abb199c894d5086",
-   "title": "Income Tax: Child Benefit overpayments and the High Income Child Benefit Charge",
-   "url": "https://www.gov.uk/government/publications/income-tax-child-benefit-overpayments-and-the-high-income-child-benefit-charge",
-   "path": "/government/publications/income-tax-child-benefit-overpayments-and-the-high-income-child-benefit-charge",
-   "date": "2026-10-28T17:34:34Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This tax information and impact note explains the treatment of Child Benefit overpayments and High Income Child Benefit Charge payments made in relation to that overpayment.  ",
-   "categories": [
-    "personal",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:34:34+00:00"
   },
   {
    "id": "b8bc5aabef5c558f",
@@ -3783,6 +4063,23 @@
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-01T11:51:59.128Z"
    }
+  },
+  {
+   "id": "7abb199c894d5086",
+   "title": "Income Tax: Child Benefit overpayments and the High Income Child Benefit Charge",
+   "url": "https://www.gov.uk/government/publications/income-tax-child-benefit-overpayments-and-the-high-income-child-benefit-charge",
+   "path": "/government/publications/income-tax-child-benefit-overpayments-and-the-high-income-child-benefit-charge",
+   "date": "2026-10-28T17:34:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note explains the treatment of Child Benefit overpayments and High Income Child Benefit Charge payments made in relation to that overpayment.  ",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:34:00+00:00"
   },
   {
    "id": "7252ad9fb75e61b1",
@@ -4261,7 +4558,7 @@
    "path": "/government/consultations/extending-online-marketplace-liability-to-combat-non-compliance",
    "date": "2026-10-28T13:31:09Z",
    "type": "consultation_outcome",
-   "source": "HMRC (GOV.UK)",
+   "source": "HM Treasury (GOV.UK)",
    "description": "A proposal to extend current online marketplace VAT liability rules to sales on OMPs by UK based businesses, when their goods are in the UK at the point of sale.",
    "categories": [
     "vat",
@@ -5253,42 +5550,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-21T17:09:08.308Z"
-   }
-  },
-  {
-   "id": "60bb768632a84ca5",
-   "title": "Employer Bulletin: October 2026",
-   "url": "https://www.gov.uk/government/publications/employer-bulletin-october-2026",
-   "path": "/government/publications/employer-bulletin-october-2026",
-   "date": "2026-10-21T09:00:03Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "A bi-monthly magazine for employers and agents that gives up-to-date information on payroll topics. ",
-   "categories": [
-    "paye"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-21T10:00:03+01:00",
-   "ai": {
-    "summary": "The October 2026 Employer Bulletin updates on payrolling benefits in kind exceptions and Class 1A NICs, reminds PSA payments are due by 22 Oct 2026, announces mandatory tax adviser registration opening 18 Nov 2026, outlines trade union law changes, highlights the 2026 Tell ABAB Report and child‑benefit entitlement for parent/carer staff.",
-    "whoAffected": "Employers, payroll agents and tax advisers; also parent or carer employees",
-    "effectiveDate": "22 October 2026 (PSA payment deadline) and 18 November 2026 (tax adviser registration opens)",
-    "actions": [
-     "Tell client employers to make their PAYE Settlement Agreement payment by 22 Oct 2026",
-     "Prepare clients for the mandatory tax adviser registration that starts 18 Nov 2026",
-     "Review client payroll for benefits‑in‑kind exceptions and Class 1A NIC implications",
-     "Inform clients about child‑benefit entitlement for parent/carer employees and recent trade‑union law changes"
-    ],
-    "legislationRefs": [
-     "Class 1A National Insurance contributions",
-     "PAYE Settlement Agreement (PSA)",
-     "mandatory tax adviser registration",
-     "trade union law"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-21T10:10:48.928Z"
    }
   },
   {
@@ -15974,41 +16235,6 @@
     "legislation",
     "vat"
    ]
-  },
-  {
-   "id": "6c2ae247426c3d1b",
-   "title": "Legislative reform of the Terminal Markets Order: Consultation",
-   "url": "https://www.gov.uk/government/consultations/legislative-reform-of-the-terminal-markets-order-consultation",
-   "path": "/government/consultations/legislative-reform-of-the-terminal-markets-order-consultation",
-   "date": "2025-05-02T13:14:44Z",
-   "type": "consultation_outcome",
-   "source": "HM Treasury (GOV.UK)",
-   "description": "A consultation on legislative reforms to modernise the legislation that underpins the VAT treatment of certain wholesale commodity transactions. ",
-   "categories": [
-    "vat",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "Accessible version added.",
-   "firstPublished": "2023-07-18T14:33:28+01:00",
-   "ai": {
-    "summary": "The government proposes to modernise the VAT rules for wholesale commodity trades under the Terminal Markets Order, adding the UK Emissions Trading Scheme and updating post‑EU exit rules for greater certainty.",
-    "whoAffected": "Businesses that conduct wholesale commodity transactions on named commodity exchanges or market associations (terminal markets), including SMEs, owner‑managed firms and self‑employed traders in that sector",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Review which clients trade on terminal markets and assess current VAT treatment",
-     "Track the consultation and consider submitting client feedback",
-     "Prepare to advise clients on potential VAT changes once the TMO is updated",
-     "Update client guidance to include the UK Emissions Trading Scheme within the TMO scope"
-    ],
-    "legislationRefs": [
-     "Terminal Markets Order (TMO)",
-     "UK Emissions Trading Scheme"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-18T09:40:24.932Z"
-   }
   }
  ]
 }
