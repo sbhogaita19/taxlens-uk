@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-04T13:01:37.520Z",
+ "generatedAt": "2026-11-04T19:45:13.618Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,39 @@
    "label": "Other"
   }
  ],
- "count": 562,
+ "count": 563,
  "items": [
+  {
+   "id": "d19bad523be82429",
+   "title": "Apply to pay voluntary National Insurance contributions for periods abroad by post (CF83)",
+   "url": "https://www.gov.uk/guidance/apply-to-pay-voluntary-national-insurance-contributions-for-periods-abroad-by-post-cf83",
+   "path": "/guidance/apply-to-pay-voluntary-national-insurance-contributions-for-periods-abroad-by-post-cf83",
+   "date": "2026-11-04T15:08:31Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how to apply by post to pay voluntary National Insurance contributions for periods you've worked or lived abroad.",
+   "categories": [
+    "nic"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-04T15:08:31+00:00",
+   "ai": {
+    "summary": "Guidance on applying by post to pay voluntary National Insurance contributions for periods worked or lived abroad, including form selection, completion, posting, and special instructions if HMRC has sent a Class 3 letter.",
+    "whoAffected": "Individuals who have worked or lived abroad and need to make voluntary NI contributions, especially those unable to apply online or who have received a specific HMRC letter about Class 3 contributions.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check if the client can apply online; if not, identify the correct CF83 form needed.",
+     "Print and complete the CF83 form with the client’s details.",
+     "Mail the completed form to the address shown on the form.",
+     "If the client has an HMRC letter about Class 3 contributions, follow the letter’s instructions instead of using the CF83 form."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T19:44:12.559Z"
+   }
+  },
   {
    "id": "f1a1a862d762efa5",
    "title": "Tell HMRC an entity liable for the Economic Crime Levy has become insolvent",
@@ -284,7 +315,26 @@
    ],
    "hasBody": true,
    "changeNote": "The information in section 24 'PAYE' has been removed and replaced with a link to section 24 of the insolvency practitioner's handbook.",
-   "firstPublished": "2014-04-01T00:00:00+01:00"
+   "firstPublished": "2014-04-01T00:00:00+01:00",
+   "ai": {
+    "summary": "The notice directs insolvency practitioners on VAT handling for insolvent businesses, covering notifications, claims, returns, registration cancellation, dividend payments, Crown set‑off, and partnership rules, with detailed procedures in the Insolvency practitioner’s handbook.",
+    "whoAffected": "Insolvency practitioners, insolvent VAT‑registered businesses, partners in insolvent partnerships, and HMRC officials handling VAT claims and dividends",
+    "effectiveDate": "2026-11-04",
+    "actions": [
+     "Refer clients to the Insolvency practitioner’s handbook sections for specific VAT obligations (notifications, claims, returns, cancellations).",
+     "Use the correct 13‑character payment reference and bank details when paying HMRC dividends, checking processing times and limits.",
+     "Advise partnership clients: solvent partners file returns; insolvent partners’ claims are lodged with the estate, and separate claims are made for each partner’s relevant date.",
+     "Inform clients about Crown set‑off rules and that credits below £250 are unlikely to be pursued, and consider the impact on any pre‑insolvency VAT credits."
+    ],
+    "legislationRefs": [
+     "VAT Notice 700",
+     "VAT Notice 70056",
+     "Law of Property Act"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T19:44:15.759Z"
+   }
   },
   {
    "id": "294ab79b7c1ca41e",
@@ -1148,40 +1198,6 @@
    }
   },
   {
-   "id": "2362ba249a5222bb",
-   "title": "Goods eligible for the VAT margin scheme",
-   "url": "https://www.gov.uk/guidance/goods-eligible-for-the-vat-margin-scheme",
-   "path": "/guidance/goods-eligible-for-the-vat-margin-scheme",
-   "date": "2026-11-02T09:00:03Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "What goods are eligible and not eligible for the scheme and what purchase conditions apply.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-11-02T09:00:03+00:00",
-   "ai": {
-    "summary": "The VAT margin scheme can be used for second‑hand goods, works of art, antiques and collectors’ items bought without VAT, with specific purchase conditions and record‑keeping; non‑eligible items must be taxed normally.",
-    "whoAffected": "SMEs, owner‑managed businesses and self‑employed traders who buy and sell second‑hand goods, art, antiques or collectors’ items.",
-    "effectiveDate": "2026-11-02",
-    "actions": [
-     "Confirm the goods are eligible (second‑hand, works of art, antiques, collectors’ items) and were purchased without VAT.",
-     "Keep documented evidence of both purchase price and selling price for each eligible item.",
-     "Exclude any VAT‑charged purchases, spare parts, services or overheads from the margin calculation and treat them normally.",
-     "Report all margin‑scheme purchases and sales on the VAT return, charging normal VAT on non‑eligible items."
-    ],
-    "legislationRefs": [
-     "Gold acquisitions, imports and investments (VAT Notice 701/21)",
-     "Investment gold coins (VAT Notice 701/21A)"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-03T19:29:23.439Z"
-   }
-  },
-  {
    "id": "a7f5366f68673308",
    "title": "Accounting for VAT on bad debts when using the VAT margin scheme if you’re a seller",
    "url": "https://www.gov.uk/guidance/accounting-for-vat-on-bad-debts-when-using-the-vat-margin-scheme-if-youre-a-seller",
@@ -1216,6 +1232,40 @@
    }
   },
   {
+   "id": "2362ba249a5222bb",
+   "title": "Goods eligible for the VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/goods-eligible-for-the-vat-margin-scheme",
+   "path": "/guidance/goods-eligible-for-the-vat-margin-scheme",
+   "date": "2026-11-02T09:00:03Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "What goods are eligible and not eligible for the scheme and what purchase conditions apply.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T09:00:03+00:00",
+   "ai": {
+    "summary": "The VAT margin scheme can be used for second‑hand goods, works of art, antiques and collectors’ items bought without VAT, with specific purchase conditions and record‑keeping; non‑eligible items must be taxed normally.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed traders who buy and sell second‑hand goods, art, antiques or collectors’ items.",
+    "effectiveDate": "2026-11-02",
+    "actions": [
+     "Confirm the goods are eligible (second‑hand, works of art, antiques, collectors’ items) and were purchased without VAT.",
+     "Keep documented evidence of both purchase price and selling price for each eligible item.",
+     "Exclude any VAT‑charged purchases, spare parts, services or overheads from the margin calculation and treat them normally.",
+     "Report all margin‑scheme purchases and sales on the VAT return, charging normal VAT on non‑eligible items."
+    ],
+    "legislationRefs": [
+     "Gold acquisitions, imports and investments (VAT Notice 701/21)",
+     "Investment gold coins (VAT Notice 701/21A)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T19:29:23.439Z"
+   }
+  },
+  {
    "id": "2dbaed53bc78ab58",
    "title": "Buying or selling joint purchases and shares using the VAT margin scheme",
    "url": "https://www.gov.uk/guidance/buying-or-selling-joint-purchases-and-shares-using-the-vat-margin-scheme",
@@ -1229,7 +1279,26 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-02T09:00:03+00:00"
+   "firstPublished": "2026-11-02T09:00:03+00:00",
+   "ai": {
+    "summary": "Guidance on accounting for VAT under the margin scheme when goods are jointly purchased or owned as shares, covering how to record purchases, invoice partners, calculate the full margin, and issue VAT‑free statements.",
+    "whoAffected": "Businesses that make joint purchases or own shares in goods and use the VAT margin scheme, such as dealer‑type SMEs and owner‑managed enterprises.",
+    "effectiveDate": "2026-11-02",
+    "actions": [
+     "Keep the original purchase invoice and record the full joint purchase price in your stock book",
+     "Invoice other joint buyers for their contribution with no VAT and include a signed declaration that you will account for the full VAT under the scheme",
+     "Issue a sales invoice showing all required details and record the full joint selling price in your stock book",
+     "Send VAT‑free statements to the other owners showing their share of proceeds and include a signed declaration that you are accounting for the full VAT under the scheme"
+    ],
+    "legislationRefs": [
+     "VAT helpline",
+     "keeping records",
+     "VAT return"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T19:44:19.159Z"
+   }
   },
   {
    "id": "38aec13e8e52ca23",
@@ -1245,7 +1314,26 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-02T09:00:02+00:00"
+   "firstPublished": "2026-11-02T09:00:02+00:00",
+   "ai": {
+    "summary": "Guidance explains VAT treatment for linked insurance and warranties under the margin scheme, when charges are exempt or standard-rated, how to invoice, record stock values, and Insurance Premium Tax responsibilities.",
+    "whoAffected": "SME dealers and self‑employed traders using the VAT margin scheme for second‑hand goods who offer linked insurance products or warranties to customers.",
+    "effectiveDate": "2026-11-02",
+    "actions": [
+     "Check whether the insurance premium or warranty charge is disclosed to the customer; if disclosed it is VAT‑exempt, otherwise treat it as standard‑rated and account for VAT outside the margin scheme.",
+     "Ensure the selling price of the goods recorded in the stock book equals the invoice price and excludes any insurance or warranty charge when calculating the margin.",
+     "Record any separate insurance or warranty fees (including commissions) as standard‑rated supplies and account for VAT on those amounts outside the margin scheme.",
+     "Verify whether you need to register for and account for the higher rate of Insurance Premium Tax on any undisclosed charges and review partial exemption implications if exempt income is significant."
+    ],
+    "legislationRefs": [
+     "Insurance (VAT Notice 701/36)",
+     "Notice IPT1: Insurance Premium Tax",
+     "Partial exemption (VAT Notice 706)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T19:44:22.683Z"
+   }
   },
   {
    "id": "2700630bd0b2727b",
@@ -4152,7 +4240,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:34:57+00:00"
+   "firstPublished": "2026-10-28T17:34:57+00:00",
+   "ai": {
+    "summary": "Income Tax exemption for employers paying immigration skills charge or certificate of sponsorship fees for Skilled Worker sponsored staff, effective from 28 Oct 2026.",
+    "whoAffected": "Employers who pay the immigration skills charge or certificate of sponsorship fee for an employee or prospective employee under the Skilled Worker route (including SME owners).",
+    "effectiveDate": "28 October 2026",
+    "actions": [
+     "Tell clients the fees are exempt from Income Tax and Class 1a NICs from the effective date",
+     "Adjust payroll systems so these payments are recorded as non‑taxable",
+     "Check that the fees are being paid by the employer, not the employee",
+     "Update client guidance and records to reflect the new exemption"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T19:44:35.156Z"
+   }
   },
   {
    "id": "5bd8bed58c6716b1",
@@ -4391,7 +4494,26 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:34:20+00:00"
+   "firstPublished": "2026-10-28T17:34:20+00:00",
+   "ai": {
+    "summary": "The Finance Bill 2026‑2027 will extend POTAS rules to cover VAT and indirect taxes, let HMRC publish scheme and promoter details, issue stop notices more widely and earlier, and make a minor correction to Finance Act 2026 section 209.",
+    "whoAffected": "Promoters of tax avoidance schemes (including advisers acting as promoters)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review client arrangements for any tax avoidance schemes involving VAT or indirect taxes",
+     "Monitor HMRC publications for newly disclosed schemes and promoter names",
+     "Prepare for possible stop notices by having compliance documentation ready",
+     "Advise clients to avoid using or promoting tax avoidance schemes"
+    ],
+    "legislationRefs": [
+     "Finance Bill 2026‑2027",
+     "section 86 of the Finance Act 2022",
+     "section 209 of the Finance Act 2026"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T19:44:38.076Z"
+   }
   },
   {
    "id": "e7d36d2df7d46c3e",
@@ -4713,7 +4835,22 @@
    ],
    "hasBody": true,
    "changeNote": "Published outcome, including summary of responses.",
-   "firstPublished": "2026-06-23T14:18:39+01:00"
+   "firstPublished": "2026-06-23T14:18:39+01:00",
+   "ai": {
+    "summary": "Consultation proposes updating seven parts of the distribution rules, unchanged since 1965, to improve clarity and consistency and reduce errors, focusing on individual shareholders; corporate shareholders not directly affected.",
+    "whoAffected": "Individual shareholders of companies (including owners of SMEs and owner‑managed businesses)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the consultation outcome for any changes to distribution rules",
+     "Advise individual‑shareholder clients that the proposals may affect how distributions are treated for tax",
+     "Review existing client distribution arrangements to ensure compliance with current rules",
+     "Inform corporate‑shareholder clients that the proposals are not intended to affect them directly"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T19:44:52.013Z"
+   }
   },
   {
    "id": "d879e3b1e63322fa",
@@ -4730,7 +4867,22 @@
    ],
    "hasBody": true,
    "changeNote": "Published outcome, including summary of responses.",
-   "firstPublished": "2026-06-23T14:17:50+01:00"
+   "firstPublished": "2026-06-23T14:17:50+01:00",
+   "ai": {
+    "summary": "The Government is consulting on requiring VAT and PAYE payments to be made by Direct Debit to achieve timelier payments, seeking views from affected parties and tax advisers.",
+    "whoAffected": "Individuals, businesses, organisations, tax agents, representative bodies, charities and voluntary organisations that help with tax affairs",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the consultation and note any deadlines",
+     "Inform SME and self‑employed clients of the proposed Direct Debit requirement",
+     "Gather client feedback to shape the response",
+     "Prepare advice on potential implementation once policy is confirmed"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T19:44:54.539Z"
+   }
   },
   {
    "id": "2fc08a7270913cc8",
@@ -4762,7 +4914,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:49:52+00:00"
+   "firstPublished": "2026-10-28T13:49:52+00:00",
+   "ai": {
+    "summary": "The government is consulting on reforms requiring letting agents and tenancy deposit scheme providers to report property income data to HMRC, covering what is reported, tax identifiers, frequency and timing, to improve data quality and tax administration.",
+    "whoAffected": "Letting agents, tenancy deposit scheme providers and property owners/landlords (including SME and self‑employed landlords)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the consultation and note any upcoming reporting obligations",
+     "Advise landlord clients to keep detailed rental income records ready for possible reporting",
+     "Review client data collection processes to ensure tax identifiers can be captured",
+     "Prepare to adjust reporting frequency and timeliness if new rules are introduced"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T19:44:58.995Z"
+   }
   },
   {
    "id": "2733031b2473bcc3",
@@ -4810,7 +4977,22 @@
    ],
    "hasBody": true,
    "changeNote": "Published outcome, including summary of responses.",
-   "firstPublished": "2026-06-23T14:18:03+01:00"
+   "firstPublished": "2026-06-23T14:18:03+01:00",
+   "ai": {
+    "summary": "Consultation proposes extending powers to recover lower‑value tax debts via direct monthly deductions from non‑engaging customers, with safeguards for vulnerable individuals.",
+    "whoAffected": "Individuals with lower‑value tax debts who persistently do not engage with HMRC, including those who need extra support",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check which clients have outstanding lower‑value tax debts and assess their engagement with HMRC",
+     "Explain the proposed monthly deduction method and its safeguards to affected clients",
+     "Advise clients on steps to avoid enforcement, such as arranging payment plans now",
+     "Monitor updates from HMRC and adjust client advice as the policy develops"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T19:45:04.856Z"
+   }
   },
   {
    "id": "8ad652009c3adacf",
@@ -4877,7 +5059,22 @@
    ],
    "hasBody": true,
    "changeNote": "Published outcome, includes summary of responses.",
-   "firstPublished": "2026-06-23T14:18:28+01:00"
+   "firstPublished": "2026-06-23T14:18:28+01:00",
+   "ai": {
+    "summary": "HMRC is consulting on new software standards to stop electronic sales suppression (till fraud) affecting POS transactions.",
+    "whoAffected": "Electronic Point of Sale (EPOS) developers, businesses that use POS systems, and tax‑compliance organisations.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review clients' POS arrangements for compliance risk",
+     "Advise clients on upcoming software standards and required changes",
+     "Monitor HMRC updates and communicate relevant guidance to clients",
+     "Engage with EPOS providers to ensure software meets future standards"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T19:45:12.117Z"
+   }
   },
   {
    "id": "ff8e0de08255f7dd",
@@ -14404,7 +14601,7 @@
    "id": "4b6f64477e3c491c",
    "title": "Correction Slip",
    "url": "https://www.legislation.gov.uk/uksi/2026/93/pdfs/uksics_20260093_en_001.pdf",
-   "date": "2026-05-07T23:00:00.000Z",
+   "date": "2026-05-08T00:00:00.000Z",
    "type": "legislation",
    "source": "legislation.gov.uk",
    "description": "These Regulations make amendments to Part 10 of the Income Tax (Earnings and Pensions) Act 2003 (c. 1) in consequence of two new social security benefits introduced by the Carer’s Assistance (Miscellaneous and Consequential Amendments, Revocation, Transitional and Saving Provisions) (Scotland) Regulations 2025 (S.S.I. 2025/340) from 15th March 2026. The amendments ensure the Scottish Carer Supplem",
@@ -16242,7 +16439,7 @@
    "id": "8504f1ee2e4fe151",
    "title": "Correction slip",
    "url": "https://www.legislation.gov.uk/ukpga/2025/8/pdfs/ukpgacs_20250008_en_001.pdf",
-   "date": "2025-12-29T23:00:00.000Z",
+   "date": "2025-12-30T00:00:00.000Z",
    "type": "legislation",
    "source": "legislation.gov.uk",
    "description": "An Act to make provision about finance.",
