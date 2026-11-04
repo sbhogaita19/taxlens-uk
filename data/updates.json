@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-03T19:30:10.014Z",
+ "generatedAt": "2026-11-04T13:01:37.520Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,220 @@
    "label": "Other"
   }
  ],
- "count": 559,
+ "count": 562,
  "items": [
+  {
+   "id": "f1a1a862d762efa5",
+   "title": "Tell HMRC an entity liable for the Economic Crime Levy has become insolvent",
+   "url": "https://www.gov.uk/guidance/tell-hmrc-an-entity-liable-for-the-economic-crime-levy-has-become-insolvent",
+   "path": "/guidance/tell-hmrc-an-entity-liable-for-the-economic-crime-levy-has-become-insolvent",
+   "date": "2026-11-04T10:58:40Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Cancel an organisation or individual's registration for the Economic Crime Levy and send any final returns to HMRC, if they've become insolvent.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The link to the online form has been updated.",
+   "firstPublished": "2026-04-10T14:34:00+01:00",
+   "ai": {
+    "summary": "Use HMRC’s online form to cancel Economic Crime Levy registration and submit final returns when a liable organisation or individual becomes insolvent. The form requires basic details and can be signed in with a login or email code, with a 28‑day processing time.",
+    "whoAffected": "Organisations or individuals liable for the Economic Crime Levy that have become insolvent, and persons appointed as a trustee in bankruptcy or sequestration, a liquidator or an administrator.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Gather the required details: name, address, levy registration number, insolvency type, insolvency start date and intended deregistration date.",
+     "Sign in to the online form using existing credentials or request an email confirmation code.",
+     "Complete and submit the form to cancel the levy registration and file any final returns.",
+     "Keep the reference number and inform the client that HMRC will process the submission within 28 working days."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T13:00:33.574Z"
+   }
+  },
+  {
+   "id": "b42983deb6d1e60b",
+   "title": "Find your Local Housing Allowance rates",
+   "url": "https://www.gov.uk/guidance/local-housing-allowance",
+   "path": "/guidance/local-housing-allowance",
+   "date": "2026-11-04T09:43:15Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to find the Local Housing Allowance (LHA) rates for your local area.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Information has been updated to show you how to find the Local Housing Allowance (LHA) rates.",
+   "firstPublished": "2016-01-22T00:00:00+00:00",
+   "ai": {
+    "summary": "Local Housing Allowance rates, set by the DWP, determine Housing Benefit for private‑rented households based on local rent levels and bedroom needs. You can view rates online using the property’s postcode or local authority, the bedroom entitlement and the claim start month/year.",
+    "whoAffected": "People renting from private landlords who claim Housing Benefit",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Obtain the property postcode or its local authority",
+     "Confirm the number of bedrooms the household is entitled to",
+     "Identify the month and year the housing benefit claim started",
+     "Use the online tool to look up the LHA rates for that area"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T13:00:36.827Z"
+   }
+  },
+  {
+   "id": "484d8989a830d1eb",
+   "title": "Approved offshore reporting funds",
+   "url": "https://www.gov.uk/government/publications/approved-offshore-reporting-funds",
+   "path": "/government/publications/approved-offshore-reporting-funds",
+   "date": "2026-11-04T09:34:27Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find a list of offshore funds that have applied for and been approved as reporting funds.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The list of reporting funds has been updated.",
+   "firstPublished": "2014-12-04T00:00:00+00:00",
+   "ai": {
+    "summary": "A monthly‑updated list shows offshore funds approved by HMRC as reporting funds, including their reference numbers and identification codes.",
+    "whoAffected": "Offshore funds applying for reporting status and advisers who need to verify a fund’s reporting status",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check the HMRC‑published list each month for new or updated reporting funds",
+     "Record the reporting fund reference and identification numbers for client offshore investments",
+     "Confirm a fund’s reporting status before advising clients on offshore holdings",
+     "Update client advice and documentation based on the latest list"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T13:00:40.291Z"
+   }
+  },
+  {
+   "id": "ce95a1e52ff06acb",
+   "title": "Local reference rents, listed by BRMA and property size (October 2026)",
+   "url": "https://www.gov.uk/government/publications/local-reference-rents-listed-by-brma-and-property-size-october-2026",
+   "path": "/government/publications/local-reference-rents-listed-by-brma-and-property-size-october-2026",
+   "date": "2026-11-04T09:30:06Z",
+   "type": "research",
+   "source": "HMRC (GOV.UK)",
+   "description": "Local reference rent (LRR) levels by number of rooms and broad rental market areas (BRMA) for residential properties in England in October 2026.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-04T09:30:06+00:00",
+   "ai": {
+    "summary": "The October 2026 release lists local reference rent levels for England by BRMA and room category (1A, 1B, 1C), used to set housing‑benefit rent caps.",
+    "whoAffected": "Landlords of residential properties, tenants claiming housing benefit, local authorities and advisers who calculate or advise on housing‑benefit rent levels.",
+    "effectiveDate": "October 2026",
+    "actions": [
+     "Check the new LRR tables for each BRMA and property size relevant to your clients",
+     "Update housing‑benefit rent calculations using the October 2026 LRR data",
+     "Advise landlord clients on appropriate rent levels to meet housing‑benefit thresholds",
+     "Consult the Housing Benefit referral section of the Rent Officer Handbook for methodology"
+    ],
+    "legislationRefs": [
+     "Housing Benefit referral section of the Rent Officer Handbook"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T13:00:43.365Z"
+   }
+  },
+  {
+   "id": "b404f8741432d804",
+   "title": "Reference document for authorised use: eligible goods and authorised uses",
+   "url": "https://www.gov.uk/government/publications/authorised-use-eligible-goods-and-authorised-uses",
+   "path": "/government/publications/authorised-use-eligible-goods-and-authorised-uses",
+   "date": "2026-11-04T09:08:35Z",
+   "type": "statutory_guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "List of eligible goods and their authorised uses.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Authorised Use: Eligible Goods and Authorised Uses, version 2.27, dated 27 October 2026 (entry into force 26 November 2026) added.",
+   "firstPublished": "2018-11-27T00:00:00+00:00",
+   "ai": {
+    "summary": "The document lists the uses for goods declared under an Authorised Use Procedure and will be referenced in a forthcoming Statutory Instrument.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor for the publication of the Statutory Instrument linking to this list",
+     "Review the eligible goods and authorised uses once the SI is available",
+     "Check client declarations against the listed uses",
+     "Update client advice when the SI is published"
+    ],
+    "legislationRefs": [
+     "Statutory Instrument ( SI )"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T13:00:46.021Z"
+   }
+  },
+  {
+   "id": "b7472518fb00f600",
+   "title": "How to move parcels from Great Britain to Northern Ireland for express operators",
+   "url": "https://www.gov.uk/guidance/how-to-move-parcels-from-great-britain-to-northern-ireland-for-express-operators",
+   "path": "/guidance/how-to-move-parcels-from-great-britain-to-northern-ireland-for-express-operators",
+   "date": "2026-11-04T07:58:59Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how to send parcels from Great Britain to Northern Ireland if you're a courier or an express operator.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about import VAT being charged on goods worth more than £135 has been updated in the section ‘The UK Carrier Scheme’.",
+   "firstPublished": "2025-03-19T00:00:00+00:00",
+   "ai": {
+    "summary": "Guidance for couriers and express operators on moving parcels GB‑to‑NI, covering consumer and business parcels, UK Carrier Scheme eligibility, data‑sharing with HMRC, customs declarations, import VAT on goods over £135 and handling of sanctions‑restricted items.",
+    "whoAffected": "Couriers, express operators, UK‑based businesses and private individuals sending parcels from Great Britain to Northern Ireland, including SMEs and self‑employed sellers.",
+    "effectiveDate": "2026-11-04",
+    "actions": [
+     "Check if the parcel meets UK Carrier Scheme criteria (UK‑established sender, weight limits, no prohibited goods)",
+     "Register for HMRC’s file‑transfer service and submit required sender/recipient data within 24 hours (consumer‑to‑consumer) or before delivery (business‑to‑consumer)",
+     "If the parcel originates outside the UK/EU and is over £135, include the Import One‑Stop Shop number on the customs declaration and account for import VAT",
+     "Advise clients on any handling fees, sanctions compliance and the need for an authorised carrier under the UK Carrier Scheme"
+    ],
+    "legislationRefs": [
+     "UK Carrier Scheme",
+     "Windsor Framework",
+     "Customs Declaration Service",
+     "Import One‑Stop Shop",
+     "UK Internal Market Scheme"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T13:00:49.193Z"
+   }
+  },
+  {
+   "id": "5deb14574606c02d",
+   "title": "Insolvency (VAT Notice 700/56)",
+   "url": "https://www.gov.uk/guidance/insolvency-and-vat-notice-70056",
+   "path": "/guidance/insolvency-and-vat-notice-70056",
+   "date": "2026-11-04T07:57:34Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how to account for VAT and who to contact if you're an insolvency practitioner and you're appointed over insolvent VAT-registered businesses.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "The information in section 24 'PAYE' has been removed and replaced with a link to section 24 of the insolvency practitioner's handbook.",
+   "firstPublished": "2014-04-01T00:00:00+01:00"
+  },
   {
    "id": "294ab79b7c1ca41e",
    "title": "Sign in to your HMRC business tax account",
@@ -983,7 +1195,25 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-02T09:00:03+00:00"
+   "firstPublished": "2026-11-02T09:00:03+00:00",
+   "ai": {
+    "summary": "When using the VAT margin scheme, you can claim relief on VAT for bad debts, but only up to the VAT already accounted for on the margin, and must record the claim in the bad debt account and on the VAT return.",
+    "whoAffected": "Sellers who use the VAT margin scheme and have customers who fail to pay (bad debts)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify any unpaid invoices that meet the time‑limit conditions for bad‑debt relief",
+     "Confirm eligibility and limits using Relief from VAT on bad debts (VAT Notice 700/18) and Paragraphs 5.7‑5.8",
+     "Ensure the relief claimed does not exceed the VAT previously accounted for on the margin",
+     "Record the relief in the bad‑debt account and include it on the next VAT return"
+    ],
+    "legislationRefs": [
+     "VAT Notice 700/18",
+     "Paragraphs 5.7 and 5.8 of the notice"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T13:00:53.797Z"
+   }
   },
   {
    "id": "2dbaed53bc78ab58",
@@ -1002,6 +1232,57 @@
    "firstPublished": "2026-11-02T09:00:03+00:00"
   },
   {
+   "id": "38aec13e8e52ca23",
+   "title": "Using the VAT margin scheme for linked insurance products and warranties",
+   "url": "https://www.gov.uk/guidance/using-the-vat-margin-scheme-for-linked-insurance-products-and-warranties",
+   "path": "/guidance/using-the-vat-margin-scheme-for-linked-insurance-products-and-warranties",
+   "date": "2026-11-02T09:00:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to account for VAT on linked insurance products and warranties.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T09:00:02+00:00"
+  },
+  {
+   "id": "2700630bd0b2727b",
+   "title": "Buying and selling goods in Northern Ireland using the VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/buying-and-selling-goods-in-northern-ireland-using-the-vat-margin-scheme",
+   "path": "/guidance/buying-and-selling-goods-in-northern-ireland-using-the-vat-margin-scheme",
+   "date": "2026-11-02T09:00:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "If you buy and sell goods between Northern Ireland and the EU or between Great Britain and Northern Ireland check how to use the VAT margin scheme (VAT Notice 718).",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance from withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been added.",
+   "firstPublished": "2021-12-23T00:00:00+00:00",
+   "ai": {
+    "summary": "Special VAT margin scheme rules apply when buying or selling second‑hand goods, works of art, antiques or collectors’ items between Northern Ireland, Great Britain and the EU. Motor vehicles from GB are excluded, and new transport is never eligible. Record‑keeping, invoicing and reporting requirements differ from standard supplies.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed traders dealing with second‑hand goods, works of art, antiques, collectors’ items, motor vehicles or new means of transport between Northern Ireland, Great Britain and the EU.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check whether the goods (second‑hand, art, antiques, collectors’ items) are eligible for the margin scheme before any transaction",
+     "Ensure purchase invoices from EU VAT‑registered suppliers contain a margin‑scheme indication or confirm with the supplier",
+     "Maintain normal VAT margin scheme records and issue margin‑scheme sales invoices for eligible sales",
+     "Exclude margin‑scheme transactions from EC Sales Lists and Intrastat and report them on the VAT return"
+    ],
+    "legislationRefs": [
+     "Articles 313, 326 or 333 of the EC VAT Directive 2006/112/EC",
+     "VAT Notice 718",
+     "VAT Notice 728"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T12:49:14.135Z"
+   }
+  },
+  {
    "id": "72b9b8fa06c7b481",
    "title": "Using a VAT margin scheme if you’re an agent",
    "url": "https://www.gov.uk/guidance/using-a-vat-margin-scheme-if-youre-an-agent",
@@ -1015,23 +1296,28 @@
    ],
    "hasBody": true,
    "changeNote": "Guidance from withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been added.",
-   "firstPublished": "2021-12-23T00:00:00+00:00"
-  },
-  {
-   "id": "402fa2716d7c9e3d",
-   "title": "Buying and selling horses and ponies using the British Equestrian Trade Association form",
-   "url": "https://www.gov.uk/guidance/buying-and-selling-horses-and-ponies-using-the-british-equestrian-trade-association-form",
-   "path": "/guidance/buying-and-selling-horses-and-ponies-using-the-british-equestrian-trade-association-form",
-   "date": "2026-11-02T09:00:02Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to use the British Equestrian Trade Association (BETA) form when buying and selling horses and ponies.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-11-02T09:00:02+00:00"
+   "firstPublished": "2021-12-23T00:00:00+00:00",
+   "ai": {
+    "summary": "Agents can use the VAT margin scheme only if they act in their own name (undisclosed agents). They charge VAT on their agency fees, not on the goods, and must keep normal margin scheme records and report the transactions on their VAT return.",
+    "whoAffected": "Undisclosed agents (acting in their own name), disclosed agents, and sellers using agents",
+    "effectiveDate": "2026-11-02",
+    "actions": [
+     "Determine whether the client is an undisclosed (acting in own name) or disclosed agent to confirm eligibility for the margin scheme",
+     "If eligible, account for VAT only on the agency charges and not on the goods value",
+     "Invoice any optional services outside the margin scheme and retain normal margin‑scheme records",
+     "Show the margin‑scheme purchases and sales on the VAT return and apply the tax point as the earlier of handing over goods or receiving payment"
+    ],
+    "legislationRefs": [
+     "VAT Notice 700",
+     "VAT Notice 718",
+     "section 22 of VAT Notice 700",
+     "sections 14 and 15 of VAT Notice 700",
+     "Auctioneers’ scheme"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T13:01:00.776Z"
+   }
   },
   {
    "id": "8783e867a90ea6b1",
@@ -1102,55 +1388,20 @@
    }
   },
   {
-   "id": "38aec13e8e52ca23",
-   "title": "Using the VAT margin scheme for linked insurance products and warranties",
-   "url": "https://www.gov.uk/guidance/using-the-vat-margin-scheme-for-linked-insurance-products-and-warranties",
-   "path": "/guidance/using-the-vat-margin-scheme-for-linked-insurance-products-and-warranties",
+   "id": "402fa2716d7c9e3d",
+   "title": "Buying and selling horses and ponies using the British Equestrian Trade Association form",
+   "url": "https://www.gov.uk/guidance/buying-and-selling-horses-and-ponies-using-the-british-equestrian-trade-association-form",
+   "path": "/guidance/buying-and-selling-horses-and-ponies-using-the-british-equestrian-trade-association-form",
    "date": "2026-11-02T09:00:02Z",
    "type": "detailed_guide",
    "source": "HMRC (GOV.UK)",
-   "description": "How to account for VAT on linked insurance products and warranties.",
+   "description": "How to use the British Equestrian Trade Association (BETA) form when buying and selling horses and ponies.",
    "categories": [
     "vat"
    ],
    "hasBody": true,
    "changeNote": "First published.",
    "firstPublished": "2026-11-02T09:00:02+00:00"
-  },
-  {
-   "id": "2700630bd0b2727b",
-   "title": "Buying and selling goods in Northern Ireland using the VAT margin scheme",
-   "url": "https://www.gov.uk/guidance/buying-and-selling-goods-in-northern-ireland-using-the-vat-margin-scheme",
-   "path": "/guidance/buying-and-selling-goods-in-northern-ireland-using-the-vat-margin-scheme",
-   "date": "2026-11-02T09:00:02Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "If you buy and sell goods between Northern Ireland and the EU or between Great Britain and Northern Ireland check how to use the VAT margin scheme (VAT Notice 718).",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "Guidance from withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been added.",
-   "firstPublished": "2021-12-23T00:00:00+00:00",
-   "ai": {
-    "summary": "Special VAT margin scheme rules apply when buying or selling second‑hand goods, works of art, antiques or collectors’ items between Northern Ireland, Great Britain and the EU. Motor vehicles from GB are excluded, and new transport is never eligible. Record‑keeping, invoicing and reporting requirements differ from standard supplies.",
-    "whoAffected": "SMEs, owner‑managed businesses and self‑employed traders dealing with second‑hand goods, works of art, antiques, collectors’ items, motor vehicles or new means of transport between Northern Ireland, Great Britain and the EU.",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Check whether the goods (second‑hand, art, antiques, collectors’ items) are eligible for the margin scheme before any transaction",
-     "Ensure purchase invoices from EU VAT‑registered suppliers contain a margin‑scheme indication or confirm with the supplier",
-     "Maintain normal VAT margin scheme records and issue margin‑scheme sales invoices for eligible sales",
-     "Exclude margin‑scheme transactions from EC Sales Lists and Intrastat and report them on the VAT return"
-    ],
-    "legislationRefs": [
-     "Articles 313, 326 or 333 of the EC VAT Directive 2006/112/EC",
-     "VAT Notice 718",
-     "VAT Notice 728"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-03T12:49:14.135Z"
-   }
   },
   {
    "id": "b3cc68e3b5dfebb4",
@@ -1294,42 +1545,24 @@
    ],
    "hasBody": true,
    "changeNote": "Guidance from withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been added.",
-   "firstPublished": "2021-12-23T00:00:00+00:00"
-  },
-  {
-   "id": "b7472518fb00f600",
-   "title": "How to move parcels from Great Britain to Northern Ireland for express operators",
-   "url": "https://www.gov.uk/guidance/how-to-move-parcels-from-great-britain-to-northern-ireland-for-express-operators",
-   "path": "/guidance/how-to-move-parcels-from-great-britain-to-northern-ireland-for-express-operators",
-   "date": "2026-11-01T06:00:05Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out how to send parcels from Great Britain to Northern Ireland if you're a courier or an express operator.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated the section ‘Consumer parcel movements’ to confirm that distance sales moving into Northern Ireland that are ‘at risk’ of entering the EU are charged a handling fee of 2 euros for each item. Updated the section ‘Moving parcels if you’re authorised under the UK Carrier Scheme’ to confirm that import VAT is due on the value of any goods worth more than £135.",
-   "firstPublished": "2025-03-19T00:00:00+00:00",
+   "firstPublished": "2021-12-23T00:00:00+00:00",
    "ai": {
-    "summary": "Guidance explains how couriers and express operators can move parcels from Great Britain to Northern Ireland, detailing when customs declarations, duties, and handling fees apply, the UK Carrier Scheme requirements, data reporting to HMRC, and import VAT on goods over £135.",
-    "whoAffected": "Couriers and express operators, UK‑based businesses and private individuals sending parcels GB → NI, and their recipients in Northern Ireland.",
-    "effectiveDate": "2026-11-01",
+    "summary": "Guidance on using the VAT margin scheme for second‑hand horses and ponies, covering eligibility, record‑keeping options (normal records or BETA form), required details for purchases over £500, and reporting on VAT returns.",
+    "whoAffected": "Equestrian traders, auctioneers and agents who buy and sell second‑hand horses or ponies, including SMEs and owner‑managed businesses in the horse trade",
+    "effectiveDate": "2026-11-02T09:00:01Z",
     "actions": [
-     "Check if parcels meet the UK Carrier Scheme eligibility criteria (UK‑established sender, authorised carrier, personal use, weight limits, no prohibited goods).",
-     "If eligible, ensure the carrier is authorised and submit required movement data to HMRC within 24 hours (consumer‑to‑consumer) or before delivery (business‑to‑consumer).",
-     "For parcels ‘at risk’ of entering the EU, apply a €2 handling fee per line item and charge import VAT on goods valued over £135.",
-     "Advise clients to provide full parcel details (description, sender type) and, where required, include the Import One‑Stop Shop number on customs declarations."
+     "Check the horse or pony is second‑hand and not bred by you or purchased with VAT shown separately",
+     "Decide whether to keep normal margin scheme records or use the BETA form",
+     "If using normal records, capture passport number or vet certification plus colour, sex, breed, age, height, stable name and markings for purchases over £500",
+     "Show the margin‑scheme sales on the VAT return"
     ],
     "legislationRefs": [
-     "UK Carrier Scheme",
-     "Windsor Framework",
-     "Import One‑Stop Shop",
-     "UK Internal Market Scheme"
+     "Section 2.4 — additional information requirements for horses and ponies",
+     "Section 2.5 — BETA scheme for horses and ponies"
     ],
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-01T11:51:10.071Z"
+    "generatedAt": "2026-11-04T13:01:11.415Z"
    }
   },
   {
@@ -4126,7 +4359,22 @@
    ],
    "hasBody": true,
    "changeNote": "The exchequer impact table has been updated for Budget 2026.",
-   "firstPublished": "2026-07-13T13:11:00+01:00"
+   "firstPublished": "2026-07-13T13:11:00+01:00",
+   "ai": {
+    "summary": "From April 2027 the higher Air Passenger Duty rate will apply to aircraft of 5.7 tonnes or more used as private or business jets, extending the tax to ensure fair contribution.",
+    "whoAffected": "Owners and operators of private or business jets that weigh 5.7 tonnes or more",
+    "effectiveDate": "April 2027",
+    "actions": [
+     "Check client jet weight and usage to see if the higher rate will apply from April 2027",
+     "Advise affected clients on the likely increase in Air Passenger Duty and budgeting implications",
+     "Submit any technical feedback to HMRC by 7 September 2026 as requested",
+     "Update client tax planning and filing procedures to reflect the new higher rate"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T13:01:17.894Z"
+   }
   },
   {
    "id": "015784bf56f463b9",
@@ -4306,7 +4554,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T15:00:01+00:00"
+   "firstPublished": "2026-10-28T15:00:01+00:00",
+   "ai": {
+    "summary": "EMI and EMI2 are tax‑advantaged share schemes letting eligible companies grant employees options to buy shares later at a pre‑set price.",
+    "whoAffected": "Eligible companies (including SMEs and owner‑managed businesses) and their employees",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check client meets EMI/EMI2 eligibility criteria",
+     "Draft and review share option agreements with agreed grant price",
+     "Confirm compliance with HMRC reporting requirements",
+     "Provide ongoing advice on tax implications of exercised options"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T13:01:26.861Z"
+   }
   },
   {
    "id": "2c228aebfe813376",
@@ -4419,7 +4682,22 @@
    ],
    "hasBody": true,
    "changeNote": "Published outcome, including summary of responses.",
-   "firstPublished": "2026-03-10T12:18:31+00:00"
+   "firstPublished": "2026-03-10T12:18:31+00:00",
+   "ai": {
+    "summary": "The government will require corporation tax computations to use a prescribed format and mandate online filing of any amendments, seeking feedback on timelines, enforcement and possible exemptions.",
+    "whoAffected": "Companies subject to Corporation Tax, including SMEs and owner‑managed businesses",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review clients' current CT computation formats against the upcoming prescribed standards",
+     "Advise clients on the proposed timelines and prepare to adopt the new format",
+     "Implement procedures for mandatory online filing of tax return amendments",
+     "Monitor consultation outcomes for any exemptions and update client guidance accordingly"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T13:01:36.020Z"
+   }
   },
   {
    "id": "cbcb939567e3c353",
@@ -5232,41 +5510,6 @@
    }
   },
   {
-   "id": "5deb14574606c02d",
-   "title": "Insolvency (VAT Notice 700/56)",
-   "url": "https://www.gov.uk/guidance/insolvency-and-vat-notice-70056",
-   "path": "/guidance/insolvency-and-vat-notice-70056",
-   "date": "2026-10-23T12:27:25Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out how to account for VAT and who to contact if you're an insolvency practitioner and you're appointed over insolvent VAT-registered businesses.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "Information in sections '9 — Trading after bankruptcy', '14 — Taking control of goods or distraint', '22 — Funded pension schemes' and '26 — The Mid-sized Business (MSB) temporary Customer Compliance Manager (tCCM) model' has been removed and replaced with links to this information within the 'Insolvency practitioner's handbook'.",
-   "firstPublished": "2014-04-01T00:00:00+01:00",
-   "ai": {
-    "summary": "The notice directs insolvency practitioners to the Insolvency practitioner’s handbook for all VAT matters in insolvency, including notifications, claims, returns, registration cancellation, dividend payments, partnership handling, Crown set‑off and property assets.",
-    "whoAffected": "Insolvency practitioners handling insolvent VAT‑registered businesses, including partnerships and companies, and the firms they advise (SMEs, owner‑managed businesses, self‑employed).",
-    "effectiveDate": "2026-10-23",
-    "actions": [
-     "Consult the Insolvency practitioner’s handbook for detailed guidance on notifications, claims, returns and registration cancellation",
-     "Use the correct 13‑character payment reference and HMRC bank details when paying dividends",
-     "Determine solvent vs insolvent partners and ensure returns are filed by the responsible parties",
-     "Check Crown set‑off rules to understand how pre‑insolvency credits may be applied"
-    ],
-    "legislationRefs": [
-     "VAT Notice 700",
-     "VAT Notice 700/56",
-     "Law of Property Act"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-23T17:03:56.045Z"
-   }
-  },
-  {
    "id": "d8b8964d55975ed2",
    "title": "Filing your Companies House accounts",
    "url": "https://www.gov.uk/government/publications/filing-your-companies-house-accounts",
@@ -5791,37 +6034,6 @@
     "relevance": "low",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-20T16:59:59.285Z"
-   }
-  },
-  {
-   "id": "f1a1a862d762efa5",
-   "title": "Tell HMRC an entity liable for the Economic Crime Levy has become insolvent",
-   "url": "https://www.gov.uk/guidance/tell-hmrc-an-entity-liable-for-the-economic-crime-levy-has-become-insolvent",
-   "path": "/guidance/tell-hmrc-an-entity-liable-for-the-economic-crime-levy-has-become-insolvent",
-   "date": "2026-10-20T09:54:57Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Cancel an organisation or individual's registration for the Economic Crime Levy and send any final returns to HMRC, if they've become insolvent.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "The link to the online form has been updated. ",
-   "firstPublished": "2026-04-10T14:34:00+01:00",
-   "ai": {
-    "summary": "Use HMRC’s online form to submit final Economic Crime Levy returns and cancel registration when a liable organisation or individual becomes insolvent, provided you’re the appointed trustee, liquidator or administrator.",
-    "whoAffected": "Organisations or individuals liable for the Economic Crime Levy that have entered insolvency, and their appointed trustees, liquidators or administrators.",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Gather the required details: name, address, levy registration number, insolvency type, insolvency start date and intended deregistration date.",
-     "Confirm you are an authorised party (trustee in bankruptcy, liquidator or administrator).",
-     "Sign in to the online form using HMRC credentials or email verification and submit the final returns and cancellation request.",
-     "Record the reference number and await HMRC confirmation, noting they will respond within 28 working days."
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-20T10:06:18.039Z"
    }
   },
   {
@@ -6621,37 +6833,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-12T13:12:20.027Z"
-   }
-  },
-  {
-   "id": "484d8989a830d1eb",
-   "title": "Approved offshore reporting funds",
-   "url": "https://www.gov.uk/government/publications/approved-offshore-reporting-funds",
-   "path": "/government/publications/approved-offshore-reporting-funds",
-   "date": "2026-10-12T10:30:44Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find a list of offshore funds that have applied for and been approved as reporting funds.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "The list of reporting funds has been updated.",
-   "firstPublished": "2014-12-04T00:00:00+00:00",
-   "ai": {
-    "summary": "A monthly‑updated list shows offshore funds approved by HMRC as reporting funds, including their reference numbers and identification codes.",
-    "whoAffected": "Offshore funds and advisers/clients who need to confirm reporting‑fund status",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Check the HMRC‑approved reporting fund list each month",
-     "Match client offshore fund references to the list entries",
-     "Confirm that client funds have reporting fund status for compliance",
-     "Record the fund identifiers (ISIN, SEDR, CUSIP) for client files"
-    ],
-    "legislationRefs": [],
-    "relevance": "medium",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-12T13:12:22.599Z"
    }
   },
   {
