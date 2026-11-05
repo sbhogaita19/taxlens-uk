@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-04T19:45:13.618Z",
+ "generatedAt": "2026-11-05T13:14:38.363Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,180 @@
    "label": "Other"
   }
  ],
- "count": 563,
+ "count": 567,
  "items": [
+  {
+   "id": "7a6e5d95423949f7",
+   "title": "Making an entry summary declaration",
+   "url": "https://www.gov.uk/guidance/making-an-entry-summary-declaration",
+   "path": "/guidance/making-an-entry-summary-declaration",
+   "date": "2026-11-05T11:35:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Make an entry summary declaration if you move goods into Great Britain, into Northern Ireland from Great Britain, or into Northern Ireland from countries outside the EU.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The file 'Entry summary declaration data elements for the S&S GB service' has been updated in the 'Data elements for entry summary declarations' section.",
+   "firstPublished": "2019-01-10T00:00:00+00:00",
+   "ai": {
+    "summary": "Carriers must submit an entry summary declaration before goods arrive when moving goods into Great Britain or Northern Ireland (from GB or non‑EU). Declarations are made via S&S GB for GB imports and via ICS2 for NI imports, using compatible XML software or a customs agent, and must be accurate and on time.",
+    "whoAffected": "Carriers, importers and customs agents handling goods moving into Great Britain or Northern Ireland – including SME owners, self‑employed traders and their appointed third‑party agents.",
+    "effectiveDate": "2026‑11‑05T11:35:01Z",
+    "actions": [
+     "Confirm whether the client’s goods require an entry summary declaration and identify the correct service (S‑S GB for GB, ICS2 for NI).",
+     "Verify the client has a GB‑starting EORI for GB imports or an XI/EU‑member‑state EORI for NI imports and register if needed.",
+     "Ensure the client uses compatible XML software or a qualified customs agent, and maintain at least two authorised users for HMRC services.",
+     "Advise the client to submit the declaration up to 200 days before arrival and to amend any errors before the goods reach the destination."
+    ],
+    "legislationRefs": [
+     "customs technical handbook",
+     "Windsor Framework"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T13:13:36.191Z"
+   }
+  },
+  {
+   "id": "087f1edfdb53d1fb",
+   "title": "Self Assessment: Partnership Tax Return (SA800)",
+   "url": "https://www.gov.uk/government/publications/self-assessment-partnership-tax-return-sa800",
+   "path": "/government/publications/self-assessment-partnership-tax-return-sa800",
+   "date": "2026-11-05T10:35:14Z",
+   "type": "form",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use form SA800 to file a Partnership Tax Return.",
+   "categories": [
+    "personal",
+    "selfemployed"
+   ],
+   "hasBody": true,
+   "changeNote": "The ombudsman's postal address in 'Partnership Tax Return Guide notes (2026)' has been updated.",
+   "firstPublished": "2014-04-04T00:00:00+01:00",
+   "ai": {
+    "summary": "Use form SA800 to file a Partnership Tax Return online when the partnership’s only income is trading, professional income, or taxed interest/alternative finance. Include any needed supplementary pages (SA800(PS), SA800(TP), SA801‑SA804). Refer to related guidance for non‑resident or foreign‑domiciled partners.",
+    "whoAffected": "Partnerships, including SME owner‑managed businesses and self‑employed partners",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the partnership’s income is limited to trading, professional income and taxed interest/alternative finance",
+     "File the SA800 return online via the Self Assessment portal",
+     "Attach any required supplementary pages (SA800(PS), SA800(TP), SA801, SA802, SA803, SA804)",
+     "Consult the HS380 helpsheet and other guidance for non‑resident or foreign‑domiciled partners"
+    ],
+    "legislationRefs": [
+     "SA800",
+     "SA800(PS)",
+     "SA800(TP)",
+     "SA801",
+     "SA802",
+     "SA803",
+     "SA804",
+     "HS380"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T13:13:39.205Z"
+   }
+  },
+  {
+   "id": "48b0abac0730d36e",
+   "title": "Start or end an exception to mandatory payrolling of benefits",
+   "url": "https://www.gov.uk/guidance/start-or-end-an-exception-to-mandatory-payrolling-of-benefits",
+   "path": "/guidance/start-or-end-an-exception-to-mandatory-payrolling-of-benefits",
+   "date": "2026-11-05T10:00:53Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use this form to ask HMRC to start or end an exception for globally mobile employees from mandatory payrolling of benefits in kind.",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-05T10:00:53+00:00",
+   "ai": {
+    "summary": "From 6 April 2027 employers must payroll company cars, vans and medical insurance. You can apply to HMRC for an exception for eligible globally‑mobile staff, allowing P11D reporting instead. The exception starts on the date you give, ends only on 5 April, and must be recorded.",
+    "whoAffected": "Employers of SMEs, owner‑managed businesses and the self‑employed who provide company cars, vans or medical insurance to globally‑mobile employees",
+    "effectiveDate": "6 April 2027",
+    "actions": [
+     "Identify globally‑mobile employees who meet the eligibility criteria",
+     "Decide whether to apply for an exception and gather required employee and employer details",
+     "Submit the online exception form before the start date and keep a copy of the submission details",
+     "If approved, stop payrolling the benefits from the start date and report them on P11D at year‑end"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T13:13:42.907Z"
+   }
+  },
+  {
+   "id": "3436364e7ca2ac33",
+   "title": "Find out about the loan charge settlement scheme",
+   "url": "https://www.gov.uk/guidance/find-out-about-the-loan-charge-settlement-scheme",
+   "path": "/guidance/find-out-about-the-loan-charge-settlement-scheme",
+   "date": "2026-11-05T08:48:16Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out about settling your outstanding disguised remuneration loan charge liability under the loan charge settlement scheme.",
+   "categories": [
+    "nic",
+    "personal",
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "A new section ‘Watch a HMRC video about the loan charge settlement scheme’ has been added.",
+   "firstPublished": "2026-07-17T14:30:00+01:00",
+   "ai": {
+    "summary": "The loan charge settlement scheme lets individuals or employers with unpaid disguised remuneration liabilities settle under a simplified offer, reducing tax, NIC and a £5,000 deduction, but excludes late interest and most penalties. HMRC contacts eligible parties and provides payment options.",
+    "whoAffected": "Individuals and employers who have an outstanding disguised remuneration loan charge liability that has not been paid in full, including any related Income Tax, National Insurance and late payment interest arising from the loan charge.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review any HMRC settlement offer letters your client receives to confirm eligibility and check the figures shown.",
+     "If the client disagrees with the figures, advise them to contact their HMRC caseworker to discuss and request a revised offer.",
+     "Explain the payment options – full payment or an instalment plan up to five years – and help the client complete and return the acceptance form.",
+     "Recommend the client obtain independent advice on any Inheritance Tax implications and whether to end loan or trust arrangements.",
+     ""
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T13:13:46.596Z"
+   }
+  },
+  {
+   "id": "d29484c3a1a16698",
+   "title": "How to use the voluntary payrolling benefits and expenses online service",
+   "url": "https://www.gov.uk/guidance/paying-your-employees-expenses-and-benefits-through-your-payroll",
+   "path": "/guidance/paying-your-employees-expenses-and-benefits-through-your-payroll",
+   "date": "2026-11-05T00:05:03Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use the payrolling benefits and expenses online service if you voluntarily collect tax on benefits and expenses through your payroll.",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "The service has reopened for registrations and cancellations. Living accommodation and loans can now be payrolled. Guidance on how voluntary payrolling will work from 6 April 2027 has been added.",
+   "firstPublished": "2014-06-12T00:00:00+01:00"
+  },
+  {
+   "id": "16bd90092a91b953",
+   "title": "Voluntarily payrolling employees' benefits and expenses",
+   "url": "https://www.gov.uk/guidance/payrolling-tax-employees-benefits-and-expenses-through-your-payroll",
+   "path": "/guidance/payrolling-tax-employees-benefits-and-expenses-through-your-payroll",
+   "date": "2026-11-05T00:05:03Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to voluntarily report expenses and benefits you provide to employees or directors.",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "The voluntary online payrolling service has reopened for registrations and cancellations. Living accommodation and loans can now be payrolled. Information about benefits you can payroll and Real Driving Emissions 2 has been removed as it is no longer applicable.",
+   "firstPublished": "2016-02-05T00:00:00+00:00"
+  },
   {
    "id": "d19bad523be82429",
    "title": "Apply to pay voluntary National Insurance contributions for periods abroad by post (CF83)",
@@ -1063,37 +1235,6 @@
    }
   },
   {
-   "id": "b4162a42dbaeceb2",
-   "title": "Using the VAT margin scheme for hire-purchase and part-exchange goods",
-   "url": "https://www.gov.uk/guidance/using-the-vat-margin-scheme-for-hire-purchase-and-part-exchange-goods",
-   "path": "/guidance/using-the-vat-margin-scheme-for-hire-purchase-and-part-exchange-goods",
-   "date": "2026-11-02T09:00:03Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to account for VAT using the VAT margin scheme for hire-purchase sales and part-exchange goods.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-11-02T09:00:03+00:00",
-   "ai": {
-    "summary": "Guidance on VAT margin scheme for hire‑purchase and part‑exchange: record sales price in stock book, keep or reference hire‑purchase agreements, don’t show VAT on finance charges, and include part‑exchange values in margin calculations.",
-    "whoAffected": "Businesses that arrange hire‑purchase agreements or accept part‑exchange goods under the VAT margin scheme, including SMEs, owner‑managed firms and the self‑employed.",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Record the hire‑purchase sales price in your margin‑scheme stock book and ensure finance charges are itemised separately with no VAT shown",
-     "Attach a copy of the hire‑purchase agreement to the customer invoice or cross‑reference it, and keep required documents if the agreement is held by the finance company",
-     "Do not show VAT on the hire‑purchase agreement or the customer’s sales invoice; treat finance charges as VAT‑free",
-     "When accepting part‑exchange, include the agreed part‑exchange value in the selling price, record the correct purchase price in the stock book, and obtain a purchase invoice if the goods come from a VAT‑registered dealer"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-03T19:29:15.231Z"
-   }
-  },
-  {
    "id": "280594d00bb3e5d7",
    "title": "Check the recognised overseas pension schemes notification list",
    "url": "https://www.gov.uk/guidance/check-the-recognised-overseas-pension-schemes-notification-list",
@@ -1123,6 +1264,37 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-03T19:29:18.206Z"
+   }
+  },
+  {
+   "id": "bf545f4be5316ff1",
+   "title": "Using the VAT margin scheme for repossessed goods and goods subject to insurance claims",
+   "url": "https://www.gov.uk/guidance/using-the-vat-margin-scheme-for-repossessed-goods-and-goods-subject-to-insurance-claims",
+   "path": "/guidance/using-the-vat-margin-scheme-for-repossessed-goods-and-goods-subject-to-insurance-claims",
+   "date": "2026-11-02T09:00:03Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to account for VAT using the VAT margin scheme for repossessed goods and goods subject to insurance claims.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T09:00:03+00:00",
+   "ai": {
+    "summary": "Guidance on using the VAT margin scheme for repossessed or insurance‑claim goods, outlining when banks, finance firms and others can avoid VAT and how to calculate and record the margin.",
+    "whoAffected": "Banks, financial institutions, finance companies and other businesses that buy and sell repossessed or insurance‑claim second‑hand goods under the VAT margin scheme",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the goods were bought from a person who would not have charged VAT (e.g., a private individual)",
+     "Check the goods are sold in the same condition (or, for finance companies, that any improvements qualify) and meet margin‑scheme eligibility",
+     "Calculate the margin and VAT due using the normal margin‑scheme calculation",
+     "Keep the normal VAT margin‑scheme records and report the transactions on the VAT return"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T13:32:15.620Z"
    }
   },
   {
@@ -1167,14 +1339,14 @@
    }
   },
   {
-   "id": "bf545f4be5316ff1",
-   "title": "Using the VAT margin scheme for repossessed goods and goods subject to insurance claims",
-   "url": "https://www.gov.uk/guidance/using-the-vat-margin-scheme-for-repossessed-goods-and-goods-subject-to-insurance-claims",
-   "path": "/guidance/using-the-vat-margin-scheme-for-repossessed-goods-and-goods-subject-to-insurance-claims",
+   "id": "b4162a42dbaeceb2",
+   "title": "Using the VAT margin scheme for hire-purchase and part-exchange goods",
+   "url": "https://www.gov.uk/guidance/using-the-vat-margin-scheme-for-hire-purchase-and-part-exchange-goods",
+   "path": "/guidance/using-the-vat-margin-scheme-for-hire-purchase-and-part-exchange-goods",
    "date": "2026-11-02T09:00:03Z",
    "type": "detailed_guide",
    "source": "HMRC (GOV.UK)",
-   "description": "How to account for VAT using the VAT margin scheme for repossessed goods and goods subject to insurance claims.",
+   "description": "How to account for VAT using the VAT margin scheme for hire-purchase sales and part-exchange goods.",
    "categories": [
     "vat"
    ],
@@ -1182,19 +1354,19 @@
    "changeNote": "First published.",
    "firstPublished": "2026-11-02T09:00:03+00:00",
    "ai": {
-    "summary": "Guidance on using the VAT margin scheme for repossessed or insurance‑claim goods, outlining when banks, finance firms and others can avoid VAT and how to calculate and record the margin.",
-    "whoAffected": "Banks, financial institutions, finance companies and other businesses that buy and sell repossessed or insurance‑claim second‑hand goods under the VAT margin scheme",
+    "summary": "Guidance on VAT margin scheme for hire‑purchase and part‑exchange: record sales price in stock book, keep or reference hire‑purchase agreements, don’t show VAT on finance charges, and include part‑exchange values in margin calculations.",
+    "whoAffected": "Businesses that arrange hire‑purchase agreements or accept part‑exchange goods under the VAT margin scheme, including SMEs, owner‑managed firms and the self‑employed.",
     "effectiveDate": "Not stated in source",
     "actions": [
-     "Confirm the goods were bought from a person who would not have charged VAT (e.g., a private individual)",
-     "Check the goods are sold in the same condition (or, for finance companies, that any improvements qualify) and meet margin‑scheme eligibility",
-     "Calculate the margin and VAT due using the normal margin‑scheme calculation",
-     "Keep the normal VAT margin‑scheme records and report the transactions on the VAT return"
+     "Record the hire‑purchase sales price in your margin‑scheme stock book and ensure finance charges are itemised separately with no VAT shown",
+     "Attach a copy of the hire‑purchase agreement to the customer invoice or cross‑reference it, and keep required documents if the agreement is held by the finance company",
+     "Do not show VAT on the hire‑purchase agreement or the customer’s sales invoice; treat finance charges as VAT‑free",
+     "When accepting part‑exchange, include the agreed part‑exchange value in the selling price, record the correct purchase price in the stock book, and obtain a purchase invoice if the goods come from a VAT‑registered dealer"
     ],
     "legislationRefs": [],
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-02T13:32:15.620Z"
+    "generatedAt": "2026-11-03T19:29:15.231Z"
    }
   },
   {
@@ -1617,7 +1789,27 @@
    ],
    "hasBody": true,
    "changeNote": "Guidance from withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been added.",
-   "firstPublished": "2021-12-23T00:00:00+00:00"
+   "firstPublished": "2021-12-23T00:00:00+00:00",
+   "ai": {
+    "summary": "Pawnbrokers can use a VAT margin scheme only for loans of £75 or less with a minimum six‑month term; special rules apply for restoration, goods over £75, and auction sales, and specific records and calculations must be kept and reported on the VAT return.",
+    "whoAffected": "Pawnbrokers and auctioneers handling unredeemed pawned goods (including any pledgors who are taxable persons)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the loan is £75 or less and the loan period is at least six months before applying the margin scheme",
+     "Maintain pledge stock records, attach the credit agreement with contract number and interest calculations, and keep purchase invoices as required",
+     "Calculate the purchase price as loan amount plus six‑month interest minus any payments, excluding grace‑period interest and overhead costs",
+     "Show all margin‑scheme purchases and sales on the VAT return and adjust records if a pledge is restored during the grace period"
+    ],
+    "legislationRefs": [
+     "section 7.1 — additional conditions for pawned goods",
+     "section 7.2 — restoration of pledge",
+     "section 7.3 — purchase invoice for pawned goods",
+     "paragraph 18.4 of Notice 700"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T13:13:59.797Z"
+   }
   },
   {
    "id": "660612c530ca4cca",
@@ -3737,6 +3929,40 @@
    }
   },
   {
+   "id": "56a0c1a46c24be1a",
+   "title": "Statutory reorganisations: general power",
+   "url": "https://www.gov.uk/government/publications/statutory-reorganisations-general-power",
+   "path": "/government/publications/statutory-reorganisations-general-power",
+   "date": "2026-10-28T17:35:22Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about the creation of a general power to neutralise any tax consequences of a reorganisation of public sector bodies. ",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:22+00:00",
+   "ai": {
+    "summary": "A new general power lets tax provisions for public sector body reorganisations be made via secondary legislation, removing the need for bespoke primary legislation while keeping ministerial oversight.",
+    "whoAffected": "Public sector bodies undergoing reorganisation and the ministers overseeing secondary legislation",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor any secondary legislation issued for public body reorganisations",
+     "Advise clients that tax consequences will be addressed through secondary legislation rather than primary statutes",
+     "Review client reorganisations to identify any tax implications that may be covered by the new power",
+     "Ensure compliance with any tax provisions made under the secondary legislation process"
+    ],
+    "legislationRefs": [
+     "primary legislation",
+     "secondary legislation"
+    ],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-01T11:51:28.229Z"
+   }
+  },
+  {
    "id": "c57ee87c117007d6",
    "title": "VAT refund claims made using form VAT126",
    "url": "https://www.gov.uk/government/publications/vat-refund-claims-made-using-form-vat126",
@@ -3772,40 +3998,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-30T11:25:36.315Z"
-   }
-  },
-  {
-   "id": "56a0c1a46c24be1a",
-   "title": "Statutory reorganisations: general power",
-   "url": "https://www.gov.uk/government/publications/statutory-reorganisations-general-power",
-   "path": "/government/publications/statutory-reorganisations-general-power",
-   "date": "2026-10-28T17:35:22Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This tax information and impact note is about the creation of a general power to neutralise any tax consequences of a reorganisation of public sector bodies. ",
-   "categories": [
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:22+00:00",
-   "ai": {
-    "summary": "A new general power lets tax provisions for public sector body reorganisations be made via secondary legislation, removing the need for bespoke primary legislation while keeping ministerial oversight.",
-    "whoAffected": "Public sector bodies undergoing reorganisation and the ministers overseeing secondary legislation",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Monitor any secondary legislation issued for public body reorganisations",
-     "Advise clients that tax consequences will be addressed through secondary legislation rather than primary statutes",
-     "Review client reorganisations to identify any tax implications that may be covered by the new power",
-     "Ensure compliance with any tax provisions made under the secondary legislation process"
-    ],
-    "legislationRefs": [
-     "primary legislation",
-     "secondary legislation"
-    ],
-    "relevance": "low",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-01T11:51:28.229Z"
    }
   },
   {
@@ -4898,7 +5090,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:50:04+00:00"
+   "firstPublished": "2026-10-28T13:50:04+00:00",
+   "ai": {
+    "summary": "From 1 April 2028 machine suppliers will be liable for Machine Games Duty on supplier‑owned machines under profit‑share deals, while premises operators stay liable for owned or fixed‑rental machines. The consultation asks about clarity, impacts, administration and transition.",
+    "whoAffected": "Machine suppliers, premises operators, gaming‑machine rental firms, pubs, clubs, family entertainment centres, adult gaming centres, arcades, bingo halls, casinos and bookmakers.",
+    "effectiveDate": "1 April 2028",
+    "actions": [
+     "Check client contracts to identify profit‑share versus fixed‑rental arrangements",
+     "Assess which party will be liable for MGD under the new rules",
+     "Advise clients on any needed changes to agreements or accounting",
+     "Prepare a response to the consultation if appropriate"
+    ],
+    "legislationRefs": [
+     "Machine Games Duty (MGD)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T13:14:14.998Z"
+   }
   },
   {
    "id": "17d3256119ead41e",
@@ -4961,7 +5170,22 @@
    ],
    "hasBody": true,
    "changeNote": "Published outcome, including summary of responses.",
-   "firstPublished": "2026-06-10T17:27:13+01:00"
+   "firstPublished": "2026-06-10T17:27:13+01:00",
+   "ai": {
+    "summary": "The consultation highlights double taxation risks for UK resident individuals who are members of reverse hybrids like US LLCs and proposes solutions, seeking stakeholder feedback.",
+    "whoAffected": "UK resident individuals who are members of reverse hybrid entities such as US LLCs",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients who are members of reverse hybrids",
+     "Review their tax positions for potential double taxation",
+     "Monitor the consultation outcome and related legislative changes",
+     "Advise clients on mitigation options and consider submitting feedback"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T13:14:19.131Z"
+   }
   },
   {
    "id": "e24dd4900f4f1cc7",
@@ -5001,7 +5225,7 @@
    "path": "/government/consultations/vat-treatment-of-land-for-social-housing",
    "date": "2026-10-28T13:49:43Z",
    "type": "consultation_outcome",
-   "source": "HMRC (GOV.UK)",
+   "source": "HM Treasury (GOV.UK)",
    "description": "Consultation on introducing a new VAT zero rate for land intended for the construction of social housing across the UK.",
    "categories": [
     "vat",
@@ -5042,7 +5266,22 @@
    ],
    "hasBody": true,
    "changeNote": "Published outcome, including summary of responses.",
-   "firstPublished": "2026-03-19T09:30:09+00:00"
+   "firstPublished": "2026-03-19T09:30:09+00:00",
+   "ai": {
+    "summary": "A consultation proposes new HMRC reporting requirements for transactions between close companies and their participators, seeking views to ensure proportionate rules and support for affected parties.",
+    "whoAffected": "Close companies, their participators, advisers, relevant trade bodies, and tax or accounting software developers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the consultation and note any proposed reporting changes",
+     "Assess how new reporting requirements could affect your close‑company clients",
+     "Discuss the proposals with affected clients and advise on potential preparations",
+     "Prepare internal guidance so the practice can support clients if requirements are introduced"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T13:14:25.007Z"
+   }
   },
   {
    "id": "d1ee3ea3722747ef",
@@ -5106,7 +5345,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:43:00+00:00"
+   "firstPublished": "2026-10-28T13:43:00+00:00",
+   "ai": {
+    "summary": "The document lists Budget 2026 tax policy measures, their legislative timing, and links to related information, aimed at tax practitioners and those involved in policy consultations.",
+    "whoAffected": "Tax practitioners and others interested in tax policy changes, especially participants in consultations",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review the listed tax policy measures",
+     "Note the dates when measures will be legislated",
+     "Access the linked tax information, impact notes and rates tables",
+     "Engage in consultations on policy and draft legislation"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T13:14:29.749Z"
+   }
   },
   {
    "id": "620889997a17495e",
@@ -5138,7 +5392,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:40:29+00:00"
+   "firstPublished": "2026-10-28T13:40:29+00:00",
+   "ai": {
+    "summary": "Founders’ Relief introduces a 10% CGT rate for qualifying share disposals by founders and early investors, with a £10 million lifetime gain limit, effective from 6 April 2027, subject to conditions to be finalised.",
+    "whoAffected": "Founders and significant early investors in high‑growth, innovative UK companies who dispose of qualifying shares.",
+    "effectiveDate": "6 April 2027",
+    "actions": [
+     "Review client shareholdings to identify potential eligibility for Founders’ Relief.",
+     "Assess whether disposals meet the individual, company and growth‑innovation conditions under the proposed rules.",
+     "Advise clients on timing of disposals to benefit from the 10% CGT rate from 6 April 2027.",
+     "Monitor consultation responses and the upcoming Finance Bill 2026/27 for final design."
+    ],
+    "legislationRefs": [
+     "Finance Bill 2026/27"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T13:14:35.230Z"
+   }
   },
   {
    "id": "3ba502b446f004ad",
@@ -6400,37 +6671,6 @@
    }
   },
   {
-   "id": "7a6e5d95423949f7",
-   "title": "Making an entry summary declaration",
-   "url": "https://www.gov.uk/guidance/making-an-entry-summary-declaration",
-   "path": "/guidance/making-an-entry-summary-declaration",
-   "date": "2026-10-19T09:14:51Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Make an entry summary declaration if you move goods into Great Britain, into Northern Ireland from Great Britain, or into Northern Ireland from countries outside the EU.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "Section ‘If you cannot submit declarations’ has been updated to include what you need to provide to identify your declaration.\r\nThe file 'Entry summary declaration data elements for the S&S GB service' has been updated.",
-   "firstPublished": "2019-01-10T00:00:00+00:00",
-   "ai": {
-    "summary": "Carriers must submit an entry summary declaration before goods arrive when moving goods into Great Britain or Northern Ireland, using the S&S GB or ICS2 services, with an appropriate GB or XI/EU EORI, via compatible software or a customs agent.",
-    "whoAffected": "Carriers (including SMEs, owner‑managed businesses and self‑employed importers) moving goods into Great Britain or Northern Ireland",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Check if the goods being moved require an entry summary declaration (imports into GB or NI)",
-     "Ensure the client has the correct EORI number (GB for GB imports, XI or EU EORI for NI imports)",
-     "Choose a submission method – either self‑submit using compatible XML software or appoint a customs agent/Trader Support Service",
-     "Submit the declaration before arrival (up to 200 days in advance) and amend any errors before the goods reach their destination"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-19T10:48:28.688Z"
-   }
-  },
-  {
    "id": "f72c9615b09ace09",
    "title": "Community Amateur Sports Clubs detailed guidance notes",
    "url": "https://www.gov.uk/government/publications/community-amateur-sports-clubs-detailed-guidance-notes",
@@ -7092,39 +7332,6 @@
     "relevance": "medium",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-09T11:55:39.876Z"
-   }
-  },
-  {
-   "id": "3436364e7ca2ac33",
-   "title": "Find out about the loan charge settlement scheme",
-   "url": "https://www.gov.uk/guidance/find-out-about-the-loan-charge-settlement-scheme",
-   "path": "/guidance/find-out-about-the-loan-charge-settlement-scheme",
-   "date": "2026-10-08T10:50:59Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out about settling your outstanding disguised remuneration loan charge liability under the loan charge settlement scheme.",
-   "categories": [
-    "nic",
-    "personal",
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "A link to ‘How HMRC will implement the loan charge settlement scheme’ has been added to the section ‘What the settlement scheme includes’. ",
-   "firstPublished": "2026-07-17T14:30:00+01:00",
-   "ai": {
-    "summary": "The loan charge settlement scheme lets individuals or employers with unpaid disguised remuneration liabilities settle their tax, NIC and reduced fees, offering up to £70,000 reduction, a £5,000 extra cut, and exclusion of most penalties, but not late interest or Inheritance Tax beyond a short window.",
-    "whoAffected": "Individuals and employers who have a disguised remuneration loan charge liability that has not been paid in full, including any related Inheritance Tax liabilities arising from loan‑charge trusts.",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Check the client’s loan charge liability letter to confirm they have been identified as eligible for the settlement scheme.",
-     "Compare the figures in the settlement offer with the client’s records and discuss any discrepancies with the HMRC caseworker.",
-     "If the client cannot pay the full amount, contact the caseworker to arrange an instalment payment plan (up to five years) and explain the interest implications.",
-     "Assist the client in completing, signing and returning the acceptance form (by post or scanned email) and advise them to seek independent professional advice if needed."
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-08T12:03:28.006Z"
    }
   },
   {
@@ -13716,7 +13923,7 @@
    "id": "4e88167c5c748ec6",
    "title": "Correction Slip",
    "url": "https://www.legislation.gov.uk/uksi/2026/388/pdfs/uksics_20260388_en_001.pdf",
-   "date": "2026-06-14T23:00:00.000Z",
+   "date": "2026-06-15T00:00:00.000Z",
    "type": "legislation",
    "source": "legislation.gov.uk",
    "description": "These Regulations are made in consequence of the insertion of Chapter 11 into the Income Tax (Earnings and Pensions) Act 2003 by section 24 of the Finance Act 2026 (c. 11).",
@@ -14450,7 +14657,7 @@
    "id": "c53102a3add7edf6",
    "title": "Correction Slip",
    "url": "https://www.legislation.gov.uk/uksi/2026/343/pdfs/uksics_20260343_en_001.pdf",
-   "date": "2026-05-18T23:00:00.000Z",
+   "date": "2026-05-19T00:00:00.000Z",
    "type": "legislation",
    "source": "legislation.gov.uk",
    "description": "These Regulations amend the Social Security (Contributions) Regulations 2001 (S.I. 2001/1004) (“SSCR”).",
@@ -14462,7 +14669,7 @@
    "id": "c4b659af0ab9c5ed",
    "title": "Correction Slip",
    "url": "https://www.legislation.gov.uk/uksi/2026/294/pdfs/uksics_20260294_en_001.pdf",
-   "date": "2026-05-18T23:00:00.000Z",
+   "date": "2026-05-19T00:00:00.000Z",
    "type": "legislation",
    "source": "legislation.gov.uk",
    "description": "These Regulations have effect in relation to contributions under Part 1 of the Social Security Contributions and Benefits Act 1992 (c. 4) and under Part 1 of the Social Security Contributions and Benefits (Northern Ireland) Act 1992 (c. 7).",
