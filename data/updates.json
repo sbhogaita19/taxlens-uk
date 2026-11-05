@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-05T13:14:38.363Z",
+ "generatedAt": "2026-11-05T19:56:00.425Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,203 @@
    "label": "Other"
   }
  ],
- "count": 567,
+ "count": 570,
  "items": [
+  {
+   "id": "cad1380fa5d49e31",
+   "title": "Annual Tax on Enveloped Dwellings Returns Notice",
+   "url": "https://www.gov.uk/government/publications/stld-annual-tax-on-enveloped-dwellings-ated",
+   "path": "/government/publications/stld-annual-tax-on-enveloped-dwellings-ated",
+   "date": "2026-11-05T16:05:26Z",
+   "type": "notice",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out when and how to submit an Annual Tax on an Enveloped Dwellings (ATED) return.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Section 3.8 has been added to clarify that only a full ATED return can supersede an HMRC determination.",
+   "firstPublished": "2013-04-07T00:00:00+01:00",
+   "ai": {
+    "summary": "This notice explains how and when to submit an Annual Tax on Enveloped Dwellings (ATED) return.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Not stated in source"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T19:54:56.998Z"
+   }
+  },
+  {
+   "id": "9b20c93a3e1b90d4",
+   "title": "Annual Tax on Enveloped Dwellings: technical guidance",
+   "url": "https://www.gov.uk/government/publications/annual-tax-on-enveloped-dwellings-technical-guidance",
+   "path": "/government/publications/annual-tax-on-enveloped-dwellings-technical-guidance",
+   "date": "2026-11-05T16:00:32Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Annual Tax on Enveloped Dwellings (ATED) is an annual tax charged in respect of ‘chargeable periods’ running from 1 April to 31 March.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance has been updated to clarify that only a full ATED return can supersede an HMRC determination.",
+   "firstPublished": "2013-08-14T00:00:00+01:00",
+   "ai": {
+    "summary": "Companies that own residential properties must revalue them every five years; for the 2023‑24 chargeable periods use 1 April 2022 as the valuation date if bought on/before that date, otherwise use the acquisition date. A full ATED return can override an HMRC decision.",
+    "whoAffected": "Companies or collective investment vehicles that own residential dwellings (enveloped properties), including SME owners and self‑employed landlords using corporate structures",
+    "effectiveDate": "2026-11-05",
+    "actions": [
+     "Identify clients with enveloped dwellings and note the acquisition date",
+     "Determine the correct revaluation date – 1 April 2022 for acquisitions on or before that date, otherwise the actual acquisition date",
+     "Ensure the property is revalued within the five‑year cycle covering the 2023‑24 chargeable periods",
+     "If an HMRC determination is issued, submit a full ATED return to supersede it"
+    ],
+    "legislationRefs": [
+     "Annual Tax on Enveloped Dwellings ( ATED ) legislation",
+     "HMRC determination"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T19:55:00.629Z"
+   }
+  },
+  {
+   "id": "0a56df854f27138a",
+   "title": "Income Tax: changes resulting from new savings and property rates",
+   "url": "https://www.gov.uk/government/publications/income-tax-changes-resulting-from-new-savings-and-property-rates",
+   "path": "/government/publications/income-tax-changes-resulting-from-new-savings-and-property-rates",
+   "date": "2026-11-05T15:53:45Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about changes to the savings and property rates of Income Tax.",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "Details on how property and savings income will count towards trustees’ tax pools from 6 April 2027 have been added.",
+   "firstPublished": "2026-10-28T17:36:00+00:00",
+   "ai": {
+    "summary": "From 6 April 2027 the basic rate for savings will rise and separate property income rates will start, with rules on insurers’ reporting, foreign life insurance gains, deduction at source, trustees’ tax pools and Transfer of Assets Abroad kept unchanged.",
+    "whoAffected": "Trustees, insurers, individuals or businesses with savings or property income, and those with foreign life insurance policies",
+    "effectiveDate": "6 April 2027",
+    "actions": [
+     "Inform clients that the savings basic rate will increase and a new property rate will apply from 6 April 2027",
+     "Review and update trustees’ tax pool calculations to reflect the new rates",
+     "Check that insurers’ reporting and foreign life insurance gain treatments comply with the unchanged rules",
+     "Ensure deduction‑at‑source arrangements and Transfer of Assets Abroad provisions are correctly applied",
+     ""
+    ],
+    "legislationRefs": [
+     "Budget 2025 announcement",
+     "Transfer of Assets Abroad legislation"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T19:55:04.284Z"
+   }
+  },
+  {
+   "id": "df10b42a381d1de2",
+   "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
+   "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
+   "path": "/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
+   "date": "2026-11-05T14:24:11Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "This list includes details of businesses and sole traders that have had their ACSP status either suspended or ceased (removed).",
+   "categories": [
+    "reporting",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated list of ceased and suspended ACSPs.",
+   "firstPublished": "2025-10-10T00:00:00+01:00",
+   "ai": {
+    "summary": "The UK regulator suspends ACSP status when investigating AML supervision, Companies House filings or identity verification, and ceases it if the provider withdraws or breaches legal duties. The public list of ceased or suspended ACSPs is refreshed every two weeks.",
+    "whoAffected": "Authorised Corporate Service Providers (businesses and sole traders) and their clients, including SMEs and self‑employed owners who use their services.",
+    "effectiveDate": "2026-11-05",
+    "actions": [
+     "Check the official ceased/suspended ACSP list at least every two weeks",
+     "Advise clients to confirm their ACSP’s status before engaging services",
+     "Recommend alternative providers if an ACSP is listed as suspended or ceased",
+     "Maintain records of ACSP status checks for client files"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T19:55:07.524Z"
+   }
+  },
+  {
+   "id": "2562a808e6b7334c",
+   "title": "Change in bonus rates for Save As You Earn (SAYE) share option schemes",
+   "url": "https://www.gov.uk/government/publications/change-in-bonus-rates-for-save-as-you-earn-saye-share-option-schemes",
+   "path": "/government/publications/change-in-bonus-rates-for-save-as-you-earn-saye-share-option-schemes",
+   "date": "2026-11-05T14:07:35Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "The latest changes to the bonus rates for Save As You Earn (SAYE) share option schemes.",
+   "categories": [
+    "cgt"
+   ],
+   "hasBody": true,
+   "changeNote": "The new Save As You Earn (SAYE) bonus rates and early leaver rates that apply from 20 November 2026 have been added.",
+   "firstPublished": "2014-07-28T00:00:00+01:00",
+   "ai": {
+    "summary": "SAYE 3‑year and 5‑year bonus rates will adjust on the 15th day after any change to the Bank of England Bank Rate, per the automatic mechanism.",
+    "whoAffected": "Employers offering Save As You Earn (SAYE) share option schemes and the scheme participants",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor Bank of England Bank Rate announcements",
+     "Update SAYE bonus rates 15 days after any rate change",
+     "Review scheme documentation to ensure compliance with the automatic mechanism",
+     "Inform participants of any rate adjustments promptly"
+    ],
+    "legislationRefs": [
+     "Bank of England Bank Rate",
+     "SAYE bonus rates automatic mechanism"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T19:55:10.619Z"
+   }
+  },
+  {
+   "id": "70a49eae5da7d10e",
+   "title": "Budget 2026: Overview of tax legislation and rates (OOTLAR)",
+   "url": "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar",
+   "path": "/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar",
+   "date": "2026-11-05T13:23:10Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "Tax policy announcements at Budget 2026.\r\n\r\n",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "'Budget 2026 — Overview of tax legislation and rates (OOTLAR)' has been updated to add calculations of trustees’ tax pools to section '1.12 Consequential Amendments arising from Changes to Savings and Property Rates of Income Tax'. 'Annex A: rates and allowances' has been updated to correct the Vehicle Excise Duty Expensive Car Supplement rate in section 'Vehicle Excise Duty (VED) bands and rates for cars first registered on or after 1 April 2017'.",
+   "firstPublished": "2026-10-28T13:43:00+00:00",
+   "ai": {
+    "summary": "The Budget 2026 overview lists announced tax policy measures and their legislative timetable, aimed at tax practitioners and anyone involved in tax policy consultations.",
+    "whoAffected": "Tax practitioners and advisors to SMEs, owner‑managed businesses and the self‑employed who will need to apply the upcoming changes.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review the OOTLAR document to identify upcoming tax changes relevant to your clients",
+     "Map each announced measure to the sectors you advise (SMEs, OMBs, self‑employed)",
+     "Track the legislative dates provided to plan client advice and compliance timelines",
+     "Consider participating in any consultation processes referenced in the document"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T19:55:13.458Z"
+   }
+  },
   {
    "id": "7a6e5d95423949f7",
    "title": "Making an entry summary declaration",
@@ -228,7 +423,25 @@
    ],
    "hasBody": true,
    "changeNote": "The service has reopened for registrations and cancellations. Living accommodation and loans can now be payrolled. Guidance on how voluntary payrolling will work from 6 April 2027 has been added.",
-   "firstPublished": "2014-06-12T00:00:00+01:00"
+   "firstPublished": "2014-06-12T00:00:00+01:00",
+   "ai": {
+    "summary": "Employers can use the online service to register, cancel or view voluntary payrolling of benefits and expenses, but not for company cars, vans or medical insurance. Register before the tax year starts. From 6 April 2027 tax and NIC are handled in real‑time via payroll, eliminating P11D reporting for payrolled benefits.",
+    "whoAffected": "Employers (including SMEs, owner‑managed businesses and the self‑employed) who voluntarily payroll benefits and expenses, and agents acting on their behalf",
+    "effectiveDate": "6 April 2027",
+    "actions": [
+     "Advise clients to register for voluntary payrolling before the start of the relevant tax year using the online service",
+     "Ensure payroll software adds cash equivalents to pay and deducts Income Tax and Class 1A NIC in real time from 6 April 2027, removing the need for P11D/P11D(b) for payrolled benefits",
+     "For any benefits not payrolled, instruct clients to submit electronic P11Ds and use form P11D for excluded employees",
+     "Check that excluded employees are not re‑added to the same benefit within the same tax year"
+    ],
+    "legislationRefs": [
+     "form P11D",
+     "form P11D(b)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T19:55:16.738Z"
+   }
   },
   {
    "id": "16bd90092a91b953",
@@ -1757,7 +1970,32 @@
    ],
    "hasBody": true,
    "changeNote": "Guidance from withdrawn VAT notices, The Margin and Global Accounting Scheme (VAT Notice 718) and The Margin Scheme on second-hand cars and other vehicles (VAT Notice 718/1), has been added.",
-   "firstPublished": "2021-12-23T13:28:00+00:00"
+   "firstPublished": "2021-12-23T13:28:00+00:00",
+   "ai": {
+    "summary": "Guidance explains when a second‑hand motor vehicle can use the VAT margin scheme, how to record purchase and selling prices, treat MOTs, vehicle tax and rebuilt cars, and what records must be kept, including VRN/VIN details and scrap documentation, to report correctly on the VAT return.",
+    "whoAffected": "Businesses that buy or sell second‑hand motor vehicles using a VAT margin scheme, such as motor‑vehicle dealers, SME traders and self‑employed sellers",
+    "effectiveDate": "2026-11-02",
+    "actions": [
+     "Confirm the vehicle meets eligibility rules (second‑hand, no separate VAT invoice, not new, not imported, not category A/B write‑off, etc.)",
+     "Record the purchase price excluding repairs, accessories and overheads and note the VRN or VIN and description in the stock book",
+     "Calculate the selling price including MOT, accessories and part‑exchange value, apply the normal margin‑scheme rules to work out margin and VAT, and show the transaction on the VAT return",
+     "Maintain required records – invoices, stock‑book entries, VRN/VIN changes, scrap evidence and any zero‑rating documentation for adapted vehicles"
+    ],
+    "legislationRefs": [
+     "VAT Notice 718",
+     "VAT Notice 718/1",
+     "VAT Notice 700/64",
+     "VAT: costs or disbursements passed on to customers",
+     "VAT relief on adapted motor vehicles for disabled people and charities (VAT Notice 1002)",
+     "Using the VAT margin scheme for linked insurance products and warranties",
+     "Section 2.3 – additional information requirements for vehicles",
+     "Section 6.5 – global scheme for scrap vehicles",
+     "Section 8 – occasional sales"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T19:55:24.877Z"
+   }
   },
   {
    "id": "3c03c14e433dbffd",
@@ -3575,40 +3813,6 @@
    }
   },
   {
-   "id": "0a56df854f27138a",
-   "title": "Income Tax: changes resulting from new savings and property rates",
-   "url": "https://www.gov.uk/government/publications/income-tax-changes-resulting-from-new-savings-and-property-rates",
-   "path": "/government/publications/income-tax-changes-resulting-from-new-savings-and-property-rates",
-   "date": "2026-10-28T17:36:00Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This tax information and impact note is about changes to the savings and property rates of Income Tax.",
-   "categories": [
-    "personal",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:36:00+00:00",
-   "ai": {
-    "summary": "From 6 April 2027 the basic rate for savings income rises and separate property income rates start; rules on insurers’ reporting, foreign life policy gains, deduction at source and Transfer of Assets Abroad are preserved.",
-    "whoAffected": "Insurers, holders of certain foreign life insurance policies, and taxpayers with savings or property income.",
-    "effectiveDate": "6 April 2027",
-    "actions": [
-     "Check client savings and property income to apply the new basic and separate rates from 6 April 2027",
-     "Confirm insurers’ reporting obligations remain unchanged for relevant clients",
-     "Verify that tax treatment of gains from foreign life policies continues as before",
-     "Review deduction‑at‑source and Transfer of Assets Abroad compliance for affected clients"
-    ],
-    "legislationRefs": [
-     "Transfer of Assets Abroad legislation"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-28T18:22:13.797Z"
-   }
-  },
-  {
    "id": "53f1822c82fe5a90",
    "title": "High Value Council Tax Surcharge on residential properties",
    "url": "https://www.gov.uk/government/publications/high-value-council-tax-surcharge-on-residential-properties",
@@ -4902,38 +5106,6 @@
    "firstPublished": "2026-10-28T14:40:17+00:00"
   },
   {
-   "id": "df10b42a381d1de2",
-   "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
-   "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
-   "path": "/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
-   "date": "2026-10-28T14:36:11Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "This list includes details of businesses and sole traders that have had their ACSP status either suspended or ceased (removed).",
-   "categories": [
-    "reporting",
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated the list of ceased and suspended ACSPs.",
-   "firstPublished": "2025-10-10T00:00:00+01:00",
-   "ai": {
-    "summary": "The list shows ACSPs whose status is suspended (due to investigations or missing information) or ceased (by request or non‑compliance). Updates are posted every two weeks, with a possible two‑week lag for recent changes.",
-    "whoAffected": "Authorised Corporate Service Providers (businesses and sole traders) and any clients who use their services",
-    "effectiveDate": "2026-10-28",
-    "actions": [
-     "Check the published ceased/suspended ACSP list at least every two weeks",
-     "Confirm an ACSP’s status before recommending them to SME or self‑employed clients",
-     "If an ACSP is suspended, advise clients of the investigation risk and consider alternatives",
-     "If an ACSP is ceased, recommend a different provider promptly"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-01T11:52:08.556Z"
-   }
-  },
-  {
    "id": "488cc81523a0b757",
    "title": "Breathing space for Northern Ireland families and businesses",
    "url": "https://www.gov.uk/government/news/breathing-space-for-northern-ireland-families-and-businesses",
@@ -4947,7 +5119,26 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T14:35:33+00:00"
+   "firstPublished": "2026-10-28T14:35:33+00:00",
+   "ai": {
+    "summary": "Budget 2026 gives Northern Ireland families and businesses breathing space via removal of heating oil tariff, extension of 5p fuel duty cut to 30 June 2027, continued red‑diesel relief, higher mileage rates, food tariff removals, pension tax relief and higher minimum wages, plus £7.5 m for cyber jobs and extra public‑service funding.",
+    "whoAffected": "Households using heating oil, all businesses, farmers and rural hauliers, fuel‑heavy users, low‑income pensioners, workers on the National Living Wage or Minimum Wage, and self‑employed individuals in Northern Ireland.",
+    "effectiveDate": "From the Budget 2026 announcement (2026) with the fuel duty cut extension effective until 30 June 2027.",
+    "actions": [
+     "Check client heating‑oil usage and advise on the removal of the 4% kerosene tariff",
+     "Confirm eligibility and claim the extended 5p fuel‑duty relief and ongoing red‑diesel duty cut",
+     "Update payroll systems for the increased National Living Wage, Minimum Wage and higher mileage rates",
+     "Inform low‑income pensioner clients about upcoming State Pension tax relief and monitor eligibility"
+    ],
+    "legislationRefs": [
+     "British Industrial Competitiveness Scheme",
+     "Barnett consequentials",
+     "Defence Investment Plan"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T19:55:38.000Z"
+   }
   },
   {
    "id": "5b17b7aeda40cc79",
@@ -5329,37 +5520,21 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:49:16+00:00"
-  },
-  {
-   "id": "70a49eae5da7d10e",
-   "title": "Budget 2026: Overview of tax legislation and rates (OOTLAR)",
-   "url": "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar",
-   "path": "/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar",
-   "date": "2026-10-28T13:43:00Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "Tax policy announcements at Budget 2026.\r\n\r\n",
-   "categories": [
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:43:00+00:00",
+   "firstPublished": "2026-10-28T13:49:16+00:00",
    "ai": {
-    "summary": "The document lists Budget 2026 tax policy measures, their legislative timing, and links to related information, aimed at tax practitioners and those involved in policy consultations.",
-    "whoAffected": "Tax practitioners and others interested in tax policy changes, especially participants in consultations",
+    "summary": "The government is consulting businesses, agents, software providers and other stakeholders on the opportunities, risks, costs and safeguards of E‑Invoicing Digital Reporting, with no decisions made yet.",
+    "whoAffected": "Businesses, agents, software providers and other stakeholders",
     "effectiveDate": "Not stated in source",
     "actions": [
-     "Review the listed tax policy measures",
-     "Note the dates when measures will be legislated",
-     "Access the linked tax information, impact notes and rates tables",
-     "Engage in consultations on policy and draft legislation"
+     "Review the consultation details",
+     "Gather client opinions on e‑invoicing",
+     "Submit feedback to the government",
+     "Monitor for any future policy decisions"
     ],
     "legislationRefs": [],
-    "relevance": "high",
+    "relevance": "medium",
     "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-05T13:14:29.749Z"
+    "generatedAt": "2026-11-05T19:55:48.559Z"
    }
   },
   {
@@ -5441,7 +5616,22 @@
    ],
    "hasBody": true,
    "changeNote": "Consultation response added. ",
-   "firstPublished": "2026-05-19T10:50:57+01:00"
+   "firstPublished": "2026-05-19T10:50:57+01:00",
+   "ai": {
+    "summary": "The government is consulting on a new High Value Council Tax Surcharge for owners of residential properties in England valued at £2 million or more, covering design, definition of owner, support, discounts, billing, challenges, enforcement, protected characteristics and valuation approach.",
+    "whoAffected": "Owners of residential properties in England worth £2 million and above (including those unable to pay and those with protected characteristics).",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the consultation and note any upcoming legislative changes",
+     "Identify any clients who own residential properties valued at £2 million or more",
+     "Assess potential liability and advise clients on possible support mechanisms or exemptions",
+     "Prepare guidance on how clients could challenge banding or liability if the surcharge is introduced"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T19:55:54.274Z"
+   }
   },
   {
    "id": "47d78c51a094abd3",
