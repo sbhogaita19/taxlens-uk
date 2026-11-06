@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-06T12:59:57.636Z",
+ "generatedAt": "2026-11-06T19:22:30.622Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,98 @@
    "label": "Other"
   }
  ],
- "count": 572,
+ "count": 576,
  "items": [
+  {
+   "id": "3e28e8692bd7be21",
+   "title": "Rates and allowances: HMRC interest rates for late and early payments",
+   "url": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments",
+   "path": "/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments",
+   "date": "2026-11-06T14:22:50Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find the interest rates that apply on late or early payments across all tax regimes.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "‘Vaping Product Duty (from 1 October 2026)’ has been added to the HMRC interest rates for late and early payments. The interest rates for late and early payments have been updated for November 2026. ",
+   "firstPublished": "2010-01-01T00:00:00+00:00",
+   "ai": {
+    "summary": "The document provides information on interest rates that apply to late or early tax payments across all regimes.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T19:21:28.103Z"
+   }
+  },
+  {
+   "id": "c796ed7d5f2244fd",
+   "title": "HMRC interest rates update",
+   "url": "https://www.gov.uk/government/news/hmrc-interest-rates-update--2",
+   "path": "/government/news/hmrc-interest-rates-update--2",
+   "date": "2026-11-06T13:22:28Z",
+   "type": "news_story",
+   "source": "HMRC (GOV.UK)",
+   "description": "HMRC interest rates for late payments will be revised following the Bank of England interest rate increase to 4.00%.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-06T13:22:28+00:00",
+   "ai": {
+    "summary": "HMRC interest rates tied to the Bank of England base rate will rise after the base rate moves to 4.00%, affecting late‑payment and repayment charges from mid‑November 2026.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed taxpayers who make quarterly or non‑quarterly tax instalments, or who may incur late‑payment or repayment interest.",
+    "effectiveDate": "16 November 2026 for quarterly instalments; 24 November 2026 for non‑quarterly instalments",
+    "actions": [
+     "Check client instalment dates and advise them to pay before the new rates apply",
+     "Inform clients that late‑payment interest will increase (base rate + 4%) and repayment interest will adjust (base rate ‑ 1% with a 0.5% floor)",
+     "Update client accounting/billing systems to use the new rates from the effective dates",
+     "Monitor HMRC announcements for the exact interest rate figures once published"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T19:21:31.354Z"
+   }
+  },
+  {
+   "id": "5f3d0a5fb69b4387",
+   "title": "Christmas and new year opening times at Companies House",
+   "url": "https://www.gov.uk/guidance/christmas-and-new-year-opening-times-at-companies-house",
+   "path": "/guidance/christmas-and-new-year-opening-times-at-companies-house",
+   "date": "2026-11-06T13:19:46Z",
+   "type": "detailed_guide",
+   "source": "Companies House (GOV.UK)",
+   "description": "Availability of our contact centre and filing services over the 2026 to 2027 festive period.",
+   "categories": [
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated the availability of our contact centre and filing services for the 2026 to 2027 festive period.",
+   "firstPublished": "2019-11-21T00:00:00+00:00",
+   "ai": {
+    "summary": "Companies House holiday opening times affect filing deadlines: same‑day services close 12pm 24 Dec and 2pm 31 Dec; SH19 reductions must be uploaded by 11am 24 Dec; express certified copies need ordering by 11am on 18 Dec or 31 Dec; online services remain available.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed who need to file company documents with Companies House",
+    "effectiveDate": "24 December 2026 to 4 January 2027",
+    "actions": [
+     "Tell clients to submit same‑day service applications before 12pm on 24 Dec or 2pm on 31 Dec to avoid delays",
+     "Ensure any reduction of capital (SH19) filings are uploaded by 11am on 24 Dec using the upload service",
+     "Advise ordering certified copies before 11am on 18 Dec or 31 Dec for express dispatch",
+     "Encourage use of online services and request authentication codes early; if filing on paper, post well before deadlines with next‑day delivery"
+    ],
+    "legislationRefs": [
+     "SH19"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T19:21:35.525Z"
+   }
+  },
   {
    "id": "cd085cc8054b186a",
    "title": "Rates and allowances: Inheritance Tax thresholds and interest rates",
@@ -261,6 +351,18 @@
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-06T12:59:06.744Z"
    }
+  },
+  {
+   "id": "7d31546ce8535e01",
+   "title": "Correction slip",
+   "url": "https://www.legislation.gov.uk/ukpga/2025/8/pdfs/ukpgacs_20250008_en_002.pdf",
+   "date": "2026-11-06T00:00:00.000Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "An Act to make provision about finance.",
+   "categories": [
+    "legislation"
+   ]
   },
   {
    "id": "cad1380fa5d49e31",
@@ -2004,6 +2106,40 @@
    }
   },
   {
+   "id": "402fa2716d7c9e3d",
+   "title": "Buying and selling horses and ponies using the British Equestrian Trade Association form",
+   "url": "https://www.gov.uk/guidance/buying-and-selling-horses-and-ponies-using-the-british-equestrian-trade-association-form",
+   "path": "/guidance/buying-and-selling-horses-and-ponies-using-the-british-equestrian-trade-association-form",
+   "date": "2026-11-02T09:00:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to use the British Equestrian Trade Association (BETA) form when buying and selling horses and ponies.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T09:00:02+00:00",
+   "ai": {
+    "summary": "The BETA form can be used for VAT margin scheme records when buying or selling second‑hand horses/ponies, removing the need for a stock book or invoices, provided it’s correctly completed and retained.",
+    "whoAffected": "Businesses and self‑employed individuals buying or selling second‑hand horses or ponies under the VAT margin scheme, including SMEs and owner‑managed equestrian traders.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Obtain the BETA form from the British Equestrian Trade Association via the ‘Contact BETA’ form.",
+     "Complete parts A, B and C as required – include RCVS description, passport number or vet signature (if price > £500), and assign a stock number.",
+     "Retain all three parts of the form; give part C to the buyer and keep parts A and B for your records.",
+     "Calculate margin and VAT using normal margin‑scheme rules and show the transaction on your VAT return."
+    ],
+    "legislationRefs": [
+     "Section 2.4 — additional information requirements for horses and ponies",
+     "Section 2.5 — BETA scheme for horses and ponies"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T19:21:38.912Z"
+   }
+  },
+  {
    "id": "8783e867a90ea6b1",
    "title": "Exporting goods using the VAT margin scheme",
    "url": "https://www.gov.uk/guidance/exporting-goods-using-the-vat-margin-scheme",
@@ -2070,22 +2206,6 @@
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-02T21:42:23.349Z"
    }
-  },
-  {
-   "id": "402fa2716d7c9e3d",
-   "title": "Buying and selling horses and ponies using the British Equestrian Trade Association form",
-   "url": "https://www.gov.uk/guidance/buying-and-selling-horses-and-ponies-using-the-british-equestrian-trade-association-form",
-   "path": "/guidance/buying-and-selling-horses-and-ponies-using-the-british-equestrian-trade-association-form",
-   "date": "2026-11-02T09:00:02Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to use the British Equestrian Trade Association (BETA) form when buying and selling horses and ponies.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-11-02T09:00:02+00:00"
   },
   {
    "id": "b3cc68e3b5dfebb4",
@@ -2165,7 +2285,28 @@
    ],
    "hasBody": true,
    "changeNote": "Guidance from the withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been incorporated into this guidance.",
-   "firstPublished": "2021-12-23T13:28:00+00:00"
+   "firstPublished": "2021-12-23T13:28:00+00:00",
+   "ai": {
+    "summary": "The auctioneers’ VAT margin scheme lets auctioneers account VAT only on their services, not the hammer price, provided they act in their own name, keep required records, and meet conditions for goods. Separate invoices are required and specific rules apply to new goods, art, antiques and mixed schemes.",
+    "whoAffected": "Auctioneers acting in their own name (including small auction houses), sellers of non‑taxable goods, and buyers who are VAT‑registered dealers",
+    "effectiveDate": "2026-11-02",
+    "actions": [
+     "Confirm the client is acting as an undisclosed agent (in their own name)",
+     "Implement the scheme’s record‑keeping rules – maintain a stock book or equivalent records showing hammer prices",
+     "Obtain a signed certificate from non‑taxable sellers when selling new goods on their behalf",
+     "Issue separate buyer and seller invoices without showing VAT and calculate margin using hammer price less commission"
+    ],
+    "legislationRefs": [
+     "VAT Notice 700",
+     "VAT Notice 48: Extra Statutory Concessions",
+     "VAT Notice 718",
+     "VAT Tertiary Legislation section 2.6",
+     "VAT Tertiary Legislation section 4.1"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T19:21:42.729Z"
+   }
   },
   {
    "id": "ced372f13fe717b2",
@@ -3821,41 +3962,6 @@
    }
   },
   {
-   "id": "0b7b4f710cff6694",
-   "title": "Changes to employee share schemes, including Company Share Option Plan and Enterprise Management Incentives",
-   "url": "https://www.gov.uk/government/publications/changes-to-employee-share-schemes-including-company-share-option-plan-and-enterprise-management-incentives",
-   "path": "/government/publications/changes-to-employee-share-schemes-including-company-share-option-plan-and-enterprise-management-incentives",
-   "date": "2026-10-28T17:36:10Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This tax information and impact note is about changes to the rules for employee share schemes. ",
-   "categories": [
-    "cgt",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:36:10+00:00",
-   "ai": {
-    "summary": "From 6 April 2027 the CSOP and EMI schemes will see higher option limits, longer exercise periods, broader exceptions from disguised remuneration rules, and extended EMI exercise windows after disqualifying events.",
-    "whoAffected": "Employers offering CSOP or EMI share schemes, including SMEs and owner‑managed businesses, and their employee participants.",
-    "effectiveDate": "6 April 2027",
-    "actions": [
-     "Review current CSOP option limits and adjust to the increased individual limit",
-     "Update EMI documentation to reflect removal of interaction with CSOP limits and the extended exercise window after disqualifying events",
-     "Amend share option agreements to incorporate the longer CSOP exercise period and expanded disguised remuneration exceptions",
-     "Advise clients on the extended Employee Ownership Trusts exception within EMI rules"
-    ],
-    "legislationRefs": [
-     "Company Share Option Plan (CSOP)",
-     "Enterprise Management Incentives (EMI)"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-29T18:28:21.660Z"
-   }
-  },
-  {
    "id": "1e84b0d46634fc06",
    "title": "VAT changes following the abolition of NHS England",
    "url": "https://www.gov.uk/government/publications/vat-changes-following-the-abolition-of-nhs-england",
@@ -3956,6 +4062,41 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-02T21:42:39.785Z"
+   }
+  },
+  {
+   "id": "0b7b4f710cff6694",
+   "title": "Changes to employee share schemes, including Company Share Option Plan and Enterprise Management Incentives",
+   "url": "https://www.gov.uk/government/publications/changes-to-employee-share-schemes-including-company-share-option-plan-and-enterprise-management-incentives",
+   "path": "/government/publications/changes-to-employee-share-schemes-including-company-share-option-plan-and-enterprise-management-incentives",
+   "date": "2026-10-28T17:36:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about changes to the rules for employee share schemes. ",
+   "categories": [
+    "cgt",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:36:00+00:00",
+   "ai": {
+    "summary": "The measure increases CSOP individual option limits, removes the interaction between CSOP and EMI limits, extends CSOP exercise periods, lengthens the exemption period for certain shares from disguised remuneration rules, widens the Employee Ownership Trusts exception, and extends EMI exercise windows after disqualifying events.",
+    "whoAffected": "Companies that operate Company Share Option Plans (CSOP) or Enterprise Management Incentives (EMI) schemes and the employees who hold those options, including SMEs using these share schemes",
+    "effectiveDate": "6 April 2027",
+    "actions": [
+     "Review client CSOP arrangements and adjust individual option limits",
+     "Update EMI scheme documentation to reflect removal of CSOP‑EMI limit interaction and longer exercise windows",
+     "Advise clients on the extended exemption period from disguised remuneration rules for relevant shares and options",
+     "Check and amend any Employee Ownership Trusts provisions to align with the extended exception"
+    ],
+    "legislationRefs": [
+     "Company Share Option Plan (CSOP)",
+     "Enterprise Management Incentives (EMI)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T19:21:48.928Z"
    }
   },
   {
@@ -5317,7 +5458,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T14:29:04+00:00"
+   "firstPublished": "2026-10-28T14:29:04+00:00",
+   "ai": {
+    "summary": "The 2026 Budget gives Welsh households breathing space with 0% VAT on electricity, removal of kerosene tariffs, fuel duty cuts, food tariff removals, higher living wages and tax relief for low‑income pensioners, plus £450 m extra public‑service funding and targeted investment for SMEs and infrastructure.",
+    "whoAffected": "Welsh households, low‑income pensioners, workers, SMEs, farmers, rural hauliers and other fuel‑heavy businesses in Wales",
+    "effectiveDate": "30 June 2027 (VAT extension and fuel duty cuts)",
+    "actions": [
+     "Notify clients of the 0% VAT extension on household electricity until 30 June 2027 and advise on VAT reclaim procedures",
+     "Guide eligible households on the Debt Relief Scheme and the removal of the 4% kerosene tariff",
+     "Update payroll systems for the National Living Wage increase to £13.21 and the new minimum wage rates",
+     "Inform SMEs about duty suspensions, the £2.5 m M‑SParc grant and other growth‑funding opportunities"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T19:21:57.564Z"
+   }
   },
   {
    "id": "27dd1b6eb4aaaa6d",
@@ -5605,7 +5761,22 @@
    ],
    "hasBody": true,
    "changeNote": "Published outcome, including summary of responses.",
-   "firstPublished": "2026-06-23T14:18:18+01:00"
+   "firstPublished": "2026-06-23T14:18:18+01:00",
+   "ai": {
+    "summary": "Consultation proposes a new VAT zero rate for land used to build social housing, examining current VAT impacts on acquisition, timing and cashflow, and seeking input on the relief’s scope and administration.",
+    "whoAffected": "Developers and landowners involved in social housing projects, including SME builders and self‑employed contractors",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Track the consultation outcome for any new VAT zero‑rate rules",
+     "Review clients' current VAT treatment of land and advise on cash‑flow implications",
+     "Develop a checklist to assess eligibility if the zero rate is introduced",
+     "Collect client feedback to inform the consultation response"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T19:22:01.691Z"
+   }
   },
   {
    "id": "52738b4646a35f55",
@@ -5924,7 +6095,25 @@
    ],
    "hasBody": true,
    "changeNote": "Summary of response added.",
-   "firstPublished": "2026-07-13T13:08:18+01:00"
+   "firstPublished": "2026-07-13T13:08:18+01:00",
+   "ai": {
+    "summary": "The government is consulting on the tax treatment of predevelopment costs after a Supreme Court judgment, seeking views on business uncertainty and commercial impact to provide clearer capital allowance rules.",
+    "whoAffected": "Businesses, including SMEs and owner‑managed firms",
+    "effectiveDate": "2026-10-28",
+    "actions": [
+     "Review clients' predevelopment expenditures and current tax treatment",
+     "Collect evidence of any uncertainty or commercial impact for each client",
+     "Submit a response to the government consultation",
+     "Advise clients on potential future changes"
+    ],
+    "legislationRefs": [
+     "Corporate Tax Roadmap",
+     "Orsted West of Duddon Sands (UK) Ltd and others v HMRC [2026]"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T19:22:12.532Z"
+   }
   },
   {
    "id": "5cbabed5e1ccd550",
@@ -5987,7 +6176,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:30:26+00:00"
+   "firstPublished": "2026-10-28T13:30:26+00:00",
+   "ai": {
+    "summary": "The government directs the British Business Bank to focus its £2 billion uplift on regional growth, reindustrialisation and UK security, with up to £900 million earmarked for defence and dual‑use technologies.",
+    "whoAffected": "British Business Bank (and businesses seeking its investment)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor British Business Bank announcements for new regional and reindustrialisation funding programmes",
+     "Advise SME clients on eligibility for potential defence and dual‑use technology finance",
+     "Identify and target sectors aligned with the Bank’s strategic focus",
+     "Prepare client documentation to meet likely investment criteria"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T19:22:16.816Z"
+   }
   },
   {
    "id": "c8d543da5b338e59",
@@ -6052,7 +6256,17 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:30:00+00:00"
+   "firstPublished": "2026-10-28T13:30:00+00:00",
+   "ai": {
+    "summary": "Guidance explains the Pension Tax Allowance announced in Budget 2026, covering its purpose, how it applies and who may be eligible.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T19:22:24.868Z"
+   }
   },
   {
    "id": "074690d7b7862a56",
@@ -6068,7 +6282,17 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:30:00+00:00"
+   "firstPublished": "2026-10-28T13:30:00+00:00",
+   "ai": {
+    "summary": "Not stated in source",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T19:22:27.532Z"
+   }
   },
   {
    "id": "1a2f3a7a4aad80e7",
