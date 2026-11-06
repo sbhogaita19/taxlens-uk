@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-05T19:56:00.425Z",
+ "generatedAt": "2026-11-06T12:59:57.636Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,196 @@
    "label": "Other"
   }
  ],
- "count": 570,
+ "count": 572,
  "items": [
+  {
+   "id": "cd085cc8054b186a",
+   "title": "Rates and allowances: Inheritance Tax thresholds and interest rates",
+   "url": "https://www.gov.uk/government/publications/rates-and-allowances-inheritance-tax-thresholds-and-interest-rates",
+   "path": "/government/publications/rates-and-allowances-inheritance-tax-thresholds-and-interest-rates",
+   "date": "2026-11-06T12:39:21Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find the Inheritance Tax thresholds (or nil rate bands) from 1914, and see changes to Inheritance Tax interest rates from October 1988.",
+   "categories": [
+    "iht",
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "The 'Inheritance Tax interest rates from October 1988' table has been updated with the new interest rate of 8.00% and the interest on repayments of 3.00% from 24 November 2026.",
+   "firstPublished": "2017-02-17T00:00:00+00:00",
+   "ai": {
+    "summary": "The document lists inheritance tax thresholds back to 1914 and updates interest rates, now 8.00% on tax and 3.00% on repayments from 24 Nov 2026, helping calculate interest due on IHT payments.",
+    "whoAffected": "Estate owners, including business owners and self‑employed individuals who may face inheritance tax liabilities",
+    "effectiveDate": "24 November 2026",
+    "actions": [
+     "Check client estates for potential inheritance tax exposure",
+     "Update IHT interest calculations to the new rates (8% tax, 3% repayments)",
+     "Use HMRC’s Calculate Inheritance Tax interest tool for accurate figures",
+     "Advise clients on payment timing to reduce interest costs"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T12:58:52.210Z"
+   }
+  },
+  {
+   "id": "38c7a7b57641889d",
+   "title": "Prohibition of promotion of certain tax avoidance arrangements",
+   "url": "https://www.gov.uk/government/publications/prohibition-of-promotion-of-certain-tax-avoidance-arrangements",
+   "path": "/government/publications/prohibition-of-promotion-of-certain-tax-avoidance-arrangements",
+   "date": "2026-11-06T10:49:17Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "HMRC guidance on sections 159 to 165 of the Finance Act 2026 to introduce new rules that prohibit the promotion of certain tax avoidance arrangements (POP).",
+   "categories": [
+    "compliance",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "The 'Penalty example: company B' has been updated from £650,000 to £625,000.",
+   "firstPublished": "2026-10-30T09:00:00+00:00",
+   "ai": {
+    "summary": "Guidance outlines the rules that prohibit promoting certain tax avoidance arrangements.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [],
+    "legislationRefs": [
+     "Not stated in source"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T12:58:54.926Z"
+   }
+  },
+  {
+   "id": "35e504b411b65052",
+   "title": "HMRC email updates, videos and webinars for VAT",
+   "url": "https://www.gov.uk/guidance/hmrc-email-updates-videos-and-webinars-for-vat",
+   "path": "/guidance/hmrc-email-updates-videos-and-webinars-for-vat",
+   "date": "2026-11-06T10:28:11Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Learn more about VAT including accounting schemes, VAT Returns and keeping records.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "The recorded webinar for 'The reduced rate of VAT during the children's summer holidays' has been removed. The recorded webinar for 'VAT on private school fees — checking if you need to register' has been updated.",
+   "firstPublished": "2017-09-29T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC offers email updates and a range of live and recorded webinars covering VAT registration, schemes, private school fees, construction reverse charge, and other VAT matters, plus guidance on adding taxes to Business Tax Account and reporting fraud.",
+    "whoAffected": "Businesses and agents dealing with VAT – including SMEs, owner‑managed firms, self‑employed educators, construction companies, and anyone needing to register, charge or reclaim VAT.",
+    "effectiveDate": "2026-11-06",
+    "actions": [
+     "Subscribe to HMRC email updates to stay informed on VAT topics.",
+     "Register for and attend live webinars relevant to client sectors (e.g., accounting schemes, reverse charge).",
+     "Watch recorded webinars to advise clients on specific issues such as private school fees or VAT registration.",
+     "Use the VAT Registration Estimator and guide clients on adding VAT to their Business Tax Account."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T12:58:58.284Z"
+   }
+  },
+  {
+   "id": "dfa0b7b0c25fe0de",
+   "title": "Income Tax treatment of image rights payments connected to employment",
+   "url": "https://www.gov.uk/government/publications/income-tax-treatment-of-image-rights-payments-connected-to-employment",
+   "path": "/government/publications/income-tax-treatment-of-image-rights-payments-connected-to-employment",
+   "date": "2026-11-06T10:00:08Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about the tax treatment of image rights payments connected to an employment.",
+   "categories": [
+    "personal",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "Draft guidance to illustrate image rights payments has been added.",
+   "firstPublished": "2026-10-28T17:36:00+00:00",
+   "ai": {
+    "summary": "All image rights payments linked to employment will be treated as taxable employment income, subject to Income Tax and NICs.",
+    "whoAffected": "Employees receiving image rights payments and the employers who pay them (including SMEs and owner‑managed businesses).",
+    "effectiveDate": "6 April 2028",
+    "actions": [
+     "Review client contracts for image‑rights clauses",
+     "Inform clients that such payments will be subject to PAYE and NICs from 6 April 2028",
+     "Update payroll systems to treat image‑rights payments as taxable earnings",
+     "Communicate the change to affected staff and adjust tax planning accordingly"
+    ],
+    "legislationRefs": [
+     "Finance Bill 2026 to 2027"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T12:59:01.100Z"
+   }
+  },
+  {
+   "id": "f7603b4ac564f9be",
+   "title": "Simplified Process for Internal Market Movements (SPIMM): Category of goods guidance",
+   "url": "https://www.gov.uk/government/publications/simplified-process-for-internal-market-movements-spimm-category-of-goods-guidance",
+   "path": "/government/publications/simplified-process-for-internal-market-movements-spimm-category-of-goods-guidance",
+   "date": "2026-11-06T09:41:03Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out details about the different types of Category 1, Category 2 and Standard goods.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The guidance has been updated to include measures relating to sanctions and steel products and to provide clearer information on the application of exemptions and waivers.",
+   "firstPublished": "2024-11-20T00:00:00+00:00",
+   "ai": {
+    "summary": "Goods moving from Great Britain to Northern Ireland are classified as Category 1, Category 2 or Standard goods. Category 1 and 2 are governed by Annex IX of the Withdrawal Agreement Joint Committee decision under the Windsor Framework, with detailed types and requirements in this guidance.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed traders moving goods between Great Britain and Northern Ireland",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Determine whether each product is Category 1, Category 2 or Standard under the guidance",
+     "Consult the guidance to identify specific requirements for the classified goods",
+     "Ensure compliance with the legislation in Annex IX of the Withdrawal Agreement Joint Committee decision",
+     "Keep records of classifications and compliance measures for future reference"
+    ],
+    "legislationRefs": [
+     "Annex IX of Decision of the Withdrawal Agreement Joint Committee on laying down arrangements relating to the Windsor Framework",
+     "Windsor Framework"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T12:59:04.041Z"
+   }
+  },
+  {
+   "id": "ad2d393a836ec78b",
+   "title": "Corporation Tax: assessments (CT220 Notes)",
+   "url": "https://www.gov.uk/government/publications/corporation-tax-assessments-ct220-notes",
+   "path": "/government/publications/corporation-tax-assessments-ct220-notes",
+   "date": "2026-11-06T08:59:45Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Why assessments are issued and what to do if you receive one.",
+   "categories": [
+    "corptax"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about how to pay has been added to 'Section 3.1'. Information about when HMRC amend the return and when there is an appeal has been added to 'Section 4.1'. Information about when HMRC amend the return and when there is an appeal has been added to 'Section 4.3'. Clarification about when and how to pay Corporation Tax has been added to 'Section 5.1'. Information about trading losses has been updated in 'Section 4.2'. Section 4.4, relating to 'Claims' has been removed. Information about consulting your accounts office has been removed from 'Section 5.2'.",
+   "firstPublished": "2016-08-12T13:39:00+01:00",
+   "ai": {
+    "summary": "The notes explain corporation tax assessments and what to do if you disagree with the figures shown.",
+    "whoAffected": "Companies that receive a corporation tax assessment",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Not stated in source"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T12:59:06.744Z"
+   }
+  },
   {
    "id": "cad1380fa5d49e31",
    "title": "Annual Tax on Enveloped Dwellings Returns Notice",
@@ -457,7 +645,30 @@
    ],
    "hasBody": true,
    "changeNote": "The voluntary online payrolling service has reopened for registrations and cancellations. Living accommodation and loans can now be payrolled. Information about benefits you can payroll and Real Driving Emissions 2 has been removed as it is no longer applicable.",
-   "firstPublished": "2016-02-05T00:00:00+00:00"
+   "firstPublished": "2016-02-05T00:00:00+00:00",
+   "ai": {
+    "summary": "Employers must register to voluntarily payroll benefits before the next tax year, notify staff by 1 June, calculate cash equivalents and Class 1A NIC, adjust payroll each payday, and file records on P11D(b) by 6 July.",
+    "whoAffected": "Employers, including SMEs, owner‑managed businesses and self‑employed firms that provide benefits or expenses to employees or directors",
+    "effectiveDate": "Notification to employees must be sent by 1 June after the end of each tax year; P11D(b) and Class 1A NIC must be submitted by 6 July after the tax year end",
+    "actions": [
+     "Register for voluntary payrolling of benefits before the start of the next tax year",
+     "Send written notification to employees by 1 June detailing payrolled benefits, tax code changes and optional remuneration",
+     "Calculate cash equivalents, Class 1A NIC and complete form P11D(b) by 6 July after the tax year end",
+     "Add the taxable amount of each benefit to payroll each payday and ensure correct PAYE deductions"
+    ],
+    "legislationRefs": [
+     "form P11D(b)",
+     "Class 1A National Insurance contributions",
+     "PAYE legislation",
+     "Real Time Information (RTI)",
+     "P60",
+     "P45",
+     "CWG5"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T12:59:12.891Z"
+   }
   },
   {
    "id": "d19bad523be82429",
@@ -2313,37 +2524,6 @@
    }
   },
   {
-   "id": "38c7a7b57641889d",
-   "title": "Prohibition of promotion of certain tax avoidance arrangements",
-   "url": "https://www.gov.uk/government/publications/prohibition-of-promotion-of-certain-tax-avoidance-arrangements",
-   "path": "/government/publications/prohibition-of-promotion-of-certain-tax-avoidance-arrangements",
-   "date": "2026-10-30T09:00:00Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "HMRC guidance on sections 159 to 165 of the Finance Act 2026 to introduce new rules that prohibit the promotion of certain tax avoidance arrangements (POP).",
-   "categories": [
-    "compliance",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-30T09:00:00+00:00",
-   "ai": {
-    "summary": "Guidance outlines rules that ban promoting certain tax avoidance schemes under sections 159‑165 of the Finance Act 2026.",
-    "whoAffected": "Not stated in source",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Not stated in source"
-    ],
-    "legislationRefs": [
-     "sections 159 to 165 of the Finance Act 2026"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-30T11:24:51.562Z"
-   }
-  },
-  {
    "id": "d7f4c82527a0b80f",
    "title": "Reporting fund — annual report (CISC2)",
    "url": "https://www.gov.uk/government/publications/collective-investment-schemes-annual-reporting-requirements-for-reporting-funds-cisc2",
@@ -3779,40 +3959,6 @@
    }
   },
   {
-   "id": "dfa0b7b0c25fe0de",
-   "title": "Income Tax treatment of image rights payments connected to employment",
-   "url": "https://www.gov.uk/government/publications/income-tax-treatment-of-image-rights-payments-connected-to-employment",
-   "path": "/government/publications/income-tax-treatment-of-image-rights-payments-connected-to-employment",
-   "date": "2026-10-28T17:36:00Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This tax information and impact note is about the tax treatment of image rights payments connected to an employment.",
-   "categories": [
-    "personal",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:36:00+00:00",
-   "ai": {
-    "summary": "All image rights payments linked to employment will be treated as taxable employment income, subject to Income Tax and NICs via PAYE from 6 April 2028.",
-    "whoAffected": "Employees receiving image‑rights payments and their employers, including SMEs and owner‑managed businesses that use such arrangements",
-    "effectiveDate": "6 April 2028",
-    "actions": [
-     "Review client contracts for any image‑rights payments",
-     "Inform clients that these payments will become taxable employment income via PAYE from 6 April 2028",
-     "Update payroll systems to treat image‑rights payments as earnings subject to Income Tax and NICs",
-     "Adjust tax planning and compliance advice to reflect the new treatment"
-    ],
-    "legislationRefs": [
-     "Finance Bill 2026 to 2027"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-30T18:04:35.093Z"
-   }
-  },
-  {
    "id": "53f1822c82fe5a90",
    "title": "High Value Council Tax Surcharge on residential properties",
    "url": "https://www.gov.uk/government/publications/high-value-council-tax-surcharge-on-residential-properties",
@@ -4958,7 +5104,24 @@
    ],
    "hasBody": true,
    "changeNote": "The Exchequer impact has been updated to reflect an additional financial year, updated data and revised National Accounts methodology. The background has also been updated to clarify the changes made by the Pension Schemes Act 2026.",
-   "firstPublished": "2026-07-13T13:11:00+01:00"
+   "firstPublished": "2026-07-13T13:11:00+01:00",
+   "ai": {
+    "summary": "From 6 April 2027, registered defined‑benefit occupational pension schemes can make discretionary surplus payments directly to eligible members, taxed as pension income, under legislation to be introduced in the Finance Bill 2026‑27.",
+    "whoAffected": "Trustees of registered defined‑benefit occupational pension schemes and eligible scheme members",
+    "effectiveDate": "6 April 2027",
+    "actions": [
+     "Identify clients that operate registered defined‑benefit occupational pension schemes",
+     "Assess any scheme surplus and determine which members are eligible for authorised payments",
+     "Advise trustees that such payments will be taxed as pension income",
+     "Prepare guidance for implementing the payments after 6 April 2027"
+    ],
+    "legislationRefs": [
+     "Finance Bill 2026-27"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T12:59:23.123Z"
+   }
   },
   {
    "id": "0ba5062c87d9657e",
@@ -5345,7 +5508,25 @@
    ],
    "hasBody": true,
    "changeNote": "Updated to reflect change in qualifying expenditure.",
-   "firstPublished": "2026-05-12T09:30:00+01:00"
+   "firstPublished": "2026-05-12T09:30:00+01:00",
+   "ai": {
+    "summary": "The Advance Tax Certainty Service gives binding HMRC clearance on how UK tax rules apply to major investment projects before a final decision, for projects with at least £300 million qualifying UK spend, covering several taxes and aiming to issue clearance within 90 days.",
+    "whoAffected": "Large businesses, joint ventures or consortia planning UK investment projects of £300 million or more, typically corporations rather than SMEs or self‑employed individuals",
+    "effectiveDate": "1 July 2026",
+    "actions": [
+     "Confirm the project meets the £300 million qualifying expenditure threshold and identify a qualifying person or nominated entity",
+     "Submit an expression of interest to advancetaxcertainty@hmrc.gov.uk or the Customer Compliance Manager",
+     "Arrange the early engagement meeting and provide a written clearance request with agreed scope",
+     "Await HMRC’s review and binding clearance, typically within 90 days",
+     ""
+    ],
+    "legislationRefs": [
+     "Finance Act 2026"
+    ],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T12:59:33.897Z"
+   }
   },
   {
    "id": "4a2bf79cba07c6c2",
@@ -5648,7 +5829,22 @@
    ],
    "hasBody": true,
    "changeNote": "Summary of response added.",
-   "firstPublished": "2026-06-23T14:23:19+01:00"
+   "firstPublished": "2026-06-23T14:23:19+01:00",
+   "ai": {
+    "summary": "The government is consulting on a new, simpler ISA to help first‑time buyers purchase a home, which would replace the Lifetime ISA when launched.",
+    "whoAffected": "First‑time home buyers (individuals and households)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the consultation and its outcomes",
+     "Review existing Lifetime ISA advice for relevant clients",
+     "Prepare to inform first‑time‑buyer clients about the potential new ISA",
+     "Update client communications and advice once the product is launched"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T12:59:42.925Z"
+   }
   },
   {
    "id": "d8dc2dd87cb419e1",
@@ -5681,7 +5877,22 @@
    ],
    "hasBody": true,
    "changeNote": "Summary of response added.",
-   "firstPublished": "2026-06-23T14:19:09+01:00"
+   "firstPublished": "2026-06-23T14:19:09+01:00",
+   "ai": {
+    "summary": "The government proposes extending VAT liability to online marketplaces for sales made by UK businesses, aiming to curb non‑compliance and level competition.",
+    "whoAffected": "UK‑based businesses selling goods through online marketplaces and the marketplaces themselves; overseas sellers are mentioned but the proposal targets UK businesses.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the consultation and gather client feedback",
+     "Advise clients using online marketplaces to review their VAT registration status",
+     "Prepare guidance on potential changes to VAT accounting and record‑keeping",
+     "Assess commercial impact and advise on mitigating steps"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T12:59:47.242Z"
+   }
   },
   {
    "id": "9ddcfba15d30a733",
@@ -5745,7 +5956,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:30:30+00:00"
+   "firstPublished": "2026-10-28T13:30:30+00:00",
+   "ai": {
+    "summary": "The government is consulting on simplifying corporate tax to boost investment, growth and competitiveness, addressing stakeholder concerns on complexity and administrative burdens, with a year‑long plan to develop and test reforms before detailed proposals.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review the consultation details and note areas of complexity relevant to your clients",
+     "Identify which of your SME or owner‑managed clients may be affected by corporate tax complexity",
+     "Consider submitting feedback or client perspectives to the consultation",
+     "Prepare clients for possible future simplifications by reviewing current tax processes"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T12:59:54.573Z"
+   }
   },
   {
    "id": "b066379bffe2c78f",
@@ -9985,39 +10211,6 @@
    }
   },
   {
-   "id": "f7603b4ac564f9be",
-   "title": "Simplified Process for Internal Market Movements (SPIMM): Category of goods guidance",
-   "url": "https://www.gov.uk/government/publications/simplified-process-for-internal-market-movements-spimm-category-of-goods-guidance",
-   "path": "/government/publications/simplified-process-for-internal-market-movements-spimm-category-of-goods-guidance",
-   "date": "2026-09-10T23:15:00Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out details about the different types of Category 1, Category 2 and Standard goods.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "Guidance has been amended to reflect the allowed use of I1 C&F and C21i EIDR NOP for Category 2 goods.",
-   "firstPublished": "2024-11-20T00:00:00+00:00",
-   "ai": {
-    "summary": "The Windsor Framework classifies GB‑to‑NI goods as Category 1, Category 2 or Standard, with Category 1 and 2 governed by Annex IX of the Withdrawal Agreement Joint Committee decision. Updated guidance now allows I1 C&F and C21i EIDR NOP for Category 2 goods.",
-    "whoAffected": "Businesses that move goods from Great Britain to Northern Ireland, including SMEs, owner‑managed firms and the self‑employed",
-    "effectiveDate": "2026-09-10T23:15:00Z",
-    "actions": [
-     "Determine whether each client’s goods are Category 1, Category 2 or Standard using the guidance",
-     "Review the specific requirements in Annex IX for Category 1 and Category 2 goods",
-     "Confirm that any Category 2 goods use the permitted I1 C&F and C21i EIDR NOP procedures",
-     "Advise clients to document compliance with the Windsor Framework requirements"
-    ],
-    "legislationRefs": [
-     "Annex IX of Decision of the Withdrawal Agreement Joint Committee on laying down arrangements relating to the Windsor Framework"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-29T13:55:14.096Z"
-   }
-  },
-  {
    "id": "5cdc2b357de0354f",
    "title": "Visitor levy in England",
    "url": "https://www.gov.uk/government/consultations/overnight-visitor-levy-in-england",
@@ -11020,37 +11213,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-04T11:08:19.709Z"
-   }
-  },
-  {
-   "id": "35e504b411b65052",
-   "title": "HMRC email updates, videos and webinars for VAT",
-   "url": "https://www.gov.uk/guidance/hmrc-email-updates-videos-and-webinars-for-vat",
-   "path": "/guidance/hmrc-email-updates-videos-and-webinars-for-vat",
-   "date": "2026-09-02T10:32:46Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Learn more about VAT including accounting schemes, VAT Returns and keeping records.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "The recorded webinar link for 'VAT — using the Flat Rate Scheme' has been updated.\r\n\r\n",
-   "firstPublished": "2017-09-29T00:00:00+01:00",
-   "ai": {
-    "summary": "HMRC offers email updates and a range of live and recorded webinars covering VAT topics such as reduced rates, private school fees, registration, accounting schemes, flat rate, basics, reverse charge for construction, and using the business tax account.",
-    "whoAffected": "Businesses and self‑employed individuals dealing with VAT, including SMEs, owner‑managed firms, private‑school providers and construction companies.",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Subscribe to the HMRC help and support email service to receive VAT updates",
-     "Register for live webinars relevant to client needs and advise clients to attend",
-     "Watch recorded webinars to stay informed and apply guidance when advising clients on VAT issues",
-     "Use the VAT Registration Estimator and webinar material to support client registration and scheme decisions"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-05T12:18:36.023Z"
    }
   },
   {
@@ -14113,7 +14275,7 @@
    "id": "4e88167c5c748ec6",
    "title": "Correction Slip",
    "url": "https://www.legislation.gov.uk/uksi/2026/388/pdfs/uksics_20260388_en_001.pdf",
-   "date": "2026-06-15T00:00:00.000Z",
+   "date": "2026-06-14T23:00:00.000Z",
    "type": "legislation",
    "source": "legislation.gov.uk",
    "description": "These Regulations are made in consequence of the insertion of Chapter 11 into the Income Tax (Earnings and Pensions) Act 2003 by section 24 of the Finance Act 2026 (c. 11).",
@@ -14847,7 +15009,7 @@
    "id": "c53102a3add7edf6",
    "title": "Correction Slip",
    "url": "https://www.legislation.gov.uk/uksi/2026/343/pdfs/uksics_20260343_en_001.pdf",
-   "date": "2026-05-19T00:00:00.000Z",
+   "date": "2026-05-18T23:00:00.000Z",
    "type": "legislation",
    "source": "legislation.gov.uk",
    "description": "These Regulations amend the Social Security (Contributions) Regulations 2001 (S.I. 2001/1004) (“SSCR”).",
@@ -14859,7 +15021,7 @@
    "id": "c4b659af0ab9c5ed",
    "title": "Correction Slip",
    "url": "https://www.legislation.gov.uk/uksi/2026/294/pdfs/uksics_20260294_en_001.pdf",
-   "date": "2026-05-19T00:00:00.000Z",
+   "date": "2026-05-18T23:00:00.000Z",
    "type": "legislation",
    "source": "legislation.gov.uk",
    "description": "These Regulations have effect in relation to contributions under Part 1 of the Social Security Contributions and Benefits Act 1992 (c. 4) and under Part 1 of the Social Security Contributions and Benefits (Northern Ireland) Act 1992 (c. 7).",
