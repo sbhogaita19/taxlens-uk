@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-06T19:22:30.622Z",
+ "generatedAt": "2026-11-07T11:45:19.654Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -2363,7 +2363,27 @@
    ],
    "hasBody": true,
    "changeNote": "Guidance from withdrawn VAT notices, The Margin and Global Accounting Scheme (VAT Notice 718) and The Margin Scheme on second-hand cars and other vehicles (VAT Notice 718/1), has been added.",
-   "firstPublished": "2021-12-23T00:00:00+00:00"
+   "firstPublished": "2021-12-23T00:00:00+00:00",
+   "ai": {
+    "summary": "The global accounting scheme lets VAT‑registered traders account for VAT on the margin of bulk low‑value goods, calculating VAT on total purchases versus sales and keeping specific records, with rules on eligible items, invoicing and stock handling.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed traders who buy and sell low‑value goods in bulk or collections and wish to use the global accounting VAT margin scheme.",
+    "effectiveDate": "2026-11-02",
+    "actions": [
+     "Confirm goods are eligible and purchases are bulk (combined purchase price over £500)",
+     "Value stock on hand using purchase invoices or a fair method and keep separate records",
+     "Calculate the gross margin and apply 1/6 for standard rate or 1/21 for reduced rate VAT each tax period",
+     "Issue sales invoices without VAT shown, label them ‘global accounting invoice’, and retain all records for 6 years"
+    ],
+    "legislationRefs": [
+     "VAT Notice 718",
+     "VAT Notice 718/1",
+     "Notice 700",
+     "VAT Notice 700/62"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-07T11:44:44.079Z"
+   }
   },
   {
    "id": "d974747b4630ba11",
@@ -3547,7 +3567,24 @@
    ],
    "hasBody": true,
    "changeNote": "Information has been added to confirm that Company Share Option Plans (CSOP) can also be known as Enterprise Management Incentives 2 (EMI2). ",
-   "firstPublished": "2024-10-10T00:00:00+01:00"
+   "firstPublished": "2024-10-10T00:00:00+01:00",
+   "ai": {
+    "summary": "Employers can use employment‑related securities (ERS) such as share options or awards, either tax‑advantaged (SIP, SAYE, EMI, CSOP/EMI2) or non‑tax‑advantaged, but must register schemes with HMRC, submit annual ERS returns (or nil returns) by 6 July, and meet specific eligibility and reporting deadlines for each scheme.",
+    "whoAffected": "Employers – including SMEs, owner‑managed businesses and self‑employed owners who have employees or directors",
+    "effectiveDate": "2026-10-28",
+    "actions": [
+     "Review the client’s current share arrangements and identify whether they are tax‑advantaged or not",
+     "Register any new ERS scheme with HMRC and, if using an agent, complete the Online Agent Authorisation",
+     "Ensure an ERS return (or nil return) is filed online by 6 July after the tax year and meet EMI notification deadlines (92 days or by 6 July)",
+     "Check eligibility limits for SIP, SAYE, EMI and CSOP and advise on reporting of grant, exercise and any disqualifying events"
+    ],
+    "legislationRefs": [
+     "section ETASSUM50500"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-07T11:44:48.213Z"
+   }
   },
   {
    "id": "b35e79684c5dda32",
@@ -5360,7 +5397,27 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T15:12:34+00:00"
+   "firstPublished": "2026-10-28T15:12:34+00:00",
+   "ai": {
+    "summary": "The 2026 Budget introduces devolution of powers, greater local retention of business rates, new funding for housing and local projects, a £100 household energy payment from January 2027, and plans for income‑tax assignment to mayors from 2028.",
+    "whoAffected": "Local authorities, mayoral strategic authorities, businesses (including SMEs), households in council tax bands A‑D, and organisations seeking funding such as the Derelict Buildings Fund and Good Growth Fund.",
+    "effectiveDate": "From January 2027 (household energy payment) and April 2027 (mayors’ share of business rates), with further measures rolling out through 2028 and the end of the decade.",
+    "actions": [
+     "Advise SME clients on the upcoming increase in locally retained business rates and potential impact on their tax liabilities",
+     "Monitor devolution agreements and strategic authority status to identify new local funding opportunities for clients",
+     "Assist eligible households and self‑employed clients in applying for the £100 Household Energy Payment",
+     "Prepare clients to engage with Good Growth Funds, Derelict Buildings Fund or local renewal projects as they become available"
+    ],
+    "legislationRefs": [
+     "General Anti-Avoidance Rule",
+     "Fiscal Devolution Roadmap",
+     "Overnight Visitor Levy",
+     "Public Works Loan Board"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-07T11:44:53.372Z"
+   }
   },
   {
    "id": "ffd658a24ff6c81d",
@@ -5793,7 +5850,22 @@
    ],
    "hasBody": true,
    "changeNote": "Published outcome, including summary of responses. ",
-   "firstPublished": "2026-06-23T14:18:20+01:00"
+   "firstPublished": "2026-06-23T14:18:20+01:00",
+   "ai": {
+    "summary": "The government is consulting on introducing earlier payment dates for Income Tax Self Assessment, building on the Budget 2025 plan to change PAYE payment timings from April 2029, and is also looking at options for other ITSA taxpayers.",
+    "whoAffected": "Taxpayers with PAYE income and other Income Tax Self Assessment taxpayers, including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "April 2029",
+    "actions": [
+     "Monitor the consultation and its outcomes",
+     "Assess how earlier PAYE payment dates could affect your PAYE clients",
+     "Provide feedback to the consultation on proposed options",
+     "Prepare client advice and systems for possible earlier ITSA payment schedules"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-07T11:44:59.606Z"
+   }
   },
   {
    "id": "84f1f22ed065c2dc",
@@ -6031,7 +6103,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:31:20+00:00"
+   "firstPublished": "2026-10-28T13:31:20+00:00",
+   "ai": {
+    "summary": "The Chancellor sets the Monetary Policy Committee remit in a letter, and the Treasury must annually define price stability and the government's economic policy under the Bank of England Act 1998.",
+    "whoAffected": "Bank of England (Monetary Policy Committee) and the Treasury, with indirect impact on the wider economy",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review the Chancellor’s annual letter to the Governor for any changes to the MPC remit",
+     "Monitor Treasury announcements that define price stability each year",
+     "Update SME clients on potential effects of changes to monetary policy objectives",
+     "Consider how annual policy definitions may affect client cash‑flow and pricing decisions"
+    ],
+    "legislationRefs": [
+     "Bank of England Act 1998"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-07T11:45:05.841Z"
+   }
   },
   {
    "id": "32f769946171404a",
@@ -6207,7 +6296,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:30:17+00:00"
+   "firstPublished": "2026-10-28T13:30:17+00:00",
+   "ai": {
+    "summary": "The government will reform how company distributions to individual shareholders are taxed, with stakeholder engagement and technical consultation planned for 2027 and implementation set for April 2028.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "April 2028",
+    "actions": [
+     "Monitor the 2027 stakeholder engagement and technical consultation process",
+     "Review current client distribution arrangements for potential impact",
+     "Prepare advisory notes on likely tax changes for individual shareholders",
+     "Update clients as further details emerge"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-07T11:45:11.756Z"
+   }
   },
   {
    "id": "a6f0e59f02c52b3e",
@@ -6239,7 +6343,23 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:30:12+00:00"
+   "firstPublished": "2026-10-28T13:30:12+00:00",
+   "ai": {
+    "summary": "The Chancellor set the 2026 remit for the Financial Policy Committee, defining its primary financial‑stability objective and secondary aim to support government economic policy, and requiring the FPC to report any actions taken on each recommendation.",
+    "whoAffected": "Financial Policy Committee (FPC)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the FPC's responses to the 2026 recommendations",
+     "Inform clients of any FPC actions that may affect financial‑stability conditions",
+     "Review client exposure to systemic risks in line with the FPC's primary objective",
+     "Update advice to reflect any changes in government economic policy support",
+     ""
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-07T11:45:16.568Z"
+   }
   },
   {
    "id": "c25bebd47f086aa9",
@@ -14499,7 +14619,7 @@
    "id": "4e88167c5c748ec6",
    "title": "Correction Slip",
    "url": "https://www.legislation.gov.uk/uksi/2026/388/pdfs/uksics_20260388_en_001.pdf",
-   "date": "2026-06-14T23:00:00.000Z",
+   "date": "2026-06-15T00:00:00.000Z",
    "type": "legislation",
    "source": "legislation.gov.uk",
    "description": "These Regulations are made in consequence of the insertion of Chapter 11 into the Income Tax (Earnings and Pensions) Act 2003 by section 24 of the Finance Act 2026 (c. 11).",
@@ -15233,7 +15353,7 @@
    "id": "c53102a3add7edf6",
    "title": "Correction Slip",
    "url": "https://www.legislation.gov.uk/uksi/2026/343/pdfs/uksics_20260343_en_001.pdf",
-   "date": "2026-05-18T23:00:00.000Z",
+   "date": "2026-05-19T00:00:00.000Z",
    "type": "legislation",
    "source": "legislation.gov.uk",
    "description": "These Regulations amend the Social Security (Contributions) Regulations 2001 (S.I. 2001/1004) (“SSCR”).",
@@ -15245,7 +15365,7 @@
    "id": "c4b659af0ab9c5ed",
    "title": "Correction Slip",
    "url": "https://www.legislation.gov.uk/uksi/2026/294/pdfs/uksics_20260294_en_001.pdf",
-   "date": "2026-05-18T23:00:00.000Z",
+   "date": "2026-05-19T00:00:00.000Z",
    "type": "legislation",
    "source": "legislation.gov.uk",
    "description": "These Regulations have effect in relation to contributions under Part 1 of the Social Security Contributions and Benefits Act 1992 (c. 4) and under Part 1 of the Social Security Contributions and Benefits (Northern Ireland) Act 1992 (c. 7).",
