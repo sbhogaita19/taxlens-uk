@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-07T11:45:19.654Z",
+ "generatedAt": "2026-11-08T11:58:00.021Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -5381,7 +5381,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T15:45:59+00:00"
+   "firstPublished": "2026-10-28T15:45:59+00:00",
+   "ai": {
+    "summary": "The Chancellor announced a focus on giving families and businesses breathing space, launching a Cost Control Framework to lower energy bills, scrapping the Gas Shipper’s Obligation, and maintaining fiscal discipline with no tax rises, while committing to net‑zero and reducing debt over the next decade.",
+    "whoAffected": "Households, families and businesses – including SMEs, owner‑managed firms and the self‑employed",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the rollout of the new Cost Control Framework and advise clients on potential energy bill reductions",
+     "Inform clients about the cancellation of the Gas Shipper’s Obligation and any related compliance changes",
+     "Review client tax positions in light of the government's commitment not to raise taxes on working people",
+     "Update financial planning to reflect the government's fiscal discipline and projected debt reduction"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-08T11:57:39.270Z"
+   }
   },
   {
    "id": "f8bb0e965bb5a1f6",
@@ -5464,7 +5479,25 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T14:40:17+00:00"
+   "firstPublished": "2026-10-28T14:40:17+00:00",
+   "ai": {
+    "summary": "Budget 2026 gives Scottish families and businesses relief via removal of heating oil tariff, 0% VAT on electricity until 30 June 2027, extended fuel duty cuts, lower red‑diesel duty, higher mileage rates, food tariff removals, pension tax relief, higher minimum wages and £600 m extra public‑service funding.",
+    "whoAffected": "Scottish households (including 142,000 heating‑oil users), low‑income pensioners, workers earning the National Living Wage or Minimum Wage, fuel‑heavy businesses (farmers, rural hauliers, chemicals, plastics, hydrogen, automotive, food & drink firms), and public‑service providers.",
+    "effectiveDate": "0% VAT on electricity extended to 30 June 2027; fuel duty cut extended to 30 June 2027; red‑diesel duty cut continues; National Living Wage and Minimum Wage increase effective April 2026; pension tax relief to be applied by the end of this Parliament",
+    "actions": [
+     "Advise clients on claiming the 0% VAT relief on electricity and the removal of the heating‑oil tariff",
+     "Update payroll systems to apply the new National Living Wage (£13.21) and Minimum Wage rates from April 2026",
+     "Inform fuel‑intensive SMEs about the extended 5p fuel‑duty cut and ongoing 3.7p red‑diesel duty reduction",
+     "Check client eligibility for the Debt Relief Scheme and low‑income pensioner tax relief and assist with applications"
+    ],
+    "legislationRefs": [
+     "Budget 2026",
+     "Spending Review 2025"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-08T11:57:42.861Z"
+   }
   },
   {
    "id": "488cc81523a0b757",
@@ -5546,7 +5579,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T14:05:00+00:00"
+   "firstPublished": "2026-10-28T14:05:00+00:00",
+   "ai": {
+    "summary": "Budget 2026 gives Welsh households and businesses relief through removal of kerosene tariffs, extension of 0% VAT on electricity, fuel duty cuts, higher mileage rates, food tariff removals, pension tax relief and extra funding for public services and infrastructure.",
+    "whoAffected": "Welsh households using heating oil, all residential electricity customers, fuel‑heavy businesses (farmers, hauliers, SMEs in chemicals, plastics, automotive, food & drink), low‑income pensioners, workers receiving higher National Living/Minimum Wage, and public‑service providers.",
+    "effectiveDate": "30 June 2027 (end of extended 0% VAT on electricity and fuel‑duty cuts)",
+    "actions": [
+     "Check client eligibility for the 0% VAT electricity relief and advise on billing impact",
+     "Inform fuel‑heavy businesses and self‑employed about the extended fuel duty and red‑diesel cuts and the permanent mileage‑rate increase",
+     "Notify low‑income pensioner clients about upcoming tax‑free income relief",
+     "Guide SMEs on potential funding for M‑SParc expansion and duty‑suspension benefits for eligible sectors"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-08T11:57:45.860Z"
+   }
   },
   {
    "id": "605734d489a5db7a",
@@ -6024,7 +6072,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:32:40+00:00"
+   "firstPublished": "2026-10-28T13:32:40+00:00",
+   "ai": {
+    "summary": "From 1 January 2029 the UK will replace the non‑codified sovereign immunity regime with a statutory sovereign tax status, taxing foreign sovereigns on UK real estate income and gains at a 15% rate, while exempting investment‑management activities and overseas pension fund gains.",
+    "whoAffected": "Foreign sovereigns, sovereign investment offices, State‑operated Overseas Pension Funds, and any UK advisers or clients with exposure to UK real estate owned by foreign sovereigns",
+    "effectiveDate": "1 January 2029",
+    "actions": [
+     "Identify clients with UK real estate income or gains linked to foreign sovereigns",
+     "Determine if the 15% rate under the REIT regime applies to their holdings",
+     "Confirm that investment‑management activities and overseas pension fund gains remain exempt",
+     "Submit any client‑relevant comments by 20 January 2027"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-08T11:57:51.121Z"
+   }
   },
   {
    "id": "231fb61e6da27ff1",
@@ -6327,7 +6390,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:30:13+00:00"
+   "firstPublished": "2026-10-28T13:30:13+00:00",
+   "ai": {
+    "summary": "VAT online marketplace liability is being extended to UK‑established businesses that sell goods through online marketplaces.",
+    "whoAffected": "UK‑established businesses selling through online marketplaces",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients who sell via online marketplaces",
+     "Determine if they are UK‑established businesses",
+     "Notify them of the extended VAT liability",
+     "Review their VAT registration and reporting arrangements"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-08T11:57:56.962Z"
+   }
   },
   {
    "id": "4777a03ca5640772",
