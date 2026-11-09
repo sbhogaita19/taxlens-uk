@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-08T11:58:00.021Z",
+ "generatedAt": "2026-11-09T13:56:07.019Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,204 @@
    "label": "Other"
   }
  ],
- "count": 576,
+ "count": 579,
  "items": [
+  {
+   "id": "51770f86d06505ec",
+   "title": "Prepare for mandatory payrolling of benefits in kind",
+   "url": "https://www.gov.uk/guidance/prepare-for-mandatory-payrolling-of-benefits-in-kind",
+   "path": "/guidance/prepare-for-mandatory-payrolling-of-benefits-in-kind",
+   "date": "2026-11-09T12:41:42Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how to report benefits in kind and expenses in real time through payroll software, from April 2027.",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-09T12:41:42+00:00",
+   "ai": {
+    "summary": "From 6 April 2027 employers must payroll certain benefits (company cars, vans, medical insurance) via their Full Payment Submission, deducting tax and NIC in real time, ending P11D reporting. Other benefits (except loans and accommodation) follow from 6 April 2028. Employers should review processes, software and inform staff.",
+    "whoAffected": "Employers, payroll service providers, payroll software developers, benefits‑in‑kind providers and tax agents (and their employees).",
+    "effectiveDate": "6 April 2027 (mandatory for company cars, vans and medical insurance); 6 April 2028 (mandatory for all other benefits except loans and accommodation)",
+    "actions": [
+     "Review clients' current P11D‑reported benefits and expenses",
+     "Check clients' payroll, HR and benefits administration processes for readiness",
+     "Confirm payroll software providers are set up for real‑time reporting and Class 1A NIC deductions",
+     "Advise clients to inform employees about tax collection via payroll and provide annual payrolled benefits statements"
+    ],
+    "legislationRefs": [
+     "Full Payment Submission",
+     "P11D",
+     "P11D(b)",
+     "Class 1A National Insurance contributions"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-09T13:55:42.409Z"
+   }
+  },
+  {
+   "id": "4fd6f4defbc0fe30",
+   "title": "HMRC email updates, videos and webinars for money laundering supervision",
+   "url": "https://www.gov.uk/guidance/hmrc-email-updates-videos-and-webinars-for-money-laundering-supervision",
+   "path": "/guidance/hmrc-email-updates-videos-and-webinars-for-money-laundering-supervision",
+   "date": "2026-11-09T12:01:05Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Learn more about money laundering regulations, your responsibilities and how to report suspicious activity.",
+   "categories": [
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "The recorded webinars for ‘How to register for anti-money laundering supervision’ and ‘Money service businesses’ have been removed as the webinars are no longer offered.",
+   "firstPublished": "2017-09-01T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC provides videos and recorded webinars covering registration, fee payment, risk assessment, record‑keeping, suspicious activity reporting and employee training for businesses under anti‑money laundering supervision, plus guidance for estate agents, money service firms and trust providers.",
+    "whoAffected": "All businesses subject to anti‑money laundering supervision, including SMEs, owner‑managed firms, self‑employed, estate and letting agencies, money service businesses, and trust or company service providers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Subscribe to HMRC’s email updates for AML topics",
+     "Guide clients to the relevant HMRC videos/webinars for registration, fee payment, risk assessment and record‑keeping",
+     "Ensure clients keep required records as set out in regulation 40(1)‑(3) of the Money Laundering Regulations",
+     "Advise clients on paying the annual supervision fee or opting out and the consequences of non‑payment"
+    ],
+    "legislationRefs": [
+     "regulation 40(1) and 40(2) of the Money Laundering Regulations",
+     "regulation 40(3) of the Money Laundering Regulations",
+     "regulation 12 (2)c"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-09T13:55:45.698Z"
+   }
+  },
+  {
+   "id": "89234ab4a254c6f0",
+   "title": "List of Authorised Corporate Service Providers (ACSPs)",
+   "url": "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps",
+   "path": "/government/publications/list-of-authorised-corporate-service-providers-acsps",
+   "date": "2026-11-09T10:14:53Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "This list includes details of businesses and sole traders that have registered as an Authorised Corporate Service Provider (ACSP). This is also known as an authorised agent.",
+   "categories": [
+    "reporting",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated ACSP list. ",
+   "firstPublished": "2025-10-31T00:00:00+00:00",
+   "ai": {
+    "summary": "ACSPs are agents like accountants or solicitors registered with Companies House to act for clients. They must be supervised by a UK AML supervisory body and should not appear on the ceased or suspended list. Choose agents after checking reputation, services, fees and terms.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who use accountants, solicitors or other agents to file or complete Companies House activities",
+    "effectiveDate": "2026-11-09",
+    "actions": [
+     "Check that your practice is listed as an ACSP and not on the ceased or suspended list",
+     "Confirm you are supervised by a UK AML supervisory body",
+     "Provide clients with clear information on services, fees, terms and whether checks are in‑person or remote",
+     "Advise clients to verify your ACSP status before engaging your services"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-09T13:55:48.479Z"
+   }
+  },
+  {
+   "id": "7c0f9c706f97f245",
+   "title": "Technical interface specifications for Companies House software",
+   "url": "https://www.gov.uk/government/publications/technical-interface-specifications-for-companies-house-software",
+   "path": "/government/publications/technical-interface-specifications-for-companies-house-software",
+   "date": "2026-11-09T10:12:33Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "Technical specifications for developing software to send information to Companies House digitally.",
+   "categories": [
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Uploaded most recent version of Companies House technical interface specification (TIS) for accounts. ",
+   "firstPublished": "2023-09-14T00:00:00+01:00",
+   "ai": {
+    "summary": "The specification details technical requirements for software that files company accounts digitally, requiring XML, iXBRL, zip handling knowledge, and understanding of file structures and validation rules.",
+    "whoAffected": "Software developers of accounts packages, package accounts filers, and firms that provide or use accounting software for filing with Companies House",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients who develop or use accounts filing software",
+     "Confirm they have XML and iXBRL expertise as required",
+     "Review the file structure and validation rules against the TIS",
+     "Contact Companies House at xml@companieshouse.gov.uk for clarification"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-09T13:55:51.056Z"
+   }
+  },
+  {
+   "id": "6d5b73e46efc137d",
+   "title": "National Minimum Wage information for employers",
+   "url": "https://www.gov.uk/government/publications/national-minimum-wage-information-for-employers-nmw-fs1",
+   "path": "/government/publications/national-minimum-wage-information-for-employers-nmw-fs1",
+   "date": "2026-11-09T09:00:03Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out about the checks we carry out to make sure you're paying your workers at least the National Minimum Wage.",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "Attachment 'Self-review of the National Minimum Wage and the National Living Wage' has been replaced with a new version, with information about 'Carrying out a self-review of the National Minimum Wage and the National Living Wage'. ",
+   "firstPublished": "2016-01-25T00:00:00+00:00",
+   "ai": {
+    "summary": "HMRC factsheets guide employers on the checks for paying at least the National Minimum or Living Wage, how to self‑review records, handle arrears and penalties, understand employer checks and attend tribunal hearings as video witnesses.",
+    "whoAffected": "Employers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Consult HMRC factsheets to understand NMW/NLW compliance checks",
+     "Carry out a self‑review of payroll and employment records",
+     "Identify any NMW arrears and assess potential penalties",
+     "Prepare for possible tribunal attendance as a video witness"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-09T13:55:53.973Z"
+   }
+  },
+  {
+   "id": "abd3ff9148d47772",
+   "title": "Claiming Child Benefit if you are in the armed forces assigned overseas",
+   "url": "https://www.gov.uk/guidance/claiming-child-benefit-if-you-are-in-the-armed-forces-assigned-overseas",
+   "path": "/guidance/claiming-child-benefit-if-you-are-in-the-armed-forces-assigned-overseas",
+   "date": "2026-11-09T08:00:03Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to claim Child Benefit if you are in the armed forces assigned overseas and your child's birth is registered outside the UK.",
+   "categories": [
+    "nic"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-09T08:00:03+00:00",
+   "ai": {
+    "summary": "If you’re a serving armed forces member or partner, based overseas, with a child whose birth is registered abroad, you can claim Child Benefit by providing your address, NI numbers, child details and bank info, then contacting the helpline and sending verified documents within 12 weeks.",
+    "whoAffected": "Currently serving armed forces personnel or their partners who are based overseas and have a child whose birth is registered outside the UK",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the client meets the overseas armed‑forces criteria",
+     "Collect required details: address (including BFPO), NI numbers, child’s name, gender, DOB and bank details",
+     "Advise the client to call the Child Benefit helpline or use alternative claim methods and prepare the original passport/birth certificate or a verified photocopy",
+     "Prepare a covering letter with ‘POSAW’, NI number and verification details and ensure documents are posted within 12 weeks; remind client to notify HMRC of any address change"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-09T13:55:57.470Z"
+   }
+  },
   {
    "id": "3e28e8692bd7be21",
    "title": "Rates and allowances: HMRC interest rates for late and early payments",
@@ -1300,38 +1496,6 @@
    }
   },
   {
-   "id": "89234ab4a254c6f0",
-   "title": "List of Authorised Corporate Service Providers (ACSPs)",
-   "url": "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps",
-   "path": "/government/publications/list-of-authorised-corporate-service-providers-acsps",
-   "date": "2026-11-02T16:08:59Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "This list includes details of businesses and sole traders that have registered as an Authorised Corporate Service Provider (ACSP). This is also known as an authorised agent.",
-   "categories": [
-    "reporting",
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated list of ACSPs.",
-   "firstPublished": "2025-10-31T00:00:00+00:00",
-   "ai": {
-    "summary": "ACSPs are agents like accountants or solicitors registered with Companies House to act for clients. They must be supervised by a UK AML supervisory body. Lists of ACSPs may be incomplete, and ceased or suspended agents cannot act. Companies House does not endorse agents; clients should research reputation, services, fees and identity‑verification guidance.",
-    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who use agents to file or complete Companies House activities",
-    "effectiveDate": "2026-11-02",
-    "actions": [
-     "Check the ceased and suspended ACSP list before recommending an agent",
-     "Confirm the ACSP is supervised by a UK AML supervisory body",
-     "Conduct due‑diligence on the agent’s reputation, services, fees and terms",
-     "Advise clients to read Companies House guidance on using an ACSP for identity verification"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-02T21:41:48.458Z"
-   }
-  },
-  {
    "id": "b4705b408391d269",
    "title": "Hundreds of employers handed penalties for illegally underpaying workers",
    "url": "https://www.gov.uk/government/news/hundreds-of-employers-handed-penalties-for-illegally-underpaying-workers",
@@ -1896,40 +2060,6 @@
    }
   },
   {
-   "id": "a7f5366f68673308",
-   "title": "Accounting for VAT on bad debts when using the VAT margin scheme if you’re a seller",
-   "url": "https://www.gov.uk/guidance/accounting-for-vat-on-bad-debts-when-using-the-vat-margin-scheme-if-youre-a-seller",
-   "path": "/guidance/accounting-for-vat-on-bad-debts-when-using-the-vat-margin-scheme-if-youre-a-seller",
-   "date": "2026-11-02T09:00:03Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to account for VAT on bad debts when using the VAT margin scheme.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-11-02T09:00:03+00:00",
-   "ai": {
-    "summary": "When using the VAT margin scheme, you can claim relief on VAT for bad debts, but only up to the VAT already accounted for on the margin, and must record the claim in the bad debt account and on the VAT return.",
-    "whoAffected": "Sellers who use the VAT margin scheme and have customers who fail to pay (bad debts)",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Identify any unpaid invoices that meet the time‑limit conditions for bad‑debt relief",
-     "Confirm eligibility and limits using Relief from VAT on bad debts (VAT Notice 700/18) and Paragraphs 5.7‑5.8",
-     "Ensure the relief claimed does not exceed the VAT previously accounted for on the margin",
-     "Record the relief in the bad‑debt account and include it on the next VAT return"
-    ],
-    "legislationRefs": [
-     "VAT Notice 700/18",
-     "Paragraphs 5.7 and 5.8 of the notice"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-04T13:00:53.797Z"
-   }
-  },
-  {
    "id": "2362ba249a5222bb",
    "title": "Goods eligible for the VAT margin scheme",
    "url": "https://www.gov.uk/guidance/goods-eligible-for-the-vat-margin-scheme",
@@ -1961,6 +2091,40 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-03T19:29:23.439Z"
+   }
+  },
+  {
+   "id": "a7f5366f68673308",
+   "title": "Accounting for VAT on bad debts when using the VAT margin scheme if you’re a seller",
+   "url": "https://www.gov.uk/guidance/accounting-for-vat-on-bad-debts-when-using-the-vat-margin-scheme-if-youre-a-seller",
+   "path": "/guidance/accounting-for-vat-on-bad-debts-when-using-the-vat-margin-scheme-if-youre-a-seller",
+   "date": "2026-11-02T09:00:03Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to account for VAT on bad debts when using the VAT margin scheme.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T09:00:03+00:00",
+   "ai": {
+    "summary": "When using the VAT margin scheme, you can claim relief on VAT for bad debts, but only up to the VAT already accounted for on the margin, and must record the claim in the bad debt account and on the VAT return.",
+    "whoAffected": "Sellers who use the VAT margin scheme and have customers who fail to pay (bad debts)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify any unpaid invoices that meet the time‑limit conditions for bad‑debt relief",
+     "Confirm eligibility and limits using Relief from VAT on bad debts (VAT Notice 700/18) and Paragraphs 5.7‑5.8",
+     "Ensure the relief claimed does not exceed the VAT previously accounted for on the margin",
+     "Record the relief in the bad‑debt account and include it on the next VAT return"
+    ],
+    "legislationRefs": [
+     "VAT Notice 700/18",
+     "Paragraphs 5.7 and 5.8 of the notice"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T13:00:53.797Z"
    }
   },
   {
@@ -4625,37 +4789,6 @@
    }
   },
   {
-   "id": "fdf2867a9122ef7f",
-   "title": "Capital Gains Tax — capital sums received for surrendering rights ",
-   "url": "https://www.gov.uk/government/publications/capital-gains-tax-capital-sums-received-for-surrendering-rights",
-   "path": "/government/publications/capital-gains-tax-capital-sums-received-for-surrendering-rights",
-   "date": "2026-10-28T17:35:00Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This measure is about the surrender of rights under the terms of a contract.",
-   "categories": [
-    "cgt"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:00+00:00",
-   "ai": {
-    "summary": "Capital sums received for surrendering contractual rights are treated as capital gains and fall within Capital Gains Tax.",
-    "whoAffected": "Individuals and businesses that receive capital sums when they give up rights under a contract",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Identify clients receiving capital sums for surrendering rights",
-     "Confirm the receipt is subject to CGT",
-     "Include the amount in the client’s CGT calculation and reporting",
-     "Advise on record‑keeping and any available reliefs"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-30T18:04:54.171Z"
-   }
-  },
-  {
    "id": "c3721787c502704d",
    "title": "VAT: introducing a new zero rate on donated medicines",
    "url": "https://www.gov.uk/government/publications/vat-introducing-a-new-zero-rate-on-donated-medicines",
@@ -4877,6 +5010,37 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-03T12:49:34.801Z"
+   }
+  },
+  {
+   "id": "fdf2867a9122ef7f",
+   "title": "Capital Gains Tax — capital sums received for surrendering rights ",
+   "url": "https://www.gov.uk/government/publications/capital-gains-tax-capital-sums-received-for-surrendering-rights",
+   "path": "/government/publications/capital-gains-tax-capital-sums-received-for-surrendering-rights",
+   "date": "2026-10-28T17:35:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure is about the surrender of rights under the terms of a contract.",
+   "categories": [
+    "cgt"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:00+00:00",
+   "ai": {
+    "summary": "Capital sums received for surrendering contractual rights are treated as capital gains and fall within Capital Gains Tax.",
+    "whoAffected": "Individuals and businesses that receive capital sums when they give up rights under a contract",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients receiving capital sums for surrendering rights",
+     "Confirm the receipt is subject to CGT",
+     "Include the amount in the client’s CGT calculation and reporting",
+     "Advise on record‑keeping and any available reliefs"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T18:04:54.171Z"
    }
   },
   {
@@ -6231,7 +6395,22 @@
    ],
    "hasBody": true,
    "changeNote": "Northern Growth Strategy: Invitation for Views - Summary of Responses and Government Response added.",
-   "firstPublished": "2026-01-14T12:55:00+00:00"
+   "firstPublished": "2026-01-14T12:55:00+00:00",
+   "ai": {
+    "summary": "The government released its Summary of Responses to the Northern Growth Strategy, incorporating 131 submissions and outlining the next phase of measures announced at the Autumn Budget to boost growth and investment across the North.",
+    "whoAffected": "Businesses, mayors and other partners across the North",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Track the upcoming measures announced in the Autumn Budget related to the Northern Growth Strategy",
+     "Assess how these measures may impact northern SME clients and update advice accordingly",
+     "Encourage clients to engage with local mayoral and partnership initiatives highlighted in the strategy",
+     "Monitor further government publications for detailed implementation guidance"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-09T13:56:02.390Z"
+   }
   },
   {
    "id": "579140793fe5aaff",
@@ -7209,37 +7388,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-22T10:13:08.312Z"
-   }
-  },
-  {
-   "id": "7c0f9c706f97f245",
-   "title": "Technical interface specifications for Companies House software",
-   "url": "https://www.gov.uk/government/publications/technical-interface-specifications-for-companies-house-software",
-   "path": "/government/publications/technical-interface-specifications-for-companies-house-software",
-   "date": "2026-10-21T11:14:45Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "Technical specifications for developing software to send information to Companies House digitally.",
-   "categories": [
-    "reporting"
-   ],
-   "hasBody": true,
-   "changeNote": "Edited attachment 'Important information for software developers - read first'. Under heading 'Applying for a test account', the list of what you'll need to tell us when you set up a test account has been updated. And a link to the form to apply for a test account has been added. Also added the latest version of the attachment 'Companies House technical interface specification (TIS) for accounts'. ",
-   "firstPublished": "2023-09-14T00:00:00+01:00",
-   "ai": {
-    "summary": "Technical specs outline XML, iXBRL and zip requirements for software that files company information digitally to Companies House.",
-    "whoAffected": "Software developers and package accounts filers creating or maintaining Companies House filing applications",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Check that the filing software used by the practice complies with the Companies House technical interface specifications",
-     "Confirm the software developer has XML (and iXBRL for accounts) expertise as required",
-     "Review the file structure and validation rules before submitting filings",
-     "Contact xml@companieshouse.gov.uk with any TIS queries"
-    ],
-    "legislationRefs": [],
-    "relevance": "low",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-21T17:09:04.357Z"
    }
   },
   {
@@ -9944,37 +10092,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-09-29T13:57:24.890Z"
-   }
-  },
-  {
-   "id": "6d5b73e46efc137d",
-   "title": "National Minimum Wage information for employers",
-   "url": "https://www.gov.uk/government/publications/national-minimum-wage-information-for-employers-nmw-fs1",
-   "path": "/government/publications/national-minimum-wage-information-for-employers-nmw-fs1",
-   "date": "2026-09-22T08:00:03Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out about the checks we carry out to make sure you're paying your workers at least the National Minimum Wage.",
-   "categories": [
-    "paye"
-   ],
-   "hasBody": true,
-   "changeNote": "In 'About National Living Wage and the National Minimum Wage checks — NMW FS1', references to the Department for Business and Trade (DBT) have been updated to the Department for Business, Innovation, Science and Trade (BIST).’",
-   "firstPublished": "2016-01-25T00:00:00+00:00",
-   "ai": {
-    "summary": "The factsheet outlines HMRC’s checks to ensure employers pay at least the National Minimum or Living Wage, how to self‑review payroll records, details on arrears, penalties and tribunal video witness procedures.",
-    "whoAffected": "Employers who pay workers the National Minimum Wage or National Living Wage, including SMEs and owner‑managed businesses",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Conduct a self‑review of payroll records against NMW/NLW rates",
-     "Verify all workers receive at least the applicable minimum wage",
-     "Identify and address any NMW arrears to avoid penalties",
-     "Prepare for possible tribunal hearings, including video witness arrangements"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-29T13:57:29.527Z"
    }
   },
   {
