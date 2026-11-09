@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-09T13:56:07.019Z",
+ "generatedAt": "2026-11-09T22:17:43.238Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -4885,37 +4885,6 @@
    }
   },
   {
-   "id": "aaf81cfd5ab654f8",
-   "title": "Updating the tax treatment of certain lease and leaseback arrangements",
-   "url": "https://www.gov.uk/government/publications/updating-the-tax-treatment-of-certain-lease-and-leaseback-arrangements",
-   "path": "/government/publications/updating-the-tax-treatment-of-certain-lease-and-leaseback-arrangements",
-   "date": "2026-10-28T17:35:00Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This measure is about a change that maintains the existing treatment of finance leaseback arrangements following changes to accounting standards.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:00+00:00",
-   "ai": {
-    "summary": "The measure expands the finance lease definition to include right‑of‑use leases, restoring intended tax treatment for certain lease and leaseback arrangements.",
-    "whoAffected": "Not stated in source",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Identify any client right‑of‑use lease arrangements",
-     "Assess whether they now meet the expanded finance lease definition",
-     "Adjust the tax treatment of those leases accordingly",
-     "Record the changes for HMRC compliance"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-03T12:49:27.644Z"
-   }
-  },
-  {
    "id": "6c90333c9c120070",
    "title": "Stamp Duty Land Tax — changes to group relief",
    "url": "https://www.gov.uk/government/publications/stamp-duty-land-tax-changes-to-group-relief",
@@ -5041,6 +5010,37 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-30T18:04:54.171Z"
+   }
+  },
+  {
+   "id": "aaf81cfd5ab654f8",
+   "title": "Updating the tax treatment of certain lease and leaseback arrangements",
+   "url": "https://www.gov.uk/government/publications/updating-the-tax-treatment-of-certain-lease-and-leaseback-arrangements",
+   "path": "/government/publications/updating-the-tax-treatment-of-certain-lease-and-leaseback-arrangements",
+   "date": "2026-10-28T17:35:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure is about a change that maintains the existing treatment of finance leaseback arrangements following changes to accounting standards.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:00+00:00",
+   "ai": {
+    "summary": "The measure expands the finance lease definition to include right‑of‑use leases, restoring intended tax treatment for certain lease and leaseback arrangements.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify any client right‑of‑use lease arrangements",
+     "Assess whether they now meet the expanded finance lease definition",
+     "Adjust the tax treatment of those leases accordingly",
+     "Record the changes for HMRC compliance"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T12:49:27.644Z"
    }
   },
   {
@@ -6187,7 +6187,29 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:41:00+00:00"
+   "firstPublished": "2026-10-28T13:41:00+00:00",
+   "ai": {
+    "summary": "The 2026 Budget gives families and businesses immediate relief on energy, fuel duty, wages and everyday costs, while introducing long‑term energy reforms, higher business rates relief, housing support and a new industrial electricity scheme.",
+    "whoAffected": "Households, self‑employed individuals, small and medium enterprises, retailers, hospitality and leisure businesses, industrial electricity‑intensive firms, first‑time home buyers and drivers",
+    "effectiveDate": "2027",
+    "actions": [
+     "Advise SME clients to claim the increased Small Business Rates Relief and prepare for the two‑year real‑terms freeze on business rates.",
+     "Inform self‑employed clients about the extended parental pay eligibility and the permanent increase in tax‑free mileage rates.",
+     "Guide clients on the £100 Household Energy Payment and the extension of the VAT cut on electricity bills, noting funding via the Bank Corporation Tax Surcharge.",
+     "Assist eligible industrial clients in applying for the British Industrial Competitiveness Scheme to reduce electricity costs."
+    ],
+    "legislationRefs": [
+     "Bank Corporation Tax Surcharge",
+     "National Living Wage",
+     "Retail Prices Index (RPI)",
+     "Business Rates",
+     "British Industrial Competitiveness Scheme",
+     "Small Business Rates Relief"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-09T22:17:35.394Z"
+   }
   },
   {
    "id": "a3167c831688be5e",
@@ -6460,7 +6482,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:30:42+00:00"
+   "firstPublished": "2026-10-28T13:30:42+00:00",
+   "ai": {
+    "summary": "The Budget 2026 supporting documents outline the estimated impact of tax, welfare and spending changes on households, detail costing methodologies, data sources and list policy measures affecting public borrowing, with new measures effective from 29 October 2026.",
+    "whoAffected": "Households, including individuals, SMEs, owner‑managed businesses and the self‑employed, as they are impacted by tax and welfare changes.",
+    "effectiveDate": "29 October 2026",
+    "actions": [
+     "Review the distributional analysis to understand tax and welfare changes affecting clients.",
+     "Examine the policy costings methodology to assess uncertainty around measures.",
+     "Identify which announced measures apply to clients from 29 Oct 2026 onward.",
+     "Update client tax planning and budgeting advice accordingly."
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-09T22:17:38.683Z"
+   }
   },
   {
    "id": "0d2850d938e40d85",
@@ -10028,7 +10065,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-09-22T11:30:00+01:00"
+   "firstPublished": "2026-09-22T11:30:00+01:00",
+   "ai": {
+    "summary": "Use the HM Treasury contact form for enquiries directly related to Treasury, avoiding prohibited content and fraud, and do not use it for FOI requests or HMRC complaints.",
+    "whoAffected": "Individuals or organisations, including SMEs, owner‑managed businesses and the self‑employed, who need to contact HM Treasury",
+    "effectiveDate": "2026-09-22",
+    "actions": [
+     "Check that the enquiry relates specifically to HM Treasury",
+     "Ensure the message contains no offensive language, sales content, or illegible material",
+     "Submit the enquiry via the official HM Treasury contact form, not for FOI or HMRC complaints",
+     "Beware of fraud; never provide money or personal details in response to unsolicited requests"
+    ],
+    "legislationRefs": [
+     "Freedom of Information"
+    ],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-09T22:17:41.738Z"
+   }
   },
   {
    "id": "4aca55a048cfefa6",
