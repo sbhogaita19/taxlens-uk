@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-10T13:30:09.013Z",
+ "generatedAt": "2026-11-10T19:42:16.105Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,73 @@
    "label": "Other"
   }
  ],
- "count": 582,
+ "count": 584,
  "items": [
+  {
+   "id": "bd60fae217f51280",
+   "title": "Rates and allowances: Child Benefit, Guardian's Allowance and tax credits",
+   "url": "https://www.gov.uk/government/publications/rates-and-allowances-tax-credits-child-benefit-and-guardians-allowance",
+   "path": "/government/publications/rates-and-allowances-tax-credits-child-benefit-and-guardians-allowance",
+   "date": "2026-11-10T13:45:57Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out the Child Benefit and Guardian's Allowance rates. You can also find the tax credits rates, thresholds and allowances up to 5 April 2025.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Provisional rates for Child Benefit and Guardian’s Allowance for the tax year 2027 to 2028 have been added. The rates for 2024 to 2025 tax year have been removed.",
+   "firstPublished": "2012-04-05T00:00:00+01:00",
+   "ai": {
+    "summary": "Guidance outlines rates for Child Benefit and Guardian’s Allowance and notes that all tax credits ended on 5 April 2025, with historic thresholds available for Working and Child Tax Credit.",
+    "whoAffected": "Individuals claiming Child Benefit or Guardian’s Allowance and anyone who previously received Working Tax Credit or Child Tax Credit.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check client eligibility and apply the current Child Benefit and Guardian’s Allowance rates from the guidance",
+     "Inform clients that tax credits ceased on 5 April 2025 and that no new claims can be made",
+     "Refer to the historic income thresholds for any queries about past Working or Child Tax Credit claims",
+     "Update client records and payroll systems to reflect the end of tax credits",
+     ""
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-10T19:41:59.754Z"
+   }
+  },
+  {
+   "id": "3f0a58a219d30515",
+   "title": "Fees you’ll pay for money laundering supervision",
+   "url": "https://www.gov.uk/guidance/money-laundering-regulations-registration-fees",
+   "path": "/guidance/money-laundering-regulations-registration-fees",
+   "date": "2026-11-10T13:42:11Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out the fees you need to pay HMRC for anti-money laundering supervision, and how to pay them.",
+   "categories": [
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Section ‘Businesses with turnover below £5,000’ has been updated.",
+   "firstPublished": "2014-10-23T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC charges fees for AML supervision including a one‑off application fee, premises fees, fit‑and‑proper or approval test fees and annual declaration fees; small businesses (<£5,000 turnover) can claim refunds after applying for a reduction.",
+    "whoAffected": "All businesses subject to AML supervision – money service businesses, trust or company service providers, accountancy, estate agency, art market, high‑value dealer and letting agencies, plus SMEs with turnover under £5,000.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify which fee categories apply to each client’s activity and premises",
+     "Ensure clients pay the correct amount using the 12‑digit/2‑letter reference and meet annual deadlines to avoid cancellation",
+     "For clients with turnover below £5,000, submit a ‘Turnover Reduction’ email with required details to claim the refund",
+     "Advise on timing of adding or removing premises to benefit from half‑fee periods and avoid non‑refundable charges"
+    ],
+    "legislationRefs": [
+     "The Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017 (MLR 2017)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-10T19:42:02.853Z"
+   }
+  },
   {
    "id": "482d3ab656e84d1d",
    "title": "Check if a QR code on a letter you've received from HMRC is genuine",
@@ -244,7 +309,34 @@
    ],
    "hasBody": true,
    "changeNote": "This guidance has been updated to explain when medicines provided for continued treatment after a clinical trial can be treated as samples or zero-rated.",
-   "firstPublished": "2026-10-28T18:07:00+00:00"
+   "firstPublished": "2026-10-28T18:07:00+00:00",
+   "ai": {
+    "summary": "From 23 June 2026, medicines supplied free of charge for NHS treatment, clinical trials, or continued post‑trial treatment are zero‑rated for VAT, provided conditions are met and a valid certificate is kept. Incorrectly charged VAT can be corrected.",
+    "whoAffected": "Pharmaceutical companies, clinical‑trial sponsors, importers and distributors of medicines, and any business supplying medicines free of charge for NHS use or clinical trials.",
+    "effectiveDate": "23 June 2026",
+    "actions": [
+     "Identify whether the client supplies medicines free of charge for NHS treatment, a clinical trial or post‑trial continued treatment",
+     "Confirm the product has a marketing authorisation or meets regulation 167 and obtain the required zero‑rating certificate",
+     "Adjust VAT accounting to apply the zero‑rate and ensure no output tax is shown on qualifying supplies",
+     "If VAT was charged between 23 June 2026 and 27 Oct 2026, advise the client to correct the return"
+    ],
+    "legislationRefs": [
+     "Schedule 8, Group 12, Items 1ZA to 1ZC",
+     "section 62",
+     "Schedule 9, Group 7 of the VAT Act 1994",
+     "Human Medicines Regulations 2012",
+     "Medicines for Human Use (Clinical Trials) Regulations 2004",
+     "Finance Act 2027",
+     "Health and Social Care (Northern Ireland) Order 1991",
+     "Health and Social Care (Reform) Act 2009",
+     "National Health Service Act 2006",
+     "National Health Service (Wales) Act 2006",
+     "National Health Service (Scotland) Act 1978"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-10T19:42:08.457Z"
+   }
   },
   {
    "id": "d89c785473c275fd",
@@ -2826,37 +2918,6 @@
    }
   },
   {
-   "id": "83ee3112cd75a8e6",
-   "title": "Pay handling fees for distance sales to Northern Ireland ‘at risk’ of entering the EU",
-   "url": "https://www.gov.uk/guidance/pay-handling-fees-for-distance-sales-to-northern-ireland-at-risk-of-entering-the-eu",
-   "path": "/guidance/pay-handling-fees-for-distance-sales-to-northern-ireland-at-risk-of-entering-the-eu",
-   "date": "2026-11-01T06:00:05Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to pay handling fees for distance sales moving into Northern Ireland that are ‘at risk’ of entering the EU, and how long it takes for your payment to reach HMRC. ",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-11-01T06:00:05+00:00",
-   "ai": {
-    "summary": "Submit the return by the 13th of the month after each period, then pay the exact handling fee by the 16th using the 14‑character reference from HMRC, choosing a payment method that meets the timing rules and using the correct UK or overseas account details in pounds sterling.",
-    "whoAffected": "Businesses making distance sales to Northern Ireland that are ‘at risk’ of entering the EU, including SMEs, owner‑managed businesses and the self‑employed",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Submit the completed return form to HMRC by the 13th of the calendar month after each reporting period",
-     "Use the 14‑character reference number from HMRC’s email when making the payment",
-     "Pay the exact amount by the 16th of the month, using CHAPS/Faster Payments for same‑day receipt or Bacs (allow 3 working days) and the correct UK or overseas account details in GBP",
-     "If paying by cheque, ensure it reaches HMRC before the deadline, is payable to ‘HM Revenue and Customs only’, includes the reference on the back, and is sent to the address provided"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-01T11:51:16.380Z"
-   }
-  },
-  {
    "id": "fcd25abc88f6a392",
    "title": "Moving goods you bring into Northern Ireland as ‘not at risk’ of moving to the EU",
    "url": "https://www.gov.uk/guidance/check-if-you-can-declare-goods-you-bring-into-northern-ireland-not-at-risk-of-moving-to-the-eu",
@@ -2888,6 +2949,37 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-01T11:51:13.240Z"
+   }
+  },
+  {
+   "id": "83ee3112cd75a8e6",
+   "title": "Pay handling fees for distance sales to Northern Ireland ‘at risk’ of entering the EU",
+   "url": "https://www.gov.uk/guidance/pay-handling-fees-for-distance-sales-to-northern-ireland-at-risk-of-entering-the-eu",
+   "path": "/guidance/pay-handling-fees-for-distance-sales-to-northern-ireland-at-risk-of-entering-the-eu",
+   "date": "2026-11-01T06:00:05Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay handling fees for distance sales moving into Northern Ireland that are ‘at risk’ of entering the EU, and how long it takes for your payment to reach HMRC. ",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-01T06:00:05+00:00",
+   "ai": {
+    "summary": "Submit the return by the 13th of the month after each period, then pay the exact handling fee by the 16th using the 14‑character reference from HMRC, choosing a payment method that meets the timing rules and using the correct UK or overseas account details in pounds sterling.",
+    "whoAffected": "Businesses making distance sales to Northern Ireland that are ‘at risk’ of entering the EU, including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Submit the completed return form to HMRC by the 13th of the calendar month after each reporting period",
+     "Use the 14‑character reference number from HMRC’s email when making the payment",
+     "Pay the exact amount by the 16th of the month, using CHAPS/Faster Payments for same‑day receipt or Bacs (allow 3 working days) and the correct UK or overseas account details in GBP",
+     "If paying by cheque, ensure it reaches HMRC before the deadline, is payable to ‘HM Revenue and Customs only’, includes the reference on the back, and is sent to the address provided"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-01T11:51:16.380Z"
    }
   },
   {
@@ -6503,39 +6595,6 @@
    }
   },
   {
-   "id": "d8dc2dd87cb419e1",
-   "title": "Monetary policy remit: Budget 2026",
-   "url": "https://www.gov.uk/government/publications/monetary-policy-remit-budget-2026",
-   "path": "/government/publications/monetary-policy-remit-budget-2026",
-   "date": "2026-10-28T13:31:20Z",
-   "type": "correspondence",
-   "source": "HM Treasury (GOV.UK)",
-   "description": "The Chancellor’s letter to the Bank of England setting the remit for the Monetary Policy Committee.",
-   "categories": [
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:31:20+00:00",
-   "ai": {
-    "summary": "The Chancellor sets the Monetary Policy Committee remit in a letter, and the Treasury must annually define price stability and the government's economic policy under the Bank of England Act 1998.",
-    "whoAffected": "Bank of England (Monetary Policy Committee) and the Treasury, with indirect impact on the wider economy",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Review the Chancellor’s annual letter to the Governor for any changes to the MPC remit",
-     "Monitor Treasury announcements that define price stability each year",
-     "Update SME clients on potential effects of changes to monetary policy objectives",
-     "Consider how annual policy definitions may affect client cash‑flow and pricing decisions"
-    ],
-    "legislationRefs": [
-     "Bank of England Act 1998"
-    ],
-    "relevance": "medium",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-07T11:45:05.841Z"
-   }
-  },
-  {
    "id": "32f769946171404a",
    "title": "Extending online marketplace liability to combat non-compliance",
    "url": "https://www.gov.uk/government/consultations/extending-online-marketplace-liability-to-combat-non-compliance",
@@ -6596,6 +6655,39 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-09T13:56:02.390Z"
+   }
+  },
+  {
+   "id": "d8dc2dd87cb419e1",
+   "title": "Monetary policy remit: Budget 2026",
+   "url": "https://www.gov.uk/government/publications/monetary-policy-remit-budget-2026",
+   "path": "/government/publications/monetary-policy-remit-budget-2026",
+   "date": "2026-10-28T13:31:00Z",
+   "type": "correspondence",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "The Chancellor’s letter to the Bank of England setting the remit for the Monetary Policy Committee.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:31:00+00:00",
+   "ai": {
+    "summary": "The Chancellor sets the Monetary Policy Committee remit in a letter, and the Treasury must annually define price stability and government economic policy as required by the Bank of England Act 1998.",
+    "whoAffected": "Treasury and the Bank of England (Monetary Policy Committee)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review the Chancellor’s annual letter to the Governor for any changes to the MPC remit",
+     "Monitor how the Treasury defines price stability each year",
+     "Consider potential interest‑rate impacts for SME clients",
+     "Stay informed of the Bank of England Act 1998 requirements"
+    ],
+    "legislationRefs": [
+     "Bank of England Act 1998"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-10T19:42:11.536Z"
    }
   },
   {
@@ -6788,38 +6880,6 @@
    }
   },
   {
-   "id": "4777a03ca5640772",
-   "title": "Remit and recommendations for the Financial Policy Committee: Budget 2026",
-   "url": "https://www.gov.uk/government/publications/remit-and-recommendations-for-the-financial-policy-committee-budget-2026",
-   "path": "/government/publications/remit-and-recommendations-for-the-financial-policy-committee-budget-2026",
-   "date": "2026-10-28T13:30:12Z",
-   "type": "correspondence",
-   "source": "HM Treasury (GOV.UK)",
-   "description": "Letter from the Chancellor of the Exchequer to the Governor of the Bank of England providing recommendations for the Financial Policy Committee (FPC).",
-   "categories": [
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:30:12+00:00",
-   "ai": {
-    "summary": "The Chancellor set the 2026 remit for the Financial Policy Committee, defining its primary financial‑stability objective and secondary aim to support government economic policy, and requiring the FPC to report any actions taken on each recommendation.",
-    "whoAffected": "Financial Policy Committee (FPC)",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Monitor the FPC's responses to the 2026 recommendations",
-     "Inform clients of any FPC actions that may affect financial‑stability conditions",
-     "Review client exposure to systemic risks in line with the FPC's primary objective",
-     "Update advice to reflect any changes in government economic policy support",
-     ""
-    ],
-    "legislationRefs": [],
-    "relevance": "low",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-07T11:45:16.568Z"
-   }
-  },
-  {
    "id": "c25bebd47f086aa9",
    "title": "Pension Tax Allowance Explainer",
    "url": "https://www.gov.uk/government/publications/pension-tax-allowance-explainer",
@@ -6870,6 +6930,37 @@
     "relevance": "low",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-06T19:22:27.532Z"
+   }
+  },
+  {
+   "id": "4777a03ca5640772",
+   "title": "Remit and recommendations for the Financial Policy Committee: Budget 2026",
+   "url": "https://www.gov.uk/government/publications/remit-and-recommendations-for-the-financial-policy-committee-budget-2026",
+   "path": "/government/publications/remit-and-recommendations-for-the-financial-policy-committee-budget-2026",
+   "date": "2026-10-28T13:30:00Z",
+   "type": "correspondence",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "Letter from the Chancellor of the Exchequer to the Governor of the Bank of England providing recommendations for the Financial Policy Committee (FPC).",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:30:00+00:00",
+   "ai": {
+    "summary": "The Chancellor set the 2026 remit for the Financial Policy Committee, outlining its primary financial‑stability role and secondary aim to support government economic policy, and requiring the FPC to report actions on each recommendation.",
+    "whoAffected": "Financial Policy Committee (and the government’s economic policy objectives)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the FPC’s responses to the 2026 recommendations",
+     "Inform SME clients of any policy changes that may affect financial stability",
+     "Review clients’ exposure to financial‑stability risks in light of the FPC’s priorities",
+     "Update advice and risk assessments based on the FPC’s reported actions"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-10T19:42:14.605Z"
    }
   },
   {
