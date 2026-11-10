@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-09T22:17:43.238Z",
+ "generatedAt": "2026-11-10T13:30:09.013Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,214 @@
    "label": "Other"
   }
  ],
- "count": 579,
+ "count": 582,
  "items": [
+  {
+   "id": "482d3ab656e84d1d",
+   "title": "Check if a QR code on a letter you've received from HMRC is genuine",
+   "url": "https://www.gov.uk/guidance/check-if-a-qr-code-on-a-letter-youve-received-from-hmrc-is-genuine",
+   "path": "/guidance/check-if-a-qr-code-on-a-letter-youve-received-from-hmrc-is-genuine",
+   "date": "2026-11-10T13:13:09Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Check a list of letters with a QR code from HMRC to help you decide if it is genuine.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The 'Making Tax Digital for Income Tax — payment awareness letter' section has been added.",
+   "firstPublished": "2025-10-03T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC letters may include QR codes linking to specific guidance. Use the QR code to access the relevant information, verify the letter’s authenticity if not listed, and report any suspicious contact.",
+    "whoAffected": "Businesses and individuals (including SMEs, owner‑managed businesses and the self‑employed) who receive HMRC letters with QR codes",
+    "effectiveDate": "2026-11-10T13:13:09Z",
+    "actions": [
+     "Scan the QR code and confirm it leads to an official HMRC guidance page for that letter type",
+     "If the letter is not listed, advise the client to check if the letter is genuine using HMRC’s multiple‑contact methods",
+     "Report any suspicious phone calls, emails or texts related to the letter to HMRC",
+     "Direct clients to use the HMRC app or website for further help and to download relevant guidance"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-10T13:29:51.378Z"
+   }
+  },
+  {
+   "id": "3fd5d9da5a8343da",
+   "title": "Self Assessment commercial software suppliers",
+   "url": "https://www.gov.uk/government/publications/self-assessment-commercial-software-suppliers",
+   "path": "/government/publications/self-assessment-commercial-software-suppliers",
+   "date": "2026-11-10T12:19:29Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find software suppliers for tax returns, supplementary pages and attachments.",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "The list of Self Assessment commercial software suppliers has been updated with 2 amendments.",
+   "firstPublished": "2014-01-01T00:00:00+00:00",
+   "ai": {
+    "summary": "Use HMRC‑approved commercial software to file Self Assessment returns, supplementary pages and attachments; ensure the software has HMRC data features, set up a unique GOV.UK One Login ID/password, and get technical support if you develop software.",
+    "whoAffected": "Agents, individual taxpayers, and Self Assessment software developers using commercial software",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check that your commercial software appears on the HMRC list of approved suppliers",
+     "Confirm with the supplier that the product includes the HMRC data feature for client or personal returns",
+     "Create a unique user ID and password via GOV.UK One Login for software submissions",
+     "Contact the supplier for technical support if you are a software developer"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-10T13:29:54.046Z"
+   }
+  },
+  {
+   "id": "8c9f57b4c2053daa",
+   "title": "Double Taxation Treaty Passport Scheme register",
+   "url": "https://www.gov.uk/government/publications/double-taxation-treaty-passport-scheme-register",
+   "path": "/government/publications/double-taxation-treaty-passport-scheme-register",
+   "date": "2026-11-10T11:56:55Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Check the status of overseas corporate lenders who are passport holders for Double Taxation Relief on UK loan interest.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The register has been updated with 363 additions, 43 amendments and 152 removals.",
+   "firstPublished": "2014-10-24T00:00:00+01:00",
+   "ai": {
+    "summary": "The register lists companies in the Double Taxation Treaty Passport Scheme, letting borrowers verify a lender’s passport holder status; HMRC updates it regularly.",
+    "whoAffected": "Borrowers (including SMEs, owner‑managed businesses and the self‑employed) seeking UK loan interest relief",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Visit the government register page",
+     "Search for the corporate lender’s name",
+     "Confirm the lender is listed as a passport holder before borrowing",
+     "Re‑check the register periodically as HMRC adds updates"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-10T13:29:56.641Z"
+   }
+  },
+  {
+   "id": "34e78a5670fffb46",
+   "title": "Compliance checks: publishing details of deliberate defaulters — CC/FS13",
+   "url": "https://www.gov.uk/government/publications/compliance-checks-publishing-details-of-deliberate-defaulters-ccfs13",
+   "path": "/government/publications/compliance-checks-publishing-details-of-deliberate-defaulters-ccfs13",
+   "date": "2026-11-10T10:51:26Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "This factsheet contains information about when HMRC may publish the details of people who deliberately get their tax affairs wrong.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "The factsheet has been updated due to a change to HMRC's policy on publishing details of deliberate defaulters.",
+   "firstPublished": "2014-10-08T00:00:00+01:00",
+   "ai": {
+    "summary": "Not stated in source",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-10T13:29:59.056Z"
+   }
+  },
+  {
+   "id": "a1176fca0ee80f26",
+   "title": "Stay on top of your finances, start your Self Assessment today",
+   "url": "https://www.gov.uk/government/news/stay-on-top-of-your-finances-start-your-self-assessment-today",
+   "path": "/government/news/stay-on-top-of-your-finances-start-your-self-assessment-today",
+   "date": "2026-11-10T10:11:17Z",
+   "type": "press_release",
+   "source": "HMRC (GOV.UK)",
+   "description": "Customers encouraged to start their Self Assessment with 31 January deadline approaching.",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-10T10:11:17+00:00",
+   "ai": {
+    "summary": "HMRC urges anyone filing a Self Assessment for the 2025‑2026 tax year to start their return now rather than waiting until the 31 January 2027 deadline, offering online guidance, pre‑populated payment details and tools such as the HMRC app to help avoid mistakes and plan tax payments.",
+    "whoAffected": "Self Assessment customers, including individuals, SMEs, owner‑managed businesses and the self‑employed who must file for the 2025‑2026 tax year, especially those with PAYE income, High Income Child Benefit Charge, cryptoasset gains or Winter Fuel Payments.",
+    "effectiveDate": "31 January 2027",
+    "actions": [
+     "Tell clients to begin their Self Assessment early to allow time for checking and corrections",
+     "Direct clients to GOV.UK Self Assessment help pages, webinars and the checker tool for guidance",
+     "Ask clients to verify any pre‑populated Winter Fuel Payment or HICBC details before filing",
+     "Recommend using the HMRC app for UTR lookup, payment reminders and to set up payment options"
+    ],
+    "legislationRefs": [
+     "Self Assessment",
+     "Making Tax Digital for Income Tax",
+     "High Income Child Benefit Charge (HICBC)",
+     "Winter Fuel Payment",
+     "Capital Gains Tax"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-10T13:30:02.440Z"
+   }
+  },
+  {
+   "id": "b72d55d838886a17",
+   "title": "Zero rating medicines supplied free of charge (VAT Notice 1004)",
+   "url": "https://www.gov.uk/guidance/zero-rating-medicines-supplied-free-of-charge-vat-notice-1004",
+   "path": "/guidance/zero-rating-medicines-supplied-free-of-charge-vat-notice-1004",
+   "date": "2026-11-10T10:11:13Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out when you can zero-rate medicines supplied free of charge, including medicines for NHS treatment, clinical trials and continued treatment after a clinical trial.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "This guidance has been updated to explain when medicines provided for continued treatment after a clinical trial can be treated as samples or zero-rated.",
+   "firstPublished": "2026-10-28T18:07:00+00:00"
+  },
+  {
+   "id": "d89c785473c275fd",
+   "title": "Authorising an agent to deal with your tax affairs",
+   "url": "https://www.gov.uk/guidance/authorising-an-agent-to-deal-with-your-tax-affairs",
+   "path": "/guidance/authorising-an-agent-to-deal-with-your-tax-affairs",
+   "date": "2026-11-10T08:34:58Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Check what a paid agent can do on your behalf. How you authorise the agent depends on the tax, and you may need to use paper form 64-8 or an online service.",
+   "categories": [
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "A link to ‘how to choose an agent’ has been added to help with what to look out for when making the decision.",
+   "firstPublished": "2014-04-04T00:00:00+01:00",
+   "ai": {
+    "summary": "The guide explains how clients can authorise a paid tax agent to act for them with HMRC, using online services or the 64‑8 form, and outlines the powers agents have for different taxes, the need for client responsibility, and how to set up, limit, change or remove authorisation.",
+    "whoAffected": "SMEs, owner‑managed businesses, self‑employed individuals and any taxpayer who wishes to use a paid tax agent",
+    "effectiveDate": "2026-11-10",
+    "actions": [
+     "Have the client complete and sign the 64‑8 Authorising your agent form (or use the relevant online service) before the agent acts on their behalf",
+     "Check that the correct agent codes are entered for each tax regime on the form or online authorisation",
+     "Remind the client they remain legally responsible and must verify any returns or information before the agent submits them to HMRC",
+     "If only limited authorisation is needed, obtain a written letter of authority containing the client’s name, address, tax reference, agent’s details and client’s signature"
+    ],
+    "legislationRefs": [
+     "64-8 Authorising your agent",
+     "COMP1a"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-10T13:30:07.513Z"
+   }
+  },
   {
    "id": "51770f86d06505ec",
    "title": "Prepare for mandatory payrolling of benefits in kind",
@@ -3442,48 +3648,6 @@
    }
   },
   {
-   "id": "b72d55d838886a17",
-   "title": "Zero rating medicines supplied free of charge (VAT Notice 1004)",
-   "url": "https://www.gov.uk/guidance/zero-rating-medicines-supplied-free-of-charge-vat-notice-1004",
-   "path": "/guidance/zero-rating-medicines-supplied-free-of-charge-vat-notice-1004",
-   "date": "2026-10-28T18:07:29Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out when you can zero-rate medicines supplied free of charge, including medicines for NHS treatment, clinical trials and continued treatment after a clinical trial.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T18:07:29+00:00",
-   "ai": {
-    "summary": "Medicines supplied free of charge to the NHS, in clinical trials or for post‑trial treatment are zero‑rated for VAT from 23 June 2026, provided they meet authorisation and certificate requirements; otherwise they remain standard rated.",
-    "whoAffected": "Pharmaceutical companies supplying free medicines for NHS treatment, sponsors of clinical trials, companies participating in the Early Access to Medicines Scheme, importers/distributors of such medicines, and any business receiving free‑of‑charge medicines for qualifying uses.",
-    "effectiveDate": "23 June 2026",
-    "actions": [
-     "Check whether the client supplies medicines free of charge for NHS use, a clinical trial, or post‑trial treatment and confirm the product meets the authorisation criteria.",
-     "Verify the supply meets one of the qualifying conditions (marketing authorisation, regulation 167, or Early Access scheme).",
-     "Obtain and retain a valid certificate for each zero‑rated supply or import as required by the notice.",
-     "If VAT was charged on supplies between 23 June 2026 and 27 October 2026, advise the client to correct the VAT accounting."
-    ],
-    "legislationRefs": [
-     "Schedule 8, Group 12, Items 1ZA to 1ZC",
-     "section 62",
-     "Human Medicines Regulations 2012",
-     "Medicines for Human Use (Clinical Trials) Regulations 2004",
-     "Schedule 9, Group 7 of the VAT Act 1994",
-     "Health and Social Care (Reform) Act (Northern Ireland) 2009",
-     "National Health Service Act 2006",
-     "National Health Service (Wales) Act 2006",
-     "National Health Service (Scotland) Act 1978",
-     "Health and Personal Social Services (Northern Ireland) Order 1991"
-    ],
-    "relevance": "medium",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-28T18:21:09.112Z"
-   }
-  },
-  {
    "id": "792c4e975ecde54b",
    "title": "Fuel and power (VAT Notice 701/19)",
    "url": "https://www.gov.uk/guidance/vat-on-fuel-and-power-notice-70119",
@@ -4821,70 +4985,6 @@
    }
   },
   {
-   "id": "7404cc60533fc0fe",
-   "title": "Inheritance Tax: preventing unintended deductions for liabilities in trust arrangements",
-   "url": "https://www.gov.uk/government/publications/inheritance-tax-preventing-unintended-deductions-for-liabilities-in-trust-arrangements",
-   "path": "/government/publications/inheritance-tax-preventing-unintended-deductions-for-liabilities-in-trust-arrangements",
-   "date": "2026-10-28T17:35:00Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This measure will amend the Inheritance Tax rules on liabilities relating to settled property to make sure they operate as intended and provide greater certainty about how liabilities are taken into account for Inheritance Tax purposes.",
-   "categories": [
-    "iht"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:00+00:00",
-   "ai": {
-    "summary": "The measure stops avoidance‑related liabilities from lowering Inheritance Tax and adds clear rules on how trustees’ legitimate liabilities are counted when valuing settled property for IHT, ensuring consistent application and certainty.",
-    "whoAffected": "Trustees and taxpayers with settled property trusts (including owners of SME family trusts)",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Identify any liabilities from avoidance arrangements in client trusts and ensure they are not claimed to reduce IHT",
-     "Review how trustees' properly incurred liabilities are currently reflected in IHT valuations",
-     "Adjust trust valuation calculations to incorporate the new liability rules",
-     "Inform clients of the changes to ensure compliance and certainty"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-02T21:42:46.736Z"
-   }
-  },
-  {
-   "id": "770242d5da9c46e1",
-   "title": "Income Tax: increasing the trading allowance",
-   "url": "https://www.gov.uk/government/publications/income-tax-increasing-the-trading-allowance",
-   "path": "/government/publications/income-tax-increasing-the-trading-allowance",
-   "date": "2026-10-28T17:35:00Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This tax information and impact note details legislation introduced to increase the income tax trading allowance to £3,000, for trades and miscellaneous income. ",
-   "categories": [
-    "personal",
-    "selfemployed",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:35:00+00:00",
-   "ai": {
-    "summary": "The trading allowance rises from £1,000 to £3,000 for the 2027‑2028 tax year, also raising the self‑assessment reporting threshold to £3,000 for trade and miscellaneous income.",
-    "whoAffected": "Self‑employed individuals, SMEs and owner‑managed businesses with trading or miscellaneous income who file Income Tax self‑assessment",
-    "effectiveDate": "Tax year 2027‑2028",
-    "actions": [
-     "Notify affected clients of the higher trading allowance and reporting threshold",
-     "Adjust tax calculations and self‑assessment forms to reflect the £3,000 allowance",
-     "Update practice software and templates with the new figures",
-     "Review whether clients should claim the allowance or opt for actual expense deduction"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-30T18:05:01.276Z"
-   }
-  },
-  {
    "id": "6c90333c9c120070",
    "title": "Stamp Duty Land Tax — changes to group relief",
    "url": "https://www.gov.uk/government/publications/stamp-duty-land-tax-changes-to-group-relief",
@@ -5010,6 +5110,70 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-30T18:04:54.171Z"
+   }
+  },
+  {
+   "id": "770242d5da9c46e1",
+   "title": "Income Tax: increasing the trading allowance",
+   "url": "https://www.gov.uk/government/publications/income-tax-increasing-the-trading-allowance",
+   "path": "/government/publications/income-tax-increasing-the-trading-allowance",
+   "date": "2026-10-28T17:35:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note details legislation introduced to increase the income tax trading allowance to £3,000, for trades and miscellaneous income. ",
+   "categories": [
+    "personal",
+    "selfemployed",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:00+00:00",
+   "ai": {
+    "summary": "The trading allowance rises from £1,000 to £3,000 for the 2027‑2028 tax year, also raising the self‑assessment reporting threshold to £3,000 for trade and miscellaneous income.",
+    "whoAffected": "Self‑employed individuals, SMEs and owner‑managed businesses with trading or miscellaneous income who file Income Tax self‑assessment",
+    "effectiveDate": "Tax year 2027‑2028",
+    "actions": [
+     "Notify affected clients of the higher trading allowance and reporting threshold",
+     "Adjust tax calculations and self‑assessment forms to reflect the £3,000 allowance",
+     "Update practice software and templates with the new figures",
+     "Review whether clients should claim the allowance or opt for actual expense deduction"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-30T18:05:01.276Z"
+   }
+  },
+  {
+   "id": "7404cc60533fc0fe",
+   "title": "Inheritance Tax: preventing unintended deductions for liabilities in trust arrangements",
+   "url": "https://www.gov.uk/government/publications/inheritance-tax-preventing-unintended-deductions-for-liabilities-in-trust-arrangements",
+   "path": "/government/publications/inheritance-tax-preventing-unintended-deductions-for-liabilities-in-trust-arrangements",
+   "date": "2026-10-28T17:35:00Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This measure will amend the Inheritance Tax rules on liabilities relating to settled property to make sure they operate as intended and provide greater certainty about how liabilities are taken into account for Inheritance Tax purposes.",
+   "categories": [
+    "iht"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T17:35:00+00:00",
+   "ai": {
+    "summary": "The measure stops avoidance‑related liabilities from lowering Inheritance Tax and adds clear rules on how trustees’ legitimate liabilities are counted when valuing settled property for IHT, ensuring consistent application and certainty.",
+    "whoAffected": "Trustees and taxpayers with settled property trusts (including owners of SME family trusts)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify any liabilities from avoidance arrangements in client trusts and ensure they are not claimed to reduce IHT",
+     "Review how trustees' properly incurred liabilities are currently reflected in IHT valuations",
+     "Adjust trust valuation calculations to incorporate the new liability rules",
+     "Inform clients of the changes to ensure compliance and certainty"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T21:42:46.736Z"
    }
   },
   {
@@ -7130,37 +7294,6 @@
    }
   },
   {
-   "id": "3fd5d9da5a8343da",
-   "title": "Self Assessment commercial software suppliers",
-   "url": "https://www.gov.uk/government/publications/self-assessment-commercial-software-suppliers",
-   "path": "/government/publications/self-assessment-commercial-software-suppliers",
-   "date": "2026-10-23T08:58:57Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find software suppliers for tax returns, supplementary pages and attachments.",
-   "categories": [
-    "personal"
-   ],
-   "hasBody": true,
-   "changeNote": "The list of Self Assessment commercial software suppliers has been updated with one addition.",
-   "firstPublished": "2014-01-01T00:00:00+00:00",
-   "ai": {
-    "summary": "The list of approved commercial software can be used to file Self Assessment returns, supplementary pages and attachments. Some products can retrieve HMRC data for agents or individuals. Users must log in via GOV.UK One Login with a unique ID/password, and developers can seek technical support.",
-    "whoAffected": "Agents filing client returns, individuals filing their own Self Assessment, and software developers of Self Assessment commercial products",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Check with the software supplier whether their product includes the HMRC data retrieval feature",
-     "Ensure a unique user ID and password are created via GOV.UK One Login before submitting returns",
-     "Advise clients to use listed commercial software for filing returns and attachments",
-     "Contact the software supplier for technical support if you develop Self Assessment software"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-23T10:05:24.623Z"
-   }
-  },
-  {
    "id": "7af2c24a5f5a9e41",
    "title": "Open Banking: privacy notice",
    "url": "https://www.gov.uk/government/publications/open-banking-privacy-notice",
@@ -8743,40 +8876,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-06T12:03:26.563Z"
-   }
-  },
-  {
-   "id": "d89c785473c275fd",
-   "title": "Authorising an agent to deal with your tax affairs",
-   "url": "https://www.gov.uk/guidance/authorising-an-agent-to-deal-with-your-tax-affairs",
-   "path": "/guidance/authorising-an-agent-to-deal-with-your-tax-affairs",
-   "date": "2026-10-06T11:03:06Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Check what a paid agent can do on your behalf. How you authorise the agent depends on the tax, and you may need to use paper form 64-8 or an online service.",
-   "categories": [
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Information about a new online tool to find more guidance about VAT has been added to the VAT section of what an authorised agent can do on your behalf.",
-   "firstPublished": "2014-04-04T00:00:00+01:00",
-   "ai": {
-    "summary": "The guide explains how to authorise a paid agent for various UK taxes, outlining what agents can do, the forms (64-8, COMP1a) and online methods required, and stresses the taxpayer’s ongoing legal responsibility and need to review submissions.",
-    "whoAffected": "SMEs, owner‑managed businesses, self‑employed individuals and anyone using a paid accountant or tax adviser to handle their HMRC affairs",
-    "effectiveDate": "2026-10-06",
-    "actions": [
-     "Identify the specific tax services the client needs an agent for (e.g., Self Assessment, VAT, Corporation Tax).",
-     "Choose the appropriate authorisation method – online service or the 64‑8 form – and complete it with correct agent codes.",
-     "Ensure the client reviews and confirms any returns or submissions before the agent files them with HMRC.",
-     "Maintain a record of the authorisation and promptly change or remove it when the relationship ends"
-    ],
-    "legislationRefs": [
-     "64-8 Authorising your agent",
-     "COMP1a"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-06T12:03:29.465Z"
    }
   },
   {
@@ -12989,37 +13088,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-04T11:09:07.075Z"
-   }
-  },
-  {
-   "id": "8c9f57b4c2053daa",
-   "title": "Double Taxation Treaty Passport Scheme register",
-   "url": "https://www.gov.uk/government/publications/double-taxation-treaty-passport-scheme-register",
-   "path": "/government/publications/double-taxation-treaty-passport-scheme-register",
-   "date": "2026-08-07T11:40:27Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Check the status of overseas corporate lenders who are passport holders for Double Taxation Relief on UK loan interest.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "The register has been updated with 446 additions, 28 amendments and 219 removals.",
-   "firstPublished": "2014-10-24T00:00:00+01:00",
-   "ai": {
-    "summary": "The register lists companies in the Double Taxation Treaty Passport Scheme and lets borrowers verify a lender’s passport holder status; HMRC updates it regularly.",
-    "whoAffected": "Borrowers (including SMEs, owner‑managed businesses and the self‑employed) seeking UK loan interest relief",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Access the Double Taxation Treaty Passport Scheme register on the GOV.UK site",
-     "Check the lender’s name against the register to confirm passport holder status",
-     "Advise clients to rely on the register verification before finalising loan arrangements",
-     "Monitor the register periodically as HMRC adds new lenders"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-06T18:20:54.726Z"
    }
   },
   {
