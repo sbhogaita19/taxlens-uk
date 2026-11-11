@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-10T19:42:16.105Z",
+ "generatedAt": "2026-11-11T12:45:37.161Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,215 @@
    "label": "Other"
   }
  ],
- "count": 584,
+ "count": 592,
  "items": [
+  {
+   "id": "eb0bac90eca31277",
+   "title": "Tell HMRC your Inheritance Tax scheme reference number",
+   "url": "https://www.gov.uk/government/publications/tax-avoidance-schemes-disclosure-of-inheritance-tax-scheme-reference-number-aag4iht",
+   "path": "/government/publications/tax-avoidance-schemes-disclosure-of-inheritance-tax-scheme-reference-number-aag4iht",
+   "date": "2026-11-11T11:08:06Z",
+   "type": "form",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use form AAG4(IHT) to tell HMRC of a scheme reference number given to you for an Inheritance Tax avoidance scheme you have used.",
+   "categories": [
+    "iht",
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "The online AAG4(IHT) form submission information has been removed as form AAG4(IHT) can only be submitted by post.",
+   "firstPublished": "2014-10-02T01:00:00+01:00",
+   "ai": {
+    "summary": "Use the postal AAG4(IHT) form to report any 8‑digit Inheritance Tax scheme reference number you have received.",
+    "whoAffected": "Individuals or businesses that expect an Inheritance Tax advantage and have been given an 8‑digit scheme reference number by HMRC, a scheme promoter, a supplier, or a promoter’s client.",
+    "effectiveDate": "2026-11-11",
+    "actions": [
+     "Identify clients who hold an 8‑digit IHT scheme reference number",
+     "Request the postal AAG4(IHT) form from HMRC (or email for a Welsh version)",
+     "Complete the interactive form using Adobe Reader and post it to HMRC",
+     "If technical issues arise, contact the Online Services Helpdesk"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-11T12:45:13.825Z"
+   }
+  },
+  {
+   "id": "a245915b32fb499b",
+   "title": "Forms to disclose tax avoidance schemes",
+   "url": "https://www.gov.uk/guidance/forms-to-disclose-tax-avoidance-schemes",
+   "path": "/guidance/forms-to-disclose-tax-avoidance-schemes",
+   "date": "2026-11-11T11:04:46Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out which form to use in different circumstances.\r\n",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "The guidance has been updated to reflect that form AAG1 can be submitted electronically or by post, and forms AAG2, AAG3 and AAG4(SDLT) can only be submitted by post. ",
+   "firstPublished": "2014-07-07T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC requires tax avoidance schemes to be disclosed using specific AAG forms. Choose AAG1‑3 for notifiable arrangements, AAG4 for SRNs when a return isn’t possible, and AAG8 for employee details. Submissions can be electronic (AAG1, AAG4) or by post to DOTAS, with deadlines for employee data.",
+    "whoAffected": "Businesses and individuals that need to disclose tax avoidance schemes – promoters, scheme users, employers and employees.",
+    "effectiveDate": "2026-11-11",
+    "actions": [
+     "Identify the correct disclosure form (AAG1, AAG2 or AAG3) for the notifiable arrangement or proposal; use AAG1 for Apprenticeship Levy disclosures with Income Tax format.",
+     "If an SRN cannot be entered on a tax return, complete the appropriate AAG4 form (including SDLT, IHT or ATED variants).",
+     "Submit the chosen form electronically where allowed (AAG1, AAG4) or post the completed form to DOTAS at BX9 2BU, United Kingdom.",
+     "For employers, complete form AAG8 with employee details and ensure it is filed by 19 April after the end of the tax year."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-11T12:45:17.926Z"
+   }
+  },
+  {
+   "id": "c518b6fec6efb44e",
+   "title": "Submit brand information for verified spirit drinks",
+   "url": "https://www.gov.uk/guidance/submit-brand-information-for-verified-spirit-drinks",
+   "path": "/guidance/submit-brand-information-for-verified-spirit-drinks",
+   "date": "2026-11-11T09:01:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how to submit brand details to HMRC for Scotch Whisky, Irish Whiskey, Irish Cream, Irish Poteen, Somerset Cider Brandy, Single Malt Welsh Whisky and English Whisky if you're a verified bottler.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Section 'Assuring that brands originate from compliant processes' updated to include references to English Whisky.",
+   "firstPublished": "2020-11-27T00:00:00+00:00",
+   "ai": {
+    "summary": "Verified bottlers, re‑bottlers and re‑labellers must submit each brand’s name and owner online to HMRC after verification. HMRC publishes only brand name and owner on its look‑up service; bottler details remain internal. All facilities involved must submit separate applications.",
+    "whoAffected": "Verified bottlers, re‑bottlers, re‑labellers, brand owners and any separate labellers who handle Scotch Whisky, Irish Whiskey, Irish Cream, Irish Poteen, Somerset Cider Brandy, Single Malt Welsh Whisky or English Whisky.",
+    "effectiveDate": "2026-11-11",
+    "actions": [
+     "Identify each bottling or labelling facility linked to the brand and ensure it prepares its own online application",
+     "Gather accurate brand name and brand owner details and verify spelling before starting the online form (progress cannot be saved)",
+     "Submit the brand information online for every bottler or labeller involved in the brand’s production",
+     "Check HMRC’s look‑up service after submission to confirm the brand name and owner are published and monitor for any cessation notices"
+    ],
+    "legislationRefs": [
+     "Spirit Drinks Verification Scheme",
+     "Spirit Drinks Verification Unit"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-11T12:45:21.771Z"
+   }
+  },
+  {
+   "id": "184f61d873802985",
+   "title": "Spirit Drinks Verification Scheme",
+   "url": "https://www.gov.uk/guidance/spirit-drinks-verification-scheme",
+   "path": "/guidance/spirit-drinks-verification-scheme",
+   "date": "2026-11-11T09:01:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out about the Spirit Drinks Verification Scheme if you produce a UK spirit drink with a protected geographical indication.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Added English Whisky to the list of protected spirit drinks.",
+   "firstPublished": "2014-10-01T00:00:00+01:00",
+   "ai": {
+    "summary": "Producers or marketers of UK spirit drinks with protected geographical indications must apply to HMRC for verification under the Spirit Drinks Verification Scheme, pay a fee, and after registration can use the look‑up service, submit brand details, and obtain certificates.",
+    "whoAffected": "Businesses that produce or market spirit drinks with a protected UK geographical indication (e.g., Scotch Whisky, Irish Whiskey, English Whisky, etc.)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check if the client’s spirit drink is on the protected geographical indication list",
+     "Advise the client to apply to HMRC for verification and pay the required fee before production",
+     "Guide the client through registration steps: use the look‑up service, prepare for verification visits and submit brand information",
+     "Monitor the HMRC look‑up service and help the client update details or obtain certificates of age and origin"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-11T12:45:25.095Z"
+   }
+  },
+  {
+   "id": "5f8cc29184fb6cd7",
+   "title": "Apply for the Spirit Drinks Verification Scheme",
+   "url": "https://www.gov.uk/guidance/spirit-drinks-with-a-protected-geographical-indication",
+   "path": "/guidance/spirit-drinks-with-a-protected-geographical-indication",
+   "date": "2026-11-11T09:01:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Apply for verification before you start production of any spirit drinks protected under a UK geographical indication scheme.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about English Whisky has been added and the option to apply by post has been removed.",
+   "firstPublished": "2014-10-20T00:00:00+01:00",
+   "ai": {
+    "summary": "The Spirit Drinks Verification Scheme requires anyone producing, importing, blending, bottling or labeling protected spirit drinks (e.g., Scotch Whisky, Irish Whiskey, English Whisky, Welsh Whisky, etc.) to apply online and be verified before starting activities, with fees, brand information submissions and biennial verification visits required.",
+    "whoAffected": "Producers, bulk importers, blenders, bottlers, re‑bottlers and re‑labellers of protected spirit drinks such as Scotch Whisky, Irish Whiskey, Irish Cream, Irish Poteen, Somerset Cider Brandy, Single Malt Welsh Whisky, Dovey Native Botanical Gin and English Whisky/Whiskey in the UK.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify client businesses that make or import protected spirit drinks and confirm they need to apply",
+     "Collect required details (name, address, facilities, production processes, billing) before the client starts production",
+     "Submit the online application and ensure brand information is provided for each bottling/labeling site",
+     "Prepare client for verification visit, fees and ongoing biennial compliance"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-11T12:45:27.893Z"
+   }
+  },
+  {
+   "id": "8ad087a64880df3c",
+   "title": "Change your details or leave the Spirit Drinks Verification Scheme",
+   "url": "https://www.gov.uk/guidance/change-your-details-or-leave-the-spirit-drinks-verification-scheme",
+   "path": "/guidance/change-your-details-or-leave-the-spirit-drinks-verification-scheme",
+   "date": "2026-11-11T09:01:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how to change your details, leave the scheme or transfer production facilities to another producer.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "English Whisky has been added to the list of protected UK geographical indications.",
+   "firstPublished": "2020-11-27T00:00:00+00:00"
+  },
+  {
+   "id": "8373dc039eddc3e5",
+   "title": "Preparing for Spirit Drink Verification Scheme visits",
+   "url": "https://www.gov.uk/guidance/preparing-for-spirit-drink-verification-scheme-visits",
+   "path": "/guidance/preparing-for-spirit-drink-verification-scheme-visits",
+   "date": "2026-11-11T09:01:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out about the verification checks and what to expect during a visit if you've applied for verification and paid your fee for the Scheme.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "English Whisky has been added to the list of UK protected geographical indications.",
+   "firstPublished": "2014-10-01T00:00:00+01:00"
+  },
+  {
+   "id": "1c650ce2a6898152",
+   "title": "Producing English Whisky",
+   "url": "https://www.gov.uk/guidance/producing-english-whisky",
+   "path": "/guidance/producing-english-whisky",
+   "date": "2026-11-11T09:00:00Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how to apply for the Spirit Drinks Verification Scheme and comply with the product specification for English Whisky.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-11T09:00:00+00:00"
+  },
   {
    "id": "bd60fae217f51280",
    "title": "Rates and allowances: Child Benefit, Guardian's Allowance and tax credits",
@@ -6756,37 +6963,6 @@
    }
   },
   {
-   "id": "0d2850d938e40d85",
-   "title": "Corporate Tax Simplification for Business Investment",
-   "url": "https://www.gov.uk/government/consultations/corporate-tax-simplification-for-business-investment",
-   "path": "/government/consultations/corporate-tax-simplification-for-business-investment",
-   "date": "2026-10-28T13:30:30Z",
-   "type": "open_consultation",
-   "source": "HM Treasury (GOV.UK)",
-   "description": "Consultation on areas of the Corporate Tax system where targeted simplification could improve certainty and support investment, growth and competitiveness. ",
-   "categories": [
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:30:30+00:00",
-   "ai": {
-    "summary": "The government is consulting on simplifying corporate tax to boost investment, growth and competitiveness, addressing stakeholder concerns on complexity and administrative burdens, with a year‑long plan to develop and test reforms before detailed proposals.",
-    "whoAffected": "Not stated in source",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Review the consultation details and note areas of complexity relevant to your clients",
-     "Identify which of your SME or owner‑managed clients may be affected by corporate tax complexity",
-     "Consider submitting feedback or client perspectives to the consultation",
-     "Prepare clients for possible future simplifications by reviewing current tax processes"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-06T12:59:54.573Z"
-   }
-  },
-  {
    "id": "b066379bffe2c78f",
    "title": "Government letter to the British Business Bank",
    "url": "https://www.gov.uk/government/publications/government-letter-to-the-british-business-bank",
@@ -6877,6 +7053,37 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-08T11:57:56.962Z"
+   }
+  },
+  {
+   "id": "0d2850d938e40d85",
+   "title": "Corporate Tax Simplification for Business Investment",
+   "url": "https://www.gov.uk/government/consultations/corporate-tax-simplification-for-business-investment",
+   "path": "/government/consultations/corporate-tax-simplification-for-business-investment",
+   "date": "2026-10-28T13:30:00Z",
+   "type": "open_consultation",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "Consultation on areas of the Corporate Tax system where targeted simplification could improve certainty and support investment, growth and competitiveness. ",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:30:30+00:00",
+   "ai": {
+    "summary": "The government is consulting on simplifying the Corporate Tax system to boost business investment, growth and competitiveness, addressing stakeholder concerns about complexity and administrative burdens, and will work over the next year to develop and test reform options before proposing detailed changes.",
+    "whoAffected": "Businesses subject to Corporate Tax and other stakeholders",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review the consultation details and note areas of complexity for clients",
+     "Identify any client concerns about corporate tax uncertainty or administrative burden",
+     "Submit feedback to the consultation on behalf of affected clients",
+     "Monitor updates as the government refines and tests simplification options"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-11T12:45:35.660Z"
    }
   },
   {
