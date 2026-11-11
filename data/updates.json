@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-11T12:45:37.161Z",
+ "generatedAt": "2026-11-11T19:34:23.812Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -74,6 +74,38 @@
  ],
  "count": 592,
  "items": [
+  {
+   "id": "37c4e6204280bde6",
+   "title": "CWG2: further guide to PAYE and National Insurance contributions",
+   "url": "https://www.gov.uk/government/publications/cwg2-further-guide-to-paye-and-national-insurance-contributions",
+   "path": "/government/publications/cwg2-further-guide-to-paye-and-national-insurance-contributions",
+   "date": "2026-11-11T14:51:17Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out about detailed Pay As You Earn (PAYE) and National Insurance contributions for current and previous years if you're an employer.",
+   "categories": [
+    "paye",
+    "nic"
+   ],
+   "hasBody": true,
+   "changeNote": "HTML document ‘2026 to 2027: Employer further guide to PAYE and National Insurance contributions’ has been updated in section 2.2.6 to clarify how to report a one-off payment following a relevant accretion on a Full Payment Submission (FPS), including the payroll ID and pay frequency to use.",
+   "firstPublished": "2014-04-06T00:00:00+01:00",
+   "ai": {
+    "summary": "The guide now clarifies reporting a one‑off payment after a relevant accrual on an FPS, specifying the payroll ID and pay frequency to use.",
+    "whoAffected": "Employers, especially SMEs and owner‑managed businesses, who need to submit a Full Payment Submission for one‑off payments after a relevant accrual",
+    "effectiveDate": "2026-11-11",
+    "actions": [
+     "Review section 2.2.6 of the guide for the new reporting requirements",
+     "Ensure your FPS includes the correct payroll ID for the one‑off payment",
+     "Apply the appropriate pay frequency as instructed",
+     "Update payroll software or processes to reflect the change"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-11T19:34:11.554Z"
+   }
+  },
   {
    "id": "eb0bac90eca31277",
    "title": "Tell HMRC your Inheritance Tax scheme reference number",
@@ -247,7 +279,22 @@
    ],
    "hasBody": true,
    "changeNote": "English Whisky has been added to the list of protected UK geographical indications.",
-   "firstPublished": "2020-11-27T00:00:00+00:00"
+   "firstPublished": "2020-11-27T00:00:00+00:00",
+   "ai": {
+    "summary": "Clients in the Spirit Drinks Verification Scheme must email HMRC to update details, withdraw, or transfer facilities. Withdrawal ends verified status, may affect product legality and customer liability, and no fee refunds are given. Transfers keep verification if the new owner is already verified or applies within 6 months.",
+    "whoAffected": "Businesses that are verified bulk importers or producers of Scotch Whisky, Irish Whiskey, Irish Cream, Irish Poteen, Somerset Cider Brandy, Single Malt Welsh Whisky, Dovey Native Botanical Gin, English Whisky, and owners transferring such production facilities.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Advise the client to email enquiries.sdvs@hmrc.gov.uk with any address, trading name, contact, legal entity or premises changes.",
+     "If withdrawing, ensure the client provides the intended withdrawal date and reasons, and warn that fees already paid are non‑refundable.",
+     "Tell the client to inform customers of any status change to avoid potential enforcement liability.",
+     "For facility transfers, confirm the former operator notifies HMRC and check whether the new owner is already verified or must apply within six months."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-11T19:34:14.964Z"
+   }
   },
   {
    "id": "8373dc039eddc3e5",
@@ -263,7 +310,22 @@
    ],
    "hasBody": true,
    "changeNote": "English Whisky has been added to the list of UK protected geographical indications.",
-   "firstPublished": "2014-10-01T00:00:00+01:00"
+   "firstPublished": "2014-10-01T00:00:00+01:00",
+   "ai": {
+    "summary": "Producers who have applied and paid for verification will be contacted for a visit, which checks production processes per drink type; tax queries aren't handled, and non‑compliance may incur extra fees. Assured facilities are listed publicly.",
+    "whoAffected": "UK spirit drink producers who have applied for and paid for verification under the Spirit Drinks Verification Scheme",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the client has submitted the verification application and paid the fee",
+     "Gather and have ready all required documents (e.g., purchase records of ingredients and casks) for the verification officer",
+     "Advise the client that tax or duty questions will not be answered during the visit and to contact their Customer Compliance Manager for revenue issues",
+     "Explain the possibility of an additional fee for repeat visits and that assured facilities will be published on the spirit drinks look‑up service"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-11T19:34:18.591Z"
+   }
   },
   {
    "id": "1c650ce2a6898152",
@@ -279,7 +341,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-11T09:00:00+00:00"
+   "firstPublished": "2026-11-11T09:00:00+00:00",
+   "ai": {
+    "summary": "English Whisky is a protected GI; producers must join the Spirit Drinks Verification Scheme, meet the product specification and be verified before bottling, re‑bottling or labeling. Transitional arrangements apply until 11 May 2028 for existing producers.",
+    "whoAffected": "Any UK producer (including SMEs, owner‑managed distilleries and self‑employed) carrying out any protected English Whisky production process (mashing, fermentation, distillation, maturation, bottling or labeling) in England or the UK.",
+    "effectiveDate": "11 November 2026",
+    "actions": [
+     "Determine whether the client is producing English Whisky before or after 11 Nov 2026 and identify all production facilities.",
+     "Apply for the Spirit Drinks Verification Scheme for each facility before production starts or within 90 days of 11 Nov 2026.",
+     "Ensure the client’s processes meet the English Whisky product specification and retain invoices, delivery records, equipment and procedures for the verification visit.",
+     "Plan for verification visits every 2 years and, if non‑compliant, implement agreed changes within the stipulated timeframe."
+    ],
+    "legislationRefs": [
+     "regulation (EU) 2019/787"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-11T19:34:22.312Z"
+   }
   },
   {
    "id": "bd60fae217f51280",
@@ -8277,38 +8356,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-15T16:58:01.960Z"
-   }
-  },
-  {
-   "id": "37c4e6204280bde6",
-   "title": "CWG2: further guide to PAYE and National Insurance contributions",
-   "url": "https://www.gov.uk/government/publications/cwg2-further-guide-to-paye-and-national-insurance-contributions",
-   "path": "/government/publications/cwg2-further-guide-to-paye-and-national-insurance-contributions",
-   "date": "2026-10-15T13:05:36Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out about detailed Pay As You Earn (PAYE) and National Insurance contributions for current and previous years if you're an employer.",
-   "categories": [
-    "paye",
-    "nic"
-   ],
-   "hasBody": true,
-   "changeNote": "HTML document ‘2026 to 2027: Employer further guide to PAYE and National Insurance contributions’ has been updated in section 5.4.2 to reflect the new 'car or van' hire rate from 44 percent per mile to 55 percent per mile,",
-   "firstPublished": "2014-04-06T00:00:00+01:00",
-   "ai": {
-    "summary": "The guide explains PAYE and NIC handling in less common cases and notes the car/van hire rate has been updated to 55% per mile.",
-    "whoAffected": "Employers, including SMEs and owner‑managed businesses, that operate PAYE/NIC and have car or van hire arrangements",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Check client records for car/van hire mileage calculations",
-     "Apply the new 55% per mile rate for hire vehicles",
-     "Adjust PAYE and NIC computations accordingly",
-     "Review the guide for any other uncommon PAYE/NIC issues affecting clients"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-15T16:58:04.680Z"
    }
   },
   {
