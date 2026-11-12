@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-11T19:34:23.812Z",
+ "generatedAt": "2026-11-12T13:47:18.895Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,309 @@
    "label": "Other"
   }
  ],
- "count": 592,
+ "count": 597,
  "items": [
+  {
+   "id": "89234ab4a254c6f0",
+   "title": "List of Authorised Corporate Service Providers (ACSPs)",
+   "url": "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps",
+   "path": "/government/publications/list-of-authorised-corporate-service-providers-acsps",
+   "date": "2026-11-12T13:43:19Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "This list includes details of businesses and sole traders that have registered as an Authorised Corporate Service Provider (ACSP). This is also known as an authorised agent.",
+   "categories": [
+    "reporting",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated list of Authorised Corporate Service Providers (ACSPs). ",
+   "firstPublished": "2025-10-31T00:00:00+00:00",
+   "ai": {
+    "summary": "ACSPs are agents registered with Companies House to act for clients; they must be supervised by a UK AML supervisory body. Check the official list (and ceased/suspended list) before using one, research their reputation, services, fees and terms, and follow guidance on identity verification.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who engage agents (accountants, solicitors, etc.) to file or complete Companies House activities",
+    "effectiveDate": "2026-11-12",
+    "actions": [
+     "Check the Companies House list of authorised and ceased/suspended ACSPs",
+     "Confirm the ACSP is supervised by a UK AML supervisory body",
+     "Research the agent’s reputation, experience, services, fees and terms",
+     "Follow Companies House guidance on using an ACSP to verify identity"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-12T13:46:51.307Z"
+   }
+  },
+  {
+   "id": "df10b42a381d1de2",
+   "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
+   "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
+   "path": "/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
+   "date": "2026-11-12T13:40:08Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "This list includes details of businesses and sole traders that have had their ACSP status either suspended or ceased (removed).",
+   "categories": [
+    "reporting",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated list of ceased or suspended Authorised Corporate Service Providers (ACSPs). ",
+   "firstPublished": "2025-10-10T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC suspends ACSP status during investigations or for missing AML, filing or identity checks, and ceases it if they withdraw or breach legal duties. The list of changes is refreshed every two weeks.",
+    "whoAffected": "Authorised Corporate Service Providers (businesses and sole traders) and any SME or self‑employed client that uses their services",
+    "effectiveDate": "2026-11-12",
+    "actions": [
+     "Check the HMRC ceased/suspended ACSP list at least every two weeks",
+     "Confirm the ACSP status of any corporate service provider your clients use",
+     "Advise clients to avoid providers that are listed as ceased or suspended",
+     "Ensure any client that is an ACSP complies with AML supervision, Companies House filings and identity‑verification requirements",
+     ""
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-12T13:46:54.142Z"
+   }
+  },
+  {
+   "id": "0b7b4f710cff6694",
+   "title": "Changes to employee share schemes, including Company Share Option Plan and Enterprise Management Incentives",
+   "url": "https://www.gov.uk/government/publications/changes-to-employee-share-schemes-including-company-share-option-plan-and-enterprise-management-incentives",
+   "path": "/government/publications/changes-to-employee-share-schemes-including-company-share-option-plan-and-enterprise-management-incentives",
+   "date": "2026-11-12T12:02:04Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about changes to the rules for employee share schemes. ",
+   "categories": [
+    "cgt",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "The summary of impacts table for 2031 to 2032 has been changed from £140 to -140.",
+   "firstPublished": "2026-10-28T17:36:00+00:00",
+   "ai": {
+    "summary": "From 6 April 2027 the CSOP limit is increased, its interaction with EMI limits is removed, the CSOP exercise period and EMI post‑disqualification window are extended, and the disguised‑remuneration and trust exceptions are broadened.",
+    "whoAffected": "Employers that run Company Share Option Plans or Enterprise Management Incentives and their employee participants",
+    "effectiveDate": "6 April 2027",
+    "actions": [
+     "Review client CSOP limits and adjust grant documentation",
+     "Update EMI advice to reflect removal of CSOP‑EMI limit interaction and longer exercise windows",
+     "Check that share options and shares meet the extended disguised‑remuneration exemption periods",
+     "Inform clients of the expanded Employee Ownership Trust exception in EMI rules"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-12T13:46:57.237Z"
+   }
+  },
+  {
+   "id": "6d29f2d8a27b2ded",
+   "title": "Sending a relief at source annual information return",
+   "url": "https://www.gov.uk/guidance/pension-administrators-ras-annual-information-returns",
+   "path": "/guidance/pension-administrators-ras-annual-information-returns",
+   "date": "2026-11-12T11:17:19Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how to complete and send a relief at source annual information return if you are a pension scheme administrator.",
+   "categories": [
+    "personal",
+    "pensions"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about how to send your return to HMRC has been updated.",
+   "firstPublished": "2013-08-27T10:11:00+01:00",
+   "ai": {
+    "summary": "Pension scheme administrators must submit an annual return for each tax year ending 5 April, covering members with contributions over £0, by 5 July using HMRC’s spreadsheet or flat text file via the secure Transfer service.",
+    "whoAffected": "Pension scheme administrators operating a relief at source scheme",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify scheme members with individual contributions over £0 for the tax year",
+     "Prepare the return using the HMRC‑provided Excel spreadsheet or an ASCII flat text file, ensuring correct format and no excess characters",
+     "Send the completed return via the Transfer files securely with HMRC service by 5 July",
+     "Check HMRC confirmation of receipt and, if needed, correct errors and resubmit or contact the helpline"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-12T13:47:00.197Z"
+   }
+  },
+  {
+   "id": "106091aa5b7466c2",
+   "title": "Find out if you can get an exemption from Making Tax Digital for Income Tax",
+   "url": "https://www.gov.uk/guidance/find-out-if-you-can-get-an-exemption-from-making-tax-digital-for-income-tax",
+   "path": "/guidance/find-out-if-you-can-get-an-exemption-from-making-tax-digital-for-income-tax",
+   "date": "2026-11-12T11:02:14Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Check if you can get an exemption from Making Tax Digital for Income Tax and how it applies.",
+   "categories": [
+    "personal",
+    "selfemployed",
+    "mtd"
+   ],
+   "hasBody": true,
+   "changeNote": "The guidance has been updated to say if you used the SA104 supplementary page to claim averaging relief in your 2024 to 2025 tax return, you are automatically exempt.",
+   "firstPublished": "2021-09-23T00:00:00+01:00",
+   "ai": {
+    "summary": "Exemptions from Making Tax Digital for Income Tax include automatic permanent ones (e.g., qualifying income ≤£20,000, no NI number, partnerships, certain trusts) and temporary ones (e.g., averaging or care relief claims in 2024‑25). Digitally excluded persons must apply, while others continue filing Self Assessment as normal.",
+    "whoAffected": "Self‑employed individuals, partners in partnerships, trustees, personal representatives, and anyone with qualifying income ≤£20,000 or without a National Insurance number, plus those who claimed specific reliefs or used certain SA supplementary pages in their 2024‑25 return.",
+    "effectiveDate": "2026‑2027 tax year (temporary exemptions last until April 2027; permanent exemptions apply unless circumstances change)",
+    "actions": [
+     "Check each client’s qualifying income and NI status to see if they qualify for the permanent automatic exemption",
+     "Review the client’s 2024‑25 Self Assessment return for SA103L, SA104, SA107, SA109, SA102M, averaging relief, qualifying care relief, Married Couple’s Allowance or Blind Person’s Allowance to confirm temporary or longer‑term exemption",
+     "If a client is digitally excluded, help them prepare and submit an exemption application, ensuring reasons are not among the excluded grounds listed by HMRC",
+     "For clients with a VAT exemption, confirm with HMRC that the same digital‑exclusion status applies to Income Tax and update records accordingly"
+    ],
+    "legislationRefs": [
+     "SA104",
+     "SA103L",
+     "SA700",
+     "SA900",
+     "SA107",
+     "SA109",
+     "SA102M",
+     "SA103",
+     "Married Couple’s Allowance",
+     "Blind Person’s Allowance"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-12T13:47:03.750Z"
+   }
+  },
+  {
+   "id": "cb2b059cfab9bdc5",
+   "title": "How to complete your annual return for pension schemes operating relief at source",
+   "url": "https://www.gov.uk/government/publications/how-to-complete-your-annual-return-of-information-for-pension-schemes-operating-relief-at-source-2019-version",
+   "path": "/government/publications/how-to-complete-your-annual-return-of-information-for-pension-schemes-operating-relief-at-source-2019-version",
+   "date": "2026-11-12T10:47:20Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how to submit your registered pension schemes relief at source annual information return electronically as a flat text file.",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about how to submit returns to HMRC has been updated at section 2.2 'Submission of returns and declarations'.",
+   "firstPublished": "2019-03-29T13:16:00+00:00",
+   "ai": {
+    "summary": "Guidance sets specifications for pension scheme relief‑at‑source information returns; a completed declaration must accompany each return, otherwise HMRC will treat it as outstanding.",
+    "whoAffected": "Pension scheme administrators operating relief at source",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Prepare a completed declaration for each annual information return",
+     "Check the declaration is fully completed before submission",
+     "Submit the return and declaration electronically as a flat text file",
+     "Confirm HMRC has recorded the return as received to avoid it being marked outstanding"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-12T13:47:06.397Z"
+   }
+  },
+  {
+   "id": "80ff6d2caa39080d",
+   "title": "Guided retirement: policy consultation",
+   "url": "https://www.gov.uk/government/consultations/guided-retirement-policy-consultation",
+   "path": "/government/consultations/guided-retirement-policy-consultation",
+   "date": "2026-11-12T10:12:24Z",
+   "type": "open_consultation",
+   "source": "The Pensions Regulator (GOV.UK)",
+   "description": "This consultation seeks views on initial policy proposals for the implementation of guided retirement across contract-based and trust-based pension providers. ",
+   "categories": [
+    "personal",
+    "iht",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "Changed the closing date on the landing page from 21 December 2026 to 22 December 2026.",
+   "firstPublished": "2026-11-03T10:05:46+00:00"
+  },
+  {
+   "id": "1de21e458fad8b30",
+   "title": "UK hosts global summit to combat financial crime",
+   "url": "https://www.gov.uk/government/news/uk-hosts-global-summit-to-combat-financial-crime",
+   "path": "/government/news/uk-hosts-global-summit-to-combat-financial-crime",
+   "date": "2026-11-12T10:00:03Z",
+   "type": "press_release",
+   "source": "HMRC (GOV.UK)",
+   "description": "Government, law enforcement and industry leaders from around the world met in London this week to strengthen the global response to financial crime. ",
+   "categories": [
+    "selfemployed"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-12T10:00:03+00:00",
+   "ai": {
+    "summary": "HMRC hosted the GFIP Summit 2026 with global tax and law‑enforcement partners to boost cooperation against tax crime, money laundering and fintech‑enabled financial crime, focusing on operational coordination, cross‑border information sharing and public‑private partnerships.",
+    "whoAffected": "Government bodies, law enforcement, financial institutions, fintech companies and financial intelligence units",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review clients' cross‑border transaction monitoring and AML controls",
+     "Encourage clients to engage in public‑private information‑sharing initiatives",
+     "Stay updated on emerging threats such as identity crime and fintech‑enabled financial crime",
+     "Advise clients on robust compliance procedures to mitigate financial‑crime risks"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-12T13:47:11.177Z"
+   }
+  },
+  {
+   "id": "6e70451e9b30d3c4",
+   "title": "File an overseas entity update statement",
+   "url": "https://www.gov.uk/guidance/file-an-overseas-entity-update-statement",
+   "path": "/guidance/file-an-overseas-entity-update-statement",
+   "date": "2026-11-12T10:00:03Z",
+   "type": "detailed_guide",
+   "source": "Companies House (GOV.UK)",
+   "description": "How to file an update statement for an overseas entity and its beneficial owners or managing officers. ",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "Removed section about providing information about the pre-registration period as this will no longer be required. ",
+   "firstPublished": "2023-06-28T00:00:00+01:00"
+  },
+  {
+   "id": "fe8e69a32728ad58",
+   "title": "Process for exporting cell-cultivated products of animal origin from Great Britain to non-EU countries",
+   "url": "https://www.gov.uk/guidance/process-for-exporting-cell-cultivated-products-of-animal-origin-from-great-britain-to-non-eu-countries",
+   "path": "/guidance/process-for-exporting-cell-cultivated-products-of-animal-origin-from-great-britain-to-non-eu-countries",
+   "date": "2026-11-12T09:30:08Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "A process map for exporting cell-cultivated products of animal origin (POAO) from Great Britain to Non-EU Countries. A pathway for regulatory compliance.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-12T09:30:08+00:00"
+  },
+  {
+   "id": "90a5852029284069",
+   "title": "Find payroll software that is recognised by HMRC",
+   "url": "https://www.gov.uk/guidance/find-payroll-software-that-is-recognised-by-hmrc",
+   "path": "/guidance/find-payroll-software-that-is-recognised-by-hmrc",
+   "date": "2026-11-12T09:18:05Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Check for free and paid-for software recognised by HMRC that you can use to report PAYE information online.",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "The page has been updated with 3 additions.",
+   "firstPublished": "2022-02-23T00:00:00+00:00"
+  },
   {
    "id": "37c4e6204280bde6",
    "title": "CWG2: further guide to PAYE and National Insurance contributions",
@@ -730,38 +1031,6 @@
    }
   },
   {
-   "id": "89234ab4a254c6f0",
-   "title": "List of Authorised Corporate Service Providers (ACSPs)",
-   "url": "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps",
-   "path": "/government/publications/list-of-authorised-corporate-service-providers-acsps",
-   "date": "2026-11-09T10:14:53Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "This list includes details of businesses and sole traders that have registered as an Authorised Corporate Service Provider (ACSP). This is also known as an authorised agent.",
-   "categories": [
-    "reporting",
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated ACSP list. ",
-   "firstPublished": "2025-10-31T00:00:00+00:00",
-   "ai": {
-    "summary": "ACSPs are agents like accountants or solicitors registered with Companies House to act for clients. They must be supervised by a UK AML supervisory body and should not appear on the ceased or suspended list. Choose agents after checking reputation, services, fees and terms.",
-    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who use accountants, solicitors or other agents to file or complete Companies House activities",
-    "effectiveDate": "2026-11-09",
-    "actions": [
-     "Check that your practice is listed as an ACSP and not on the ceased or suspended list",
-     "Confirm you are supervised by a UK AML supervisory body",
-     "Provide clients with clear information on services, fees, terms and whether checks are in‑person or remote",
-     "Advise clients to verify your ACSP status before engaging your services"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-09T13:55:48.479Z"
-   }
-  },
-  {
    "id": "7c0f9c706f97f245",
    "title": "Technical interface specifications for Companies House software",
    "url": "https://www.gov.uk/government/publications/technical-interface-specifications-for-companies-house-software",
@@ -1240,38 +1509,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-05T19:55:04.284Z"
-   }
-  },
-  {
-   "id": "df10b42a381d1de2",
-   "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
-   "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
-   "path": "/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
-   "date": "2026-11-05T14:24:11Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "This list includes details of businesses and sole traders that have had their ACSP status either suspended or ceased (removed).",
-   "categories": [
-    "reporting",
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated list of ceased and suspended ACSPs.",
-   "firstPublished": "2025-10-10T00:00:00+01:00",
-   "ai": {
-    "summary": "The UK regulator suspends ACSP status when investigating AML supervision, Companies House filings or identity verification, and ceases it if the provider withdraws or breaches legal duties. The public list of ceased or suspended ACSPs is refreshed every two weeks.",
-    "whoAffected": "Authorised Corporate Service Providers (businesses and sole traders) and their clients, including SMEs and self‑employed owners who use their services.",
-    "effectiveDate": "2026-11-05",
-    "actions": [
-     "Check the official ceased/suspended ACSP list at least every two weeks",
-     "Advise clients to confirm their ACSP’s status before engaging services",
-     "Recommend alternative providers if an ACSP is listed as suspended or ceased",
-     "Maintain records of ACSP status checks for client files"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-05T19:55:07.524Z"
    }
   },
   {
@@ -1886,7 +2123,7 @@
    "title": "Better use of new and improved third-party data (interest income and card sales)",
    "url": "https://www.gov.uk/government/publications/better-use-of-new-and-improved-third-party-data-interest-income-and-card-sales",
    "path": "/government/publications/better-use-of-new-and-improved-third-party-data-interest-income-and-card-sales",
-   "date": "2026-11-03T11:36:13Z",
+   "date": "2026-11-03T11:36:00Z",
    "type": "policy_paper",
    "source": "HMRC (GOV.UK)",
    "description": "On 3 November 2026 the SI 'The Data-gathering (Ongoing Data: Interest and Payment Card Transactions) Regulations 2026' was laid, and the policy will come into force on 1 March 2028.",
@@ -1895,19 +2132,7 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-03T11:36:13+00:00",
-   "ai": {
-    "summary": "Policy introduces new rules for using third‑party data on interest income and card sales, based on the Data‑gathering (Ongoing Data: Interest and Payment Card Transactions) Regulations 2026.",
-    "whoAffected": "Not stated in source",
-    "effectiveDate": "1 March 2028",
-    "actions": [],
-    "legislationRefs": [
-     "The Data-gathering (Ongoing Data: Interest and Payment Card Transactions) Regulations 2026"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-03T12:48:37.980Z"
-   }
+   "firstPublished": "2026-11-03T11:36:00+00:00"
   },
   {
    "id": "08bfa77a38a6d3e9",
@@ -1938,44 +2163,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-03T12:48:40.869Z"
-   }
-  },
-  {
-   "id": "80ff6d2caa39080d",
-   "title": "Guided retirement: policy consultation",
-   "url": "https://www.gov.uk/government/consultations/guided-retirement-policy-consultation",
-   "path": "/government/consultations/guided-retirement-policy-consultation",
-   "date": "2026-11-03T10:05:45Z",
-   "type": "open_consultation",
-   "source": "The Pensions Regulator (GOV.UK)",
-   "description": "This consultation seeks views on initial policy proposals for the implementation of guided retirement across contract-based and trust-based pension providers. ",
-   "categories": [
-    "personal",
-    "iht",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-11-03T10:05:46+00:00",
-   "ai": {
-    "summary": "The government proposes guided retirement rules so people with defined‑contribution workplace pensions won’t need to make complex choices when accessing benefits, requiring secondary legislation under the Pension Schemes Act 2026 and new FCA rules, with draft regulations also published.",
-    "whoAffected": "Individuals saving into defined‑contribution workplace pensions and contract‑based or trust‑based pension providers",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Monitor the guided retirement consultation and draft regulations for any upcoming changes",
-     "Assess how the proposed FCA rules and secondary legislation could affect client pension arrangements",
-     "Prepare client guidance on potential simplifications to pension access",
-     "Consider submitting feedback to the consultation if relevant"
-    ],
-    "legislationRefs": [
-     "Pension Schemes Act 2026",
-     "Part 2, Chapter 6",
-     "Financial Conduct Authority (FCA) rules",
-     "Retirement Collective Pension Schemes draft regulations"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-03T12:48:43.777Z"
    }
   },
   {
@@ -4805,41 +4992,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-02T21:42:39.785Z"
-   }
-  },
-  {
-   "id": "0b7b4f710cff6694",
-   "title": "Changes to employee share schemes, including Company Share Option Plan and Enterprise Management Incentives",
-   "url": "https://www.gov.uk/government/publications/changes-to-employee-share-schemes-including-company-share-option-plan-and-enterprise-management-incentives",
-   "path": "/government/publications/changes-to-employee-share-schemes-including-company-share-option-plan-and-enterprise-management-incentives",
-   "date": "2026-10-28T17:36:00Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "This tax information and impact note is about changes to the rules for employee share schemes. ",
-   "categories": [
-    "cgt",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T17:36:00+00:00",
-   "ai": {
-    "summary": "The measure increases CSOP individual option limits, removes the interaction between CSOP and EMI limits, extends CSOP exercise periods, lengthens the exemption period for certain shares from disguised remuneration rules, widens the Employee Ownership Trusts exception, and extends EMI exercise windows after disqualifying events.",
-    "whoAffected": "Companies that operate Company Share Option Plans (CSOP) or Enterprise Management Incentives (EMI) schemes and the employees who hold those options, including SMEs using these share schemes",
-    "effectiveDate": "6 April 2027",
-    "actions": [
-     "Review client CSOP arrangements and adjust individual option limits",
-     "Update EMI scheme documentation to reflect removal of CSOP‑EMI limit interaction and longer exercise windows",
-     "Advise clients on the extended exemption period from disguised remuneration rules for relevant shares and options",
-     "Check and amend any Employee Ownership Trusts provisions to align with the extended exception"
-    ],
-    "legislationRefs": [
-     "Company Share Option Plan (CSOP)",
-     "Enterprise Management Incentives (EMI)"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-06T19:21:48.928Z"
    }
   },
   {
@@ -8232,37 +8384,6 @@
     "relevance": "medium",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-16T16:36:19.831Z"
-   }
-  },
-  {
-   "id": "90a5852029284069",
-   "title": "Find payroll software that is recognised by HMRC",
-   "url": "https://www.gov.uk/guidance/find-payroll-software-that-is-recognised-by-hmrc",
-   "path": "/guidance/find-payroll-software-that-is-recognised-by-hmrc",
-   "date": "2026-10-16T10:47:47Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Check for free and paid-for software recognised by HMRC that you can use to report PAYE information online.",
-   "categories": [
-    "paye"
-   ],
-   "hasBody": true,
-   "changeNote": "The page has been updated with one removal, 3 additions and 3 amendments.\r\n",
-   "firstPublished": "2022-02-23T00:00:00+00:00",
-   "ai": {
-    "summary": "HMRC recognises a list of free and paid payroll software you can use to report PAYE online; free options apply to businesses with fewer than 10 employees. Choose software based on needed features; HMRC does not endorse any product.",
-    "whoAffected": "SMEs, owner‑managed businesses and any employer needing HMRC‑recognised payroll software, especially those with under 10 staff",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Determine the client’s employee count and payroll requirements",
-     "Check the free HMRC‑recognised software list if the client has fewer than 10 employees",
-     "Compare paid‑for software features against the client’s needs using the provided supplier list",
-     "Confirm the chosen software is on HMRC’s recognised list before submitting PAYE returns"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-16T16:36:22.869Z"
    }
   },
   {
@@ -17416,40 +17537,6 @@
     "relevance": "medium",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-18T09:39:57.573Z"
-   }
-  },
-  {
-   "id": "6e70451e9b30d3c4",
-   "title": "File an overseas entity update statement",
-   "url": "https://www.gov.uk/guidance/file-an-overseas-entity-update-statement",
-   "path": "/guidance/file-an-overseas-entity-update-statement",
-   "date": "2026-02-01T00:01:11Z",
-   "type": "detailed_guide",
-   "source": "Companies House (GOV.UK)",
-   "description": "How to file an update statement for an overseas entity and its beneficial owners or managing officers. ",
-   "categories": [
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "Fee updated.",
-   "firstPublished": "2023-06-28T00:00:00+01:00",
-   "ai": {
-    "summary": "Overseas entities must file an annual update statement confirming register details, even if unchanged. Late filing is a criminal offence and invalidates the entity ID. Information must be verified by a UK‑regulated agent within 3 months, and an authentication code and fee are required.",
-    "whoAffected": "All overseas entities and anyone filing on their behalf (beneficial owners, managing officers, UK‑regulated agents)",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Review the entity’s register information and note any changes or confirm it is unchanged",
-     "Ensure any new or changed information is verified by a UK‑regulated agent no more than 3 months before the statement date",
-     "Obtain the entity’s authentication code (and agent assurance code if applicable) and file the online update statement within 14 days of the statement date, paying the required fee",
-     "If required information cannot be provided online, contact enquiries@companieshouse.gov.uk to file a paper statement"
-    ],
-    "legislationRefs": [
-     "Economic Crime and Corporate Transparency Act 2023",
-     "Money Laundering, Terrorist Financing and Transfer of Funds Regulations 2017"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-20T10:06:29.871Z"
    }
   },
   {
