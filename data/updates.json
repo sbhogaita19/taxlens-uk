@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-12T13:47:18.895Z",
+ "generatedAt": "2026-11-12T19:52:57.521Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,107 @@
    "label": "Other"
   }
  ],
- "count": 597,
+ "count": 598,
  "items": [
+  {
+   "id": "f4c1df612000b7c2",
+   "title": "Local reference rents, listed by BRMA and property size (September 2026)",
+   "url": "https://www.gov.uk/government/publications/local-reference-rents-listed-by-brma-and-property-size-september-2026",
+   "path": "/government/publications/local-reference-rents-listed-by-brma-and-property-size-september-2026",
+   "date": "2026-11-12T16:07:45Z",
+   "type": "research",
+   "source": "HMRC (GOV.UK)",
+   "description": "Local reference rent (LRR) levels by number of rooms and broad rental market areas (BRMA) for residential properties in England in September 2026.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Attachment updated.",
+   "firstPublished": "2026-10-06T09:30:00+01:00",
+   "ai": {
+    "summary": "The September 2026 release lists local reference rent (LRR) levels for residential properties in England, broken down by number of rooms and Broad Rental Market Areas (BRMA).",
+    "whoAffected": "Landlords, tenants and housing‑benefit claimants; housing‑benefit officers; SME owners of rental properties; self‑employed landlords; local authorities handling housing‑benefit referrals.",
+    "effectiveDate": "September 2026",
+    "actions": [
+     "Check the new LRR tables for each client’s property size and BRMA",
+     "Match the appropriate CAT 1A, 1B or 1C category to determine the correct LRR",
+     "Use the LRR figures when preparing housing‑benefit referrals or advising rent levels",
+     "Update client records and advice notes with the September 2026 LRR data"
+    ],
+    "legislationRefs": [
+     "Housing Benefit referral section of the Rent Officer Handbook",
+     "National Archives website"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-12T19:52:36.197Z"
+   }
+  },
+  {
+   "id": "a423b59a96a2bf7a",
+   "title": "Local reference rents, listed by BRMA and property size (August 2026)",
+   "url": "https://www.gov.uk/government/publications/local-reference-rents-listed-by-brma-and-property-size-august-2026",
+   "path": "/government/publications/local-reference-rents-listed-by-brma-and-property-size-august-2026",
+   "date": "2026-11-12T16:07:38Z",
+   "type": "research",
+   "source": "HMRC (GOV.UK)",
+   "description": "Local reference rent (LRR) levels by number of rooms and broad rental market areas (BRMA) for residential properties in England in August 2026.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Attachment updated.",
+   "firstPublished": "2026-09-08T09:53:00+01:00",
+   "ai": {
+    "summary": "The August 2026 update lists local reference rent levels for residential properties in England, categorised by room type (CAT 1A‑1C) and Broad Rental Market Areas (BRMA). It points to the Rent Officer Handbook for methodology.",
+    "whoAffected": "Landlords of residential properties, tenants, housing‑benefit claimants and advisers who calculate or advise on rent levels in England",
+    "effectiveDate": "August 2026",
+    "actions": [
+     "Check the new LRR tables for each BRMA and property size",
+     "Update housing‑benefit rent calculations for client cases",
+     "Advise landlord‑clients on appropriate rent levels based on the new LRR categories",
+     "Consult the Housing Benefit referral section of the Rent Officer Handbook for detailed methodology"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-12T19:52:39.370Z"
+   }
+  },
+  {
+   "id": "b31fb7dac2b0972b",
+   "title": "Local reference rents, listed by BRMA and property size (July 2026)",
+   "url": "https://www.gov.uk/government/publications/local-reference-rents-listed-by-brma-and-property-size-july-2026",
+   "path": "/government/publications/local-reference-rents-listed-by-brma-and-property-size-july-2026",
+   "date": "2026-11-12T16:07:32Z",
+   "type": "research",
+   "source": "HMRC (GOV.UK)",
+   "description": "Local reference rent (LRR) levels by number of rooms and broad rental market areas (BRMA) for residential properties in England in July 2026.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Attachment updated.",
+   "firstPublished": "2026-08-05T09:30:00+01:00",
+   "ai": {
+    "summary": "The July 2026 release lists local reference rent levels for residential properties in England, defined by room count and Broad Rental Market Areas, with categories 1A‑1C and guidance in the Rent Officer Handbook.",
+    "whoAffected": "Tenants and housing‑benefit claimants",
+    "effectiveDate": "July 2026",
+    "actions": [
+     "Check the LRR table for the client’s BRMA and property size",
+     "Advise landlords on appropriate rent categories (1A‑1C) to align with LRR",
+     "Confirm housing‑benefit eligibility calculations using the Rent Officer Handbook guidance",
+     "Update client records with the latest July 2026 LRR figures"
+    ],
+    "legislationRefs": [
+     "Housing Benefit referral section of the Rent Officer Handbook",
+     "National Archives website"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-12T19:52:42.939Z"
+   }
+  },
   {
    "id": "89234ab4a254c6f0",
    "title": "List of Authorised Corporate Service Providers (ACSPs)",
@@ -294,7 +393,26 @@
    ],
    "hasBody": true,
    "changeNote": "Changed the closing date on the landing page from 21 December 2026 to 22 December 2026.",
-   "firstPublished": "2026-11-03T10:05:46+00:00"
+   "firstPublished": "2026-11-03T10:05:46+00:00",
+   "ai": {
+    "summary": "The government is consulting on initial policy proposals to introduce guided retirement, requiring secondary legislation under the Pension Schemes Act 2026 and new FCA rules, aiming to simplify how individuals with defined‑contribution workplace pensions access benefits.",
+    "whoAffected": "Individuals saving into defined contribution workplace pensions and contract‑based and trust‑based pension providers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review the guided retirement consultation documents and draft regulations",
+     "Assess potential impact of proposed secondary legislation and FCA rules on client pension arrangements",
+     "Prepare client communications explaining possible simplifications to pension access",
+     "Monitor progress of the Retirement Collective Pension Schemes draft regulations"
+    ],
+    "legislationRefs": [
+     "guided retirement provisions (Part 2, Chapter 6) of the Pension Schemes Act 2026",
+     "Financial Conduct Authority ( FCA ) rules",
+     "draft regulations for Retirement Collective Pension Schemes"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-12T19:52:45.987Z"
+   }
   },
   {
    "id": "1de21e458fad8b30",
@@ -341,7 +459,24 @@
    ],
    "hasBody": true,
    "changeNote": "Removed section about providing information about the pre-registration period as this will no longer be required. ",
-   "firstPublished": "2023-06-28T00:00:00+01:00"
+   "firstPublished": "2023-06-28T00:00:00+01:00",
+   "ai": {
+    "summary": "Overseas entities must file an annual update statement confirming register details, even if unchanged, within 14 days of the statement date. Late filing is a criminal offence and invalidates the entity ID. Changes require verification by a UK‑regulated agent, and an authentication code and fee are needed to file online.",
+    "whoAffected": "Overseas entities, their beneficial owners, managing officers, and UK‑regulated agents who perform verification checks",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check the entity's statement date (within 12 months of registration or last statement) and ensure filing within the 14‑day window",
+     "If any details have changed, arrange verification by a UK‑regulated agent no more than 3 months before the statement date",
+     "Obtain the entity's authentication code and, if applicable, the agent assurance code",
+     "Submit the online update statement, pay the required fee, and retain confirmation of filing"
+    ],
+    "legislationRefs": [
+     "Money Laundering, Terrorist Financing and Transfer of Funds Regulations 2017"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-12T19:52:49.408Z"
+   }
   },
   {
    "id": "fe8e69a32728ad58",
@@ -357,7 +492,31 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-12T09:30:08+00:00"
+   "firstPublished": "2026-11-12T09:30:08+00:00",
+   "ai": {
+    "summary": "Guidance outlines steps for GB businesses to export cell‑cultivated products of animal origin to non‑EU markets, covering destination eligibility, GB establishment registration, product SPS compliance, and engagement with authorities, noting case‑by‑case assessment and lack of standard certificates.",
+    "whoAffected": "GB‑based producers of cell‑cultivated animal‑origin products seeking to export to non‑EU countries, including SMEs, owner‑managed firms and self‑employed operators.",
+    "effectiveDate": "2026-11-12",
+    "actions": [
+     "Check destination country accepts cell‑cultivated products and confirm market‑access requirements with the importer and APHA.",
+     "Register the GB production site as a food business with the local authority and verify any extra export approvals required.",
+     "Confirm the product meets the destination country's SPS, import and certification rules, including any novel‑food authorisations.",
+     "Engage the destination country's competent authority and maintain documentation of all approvals and controls."
+    ],
+    "legislationRefs": [
+     "Regulation (EU) 2015/2283 - Novel Foods",
+     "Regulation (EC) 853/2004 - Hygiene of Foodstuffs of Animal Origin",
+     "Regulation (EC) 852/2004 - General Hygiene of Foodstuffs",
+     "Regulation (EC) 178/2002 - General Food Law",
+     "Regulation (EU) 2017/625 - Official Controls",
+     "Trade in Animals and Related Products (“TARP”) Regulations 2011 (SI No.1197/2011)",
+     "Trade in Animals and Related Products (Scotland) Regulations 2012 (SSI 2012 No.177)",
+     "Trade in Animals and Related Products (Wales) Regulations 2011 (SI No. 2011/2379)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-12T19:52:52.962Z"
+   }
   },
   {
    "id": "90a5852029284069",
@@ -9407,37 +9566,6 @@
    }
   },
   {
-   "id": "f4c1df612000b7c2",
-   "title": "Local reference rents, listed by BRMA and property size (September 2026)",
-   "url": "https://www.gov.uk/government/publications/local-reference-rents-listed-by-brma-and-property-size-september-2026",
-   "path": "/government/publications/local-reference-rents-listed-by-brma-and-property-size-september-2026",
-   "date": "2026-10-06T08:30:01Z",
-   "type": "research",
-   "source": "HMRC (GOV.UK)",
-   "description": "Local reference rent (LRR) levels by number of rooms and broad rental market areas (BRMA) for residential properties in England in September 2026.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-06T09:30:01+01:00",
-   "ai": {
-    "summary": "The publication lists local reference rent (LRR) levels for residential properties in England by room count and Broad Rental Market Area (BRMA) for September 2026, and defines the BRMA and category terms.",
-    "whoAffected": "Landlords, property owners, letting agents, tenants and anyone dealing with Housing Benefit calculations in England",
-    "effectiveDate": "September 2026",
-    "actions": [
-     "Check the LRR tables for the relevant BRMA and room category when advising on rent levels",
-     "Apply the correct CAT 1A, 1B or 1C definition to each property",
-     "Consult the Housing Benefit referral section of the Rent Officer Handbook for detailed LRR calculations",
-     "Refer to the National Archives for previous LRR releases if historical comparison is needed"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-06T12:03:41.431Z"
-   }
-  },
-  {
    "id": "3dd39c56715aec7d",
    "title": "Check if you need to pay tax when you sell cryptoassets",
    "url": "https://www.gov.uk/guidance/check-if-you-need-to-pay-tax-when-you-sell-cryptoassets",
@@ -11717,39 +11845,6 @@
     "relevance": "medium",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-01T18:25:51.390Z"
-   }
-  },
-  {
-   "id": "a423b59a96a2bf7a",
-   "title": "Local reference rents, listed by BRMA and property size (August 2026)",
-   "url": "https://www.gov.uk/government/publications/local-reference-rents-listed-by-brma-and-property-size-august-2026",
-   "path": "/government/publications/local-reference-rents-listed-by-brma-and-property-size-august-2026",
-   "date": "2026-09-08T08:53:55Z",
-   "type": "research",
-   "source": "HMRC (GOV.UK)",
-   "description": "Local reference rent (LRR) levels by number of rooms and broad rental market areas (BRMA) for residential properties in England in August 2026.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-09-08T09:53:55+01:00",
-   "ai": {
-    "summary": "Local reference rent (LRR) levels for residential properties in England are published for August 2026, categorised by room type (CAT 1A‑1C) and Broad Rental Market Area (BRMA).",
-    "whoAffected": "Landlords of residential properties, tenants (especially housing‑benefit claimants), and local authorities",
-    "effectiveDate": "August 2026",
-    "actions": [
-     "Check the August 2026 LRR tables for the client’s BRMA and room category when advising on rent levels",
-     "Use the correct CAT 1A‑1C classification in housing‑benefit calculations",
-     "Update any rent‑review advice to reflect the new LRR values",
-     "Refer to the Housing Benefit section of the Rent Officer Handbook for methodology"
-    ],
-    "legislationRefs": [
-     "Rent Officer Handbook"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-30T11:12:16.191Z"
    }
   },
   {
