@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-13T13:09:21.967Z",
+ "generatedAt": "2026-11-13T19:39:00.910Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -74,6 +74,37 @@
  ],
  "count": 608,
  "items": [
+  {
+   "id": "2788d808021611c3",
+   "title": "Find software suppliers for filing charities repayments online",
+   "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers",
+   "path": "/government/publications/charities-online-commercial-software-suppliers",
+   "date": "2026-11-13T14:38:58Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find recognised suppliers and software to file charity repayment claims online.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The list of commercial software supplier details has been updated.",
+   "firstPublished": "2014-06-05T00:00:00+01:00",
+   "ai": {
+    "summary": "Charities can file repayment claims online using HMRC or commercial internet‑filing software; HMRC accepts any listed product and offers technical support for software developers.",
+    "whoAffected": "Charities filing repayment claims and charities’ software developers",
+    "effectiveDate": "2026-11-13",
+    "actions": [
+     "Identify a recognised commercial or HMRC internet‑filing software supplier",
+     "Prepare the repayment claim using the chosen software",
+     "Submit the claim online, ensuring the product is listed in the HMRC document",
+     "Contact HMRC technical support if you are a software developer for charities"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-13T19:38:21.398Z"
+   }
+  },
   {
    "id": "08bfa77a38a6d3e9",
    "title": "Pay overclaimed Research and Development (R&D) tax relief",
@@ -215,7 +246,22 @@
    ],
    "hasBody": true,
    "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
-   "firstPublished": "2014-10-30T00:00:00+00:00"
+   "firstPublished": "2014-10-30T00:00:00+00:00",
+   "ai": {
+    "summary": "SDRT is due on paperless share purchases. CREST trades are auto‑deducted; off‑market trades require a written notice with buyer/seller details, a reference number, and payment within 14 days (or by the 7th of the following month). Use correct UK or overseas bank details.",
+    "whoAffected": "Businesses and individuals who buy or sell shares off‑market (outside CREST), including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Determine whether the share transaction is processed through CREST or off‑market",
+     "For off‑market trades, draft a written notice containing buyer and seller details, securities transferred, any reliefs, payment details and a unique reference number",
+     "Make the payment using the appropriate UK or overseas bank details and ensure it reaches HMRC by the required deadline (14 days or the 7th of the next month)",
+     "Check that the reference number on the payment matches the notice and advise the client on suitable payment method (CHAPS/Faster Payments for same‑day, BACS allowing 3 working days)"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-13T19:38:24.823Z"
+   }
   },
   {
    "id": "ecaf8ae7b5846e60",
@@ -231,7 +277,22 @@
    ],
    "hasBody": true,
    "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
-   "firstPublished": "2014-11-05T00:00:00+00:00"
+   "firstPublished": "2014-11-05T00:00:00+00:00",
+   "ai": {
+    "summary": "Guide for paying taxes, penalties or enquiry settlements when the payment reference starts with X. Covers required reference, online, Direct Debit, card, bank transfer and cheque options, UK and overseas account details, and currency considerations.",
+    "whoAffected": "Taxpayers (including SMEs, owner‑managed businesses and the self‑employed) who have a 14‑ or 15‑character payment reference beginning with X and need to pay taxes, penalties or enquiry settlements.",
+    "effectiveDate": "2026-11-13",
+    "actions": [
+     "Confirm the client’s payment reference is 14‑ or 15‑characters and begins with X; if unsure, advise them to contact HMRC.",
+     "Select the most suitable payment method (online bank approval, Direct Debit, debit/corporate card, CHAPS/Faster Payments, BACS, or cheque) and ensure the reference is entered correctly.",
+     "If the client’s bank account is overseas, use the provided IBAN and BIC and pay in GBP; warn that any other currency will be converted with fees and may require an additional payment.",
+     "For Direct Debit, ensure the client is registered for the relevant HMRC online service and set up the Direct Debit at least 5 working days before the intended collection date."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-13T19:38:28.096Z"
+   }
   },
   {
    "id": "48f740ae9a0c7801",
@@ -278,7 +339,26 @@
    ],
    "hasBody": true,
    "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
-   "firstPublished": "2014-10-30T00:00:00+00:00"
+   "firstPublished": "2014-10-30T00:00:00+00:00",
+   "ai": {
+    "summary": "SDLT must be paid within 14 days of the effective transaction date using the correct 11‑character reference; various online, bank‑transfer and cheque methods are available, with specific UK and overseas account details. Late payment can attract penalties or interest.",
+    "whoAffected": "Anyone purchasing property in England or Northern Ireland – including SMEs, owner‑managed businesses and self‑employed individuals – who is liable for Stamp Duty Land Tax",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "File the SDLT return and arrange payment within 14 days of the effective transaction date",
+     "Obtain the correct 11‑character unique transaction reference and use it for each separate payment",
+     "Select an appropriate payment method (online bank approval, debit/corporate card, CHAPS/Faster Payments, Bacs or cheque) and follow the relevant processing time guidance",
+     "If paying from overseas, use the provided IBAN/BIC and pay in GBP; confirm the payment reaches HMRC before the deadline and keep proof of payment"
+    ],
+    "legislationRefs": [
+     "Stamp Duty Land Tax",
+     "Land and Buildings Transaction Tax",
+     "Land Transaction Tax"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-13T19:38:31.458Z"
+   }
   },
   {
    "id": "b9ad700b29a3ba92",
@@ -295,7 +375,22 @@
    ],
    "hasBody": true,
    "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
-   "firstPublished": "2014-11-03T00:00:00+00:00"
+   "firstPublished": "2014-11-03T00:00:00+00:00",
+   "ai": {
+    "summary": "If a company, partnership or collective investment scheme owns residential property over £500,000, it must file a Corporation Tax return, register if needed, and pay ATED by the filing deadline (usually 30 April). Use the correct reference and payment details to avoid penalties.",
+    "whoAffected": "Owners of residential property worth more than £500,000 held by a company, partnership or collective investment scheme, including non‑resident companies that must register for Corporation Tax",
+    "effectiveDate": "2026-11-13",
+    "actions": [
+     "Confirm client’s property ownership and value exceed the £500,000 ATED threshold",
+     "Ensure a Corporation Tax return is filed and register the entity for Corporation Tax if not already registered",
+     "Advise the client to pay ATED by the filing deadline using the correct 14‑character reference and appropriate payment method",
+     "Check bank processing times, currency conversion rules and cheque requirements to guarantee payment reaches HMRC on time"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-13T19:38:34.346Z"
+   }
   },
   {
    "id": "1f10d521d28af004",
@@ -344,7 +439,22 @@
    ],
    "hasBody": true,
    "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
-   "firstPublished": "2019-09-03T00:00:00+01:00"
+   "firstPublished": "2019-09-03T00:00:00+01:00",
+   "ai": {
+    "summary": "The guide details when and how to pay General Betting, Pool Betting or Remote Gaming Duty, including deadlines, required reference numbers, payment methods (online, bank transfer, cheque) and special rules for overseas accounts and currency conversion.",
+    "whoAffected": "Businesses that operate remote gambling services and are liable for General Betting, Pool Betting or Remote Gaming Duty, including SMEs and owner‑managed gambling operators.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the client has the correct 14‑character reference number (starting with X) and submit the duty return within 30 days of each accounting period end",
+     "Choose a payment method (online bank approval, debit/corporate credit card, CHAPS/Faster Payments, BACS or cheque) and ensure details match the bank’s records",
+     "If the client’s bank account is overseas, pay in GBP using the provided IBAN/BIC and warn them of conversion fees if another currency is used",
+     "Remind the client that a return must be filed even when no duty is due, and advise on penalties for late payment"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-13T19:38:40.227Z"
+   }
   },
   {
    "id": "6f689d4cb2554a1e",
@@ -476,37 +586,6 @@
    "firstPublished": "2014-11-03T00:00:00+00:00"
   },
   {
-   "id": "2788d808021611c3",
-   "title": "Find software suppliers for filing charities repayments online",
-   "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers",
-   "path": "/government/publications/charities-online-commercial-software-suppliers",
-   "date": "2026-11-13T12:50:03Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find recognised suppliers and software to file charity repayment claims online.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "The list of commercial software supplier details has been updated.",
-   "firstPublished": "2014-06-05T00:00:00+01:00",
-   "ai": {
-    "summary": "Charities can file repayment claims online using HMRC or commercial internet‑filing software; HMRC accepts any listed product and offers technical support for charity software developers.",
-    "whoAffected": "Charitable organisations filing repayment claims and software developers creating charity filing solutions",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Identify a recognised internet‑filing software supplier from HMRC or a commercial provider",
-     "Confirm the software is listed in the HMRC document",
-     "Submit the charity repayment claim online using the chosen software",
-     "If developing software, contact HMRC for technical support"
-    ],
-    "legislationRefs": [],
-    "relevance": "medium",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-13T13:09:09.467Z"
-   }
-  },
-  {
    "id": "1ace804503660064",
    "title": "Check if a business is registered for money laundering supervision",
    "url": "https://www.gov.uk/guidance/money-laundering-regulations-supervised-business-register",
@@ -520,7 +599,24 @@
    ],
    "hasBody": true,
    "changeNote": "The Supervised Business Register has been updated.",
-   "firstPublished": "2014-05-23T00:00:00+01:00"
+   "firstPublished": "2014-05-23T00:00:00+01:00",
+   "ai": {
+    "summary": "The Supervised Business Register lists businesses registered with HMRC for money‑laundering supervision. Check the register to confirm a client’s status; if absent, verify directly, encourage registration, and report unregistered firms to HMRC. Registration does not endorse commercial dealings.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who need to confirm AML supervision status of counterparties",
+    "effectiveDate": "2026-11-13",
+    "actions": [
+     "Search the Supervised Business Register for the client’s registration details",
+     "If not found, contact the business to confirm its registration status",
+     "Advise the business to register if it carries out regulated activities",
+     "Report any unregistered business to HMRC"
+    ],
+    "legislationRefs": [
+     "money laundering regulations"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-13T19:38:52.220Z"
+   }
   },
   {
    "id": "a8dec2115bc4f778",
@@ -536,7 +632,19 @@
    ],
    "hasBody": true,
    "changeNote": "Contact details for one provider have been updated.",
-   "firstPublished": "2014-05-14T00:00:00+01:00"
+   "firstPublished": "2014-05-14T00:00:00+01:00",
+   "ai": {
+    "summary": "The document provides trade and commercial contact details for Community System Providers (CSPs).",
+    "whoAffected": "Community System Providers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Refer to the attached document to obtain the relevant trade and commercial contacts for CSPs."
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-13T19:38:54.818Z"
+   }
   },
   {
    "id": "4f0e94b808f2461d",
