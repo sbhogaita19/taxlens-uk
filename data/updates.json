@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-12T19:52:57.521Z",
+ "generatedAt": "2026-11-13T13:09:21.967Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,505 @@
    "label": "Other"
   }
  ],
- "count": 598,
+ "count": 608,
  "items": [
+  {
+   "id": "08bfa77a38a6d3e9",
+   "title": "Pay overclaimed Research and Development (R&D) tax relief",
+   "url": "https://www.gov.uk/guidance/pay-overclaimed-research-and-development-rd-tax-relief",
+   "path": "/guidance/pay-overclaimed-research-and-development-rd-tax-relief",
+   "date": "2026-11-13T13:04:32Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to repay R&D tax relief if you claimed too much.",
+   "categories": [
+    "corptax"
+   ],
+   "hasBody": true,
+   "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
+   "firstPublished": "2024-12-31T00:15:00+00:00",
+   "ai": {
+    "summary": "Clients who have overclaimed R&D tax relief must inform HMRC, obtain a payment reference and repay within 30 days using the correct UK or overseas bank details, avoiding wrong references or currencies, and contact HMRC if they cannot pay the full amount.",
+    "whoAffected": "Businesses that have claimed too much R&D tax relief, including SMEs, owner‑managed firms and the self‑employed",
+    "effectiveDate": "2026-11-13T13:04:32Z",
+    "actions": [
+     "Tell HMRC about the overclaim and obtain the 15‑character payment reference number",
+     "Pay the amount within 30 calendar days using the correct reference via online bank, Direct Debit, card or bank transfer",
+     "If paying from overseas, use the GBP IBAN and BIC details and avoid other currencies",
+     "If unable to pay in full, contact HMRC immediately using the details in the HMRC letter"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-13T13:08:28.733Z"
+   }
+  },
+  {
+   "id": "24242f5fc2807838",
+   "title": "Pay the Spirit Drinks Verification Scheme fee",
+   "url": "https://www.gov.uk/guidance/pay-spirits-drinks-verification-fee",
+   "path": "/guidance/pay-spirits-drinks-verification-fee",
+   "date": "2026-11-13T13:03:55Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay your verification fee for the Spirit Drinks Verification Scheme, and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "vat",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
+   "firstPublished": "2014-10-30T00:00:00+00:00",
+   "ai": {
+    "summary": "Producers joining the Spirit Drinks Verification Scheme must pay a non‑refundable £250 fee per facility (and £250 for repeat visits) between 1 July 2025 and 30 June 2031. Payment is due within 30 days of the invoice, using the correct UK or overseas bank details, otherwise verification is denied.",
+    "whoAffected": "Spirit drink producers applying to the Spirit Drinks Verification Scheme, especially UK‑based facilities and any overseas account holders making the payment",
+    "effectiveDate": "1 July 2025 – 30 June 2031",
+    "actions": [
+     "Obtain the invoice and note the 14‑digit reference number before payment",
+     "Pay the £250 fee within 30 days using the appropriate UK or overseas bank details and verify the reference is correct",
+     "Check bank processing times – CHAPS/Faster Payments same or next day, Bacs allow three working days",
+     "Monitor payment receipt; if a reminder is received, follow up immediately to avoid non‑compliance"
+    ],
+    "legislationRefs": [
+     "UK legislation"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-13T13:08:32.842Z"
+   }
+  },
+  {
+   "id": "a0741aeafcaa9804",
+   "title": "Pay your Economic Crime Levy",
+   "url": "https://www.gov.uk/guidance/pay-your-economic-crime-levy",
+   "path": "/guidance/pay-your-economic-crime-levy",
+   "date": "2026-11-13T13:03:05Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay the Economic Crime Levy, and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
+   "firstPublished": "2023-08-31T00:00:00+01:00",
+   "ai": {
+    "summary": "Businesses must submit an Economic Crime Levy return, then pay the levy by 30 September each year (earlier if the deadline falls on a weekend/holiday). Payment amounts depend on UK revenue bands, with small entities exempt. Payments can be made online, by Direct Debit, card or bank transfer.",
+    "whoAffected": "All UK‑registered entities that carry out regulated activities and have UK revenue over £10.2 million (band A and above); small entities are exempt but still must file a return.",
+    "effectiveDate": "2026‑11‑13",
+    "actions": [
+     "Confirm the client has filed the Economic Crime Levy return and has the 14‑character return number",
+     "Calculate the correct levy band and amount, adjusting pro‑rata for non‑12‑month periods",
+     "Arrange a payment method that clears before 30 September (e.g., online bank approval, Direct Debit, CHAPS/Faster Payments) and verify the reference number",
+     "Check for over‑payment and advise on refund procedures if needed"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-13T13:08:35.908Z"
+   }
+  },
+  {
+   "id": "568baeee4e3ec164",
+   "title": "Pay Stamp Duty on shares",
+   "url": "https://www.gov.uk/guidance/pay-stamp-duty",
+   "path": "/guidance/pay-stamp-duty",
+   "date": "2026-11-13T13:01:43Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay your Stamp Duty, and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
+   "firstPublished": "2014-10-30T00:00:00+00:00",
+   "ai": {
+    "summary": "Stamp Duty on share purchases must be paid within 30 days of the signed transfer form, using the correct HMRC bank details and a reference of name plus amount. After payment, an email with the reference, amount, date and supporting documents must be sent to HMRC.",
+    "whoAffected": "Clients buying shares, including individuals, SMEs, owner‑managed businesses and self‑employed, as well as solicitors or advisers paying on their behalf",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check the 30‑day payment deadline (earlier if weekend/holiday)",
+     "Use the correct payment reference (client name and amount)",
+     "Select an appropriate bank transfer method and use the UK or overseas HMRC account details, paying in GBP",
+     "Email HMRC the payment reference, amount, date and scanned copy of the signed transfer form or SH03"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-13T13:08:39.622Z"
+   }
+  },
+  {
+   "id": "def35ba41882ae89",
+   "title": "Pay Stamp Duty Reserve Tax",
+   "url": "https://www.gov.uk/guidance/pay-stamp-duty-reserve-tax",
+   "path": "/guidance/pay-stamp-duty-reserve-tax",
+   "date": "2026-11-13T13:01:37Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay your Stamp Duty Reserve Tax, and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
+   "firstPublished": "2014-10-30T00:00:00+00:00"
+  },
+  {
+   "id": "ecaf8ae7b5846e60",
+   "title": "Pay taxes, penalties or enquiry settlements",
+   "url": "https://www.gov.uk/guidance/pay-taxes-penalties-or-enquiry-settlements",
+   "path": "/guidance/pay-taxes-penalties-or-enquiry-settlements",
+   "date": "2026-11-13T13:01:31Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay taxes, penalties and enquiry settlements to HMRC if you cannot find instructions in other 'paying HMRC' guides, or if your payment reference starts with X.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
+   "firstPublished": "2014-11-05T00:00:00+00:00"
+  },
+  {
+   "id": "48f740ae9a0c7801",
+   "title": "Pay Pillar 2 top-up taxes (Domestic Top-up Tax and Multinational Top-up Tax)",
+   "url": "https://www.gov.uk/guidance/pay-pillar-2-top-up-taxes-domestic-top-up-tax-and-multinational-top-up-tax",
+   "path": "/guidance/pay-pillar-2-top-up-taxes-domestic-top-up-tax-and-multinational-top-up-tax",
+   "date": "2026-11-13T13:01:16Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay Pillar 2 top-up taxes, and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "corptax"
+   ],
+   "hasBody": true,
+   "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
+   "firstPublished": "2024-11-20T00:00:00+00:00",
+   "ai": {
+    "summary": "The guide details when and how to pay Pillar 2 Domestic and Multinational Top‑up Taxes, including deadlines, required Pillar 2 ID, UK and overseas bank details, and payment methods (online, CHAPS/Faster Payments, Bacs, cheque).",
+    "whoAffected": "Businesses that are part of a group required to report Pillar 2 top‑up taxes, including SMEs and owner‑managed companies",
+    "effectiveDate": "30 June 2026",
+    "actions": [
+     "Confirm the client has their 15‑character Pillar 2 ID (starts with X)",
+     "Identify the correct payment deadline (30 June 2026 or 15/18 months after the accounting period end)",
+     "Select a payment method and use the appropriate UK or overseas account details, paying in GBP",
+     "Ensure the payment reaches HMRC before the deadline and retain proof of payment"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-13T13:08:46.255Z"
+   }
+  },
+  {
+   "id": "065b47cac579e131",
+   "title": "Pay Stamp Duty Land Tax",
+   "url": "https://www.gov.uk/guidance/pay-stamp-duty-land-tax",
+   "path": "/guidance/pay-stamp-duty-land-tax",
+   "date": "2026-11-13T12:58:40Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay Stamp Duty Land Tax, and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
+   "firstPublished": "2014-10-30T00:00:00+00:00"
+  },
+  {
+   "id": "b9ad700b29a3ba92",
+   "title": "Pay annual tax on enveloped dwellings",
+   "url": "https://www.gov.uk/guidance/pay-annual-tax-on-enveloped-dwellings",
+   "path": "/guidance/pay-annual-tax-on-enveloped-dwellings",
+   "date": "2026-11-13T12:58:33Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay annual tax on enveloped dwellings (ATED) and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "selfemployed",
+    "corptax"
+   ],
+   "hasBody": true,
+   "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
+   "firstPublished": "2014-11-03T00:00:00+00:00"
+  },
+  {
+   "id": "1f10d521d28af004",
+   "title": "Pay a penalty charge for not registering or maintaining a trust",
+   "url": "https://www.gov.uk/guidance/pay-a-penalty-charge-for-not-registering-or-maintaining-a-trust",
+   "path": "/guidance/pay-a-penalty-charge-for-not-registering-or-maintaining-a-trust",
+   "date": "2026-11-13T12:58:28Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay a penalty charge if you have failed to register or maintain a trust, and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "iht",
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
+   "firstPublished": "2023-01-20T00:00:00+00:00"
+  },
+  {
+   "id": "1d56403dc156f2af",
+   "title": "Pay tax on cryptoassets",
+   "url": "https://www.gov.uk/guidance/pay-tax-on-cryptoassets",
+   "path": "/guidance/pay-tax-on-cryptoassets",
+   "date": "2026-11-13T12:58:24Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay unpaid tax if you have income or gains from cryptoassets, and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
+   "firstPublished": "2023-11-29T00:00:00+00:00"
+  },
+  {
+   "id": "3de9b3b052fcfdde",
+   "title": "Pay General Betting, Pool Betting or Remote Gaming Duty",
+   "url": "https://www.gov.uk/guidance/pay-general-betting-pool-betting-or-remote-gaming-duty",
+   "path": "/guidance/pay-general-betting-pool-betting-or-remote-gaming-duty",
+   "date": "2026-11-13T12:57:21Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay General Betting, Pool Betting or Remote Gaming Duty, and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
+   "firstPublished": "2019-09-03T00:00:00+01:00"
+  },
+  {
+   "id": "6f689d4cb2554a1e",
+   "title": "Pay Insurance Premium Tax",
+   "url": "https://www.gov.uk/guidance/pay-insurance-premium-tax",
+   "path": "/guidance/pay-insurance-premium-tax",
+   "date": "2026-11-13T12:57:14Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay Insurance Premium Tax, and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
+   "firstPublished": "2014-11-03T00:00:00+00:00"
+  },
+  {
+   "id": "c58deec4c696d76c",
+   "title": "Pay money laundering regulations fees",
+   "url": "https://www.gov.uk/guidance/pay-money-laundering-regulations-fees-and-penalty-charges",
+   "path": "/guidance/pay-money-laundering-regulations-fees-and-penalty-charges",
+   "date": "2026-11-13T12:57:07Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay money laundering fees, and the time it takes for your payment to reach HMRC.\r\n\r\n\r\n",
+   "categories": [
+    "compliance",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
+   "firstPublished": "2014-10-30T00:00:00+00:00"
+  },
+  {
+   "id": "9c4612891e72ef39",
+   "title": "Pay tax as a pension scheme administrator",
+   "url": "https://www.gov.uk/guidance/pension-scheme-administrators-paying-tax",
+   "path": "/guidance/pension-scheme-administrators-paying-tax",
+   "date": "2026-11-13T12:57:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay charges on payments from registered pension schemes and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "personal",
+    "pensions"
+   ],
+   "hasBody": true,
+   "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
+   "firstPublished": "2014-10-30T00:00:00+00:00"
+  },
+  {
+   "id": "a32ea0407b172eb5",
+   "title": "Pay duty on biofuels or road fuel gas",
+   "url": "https://www.gov.uk/guidance/pay-duty-on-biofuels-or-gas-for-road-use",
+   "path": "/guidance/pay-duty-on-biofuels-or-gas-for-road-use",
+   "date": "2026-11-13T12:55:27Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay duty on biofuels or road fuel gas, and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
+   "firstPublished": "2018-09-26T00:00:00+01:00",
+   "ai": {
+    "summary": "Duty on biofuels or road fuel gas must be reported and paid by the 15th day after each return period; use the correct X‑prefixed reference, choose an appropriate payment method, and follow UK or overseas bank details to avoid penalties.",
+    "whoAffected": "Businesses that produce, import or use biofuels or road fuel gas and are required to submit returns and pay duty, including SMEs, owner‑managed firms and the self‑employed.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Ensure the return and any duty are submitted by the 15th day after the end of each return period, accounting for weekends or bank holidays.",
+     "Check the 15‑character registration number (XMBF… for biofuels, XMGR… for road fuel gas) on the notice to file reminder before paying.",
+     "Select a payment method that meets the amount and timing needs (online bank approval, Direct Debit, CHAPS/Faster Payments, Bacs, or cheque) and allow the recommended processing time.",
+     "If paying from overseas, use the provided IBAN and BIC, pay in GBP, and be aware the bank may convert other currencies and charge fees, requiring a top‑up payment."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-13T13:09:01.963Z"
+   }
+  },
+  {
+   "id": "7e94c97fc1163eda",
+   "title": "Pay Gaming or Bingo Duty",
+   "url": "https://www.gov.uk/guidance/pay-gambling-duties",
+   "path": "/guidance/pay-gambling-duties",
+   "date": "2026-11-13T12:55:21Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay Gaming or Bingo Duty, and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
+   "firstPublished": "2014-10-30T00:00:00+00:00"
+  },
+  {
+   "id": "db022e9c64466c3f",
+   "title": "Pay the VAT due on your One Stop Shop VAT Return",
+   "url": "https://www.gov.uk/guidance/pay-the-vat-due-on-your-one-stop-shop-vat-return",
+   "path": "/guidance/pay-the-vat-due-on-your-one-stop-shop-vat-return",
+   "date": "2026-11-13T12:52:52Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay the VAT due on your One Stop Shop VAT (OSS) Return and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
+   "firstPublished": "2021-10-01T00:00:00+01:00"
+  },
+  {
+   "id": "71a5ca125eef97f5",
+   "title": "Pay Air Passenger Duty",
+   "url": "https://www.gov.uk/guidance/pay-air-passenger-duty",
+   "path": "/guidance/pay-air-passenger-duty",
+   "date": "2026-11-13T12:52:41Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay Air Passenger Duty, and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
+   "firstPublished": "2014-11-03T00:00:00+00:00"
+  },
+  {
+   "id": "2788d808021611c3",
+   "title": "Find software suppliers for filing charities repayments online",
+   "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers",
+   "path": "/government/publications/charities-online-commercial-software-suppliers",
+   "date": "2026-11-13T12:50:03Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find recognised suppliers and software to file charity repayment claims online.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The list of commercial software supplier details has been updated.",
+   "firstPublished": "2014-06-05T00:00:00+01:00",
+   "ai": {
+    "summary": "Charities can file repayment claims online using HMRC or commercial internet‑filing software; HMRC accepts any listed product and offers technical support for charity software developers.",
+    "whoAffected": "Charitable organisations filing repayment claims and software developers creating charity filing solutions",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify a recognised internet‑filing software supplier from HMRC or a commercial provider",
+     "Confirm the software is listed in the HMRC document",
+     "Submit the charity repayment claim online using the chosen software",
+     "If developing software, contact HMRC for technical support"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-13T13:09:09.467Z"
+   }
+  },
+  {
+   "id": "1ace804503660064",
+   "title": "Check if a business is registered for money laundering supervision",
+   "url": "https://www.gov.uk/guidance/money-laundering-regulations-supervised-business-register",
+   "path": "/guidance/money-laundering-regulations-supervised-business-register",
+   "date": "2026-11-13T10:40:45Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out if a business has registered with HMRC under the money laundering regulations and report them if they have not.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The Supervised Business Register has been updated.",
+   "firstPublished": "2014-05-23T00:00:00+01:00"
+  },
+  {
+   "id": "a8dec2115bc4f778",
+   "title": "Trade and commercial contacts for Community System Providers",
+   "url": "https://www.gov.uk/government/publications/chief-trade-and-commercial-contacts-for-community-service-providers",
+   "path": "/government/publications/chief-trade-and-commercial-contacts-for-community-service-providers",
+   "date": "2026-11-13T09:56:35Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find trade and commercial contacts for Community System Providers (CSPs).",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Contact details for one provider have been updated.",
+   "firstPublished": "2014-05-14T00:00:00+01:00"
+  },
+  {
+   "id": "4f0e94b808f2461d",
+   "title": "Destroying goods listed on an ATA Carnet",
+   "url": "https://www.gov.uk/guidance/destroying-goods-listed-on-an-ata-carnet",
+   "path": "/guidance/destroying-goods-listed-on-an-ata-carnet",
+   "date": "2026-11-13T09:47:47Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out what to do if you want to destroy goods listed on a carnet, instead of returning them to the country they've temporarily been exported from.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Section ‘Check if you need to make a declaration for the destroyed goods’ has been updated on making a declaration in the Customs Declarations Service.",
+   "firstPublished": "2026-06-01T11:06:00+01:00"
+  },
+  {
+   "id": "c8c740ea29506a3c",
+   "title": "Submit a pension scheme return using the Managing pension schemes service",
+   "url": "https://www.gov.uk/guidance/changes-to-2024-to-2025-pension-scheme-return-for-pension-scheme-administrators",
+   "path": "/guidance/changes-to-2024-to-2025-pension-scheme-return-for-pension-scheme-administrators",
+   "date": "2026-11-13T07:16:33Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how to prepare, compile and submit a pension scheme return, as a pension scheme administrator or practitioner. ",
+   "categories": [
+    "personal",
+    "pensions"
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance on completing standard (non-SIPP) pension scheme returns has been updated to tell you that if you upload more than one filing members details the original file will be overwritten. Information has also been added to tell you that there is an upload limit of 300 member designatory details, whether member details are provided by CSV file upload or entered manually onto the system. You cannot bulk upload these details on the Managing pension schemes service.",
+   "firstPublished": "2024-02-12T00:00:00+00:00"
+  },
   {
    "id": "f4c1df612000b7c2",
    "title": "Local reference rents, listed by BRMA and property size (September 2026)",
@@ -630,6 +1127,99 @@
    }
   },
   {
+   "id": "5f8cc29184fb6cd7",
+   "title": "Apply for the Spirit Drinks Verification Scheme",
+   "url": "https://www.gov.uk/guidance/spirit-drinks-with-a-protected-geographical-indication",
+   "path": "/guidance/spirit-drinks-with-a-protected-geographical-indication",
+   "date": "2026-11-11T09:01:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Apply for verification before you start production of any spirit drinks protected under a UK geographical indication scheme.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about English Whisky has been added and the option to apply by post has been removed.",
+   "firstPublished": "2014-10-20T00:00:00+01:00",
+   "ai": {
+    "summary": "The Spirit Drinks Verification Scheme requires anyone producing, importing, blending, bottling or labeling protected spirit drinks (e.g., Scotch Whisky, Irish Whiskey, English Whisky, Welsh Whisky, etc.) to apply online and be verified before starting activities, with fees, brand information submissions and biennial verification visits required.",
+    "whoAffected": "Producers, bulk importers, blenders, bottlers, re‑bottlers and re‑labellers of protected spirit drinks such as Scotch Whisky, Irish Whiskey, Irish Cream, Irish Poteen, Somerset Cider Brandy, Single Malt Welsh Whisky, Dovey Native Botanical Gin and English Whisky/Whiskey in the UK.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify client businesses that make or import protected spirit drinks and confirm they need to apply",
+     "Collect required details (name, address, facilities, production processes, billing) before the client starts production",
+     "Submit the online application and ensure brand information is provided for each bottling/labeling site",
+     "Prepare client for verification visit, fees and ongoing biennial compliance"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-11T12:45:27.893Z"
+   }
+  },
+  {
+   "id": "8373dc039eddc3e5",
+   "title": "Preparing for Spirit Drink Verification Scheme visits",
+   "url": "https://www.gov.uk/guidance/preparing-for-spirit-drink-verification-scheme-visits",
+   "path": "/guidance/preparing-for-spirit-drink-verification-scheme-visits",
+   "date": "2026-11-11T09:01:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out about the verification checks and what to expect during a visit if you've applied for verification and paid your fee for the Scheme.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "English Whisky has been added to the list of UK protected geographical indications.",
+   "firstPublished": "2014-10-01T00:00:00+01:00",
+   "ai": {
+    "summary": "Producers who have applied and paid for verification will be contacted for a visit, which checks production processes per drink type; tax queries aren't handled, and non‑compliance may incur extra fees. Assured facilities are listed publicly.",
+    "whoAffected": "UK spirit drink producers who have applied for and paid for verification under the Spirit Drinks Verification Scheme",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the client has submitted the verification application and paid the fee",
+     "Gather and have ready all required documents (e.g., purchase records of ingredients and casks) for the verification officer",
+     "Advise the client that tax or duty questions will not be answered during the visit and to contact their Customer Compliance Manager for revenue issues",
+     "Explain the possibility of an additional fee for repeat visits and that assured facilities will be published on the spirit drinks look‑up service"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-11T19:34:18.591Z"
+   }
+  },
+  {
+   "id": "8ad087a64880df3c",
+   "title": "Change your details or leave the Spirit Drinks Verification Scheme",
+   "url": "https://www.gov.uk/guidance/change-your-details-or-leave-the-spirit-drinks-verification-scheme",
+   "path": "/guidance/change-your-details-or-leave-the-spirit-drinks-verification-scheme",
+   "date": "2026-11-11T09:01:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how to change your details, leave the scheme or transfer production facilities to another producer.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "English Whisky has been added to the list of protected UK geographical indications.",
+   "firstPublished": "2020-11-27T00:00:00+00:00",
+   "ai": {
+    "summary": "Clients in the Spirit Drinks Verification Scheme must email HMRC to update details, withdraw, or transfer facilities. Withdrawal ends verified status, may affect product legality and customer liability, and no fee refunds are given. Transfers keep verification if the new owner is already verified or applies within 6 months.",
+    "whoAffected": "Businesses that are verified bulk importers or producers of Scotch Whisky, Irish Whiskey, Irish Cream, Irish Poteen, Somerset Cider Brandy, Single Malt Welsh Whisky, Dovey Native Botanical Gin, English Whisky, and owners transferring such production facilities.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Advise the client to email enquiries.sdvs@hmrc.gov.uk with any address, trading name, contact, legal entity or premises changes.",
+     "If withdrawing, ensure the client provides the intended withdrawal date and reasons, and warn that fees already paid are non‑refundable.",
+     "Tell the client to inform customers of any status change to avoid potential enforcement liability.",
+     "For facility transfers, confirm the former operator notifies HMRC and check whether the new owner is already verified or must apply within six months."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-11T19:34:14.964Z"
+   }
+  },
+  {
    "id": "c518b6fec6efb44e",
    "title": "Submit brand information for verified spirit drinks",
    "url": "https://www.gov.uk/guidance/submit-brand-information-for-verified-spirit-drinks",
@@ -692,99 +1282,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-11T12:45:25.095Z"
-   }
-  },
-  {
-   "id": "5f8cc29184fb6cd7",
-   "title": "Apply for the Spirit Drinks Verification Scheme",
-   "url": "https://www.gov.uk/guidance/spirit-drinks-with-a-protected-geographical-indication",
-   "path": "/guidance/spirit-drinks-with-a-protected-geographical-indication",
-   "date": "2026-11-11T09:01:01Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Apply for verification before you start production of any spirit drinks protected under a UK geographical indication scheme.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "Information about English Whisky has been added and the option to apply by post has been removed.",
-   "firstPublished": "2014-10-20T00:00:00+01:00",
-   "ai": {
-    "summary": "The Spirit Drinks Verification Scheme requires anyone producing, importing, blending, bottling or labeling protected spirit drinks (e.g., Scotch Whisky, Irish Whiskey, English Whisky, Welsh Whisky, etc.) to apply online and be verified before starting activities, with fees, brand information submissions and biennial verification visits required.",
-    "whoAffected": "Producers, bulk importers, blenders, bottlers, re‑bottlers and re‑labellers of protected spirit drinks such as Scotch Whisky, Irish Whiskey, Irish Cream, Irish Poteen, Somerset Cider Brandy, Single Malt Welsh Whisky, Dovey Native Botanical Gin and English Whisky/Whiskey in the UK.",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Identify client businesses that make or import protected spirit drinks and confirm they need to apply",
-     "Collect required details (name, address, facilities, production processes, billing) before the client starts production",
-     "Submit the online application and ensure brand information is provided for each bottling/labeling site",
-     "Prepare client for verification visit, fees and ongoing biennial compliance"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-11T12:45:27.893Z"
-   }
-  },
-  {
-   "id": "8ad087a64880df3c",
-   "title": "Change your details or leave the Spirit Drinks Verification Scheme",
-   "url": "https://www.gov.uk/guidance/change-your-details-or-leave-the-spirit-drinks-verification-scheme",
-   "path": "/guidance/change-your-details-or-leave-the-spirit-drinks-verification-scheme",
-   "date": "2026-11-11T09:01:01Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out how to change your details, leave the scheme or transfer production facilities to another producer.",
-   "categories": [
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "English Whisky has been added to the list of protected UK geographical indications.",
-   "firstPublished": "2020-11-27T00:00:00+00:00",
-   "ai": {
-    "summary": "Clients in the Spirit Drinks Verification Scheme must email HMRC to update details, withdraw, or transfer facilities. Withdrawal ends verified status, may affect product legality and customer liability, and no fee refunds are given. Transfers keep verification if the new owner is already verified or applies within 6 months.",
-    "whoAffected": "Businesses that are verified bulk importers or producers of Scotch Whisky, Irish Whiskey, Irish Cream, Irish Poteen, Somerset Cider Brandy, Single Malt Welsh Whisky, Dovey Native Botanical Gin, English Whisky, and owners transferring such production facilities.",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Advise the client to email enquiries.sdvs@hmrc.gov.uk with any address, trading name, contact, legal entity or premises changes.",
-     "If withdrawing, ensure the client provides the intended withdrawal date and reasons, and warn that fees already paid are non‑refundable.",
-     "Tell the client to inform customers of any status change to avoid potential enforcement liability.",
-     "For facility transfers, confirm the former operator notifies HMRC and check whether the new owner is already verified or must apply within six months."
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-11T19:34:14.964Z"
-   }
-  },
-  {
-   "id": "8373dc039eddc3e5",
-   "title": "Preparing for Spirit Drink Verification Scheme visits",
-   "url": "https://www.gov.uk/guidance/preparing-for-spirit-drink-verification-scheme-visits",
-   "path": "/guidance/preparing-for-spirit-drink-verification-scheme-visits",
-   "date": "2026-11-11T09:01:01Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out about the verification checks and what to expect during a visit if you've applied for verification and paid your fee for the Scheme.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "English Whisky has been added to the list of UK protected geographical indications.",
-   "firstPublished": "2014-10-01T00:00:00+01:00",
-   "ai": {
-    "summary": "Producers who have applied and paid for verification will be contacted for a visit, which checks production processes per drink type; tax queries aren't handled, and non‑compliance may incur extra fees. Assured facilities are listed publicly.",
-    "whoAffected": "UK spirit drink producers who have applied for and paid for verification under the Spirit Drinks Verification Scheme",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Confirm the client has submitted the verification application and paid the fee",
-     "Gather and have ready all required documents (e.g., purchase records of ingredients and casks) for the verification officer",
-     "Advise the client that tax or duty questions will not be answered during the visit and to contact their Customer Compliance Manager for revenue issues",
-     "Explain the possibility of an additional fee for repeat visits and that assured facilities will be published on the spirit drinks look‑up service"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-11T19:34:18.591Z"
    }
   },
   {
@@ -2291,68 +2788,20 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-03T11:36:00+00:00"
-  },
-  {
-   "id": "08bfa77a38a6d3e9",
-   "title": "Pay overclaimed Research and Development (R&D) tax relief",
-   "url": "https://www.gov.uk/guidance/pay-overclaimed-research-and-development-rd-tax-relief",
-   "path": "/guidance/pay-overclaimed-research-and-development-rd-tax-relief",
-   "date": "2026-11-03T10:42:58Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to repay R&D tax relief if you claimed too much.",
-   "categories": [
-    "corptax"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved. ",
-   "firstPublished": "2024-12-31T00:15:00+00:00",
+   "firstPublished": "2026-11-03T11:36:00+00:00",
    "ai": {
-    "summary": "If you’ve overclaimed R&D tax relief, inform HMRC, get the 15‑character payment reference and pay the amount within 30 days using the correct reference to avoid delays or misallocation.",
-    "whoAffected": "Businesses that have overclaimed Research and Development tax relief, including SMEs, owner‑managed firms and the self‑employed",
-    "effectiveDate": "2026-11-03",
+    "summary": "Policy introduces new use of third‑party data on interest income and card sales, leading to the Data‑gathering (Ongoing Data: Interest and Payment Card Transactions) Regulations 2026.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "1 March 2028",
     "actions": [
-     "Tell HMRC about the overclaimed R&D relief and obtain the 15‑character payment reference number from the letter sent after disclosure",
-     "Make a payment within 30 calendar days using the correct reference, choosing an online method, Direct Debit, card or bank transfer as appropriate",
-     "If the reference is wrong, contact Corporation Tax general enquiries to have the payment moved to the correct tax bill",
-     "If you cannot pay the full amount, contact HMRC immediately using the details in your letter"
+     "Not stated in source"
     ],
-    "legislationRefs": [],
+    "legislationRefs": [
+     "The Data-gathering (Ongoing Data: Interest and Payment Card Transactions) Regulations 2026"
+    ],
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-03T12:48:40.869Z"
-   }
-  },
-  {
-   "id": "7e94c97fc1163eda",
-   "title": "Pay Gaming or Bingo Duty",
-   "url": "https://www.gov.uk/guidance/pay-gambling-duties",
-   "path": "/guidance/pay-gambling-duties",
-   "date": "2026-11-03T09:42:03Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to pay Gaming or Bingo Duty, and how long it takes for your payment to reach HMRC.",
-   "categories": [
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved.",
-   "firstPublished": "2014-10-30T00:00:00+00:00",
-   "ai": {
-    "summary": "The guide sets payment deadlines for Gaming and Bingo Duty, details how to calculate duty with form GD95, warns of penalties for late payment, outlines acceptable payment methods and processing times, and requires returns even when no tax is due.",
-    "whoAffected": "Businesses that operate gaming machines, betting, pool betting, remote gaming or bingo halls – including SME gambling operators and self‑employed licence holders.",
-    "effectiveDate": "2026-11-03",
-    "actions": [
-     "Confirm the accounting period and ensure the GD95 return and payment are submitted by the required deadline (31 Oct or 30 Apr for Gaming Duty; 15 days after period for Bingo Duty).",
-     "Verify the 15‑character reference number (starting with X) before making any payment to avoid delays or misallocation.",
-     "Choose a payment method that meets processing‑time requirements (e.g., allow 10 working days for Direct Debit set‑up, 3 working days for Bacs, instant for CHAPS/Faster Payments).",
-     "Submit a nil return for Bingo Duty when the business is closed for a season and inform HMRC of the closed dates in advance."
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-03T12:48:47.986Z"
+    "generatedAt": "2026-11-13T13:09:20.466Z"
    }
   },
   {
@@ -3403,47 +3852,6 @@
    }
   },
   {
-   "id": "ced372f13fe717b2",
-   "title": "Buying and selling second-hand motor vehicles using the VAT margin scheme",
-   "url": "https://www.gov.uk/guidance/buying-and-selling-second-hand-motor-vehicles-using-the-vat-margin-scheme",
-   "path": "/guidance/buying-and-selling-second-hand-motor-vehicles-using-the-vat-margin-scheme",
-   "date": "2026-11-02T09:00:01Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to use a margin scheme to account for VAT if you sell second-hand vehicles.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "Guidance from withdrawn VAT notices, The Margin and Global Accounting Scheme (VAT Notice 718) and The Margin Scheme on second-hand cars and other vehicles (VAT Notice 718/1), has been added.",
-   "firstPublished": "2021-12-23T13:28:00+00:00",
-   "ai": {
-    "summary": "Guidance explains when a second‑hand motor vehicle can use the VAT margin scheme, how to record purchase and selling prices, treat MOTs, vehicle tax and rebuilt cars, and what records must be kept, including VRN/VIN details and scrap documentation, to report correctly on the VAT return.",
-    "whoAffected": "Businesses that buy or sell second‑hand motor vehicles using a VAT margin scheme, such as motor‑vehicle dealers, SME traders and self‑employed sellers",
-    "effectiveDate": "2026-11-02",
-    "actions": [
-     "Confirm the vehicle meets eligibility rules (second‑hand, no separate VAT invoice, not new, not imported, not category A/B write‑off, etc.)",
-     "Record the purchase price excluding repairs, accessories and overheads and note the VRN or VIN and description in the stock book",
-     "Calculate the selling price including MOT, accessories and part‑exchange value, apply the normal margin‑scheme rules to work out margin and VAT, and show the transaction on the VAT return",
-     "Maintain required records – invoices, stock‑book entries, VRN/VIN changes, scrap evidence and any zero‑rating documentation for adapted vehicles"
-    ],
-    "legislationRefs": [
-     "VAT Notice 718",
-     "VAT Notice 718/1",
-     "VAT Notice 700/64",
-     "VAT: costs or disbursements passed on to customers",
-     "VAT relief on adapted motor vehicles for disabled people and charities (VAT Notice 1002)",
-     "Using the VAT margin scheme for linked insurance products and warranties",
-     "Section 2.3 – additional information requirements for vehicles",
-     "Section 6.5 – global scheme for scrap vehicles",
-     "Section 8 – occasional sales"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-05T19:55:24.877Z"
-   }
-  },
-  {
    "id": "3c03c14e433dbffd",
    "title": "Using the global accounting VAT margin scheme",
    "url": "https://www.gov.uk/guidance/using-the-global-accounting-vat-margin-scheme",
@@ -3550,6 +3958,47 @@
    }
   },
   {
+   "id": "ced372f13fe717b2",
+   "title": "Buying and selling second-hand motor vehicles using the VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/buying-and-selling-second-hand-motor-vehicles-using-the-vat-margin-scheme",
+   "path": "/guidance/buying-and-selling-second-hand-motor-vehicles-using-the-vat-margin-scheme",
+   "date": "2026-11-02T09:00:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to use a margin scheme to account for VAT if you sell second-hand vehicles.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance from withdrawn VAT notices, The Margin and Global Accounting Scheme (VAT Notice 718) and The Margin Scheme on second-hand cars and other vehicles (VAT Notice 718/1), has been added.",
+   "firstPublished": "2021-12-23T13:28:00+00:00",
+   "ai": {
+    "summary": "Guidance explains when a second‑hand motor vehicle can use the VAT margin scheme, how to record purchase and selling prices, treat MOTs, vehicle tax and rebuilt cars, and what records must be kept, including VRN/VIN details and scrap documentation, to report correctly on the VAT return.",
+    "whoAffected": "Businesses that buy or sell second‑hand motor vehicles using a VAT margin scheme, such as motor‑vehicle dealers, SME traders and self‑employed sellers",
+    "effectiveDate": "2026-11-02",
+    "actions": [
+     "Confirm the vehicle meets eligibility rules (second‑hand, no separate VAT invoice, not new, not imported, not category A/B write‑off, etc.)",
+     "Record the purchase price excluding repairs, accessories and overheads and note the VRN or VIN and description in the stock book",
+     "Calculate the selling price including MOT, accessories and part‑exchange value, apply the normal margin‑scheme rules to work out margin and VAT, and show the transaction on the VAT return",
+     "Maintain required records – invoices, stock‑book entries, VRN/VIN changes, scrap evidence and any zero‑rating documentation for adapted vehicles"
+    ],
+    "legislationRefs": [
+     "VAT Notice 718",
+     "VAT Notice 718/1",
+     "VAT Notice 700/64",
+     "VAT: costs or disbursements passed on to customers",
+     "VAT relief on adapted motor vehicles for disabled people and charities (VAT Notice 1002)",
+     "Using the VAT margin scheme for linked insurance products and warranties",
+     "Section 2.3 – additional information requirements for vehicles",
+     "Section 6.5 – global scheme for scrap vehicles",
+     "Section 8 – occasional sales"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T19:55:24.877Z"
+   }
+  },
+  {
    "id": "fcd25abc88f6a392",
    "title": "Moving goods you bring into Northern Ireland as ‘not at risk’ of moving to the EU",
    "url": "https://www.gov.uk/guidance/check-if-you-can-declare-goods-you-bring-into-northern-ireland-not-at-risk-of-moving-to-the-eu",
@@ -3612,39 +4061,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-01T11:51:16.380Z"
-   }
-  },
-  {
-   "id": "1ace804503660064",
-   "title": "Check if a business is registered for money laundering supervision",
-   "url": "https://www.gov.uk/guidance/money-laundering-regulations-supervised-business-register",
-   "path": "/guidance/money-laundering-regulations-supervised-business-register",
-   "date": "2026-10-30T13:39:48Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out if a business has registered with HMRC under the money laundering regulations and report them if they have not.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "The Supervised Business Register has been updated.",
-   "firstPublished": "2014-05-23T00:00:00+01:00",
-   "ai": {
-    "summary": "The Supervised Business Register lists businesses registered with HMRC for money‑laundering supervision. Use it to confirm a counterpart’s status; if absent, contact them and, if still unregistered, report the suspicion to HMRC. Registration provides AML guidance but is not an endorsement.",
-    "whoAffected": "SMEs, owner‑managed businesses and self‑employed who need to verify AML supervision of counterparties and businesses that must be supervised under the money‑laundering regulations",
-    "effectiveDate": "2026-10-30",
-    "actions": [
-     "Search the Supervised Business Register to confirm a business’s registration number and details",
-     "If the business is not listed, contact it directly to verify its registration status",
-     "Advise any unregistered business to apply for supervision with HMRC",
-     "Report a suspected unregistered business to HMRC as tax fraud or avoidance"
-    ],
-    "legislationRefs": [
-     "money laundering regulations"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-30T18:04:05.261Z"
    }
   },
   {
@@ -7663,37 +8079,6 @@
    }
   },
   {
-   "id": "2788d808021611c3",
-   "title": "Find software suppliers for filing charities repayments online",
-   "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers",
-   "path": "/government/publications/charities-online-commercial-software-suppliers",
-   "date": "2026-10-27T12:53:48Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find recognised suppliers and software to file charity repayment claims online.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "The list of commercial software supplier details has been updated.",
-   "firstPublished": "2014-06-05T00:00:00+01:00",
-   "ai": {
-    "summary": "Charities can file repayment claims online using HMRC or commercial internet-enabled software; HMRC accepts claims filed with any listed product and offers technical support for charity software developers.",
-    "whoAffected": "Charitable organisations filing repayment claims and software developers creating charity filing solutions",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Check the latest list of recognised commercial software suppliers",
-     "Advise charity clients to use internet filing‑enabled software for repayment claims",
-     "Confirm claims are submitted using a product listed in the document",
-     "Refer charity software developers to HMRC technical support"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-27T17:58:58.808Z"
-   }
-  },
-  {
    "id": "26f01eeb3ac85edb",
    "title": "Fees and commissions — statutory notice (FAC-01)",
    "url": "https://www.gov.uk/government/publications/statutory-notice-section-16-return",
@@ -7846,41 +8231,6 @@
     "relevance": "low",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-26T18:40:51.844Z"
-   }
-  },
-  {
-   "id": "065b47cac579e131",
-   "title": "Pay Stamp Duty Land Tax",
-   "url": "https://www.gov.uk/guidance/pay-stamp-duty-land-tax",
-   "path": "/guidance/pay-stamp-duty-land-tax",
-   "date": "2026-10-26T10:22:09Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to pay Stamp Duty Land Tax, and how long it takes for your payment to reach HMRC.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated the guidance to clarify that Stamp Duty Land Tax applies to property purchases in England, Northern Ireland and Scotland before 1 April 2015 and Wales before 1 April 2018.",
-   "firstPublished": "2014-10-30T00:00:00+00:00",
-   "ai": {
-    "summary": "SDLT is due on property purchases in England, NI and historic Scotland/Wales. Return and payment must be made within 14 days of the effective date using the correct 11‑character reference; various online, bank transfer or cheque methods are available, with specific processing times and penalties for late payment.",
-    "whoAffected": "Clients buying property in England, Northern Ireland, Scotland (before 1 April 2015) or Wales (before 1 April 2018) who must file an SDLT return and pay the tax.",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Confirm the property’s location and which tax (SDLT, LBTT or LTT) applies",
-     "Obtain the 11‑character unique transaction reference and ensure it is entered correctly on the payment",
-     "Submit the SDLT return and arrange payment within 14 days of the effective transaction date, using a method that meets the client’s timing needs",
-     "Check bank processing times and advise the client to send payment before weekends or bank holidays to avoid penalties"
-    ],
-    "legislationRefs": [
-     "Stamp Duty Land Tax",
-     "Land and Buildings Transaction Tax",
-     "Land Transaction Tax"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-26T11:09:01.811Z"
    }
   },
   {
@@ -8417,38 +8767,6 @@
    }
   },
   {
-   "id": "c58deec4c696d76c",
-   "title": "Pay money laundering regulations fees",
-   "url": "https://www.gov.uk/guidance/pay-money-laundering-regulations-fees-and-penalty-charges",
-   "path": "/guidance/pay-money-laundering-regulations-fees-and-penalty-charges",
-   "date": "2026-10-19T11:51:10Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to pay money laundering fees, and the time it takes for your payment to reach HMRC.\r\n\r\n\r\n",
-   "categories": [
-    "compliance",
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved. ",
-   "firstPublished": "2014-10-30T00:00:00+00:00",
-   "ai": {
-    "summary": "Clients must pay money‑laundering supervision fees to HMRC when registering and annually. Payments must use the correct 14‑character reference, be made by the deadline (earlier if weekend/holiday), and can be paid online, by card, or bank transfer. Wrong references cause delays or misallocation.",
-    "whoAffected": "Businesses and individuals required to register for anti‑money laundering supervision (e.g., SMEs, owner‑managed firms, self‑employed)",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Obtain and record the 14‑character reference number; email MLRCIT@hmrc.gov.uk if missing",
-     "Pay the fee when first applying and at each annual supervision using the correct reference and a suitable method (online, card or bank transfer)",
-     "Ensure payment is sent so it reaches HMRC by the end of the previous working day if the deadline falls on a weekend or bank holiday",
-     "If the wrong reference is used, advise the client to contact MLRCIT@hmrc.gov.uk to have the payment moved"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-19T18:43:23.276Z"
-   }
-  },
-  {
    "id": "d21dc43c14e9a042",
    "title": "How VAT affects charities (VAT Notice 701/1)",
    "url": "https://www.gov.uk/guidance/how-vat-affects-charities-notice-7011",
@@ -8776,39 +9094,6 @@
    }
   },
   {
-   "id": "a32ea0407b172eb5",
-   "title": "Pay duty on biofuels or road fuel gas",
-   "url": "https://www.gov.uk/guidance/pay-duty-on-biofuels-or-gas-for-road-use",
-   "path": "/guidance/pay-duty-on-biofuels-or-gas-for-road-use",
-   "date": "2026-10-14T12:55:06Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to pay duty on biofuels or road fuel gas, and how long it takes for your payment to reach HMRC.",
-   "categories": [
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved.",
-   "firstPublished": "2018-09-26T00:00:00+01:00",
-   "ai": {
-    "summary": "Duty on biofuels or road fuel gas must be paid by the 15th day after each return period using the correct X‑prefixed reference; late payments can incur penalties. Various payment methods are available, each with specific processing times, and wrong references may delay or misallocate funds.",
-    "whoAffected": "Businesses that produce, import or use biofuels or gas for road vehicles, including SMEs, owner‑managed businesses and self‑employed operators who must file returns and pay the associated duty.",
-    "effectiveDate": "2026-10-14",
-    "actions": [
-     "Submit the return and pay any duty by the 15th day after the end of the return period, ensuring it reaches HMRC before the deadline if the 15th falls on a weekend or bank holiday.",
-     "Check that you are using the correct 15‑character payment reference (XMBF for biofuels, XMGR for road fuel gas) to avoid delays or misallocation.",
-     "Choose a payment method that meets the timing requirements (e.g., Direct Debit – allow 10 working days, Bacs – allow 3 working days, CHAPS/Faster Payments – same or next day) and verify bank limits.",
-     "If the wrong reference is used, email morc.exciseenquiries@hmrc.gov.uk to request the payment be moved to the correct tax account."
-    ],
-    "legislationRefs": [
-     "EEITT15"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-14T17:08:17.462Z"
-   }
-  },
-  {
    "id": "46ed7a6a2875fbdc",
    "title": "Seven linked companies shut down after Insolvency Service investigation with Companies House",
    "url": "https://www.gov.uk/government/news/seven-linked-companies-shut-down-after-insolvency-service-investigation-with-companies-house",
@@ -8837,68 +9122,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-14T17:08:20.369Z"
-   }
-  },
-  {
-   "id": "db022e9c64466c3f",
-   "title": "Pay the VAT due on your One Stop Shop VAT Return",
-   "url": "https://www.gov.uk/guidance/pay-the-vat-due-on-your-one-stop-shop-vat-return",
-   "path": "/guidance/pay-the-vat-due-on-your-one-stop-shop-vat-return",
-   "date": "2026-10-14T11:25:16Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to pay the VAT due on your One Stop Shop VAT (OSS) Return and how long it takes for your payment to reach HMRC.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "The payment reference to use when paying by bank transfer has been updated.",
-   "firstPublished": "2021-10-01T00:00:00+01:00",
-   "ai": {
-    "summary": "OSS VAT returns must be submitted and the VAT paid in full by the last day of the month after each quarter; payments can be made online, by card, or bank transfer using the pre‑populated NI reference, with specific processing times and penalties for late or incorrect payments.",
-    "whoAffected": "Businesses registered for the One Stop Shop (OSS) VAT scheme, including SMEs, owner‑managed businesses and the self‑employed.",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Ensure the OSS VAT return is filed and payment is made by the last day of the month following the quarter (or the previous working day if the deadline falls on a weekend/holiday).",
-     "Confirm the 11‑character NI payment reference is used; an incorrect reference can delay or misallocate the payment.",
-     "Choose a payment method and allow for its processing time (instant/2 hrs for online bank approval, same/next day for CHAPS/Faster Payments, 3 working days for BACS).",
-     "If payment issues arise, advise the client to contact HMRC at paymentteam.moss@hmrc.gov.uk for assistance."
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-15T09:56:53.081Z"
-   }
-  },
-  {
-   "id": "71a5ca125eef97f5",
-   "title": "Pay Air Passenger Duty",
-   "url": "https://www.gov.uk/guidance/pay-air-passenger-duty",
-   "path": "/guidance/pay-air-passenger-duty",
-   "date": "2026-10-14T07:59:31Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to pay Air Passenger Duty, and how long it takes for your payment to reach HMRC.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved.",
-   "firstPublished": "2014-11-03T00:00:00+00:00",
-   "ai": {
-    "summary": "Guide explains when Air Passenger Duty must be paid, how to use the correct 15‑character reference, payment methods (online, Direct Debit, CHAPS, Faster Payments, Bacs, cheque) and deadlines, including extensions and penalties for late payment.",
-    "whoAffected": "Businesses and operators that owe Air Passenger Duty, including occasional operators and any entity filing a return with HMRC.",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Confirm the client has the 15‑character reference number starting with X and record it for each payment",
-     "Check the filing deadline and remind the client to pay by the due date, using the 7‑day extension if paying by Direct Debit, Faster Payments, CHAPS or Bacs",
-     "Select an appropriate payment method and advise on processing times (instant/2 hrs for online, same/next day for CHAPS/Faster Payments, 3 days for Bacs)",
-     "If the wrong reference is used, instruct the client to email APDHelpdesk@hmrc.gov.uk to request the payment be moved"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-14T10:14:45.476Z"
    }
   },
   {
@@ -9116,38 +9339,6 @@
    }
   },
   {
-   "id": "9c4612891e72ef39",
-   "title": "Pay tax as a pension scheme administrator",
-   "url": "https://www.gov.uk/guidance/pension-scheme-administrators-paying-tax",
-   "path": "/guidance/pension-scheme-administrators-paying-tax",
-   "date": "2026-10-08T10:48:29Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to pay charges on payments from registered pension schemes and how long it takes for your payment to reach HMRC.",
-   "categories": [
-    "personal",
-    "pensions"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved.",
-   "firstPublished": "2014-10-30T00:00:00+00:00",
-   "ai": {
-    "summary": "Pension scheme administrators must submit returns and pay any tax within 45 days of the tax period end, using the correct 14‑character reference. Payments can be made online, by bank transfer, cheque or Government Banking Service, but wrong references or missed deadlines can cause delays, penalties or interest.",
-    "whoAffected": "Pension scheme administrators of registered pension schemes, including managers of overseas schemes and government departments using the Government Banking Service",
-    "effectiveDate": "2026-10-08",
-    "actions": [
-     "Ensure client returns and any tax are filed within 45 calendar days of the tax period end (or by 31 January for reportable events)",
-     "Check the 14‑character reference starts with X and matches the HMRC record before paying",
-     "Choose a payment method and confirm processing times (e.g., CHAPS/Faster Payments same‑day, Bacs 3 days)",
-     "Record the payment reference and date, and monitor for confirmation to avoid penalties"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-08T12:03:30.922Z"
-   }
-  },
-  {
    "id": "24bfc81d1c267e62",
    "title": "HMRC videos and webinars for Making Tax Digital for Income Tax",
    "url": "https://www.gov.uk/guidance/help-and-support-for-making-tax-digital",
@@ -9215,68 +9406,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-08T18:50:52.915Z"
-   }
-  },
-  {
-   "id": "3de9b3b052fcfdde",
-   "title": "Pay General Betting, Pool Betting or Remote Gaming Duty",
-   "url": "https://www.gov.uk/guidance/pay-general-betting-pool-betting-or-remote-gaming-duty",
-   "path": "/guidance/pay-general-betting-pool-betting-or-remote-gaming-duty",
-   "date": "2026-10-08T09:24:22Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to pay General Betting, Pool Betting or Remote Gaming Duty, and how long it takes for your payment to reach HMRC.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved.",
-   "firstPublished": "2019-09-03T00:00:00+01:00",
-   "ai": {
-    "summary": "Guide explains when and how to pay General Betting, Pool Betting and Remote Gaming Duty, including deadlines (30 days after each accounting period), required 14‑character reference, payment methods (online, card, bank transfer, cheque) and steps if wrong reference is used.",
-    "whoAffected": "Businesses that operate remote gambling, general betting or pool betting and are liable for the respective duties, including owners of SMEs and self‑employed gambling operators.",
-    "effectiveDate": "2026-10-08",
-    "actions": [
-     "Confirm the client has the correct 14‑character reference number (starts with X) from HMRC online services.",
-     "Submit the duty return and ensure payment is made within 30 days of the accounting period end, reaching HMRC by the previous working day if the deadline falls on a weekend or bank holiday.",
-     "Choose an appropriate payment method (online bank approval, debit/corporate card, CHAPS/Faster Payments, Bacs or cheque) and follow the timing guidance for each method.",
-     "If the wrong reference is used, advise the client to contact Gambling duties enquiries promptly to request the payment be moved."
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-08T18:50:56.803Z"
-   }
-  },
-  {
-   "id": "6f689d4cb2554a1e",
-   "title": "Pay Insurance Premium Tax",
-   "url": "https://www.gov.uk/guidance/pay-insurance-premium-tax",
-   "path": "/guidance/pay-insurance-premium-tax",
-   "date": "2026-10-08T09:23:38Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to pay Insurance Premium Tax, and how long it takes for your payment to reach HMRC.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved.",
-   "firstPublished": "2014-11-03T00:00:00+00:00",
-   "ai": {
-    "summary": "Insurers must file their IPT return by the deadline and pay using the correct 15‑character reference. Payments can be made via Direct Debit, Faster Payments, CHAPS, BACS, online banking, cheque or overseas transfer, observing method‑specific processing times.",
-    "whoAffected": "Insurers liable for Insurance Premium Tax, including overseas insurers using agents, and any business that has an IPT liability",
-    "effectiveDate": "2026-10-08",
-    "actions": [
-     "Verify the 15‑character reference (starting with X) from the registration certificate or notice to file before paying",
-     "Choose a payment method that meets the deadline and allow the required processing time (10 days for Direct Debit setup, 3 days for BACS)",
-     "If the wrong reference is used, contact Insurance Premium Tax enquiries promptly to have the payment moved",
-     "Submit the return even when no tax is due"
-    ],
-    "legislationRefs": [],
-    "relevance": "low",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-08T18:51:00.224Z"
    }
   },
   {
@@ -10152,37 +10281,6 @@
    }
   },
   {
-   "id": "a0741aeafcaa9804",
-   "title": "Pay your Economic Crime Levy",
-   "url": "https://www.gov.uk/guidance/pay-your-economic-crime-levy",
-   "path": "/guidance/pay-your-economic-crime-levy",
-   "date": "2026-09-29T23:15:01Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to pay the Economic Crime Levy, and how long it takes for your payment to reach HMRC.",
-   "categories": [
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "Information about the bands for financial years from 1 April 2026 have been added.",
-   "firstPublished": "2023-08-31T00:00:00+01:00",
-   "ai": {
-    "summary": "The Economic Crime Levy must be paid by 30 Sept each year; rates depend on UK revenue bands, with small entities exempt and larger entities paying fixed amounts. Returns need a 14‑character reference, and payments can be made online, by Direct Debit, card or bank transfer, ensuring funds arrive before the deadline.",
-    "whoAffected": "Businesses with UK revenue over £10.2 million (band A, B, C, D) that are liable for the Economic Crime Levy, as well as any entity that must submit a levy return.",
-    "effectiveDate": "1 April 2026",
-    "actions": [
-     "Determine the client’s revenue band for the financial year and calculate the levy due",
-     "Obtain the 14‑character Economic Crime Levy return number and submit the return before the deadline",
-     "Arrange payment (online, Direct Debit, card or bank transfer) so it reaches HMRC by 30 Sept, accounting for bank processing times",
-     "Check for any partial‑year reductions or over‑payments and advise on refunds where applicable"
-    ],
-    "legislationRefs": [],
-    "relevance": "medium",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-30T11:11:44.668Z"
-   }
-  },
-  {
    "id": "88b46e5dcf2bd206",
    "title": "Submit a return for the Economic Crime Levy",
    "url": "https://www.gov.uk/guidance/submit-a-return-for-the-economic-crime-levy",
@@ -10839,37 +10937,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-09-29T13:57:24.890Z"
-   }
-  },
-  {
-   "id": "def35ba41882ae89",
-   "title": "Pay Stamp Duty Reserve Tax",
-   "url": "https://www.gov.uk/guidance/pay-stamp-duty-reserve-tax",
-   "path": "/guidance/pay-stamp-duty-reserve-tax",
-   "date": "2026-09-21T14:29:31Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to pay your Stamp Duty Reserve Tax, and how long it takes for your payment to reach HMRC.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved.",
-   "firstPublished": "2014-10-30T00:00:00+00:00",
-   "ai": {
-    "summary": "SDRT is due on paperless share purchases. CREST trades are auto‑deducted; off‑market trades need a written notice with buyer/seller details, securities info, payment reference and must be paid within 14 days or by the 7th of the following month. Use correct reference and HMRC bank details.",
-    "whoAffected": "Businesses and individuals who buy or sell shares, especially those making off‑market share transactions",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Send a written notice for off‑market share trades including buyer/seller details, securities transferred, reliefs claimed, payment details and a reference number you choose",
-     "Ensure the notice and payment reach HMRC within the applicable deadline – 14 days for CREST‑eligible trades or the 7th of the month after the agreement for non‑CREST trades",
-     "Use the correct reference number; if an error occurs, contact SDRT enquiries to have the payment moved to the right tax bill",
-     "Pay electronically using the UK or overseas HMRC account details provided and allow the appropriate processing time (same/next day for CHAPS/Faster Payments, 3 working days for Bacs)"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-09-29T13:57:33.855Z"
    }
   },
   {
