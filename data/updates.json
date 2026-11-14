@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-13T19:39:00.910Z",
+ "generatedAt": "2026-11-14T12:13:34.375Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -407,7 +407,22 @@
    ],
    "hasBody": true,
    "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
-   "firstPublished": "2023-01-20T00:00:00+00:00"
+   "firstPublished": "2023-01-20T00:00:00+00:00",
+   "ai": {
+    "summary": "The guidance explains how trustees must pay a penalty for not registering or maintaining a trust, requiring payment within 30 days of the penalty notice, detailing acceptable payment methods, UK and overseas bank details, and timing rules for each method.",
+    "whoAffected": "Trustees or responsible persons who have received a penalty charge for failing to register or maintain a trust",
+    "effectiveDate": "2026-11-13",
+    "actions": [
+     "Check the 14‑character reference number on the penalty letter and confirm the amount due",
+     "Ensure payment reaches HMRC within 30 days; if the deadline falls on a weekend or bank holiday, pay by the previous working day",
+     "Select an appropriate payment method (online bank approval, Direct Debit, debit/corporate card, CHAPS/Faster Payments or Bacs) and follow the method‑specific processing times",
+     "For overseas accounts, use the provided IBAN and BIC, pay in GBP and warn the client that any other currency will incur conversion fees and may require an additional payment"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-14T12:13:10.053Z"
+   }
   },
   {
    "id": "1d56403dc156f2af",
@@ -423,7 +438,22 @@
    ],
    "hasBody": true,
    "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
-   "firstPublished": "2023-11-29T00:00:00+00:00"
+   "firstPublished": "2023-11-29T00:00:00+00:00",
+   "ai": {
+    "summary": "Clients with unpaid cryptoasset tax must disclose to HMRC, receive a 14‑character reference and pay the full amount within 30 days using the correct UK or overseas bank details. Payments can be made online, by card or bank transfer; penalties apply for late payment. If they cannot pay in full, they must inform HMRC promptly.",
+    "whoAffected": "Individuals and businesses (including SMEs, owner‑managed businesses and the self‑employed) with unpaid tax on cryptoassets",
+    "effectiveDate": "2026-11-13",
+    "actions": [
+     "Advise the client to make a disclosure and obtain the 14‑character payment reference number",
+     "Ensure the client pays the full amount within 30 days using the correct UK or overseas account details and a suitable payment method",
+     "If the client cannot pay in full, instruct them to contact HMRC immediately with income, outgoings, assets and liabilities to discuss a payment arrangement",
+     "Monitor HMRC confirmation of receipt and advise the client on any penalties or interest that may apply"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-14T12:13:13.393Z"
+   }
   },
   {
    "id": "3de9b3b052fcfdde",
@@ -470,7 +500,22 @@
    ],
    "hasBody": true,
    "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
-   "firstPublished": "2014-11-03T00:00:00+00:00"
+   "firstPublished": "2014-11-03T00:00:00+00:00",
+   "ai": {
+    "summary": "HMRC requires insurers to file a return and pay Insurance Premium Tax by the deadline, with a 7‑day extension if paying via Direct Debit, Faster Payments, Bacs or CHAPS. Use the correct 15‑character reference and appropriate UK or overseas account details; penalties apply for late payment.",
+    "whoAffected": "Insurance companies, including overseas insurers using agents, and their advisers handling IPT payments",
+    "effectiveDate": "2026-11-13",
+    "actions": [
+     "Confirm the client’s 15‑character IPT reference number and include it on all payments",
+     "Advise on eligible payment methods and note the 7‑day deadline extension for Direct Debit, Faster Payments, Bacs or CHAPS",
+     "For overseas clients, use the IBAN/BIC details, pay in GBP and warn about conversion fees if another currency is used",
+     "Ensure the chosen method will reach HMRC before the deadline, especially for cheques or payments over £20 million which require alternative arrangements"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-14T12:13:16.544Z"
+   }
   },
   {
    "id": "c58deec4c696d76c",
@@ -487,7 +532,22 @@
    ],
    "hasBody": true,
    "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
-   "firstPublished": "2014-10-30T00:00:00+00:00"
+   "firstPublished": "2014-10-30T00:00:00+00:00",
+   "ai": {
+    "summary": "You must pay AML supervision fees to HMRC when registering and each year. Use the correct reference number, pay before the deadline (adjust for weekends/holidays), and choose an approved method (online bank, debit/corporate card, CHAPS/Faster, or BACS). Overseas payments must be in GBP using the listed IBAN/BIC.",
+    "whoAffected": "Businesses and self‑employed individuals required to register for anti‑money‑laundering supervision",
+    "effectiveDate": "2026-11-13T12:57:07Z",
+    "actions": [
+     "Obtain and keep the 14‑character reference number (or 8‑digit ML regulation number) for each client",
+     "Pay fees when first applying and at each annual supervision, ensuring payment reaches HMRC by the deadline (account for weekends/holidays)",
+     "Select an approved payment method and follow processing time guidance (online bank approval, debit/corporate card, CHAPS/Faster Payments, or BACS)",
+     "If paying from overseas, use the provided IBAN/BIC details and pay in GBP to avoid conversion losses"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-14T12:13:20.085Z"
+   }
   },
   {
    "id": "9c4612891e72ef39",
@@ -660,7 +720,27 @@
    ],
    "hasBody": true,
    "changeNote": "Section ‘Check if you need to make a declaration for the destroyed goods’ has been updated on making a declaration in the Customs Declarations Service.",
-   "firstPublished": "2026-06-01T11:06:00+01:00"
+   "firstPublished": "2026-06-01T11:06:00+01:00",
+   "ai": {
+    "summary": "If a business needs to destroy ATA Carnet goods, it must notify the National ATA Carnet Unit, obtain a destruction certificate, and decide if a customs declaration is required based on duty over £9, using specific codes. Digital and paper carnets have different submission steps.",
+    "whoAffected": "Businesses holding an ATA Carnet with goods to be destroyed, whether the goods are in the UK or abroad, including SMEs, owner‑managed firms and the self‑employed.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Contact the National ATA Carnet Unit at least 5 working days before destruction, providing carnet list numbers, location, date, time and destroying business name",
+     "Obtain a certificate or letter confirming the destruction and send it to the National ATA Carnet Unit",
+     "Check the waste commodity code; if duty > £9, prepare a Customs Declarations Service entry using Procedure Code 4000, Document Z955, Additional Info GEN45 and the appropriate location code",
+     "If duty ≤ £9, simply forward the destruction certificate; follow digital or paper carnet specific steps (email with MRN for digital, mail certificate and carnet for paper)"
+    ],
+    "legislationRefs": [
+     "DE 1/10 ‘4000’",
+     "DE 2/1 ‘Z955’",
+     "DE 2/2 ‘GEN45’",
+     "DE 5/23"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-14T12:13:29.762Z"
+   }
   },
   {
    "id": "c8c740ea29506a3c",
