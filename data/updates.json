@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-14T12:13:34.375Z",
+ "generatedAt": "2026-11-15T12:45:46.339Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,7 +72,7 @@
    "label": "Other"
   }
  ],
- "count": 608,
+ "count": 607,
  "items": [
   {
    "id": "2788d808021611c3",
@@ -564,7 +564,22 @@
    ],
    "hasBody": true,
    "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
-   "firstPublished": "2014-10-30T00:00:00+00:00"
+   "firstPublished": "2014-10-30T00:00:00+00:00",
+   "ai": {
+    "summary": "Pension scheme administrators must file returns and pay any tax within 45 days of the tax period end, using the correct 14‑character reference. Payments can be made online, by bank transfer, cheque or Government Banking Service, with specific UK and overseas account details. Late payments may incur penalties.",
+    "whoAffected": "Pension scheme administrators of registered pension schemes, including managers of overseas schemes, advising SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "2026-11-13",
+    "actions": [
+     "File the return or event report and pay any tax within 45 calendar days of the tax period end (event reports by 31 January)",
+     "Verify the 14‑character reference number matches HMRC records before paying",
+     "Select a payment method that meets timing requirements (e.g., CHAPS/Faster Payments for same‑day receipt or Bacs allowing 3 working days) and ensure funds arrive before the deadline",
+     "If paying from overseas, use the provided IBAN/BIC, pay in GBP and contact HMRC for any overseas pension scheme charges"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-15T12:45:30.448Z"
+   }
   },
   {
    "id": "a32ea0407b172eb5",
@@ -611,7 +626,24 @@
    ],
    "hasBody": true,
    "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
-   "firstPublished": "2014-10-30T00:00:00+00:00"
+   "firstPublished": "2014-10-30T00:00:00+00:00",
+   "ai": {
+    "summary": "The guide details when and how to pay Gaming or Bingo Duty, including deadlines for each accounting period, required reference numbers, payment methods, and steps if no tax is due, plus special rules for Bingo Duty nil returns.",
+    "whoAffected": "Businesses liable for Gaming Duty or Bingo Duty, including SMEs, owner‑managed gambling operators and self‑employed individuals running gaming or bingo activities.",
+    "effectiveDate": "2026-11-13",
+    "actions": [
+     "Determine the accounting period and calculate duty using form GD95, noting the specific payment due dates.",
+     "Confirm the 15‑character reference number (starting with X) is correct before any payment.",
+     "Select a payment method and allow the required processing time (e.g., Direct Debit 10 days, Bacs 3 days, CHAPS/Faster Payments same/next day).",
+     "Submit the return even if nil and, for Bingo Duty, notify HMRC in advance of any closed‑season dates."
+    ],
+    "legislationRefs": [
+     "GD95"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-15T12:45:34.321Z"
+   }
   },
   {
    "id": "db022e9c64466c3f",
@@ -627,7 +659,22 @@
    ],
    "hasBody": true,
    "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
-   "firstPublished": "2021-10-01T00:00:00+01:00"
+   "firstPublished": "2021-10-01T00:00:00+01:00",
+   "ai": {
+    "summary": "To avoid penalties, OSS VAT returns must be filed and the full VAT paid by the last day of the month after each quarter. Payments can be made online, by card or bank transfer using the pre‑populated reference, with specific UK or overseas account details.",
+    "whoAffected": "Businesses that submit One Stop Shop (OSS) VAT returns, including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Submit the OSS VAT return and ensure payment is made by the last day of the month following the quarter (earlier if the deadline falls on a weekend or bank holiday).",
+     "Choose a payment method (online bank approval, debit/corporate credit card, or CHAPS/Faster Payments/Bacs) and use the 11‑character NI reference provided with the return.",
+     "If the account is overseas, use the listed IBAN and BIC and pay in GBP; avoid other currencies to prevent conversion fees and shortfall.",
+     "Confirm the payment has cleared, keep records, and if the wrong reference is used contact paymentteam.moss@hmrc.gov.uk to correct it."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-15T12:45:37.650Z"
+   }
   },
   {
    "id": "71a5ca125eef97f5",
@@ -643,7 +690,22 @@
    ],
    "hasBody": true,
    "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
-   "firstPublished": "2014-11-03T00:00:00+00:00"
+   "firstPublished": "2014-11-03T00:00:00+00:00",
+   "ai": {
+    "summary": "The guide explains when APD must be paid, required reference numbers, payment methods (online, Direct Debit, bank transfer, cheque) and special rules for UK vs overseas accounts, including currency conversion and deadlines.",
+    "whoAffected": "Businesses and operators liable for Air Passenger Duty, including airlines, occasional operators and any organisation making APD payments from UK or overseas bank accounts.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Verify the 15‑character reference number on the notice to file (or obtain one for occasional operators).",
+     "Choose a payment method that meets the deadline (Direct Debit, Faster Payments, CHAPS, Bacs, online bank, or cheque) and allow the stated processing time.",
+     "If paying from an overseas account, use the GBP IBAN/BIC details and avoid other currencies to prevent conversion loss.",
+     "Submit the APD return even when nothing is due and correct any errors on a submitted return promptly."
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-15T12:45:41.732Z"
+   }
   },
   {
    "id": "1ace804503660064",
@@ -18780,19 +18842,6 @@
     "legislation",
     "compliance",
     "budget"
-   ]
-  },
-  {
-   "id": "adddcd8b8cf2f941",
-   "title": "The Value Added Tax (Amendment) Regulations 2025",
-   "url": "https://www.legislation.gov.uk/id/uksi/2025/578",
-   "date": "2025-05-14T13:09:38.577Z",
-   "type": "legislation",
-   "source": "legislation.gov.uk",
-   "description": "",
-   "categories": [
-    "legislation",
-    "vat"
    ]
   }
  ]
