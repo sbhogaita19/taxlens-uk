@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-15T12:45:46.339Z",
+ "generatedAt": "2026-11-16T13:41:17.108Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,199 @@
    "label": "Other"
   }
  ],
- "count": 607,
+ "count": 610,
  "items": [
+  {
+   "id": "f72c9615b09ace09",
+   "title": "Community Amateur Sports Clubs detailed guidance notes",
+   "url": "https://www.gov.uk/government/publications/community-amateur-sports-clubs-detailed-guidance-notes",
+   "path": "/government/publications/community-amateur-sports-clubs-detailed-guidance-notes",
+   "date": "2026-11-16T11:36:08Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out about how the Community Amateur Sports Club (CASC) scheme works and about reliefs you might be able to benefit from.\r\n",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Section '4.1 Individual donations' of the 'Community Amateur Sports Clubs: detailed guidance notes' has been updated to say you cannot donate to a CASC through the Payroll Giving scheme, and a link to how else individuals can donate has been added.",
+   "firstPublished": "2015-03-27T00:00:00+00:00",
+   "ai": {
+    "summary": "The CASC scheme lets amateur sports clubs register with HMRC for tax reliefs. Recent guidance says individuals cannot donate via Payroll Giving and must use other methods.",
+    "whoAffected": "Community Amateur Sports Clubs and individual donors",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Tell CASC clients they cannot accept Payroll Giving donations",
+     "Guide donors to alternative donation routes as per the new guidance",
+     "Confirm the club is registered with HMRC to claim reliefs",
+     "Review the club’s eligibility for available tax reliefs"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-16T13:40:55.097Z"
+   }
+  },
+  {
+   "id": "f0162fb712cbd2df",
+   "title": "Claim tax relief if you paid UK-source yearly interest to an overseas lender without deducting tax",
+   "url": "https://www.gov.uk/guidance/claim-tax-relief-if-you-paid-uk-source-yearly-interest-to-an-overseas-lender-without-deducting-tax",
+   "path": "/guidance/claim-tax-relief-if-you-paid-uk-source-yearly-interest-to-an-overseas-lender-without-deducting-tax",
+   "date": "2026-11-16T10:21:18Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out if you can claim Income Tax relief under a double taxation agreement if you paid interest to an overseas lender without making the correct deductions to account for Income Tax.",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "The email addresses to send in your forms to have been updated. ",
+   "firstPublished": "2026-11-02T11:17:00+00:00",
+   "ai": {
+    "summary": "You can claim Income Tax relief under a double taxation agreement if you paid UK‑source yearly interest to an overseas lender without the required tax deduction, provided specific conditions are met and the claim is made within four years of the tax year.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who have paid UK‑source yearly interest to overseas lenders without deducting Income Tax and meet the treaty conditions.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients who made UK‑source interest payments to overseas lenders without tax deductions and confirm a double taxation treaty applies",
+     "Check all eligibility criteria: required deduction, no HMRC direction, treaty limits and relief conditions",
+     "Collect required evidence – payer/lender details, payment data, treaty reference, residence certificates, entitlement declarations, and any prior claim information",
+     "Complete a separate claim form for each loan/lender, attach supporting documents, and submit via the appropriate HMRC email address for the client’s business size"
+    ],
+    "legislationRefs": [
+     "International INTM413205 manual"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-16T13:40:58.074Z"
+   }
+  },
+  {
+   "id": "a42a170e16287053",
+   "title": "Tell HMRC you have completed a National Minimum Wage review",
+   "url": "https://www.gov.uk/guidance/tell-hmrc-you-have-completed-a-national-minimum-wage-review",
+   "path": "/guidance/tell-hmrc-you-have-completed-a-national-minimum-wage-review",
+   "date": "2026-11-16T10:06:39Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Send a declaration to tell HMRC you have completed a National Minimum Wage review and report any underpayments you have found.",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-16T10:06:39+00:00",
+   "ai": {
+    "summary": "If HMRC asks you to review National Minimum Wage payments, you must submit a declaration confirming the review and any underpayments; no penalty if errors are reported, otherwise penalties and possible public naming may apply.",
+    "whoAffected": "Businesses that have been asked by HMRC to review their National Minimum Wage payments, including SMEs and owner‑managed firms",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check whether the client has received an HMRC letter requesting a National Minimum Wage review",
+     "Ensure an authorised person (director, secretary, partner, trustee or authorised agent) completes the declaration",
+     "Collect the PAYE reference, letter code, number of workers affected, amount owed and reasons for any underpayment",
+     "Submit the declaration online via HMRC’s service and keep a record of the submission"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-16T13:41:01.321Z"
+   }
+  },
+  {
+   "id": "76f4af23708faf95",
+   "title": "Get job-ready this festive season with the HMRC app",
+   "url": "https://www.gov.uk/government/news/get-job-ready-this-festive-season-with-the-hmrc-app",
+   "path": "/government/news/get-job-ready-this-festive-season-with-the-hmrc-app",
+   "date": "2026-11-16T10:00:03Z",
+   "type": "press_release",
+   "source": "HMRC (GOV.UK)",
+   "description": "Starting a new job this Christmas? All the information you need is in the HMRC app.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-16T10:00:03+00:00",
+   "ai": {
+    "summary": "HMRC urges seasonal job‑seekers to download the HMRC app for instant access to NI numbers, tax codes, employment history and PAYE details, helping them complete new‑starter paperwork confidently and avoid delays.",
+    "whoAffected": "People starting seasonal or first jobs, especially young jobseekers, and anyone needing tax and employment information for new‑starter forms",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Advise clients starting seasonal work to download the HMRC app from GOV.UK, App Store or Google Play",
+     "Show them how to locate their National Insurance number, tax code, employment history and PAYE details in the app",
+     "Encourage checking upcoming pay via the app before it is deposited",
+     "Direct clients to HMRC's Tax Confident website for further guidance on tax and payroll matters"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-16T13:41:04.357Z"
+   }
+  },
+  {
+   "id": "280594d00bb3e5d7",
+   "title": "Check the recognised overseas pension schemes notification list",
+   "url": "https://www.gov.uk/guidance/check-the-recognised-overseas-pension-schemes-notification-list",
+   "path": "/guidance/check-the-recognised-overseas-pension-schemes-notification-list",
+   "date": "2026-11-16T09:00:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find schemes that have told HMRC they meet the conditions to be a recognised overseas pension scheme (ROPS).",
+   "categories": [
+    "personal",
+    "pensions"
+   ],
+   "hasBody": true,
+   "changeNote": "The recognised overseas pension schemes notification list has been updated with 23 schemes added and 9 schemes removed.",
+   "firstPublished": "2018-06-15T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC publishes a list of schemes that claim to meet recognised overseas pension scheme (ROPS) criteria twice a month. The list is not a guarantee of tax‑free status and HMRC may charge tax, interest or penalties for transfers to non‑ROPS schemes.",
+    "whoAffected": "UK individuals and businesses with pension savings who are considering transferring them to overseas pension schemes, including self‑employed, SMEs and owner‑managed companies.",
+    "effectiveDate": "1st and 15th of each month (or next working day if weekend/public holiday)",
+    "actions": [
+     "Check the latest ROPS notification list before advising any overseas pension transfer.",
+     "Explain to clients that inclusion on the list does not guarantee freedom from UK tax and they must assess their own tax liability.",
+     "Warn that HMRC can pursue tax, interest and penalties for transfers to schemes that do not meet ROPS requirements.",
+     "Recommend clients obtain advice from a regulated financial adviser before proceeding."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-16T13:41:07.860Z"
+   }
+  },
+  {
+   "id": "5f0bbbf5cd2eb144",
+   "title": "Amending an Enterprise Management Incentives (EMI) notification",
+   "url": "https://www.gov.uk/guidance/amending-an-enterprise-management-incentives-emi-notification",
+   "path": "/guidance/amending-an-enterprise-management-incentives-emi-notification",
+   "date": "2026-11-16T07:52:09Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Check when you can amend your notification and how to make an amendment.",
+   "categories": [
+    "cgt"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-16T07:52:09+00:00"
+  },
+  {
+   "id": "178b39fa213b9cf9",
+   "title": "Send pension scheme reports",
+   "url": "https://www.gov.uk/guidance/pension-administrators-reporting-to-hmrc",
+   "path": "/guidance/pension-administrators-reporting-to-hmrc",
+   "date": "2026-11-16T07:28:33Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Pension scheme returns, Accounting for Tax returns and event reports you must complete and send to HMRC if you're a scheme administrator.",
+   "categories": [
+    "personal",
+    "pensions"
+   ],
+   "hasBody": true,
+   "changeNote": "The section on 'Submitting a pension scheme return' has been updated to include information on how to complete returns.",
+   "firstPublished": "2014-09-16T00:00:00+01:00"
+  },
   {
    "id": "2788d808021611c3",
    "title": "Find software suppliers for filing charities repayments online",
@@ -1230,7 +1421,7 @@
    "title": "Process for exporting cell-cultivated products of animal origin from Great Britain to non-EU countries",
    "url": "https://www.gov.uk/guidance/process-for-exporting-cell-cultivated-products-of-animal-origin-from-great-britain-to-non-eu-countries",
    "path": "/guidance/process-for-exporting-cell-cultivated-products-of-animal-origin-from-great-britain-to-non-eu-countries",
-   "date": "2026-11-12T09:30:08Z",
+   "date": "2026-11-12T09:30:00Z",
    "type": "detailed_guide",
    "source": "HMRC (GOV.UK)",
    "description": "A process map for exporting cell-cultivated products of animal origin (POAO) from Great Britain to Non-EU Countries. A pathway for regulatory compliance.",
@@ -1239,31 +1430,7 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-12T09:30:08+00:00",
-   "ai": {
-    "summary": "Guidance outlines steps for GB businesses to export cell‑cultivated products of animal origin to non‑EU markets, covering destination eligibility, GB establishment registration, product SPS compliance, and engagement with authorities, noting case‑by‑case assessment and lack of standard certificates.",
-    "whoAffected": "GB‑based producers of cell‑cultivated animal‑origin products seeking to export to non‑EU countries, including SMEs, owner‑managed firms and self‑employed operators.",
-    "effectiveDate": "2026-11-12",
-    "actions": [
-     "Check destination country accepts cell‑cultivated products and confirm market‑access requirements with the importer and APHA.",
-     "Register the GB production site as a food business with the local authority and verify any extra export approvals required.",
-     "Confirm the product meets the destination country's SPS, import and certification rules, including any novel‑food authorisations.",
-     "Engage the destination country's competent authority and maintain documentation of all approvals and controls."
-    ],
-    "legislationRefs": [
-     "Regulation (EU) 2015/2283 - Novel Foods",
-     "Regulation (EC) 853/2004 - Hygiene of Foodstuffs of Animal Origin",
-     "Regulation (EC) 852/2004 - General Hygiene of Foodstuffs",
-     "Regulation (EC) 178/2002 - General Food Law",
-     "Regulation (EU) 2017/625 - Official Controls",
-     "Trade in Animals and Related Products (“TARP”) Regulations 2011 (SI No.1197/2011)",
-     "Trade in Animals and Related Products (Scotland) Regulations 2012 (SSI 2012 No.177)",
-     "Trade in Animals and Related Products (Wales) Regulations 2011 (SI No. 2011/2379)"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-12T19:52:52.962Z"
-   }
+   "firstPublished": "2026-11-12T09:30:00+00:00"
   },
   {
    "id": "90a5852029284069",
@@ -3158,40 +3325,6 @@
    }
   },
   {
-   "id": "f0162fb712cbd2df",
-   "title": "Claim tax relief if you paid UK-source yearly interest to an overseas lender without deducting tax",
-   "url": "https://www.gov.uk/guidance/claim-tax-relief-if-you-paid-uk-source-yearly-interest-to-an-overseas-lender-without-deducting-tax",
-   "path": "/guidance/claim-tax-relief-if-you-paid-uk-source-yearly-interest-to-an-overseas-lender-without-deducting-tax",
-   "date": "2026-11-02T11:17:41Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out if you can claim Income Tax relief under a double taxation agreement if you paid interest to an overseas lender without making the correct deductions to account for Income Tax.",
-   "categories": [
-    "personal"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-11-02T11:17:41+00:00",
-   "ai": {
-    "summary": "Clients who paid UK‑source yearly interest to an overseas lender without deducting Income Tax can claim relief under a double taxation agreement if they meet specific conditions and submit a claim within four years of the tax year end.",
-    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who have made UK‑source interest payments to overseas lenders without the required tax deductions and meet the treaty criteria.",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Identify any interest payments made to overseas lenders where tax was not deducted and confirm a double taxation treaty applies.",
-     "Check all eligibility conditions: no HMRC direction, treaty limits tax, and relief conditions are met.",
-     "Collect required evidence – payer/lender details, payment data, treaty reference, residence certificates, entitlement declarations and a signed declaration.",
-     "Complete a separate claim form for each loan/lender and submit it by the appropriate email address within the four‑year deadline."
-    ],
-    "legislationRefs": [
-     "double taxation agreement",
-     "International INTM413205 manual"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-02T13:31:43.683Z"
-   }
-  },
-  {
    "id": "2af400a0abc72fe3",
    "title": "Save As You Earn (SAYE): end of year return template and guidance notes",
    "url": "https://www.gov.uk/government/publications/save-as-you-earn-end-of-year-template",
@@ -3554,38 +3687,6 @@
    }
   },
   {
-   "id": "280594d00bb3e5d7",
-   "title": "Check the recognised overseas pension schemes notification list",
-   "url": "https://www.gov.uk/guidance/check-the-recognised-overseas-pension-schemes-notification-list",
-   "path": "/guidance/check-the-recognised-overseas-pension-schemes-notification-list",
-   "date": "2026-11-02T09:00:03Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find schemes that have told HMRC they meet the conditions to be a recognised overseas pension scheme (ROPS).",
-   "categories": [
-    "personal",
-    "pensions"
-   ],
-   "hasBody": true,
-   "changeNote": "The recognised overseas pension schemes notification list has been updated with 24 schemes added and 6 schemes removed.",
-   "firstPublished": "2018-06-15T00:00:00+01:00",
-   "ai": {
-    "summary": "The HMRC list of recognised overseas pension schemes (ROPS) is published on the 1st and 15th of each month (or next working day if a holiday). It may be updated at short notice and does not guarantee tax‑free transfers. Professionals must verify tax liability and advise clients accordingly.",
-    "whoAffected": "UK taxpayers with pension savings – including self‑employed individuals, SME owners and directors who consider transferring pensions abroad",
-    "effectiveDate": "Published on the 1st and 15th day of each month (or next working day if a weekend/public holiday)",
-    "actions": [
-     "Check the latest ROPS notification list before any client transfer advice",
-     "Confirm the tax consequences of any overseas pension transfer, not relying solely on the list",
-     "Recommend clients obtain advice from a regulated financial adviser",
-     "Monitor the list for regular updates and any short‑notice removals"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-03T19:29:18.206Z"
-   }
-  },
-  {
    "id": "bf545f4be5316ff1",
    "title": "Using the VAT margin scheme for repossessed goods and goods subject to insurance claims",
    "url": "https://www.gov.uk/guidance/using-the-vat-margin-scheme-for-repossessed-goods-and-goods-subject-to-insurance-claims",
@@ -3792,76 +3893,6 @@
    }
   },
   {
-   "id": "38aec13e8e52ca23",
-   "title": "Using the VAT margin scheme for linked insurance products and warranties",
-   "url": "https://www.gov.uk/guidance/using-the-vat-margin-scheme-for-linked-insurance-products-and-warranties",
-   "path": "/guidance/using-the-vat-margin-scheme-for-linked-insurance-products-and-warranties",
-   "date": "2026-11-02T09:00:02Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to account for VAT on linked insurance products and warranties.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-11-02T09:00:02+00:00",
-   "ai": {
-    "summary": "Guidance explains VAT treatment for linked insurance and warranties under the margin scheme, when charges are exempt or standard-rated, how to invoice, record stock values, and Insurance Premium Tax responsibilities.",
-    "whoAffected": "SME dealers and self‑employed traders using the VAT margin scheme for second‑hand goods who offer linked insurance products or warranties to customers.",
-    "effectiveDate": "2026-11-02",
-    "actions": [
-     "Check whether the insurance premium or warranty charge is disclosed to the customer; if disclosed it is VAT‑exempt, otherwise treat it as standard‑rated and account for VAT outside the margin scheme.",
-     "Ensure the selling price of the goods recorded in the stock book equals the invoice price and excludes any insurance or warranty charge when calculating the margin.",
-     "Record any separate insurance or warranty fees (including commissions) as standard‑rated supplies and account for VAT on those amounts outside the margin scheme.",
-     "Verify whether you need to register for and account for the higher rate of Insurance Premium Tax on any undisclosed charges and review partial exemption implications if exempt income is significant."
-    ],
-    "legislationRefs": [
-     "Insurance (VAT Notice 701/36)",
-     "Notice IPT1: Insurance Premium Tax",
-     "Partial exemption (VAT Notice 706)"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-04T19:44:22.683Z"
-   }
-  },
-  {
-   "id": "2700630bd0b2727b",
-   "title": "Buying and selling goods in Northern Ireland using the VAT margin scheme",
-   "url": "https://www.gov.uk/guidance/buying-and-selling-goods-in-northern-ireland-using-the-vat-margin-scheme",
-   "path": "/guidance/buying-and-selling-goods-in-northern-ireland-using-the-vat-margin-scheme",
-   "date": "2026-11-02T09:00:02Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "If you buy and sell goods between Northern Ireland and the EU or between Great Britain and Northern Ireland check how to use the VAT margin scheme (VAT Notice 718).",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "Guidance from withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been added.",
-   "firstPublished": "2021-12-23T00:00:00+00:00",
-   "ai": {
-    "summary": "Special VAT margin scheme rules apply when buying or selling second‑hand goods, works of art, antiques or collectors’ items between Northern Ireland, Great Britain and the EU. Motor vehicles from GB are excluded, and new transport is never eligible. Record‑keeping, invoicing and reporting requirements differ from standard supplies.",
-    "whoAffected": "SMEs, owner‑managed businesses and self‑employed traders dealing with second‑hand goods, works of art, antiques, collectors’ items, motor vehicles or new means of transport between Northern Ireland, Great Britain and the EU.",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Check whether the goods (second‑hand, art, antiques, collectors’ items) are eligible for the margin scheme before any transaction",
-     "Ensure purchase invoices from EU VAT‑registered suppliers contain a margin‑scheme indication or confirm with the supplier",
-     "Maintain normal VAT margin scheme records and issue margin‑scheme sales invoices for eligible sales",
-     "Exclude margin‑scheme transactions from EC Sales Lists and Intrastat and report them on the VAT return"
-    ],
-    "legislationRefs": [
-     "Articles 313, 326 or 333 of the EC VAT Directive 2006/112/EC",
-     "VAT Notice 718",
-     "VAT Notice 728"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-03T12:49:14.135Z"
-   }
-  },
-  {
    "id": "72b9b8fa06c7b481",
    "title": "Using a VAT margin scheme if you’re an agent",
    "url": "https://www.gov.uk/guidance/using-a-vat-margin-scheme-if-youre-an-agent",
@@ -4001,6 +4032,76 @@
    }
   },
   {
+   "id": "38aec13e8e52ca23",
+   "title": "Using the VAT margin scheme for linked insurance products and warranties",
+   "url": "https://www.gov.uk/guidance/using-the-vat-margin-scheme-for-linked-insurance-products-and-warranties",
+   "path": "/guidance/using-the-vat-margin-scheme-for-linked-insurance-products-and-warranties",
+   "date": "2026-11-02T09:00:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to account for VAT on linked insurance products and warranties.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T09:00:02+00:00",
+   "ai": {
+    "summary": "Guidance explains VAT treatment for linked insurance and warranties under the margin scheme, when charges are exempt or standard-rated, how to invoice, record stock values, and Insurance Premium Tax responsibilities.",
+    "whoAffected": "SME dealers and self‑employed traders using the VAT margin scheme for second‑hand goods who offer linked insurance products or warranties to customers.",
+    "effectiveDate": "2026-11-02",
+    "actions": [
+     "Check whether the insurance premium or warranty charge is disclosed to the customer; if disclosed it is VAT‑exempt, otherwise treat it as standard‑rated and account for VAT outside the margin scheme.",
+     "Ensure the selling price of the goods recorded in the stock book equals the invoice price and excludes any insurance or warranty charge when calculating the margin.",
+     "Record any separate insurance or warranty fees (including commissions) as standard‑rated supplies and account for VAT on those amounts outside the margin scheme.",
+     "Verify whether you need to register for and account for the higher rate of Insurance Premium Tax on any undisclosed charges and review partial exemption implications if exempt income is significant."
+    ],
+    "legislationRefs": [
+     "Insurance (VAT Notice 701/36)",
+     "Notice IPT1: Insurance Premium Tax",
+     "Partial exemption (VAT Notice 706)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-04T19:44:22.683Z"
+   }
+  },
+  {
+   "id": "2700630bd0b2727b",
+   "title": "Buying and selling goods in Northern Ireland using the VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/buying-and-selling-goods-in-northern-ireland-using-the-vat-margin-scheme",
+   "path": "/guidance/buying-and-selling-goods-in-northern-ireland-using-the-vat-margin-scheme",
+   "date": "2026-11-02T09:00:02Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "If you buy and sell goods between Northern Ireland and the EU or between Great Britain and Northern Ireland check how to use the VAT margin scheme (VAT Notice 718).",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance from withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been added.",
+   "firstPublished": "2021-12-23T00:00:00+00:00",
+   "ai": {
+    "summary": "Special VAT margin scheme rules apply when buying or selling second‑hand goods, works of art, antiques or collectors’ items between Northern Ireland, Great Britain and the EU. Motor vehicles from GB are excluded, and new transport is never eligible. Record‑keeping, invoicing and reporting requirements differ from standard supplies.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed traders dealing with second‑hand goods, works of art, antiques, collectors’ items, motor vehicles or new means of transport between Northern Ireland, Great Britain and the EU.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check whether the goods (second‑hand, art, antiques, collectors’ items) are eligible for the margin scheme before any transaction",
+     "Ensure purchase invoices from EU VAT‑registered suppliers contain a margin‑scheme indication or confirm with the supplier",
+     "Maintain normal VAT margin scheme records and issue margin‑scheme sales invoices for eligible sales",
+     "Exclude margin‑scheme transactions from EC Sales Lists and Intrastat and report them on the VAT return"
+    ],
+    "legislationRefs": [
+     "Articles 313, 326 or 333 of the EC VAT Directive 2006/112/EC",
+     "VAT Notice 718",
+     "VAT Notice 728"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T12:49:14.135Z"
+   }
+  },
+  {
    "id": "b3cc68e3b5dfebb4",
    "title": "Buying and selling goods at auction using the VAT margin scheme",
    "url": "https://www.gov.uk/guidance/buying-and-selling-goods-at-auction-using-the-vat-margin-scheme",
@@ -4029,6 +4130,42 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-02T13:32:34.256Z"
+   }
+  },
+  {
+   "id": "3c03c14e433dbffd",
+   "title": "Using the global accounting VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/using-the-global-accounting-vat-margin-scheme",
+   "path": "/guidance/using-the-global-accounting-vat-margin-scheme",
+   "date": "2026-11-02T09:00:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to account for VAT using the global accounting scheme.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance from withdrawn VAT notices, The Margin and Global Accounting Scheme (VAT Notice 718) and The Margin Scheme on second-hand cars and other vehicles (VAT Notice 718/1), has been added.",
+   "firstPublished": "2021-12-23T00:00:00+00:00",
+   "ai": {
+    "summary": "The global accounting scheme lets VAT‑registered traders account for VAT on the margin of bulk low‑value goods, calculating VAT on total purchases versus sales and keeping specific records, with rules on eligible items, invoicing and stock handling.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed traders who buy and sell low‑value goods in bulk or collections and wish to use the global accounting VAT margin scheme.",
+    "effectiveDate": "2026-11-02",
+    "actions": [
+     "Confirm goods are eligible and purchases are bulk (combined purchase price over £500)",
+     "Value stock on hand using purchase invoices or a fair method and keep separate records",
+     "Calculate the gross margin and apply 1/6 for standard rate or 1/21 for reduced rate VAT each tax period",
+     "Issue sales invoices without VAT shown, label them ‘global accounting invoice’, and retain all records for 6 years"
+    ],
+    "legislationRefs": [
+     "VAT Notice 718",
+     "VAT Notice 718/1",
+     "Notice 700",
+     "VAT Notice 700/62"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-07T11:44:44.079Z"
    }
   },
   {
@@ -4099,42 +4236,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-06T19:21:42.729Z"
-   }
-  },
-  {
-   "id": "3c03c14e433dbffd",
-   "title": "Using the global accounting VAT margin scheme",
-   "url": "https://www.gov.uk/guidance/using-the-global-accounting-vat-margin-scheme",
-   "path": "/guidance/using-the-global-accounting-vat-margin-scheme",
-   "date": "2026-11-02T09:00:01Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to account for VAT using the global accounting scheme.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "Guidance from withdrawn VAT notices, The Margin and Global Accounting Scheme (VAT Notice 718) and The Margin Scheme on second-hand cars and other vehicles (VAT Notice 718/1), has been added.",
-   "firstPublished": "2021-12-23T00:00:00+00:00",
-   "ai": {
-    "summary": "The global accounting scheme lets VAT‑registered traders account for VAT on the margin of bulk low‑value goods, calculating VAT on total purchases versus sales and keeping specific records, with rules on eligible items, invoicing and stock handling.",
-    "whoAffected": "SMEs, owner‑managed businesses and self‑employed traders who buy and sell low‑value goods in bulk or collections and wish to use the global accounting VAT margin scheme.",
-    "effectiveDate": "2026-11-02",
-    "actions": [
-     "Confirm goods are eligible and purchases are bulk (combined purchase price over £500)",
-     "Value stock on hand using purchase invoices or a fair method and keep separate records",
-     "Calculate the gross margin and apply 1/6 for standard rate or 1/21 for reduced rate VAT each tax period",
-     "Issue sales invoices without VAT shown, label them ‘global accounting invoice’, and retain all records for 6 years"
-    ],
-    "legislationRefs": [
-     "VAT Notice 718",
-     "VAT Notice 718/1",
-     "Notice 700",
-     "VAT Notice 700/62"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-07T11:44:44.079Z"
    }
   },
   {
@@ -9080,37 +9181,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-19T10:48:25.413Z"
-   }
-  },
-  {
-   "id": "f72c9615b09ace09",
-   "title": "Community Amateur Sports Clubs detailed guidance notes",
-   "url": "https://www.gov.uk/government/publications/community-amateur-sports-clubs-detailed-guidance-notes",
-   "path": "/government/publications/community-amateur-sports-clubs-detailed-guidance-notes",
-   "date": "2026-10-16T14:19:49Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out about how the Community Amateur Sports Club (CASC) scheme works and about reliefs you might be able to benefit from.\r\n",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "Section 3 updated to include information that CASCs are not eligible to participate in the Payroll Pension Scheme.",
-   "firstPublished": "2015-03-27T00:00:00+00:00",
-   "ai": {
-    "summary": "The Community Amateur Sports Club (CASC) scheme, introduced in April 2002, lets clubs register with HMRC to claim tax reliefs, but they cannot join the Payroll Pension Scheme.",
-    "whoAffected": "Community Amateur Sports Clubs",
-    "effectiveDate": "April 2002",
-    "actions": [
-     "Advise CASC clients to register with HMRC for the scheme",
-     "Identify and claim the tax reliefs available to CASCs",
-     "Inform clubs they are not eligible for the Payroll Pension Scheme",
-     "Monitor updates to the CASC guidance for any changes"
-    ],
-    "legislationRefs": [],
-    "relevance": "medium",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-16T16:36:19.831Z"
    }
   },
   {
@@ -18829,20 +18899,6 @@
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-20T10:06:39.657Z"
    }
-  },
-  {
-   "id": "26ff2842e1b1414b",
-   "title": "The Finance Act 2021 (Increase in Schedule 26 Penalty Percentages) Regulations 2025",
-   "url": "https://www.legislation.gov.uk/id/uksi/2025/589",
-   "date": "2025-05-15T15:15:33.149Z",
-   "type": "legislation",
-   "source": "legislation.gov.uk",
-   "description": "These Regulations increase the penalties for late payment of tax in Schedule 26 to the Finance Act 2021 (“Schedule 26”).",
-   "categories": [
-    "legislation",
-    "compliance",
-    "budget"
-   ]
   }
  ]
 }
