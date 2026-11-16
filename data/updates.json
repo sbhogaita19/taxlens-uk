@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-16T13:41:17.108Z",
+ "generatedAt": "2026-11-16T21:58:37.134Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,71 @@
    "label": "Other"
   }
  ],
- "count": 610,
+ "count": 611,
  "items": [
+  {
+   "id": "83ee3112cd75a8e6",
+   "title": "Pay handling fees for distance sales to Northern Ireland ‘at risk’ of entering the EU",
+   "url": "https://www.gov.uk/guidance/pay-handling-fees-for-distance-sales-to-northern-ireland-at-risk-of-entering-the-eu",
+   "path": "/guidance/pay-handling-fees-for-distance-sales-to-northern-ireland-at-risk-of-entering-the-eu",
+   "date": "2026-11-16T14:56:37Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay handling fees for distance sales moving into Northern Ireland that are ‘at risk’ of entering the EU, and how long it takes for your payment to reach HMRC. ",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about paying HMRC in pounds sterling (GBP) when paying from an overseas account has been updated.",
+   "firstPublished": "2026-11-01T06:00:00+00:00",
+   "ai": {
+    "summary": "To pay handling fees for distance sales to Northern Ireland at risk of entering the EU, submit the return by the 13th of the following month, then pay the exact amount by the 16th using the 14‑character reference (X…), via bank transfer (CHAPS/Faster Payments or BACS) or cheque, in GBP.",
+    "whoAffected": "Businesses making distance sales to Northern Ireland that are ‘at risk’ of entering the EU and need to pay handling fees",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Submit the completed return form to HMRC by the 13th of the calendar month after each reporting period",
+     "Use the 14‑character reference number (starting with X) from HMRC’s email when making the payment",
+     "Pay the exact amount by the 16th of the calendar month using a bank transfer (CHAPS/Faster Payments for same/next day or BACS allowing 3 days) or a cheque, ensuring payment is in GBP",
+     "If paying from overseas, use the provided IBAN and BIC details and verify your bank’s processing times"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-16T21:58:21.286Z"
+   }
+  },
+  {
+   "id": "8d93793acb947774",
+   "title": "Migrating your pension scheme to the Managing Pension Schemes service",
+   "url": "https://www.gov.uk/guidance/migrating-your-pension-scheme-to-the-managing-pension-schemes-service",
+   "path": "/guidance/migrating-your-pension-scheme-to-the-managing-pension-schemes-service",
+   "date": "2026-11-16T14:25:24Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to migrate from the Pension Schemes Online service to the Managing Pensions Schemes service and manage and view your pension schemes.",
+   "categories": [
+    "personal",
+    "pensions"
+   ],
+   "hasBody": true,
+   "changeNote": "Section ‘What happens next’ has been updated with information about filing a Pension Scheme Return.",
+   "firstPublished": "2021-11-18T09:25:00+00:00",
+   "ai": {
+    "summary": "Guidance explains how pension scheme administrators move from the Pension Schemes Online service to the new Managing Pension Schemes service, covering enrolment, ID mapping, viewing and migrating schemes, and keeping details up‑to‑date.",
+    "whoAffected": "Pension scheme administrators (including those for SMEs, owner‑managed businesses and the self‑employed) who currently use the Pension Schemes Online service",
+    "effectiveDate": "2026-11-16T14:25:24Z",
+    "actions": [
+     "Check whether you have a single or multiple scheme administrator IDs and identify a ‘master’ ID if needed",
+     "Enrol on the Managing Pension Schemes service using your existing ID and provide required registration details",
+     "Map any ancillary IDs by emailing migration.mps@hmrc.gov.uk as instructed",
+     "After migration, update administrator and scheme details on both the old and new services and add team members via your business tax account"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-16T21:58:24.430Z"
+   }
+  },
   {
    "id": "f72c9615b09ace09",
    "title": "Community Amateur Sports Clubs detailed guidance notes",
@@ -246,7 +309,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-16T07:52:09+00:00"
+   "firstPublished": "2026-11-16T07:52:09+00:00",
+   "ai": {
+    "summary": "If an EMI notification contains an error, you must amend it depending on when the option was granted and when the mistake is found, following specific deadlines and procedures.",
+    "whoAffected": "Companies with EMI schemes and their employees",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check if the mistake is minor; keep a record of affected employees and grant dates.",
+     "If within the notification deadline, submit a corrected notification and report the original option as cancelled in the next EMI annual return.",
+     "If the deadline has passed but it is within 9 months, email HMRC with a reasonable excuse, obtain a code and submit the corrected notification via the ERS service, then cancel the original option in the next return.",
+     "If more than 9 months have passed, inform HMRC of the mistake; they will assess materiality and tax‑advantaged status."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-16T21:58:27.515Z"
+   }
   },
   {
    "id": "178b39fa213b9cf9",
@@ -263,7 +341,25 @@
    ],
    "hasBody": true,
    "changeNote": "The section on 'Submitting a pension scheme return' has been updated to include information on how to complete returns.",
-   "firstPublished": "2014-09-16T00:00:00+01:00"
+   "firstPublished": "2014-09-16T00:00:00+01:00",
+   "ai": {
+    "summary": "Scheme administrators must submit pension scheme returns, Accounting for Tax returns and event reports to HMRC, using the Managing pension schemes service from the 2024‑25 tax year (or from 2020 quarters for AFT). Missed deadlines incur penalties and amendments must be filed promptly.",
+    "whoAffected": "Pension scheme administrators (including occupational, non‑occupational and SIPP schemes) of SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "2026-11-16",
+    "actions": [
+     "Confirm the administrator is aware they remain responsible even if tasks are delegated",
+     "Use the Managing pension schemes service for returns and event reports from the applicable tax years",
+     "Track notice‑stated deadlines and submit returns to avoid £100 and daily penalties",
+     "Set up a procedure to amend any return or event report as soon as an error is identified"
+    ],
+    "legislationRefs": [
+     "form SA970 Tax Return for Trustees of Registered Pension Schemes",
+     "Public Service Pensions Remedy"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-16T21:58:31.042Z"
+   }
   },
   {
    "id": "2788d808021611c3",
@@ -3687,37 +3783,6 @@
    }
   },
   {
-   "id": "bf545f4be5316ff1",
-   "title": "Using the VAT margin scheme for repossessed goods and goods subject to insurance claims",
-   "url": "https://www.gov.uk/guidance/using-the-vat-margin-scheme-for-repossessed-goods-and-goods-subject-to-insurance-claims",
-   "path": "/guidance/using-the-vat-margin-scheme-for-repossessed-goods-and-goods-subject-to-insurance-claims",
-   "date": "2026-11-02T09:00:03Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to account for VAT using the VAT margin scheme for repossessed goods and goods subject to insurance claims.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-11-02T09:00:03+00:00",
-   "ai": {
-    "summary": "Guidance on using the VAT margin scheme for repossessed or insurance‑claim goods, outlining when banks, finance firms and others can avoid VAT and how to calculate and record the margin.",
-    "whoAffected": "Banks, financial institutions, finance companies and other businesses that buy and sell repossessed or insurance‑claim second‑hand goods under the VAT margin scheme",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Confirm the goods were bought from a person who would not have charged VAT (e.g., a private individual)",
-     "Check the goods are sold in the same condition (or, for finance companies, that any improvements qualify) and meet margin‑scheme eligibility",
-     "Calculate the margin and VAT due using the normal margin‑scheme calculation",
-     "Keep the normal VAT margin‑scheme records and report the transactions on the VAT return"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-02T13:32:15.620Z"
-   }
-  },
-  {
    "id": "8142319e50cfe0fd",
    "title": "Recording VAT margin scheme transactions",
    "url": "https://www.gov.uk/guidance/recording-vat-margin-scheme-transactions",
@@ -3787,6 +3852,37 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-03T19:29:15.231Z"
+   }
+  },
+  {
+   "id": "bf545f4be5316ff1",
+   "title": "Using the VAT margin scheme for repossessed goods and goods subject to insurance claims",
+   "url": "https://www.gov.uk/guidance/using-the-vat-margin-scheme-for-repossessed-goods-and-goods-subject-to-insurance-claims",
+   "path": "/guidance/using-the-vat-margin-scheme-for-repossessed-goods-and-goods-subject-to-insurance-claims",
+   "date": "2026-11-02T09:00:03Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to account for VAT using the VAT margin scheme for repossessed goods and goods subject to insurance claims.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T09:00:03+00:00",
+   "ai": {
+    "summary": "Guidance on using the VAT margin scheme for repossessed or insurance‑claim goods, outlining when banks, finance firms and others can avoid VAT and how to calculate and record the margin.",
+    "whoAffected": "Banks, financial institutions, finance companies and other businesses that buy and sell repossessed or insurance‑claim second‑hand goods under the VAT margin scheme",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the goods were bought from a person who would not have charged VAT (e.g., a private individual)",
+     "Check the goods are sold in the same condition (or, for finance companies, that any improvements qualify) and meet margin‑scheme eligibility",
+     "Calculate the margin and VAT due using the normal margin‑scheme calculation",
+     "Keep the normal VAT margin‑scheme records and report the transactions on the VAT return"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-02T13:32:15.620Z"
    }
   },
   {
@@ -4381,37 +4477,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-01T11:51:13.240Z"
-   }
-  },
-  {
-   "id": "83ee3112cd75a8e6",
-   "title": "Pay handling fees for distance sales to Northern Ireland ‘at risk’ of entering the EU",
-   "url": "https://www.gov.uk/guidance/pay-handling-fees-for-distance-sales-to-northern-ireland-at-risk-of-entering-the-eu",
-   "path": "/guidance/pay-handling-fees-for-distance-sales-to-northern-ireland-at-risk-of-entering-the-eu",
-   "date": "2026-11-01T06:00:05Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to pay handling fees for distance sales moving into Northern Ireland that are ‘at risk’ of entering the EU, and how long it takes for your payment to reach HMRC. ",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-11-01T06:00:05+00:00",
-   "ai": {
-    "summary": "Submit the return by the 13th of the month after each period, then pay the exact handling fee by the 16th using the 14‑character reference from HMRC, choosing a payment method that meets the timing rules and using the correct UK or overseas account details in pounds sterling.",
-    "whoAffected": "Businesses making distance sales to Northern Ireland that are ‘at risk’ of entering the EU, including SMEs, owner‑managed businesses and the self‑employed",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Submit the completed return form to HMRC by the 13th of the calendar month after each reporting period",
-     "Use the 14‑character reference number from HMRC’s email when making the payment",
-     "Pay the exact amount by the 16th of the month, using CHAPS/Faster Payments for same‑day receipt or Bacs (allow 3 working days) and the correct UK or overseas account details in GBP",
-     "If paying by cheque, ensure it reaches HMRC before the deadline, is payable to ‘HM Revenue and Customs only’, includes the reference on the back, and is sent to the address provided"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-01T11:51:16.380Z"
    }
   },
   {
