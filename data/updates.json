@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-17T14:26:40.011Z",
+ "generatedAt": "2026-11-17T20:52:08.736Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,143 @@
    "label": "Other"
   }
  ],
- "count": 612,
+ "count": 614,
  "items": [
+  {
+   "id": "79c8c8914a82f5d5",
+   "title": "Updates to definitions in the Bank Levy legislation",
+   "url": "https://www.gov.uk/government/publications/updates-to-definitions-in-the-bank-levy-legislation",
+   "path": "/government/publications/updates-to-definitions-in-the-bank-levy-legislation",
+   "date": "2026-11-17T16:12:23Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about technical amendments to the Bank Levy legislation.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-17T16:12:23+00:00",
+   "ai": {
+    "summary": "The measure revises definitions in the Bank Levy legislation to match regulatory definitions, applying to chargeable periods starting on or after 1 January 2027.",
+    "whoAffected": "Businesses subject to the Bank Levy (i.e., banks)",
+    "effectiveDate": "Chargeable periods beginning on or after 1 January 2027",
+    "actions": [
+     "Check client Bank Levy calculations for periods from 1 Jan 2027 onward",
+     "Confirm the definitions used align with the updated legislative wording",
+     "Update client advice and documentation to reflect the new definitions",
+     "Monitor any further regulatory guidance on the Bank Levy"
+    ],
+    "legislationRefs": [
+     "Bank Levy legislation"
+    ],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-17T20:51:48.457Z"
+   }
+  },
+  {
+   "id": "aad658853cb92122",
+   "title": "Individual Savings Accounts (ISAs) compliance package",
+   "url": "https://www.gov.uk/government/publications/individual-savings-accounts-isas-compliance-package",
+   "path": "/government/publications/individual-savings-accounts-isas-compliance-package",
+   "date": "2026-11-17T16:06:30Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "The measure introduces a modern, fair and effective Individual Savings Account (ISA) compliance framework that supports digital reporting and makes sure the ISA system operates as intended.",
+   "categories": [
+    "personal",
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about the suspension of ISA manager approval taking effect from April 2027 has been removed.",
+   "firstPublished": "2026-07-13T13:12:00+01:00",
+   "ai": {
+    "summary": "The measure creates a clearer, digital‑focused compliance framework for ISA providers, requiring monthly and annual returns, applying a points‑based penalty regime and allowing HMRC to suspend managers and levy penalties for inaccurate returns.",
+    "whoAffected": "ISA managers and providers of Individual Savings Accounts",
+    "effectiveDate": "April 2028",
+    "actions": [
+     "Set up digital processes to file monthly and annual ISA returns for any ISA‑manager clients",
+     "Review client compliance procedures against the points‑based penalty regime",
+     "Monitor HMRC updates for any new sanctions or suspension powers",
+     "Advise clients on the need for accurate reporting to avoid penalties"
+    ],
+    "legislationRefs": [
+     "ISA regulations"
+    ],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-17T20:51:51.564Z"
+   }
+  },
+  {
+   "id": "9897155374528922",
+   "title": "HMRC email updates, videos and webinars for tax agents and advisers",
+   "url": "https://www.gov.uk/guidance/help-and-support-for-agents",
+   "path": "/guidance/help-and-support-for-agents",
+   "date": "2026-11-17T15:54:22Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Learn more about the support available to tax agents and advisers which will help you and your clients.",
+   "categories": [
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Recorded webinars have been added for ‘general Carbon Border Adjustment Mechanism (CBAM) overview’, ‘Carbon Border Adjustment (CBAM) — Monitoring, Reporting and Verification (MRV) overview’ and ‘Carbon Border Adjustment (CBAM) — Carbon Price Relief (CPR)’. Recorded webinars have been updated for ‘The merged scheme for R&D expenditure credit (RDEC)’ and ‘Compliance Professional Standards’. The YouTube video has been removed for ‘Get help with basis period reform (moving to the new tax year basis)’.",
+   "firstPublished": "2017-11-30T00:00:00+00:00",
+   "ai": {
+    "summary": "HMRC offers email updates and a range of live and recorded webinars for tax agents on topics like Making Tax Digital for Income Tax, CBAM, Pillar 2, MFA and various reliefs, helping agents support SME, owner‑managed and self‑employed clients.",
+    "whoAffected": "Tax agents and advisers, and the SME, owner‑managed and self‑employed clients they serve",
+    "effectiveDate": "6 April 2026 (first MTD income‑tax threshold)",
+    "actions": [
+     "Subscribe to the HMRC help‑and‑support email service",
+     "Register for and attend relevant live or recorded webinars (e.g., MTD ASA, MFA, CBAM)",
+     "Check client income against the MTD thresholds of 6 April 2026, 2027 and 2028",
+     "Prepare the agent services account and enable multi‑factor authentication"
+    ],
+    "legislationRefs": [
+     "Making Tax Digital for Income Tax",
+     "Carbon Border Adjustment Mechanism (CBAM)",
+     "OECD Pillar 2",
+     "Theatre Tax Relief",
+     "Guidelines for Compliance 13"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-17T20:51:54.814Z"
+   }
+  },
+  {
+   "id": "6506dd451f5f023c",
+   "title": "Payroll Giving agencies approved by HMRC",
+   "url": "https://www.gov.uk/government/publications/payroll-giving-approved-agencies",
+   "path": "/government/publications/payroll-giving-approved-agencies",
+   "date": "2026-11-17T14:45:52Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find a list of organisations approved and monitored by HMRC for Payroll Giving purposes.",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "The approved agencies list for Payroll Giving has been updated with 2 amendments.",
+   "firstPublished": "2014-12-05T00:00:00+00:00",
+   "ai": {
+    "summary": "The HMRC‑approved Payroll Giving list only shows agencies that opt in; it may omit others, some of which limit services to certain employers. Unlisted agencies can provide an HMRC approval letter if needed.",
+    "whoAffected": "Employers who wish to set up Payroll Giving for their staff",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Use the HMRC‑approved list to recommend suitable Payroll Giving agencies to clients",
+     "Check whether a chosen agency restricts services to particular employers before recommending",
+     "If a preferred agency is not on the list, ask the agency for an HMRC approval letter for the client",
+     "Direct clients to HMRC’s further information on Payroll Giving"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-17T20:51:58.268Z"
+   }
+  },
   {
    "id": "3fd5d9da5a8343da",
    "title": "Self Assessment commercial software suppliers",
@@ -1664,7 +1799,31 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-12T09:30:00+00:00"
+   "firstPublished": "2026-11-12T09:30:00+00:00",
+   "ai": {
+    "summary": "Guidance outlines steps for GB businesses to export cell‑cultivated products of animal origin to non‑EU markets, classifying them as POAO, requiring registration, market‑access checks, SPS compliance and case‑by‑case approval, with no standard export certificates yet.",
+    "whoAffected": "SMEs, owner‑managed firms and self‑employed producers/exporters of cell‑cultivated animal‑origin products in Great Britain (England, Scotland, Wales)",
+    "effectiveDate": "2026‑11‑12",
+    "actions": [
+     "Check destination country eligibility and secure market access, contacting APHA if needed",
+     "Register the GB production establishment with the local authority and confirm any extra approvals",
+     "Verify product meets destination SPS, import and certification requirements, including official controls",
+     "Submit export queries and maintain communication with destination competent authorities"
+    ],
+    "legislationRefs": [
+     "Regulation (EU) 2015/2283 - Novel Foods",
+     "Regulation (EC) 853/2004 - Hygiene of Foodstuffs of Animal Origin",
+     "Regulation (EC) 852/2004 - General Hygiene of Foodstuffs",
+     "Regulation (EC) 178/2002 - General Food Law",
+     "Regulation (EU) 2017/625 - Official Controls",
+     "Trade in Animals and Related Products (“TARP”) Regulations 2011 (SI No.1197/2011)",
+     "Trade in Animals and Related Products (Scotland) Regulations 2012 (SSI 2012 No.177)",
+     "Trade in Animals and Related Products (Wales) Regulations 2011 (SI No. 2011/2379)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-17T20:52:01.737Z"
+   }
   },
   {
    "id": "90a5852029284069",
@@ -4405,43 +4564,6 @@
    }
   },
   {
-   "id": "1d626e7926601043",
-   "title": "Using the auctioneers' VAT margin scheme",
-   "url": "https://www.gov.uk/guidance/using-the-auctioneers-vat-margin-scheme",
-   "path": "/guidance/using-the-auctioneers-vat-margin-scheme",
-   "date": "2026-11-02T09:00:01Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to account for VAT using the auctioneers’ scheme.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "Guidance from the withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been incorporated into this guidance.",
-   "firstPublished": "2021-12-23T13:28:00+00:00",
-   "ai": {
-    "summary": "The auctioneers’ VAT margin scheme lets auctioneers account VAT only on their services, not the hammer price, provided they act in their own name, keep required records, and meet conditions for goods. Separate invoices are required and specific rules apply to new goods, art, antiques and mixed schemes.",
-    "whoAffected": "Auctioneers acting in their own name (including small auction houses), sellers of non‑taxable goods, and buyers who are VAT‑registered dealers",
-    "effectiveDate": "2026-11-02",
-    "actions": [
-     "Confirm the client is acting as an undisclosed agent (in their own name)",
-     "Implement the scheme’s record‑keeping rules – maintain a stock book or equivalent records showing hammer prices",
-     "Obtain a signed certificate from non‑taxable sellers when selling new goods on their behalf",
-     "Issue separate buyer and seller invoices without showing VAT and calculate margin using hammer price less commission"
-    ],
-    "legislationRefs": [
-     "VAT Notice 700",
-     "VAT Notice 48: Extra Statutory Concessions",
-     "VAT Notice 718",
-     "VAT Tertiary Legislation section 2.6",
-     "VAT Tertiary Legislation section 4.1"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-06T19:21:42.729Z"
-   }
-  },
-  {
    "id": "ced372f13fe717b2",
    "title": "Buying and selling second-hand motor vehicles using the VAT margin scheme",
    "url": "https://www.gov.uk/guidance/buying-and-selling-second-hand-motor-vehicles-using-the-vat-margin-scheme",
@@ -4480,6 +4602,43 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-05T19:55:24.877Z"
+   }
+  },
+  {
+   "id": "1d626e7926601043",
+   "title": "Using the auctioneers' VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/using-the-auctioneers-vat-margin-scheme",
+   "path": "/guidance/using-the-auctioneers-vat-margin-scheme",
+   "date": "2026-11-02T09:00:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to account for VAT using the auctioneers’ scheme.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance from the withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been incorporated into this guidance.",
+   "firstPublished": "2021-12-23T13:28:00+00:00",
+   "ai": {
+    "summary": "The auctioneers’ VAT margin scheme lets auctioneers account VAT only on their services, not the hammer price, provided they act in their own name, keep required records, and meet conditions for goods. Separate invoices are required and specific rules apply to new goods, art, antiques and mixed schemes.",
+    "whoAffected": "Auctioneers acting in their own name (including small auction houses), sellers of non‑taxable goods, and buyers who are VAT‑registered dealers",
+    "effectiveDate": "2026-11-02",
+    "actions": [
+     "Confirm the client is acting as an undisclosed agent (in their own name)",
+     "Implement the scheme’s record‑keeping rules – maintain a stock book or equivalent records showing hammer prices",
+     "Obtain a signed certificate from non‑taxable sellers when selling new goods on their behalf",
+     "Issue separate buyer and seller invoices without showing VAT and calculate margin using hammer price less commission"
+    ],
+    "legislationRefs": [
+     "VAT Notice 700",
+     "VAT Notice 48: Extra Statutory Concessions",
+     "VAT Notice 718",
+     "VAT Tertiary Legislation section 2.6",
+     "VAT Tertiary Legislation section 4.1"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-06T19:21:42.729Z"
    }
   },
   {
@@ -4746,44 +4905,6 @@
     "relevance": "low",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-29T18:27:39.503Z"
-   }
-  },
-  {
-   "id": "9897155374528922",
-   "title": "HMRC email updates, videos and webinars for tax agents and advisers",
-   "url": "https://www.gov.uk/guidance/help-and-support-for-agents",
-   "path": "/guidance/help-and-support-for-agents",
-   "date": "2026-10-29T15:35:01Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Learn more about the support available to tax agents and advisers which will help you and your clients.",
-   "categories": [
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Recorded webinars for 'Carbon Border Adjustment Mechanism (CBAM) overview' and 'VAT on private school fees' have been added. Recorded webinar links for 'Tackling criminal activity within the waste industry' and 'Labour supply chains featuring umbrella companies' have been updated. The live webinar for 'How to pay Vaping Products Duty and use the Vaping Duty Stamps scheme' has been replaced with a recorded webinar. The recorded webinar for 'The reduced rate of VAT during the children's summer holidays 2026' has been removed.",
-   "firstPublished": "2017-11-30T00:00:00+00:00",
-   "ai": {
-    "summary": "HMRC provides email updates and a range of live and recorded webinars covering Making Tax Digital for Income Tax, Carbon Border Adjustment Mechanism, multi‑factor authentication, OECD Pillar 2, Theatre Tax Relief, capital allowances and compliance standards, helping agents advise SME, owner‑managed and self‑employed clients.",
-    "whoAffected": "Tax agents and advisers and the SME, owner‑managed and self‑employed clients they support",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Subscribe to the HMRC help and support email service",
-     "Register for live webinars relevant to client needs",
-     "Watch recorded webinars to stay current on MDIT, CBAM, Pillar 2 and other topics",
-     "Use the guidance to prepare client authorisations and compliance processes"
-    ],
-    "legislationRefs": [
-     "Making Tax Digital for Income Tax",
-     "Carbon Border Adjustment Mechanism (CBAM)",
-     "OECD Pillar 2",
-     "Theatre Tax Relief",
-     "Capital allowances — full expensing and 50% first year allowances",
-     "Guidelines for Compliance 13"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-29T18:27:42.537Z"
    }
   },
   {
@@ -6022,40 +6143,6 @@
     "relevance": "medium",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-30T18:04:30.506Z"
-   }
-  },
-  {
-   "id": "aad658853cb92122",
-   "title": "Individual Savings Accounts (ISAs) compliance package",
-   "url": "https://www.gov.uk/government/publications/individual-savings-accounts-isas-compliance-package",
-   "path": "/government/publications/individual-savings-accounts-isas-compliance-package",
-   "date": "2026-10-28T17:36:05Z",
-   "type": "policy_paper",
-   "source": "HMRC (GOV.UK)",
-   "description": "The measure introduces a modern, fair and effective Individual Savings Account (ISA) compliance framework that supports digital reporting and makes sure the ISA system operates as intended.",
-   "categories": [
-    "personal",
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "Information about the Exchequer impact has been updated. ",
-   "firstPublished": "2026-07-13T13:12:00+01:00",
-   "ai": {
-    "summary": "A new ISA compliance framework requires managers to submit digital monthly and annual returns, introduces a points‑based penalty regime, allows HMRC to suspend managers, and lets HMRC collect tax and penalties for compliance failures.",
-    "whoAffected": "ISA managers and providers (including any SME or self‑employed clients that operate ISA schemes)",
-    "effectiveDate": "April 2028 (suspension powers from April 2027)",
-    "actions": [
-     "Check that ISA‑manager clients have systems to file monthly and annual returns digitally",
-     "Implement checks to improve accuracy of returns to avoid points‑based penalties",
-     "Inform clients of the new suspension powers and prepare contingency plans",
-     "Advise clients on the updated ISA regulations and potential tax‑penalty calculations"
-    ],
-    "legislationRefs": [
-     "ISA regulations"
-    ],
-    "relevance": "medium",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-28T18:22:05.069Z"
    }
   },
   {
@@ -8037,37 +8124,6 @@
    }
   },
   {
-   "id": "3ba502b446f004ad",
-   "title": "Modernising taxation of foreign sovereign investments",
-   "url": "https://www.gov.uk/government/consultations/modernising-taxation-of-foreign-sovereign-investments",
-   "path": "/government/consultations/modernising-taxation-of-foreign-sovereign-investments",
-   "date": "2026-10-28T13:32:40Z",
-   "type": "open_consultation",
-   "source": "HM Treasury (GOV.UK)",
-   "description": "A consultation on the modernisation of the current sovereign immunity from direct tax regime by introducing “sovereign tax status”.",
-   "categories": [
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:32:40+00:00",
-   "ai": {
-    "summary": "From 1 January 2029 the UK will replace the non‑codified sovereign immunity regime with a statutory sovereign tax status, taxing foreign sovereigns on UK real estate income and gains at a 15% rate, while exempting investment‑management activities and overseas pension fund gains.",
-    "whoAffected": "Foreign sovereigns, sovereign investment offices, State‑operated Overseas Pension Funds, and any UK advisers or clients with exposure to UK real estate owned by foreign sovereigns",
-    "effectiveDate": "1 January 2029",
-    "actions": [
-     "Identify clients with UK real estate income or gains linked to foreign sovereigns",
-     "Determine if the 15% rate under the REIT regime applies to their holdings",
-     "Confirm that investment‑management activities and overseas pension fund gains remain exempt",
-     "Submit any client‑relevant comments by 20 January 2027"
-    ],
-    "legislationRefs": [],
-    "relevance": "low",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-08T11:57:51.121Z"
-   }
-  },
-  {
    "id": "231fb61e6da27ff1",
    "title": "High Value Council Tax Surcharge",
    "url": "https://www.gov.uk/government/consultations/high-value-council-tax-surcharge",
@@ -8096,6 +8152,37 @@
     "relevance": "low",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-05T19:55:54.274Z"
+   }
+  },
+  {
+   "id": "3ba502b446f004ad",
+   "title": "Modernising taxation of foreign sovereign investments",
+   "url": "https://www.gov.uk/government/consultations/modernising-taxation-of-foreign-sovereign-investments",
+   "path": "/government/consultations/modernising-taxation-of-foreign-sovereign-investments",
+   "date": "2026-10-28T13:32:00Z",
+   "type": "open_consultation",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "A consultation on the modernisation of the current sovereign immunity from direct tax regime by introducing “sovereign tax status”.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:32:40+00:00",
+   "ai": {
+    "summary": "From 1 January 2029 the UK will replace its non‑codified sovereign immunity from direct tax with a statutory ‘sovereign tax status’. Foreign sovereigns will be taxed on UK real estate income and gains, with a 15% rate and a bespoke REIT access, while investment‑management activities and overseas pension fund gains remain exempt.",
+    "whoAffected": "Foreign sovereigns, sovereign investment offices, State‑operated Overseas Pension Funds, and any UK advisers or clients with exposure to UK real estate owned by foreign sovereigns",
+    "effectiveDate": "1 January 2029",
+    "actions": [
+     "Monitor client holdings for UK real estate owned by foreign sovereigns",
+     "Advise on the 15% UK tax charge on such real estate income and gains from 2029",
+     "Assess eligibility for the bespoke REIT regime and advise on structuring",
+     "Prepare and submit comments by 20 January 2027 if clients are affected"
+    ],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-17T20:52:07.235Z"
    }
   },
   {
