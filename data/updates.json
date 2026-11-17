@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-16T21:58:37.134Z",
+ "generatedAt": "2026-11-17T14:26:40.011Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,158 @@
    "label": "Other"
   }
  ],
- "count": 611,
+ "count": 612,
  "items": [
+  {
+   "id": "3fd5d9da5a8343da",
+   "title": "Self Assessment commercial software suppliers",
+   "url": "https://www.gov.uk/government/publications/self-assessment-commercial-software-suppliers",
+   "path": "/government/publications/self-assessment-commercial-software-suppliers",
+   "date": "2026-11-17T13:05:13Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find software suppliers for tax returns, supplementary pages and attachments.",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "The list of Self Assessment commercial software suppliers has been updated with 2 additions.",
+   "firstPublished": "2014-01-01T00:00:00+00:00",
+   "ai": {
+    "summary": "Use the listed commercial software to file Self Assessment returns and attachments. Some tools can pull HMRC data for agents or individuals. Access requires a GOV.UK One Login with a unique ID and password. Developers can obtain technical support.",
+    "whoAffected": "Agents filing client returns, individuals filing their own returns, and Self Assessment software developers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check that your software is on the approved list and includes the HMRC data feature",
+     "Create a GOV.UK One Login and set up a unique user ID and password for submissions",
+     "Confirm the software can submit returns, supplementary pages and attachments",
+     "Contact the software supplier for technical support if you are a developer"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-17T14:26:20.081Z"
+   }
+  },
+  {
+   "id": "a8dec2115bc4f778",
+   "title": "Trade and commercial contacts for Community System Providers",
+   "url": "https://www.gov.uk/government/publications/chief-trade-and-commercial-contacts-for-community-service-providers",
+   "path": "/government/publications/chief-trade-and-commercial-contacts-for-community-service-providers",
+   "date": "2026-11-17T13:04:43Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find trade and commercial contacts for Community System Providers (CSPs).",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Contact details for one provider have been updated.",
+   "firstPublished": "2014-05-14T00:00:00+01:00",
+   "ai": {
+    "summary": "The publication provides a document listing trade and commercial contact details for Community System Providers (CSPs).",
+    "whoAffected": "Community System Providers (CSPs)",
+    "effectiveDate": "Not stated in source",
+    "actions": [],
+    "legislationRefs": [],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-17T14:26:22.750Z"
+   }
+  },
+  {
+   "id": "b62644ad304669e8",
+   "title": "Apply for an agent services account",
+   "url": "https://www.gov.uk/guidance/apply-for-an-agent-services-account",
+   "path": "/guidance/apply-for-an-agent-services-account",
+   "date": "2026-11-17T12:06:33Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Apply for an agent services account (ASA) to register with HMRC as a tax adviser and use certain HMRC services.",
+   "categories": [
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "The timeframe for completing an application has been added to the section ‘Apply for an agent services account’. The ‘What you can do now’ section has been updated to advise that agents must provide their Agents Reference Number (ARN) when contacting HMRC.",
+   "firstPublished": "2018-03-15T00:00:00+00:00",
+   "ai": {
+    "summary": "Tax advisers handling others' tax affairs must register for an Agent Services Account, providing Gateway IDs, UTR, AML supervision proof and other details, complete the application within 72 days, and use the ARN when dealing with HMRC.",
+    "whoAffected": "Anyone who deals with HMRC about someone else’s tax affairs and gets paid for it, including sole traders, partnerships and firms acting as tax advisers.",
+    "effectiveDate": "2026-11-17T12:06:33Z",
+    "actions": [
+     "Gather required information (business and personal Government Gateway IDs, UTR, postcode, company/VAT numbers, AML supervisory body name and proof, staff details).",
+     "Confirm approved anti‑money‑laundering supervision is in place before applying.",
+     "Sign in with the business Gateway ID and complete the application within 72 days, then submit.",
+     "After approval, use your ARN when contacting HMRC and set up individual staff Gateway IDs with appropriate permissions."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-17T14:26:25.843Z"
+   }
+  },
+  {
+   "id": "0340daa9eb2e019b",
+   "title": "Check if and when you need to register as a tax adviser with HMRC",
+   "url": "https://www.gov.uk/guidance/check-if-and-when-you-need-to-register-as-a-tax-adviser-with-hmrc",
+   "path": "/guidance/check-if-and-when-you-need-to-register-as-a-tax-adviser-with-hmrc",
+   "date": "2026-11-17T11:14:53Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Check if and when you need to register for an agent services account to interact with HMRC on behalf of your clients as a tax adviser.",
+   "categories": [
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "The dates HMRC may contact you have been updated in the section ‘Changes to registration’.",
+   "firstPublished": "2026-02-17T09:15:00+00:00",
+   "ai": {
+    "summary": "If you charge for dealing with HMRC on clients' tax affairs, you must register for an agent services account. Registration is now required, with staged start dates of 18 Aug 2026, 18 Nov 2026 or 31 Dec 2026 depending on your activities. Overseas advisers also need to register when their window opens.",
+    "whoAffected": "Tax advisers who interact with HMRC for clients and receive payment – including sole traders, limited companies, overseas firms and those providing payroll, financial services or other paid tax services for SMEs, owner‑managed businesses and the self‑employed.",
+    "effectiveDate": "Now, with staged dates from 18 August 2026, 18 November 2026 and 31 December 2026",
+    "actions": [
+     "Use the online tool to confirm whether registration is required",
+     "If required, register via the new online agent services account within the 3‑month window when it opens",
+     "Locate and keep your ARN ready for any HMRC contact on behalf of clients",
+     "Maintain records to satisfy HMRC identity and client authorisation checks"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-17T14:26:29.116Z"
+   }
+  },
+  {
+   "id": "cc0531caf3f567b9",
+   "title": "Check if a business holds Authorised Economic Operator status",
+   "url": "https://www.gov.uk/government/publications/check-if-a-business-holds-authorised-economic-operator-status",
+   "path": "/government/publications/check-if-a-business-holds-authorised-economic-operator-status",
+   "date": "2026-11-17T09:26:50Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use this list to see if a business holds Authorised Economic Operator status with HMRC.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The list of approved Authorised Economic Operator businesses has been updated.",
+   "firstPublished": "2021-02-05T00:00:00+00:00",
+   "ai": {
+    "summary": "The list shows which businesses have Authorised Economic Operator status, confirming they meet HMRC customs security standards.",
+    "whoAffected": "Businesses that need to verify whether they hold Authorised Economic Operator status",
+    "effectiveDate": "2026-11-17",
+    "actions": [
+     "Open the HMRC Authorised Economic Operator list",
+     "Search the business name alphabetically",
+     "Check if the business appears on the list",
+     "Inform the client of the status result"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-17T14:26:32.286Z"
+   }
+  },
   {
    "id": "83ee3112cd75a8e6",
    "title": "Pay handling fees for distance sales to Northern Ireland ‘at risk’ of entering the EU",
@@ -1028,34 +1178,6 @@
    }
   },
   {
-   "id": "a8dec2115bc4f778",
-   "title": "Trade and commercial contacts for Community System Providers",
-   "url": "https://www.gov.uk/government/publications/chief-trade-and-commercial-contacts-for-community-service-providers",
-   "path": "/government/publications/chief-trade-and-commercial-contacts-for-community-service-providers",
-   "date": "2026-11-13T09:56:35Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find trade and commercial contacts for Community System Providers (CSPs).",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "Contact details for one provider have been updated.",
-   "firstPublished": "2014-05-14T00:00:00+01:00",
-   "ai": {
-    "summary": "The document provides trade and commercial contact details for Community System Providers (CSPs).",
-    "whoAffected": "Community System Providers",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Refer to the attached document to obtain the relevant trade and commercial contacts for CSPs."
-    ],
-    "legislationRefs": [],
-    "relevance": "low",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-13T19:38:54.818Z"
-   }
-  },
-  {
    "id": "4f0e94b808f2461d",
    "title": "Destroying goods listed on an ATA Carnet",
    "url": "https://www.gov.uk/guidance/destroying-goods-listed-on-an-ata-carnet",
@@ -1106,7 +1228,23 @@
    ],
    "hasBody": true,
    "changeNote": "Guidance on completing standard (non-SIPP) pension scheme returns has been updated to tell you that if you upload more than one filing members details the original file will be overwritten. Information has also been added to tell you that there is an upload limit of 300 member designatory details, whether member details are provided by CSV file upload or entered manually onto the system. You cannot bulk upload these details on the Managing pension schemes service.",
-   "firstPublished": "2024-02-12T00:00:00+00:00"
+   "firstPublished": "2024-02-12T00:00:00+00:00",
+   "ai": {
+    "summary": "From 6 April 2025 pension scheme returns must be filed on the Managing pension schemes service, not via the online service or third‑party software. Returns require designatory details, with a 300‑member upload limit, and must be submitted by 31 January after the tax year or face penalties.",
+    "whoAffected": "Pension scheme administrators and practitioners, including accountants advising SMEs, owner‑managed businesses and self‑employed clients with occupational pension schemes, especially those managing multiple schemes or with PSTRs starting ‘0’.",
+    "effectiveDate": "6 April 2025",
+    "actions": [
+     "Ensure any scheme with a PSTR beginning ‘0’ is migrated to the Managing pension schemes service before the notice to file is issued.",
+     "Advise clients to compile and submit their 2024‑2025 (and later) returns directly on the Managing pension schemes service, using manual entry or a single CSV upload and respecting the 300‑member limit.",
+     "Track notice‑to‑file dates and submit returns by 31 January after the tax year to avoid the £100 penalty and daily charges.",
+     "Set up a process for amending returns and for filing Event Reports to wind up schemes, using the service’s manual amendment functions.",
+     ""
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-17T14:26:35.453Z"
+   }
   },
   {
    "id": "f4c1df612000b7c2",
@@ -1640,99 +1778,6 @@
    }
   },
   {
-   "id": "5f8cc29184fb6cd7",
-   "title": "Apply for the Spirit Drinks Verification Scheme",
-   "url": "https://www.gov.uk/guidance/spirit-drinks-with-a-protected-geographical-indication",
-   "path": "/guidance/spirit-drinks-with-a-protected-geographical-indication",
-   "date": "2026-11-11T09:01:01Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Apply for verification before you start production of any spirit drinks protected under a UK geographical indication scheme.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "Information about English Whisky has been added and the option to apply by post has been removed.",
-   "firstPublished": "2014-10-20T00:00:00+01:00",
-   "ai": {
-    "summary": "The Spirit Drinks Verification Scheme requires anyone producing, importing, blending, bottling or labeling protected spirit drinks (e.g., Scotch Whisky, Irish Whiskey, English Whisky, Welsh Whisky, etc.) to apply online and be verified before starting activities, with fees, brand information submissions and biennial verification visits required.",
-    "whoAffected": "Producers, bulk importers, blenders, bottlers, re‑bottlers and re‑labellers of protected spirit drinks such as Scotch Whisky, Irish Whiskey, Irish Cream, Irish Poteen, Somerset Cider Brandy, Single Malt Welsh Whisky, Dovey Native Botanical Gin and English Whisky/Whiskey in the UK.",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Identify client businesses that make or import protected spirit drinks and confirm they need to apply",
-     "Collect required details (name, address, facilities, production processes, billing) before the client starts production",
-     "Submit the online application and ensure brand information is provided for each bottling/labeling site",
-     "Prepare client for verification visit, fees and ongoing biennial compliance"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-11T12:45:27.893Z"
-   }
-  },
-  {
-   "id": "8373dc039eddc3e5",
-   "title": "Preparing for Spirit Drink Verification Scheme visits",
-   "url": "https://www.gov.uk/guidance/preparing-for-spirit-drink-verification-scheme-visits",
-   "path": "/guidance/preparing-for-spirit-drink-verification-scheme-visits",
-   "date": "2026-11-11T09:01:01Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out about the verification checks and what to expect during a visit if you've applied for verification and paid your fee for the Scheme.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "English Whisky has been added to the list of UK protected geographical indications.",
-   "firstPublished": "2014-10-01T00:00:00+01:00",
-   "ai": {
-    "summary": "Producers who have applied and paid for verification will be contacted for a visit, which checks production processes per drink type; tax queries aren't handled, and non‑compliance may incur extra fees. Assured facilities are listed publicly.",
-    "whoAffected": "UK spirit drink producers who have applied for and paid for verification under the Spirit Drinks Verification Scheme",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Confirm the client has submitted the verification application and paid the fee",
-     "Gather and have ready all required documents (e.g., purchase records of ingredients and casks) for the verification officer",
-     "Advise the client that tax or duty questions will not be answered during the visit and to contact their Customer Compliance Manager for revenue issues",
-     "Explain the possibility of an additional fee for repeat visits and that assured facilities will be published on the spirit drinks look‑up service"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-11T19:34:18.591Z"
-   }
-  },
-  {
-   "id": "8ad087a64880df3c",
-   "title": "Change your details or leave the Spirit Drinks Verification Scheme",
-   "url": "https://www.gov.uk/guidance/change-your-details-or-leave-the-spirit-drinks-verification-scheme",
-   "path": "/guidance/change-your-details-or-leave-the-spirit-drinks-verification-scheme",
-   "date": "2026-11-11T09:01:01Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out how to change your details, leave the scheme or transfer production facilities to another producer.",
-   "categories": [
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "English Whisky has been added to the list of protected UK geographical indications.",
-   "firstPublished": "2020-11-27T00:00:00+00:00",
-   "ai": {
-    "summary": "Clients in the Spirit Drinks Verification Scheme must email HMRC to update details, withdraw, or transfer facilities. Withdrawal ends verified status, may affect product legality and customer liability, and no fee refunds are given. Transfers keep verification if the new owner is already verified or applies within 6 months.",
-    "whoAffected": "Businesses that are verified bulk importers or producers of Scotch Whisky, Irish Whiskey, Irish Cream, Irish Poteen, Somerset Cider Brandy, Single Malt Welsh Whisky, Dovey Native Botanical Gin, English Whisky, and owners transferring such production facilities.",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Advise the client to email enquiries.sdvs@hmrc.gov.uk with any address, trading name, contact, legal entity or premises changes.",
-     "If withdrawing, ensure the client provides the intended withdrawal date and reasons, and warn that fees already paid are non‑refundable.",
-     "Tell the client to inform customers of any status change to avoid potential enforcement liability.",
-     "For facility transfers, confirm the former operator notifies HMRC and check whether the new owner is already verified or must apply within six months."
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-11T19:34:14.964Z"
-   }
-  },
-  {
    "id": "c518b6fec6efb44e",
    "title": "Submit brand information for verified spirit drinks",
    "url": "https://www.gov.uk/guidance/submit-brand-information-for-verified-spirit-drinks",
@@ -1795,6 +1840,99 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-11T12:45:25.095Z"
+   }
+  },
+  {
+   "id": "8ad087a64880df3c",
+   "title": "Change your details or leave the Spirit Drinks Verification Scheme",
+   "url": "https://www.gov.uk/guidance/change-your-details-or-leave-the-spirit-drinks-verification-scheme",
+   "path": "/guidance/change-your-details-or-leave-the-spirit-drinks-verification-scheme",
+   "date": "2026-11-11T09:01:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how to change your details, leave the scheme or transfer production facilities to another producer.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "English Whisky has been added to the list of protected UK geographical indications.",
+   "firstPublished": "2020-11-27T00:00:00+00:00",
+   "ai": {
+    "summary": "Clients in the Spirit Drinks Verification Scheme must email HMRC to update details, withdraw, or transfer facilities. Withdrawal ends verified status, may affect product legality and customer liability, and no fee refunds are given. Transfers keep verification if the new owner is already verified or applies within 6 months.",
+    "whoAffected": "Businesses that are verified bulk importers or producers of Scotch Whisky, Irish Whiskey, Irish Cream, Irish Poteen, Somerset Cider Brandy, Single Malt Welsh Whisky, Dovey Native Botanical Gin, English Whisky, and owners transferring such production facilities.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Advise the client to email enquiries.sdvs@hmrc.gov.uk with any address, trading name, contact, legal entity or premises changes.",
+     "If withdrawing, ensure the client provides the intended withdrawal date and reasons, and warn that fees already paid are non‑refundable.",
+     "Tell the client to inform customers of any status change to avoid potential enforcement liability.",
+     "For facility transfers, confirm the former operator notifies HMRC and check whether the new owner is already verified or must apply within six months."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-11T19:34:14.964Z"
+   }
+  },
+  {
+   "id": "5f8cc29184fb6cd7",
+   "title": "Apply for the Spirit Drinks Verification Scheme",
+   "url": "https://www.gov.uk/guidance/spirit-drinks-with-a-protected-geographical-indication",
+   "path": "/guidance/spirit-drinks-with-a-protected-geographical-indication",
+   "date": "2026-11-11T09:01:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Apply for verification before you start production of any spirit drinks protected under a UK geographical indication scheme.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Information about English Whisky has been added and the option to apply by post has been removed.",
+   "firstPublished": "2014-10-20T00:00:00+01:00",
+   "ai": {
+    "summary": "The Spirit Drinks Verification Scheme requires anyone producing, importing, blending, bottling or labeling protected spirit drinks (e.g., Scotch Whisky, Irish Whiskey, English Whisky, Welsh Whisky, etc.) to apply online and be verified before starting activities, with fees, brand information submissions and biennial verification visits required.",
+    "whoAffected": "Producers, bulk importers, blenders, bottlers, re‑bottlers and re‑labellers of protected spirit drinks such as Scotch Whisky, Irish Whiskey, Irish Cream, Irish Poteen, Somerset Cider Brandy, Single Malt Welsh Whisky, Dovey Native Botanical Gin and English Whisky/Whiskey in the UK.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify client businesses that make or import protected spirit drinks and confirm they need to apply",
+     "Collect required details (name, address, facilities, production processes, billing) before the client starts production",
+     "Submit the online application and ensure brand information is provided for each bottling/labeling site",
+     "Prepare client for verification visit, fees and ongoing biennial compliance"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-11T12:45:27.893Z"
+   }
+  },
+  {
+   "id": "8373dc039eddc3e5",
+   "title": "Preparing for Spirit Drink Verification Scheme visits",
+   "url": "https://www.gov.uk/guidance/preparing-for-spirit-drink-verification-scheme-visits",
+   "path": "/guidance/preparing-for-spirit-drink-verification-scheme-visits",
+   "date": "2026-11-11T09:01:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out about the verification checks and what to expect during a visit if you've applied for verification and paid your fee for the Scheme.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "English Whisky has been added to the list of UK protected geographical indications.",
+   "firstPublished": "2014-10-01T00:00:00+01:00",
+   "ai": {
+    "summary": "Producers who have applied and paid for verification will be contacted for a visit, which checks production processes per drink type; tax queries aren't handled, and non‑compliance may incur extra fees. Assured facilities are listed publicly.",
+    "whoAffected": "UK spirit drink producers who have applied for and paid for verification under the Spirit Drinks Verification Scheme",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm the client has submitted the verification application and paid the fee",
+     "Gather and have ready all required documents (e.g., purchase records of ingredients and casks) for the verification officer",
+     "Advise the client that tax or duty questions will not be answered during the visit and to contact their Customer Compliance Manager for revenue issues",
+     "Explain the possibility of an additional fee for repeat visits and that assured facilities will be published on the spirit drinks look‑up service"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-11T19:34:18.591Z"
    }
   },
   {
@@ -1924,37 +2062,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-10T13:29:51.378Z"
-   }
-  },
-  {
-   "id": "3fd5d9da5a8343da",
-   "title": "Self Assessment commercial software suppliers",
-   "url": "https://www.gov.uk/government/publications/self-assessment-commercial-software-suppliers",
-   "path": "/government/publications/self-assessment-commercial-software-suppliers",
-   "date": "2026-11-10T12:19:29Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find software suppliers for tax returns, supplementary pages and attachments.",
-   "categories": [
-    "personal"
-   ],
-   "hasBody": true,
-   "changeNote": "The list of Self Assessment commercial software suppliers has been updated with 2 amendments.",
-   "firstPublished": "2014-01-01T00:00:00+00:00",
-   "ai": {
-    "summary": "Use HMRC‑approved commercial software to file Self Assessment returns, supplementary pages and attachments; ensure the software has HMRC data features, set up a unique GOV.UK One Login ID/password, and get technical support if you develop software.",
-    "whoAffected": "Agents, individual taxpayers, and Self Assessment software developers using commercial software",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Check that your commercial software appears on the HMRC list of approved suppliers",
-     "Confirm with the supplier that the product includes the HMRC data feature for client or personal returns",
-     "Create a unique user ID and password via GOV.UK One Login for software submissions",
-     "Contact the supplier for technical support if you are a software developer"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-10T13:29:54.046Z"
    }
   },
   {
@@ -4335,6 +4442,47 @@
    }
   },
   {
+   "id": "ced372f13fe717b2",
+   "title": "Buying and selling second-hand motor vehicles using the VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/buying-and-selling-second-hand-motor-vehicles-using-the-vat-margin-scheme",
+   "path": "/guidance/buying-and-selling-second-hand-motor-vehicles-using-the-vat-margin-scheme",
+   "date": "2026-11-02T09:00:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to use a margin scheme to account for VAT if you sell second-hand vehicles.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance from withdrawn VAT notices, The Margin and Global Accounting Scheme (VAT Notice 718) and The Margin Scheme on second-hand cars and other vehicles (VAT Notice 718/1), has been added.",
+   "firstPublished": "2021-12-23T13:28:00+00:00",
+   "ai": {
+    "summary": "Guidance explains when a second‑hand motor vehicle can use the VAT margin scheme, how to record purchase and selling prices, treat MOTs, vehicle tax and rebuilt cars, and what records must be kept, including VRN/VIN details and scrap documentation, to report correctly on the VAT return.",
+    "whoAffected": "Businesses that buy or sell second‑hand motor vehicles using a VAT margin scheme, such as motor‑vehicle dealers, SME traders and self‑employed sellers",
+    "effectiveDate": "2026-11-02",
+    "actions": [
+     "Confirm the vehicle meets eligibility rules (second‑hand, no separate VAT invoice, not new, not imported, not category A/B write‑off, etc.)",
+     "Record the purchase price excluding repairs, accessories and overheads and note the VRN or VIN and description in the stock book",
+     "Calculate the selling price including MOT, accessories and part‑exchange value, apply the normal margin‑scheme rules to work out margin and VAT, and show the transaction on the VAT return",
+     "Maintain required records – invoices, stock‑book entries, VRN/VIN changes, scrap evidence and any zero‑rating documentation for adapted vehicles"
+    ],
+    "legislationRefs": [
+     "VAT Notice 718",
+     "VAT Notice 718/1",
+     "VAT Notice 700/64",
+     "VAT: costs or disbursements passed on to customers",
+     "VAT relief on adapted motor vehicles for disabled people and charities (VAT Notice 1002)",
+     "Using the VAT margin scheme for linked insurance products and warranties",
+     "Section 2.3 – additional information requirements for vehicles",
+     "Section 6.5 – global scheme for scrap vehicles",
+     "Section 8 – occasional sales"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-05T19:55:24.877Z"
+   }
+  },
+  {
    "id": "d974747b4630ba11",
    "title": "Selling unredeemed pawns if you use a VAT margin scheme",
    "url": "https://www.gov.uk/guidance/selling-unredeemed-pawns-if-you-use-a-vat-margin-scheme",
@@ -4402,47 +4550,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-04T13:01:11.415Z"
-   }
-  },
-  {
-   "id": "ced372f13fe717b2",
-   "title": "Buying and selling second-hand motor vehicles using the VAT margin scheme",
-   "url": "https://www.gov.uk/guidance/buying-and-selling-second-hand-motor-vehicles-using-the-vat-margin-scheme",
-   "path": "/guidance/buying-and-selling-second-hand-motor-vehicles-using-the-vat-margin-scheme",
-   "date": "2026-11-02T09:00:01Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to use a margin scheme to account for VAT if you sell second-hand vehicles.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "Guidance from withdrawn VAT notices, The Margin and Global Accounting Scheme (VAT Notice 718) and The Margin Scheme on second-hand cars and other vehicles (VAT Notice 718/1), has been added.",
-   "firstPublished": "2021-12-23T13:28:00+00:00",
-   "ai": {
-    "summary": "Guidance explains when a second‑hand motor vehicle can use the VAT margin scheme, how to record purchase and selling prices, treat MOTs, vehicle tax and rebuilt cars, and what records must be kept, including VRN/VIN details and scrap documentation, to report correctly on the VAT return.",
-    "whoAffected": "Businesses that buy or sell second‑hand motor vehicles using a VAT margin scheme, such as motor‑vehicle dealers, SME traders and self‑employed sellers",
-    "effectiveDate": "2026-11-02",
-    "actions": [
-     "Confirm the vehicle meets eligibility rules (second‑hand, no separate VAT invoice, not new, not imported, not category A/B write‑off, etc.)",
-     "Record the purchase price excluding repairs, accessories and overheads and note the VRN or VIN and description in the stock book",
-     "Calculate the selling price including MOT, accessories and part‑exchange value, apply the normal margin‑scheme rules to work out margin and VAT, and show the transaction on the VAT return",
-     "Maintain required records – invoices, stock‑book entries, VRN/VIN changes, scrap evidence and any zero‑rating documentation for adapted vehicles"
-    ],
-    "legislationRefs": [
-     "VAT Notice 718",
-     "VAT Notice 718/1",
-     "VAT Notice 700/64",
-     "VAT: costs or disbursements passed on to customers",
-     "VAT relief on adapted motor vehicles for disabled people and charities (VAT Notice 1002)",
-     "Using the VAT margin scheme for linked insurance products and warranties",
-     "Section 2.3 – additional information requirements for vehicles",
-     "Section 6.5 – global scheme for scrap vehicles",
-     "Section 8 – occasional sales"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-05T19:55:24.877Z"
    }
   },
   {
@@ -9536,37 +9643,6 @@
    }
   },
   {
-   "id": "b62644ad304669e8",
-   "title": "Apply for an agent services account",
-   "url": "https://www.gov.uk/guidance/apply-for-an-agent-services-account",
-   "path": "/guidance/apply-for-an-agent-services-account",
-   "date": "2026-10-13T13:06:00Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Apply for an agent services account (ASA) to register with HMRC as a tax adviser and use certain HMRC services.",
-   "categories": [
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "The link to check the progress of an existing application has been updated.",
-   "firstPublished": "2018-03-15T00:00:00+00:00",
-   "ai": {
-    "summary": "Tax advisers who are paid to handle others’ tax affairs must apply for an Agent Services Account, providing Gateway IDs, UTR, registration numbers and proof of AML supervision, then use the account to interact with HMRC on clients’ behalf.",
-    "whoAffected": "Tax advisers dealing with other people’s tax affairs for payment",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Gather required details: business and personal Government Gateway IDs, UTR, postcode, company/VAT numbers, AML supervisory body name and proof of supervision",
-     "Confirm AML supervision is approved before applying",
-     "Sign in to Government Gateway and submit the Agent Services Account application",
-     "After approval, create individual staff Gateway IDs, set permissions and use the account to act for clients"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-13T19:15:00.992Z"
-   }
-  },
-  {
    "id": "11b7a49387b62a0b",
    "title": "More than 600,000 families conjure up Hallowe’en savings with Tax-Free Childcare",
    "url": "https://www.gov.uk/government/news/more-than-600000-families-conjure-up-halloween-savings-with-tax-free-childcare",
@@ -12509,37 +12585,6 @@
     "relevance": "medium",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-01T18:25:58.338Z"
-   }
-  },
-  {
-   "id": "0340daa9eb2e019b",
-   "title": "Check if and when you need to register as a tax adviser with HMRC",
-   "url": "https://www.gov.uk/guidance/check-if-and-when-you-need-to-register-as-a-tax-adviser-with-hmrc",
-   "path": "/guidance/check-if-and-when-you-need-to-register-as-a-tax-adviser-with-hmrc",
-   "date": "2026-09-03T10:04:54Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Check if and when you need to register for an agent services account to interact with HMRC on behalf of your clients as a tax adviser.",
-   "categories": [
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated guidance following the end of the first registration window on 18 August 2026. Added information for agents who missed their registration window or are new to the market, and what may happen if they do not register when required.",
-   "firstPublished": "2026-02-17T09:15:00+00:00",
-   "ai": {
-    "summary": "HMRC now requires tax advisers who interact with HMRC for paid client services to register for an agent services account, with staged start dates (18 Aug 2026, 18 Nov 2026, 31 Dec 2026). Failure to register can block client interactions and lead to sanctions.",
-    "whoAffected": "Tax advisers – including sole traders, limited companies and overseas firms – that provide paid tax services and contact HMRC for clients, unless they fall under the listed exemptions (in‑house staff, own group affairs, free advice, certain statutory roles, software providers, customs/VAT representatives, etc.).",
-    "effectiveDate": "From 18 August 2026 for existing Self Assessment or Corporation Tax agents; from 18 November 2026 for third‑party payroll‑only services; from 31 December 2026 for financial services organisations",
-    "actions": [
-     "Use the online tool to confirm whether registration is required for your business",
-     "If registration is required, apply for an agent services account via the online service within the 3‑month window after the registration window opens",
-     "Ensure the legal entity registers (individual employees do not need separate accounts) and be prepared for HMRC checks on certain staff",
-     "If you missed the initial window or are new to the market, register immediately to avoid loss of access and possible sanctions"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-02T17:52:35.573Z"
    }
   },
   {
