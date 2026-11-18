@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-17T20:52:08.736Z",
+ "generatedAt": "2026-11-18T14:00:54.887Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,185 @@
    "label": "Other"
   }
  ],
- "count": 614,
+ "count": 618,
  "items": [
+  {
+   "id": "6506dd451f5f023c",
+   "title": "Payroll Giving agencies approved by HMRC",
+   "url": "https://www.gov.uk/government/publications/payroll-giving-approved-agencies",
+   "path": "/government/publications/payroll-giving-approved-agencies",
+   "date": "2026-11-18T13:34:46Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find a list of organisations approved and monitored by HMRC for Payroll Giving purposes.",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "The approved agencies list for Payroll Giving has been updated with one amendment.",
+   "firstPublished": "2014-12-05T00:00:00+00:00",
+   "ai": {
+    "summary": "The HMRC list shows agencies that have opted to be listed for Payroll Giving; it isn’t exhaustive, and some agencies limit which employers they serve. Unlisted agencies can supply an HMRC approval letter if needed.",
+    "whoAffected": "Employers, including SMEs and owner‑managed businesses, who want to set up Payroll Giving for staff",
+    "effectiveDate": "2026-11-18T13:34:46Z",
+    "actions": [
+     "Check the current HMRC approved agencies list when advising clients on Payroll Giving",
+     "Tell clients the list is not exhaustive and that unlisted agencies can provide an HMRC approval letter",
+     "Confirm any agency’s restrictions on which employers they can serve",
+     "Refer clients to HMRC for further guidance"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-18T14:00:21.283Z"
+   }
+  },
+  {
+   "id": "3fd5d9da5a8343da",
+   "title": "Self Assessment commercial software suppliers",
+   "url": "https://www.gov.uk/government/publications/self-assessment-commercial-software-suppliers",
+   "path": "/government/publications/self-assessment-commercial-software-suppliers",
+   "date": "2026-11-18T13:06:00Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find software suppliers for tax returns, supplementary pages and attachments.",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "The list of Self Assessment commercial software suppliers has been updated with one amendment.",
+   "firstPublished": "2014-01-01T00:00:00+00:00",
+   "ai": {
+    "summary": "The list of approved commercial software can be used to file Self Assessment returns, supplementary pages and attachments. Some products can retrieve HMRC data for agents or individuals. Access via GOV.UK One Login requires a unique ID and password, and developers can obtain technical support.",
+    "whoAffected": "Tax agents, individual taxpayers using commercial software, and Self Assessment software developers",
+    "effectiveDate": "2026-11-18",
+    "actions": [
+     "Check with your software supplier whether it includes the HMRC data‑retrieval feature for agents or individuals",
+     "If using GOV.UK One Login, create a unique user ID and password before submitting returns via the software",
+     "Ensure the chosen software is on the official approved list for filing valid returns",
+     "If you develop software, contact HMRC for technical support"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-18T14:00:23.798Z"
+   }
+  },
+  {
+   "id": "6e5203bb5744fd83",
+   "title": "Tax adviser registration opens for payroll professionals",
+   "url": "https://www.gov.uk/government/news/tax-adviser-registration-opens-for-payroll-professionals",
+   "path": "/government/news/tax-adviser-registration-opens-for-payroll-professionals",
+   "date": "2026-11-18T10:24:10Z",
+   "type": "press_release",
+   "source": "HMRC (GOV.UK)",
+   "description": "Payroll professionals have until 17 February 2027 to register with HMRC under new mandatory requirements.",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-18T10:24:10+00:00",
+   "ai": {
+    "summary": "Payroll professionals providing third‑party payroll services must register online for an Agent Services Account by 17 Feb 2027 under the new MMTAR system, or risk limits and penalties.",
+    "whoAffected": "Payroll professionals who solely provide third‑party payroll services and interact with HMRC on behalf of clients and do not already have an Agent Services Account, as well as any advisers paid to interact with HMRC on others’ tax affairs.",
+    "effectiveDate": "17 February 2027",
+    "actions": [
+     "Check the GOV.UK guidance and interactive checker to confirm registration requirement",
+     "Submit an online application for an Agent Services Account before the 17 Feb 2027 deadline",
+     "Ensure you meet HMRC's registration conditions and provide required information",
+     "Continue to act for clients while the application is processed to avoid service disruption"
+    ],
+    "legislationRefs": [
+     "Modernising and Mandating Tax Adviser Registration (MMTAR)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-18T14:00:27.228Z"
+   }
+  },
+  {
+   "id": "c7a41dc56253e6e6",
+   "title": "Historic chargeable amounts for Annual Tax on Enveloped Dwellings",
+   "url": "https://www.gov.uk/guidance/historic-chargeable-amounts-for-annual-tax-on-enveloped-dwellings",
+   "path": "/guidance/historic-chargeable-amounts-for-annual-tax-on-enveloped-dwellings",
+   "date": "2026-11-18T09:11:24Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Check which Annual Tax on Enveloped Dwellings (ATED) chargeable amounts apply for years earlier than the current year.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The chargeable amounts for 1 April 2024 to 31 March 2025 have been added.",
+   "firstPublished": "2019-02-01T00:00:00+00:00",
+   "ai": {
+    "summary": "The ATED charge is calculated by property value bands. Updated rates for 1 April 2024‑31 March 2025 range from £4,400 to £287,500, with historic tables for prior years provided for reference.",
+    "whoAffected": "Companies or corporate entities that own residential properties (enveloped dwellings), including SME owners, owner‑managed businesses and self‑employed individuals using a company structure",
+    "effectiveDate": "1 April 2024",
+    "actions": [
+     "Identify any client‑owned enveloped dwellings and their current market values",
+     "Match each property to the appropriate value band for the relevant tax year",
+     "Apply the corresponding annual charge from the ATED table",
+     "Notify clients of payment deadlines and review any available reliefs or exemptions"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-18T14:00:31.352Z"
+   }
+  },
+  {
+   "id": "d4de9501ec1f5817",
+   "title": "Annual Tax on Enveloped Dwellings",
+   "url": "https://www.gov.uk/guidance/annual-tax-on-enveloped-dwellings-the-basics",
+   "path": "/guidance/annual-tax-on-enveloped-dwellings-the-basics",
+   "date": "2026-11-18T09:05:40Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out about Annual Tax on Enveloped Dwellings (ATED), what you need to pay and how to appoint an agent or adviser to act on your behalf.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The chargeable amounts for 1 April 2027 to 31 March 2028 have been added.",
+   "firstPublished": "2014-03-20T00:00:00+00:00",
+   "ai": {
+    "summary": "ATED is an annual tax on UK residential properties over £500,000 owned by companies or similar entities; returns must be filed each year, properties revalued every five years, and charges are banded, with penalties for late or inaccurate filings.",
+    "whoAffected": "Companies, partnerships with a company partner, and collective investment schemes that own UK residential dwellings valued over £500,000.",
+    "effectiveDate": "1 April 2027",
+    "actions": [
+     "Check client’s property ownership and valuation against ATED thresholds",
+     "Revalue properties using the correct revaluation date (1 April 2022 for pre‑2022 holdings, acquisition date thereafter)",
+     "Register the client for the ATED online service, submit the annual return by 1 April and arrange payment of the applicable band charge",
+     "Review available reliefs/exemptions and advise on penalty or appeal procedures if returns are late or inaccurate"
+    ],
+    "legislationRefs": [
+     "Section 19 of the ATED technical guidance",
+     "Section 6 and 7 of the ATED technical guidance",
+     "CH155400 of the HMRC Compliance Handbook"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-18T14:00:46.739Z"
+   }
+  },
+  {
+   "id": "aa0627f569ffa003",
+   "title": "Identity verification is making the UK's company register more trustworthy",
+   "url": "https://www.gov.uk/government/news/identity-verification-is-making-the-uks-company-register-more-trustworthy",
+   "path": "/government/news/identity-verification-is-making-the-uks-company-register-more-trustworthy",
+   "date": "2026-11-18T09:00:07Z",
+   "type": "press_release",
+   "source": "Companies House (GOV.UK)",
+   "description": "One year into mandatory identity verification at Companies House, around 90% of live companies have completed the process, improving the accuracy of the UK's corporate register. ",
+   "categories": [
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-18T09:00:07+00:00"
+  },
   {
    "id": "79c8c8914a82f5d5",
    "title": "Updates to definitions in the Bank Levy legislation",
@@ -176,68 +353,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-17T20:51:54.814Z"
-   }
-  },
-  {
-   "id": "6506dd451f5f023c",
-   "title": "Payroll Giving agencies approved by HMRC",
-   "url": "https://www.gov.uk/government/publications/payroll-giving-approved-agencies",
-   "path": "/government/publications/payroll-giving-approved-agencies",
-   "date": "2026-11-17T14:45:52Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find a list of organisations approved and monitored by HMRC for Payroll Giving purposes.",
-   "categories": [
-    "paye"
-   ],
-   "hasBody": true,
-   "changeNote": "The approved agencies list for Payroll Giving has been updated with 2 amendments.",
-   "firstPublished": "2014-12-05T00:00:00+00:00",
-   "ai": {
-    "summary": "The HMRC‑approved Payroll Giving list only shows agencies that opt in; it may omit others, some of which limit services to certain employers. Unlisted agencies can provide an HMRC approval letter if needed.",
-    "whoAffected": "Employers who wish to set up Payroll Giving for their staff",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Use the HMRC‑approved list to recommend suitable Payroll Giving agencies to clients",
-     "Check whether a chosen agency restricts services to particular employers before recommending",
-     "If a preferred agency is not on the list, ask the agency for an HMRC approval letter for the client",
-     "Direct clients to HMRC’s further information on Payroll Giving"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-17T20:51:58.268Z"
-   }
-  },
-  {
-   "id": "3fd5d9da5a8343da",
-   "title": "Self Assessment commercial software suppliers",
-   "url": "https://www.gov.uk/government/publications/self-assessment-commercial-software-suppliers",
-   "path": "/government/publications/self-assessment-commercial-software-suppliers",
-   "date": "2026-11-17T13:05:13Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find software suppliers for tax returns, supplementary pages and attachments.",
-   "categories": [
-    "personal"
-   ],
-   "hasBody": true,
-   "changeNote": "The list of Self Assessment commercial software suppliers has been updated with 2 additions.",
-   "firstPublished": "2014-01-01T00:00:00+00:00",
-   "ai": {
-    "summary": "Use the listed commercial software to file Self Assessment returns and attachments. Some tools can pull HMRC data for agents or individuals. Access requires a GOV.UK One Login with a unique ID and password. Developers can obtain technical support.",
-    "whoAffected": "Agents filing client returns, individuals filing their own returns, and Self Assessment software developers",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Check that your software is on the approved list and includes the HMRC data feature",
-     "Create a GOV.UK One Login and set up a unique user ID and password for submissions",
-     "Confirm the software can submit returns, supplementary pages and attachments",
-     "Contact the software supplier for technical support if you are a developer"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-17T14:26:20.081Z"
    }
   },
   {
@@ -1839,7 +1954,22 @@
    ],
    "hasBody": true,
    "changeNote": "The page has been updated with 3 additions.",
-   "firstPublished": "2022-02-23T00:00:00+00:00"
+   "firstPublished": "2022-02-23T00:00:00+00:00",
+   "ai": {
+    "summary": "HMRC provides a list of payroll software it recognises for online PAYE reporting, including free options for firms with under 10 staff and many paid products. Choose software with needed features, but HMRC does not recommend any specific product and is not liable for issues.",
+    "whoAffected": "Businesses that need to report PAYE to HMRC, especially SMEs and owner‑managed firms, including those with fewer than 10 employees",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify the client’s employee count to determine if the free HMRC‑recognised software applies",
+     "Match the client’s required payroll features against the software listed in the HMRC guidance",
+     "Select a product from the recognised list and confirm it supports online PAYE submissions",
+     "Inform the client that HMRC does not endorse any product and the client remains responsible for any software issues"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-18T14:00:53.386Z"
+   }
   },
   {
    "id": "37c4e6204280bde6",
@@ -4495,42 +4625,6 @@
    }
   },
   {
-   "id": "3c03c14e433dbffd",
-   "title": "Using the global accounting VAT margin scheme",
-   "url": "https://www.gov.uk/guidance/using-the-global-accounting-vat-margin-scheme",
-   "path": "/guidance/using-the-global-accounting-vat-margin-scheme",
-   "date": "2026-11-02T09:00:01Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to account for VAT using the global accounting scheme.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "Guidance from withdrawn VAT notices, The Margin and Global Accounting Scheme (VAT Notice 718) and The Margin Scheme on second-hand cars and other vehicles (VAT Notice 718/1), has been added.",
-   "firstPublished": "2021-12-23T00:00:00+00:00",
-   "ai": {
-    "summary": "The global accounting scheme lets VAT‑registered traders account for VAT on the margin of bulk low‑value goods, calculating VAT on total purchases versus sales and keeping specific records, with rules on eligible items, invoicing and stock handling.",
-    "whoAffected": "SMEs, owner‑managed businesses and self‑employed traders who buy and sell low‑value goods in bulk or collections and wish to use the global accounting VAT margin scheme.",
-    "effectiveDate": "2026-11-02",
-    "actions": [
-     "Confirm goods are eligible and purchases are bulk (combined purchase price over £500)",
-     "Value stock on hand using purchase invoices or a fair method and keep separate records",
-     "Calculate the gross margin and apply 1/6 for standard rate or 1/21 for reduced rate VAT each tax period",
-     "Issue sales invoices without VAT shown, label them ‘global accounting invoice’, and retain all records for 6 years"
-    ],
-    "legislationRefs": [
-     "VAT Notice 718",
-     "VAT Notice 718/1",
-     "Notice 700",
-     "VAT Notice 700/62"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-07T11:44:44.079Z"
-   }
-  },
-  {
    "id": "477bee5faab8d927",
    "title": "Buying and selling houseboats and caravans using the VAT margin scheme",
    "url": "https://www.gov.uk/guidance/buying-and-selling-houseboats-and-caravans-using-the-vat-margin-scheme",
@@ -4602,6 +4696,42 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-05T19:55:24.877Z"
+   }
+  },
+  {
+   "id": "3c03c14e433dbffd",
+   "title": "Using the global accounting VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/using-the-global-accounting-vat-margin-scheme",
+   "path": "/guidance/using-the-global-accounting-vat-margin-scheme",
+   "date": "2026-11-02T09:00:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to account for VAT using the global accounting scheme.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance from withdrawn VAT notices, The Margin and Global Accounting Scheme (VAT Notice 718) and The Margin Scheme on second-hand cars and other vehicles (VAT Notice 718/1), has been added.",
+   "firstPublished": "2021-12-23T00:00:00+00:00",
+   "ai": {
+    "summary": "The global accounting scheme lets VAT‑registered traders account for VAT on the margin of bulk low‑value goods, calculating VAT on total purchases versus sales and keeping specific records, with rules on eligible items, invoicing and stock handling.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed traders who buy and sell low‑value goods in bulk or collections and wish to use the global accounting VAT margin scheme.",
+    "effectiveDate": "2026-11-02",
+    "actions": [
+     "Confirm goods are eligible and purchases are bulk (combined purchase price over £500)",
+     "Value stock on hand using purchase invoices or a fair method and keep separate records",
+     "Calculate the gross margin and apply 1/6 for standard rate or 1/21 for reduced rate VAT each tax period",
+     "Issue sales invoices without VAT shown, label them ‘global accounting invoice’, and retain all records for 6 years"
+    ],
+    "legislationRefs": [
+     "VAT Notice 718",
+     "VAT Notice 718/1",
+     "Notice 700",
+     "VAT Notice 700/62"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-07T11:44:44.079Z"
    }
   },
   {
@@ -18473,6 +18603,37 @@
    }
   },
   {
+   "id": "4cae9e2d2d5b3525",
+   "title": "Overseas companies: restricting disclosure of your address",
+   "url": "https://www.gov.uk/government/publications/restricting-disclosure-of-your-address",
+   "path": "/government/publications/restricting-disclosure-of-your-address",
+   "date": "2026-02-01T00:01:10Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "How to restrict access to your address on the public register.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "Fees updated.",
+   "firstPublished": "2016-04-05T00:00:00+01:00",
+   "ai": {
+    "summary": "Guide for directors or permanent representatives of overseas companies with a UK establishment to apply to hide their residential address and suppress specified addresses on the public register.",
+    "whoAffected": "Directors or permanent representatives of overseas companies with a registered UK establishment, and advisers to such companies",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients who are directors or permanent representatives of overseas companies with a UK establishment",
+     "Prepare and submit the application to restrict disclosure of their residential address",
+     "Ensure any specified addresses are suppressed from the public register",
+     "Advise clients on ongoing compliance and record‑keeping requirements"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-17T09:24:05.779Z"
+   }
+  },
+  {
    "id": "6ff6479113693613",
    "title": "Confirmation statement for a Scottish limited partnership (SLP CS01)",
    "url": "https://www.gov.uk/government/publications/confirmation-statement-for-a-scottish-limited-partnership-slp-cs01",
@@ -18502,37 +18663,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-18T09:40:03.547Z"
-   }
-  },
-  {
-   "id": "4cae9e2d2d5b3525",
-   "title": "Overseas companies: restricting disclosure of your address",
-   "url": "https://www.gov.uk/government/publications/restricting-disclosure-of-your-address",
-   "path": "/government/publications/restricting-disclosure-of-your-address",
-   "date": "2026-02-01T00:01:10Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "How to restrict access to your address on the public register.",
-   "categories": [
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "Fees updated.",
-   "firstPublished": "2016-04-05T00:00:00+01:00",
-   "ai": {
-    "summary": "Guide for directors or permanent representatives of overseas companies with a UK establishment to apply to hide their residential address and suppress specified addresses on the public register.",
-    "whoAffected": "Directors or permanent representatives of overseas companies with a registered UK establishment, and advisers to such companies",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Identify clients who are directors or permanent representatives of overseas companies with a UK establishment",
-     "Prepare and submit the application to restrict disclosure of their residential address",
-     "Ensure any specified addresses are suppressed from the public register",
-     "Advise clients on ongoing compliance and record‑keeping requirements"
-    ],
-    "legislationRefs": [],
-    "relevance": "medium",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-17T09:24:05.779Z"
    }
   },
   {
