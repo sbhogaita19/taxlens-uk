@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-18T14:00:54.887Z",
+ "generatedAt": "2026-11-18T20:28:08.092Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,225 @@
    "label": "Other"
   }
  ],
- "count": 618,
+ "count": 623,
  "items": [
+  {
+   "id": "06634c678abaa726",
+   "title": "Manage a registered pension scheme",
+   "url": "https://www.gov.uk/guidance/manage-a-registered-pension-scheme",
+   "path": "/guidance/manage-a-registered-pension-scheme",
+   "date": "2026-11-18T16:09:38Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to manage a registered pension scheme if you're a scheme administrator.",
+   "categories": [
+    "personal",
+    "pensions"
+   ],
+   "hasBody": true,
+   "changeNote": "New section ‘Reporting’ added with information about filing a pension scheme return.",
+   "firstPublished": "2018-06-04T00:00:00+01:00",
+   "ai": {
+    "summary": "Guidance explains how scheme administrators access the Managing pension schemes service, invite co‑administrators, recover lost Gateway credentials after 3 years, update scheme details (only when open) and submit a declaration within 30 days, and change a scheme name by writing to HMRC.",
+    "whoAffected": "Registered pension scheme administrators and any co‑administrators they invite",
+    "effectiveDate": "2026-11-18",
+    "actions": [
+     "Verify the administrator has current Government Gateway credentials; if not, follow the recovery steps for A0 or A2 IDs",
+     "Invite new administrators using their HMRC‑registered ID and allow 30 days for acceptance",
+     "Update scheme details online and submit the required declaration within 30 days to avoid loss",
+     "For a name change, send a written request to HMRC with the required details"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-18T20:27:43.185Z"
+   }
+  },
+  {
+   "id": "6a58c1a01ec673c1",
+   "title": "Check if you meet HMRC's conditions to register as a tax adviser",
+   "url": "https://www.gov.uk/guidance/check-if-you-meet-hmrcs-conditions-to-register-as-a-tax-adviser",
+   "path": "/guidance/check-if-you-meet-hmrcs-conditions-to-register-as-a-tax-adviser",
+   "date": "2026-11-18T15:35:49Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Check if you meet the conditions to register with HMRC and interact on behalf of your clients.",
+   "categories": [
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "The ‘After you've registered’ section has been updated to say HMRC will contact you if we need more information.",
+   "firstPublished": "2026-02-17T09:15:00+00:00",
+   "ai": {
+    "summary": "If you provide paid tax advice to clients and interact with HMRC, you must register for an agent services account, prove AML supervision, list relevant individuals (all officers if ≤5, at least 5 if >5), and meet several prohibitions before applying.",
+    "whoAffected": "Tax adviser firms, including SME owner‑managed businesses and self‑employed advisers who interact with HMRC on behalf of clients and receive payment",
+    "effectiveDate": "2026-11-18T15:35:49Z",
+    "actions": [
+     "Check whether your activities require registration by confirming you interact with HMRC for paid tax advice",
+     "Identify relevant individuals per officer count and ensure at least five are listed",
+     "Gather approved anti‑money‑laundering supervision evidence and confirm none of the disqualifying conditions apply",
+     "Submit an online application for an agent services account and respond to any HMRC requests for more information"
+    ],
+    "legislationRefs": [
+     "Mandatory Tax Adviser Registration manual"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-18T20:27:46.304Z"
+   }
+  },
+  {
+   "id": "6ca05e4a5854a09e",
+   "title": "VAT guide (VAT Notice 700)",
+   "url": "https://www.gov.uk/guidance/vat-guide-notice-700",
+   "path": "/guidance/vat-guide-notice-700",
+   "date": "2026-11-18T15:35:48Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "The guide to VAT rules and procedures.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Section 1.5 has been updated to remove reference to Annex D relating to Non-Statutory Clearance Service.",
+   "firstPublished": "2014-12-17T00:00:00+00:00",
+   "ai": {
+    "summary": "VAT Notice 700 is the main guide to UK VAT rules, procedures and help resources. It points businesses to related notices, the general enquiries helpline, written enquiries for case‑specific issues, and outlines what to expect from VAT officer visits.",
+    "whoAffected": "All VAT‑registered businesses, including SMEs, owner‑managed firms and the self‑employed",
+    "effectiveDate": "2026-11-18T15:35:48Z",
+    "actions": [
+     "Advise clients to use the VAT general enquiries helpline for general queries and the written enquiries team for case‑specific matters",
+     "Recommend clients keep records and VAT returns accurate and up‑to‑date to avoid visits",
+     "Prompt clients to inform HMRC in writing of any significant changes to their VAT affairs",
+     "Prepare clients for possible VAT officer visits by ensuring records are organised and staff can quote the VAT number when contacted"
+    ],
+    "legislationRefs": [
+     "VAT Notice 700/12",
+     "VAT Notice 700/21",
+     "VAT Notice 727",
+     "VAT Notice 725",
+     "section 6",
+     "section 26",
+     "section 20",
+     "section 21",
+     "section 27",
+     "section 28",
+     "Non‑Statutory Clearance Service"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-18T20:27:49.419Z"
+   }
+  },
+  {
+   "id": "4f596280b8bca2e9",
+   "title": "Broad Rental Market Area boundary data",
+   "url": "https://www.gov.uk/government/publications/broad-rental-market-area-boundary-data",
+   "path": "/government/publications/broad-rental-market-area-boundary-data",
+   "date": "2026-11-18T15:22:50Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Boundary data for Broad Rental Market Areas (BRMAs) in England for use with geographical information systems. ",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Broad Rental Market Area boundary data has been updated. ",
+   "firstPublished": "2020-06-04T09:56:00+01:00",
+   "ai": {
+    "summary": "Boundary shapefiles for Broad Rental Market Areas in England are now effective from 1 April 2026 and are used to calculate Local Housing Allowance rates.",
+    "whoAffected": "Anyone relying on Local Housing Allowance calculations, such as housing‑benefit claimants, landlords and advisers who use GIS data for client advice.",
+    "effectiveDate": "1 April 2026",
+    "actions": [
+     "Download the updated BRMA boundary shapefiles from the GOV.UK site",
+     "Load the shapefiles into your GIS software used for client work",
+     "Re‑run Local Housing Allowance calculations for affected clients using the new boundaries",
+     "Update client reports and advice notes to reference the new BRMA data"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-18T20:27:52.783Z"
+   }
+  },
+  {
+   "id": "1ace804503660064",
+   "title": "Check if a business is registered for money laundering supervision",
+   "url": "https://www.gov.uk/guidance/money-laundering-regulations-supervised-business-register",
+   "path": "/guidance/money-laundering-regulations-supervised-business-register",
+   "date": "2026-11-18T15:09:24Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out if a business has registered with HMRC under the money laundering regulations and report them if they have not.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The Supervised Business Register has been updated.",
+   "firstPublished": "2014-05-23T00:00:00+01:00",
+   "ai": {
+    "summary": "The Supervised Business Register lists businesses registered with HMRC for money‑laundering supervision. It shows registration details and helps verify if a business is compliant; unregistered firms can be reported to HMRC.",
+    "whoAffected": "Businesses required to be supervised under the money laundering regulations and anyone (including SMEs, owner‑managed firms and the self‑employed) checking a partner’s registration status.",
+    "effectiveDate": "2026-11-18",
+    "actions": [
+     "Search the Supervised Business Register to confirm a client’s registration status",
+     "If the business is not listed, contact them directly to verify their registration",
+     "Advise clients that they must register for supervision under the money laundering regulations",
+     "Report any suspected unregistered business to HMRC"
+    ],
+    "legislationRefs": [
+     "money laundering regulations"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-18T20:27:56.351Z"
+   }
+  },
+  {
+   "id": "beb1ba08c95d2c35",
+   "title": "The Value Added Tax (Distance Selling) (Amendments) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/1204",
+   "date": "2026-11-18T15:08:31.653Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "These Regulations amend Schedules 9ZD, 9ZE and Part 3 of Schedule 9ZF to the Value Added Tax Act 1994 and come into force on 1st January 2027. They implement certain amendments made by Council Directive (EU) 2025/516 to Council Directive 2006/112/EC (“the VAT Directive”), pursuant to the United Kingdom’s obligations under the Windsor Framework.",
+   "categories": [
+    "legislation",
+    "vat"
+   ]
+  },
+  {
+   "id": "748bb8405a8bafc4",
+   "title": "Advisory fuel rates",
+   "url": "https://www.gov.uk/guidance/advisory-fuel-rates",
+   "path": "/guidance/advisory-fuel-rates",
+   "date": "2026-11-18T14:49:15Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out about advisory fuel rates for company car users, when you can use them, and how they're calculated.",
+   "categories": [
+    "nic"
+   ],
+   "hasBody": true,
+   "changeNote": "The fuel prices for petrol, diesel, liquefied petroleum gas and electric have been updated. The advisory fuel rates from 1 December 2026 have been added.",
+   "firstPublished": "2020-07-21T00:00:00+01:00"
+  },
+  {
+   "id": "0765f705d0670090",
+   "title": "Draft regulations: updating definitions in the Bank Levy legislation",
+   "url": "https://www.gov.uk/government/consultations/draft-regulations-updating-definitions-in-the-bank-levy-legislation",
+   "path": "/government/consultations/draft-regulations-updating-definitions-in-the-bank-levy-legislation",
+   "date": "2026-11-18T14:07:48Z",
+   "type": "consultation_outcome",
+   "source": "HMRC (GOV.UK)",
+   "description": "This technical consultation seeks views on draft regulations to update some definitions used in the Bank Levy legislation.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "Published consultation outcome.",
+   "firstPublished": "2026-07-16T09:30:08+01:00"
+  },
   {
    "id": "6506dd451f5f023c",
    "title": "Payroll Giving agencies approved by HMRC",
@@ -1392,39 +1609,6 @@
     "relevance": "medium",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-15T12:45:41.732Z"
-   }
-  },
-  {
-   "id": "1ace804503660064",
-   "title": "Check if a business is registered for money laundering supervision",
-   "url": "https://www.gov.uk/guidance/money-laundering-regulations-supervised-business-register",
-   "path": "/guidance/money-laundering-regulations-supervised-business-register",
-   "date": "2026-11-13T10:40:45Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out if a business has registered with HMRC under the money laundering regulations and report them if they have not.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "The Supervised Business Register has been updated.",
-   "firstPublished": "2014-05-23T00:00:00+01:00",
-   "ai": {
-    "summary": "The Supervised Business Register lists businesses registered with HMRC for money‑laundering supervision. Check the register to confirm a client’s status; if absent, verify directly, encourage registration, and report unregistered firms to HMRC. Registration does not endorse commercial dealings.",
-    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who need to confirm AML supervision status of counterparties",
-    "effectiveDate": "2026-11-13",
-    "actions": [
-     "Search the Supervised Business Register for the client’s registration details",
-     "If not found, contact the business to confirm its registration status",
-     "Advise the business to register if it carries out regulated activities",
-     "Report any unregistered business to HMRC"
-    ],
-    "legislationRefs": [
-     "money laundering regulations"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-13T19:38:52.220Z"
    }
   },
   {
@@ -4179,6 +4363,37 @@
    }
   },
   {
+   "id": "b4162a42dbaeceb2",
+   "title": "Using the VAT margin scheme for hire-purchase and part-exchange goods",
+   "url": "https://www.gov.uk/guidance/using-the-vat-margin-scheme-for-hire-purchase-and-part-exchange-goods",
+   "path": "/guidance/using-the-vat-margin-scheme-for-hire-purchase-and-part-exchange-goods",
+   "date": "2026-11-02T09:00:03Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to account for VAT using the VAT margin scheme for hire-purchase sales and part-exchange goods.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-02T09:00:03+00:00",
+   "ai": {
+    "summary": "Guidance on VAT margin scheme for hire‑purchase and part‑exchange: record sales price in stock book, keep or reference hire‑purchase agreements, don’t show VAT on finance charges, and include part‑exchange values in margin calculations.",
+    "whoAffected": "Businesses that arrange hire‑purchase agreements or accept part‑exchange goods under the VAT margin scheme, including SMEs, owner‑managed firms and the self‑employed.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Record the hire‑purchase sales price in your margin‑scheme stock book and ensure finance charges are itemised separately with no VAT shown",
+     "Attach a copy of the hire‑purchase agreement to the customer invoice or cross‑reference it, and keep required documents if the agreement is held by the finance company",
+     "Do not show VAT on the hire‑purchase agreement or the customer’s sales invoice; treat finance charges as VAT‑free",
+     "When accepting part‑exchange, include the agreed part‑exchange value in the selling price, record the correct purchase price in the stock book, and obtain a purchase invoice if the goods come from a VAT‑registered dealer"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T19:29:15.231Z"
+   }
+  },
+  {
    "id": "8142319e50cfe0fd",
    "title": "Recording VAT margin scheme transactions",
    "url": "https://www.gov.uk/guidance/recording-vat-margin-scheme-transactions",
@@ -4217,37 +4432,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-02T21:42:12.628Z"
-   }
-  },
-  {
-   "id": "b4162a42dbaeceb2",
-   "title": "Using the VAT margin scheme for hire-purchase and part-exchange goods",
-   "url": "https://www.gov.uk/guidance/using-the-vat-margin-scheme-for-hire-purchase-and-part-exchange-goods",
-   "path": "/guidance/using-the-vat-margin-scheme-for-hire-purchase-and-part-exchange-goods",
-   "date": "2026-11-02T09:00:03Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to account for VAT using the VAT margin scheme for hire-purchase sales and part-exchange goods.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-11-02T09:00:03+00:00",
-   "ai": {
-    "summary": "Guidance on VAT margin scheme for hire‑purchase and part‑exchange: record sales price in stock book, keep or reference hire‑purchase agreements, don’t show VAT on finance charges, and include part‑exchange values in margin calculations.",
-    "whoAffected": "Businesses that arrange hire‑purchase agreements or accept part‑exchange goods under the VAT margin scheme, including SMEs, owner‑managed firms and the self‑employed.",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Record the hire‑purchase sales price in your margin‑scheme stock book and ensure finance charges are itemised separately with no VAT shown",
-     "Attach a copy of the hire‑purchase agreement to the customer invoice or cross‑reference it, and keep required documents if the agreement is held by the finance company",
-     "Do not show VAT on the hire‑purchase agreement or the customer’s sales invoice; treat finance charges as VAT‑free",
-     "When accepting part‑exchange, include the agreed part‑exchange value in the selling price, record the correct purchase price in the stock book, and obtain a purchase invoice if the goods come from a VAT‑registered dealer"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-03T19:29:15.231Z"
    }
   },
   {
@@ -4625,39 +4809,6 @@
    }
   },
   {
-   "id": "477bee5faab8d927",
-   "title": "Buying and selling houseboats and caravans using the VAT margin scheme",
-   "url": "https://www.gov.uk/guidance/buying-and-selling-houseboats-and-caravans-using-the-vat-margin-scheme",
-   "path": "/guidance/buying-and-selling-houseboats-and-caravans-using-the-vat-margin-scheme",
-   "date": "2026-11-02T09:00:01Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "If you sell second-hand houseboats or caravans in the UK, find out how to use a margin scheme to account for VAT.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "Guidance from withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been added.",
-   "firstPublished": "2021-12-23T00:00:00+00:00",
-   "ai": {
-    "summary": "VAT margin scheme can be used when selling second‑hand houseboats or caravans that aren’t zero‑rated, and for standard‑rated fixtures or removable contents attached to zero‑rated units. Calculate the standard‑rated element as 10% of the tax‑exclusive price, keep supporting records, and report on the VAT return.",
-    "whoAffected": "Businesses and self‑employed traders who buy and sell second‑hand houseboats or caravans, including any standard‑rated fixtures or removable contents attached to zero‑rated units.",
-    "effectiveDate": "2026-11-02T09:00:01Z",
-    "actions": [
-     "Confirm the sale meets margin‑scheme eligibility (second‑hand and not zero‑rated or includes standard‑rated contents with a zero‑rated unit)",
-     "Calculate the standard‑rated element as 10% of the tax‑exclusive selling price or use a fair alternative method",
-     "Retain calculations and normal margin‑scheme records for each transaction",
-     "Show the margin‑scheme purchase and sale on the VAT return"
-    ],
-    "legislationRefs": [
-     "VAT notice 701/20"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-03T19:29:34.295Z"
-   }
-  },
-  {
    "id": "ced372f13fe717b2",
    "title": "Buying and selling second-hand motor vehicles using the VAT margin scheme",
    "url": "https://www.gov.uk/guidance/buying-and-selling-second-hand-motor-vehicles-using-the-vat-margin-scheme",
@@ -4696,6 +4847,39 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-05T19:55:24.877Z"
+   }
+  },
+  {
+   "id": "477bee5faab8d927",
+   "title": "Buying and selling houseboats and caravans using the VAT margin scheme",
+   "url": "https://www.gov.uk/guidance/buying-and-selling-houseboats-and-caravans-using-the-vat-margin-scheme",
+   "path": "/guidance/buying-and-selling-houseboats-and-caravans-using-the-vat-margin-scheme",
+   "date": "2026-11-02T09:00:01Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "If you sell second-hand houseboats or caravans in the UK, find out how to use a margin scheme to account for VAT.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Guidance from withdrawn VAT notice, The Margin and Global Accounting Scheme (VAT Notice 718), has been added.",
+   "firstPublished": "2021-12-23T00:00:00+00:00",
+   "ai": {
+    "summary": "VAT margin scheme can be used when selling second‑hand houseboats or caravans that aren’t zero‑rated, and for standard‑rated fixtures or removable contents attached to zero‑rated units. Calculate the standard‑rated element as 10% of the tax‑exclusive price, keep supporting records, and report on the VAT return.",
+    "whoAffected": "Businesses and self‑employed traders who buy and sell second‑hand houseboats or caravans, including any standard‑rated fixtures or removable contents attached to zero‑rated units.",
+    "effectiveDate": "2026-11-02T09:00:01Z",
+    "actions": [
+     "Confirm the sale meets margin‑scheme eligibility (second‑hand and not zero‑rated or includes standard‑rated contents with a zero‑rated unit)",
+     "Calculate the standard‑rated element as 10% of the tax‑exclusive selling price or use a fair alternative method",
+     "Retain calculations and normal margin‑scheme records for each transaction",
+     "Show the margin‑scheme purchase and sale on the VAT return"
+    ],
+    "legislationRefs": [
+     "VAT notice 701/20"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-03T19:29:34.295Z"
    }
   },
   {
@@ -8225,7 +8409,7 @@
    "title": "Founders’ Relief: technical consultation",
    "url": "https://www.gov.uk/government/consultations/founders-relief-technical-consultation",
    "path": "/government/consultations/founders-relief-technical-consultation",
-   "date": "2026-10-28T13:40:29Z",
+   "date": "2026-10-28T13:40:00Z",
    "type": "open_consultation",
    "source": "HM Treasury (GOV.UK)",
    "description": " This consultation seeks views on the implementation of a new tax relief for founders and significant early investors in high-growth, innovative UK companies.",
@@ -8236,21 +8420,21 @@
    "changeNote": "First published.",
    "firstPublished": "2026-10-28T13:40:29+00:00",
    "ai": {
-    "summary": "Founders’ Relief introduces a 10% CGT rate for qualifying share disposals by founders and early investors, with a £10 million lifetime gain limit, effective from 6 April 2027, subject to conditions to be finalised.",
-    "whoAffected": "Founders and significant early investors in high‑growth, innovative UK companies who dispose of qualifying shares.",
-    "effectiveDate": "6 April 2027",
+    "summary": "Founders’ Relief introduces a 10% CGT rate on qualifying share disposals for founders and early investors, with a £10 million lifetime gain limit, effective from 6 April 2027, pending Finance Bill 2026/27.",
+    "whoAffected": "Founders and significant early investors in high‑growth, innovative UK companies (individuals)",
+    "effectiveDate": "On or after 6 April 2027",
     "actions": [
-     "Review client shareholdings to identify potential eligibility for Founders’ Relief.",
-     "Assess whether disposals meet the individual, company and growth‑innovation conditions under the proposed rules.",
-     "Advise clients on timing of disposals to benefit from the 10% CGT rate from 6 April 2027.",
-     "Monitor consultation responses and the upcoming Finance Bill 2026/27 for final design."
+     "Check client shareholdings to determine if they meet the individual, company and growth‑and‑innovation conditions for the relief",
+     "Calculate potential CGT savings using the 10% rate and £10 million lifetime limit",
+     "Advise clients on timing disposals to take advantage of the relief from 6 April 2027",
+     "Monitor the Finance Bill 2026/27 for final legislative details"
     ],
     "legislationRefs": [
      "Finance Bill 2026/27"
     ],
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-05T13:14:35.230Z"
+    "generatedAt": "2026-11-18T20:28:05.043Z"
    }
   },
   {
@@ -8509,37 +8693,6 @@
    }
   },
   {
-   "id": "b066379bffe2c78f",
-   "title": "Government letter to the British Business Bank",
-   "url": "https://www.gov.uk/government/publications/government-letter-to-the-british-business-bank",
-   "path": "/government/publications/government-letter-to-the-british-business-bank",
-   "date": "2026-10-28T13:30:26Z",
-   "type": "correspondence",
-   "source": "HM Treasury (GOV.UK)",
-   "description": "Letter setting out a strategic steer to the British Business Bank following a £2 billion funding uplift at Budget 2026.",
-   "categories": [
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:30:26+00:00",
-   "ai": {
-    "summary": "The government directs the British Business Bank to focus its £2 billion uplift on regional growth, reindustrialisation and UK security, with up to £900 million earmarked for defence and dual‑use technologies.",
-    "whoAffected": "British Business Bank (and businesses seeking its investment)",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Monitor British Business Bank announcements for new regional and reindustrialisation funding programmes",
-     "Advise SME clients on eligibility for potential defence and dual‑use technology finance",
-     "Identify and target sectors aligned with the Bank’s strategic focus",
-     "Prepare client documentation to meet likely investment criteria"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-06T19:22:16.816Z"
-   }
-  },
-  {
    "id": "c8d543da5b338e59",
    "title": "Modernisation of the UK’s Distributions Framework",
    "url": "https://www.gov.uk/government/publications/modernisation-of-the-uks-distributions-framework",
@@ -8715,6 +8868,22 @@
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-10T19:42:14.605Z"
    }
+  },
+  {
+   "id": "b066379bffe2c78f",
+   "title": "Government letter to the British Business Bank",
+   "url": "https://www.gov.uk/government/publications/government-letter-to-the-british-business-bank",
+   "path": "/government/publications/government-letter-to-the-british-business-bank",
+   "date": "2026-10-28T13:30:00Z",
+   "type": "correspondence",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "Letter setting out a strategic steer to the British Business Bank following a £2 billion funding uplift at Budget 2026.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-10-28T13:30:00+00:00"
   },
   {
    "id": "1a2f3a7a4aad80e7",
@@ -10501,39 +10670,6 @@
     "relevance": "medium",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-02T17:52:10.555Z"
-   }
-  },
-  {
-   "id": "6a58c1a01ec673c1",
-   "title": "Check if you meet HMRC's conditions to register as a tax adviser",
-   "url": "https://www.gov.uk/guidance/check-if-you-meet-hmrcs-conditions-to-register-as-a-tax-adviser",
-   "path": "/guidance/check-if-you-meet-hmrcs-conditions-to-register-as-a-tax-adviser",
-   "date": "2026-10-02T13:55:48Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Check if you meet the conditions to register with HMRC and interact on behalf of your clients.",
-   "categories": [
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Updates have been made to section 'Who needs to meet the conditions' and 'The registration conditions'.",
-   "firstPublished": "2026-02-17T09:15:00+00:00",
-   "ai": {
-    "summary": "If you charge for dealing with HMRC on clients' tax affairs, you must register for an agent services account, prove AML supervision, and ensure your business and its relevant individuals meet specific conditions, including no outstanding tax, sanctions, or disqualifications.",
-    "whoAffected": "Businesses that provide paid tax‑advice services and any officers (relevant individuals) of those businesses, including SMEs, owner‑managed firms and self‑employed advisers.",
-    "effectiveDate": "2026-10-02",
-    "actions": [
-     "Check whether your paid tax‑advice activities require registration with HMRC.",
-     "Identify relevant individuals – all officers if ≤5, or select at least five officers if >5, based on strategic tax‑advice roles.",
-     "Obtain and retain evidence of approved anti‑money‑laundering supervision before applying.",
-     "Apply for an agent services account and be prepared to supply additional evidence if HMRC requests it."
-    ],
-    "legislationRefs": [
-     "Mandatory Tax Adviser Registration manual"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-02T17:52:13.893Z"
    }
   },
   {
@@ -17650,19 +17786,6 @@
    ]
   },
   {
-   "id": "cd2f0640445b10bc",
-   "title": "The Income Tax (Digital Obligations) Regulations 2026",
-   "url": "https://www.legislation.gov.uk/id/uksi/2026/336",
-   "date": "2026-03-24T16:13:34.447Z",
-   "type": "legislation",
-   "source": "legislation.gov.uk",
-   "description": "These Regulations make provision requiring the use of software to deliver information relating to income tax to His Majesty’s Revenue and Customs (“HMRC”) and to keep related records.",
-   "categories": [
-    "legislation",
-    "personal"
-   ]
-  },
-  {
    "id": "66f7b2c35c372be9",
    "title": "Finance Act 2026",
    "url": "https://www.legislation.gov.uk/id/ukpga/2026/11",
@@ -18603,37 +18726,6 @@
    }
   },
   {
-   "id": "4cae9e2d2d5b3525",
-   "title": "Overseas companies: restricting disclosure of your address",
-   "url": "https://www.gov.uk/government/publications/restricting-disclosure-of-your-address",
-   "path": "/government/publications/restricting-disclosure-of-your-address",
-   "date": "2026-02-01T00:01:10Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "How to restrict access to your address on the public register.",
-   "categories": [
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "Fees updated.",
-   "firstPublished": "2016-04-05T00:00:00+01:00",
-   "ai": {
-    "summary": "Guide for directors or permanent representatives of overseas companies with a UK establishment to apply to hide their residential address and suppress specified addresses on the public register.",
-    "whoAffected": "Directors or permanent representatives of overseas companies with a registered UK establishment, and advisers to such companies",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Identify clients who are directors or permanent representatives of overseas companies with a UK establishment",
-     "Prepare and submit the application to restrict disclosure of their residential address",
-     "Ensure any specified addresses are suppressed from the public register",
-     "Advise clients on ongoing compliance and record‑keeping requirements"
-    ],
-    "legislationRefs": [],
-    "relevance": "medium",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-17T09:24:05.779Z"
-   }
-  },
-  {
    "id": "6ff6479113693613",
    "title": "Confirmation statement for a Scottish limited partnership (SLP CS01)",
    "url": "https://www.gov.uk/government/publications/confirmation-statement-for-a-scottish-limited-partnership-slp-cs01",
@@ -18663,6 +18755,37 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-18T09:40:03.547Z"
+   }
+  },
+  {
+   "id": "4cae9e2d2d5b3525",
+   "title": "Overseas companies: restricting disclosure of your address",
+   "url": "https://www.gov.uk/government/publications/restricting-disclosure-of-your-address",
+   "path": "/government/publications/restricting-disclosure-of-your-address",
+   "date": "2026-02-01T00:01:10Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "How to restrict access to your address on the public register.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "Fees updated.",
+   "firstPublished": "2016-04-05T00:00:00+01:00",
+   "ai": {
+    "summary": "Guide for directors or permanent representatives of overseas companies with a UK establishment to apply to hide their residential address and suppress specified addresses on the public register.",
+    "whoAffected": "Directors or permanent representatives of overseas companies with a registered UK establishment, and advisers to such companies",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients who are directors or permanent representatives of overseas companies with a UK establishment",
+     "Prepare and submit the application to restrict disclosure of their residential address",
+     "Ensure any specified addresses are suppressed from the public register",
+     "Advise clients on ongoing compliance and record‑keeping requirements"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-17T09:24:05.779Z"
    }
   },
   {
