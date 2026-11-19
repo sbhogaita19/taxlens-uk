@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-18T20:28:08.092Z",
+ "generatedAt": "2026-11-19T14:28:00.538Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,324 @@
    "label": "Other"
   }
  ],
- "count": 623,
+ "count": 629,
  "items": [
+  {
+   "id": "84b2d1b13a6b60e0",
+   "title": "Agent Update: issue 149",
+   "url": "https://www.gov.uk/government/publications/agent-update-issue-149",
+   "path": "/government/publications/agent-update-issue-149",
+   "date": "2026-11-19T12:00:03Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use the Agent Update to get updates and information from HMRC if you're a tax agent or adviser.",
+   "categories": [
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-19T12:00:03+00:00",
+   "ai": {
+    "summary": "Agent Updates give tax agents and advisers HMRC news, reminders and links; next issue due Dec 2026 covering tax, borders, MTD, services and engagement. Sign up for email alerts to stay informed.",
+    "whoAffected": "Tax agents and advisers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Sign up for email reminders to be notified of future Agent Update editions",
+     "Review the December 2026 edition for updates on tax, borders and trade, Making Tax Digital, HMRC agent services and agent engagement",
+     "Use the links in the Agent Update to access HMRC information, services and support",
+     "Incorporate relevant updates into client advice for SMEs and self‑employed clients"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-19T14:27:25.771Z"
+   }
+  },
+  {
+   "id": "1cb7dfa021ceadf9",
+   "title": "Compliance checks: Automatic Exchange of Information obligations — CC/FS46",
+   "url": "https://www.gov.uk/government/publications/compliance-checks-automatic-exchange-of-information-obligations-ccfs46",
+   "path": "/government/publications/compliance-checks-automatic-exchange-of-information-obligations-ccfs46",
+   "date": "2026-11-19T11:02:47Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "This factsheet contains information about failure to comply with Automatic Exchange of Information (AEOI) obligations.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "The helpsheet now explains that this penalty information only applies up to and including 15 July 2025.",
+   "firstPublished": "2025-04-14T08:18:00+01:00",
+   "ai": {
+    "summary": "This factsheet outlines that penalty information for Automatic Exchange of Information compliance checks applies only up to 15 July 2025.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "up to and including 15 July 2025",
+    "actions": [
+     "Not stated in source"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-19T14:27:28.104Z"
+   }
+  },
+  {
+   "id": "bb6303c31e8bde4b",
+   "title": "Compliance checks: penalties for failure to comply with Automatic Exchange of Information obligations — CC/FS46a",
+   "url": "https://www.gov.uk/government/publications/compliance-checks-penalties-for-failure-to-comply-with-automatic-exchange-of-information-obligations-ccfs46a",
+   "path": "/government/publications/compliance-checks-penalties-for-failure-to-comply-with-automatic-exchange-of-information-obligations-ccfs46a",
+   "date": "2026-11-19T11:02:18Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "This factsheet explains the penalties we may charge if you fail to meet your Automatic Exchange of Information (AEOI) obligations from 16 July 2025.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-19T11:02:18+00:00",
+   "ai": {
+    "summary": "The factsheet warns of penalties for not meeting Automatic Exchange of Information (AEOI) obligations that start on 16 July 2025.",
+    "whoAffected": "Anyone with AEOI obligations, including SME owners, OMBs and the self‑employed",
+    "effectiveDate": "16 July 2025",
+    "actions": [
+     "Check which of your clients have AEOI reporting duties",
+     "Confirm they understand the 16 July 2025 start date",
+     "Help them put systems in place to meet the obligations",
+     "Monitor compliance to avoid potential penalties"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-19T14:27:30.939Z"
+   }
+  },
+  {
+   "id": "fe5912fc92092a64",
+   "title": "Find out about the Non-Statutory Clearance Service",
+   "url": "https://www.gov.uk/guidance/non-statutory-clearance-service-guidance",
+   "path": "/guidance/non-statutory-clearance-service-guidance",
+   "date": "2026-11-19T10:09:18Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to use the Non-Statutory Clearance Service offered by HMRC for all customers and their advisers.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "Annex D ‘VAT Clearances’ and references to it have been removed. A link to apply for VAT clearances using the online service has been added to the ‘Where you should send your application’ section.",
+   "firstPublished": "2013-08-08T00:00:00+01:00",
+   "ai": {
+    "summary": "The Non‑Statutory Clearance Service lets advisers seek written HMRC advice on transactions where legislation is unclear, provided genuine uncertainty exists and other routes are unsuitable. Applications must follow annex checklists, be submitted by email (or online for VAT), and include accurate information; HMRC replies within 28 days.",
+    "whoAffected": "SMEs, owner‑managed businesses, self‑employed individuals and their advisers who need HMRC guidance on uncertain tax treatments",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check that the transaction is not covered by a more appropriate clearance or approval route",
+     "Confirm genuine uncertainty after reading relevant guidance and contacting helplines",
+     "Prepare the application using the correct annex checklist and submit via the specified email address or online form for VAT",
+     "Provide accurate information and respond to any HMRC request within 30 days"
+    ],
+    "legislationRefs": [
+     "chapter 5 part 5 Income Tax (Trading and Other Income) Act 2005",
+     "Income Tax Act 2007"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-19T14:27:34.489Z"
+   }
+  },
+  {
+   "id": "e99c69edbf71c934",
+   "title": "Non-Statutory Clearance Service guidance: annexes",
+   "url": "https://www.gov.uk/government/publications/non-statutory-clearance-service-guidance-annexes",
+   "path": "/government/publications/non-statutory-clearance-service-guidance-annexes",
+   "date": "2026-11-19T10:09:08Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Annexes to be used alongside HMRC guidance on the Non-Statutory Clearance Service.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "The attachment 'Annex D', for VAT clearances has been removed from the page. Users can now use the online service to apply for VAT clearances.",
+   "firstPublished": "2013-08-08T00:00:00+01:00",
+   "ai": {
+    "summary": "Before using HMRC’s clearance service, ensure the transaction isn’t covered by another route, review the Non‑Statutory Clearance Service guidance, and note that Annex D for VAT clearances has been removed – use the online service to apply for VAT clearances.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals needing VAT clearance or other HMRC clearances",
+    "effectiveDate": "2026-11-19",
+    "actions": [
+     "Check the transaction isn’t covered by a more appropriate clearance or approval route",
+     "Consult HMRC’s Non‑Statutory Clearance Service guidance to see if it answers the query",
+     "Apply for VAT clearances using the online service (Annex D has been removed)",
+     "Document the guidance reviewed and the clearance application process"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-19T14:27:37.298Z"
+   }
+  },
+  {
+   "id": "1e91af1f3a58084b",
+   "title": "Verify your identity for Companies House",
+   "url": "https://www.gov.uk/guidance/verify-your-identity-for-companies-house",
+   "path": "/guidance/verify-your-identity-for-companies-house",
+   "date": "2026-11-19T10:07:06Z",
+   "type": "detailed_guide",
+   "source": "Companies House (GOV.UK)",
+   "description": "Use this service to verify your identity for Companies House.",
+   "categories": [
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "The 12 month transition period for identity verification has now passed.",
+   "firstPublished": "2025-04-08T00:00:00+01:00",
+   "ai": {
+    "summary": "Companies House identity verification is now done via GOV.UK One Login using a biometric passport, UK photo driving licence, BRP, BRC or FWP, plus current address. Expired documents have limited use; otherwise verify via bank details, Post Office or an authorised corporate service provider.",
+    "whoAffected": "Directors, company secretaries, owners and self‑employed individuals needing to register or manage a company, and the accountants or solicitors acting as Authorised Corporate Service Providers.",
+    "effectiveDate": "2026-11-19",
+    "actions": [
+     "Ask clients to verify online with GOV.UK One Login using a valid biometric passport, UK driving licence, BRP, BRC or FWP and their current address",
+     "If clients lack those IDs, guide them to the bank/building society verification route or in‑person Post Office check, ensuring they provide NI number and security answers",
+     "Recommend using an Authorised Corporate Service Provider (e.g., your practice) to verify identity on their behalf when they cannot use the online routes",
+     "Remind clients to use a unique email for One Login and to keep identity documents up‑to‑date to avoid fraud"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-19T14:27:40.207Z"
+   }
+  },
+  {
+   "id": "d29484c3a1a16698",
+   "title": "How to use the voluntary payrolling benefits and expenses online service",
+   "url": "https://www.gov.uk/guidance/paying-your-employees-expenses-and-benefits-through-your-payroll",
+   "path": "/guidance/paying-your-employees-expenses-and-benefits-through-your-payroll",
+   "date": "2026-11-19T10:01:34Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use the payrolling benefits and expenses online service if you voluntarily collect tax on benefits and expenses through your payroll.",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "A link has been added to more information about benefits that must be payrolled.",
+   "firstPublished": "2014-06-12T00:00:00+01:00",
+   "ai": {
+    "summary": "Employers can use the online service to voluntarily payroll most benefits and expenses, registering before the tax year starts. Certain benefits (cars, vans, medical insurance) are excluded. From 6 April 2027 payrolled benefits are taxed in real‑time via payroll and no P11D forms are needed.",
+    "whoAffected": "Employers of SMEs and their agents who provide benefits and expenses to employees",
+    "effectiveDate": "6 April 2027",
+    "actions": [
+     "Check whether any provided benefits (cars, vans, medical insurance) are exempt from registration",
+     "Register for voluntary payrolling via the HMRC online service before the start of the tax year",
+     "Add the cash equivalent of payrolled benefits to payroll, deduct Income Tax and Class 1A NICs in real time",
+     "Stop using P11D/P11D(b) for payrolled benefits after 6 April 2027"
+    ],
+    "legislationRefs": [
+     "P11D",
+     "P11D(b)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-19T14:27:43.983Z"
+   }
+  },
+  {
+   "id": "5514b585c5c48cc6",
+   "title": "Changes to Individual Savings Account reporting",
+   "url": "https://www.gov.uk/government/publications/changes-to-individual-savings-account-reporting",
+   "path": "/government/publications/changes-to-individual-savings-account-reporting",
+   "date": "2026-11-19T08:25:07Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about changes to reporting requirements for Individual Savings Account managers and other changes to the Individual Savings Account rules.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-19T08:25:07+00:00"
+  },
+  {
+   "id": "694d994c8cfcb275",
+   "title": "Companies House approach to non-compliance with mandatory identity verification",
+   "url": "https://www.gov.uk/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification",
+   "path": "/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification",
+   "date": "2026-11-19T00:01:00Z",
+   "type": "policy_paper",
+   "source": "Companies House (GOV.UK)",
+   "description": "How Companies House will use its enforcement powers in relation to non-compliance with identity verification requirements. ",
+   "categories": [
+    "compliance",
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Content updated for the end of the 12 month identity verification transition period.",
+   "firstPublished": "2025-11-17T00:00:00+00:00",
+   "ai": {
+    "summary": "Companies House will monitor and adjust its enforcement approach for mandatory identity verification over time.",
+    "whoAffected": "Companies required to complete mandatory identity verification",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor Companies House guidance for updates",
+     "Check client filings for identity verification compliance",
+     "Advise clients to maintain up‑to‑date verification documents",
+     "Be prepared to adjust advice if enforcement approach changes"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-19T14:27:48.364Z"
+   }
+  },
+  {
+   "id": "a875ffdcb5cfe9e1",
+   "title": "Companies House personal codes for identity verification",
+   "url": "https://www.gov.uk/guidance/companies-house-personal-codes-for-identity-verification",
+   "path": "/guidance/companies-house-personal-codes-for-identity-verification",
+   "date": "2026-11-19T00:01:00Z",
+   "type": "detailed_guide",
+   "source": "Companies House (GOV.UK)",
+   "description": "How to use and manage the personal code you receive when you verify your identity for Companies House.",
+   "categories": [
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Content updated for the end of the 12 month identity verification transition period.",
+   "firstPublished": "2025-09-01T00:00:00+01:00"
+  },
+  {
+   "id": "15978868bc0d0d0b",
+   "title": "Verifying your identity for Companies House",
+   "url": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house",
+   "path": "/guidance/verifying-your-identity-for-companies-house",
+   "date": "2026-11-19T00:01:00Z",
+   "type": "detailed_guide",
+   "source": "Companies House (GOV.UK)",
+   "description": "You need to prove who you are to set up, run, own or control a company in the UK.",
+   "categories": [
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Content updated for the end of the 12 month identity verification transition period.",
+   "firstPublished": "2025-03-18T00:00:00+00:00"
+  },
+  {
+   "id": "35c50c70ae133454",
+   "title": "Provide identity verification details for a person with significant control (PSC)",
+   "url": "https://www.gov.uk/guidance/provide-psc-verification",
+   "path": "/guidance/provide-psc-verification",
+   "date": "2026-11-19T00:01:00Z",
+   "type": "detailed_guide",
+   "source": "Companies House (GOV.UK)",
+   "description": "Use this service to provide the Companies House personal code and identity verification statement for a PSC, or to request an extension.",
+   "categories": [
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Content updated for the end of the 12 month identity verification transition period.",
+   "firstPublished": "2025-11-18T00:00:00+00:00"
+  },
   {
    "id": "06634c678abaa726",
    "title": "Manage a registered pension scheme",
@@ -3463,40 +3779,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-05T13:13:46.596Z"
-   }
-  },
-  {
-   "id": "d29484c3a1a16698",
-   "title": "How to use the voluntary payrolling benefits and expenses online service",
-   "url": "https://www.gov.uk/guidance/paying-your-employees-expenses-and-benefits-through-your-payroll",
-   "path": "/guidance/paying-your-employees-expenses-and-benefits-through-your-payroll",
-   "date": "2026-11-05T00:05:03Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Use the payrolling benefits and expenses online service if you voluntarily collect tax on benefits and expenses through your payroll.",
-   "categories": [
-    "paye"
-   ],
-   "hasBody": true,
-   "changeNote": "The service has reopened for registrations and cancellations. Living accommodation and loans can now be payrolled. Guidance on how voluntary payrolling will work from 6 April 2027 has been added.",
-   "firstPublished": "2014-06-12T00:00:00+01:00",
-   "ai": {
-    "summary": "Employers can use the online service to register, cancel or view voluntary payrolling of benefits and expenses, but not for company cars, vans or medical insurance. Register before the tax year starts. From 6 April 2027 tax and NIC are handled in real‑time via payroll, eliminating P11D reporting for payrolled benefits.",
-    "whoAffected": "Employers (including SMEs, owner‑managed businesses and the self‑employed) who voluntarily payroll benefits and expenses, and agents acting on their behalf",
-    "effectiveDate": "6 April 2027",
-    "actions": [
-     "Advise clients to register for voluntary payrolling before the start of the relevant tax year using the online service",
-     "Ensure payroll software adds cash equivalents to pay and deducts Income Tax and Class 1A NIC in real time from 6 April 2027, removing the need for P11D/P11D(b) for payrolled benefits",
-     "For any benefits not payrolled, instruct clients to submit electronic P11Ds and use form P11D for excluded employees",
-     "Check that excluded employees are not re‑added to the same benefit within the same tax year"
-    ],
-    "legislationRefs": [
-     "form P11D",
-     "form P11D(b)"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-05T19:55:16.738Z"
    }
   },
   {
@@ -13717,40 +13999,6 @@
    }
   },
   {
-   "id": "fe5912fc92092a64",
-   "title": "Find out about the Non-Statutory Clearance Service",
-   "url": "https://www.gov.uk/guidance/non-statutory-clearance-service-guidance",
-   "path": "/guidance/non-statutory-clearance-service-guidance",
-   "date": "2026-08-26T10:36:47Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to use the Non-Statutory Clearance Service offered by HMRC for all customers and their advisers.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "The section 'When you can rely on information or advice given by HMRC' has been updated with information on when a clearance applies to you.",
-   "firstPublished": "2013-08-08T00:00:00+01:00",
-   "ai": {
-    "summary": "The Non‑Statutory Clearance Service lets clients request written HMRC advice on transactions where legislation is unclear, provided they have genuine uncertainty and have used all guidance. HMRC replies within 28 days (12 weeks for VAT), may request more info, and advice can be relied on if accurate and followed exactly.",
-    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who need HMRC advice on transactions not covered by a statutory clearance",
-    "effectiveDate": "2026-08-26",
-    "actions": [
-     "Check whether the transaction is covered by a statutory clearance or another appropriate route before applying for non‑statutory clearance",
-     "Confirm the client has read all relevant guidance, cannot find the needed information and has a genuine uncertainty about the legislation",
-     "Prepare the application using the correct annex checklist (A‑E) and submit it to the specified email address, ensuring all information is accurate and complete",
-     "If HMRC requests additional information, provide it within 30 days and advise the client that the advice can be relied on only if the supplied details remain correct and the transaction is carried out as described"
-    ],
-    "legislationRefs": [
-     "Income Tax (Trading and Other Income) Act 2005",
-     "Income Tax Act 2007"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-07T11:49:16.359Z"
-   }
-  },
-  {
    "id": "3d43401d7ccc5ade",
    "title": "Apply for a certificate of residence or letter of confirmation",
    "url": "https://www.gov.uk/guidance/apply-for-a-certificate-of-residence-or-letter-of-confirmation",
@@ -15465,37 +15713,6 @@
    ]
   },
   {
-   "id": "a875ffdcb5cfe9e1",
-   "title": "Companies House personal codes for identity verification",
-   "url": "https://www.gov.uk/guidance/companies-house-personal-codes-for-identity-verification",
-   "path": "/guidance/companies-house-personal-codes-for-identity-verification",
-   "date": "2026-07-13T10:24:32Z",
-   "type": "detailed_guide",
-   "source": "Companies House (GOV.UK)",
-   "description": "How to use and manage the personal code you receive when you verify your identity for Companies House.",
-   "categories": [
-    "reporting"
-   ],
-   "hasBody": true,
-   "changeNote": "Edited section 'If you verified using GOV.UK One Login'. If you verified your identity after 8 July 2026, we sent your personal code to your email address. ",
-   "firstPublished": "2025-09-01T00:00:00+01:00",
-   "ai": {
-    "summary": "A personal code, an 11‑character identifier issued after identity verification, must be used by directors and PSCs to confirm verification on filings from 18 Nov 2025. Codes can be viewed via Companies House ‘Manage account’, emailed after 8 Jul 2026, or sent by an ACSP, and should be kept safe but can be shared with agents.",
-    "whoAffected": "Company directors, persons with significant control, anyone filing on behalf of a company, authorised corporate service providers and their clients (including SMEs and self‑employed directors).",
-    "effectiveDate": "18 November 2025",
-    "actions": [
-     "Verify client identity via GOV.UK One Login or an ACSP and obtain the personal code",
-     "Advise clients to save the code in their Companies House account and record it securely",
-     "Use the same personal code for each confirmation statement, director appointment or filing from 18 Nov 2025",
-     "If details mismatch or code is compromised, update date of birth in WebFiling or contact Companies House/ACSP to replace the code"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-11T11:25:35.977Z"
-   }
-  },
-  {
    "id": "13d96e6344f5ab1a",
    "title": "TPR Regulation Action Plan: Growth Goals 2026 to 2027",
    "url": "https://www.gov.uk/government/publications/tpr-regulation-action-plan-growth-goals-2026-to-2027",
@@ -16701,37 +16918,6 @@
    }
   },
   {
-   "id": "15978868bc0d0d0b",
-   "title": "Verifying your identity for Companies House",
-   "url": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house",
-   "path": "/guidance/verifying-your-identity-for-companies-house",
-   "date": "2026-06-01T08:34:23Z",
-   "type": "detailed_guide",
-   "source": "Companies House (GOV.UK)",
-   "description": "You need to prove who you are to set up, run, own or control a company in the UK.",
-   "categories": [
-    "reporting"
-   ],
-   "hasBody": true,
-   "changeNote": "In the 'Who needs to verify' section, removed 'someone who files for a company - for example, a company secretary' .",
-   "firstPublished": "2025-03-18T00:00:00+00:00",
-   "ai": {
-    "summary": "Identity verification is now a legal requirement for directors, equivalent officers, overseas directors, persons with significant control and authorised corporate service providers. Verification is done once via GOV.UK One Login or an ACSP, producing a personal code that must be used in filings. Non‑compliance can lead to offences and penalties.",
-    "whoAffected": "Directors, members, general partners, managing officers, overseas company directors, persons with significant control (PSCs), and Authorised Corporate Service Providers (ACSPs). Future groups include people who file at Companies House, limited partnerships, corporate directors, corporate LLP members and corporate PSC officers.",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Identify which of your clients fall into the director, PSC or ACSP categories and need to verify their identity",
-     "Advise clients to verify using the GOV.UK One Login service or an authorised corporate service provider, providing required documents",
-     "Ensure clients obtain their Companies House personal code and include it in confirmation statements, director appointments and PSC filings",
-     "Monitor verification deadlines and warn clients of the offences and penalties for non‑compliance"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-15T09:57:00.870Z"
-   }
-  },
-  {
    "id": "dd791693a5d9e68c",
    "title": "Using an Authorised Corporate Service Provider (ACSP) to verify your identity",
    "url": "https://www.gov.uk/guidance/using-an-authorised-corporate-service-provider-acsp-to-verify-your-identity",
@@ -17314,37 +17500,6 @@
     "relevance": "low",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-13T19:15:37.399Z"
-   }
-  },
-  {
-   "id": "1e91af1f3a58084b",
-   "title": "Verify your identity for Companies House",
-   "url": "https://www.gov.uk/guidance/verify-your-identity-for-companies-house",
-   "path": "/guidance/verify-your-identity-for-companies-house",
-   "date": "2026-04-30T13:36:01Z",
-   "type": "detailed_guide",
-   "source": "Companies House (GOV.UK)",
-   "description": "Use this service to verify your identity for Companies House.",
-   "categories": [
-    "reporting"
-   ],
-   "hasBody": true,
-   "changeNote": "Section added with guidance about 'If your photo ID has expired'.",
-   "firstPublished": "2025-04-08T00:00:00+01:00",
-   "ai": {
-    "summary": "From 18 Nov 2025 identity verification is legally required for company directors and persons with significant control, with a 12‑month transition to meet due dates. Acceptable IDs include biometric passports, UK driving licences, BRP, BRC or FWP, with specific rules for expired documents.",
-    "whoAffected": "Company directors, persons with significant control (PSCs) of SMEs and owner‑managed businesses, and accountants acting as Authorised Corporate Service Providers (ACSPs) who verify client identities",
-    "effectiveDate": "18 November 2025",
-    "actions": [
-     "Check each client’s directors and PSCs have verified identity before their due dates",
-     "Confirm clients have an acceptable photo ID and current address details ready for GOV.UK One Login",
-     "Assist clients to create or sign into a GOV.UK One Login and complete verification, or arrange verification through an ACSP",
-     "Ensure clients use a unique email for verification and avoid using expired documents outside the permitted periods"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-15T16:58:27.027Z"
    }
   },
   {
@@ -18726,6 +18881,37 @@
    }
   },
   {
+   "id": "4cae9e2d2d5b3525",
+   "title": "Overseas companies: restricting disclosure of your address",
+   "url": "https://www.gov.uk/government/publications/restricting-disclosure-of-your-address",
+   "path": "/government/publications/restricting-disclosure-of-your-address",
+   "date": "2026-02-01T00:01:10Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "How to restrict access to your address on the public register.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "Fees updated.",
+   "firstPublished": "2016-04-05T00:00:00+01:00",
+   "ai": {
+    "summary": "Guide for directors or permanent representatives of overseas companies with a UK establishment to apply to hide their residential address and suppress specified addresses on the public register.",
+    "whoAffected": "Directors or permanent representatives of overseas companies with a registered UK establishment, and advisers to such companies",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Identify clients who are directors or permanent representatives of overseas companies with a UK establishment",
+     "Prepare and submit the application to restrict disclosure of their residential address",
+     "Ensure any specified addresses are suppressed from the public register",
+     "Advise clients on ongoing compliance and record‑keeping requirements"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-10-17T09:24:05.779Z"
+   }
+  },
+  {
    "id": "6ff6479113693613",
    "title": "Confirmation statement for a Scottish limited partnership (SLP CS01)",
    "url": "https://www.gov.uk/government/publications/confirmation-statement-for-a-scottish-limited-partnership-slp-cs01",
@@ -18755,37 +18941,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-18T09:40:03.547Z"
-   }
-  },
-  {
-   "id": "4cae9e2d2d5b3525",
-   "title": "Overseas companies: restricting disclosure of your address",
-   "url": "https://www.gov.uk/government/publications/restricting-disclosure-of-your-address",
-   "path": "/government/publications/restricting-disclosure-of-your-address",
-   "date": "2026-02-01T00:01:10Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "How to restrict access to your address on the public register.",
-   "categories": [
-    "compliance"
-   ],
-   "hasBody": true,
-   "changeNote": "Fees updated.",
-   "firstPublished": "2016-04-05T00:00:00+01:00",
-   "ai": {
-    "summary": "Guide for directors or permanent representatives of overseas companies with a UK establishment to apply to hide their residential address and suppress specified addresses on the public register.",
-    "whoAffected": "Directors or permanent representatives of overseas companies with a registered UK establishment, and advisers to such companies",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Identify clients who are directors or permanent representatives of overseas companies with a UK establishment",
-     "Prepare and submit the application to restrict disclosure of their residential address",
-     "Ensure any specified addresses are suppressed from the public register",
-     "Advise clients on ongoing compliance and record‑keeping requirements"
-    ],
-    "legislationRefs": [],
-    "relevance": "medium",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-17T09:24:05.779Z"
    }
   },
   {
@@ -19030,33 +19185,6 @@
    "categories": [
     "legislation"
    ]
-  },
-  {
-   "id": "694d994c8cfcb275",
-   "title": "Companies House approach to non-compliance with mandatory identity verification",
-   "url": "https://www.gov.uk/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification",
-   "path": "/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification",
-   "date": "2025-12-05T15:32:05Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "How Companies House will use its enforcement powers in relation to non-compliance with identity verification requirements. ",
-   "categories": [
-    "compliance",
-    "reporting"
-   ],
-   "hasBody": true,
-   "changeNote": "Added Welsh translation. ",
-   "firstPublished": "2025-11-17T00:00:00+00:00",
-   "ai": {
-    "summary": "Companies House will monitor and adjust its enforcement approach for mandatory identity verification over time.",
-    "whoAffected": "Not stated in source",
-    "effectiveDate": "Not stated in source",
-    "actions": [],
-    "legislationRefs": [],
-    "relevance": "medium",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-19T10:48:45.375Z"
-   }
   },
   {
    "id": "cdc5d448484a701b",
