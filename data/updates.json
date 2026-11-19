@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-19T14:28:00.538Z",
+ "generatedAt": "2026-11-19T20:31:22.604Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,174 @@
    "label": "Other"
   }
  ],
- "count": 629,
+ "count": 633,
  "items": [
+  {
+   "id": "da151196805da7ac",
+   "title": "The Value Added Tax (Drugs and Medicines) (Health and Welfare) Order 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/1217",
+   "date": "2026-11-19T17:11:38.456Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "",
+   "categories": [
+    "legislation",
+    "vat"
+   ]
+  },
+  {
+   "id": "df10b42a381d1de2",
+   "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
+   "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
+   "path": "/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
+   "date": "2026-11-19T16:26:33Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "This list includes details of businesses and sole traders that have had their ACSP status either suspended or ceased (removed).",
+   "categories": [
+    "reporting",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated list of ceased and suspended ACSPs.",
+   "firstPublished": "2025-10-10T00:00:00+01:00",
+   "ai": {
+    "summary": "The UK regulator suspends ACSP status when investigating AML supervision, Companies House filings, or identity verification issues, and ceases it if the provider withdraws or breaches legal duties. The list of ceased or suspended ACSPs is refreshed bi‑weekly and may lag up to two weeks after a change.",
+    "whoAffected": "Authorised Corporate Service Providers (businesses and sole traders) and their clients, including SMEs, owner‑managed businesses and the self‑employed who rely on ACSP services",
+    "effectiveDate": "2026-11-19",
+    "actions": [
+     "Check the bi‑weekly ceased/suspended ACSP list regularly",
+     "Confirm any ACSP your clients use is active before advising",
+     "If an ACSP is suspended or ceased, recommend an alternative compliant provider",
+     "Document any ACSP status changes in client records"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-19T20:30:54.576Z"
+   }
+  },
+  {
+   "id": "78342a547af3ccf8",
+   "title": "Penalties for Making Tax Digital for Income Tax",
+   "url": "https://www.gov.uk/guidance/penalties-for-making-tax-digital-for-income-tax",
+   "path": "/guidance/penalties-for-making-tax-digital-for-income-tax",
+   "date": "2026-11-19T15:51:09Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Changes to late submission penalties and late payment penalties if you need to use Making Tax Digital for Income Tax.",
+   "categories": [
+    "personal",
+    "selfemployed",
+    "mtd",
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "The guidance has been updated to confirm that if you need to use Making Tax Digital for Income Tax from the 2027 to 2028 tax year, there are no penalty points for late quarterly updates for your first tax year. ",
+   "firstPublished": "2026-03-12T11:47:00+00:00",
+   "ai": {
+    "summary": "New point‑based late‑submission penalties and proportionate late‑payment penalties replace current rules for those using Making Tax Digital for Income Tax, applying from the tax year they join (e.g., from 6 April 2026). First year has no points for quarterly updates, but points apply for missed return deadlines.",
+    "whoAffected": "Individuals required or volunteering to use Making Tax Digital for Income Tax, including self‑employed and owner‑managed businesses, except non‑resident company, trust/estate and partnership returns",
+    "effectiveDate": "From the tax year you join Making Tax Digital for Income Tax (e.g., 6 April 2026)",
+    "actions": [
+     "Check when each client must join MTD for Income Tax and note the new penalty regime that will apply",
+     "Ensure clients set up digital records and submit quarterly updates on time; remind them the first year carries no penalty points for quarterly updates",
+     "Monitor penalty points and advise clients to keep below the 4‑point threshold (or 2‑point if exempt) by filing on time for 12 months and clearing any outstanding updates for 24 months",
+     "Advise clients to contact HMRC within 30 days of a late payment to arrange a payment plan and avoid late‑payment penalties"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-19T20:30:58.502Z"
+   }
+  },
+  {
+   "id": "f2a27c727ff1b90b",
+   "title": "Penalties for Making Tax Digital for Income Tax volunteers",
+   "url": "https://www.gov.uk/guidance/penalties-for-income-tax-self-assessment-volunteers",
+   "path": "/guidance/penalties-for-income-tax-self-assessment-volunteers",
+   "date": "2026-11-19T15:51:07Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Changes to late submission penalties and late payment penalties if you’re volunteering to use Making Tax Digital for Income Tax. ",
+   "categories": [
+    "personal",
+    "selfemployed",
+    "mtd",
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "The guidance has been updated to confirm that if you need to use Making Tax Digital for Income Tax from the 2027 to 2028 tax year (and are no longer volunteering), there are no penalty points for late quarterly updates for your first tax year. ",
+   "firstPublished": "2024-04-05T00:00:00+01:00",
+   "ai": {
+    "summary": "New points‑based late submission and proportionate late payment penalties replace current ones for those using Making Tax Digital for Income Tax, except for certain non‑resident, trust, estate and partnership returns. Volunteers avoid quarterly update penalties, but once signed up the new rules apply and cannot be reverted.",
+    "whoAffected": "Taxpayers (including SMEs, owner‑managed businesses and self‑employed) who sign up for Making Tax Digital for Income Tax, their authorised agents, and volunteers using the scheme",
+    "effectiveDate": "From 6 April 2026 or 6 April 2027, depending on HMRC confirmation that the new penalties apply to you",
+    "actions": [
+     "Confirm whether each client has signed up to Making Tax Digital for Income Tax and whether HMRC has notified them of the new penalties",
+     "Discuss the new penalty regime with clients and obtain their agreement when signing them up, noting it cannot be changed later",
+     "Ensure clients keep digital records and submit quarterly updates on time; note no penalty points for the first year if they are not volunteering",
+     "Advise clients to contact HMRC early if they cannot pay, set up payment plans and monitor penalty points to avoid escalation"
+    ],
+    "legislationRefs": [
+     "Making Tax Digital for Income Tax"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-19T20:31:02.131Z"
+   }
+  },
+  {
+   "id": "5372e55c281b3285",
+   "title": "Sign up your client for Making Tax Digital for Income Tax",
+   "url": "https://www.gov.uk/guidance/sign-up-your-client-for-making-tax-digital-for-income-tax",
+   "path": "/guidance/sign-up-your-client-for-making-tax-digital-for-income-tax",
+   "date": "2026-11-19T15:50:10Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "If you're an agent, use the online service to sign up your client for Making Tax Digital for Income Tax.",
+   "categories": [
+    "personal",
+    "selfemployed",
+    "mtd"
+   ],
+   "hasBody": true,
+   "changeNote": "The guidance has been updated to confirm that if your client needs to use Making Tax Digital for Income Tax from the 2027 to 2028 tax year, there are no penalty points for late quarterly updates for their first tax year. ",
+   "firstPublished": "2020-02-10T00:00:00+00:00"
+  },
+  {
+   "id": "f488eecb8d1d1d20",
+   "title": "Sign up for Making Tax Digital for Income Tax",
+   "url": "https://www.gov.uk/guidance/sign-up-for-making-tax-digital-for-income-tax",
+   "path": "/guidance/sign-up-for-making-tax-digital-for-income-tax",
+   "date": "2026-11-19T15:50:04Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "If you're a sole trader or landlord, use the online service to sign up for Making Tax Digital for Income Tax.",
+   "categories": [
+    "personal",
+    "selfemployed",
+    "mtd"
+   ],
+   "hasBody": true,
+   "changeNote": "The guidance has been updated to confirm that if you need to use Making Tax Digital for Income Tax from the 2027 to 2028 tax year, there are no penalty points for late quarterly updates for your first tax year. ",
+   "firstPublished": "2020-02-10T00:00:00+00:00",
+   "ai": {
+    "summary": "Sole traders and landlords must use Making Tax Digital for Income Tax if their self‑employment or property turnover exceeds £50,000 from 6 April 2026 or £30,000 from 6 April 2027. Sign‑up is required before the relevant tax year, with no penalty points for late quarterly updates in the first year.",
+    "whoAffected": "Sole traders, landlords and their agents whose qualifying self‑employment or property income exceeds the thresholds (£50,000 or £30,000)",
+    "effectiveDate": "6 April 2026 (for income over £50,000) and 6 April 2027 (for income over £30,000)",
+    "actions": [
+     "Check each client’s qualifying income against the £50,000 and £30,000 thresholds",
+     "Confirm the client is registered for Self Assessment and has filed a return in the past 2 years",
+     "Advise the client to obtain compatible MTD software and sign up via the HMRC online service before the deadline",
+     "If the client uses an agent, offer to sign them up on their behalf and ensure their income details are up to date"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-19T20:31:06.854Z"
+   }
+  },
   {
    "id": "84b2d1b13a6b60e0",
    "title": "Agent Update: issue 149",
@@ -2125,39 +2291,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-12T13:46:51.307Z"
-   }
-  },
-  {
-   "id": "df10b42a381d1de2",
-   "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
-   "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
-   "path": "/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
-   "date": "2026-11-12T13:40:08Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "This list includes details of businesses and sole traders that have had their ACSP status either suspended or ceased (removed).",
-   "categories": [
-    "reporting",
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated list of ceased or suspended Authorised Corporate Service Providers (ACSPs). ",
-   "firstPublished": "2025-10-10T00:00:00+01:00",
-   "ai": {
-    "summary": "HMRC suspends ACSP status during investigations or for missing AML, filing or identity checks, and ceases it if they withdraw or breach legal duties. The list of changes is refreshed every two weeks.",
-    "whoAffected": "Authorised Corporate Service Providers (businesses and sole traders) and any SME or self‑employed client that uses their services",
-    "effectiveDate": "2026-11-12",
-    "actions": [
-     "Check the HMRC ceased/suspended ACSP list at least every two weeks",
-     "Confirm the ACSP status of any corporate service provider your clients use",
-     "Advise clients to avoid providers that are listed as ceased or suspended",
-     "Ensure any client that is an ACSP complies with AML supervision, Companies House filings and identity‑verification requirements",
-     ""
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-12T13:46:54.142Z"
    }
   },
   {
@@ -9165,7 +9298,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-10-28T13:30:00+00:00"
+   "firstPublished": "2026-10-28T13:30:00+00:00",
+   "ai": {
+    "summary": "The Chancellor and Business and Trade Secretary directed the British Business Bank to focus its £2 billion uplift on regional growth, reindustrialisation and UK security, with up to £900 million for defence and dual‑use technologies.",
+    "whoAffected": "British Business Bank",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor British Business Bank announcements for new regional investment programmes",
+     "Identify client projects that align with reindustrialisation or defence/dual‑use sectors",
+     "Advise clients on applying for potential funding under the £900 million allocation",
+     "Update client planning to reflect a stronger focus on regional growth"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-19T20:31:21.103Z"
+   }
   },
   {
    "id": "1a2f3a7a4aad80e7",
@@ -10339,39 +10487,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-13T12:44:20.556Z"
-   }
-  },
-  {
-   "id": "f488eecb8d1d1d20",
-   "title": "Sign up for Making Tax Digital for Income Tax",
-   "url": "https://www.gov.uk/guidance/sign-up-for-making-tax-digital-for-income-tax",
-   "path": "/guidance/sign-up-for-making-tax-digital-for-income-tax",
-   "date": "2026-10-13T09:07:56Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "If you're a sole trader or landlord, use the online service to sign up for Making Tax Digital for Income Tax.",
-   "categories": [
-    "personal",
-    "selfemployed",
-    "mtd"
-   ],
-   "hasBody": true,
-   "changeNote": "The option to prove your identity by answering questions has been removed.",
-   "firstPublished": "2020-02-10T00:00:00+00:00",
-   "ai": {
-    "summary": "Sole traders and landlords with self‑employment or property turnover over £50,000 must sign up for Making Tax Digital for Income Tax by 6 April 2026, using compatible software to send quarterly updates and a Self Assessment return. HMRC will auto‑enrol from September 2026 if not signed up.",
-    "whoAffected": "Sole traders, landlords and their agents whose combined self‑employment and property income exceeds £50,000; also anyone who may be exempt or whose income has ceased must confirm their status.",
-    "effectiveDate": "From 6 April 2026 for required users; HMRC will begin auto‑enrolments in September 2026 for the 2026‑2027 tax year.",
-    "actions": [
-     "Check client’s qualifying self‑employment and property income against the £50,000 threshold using the previous year’s tax return",
-     "Confirm the client is registered for Self Assessment and has filed a return in the last two years",
-     "Ensure the client has compatible Making Tax Digital software and advise on keeping digital records and sending quarterly updates",
-     "If not already signed up, either sign the client up as an agent or guide them to sign up before September 2026, and verify any exemptions or ceased income are reported"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-13T12:44:23.663Z"
    }
   },
   {
