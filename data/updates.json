@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-19T20:31:22.604Z",
+ "generatedAt": "2026-11-20T14:04:12.426Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,73 @@
    "label": "Other"
   }
  ],
- "count": 633,
+ "count": 634,
  "items": [
+  {
+   "id": "a42a170e16287053",
+   "title": "Tell HMRC you have completed a National Minimum Wage review",
+   "url": "https://www.gov.uk/guidance/tell-hmrc-you-have-completed-a-national-minimum-wage-review",
+   "path": "/guidance/tell-hmrc-you-have-completed-a-national-minimum-wage-review",
+   "date": "2026-11-20T13:08:12Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Send a declaration to tell HMRC you have completed a National Minimum Wage review.",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "Added Welsh translation.",
+   "firstPublished": "2026-11-16T10:06:00+00:00",
+   "ai": {
+    "summary": "Businesses that receive an HMRC request to review National Minimum Wage must complete an online declaration confirming the review is done; no penalty if errors are found, but failure to declare can lead to penalties and public naming.",
+    "whoAffected": "Businesses that have been asked by HMRC to review whether they are paying the correct National Minimum Wage",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Check if the client has received an HMRC letter requesting a National Minimum Wage review",
+     "Ensure an authorised person (director, secretary, partner, trustee or authorised agent) completes the declaration",
+     "Gather required details: PAYE reference, 3‑letter code, and any underpayment information (workers affected, amount owed, reasons)",
+     "Submit the declaration via HMRC’s online service and keep the confirmation; advise the client that HMRC will review and may request further information"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-20T14:03:48.227Z"
+   }
+  },
+  {
+   "id": "68933f3d6d06aee4",
+   "title": "Value Added Tax (Drugs and Medicines) (Health and Welfare) Order 2026",
+   "url": "https://www.gov.uk/government/publications/value-added-tax-drugs-and-medicines-health-and-welfare-order-2026",
+   "path": "/government/publications/value-added-tax-drugs-and-medicines-health-and-welfare-order-2026",
+   "date": "2026-11-20T08:29:32Z",
+   "type": "policy_paper",
+   "source": "HMRC (GOV.UK)",
+   "description": "This tax information and impact note is about the VAT zero rate for medicines applying to qualifying medicines dispensed under the supervision of registered pharmacists.",
+   "categories": [
+    "vat",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-20T08:29:32+00:00",
+   "ai": {
+    "summary": "The VAT zero‑rate for medicines now also covers qualifying medicines dispensed by a registered pharmacy technician or other pharmacy staff under a pharmacist’s supervision, matching the treatment for pharmacist‑dispensed medicines.",
+    "whoAffected": "Registered pharmacy technicians, other pharmacy staff working under a registered pharmacist’s supervision, and pharmacies dispensing qualifying medicines",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm client is a pharmacy dispensing qualifying medicines",
+     "Verify that medicines dispensed by technicians or supervised staff qualify for the zero‑rate",
+     "Adjust VAT accounting to apply the zero‑rate to those sales",
+     "Maintain records showing pharmacist supervision for audit purposes"
+    ],
+    "legislationRefs": [
+     "Value Added Tax (Drugs and Medicines) (Health and Welfare) Order 2026"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-20T14:03:51.248Z"
+   }
+  },
   {
    "id": "da151196805da7ac",
    "title": "The Value Added Tax (Drugs and Medicines) (Health and Welfare) Order 2026",
@@ -81,7 +146,7 @@
    "date": "2026-11-19T17:11:38.456Z",
    "type": "legislation",
    "source": "legislation.gov.uk",
-   "description": "",
+   "description": "This Order, which comes into force on 10th December 2026, makes amendments to Group 12 of Schedule 8 (“Group 12”) and Group 7 of Schedule 9 (“Group 7”) to the Value Added Tax Act 1994 (“VATA”). Group 12 zero-rates supplies of drugs, medicines and aids for the disabled. Group 7 exempts specified supplies of health and welfare from value added tax (“VAT”).",
    "categories": [
     "legislation",
     "vat"
@@ -205,7 +270,22 @@
    ],
    "hasBody": true,
    "changeNote": "The guidance has been updated to confirm that if your client needs to use Making Tax Digital for Income Tax from the 2027 to 2028 tax year, there are no penalty points for late quarterly updates for their first tax year. ",
-   "firstPublished": "2020-02-10T00:00:00+00:00"
+   "firstPublished": "2020-02-10T00:00:00+00:00",
+   "ai": {
+    "summary": "Agents must sign up self‑employed or property clients with qualifying income over £50,000 (or £30,000) for Making Tax Digital for Income Tax by 6 April 2026 or 6 April 2027, using an agent services account, client authorisation and compatible software; no penalty points apply in the first year.",
+    "whoAffected": "Self‑employed sole traders, landlords and other owners of property income whose qualifying income exceeds the thresholds, and the agents who act for them",
+    "effectiveDate": "6 April 2026",
+    "actions": [
+     "Check the client’s qualifying income from the previous Self Assessment return to determine the required start date",
+     "Obtain the client’s authorisation and ensure you have an active agent services account",
+     "Collect the client’s personal and business details and sign them up via the online service before the relevant deadline",
+     "Confirm compatible MTD software is in place and advise the client on quarterly updates and filing obligations"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-20T14:03:54.747Z"
+   }
   },
   {
    "id": "f488eecb8d1d1d20",
@@ -474,7 +554,22 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-19T08:25:07+00:00"
+   "firstPublished": "2026-11-19T08:25:07+00:00",
+   "ai": {
+    "summary": "ISA managers must report subscription events and transfers to HMRC each month from 6 April 2028 and provide more investor details. The rule reducing the cash ISA limit for under‑65s is revoked, keeping the £20,000 limit from 6 April 2027.",
+    "whoAffected": "Individual Savings Account managers and their investors (including people under 65)",
+    "effectiveDate": "Reporting changes: 6 April 2028; limit revocation: 6 April 2027",
+    "actions": [
+     "Notify ISA manager clients of the new monthly reporting requirement from April 2028",
+     "Update client systems to capture subscription events, transfers and additional investor information",
+     "Check that client processes collect the required investor/account details",
+     "Confirm the cash ISA limit remains £20,000, so no limit change is needed"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-20T14:03:57.604Z"
+   }
   },
   {
    "id": "694d994c8cfcb275",
@@ -522,7 +617,22 @@
    ],
    "hasBody": true,
    "changeNote": "Content updated for the end of the 12 month identity verification transition period.",
-   "firstPublished": "2025-09-01T00:00:00+01:00"
+   "firstPublished": "2025-09-01T00:00:00+01:00",
+   "ai": {
+    "summary": "A personal code is an 11‑character identifier given after identity verification, used by directors and PSCs to confirm they are verified when filing with Companies House. It can be retrieved via the Manage account page or emailed, saved to an account, and must be kept secure.",
+    "whoAffected": "Directors, persons with significant control, and anyone filing on their behalf (including accountants) who have verified their identity through GOV.UK One Login or an ACSP.",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Tell clients to sign in to Companies House ‘Manage account’ to view or retrieve their personal code (or check the email sent after verification)",
+     "Advise clients to save their personal code to a Companies House account for easy access",
+     "Confirm the client’s date of birth on Companies House records and update via WebFiling if incorrect",
+     "If a code is compromised, instruct the client to contact Companies House to have it changed and a new code emailed"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-20T14:04:00.806Z"
+   }
   },
   {
    "id": "15978868bc0d0d0b",
@@ -554,7 +664,22 @@
    ],
    "hasBody": true,
    "changeNote": "Content updated for the end of the 12 month identity verification transition period.",
-   "firstPublished": "2025-11-18T00:00:00+00:00"
+   "firstPublished": "2025-11-18T00:00:00+00:00",
+   "ai": {
+    "summary": "PSC individuals must verify their identity with Companies House, obtain a personal code and submit it within 14 days of being added to the register. Non‑compliance can lead to penalties and a public note. Extensions can be requested before the deadline.",
+    "whoAffected": "Persons with significant control (PSC) of a company and anyone providing identity verification details on their behalf",
+    "effectiveDate": "2026-11-19",
+    "actions": [
+     "Advise PSC clients to verify identity and obtain their Companies House personal code within 14 days of registration",
+     "Guide them to sign in to the service and submit the personal code with the verification statement",
+     "If the deadline cannot be met, help them request a 14‑day extension before it expires",
+     "Ensure clients understand penalties for non‑compliance and the public register note"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-20T14:04:05.099Z"
+   }
   },
   {
    "id": "06634c678abaa726",
@@ -771,7 +896,25 @@
    ],
    "hasBody": true,
    "changeNote": "Published consultation outcome.",
-   "firstPublished": "2026-07-16T09:30:08+01:00"
+   "firstPublished": "2026-07-16T09:30:08+01:00",
+   "ai": {
+    "summary": "Draft regulations propose updating and deleting definitions in the Bank Levy legislation to match regulatory changes, effective for chargeable periods starting 1 January 2027.",
+    "whoAffected": "Entities subject to the Bank Levy",
+    "effectiveDate": "1 January 2027",
+    "actions": [
+     "Monitor the consultation outcome and any final regulations",
+     "Review the updated definitions for bank clients",
+     "Advise affected banks on compliance timelines",
+     "Update internal guidance and client checklists"
+    ],
+    "legislationRefs": [
+     "Schedule 19 to the Finance Act 2011",
+     "The Bank Levy (Loss Absorbing Instruments) Regulations 2020"
+    ],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-20T14:04:09.382Z"
+   }
   },
   {
    "id": "6506dd451f5f023c",
@@ -1298,37 +1441,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-16T13:40:58.074Z"
-   }
-  },
-  {
-   "id": "a42a170e16287053",
-   "title": "Tell HMRC you have completed a National Minimum Wage review",
-   "url": "https://www.gov.uk/guidance/tell-hmrc-you-have-completed-a-national-minimum-wage-review",
-   "path": "/guidance/tell-hmrc-you-have-completed-a-national-minimum-wage-review",
-   "date": "2026-11-16T10:06:39Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Send a declaration to tell HMRC you have completed a National Minimum Wage review and report any underpayments you have found.",
-   "categories": [
-    "paye"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-11-16T10:06:39+00:00",
-   "ai": {
-    "summary": "If HMRC asks you to review National Minimum Wage payments, you must submit a declaration confirming the review and any underpayments; no penalty if errors are reported, otherwise penalties and possible public naming may apply.",
-    "whoAffected": "Businesses that have been asked by HMRC to review their National Minimum Wage payments, including SMEs and owner‑managed firms",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Check whether the client has received an HMRC letter requesting a National Minimum Wage review",
-     "Ensure an authorised person (director, secretary, partner, trustee or authorised agent) completes the declaration",
-     "Collect the PAYE reference, letter code, number of workers affected, amount owed and reasons for any underpayment",
-     "Submit the declaration online via HMRC’s service and keep a record of the submission"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-16T13:41:01.321Z"
    }
   },
   {
