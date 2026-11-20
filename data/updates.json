@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-20T14:04:12.426Z",
+ "generatedAt": "2026-11-20T20:09:13.365Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,117 @@
    "label": "Other"
   }
  ],
- "count": 634,
+ "count": 637,
  "items": [
+  {
+   "id": "bf0d994628cf6a18",
+   "title": "How to report Automatic Exchange of Information",
+   "url": "https://www.gov.uk/guidance/how-to-report-automatic-exchange-of-information",
+   "path": "/guidance/how-to-report-automatic-exchange-of-information",
+   "date": "2026-11-20T16:03:45Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how to report information to HMRC using the Automatic Exchange of Information (AEOI) if you are a financial institution.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "Added information about changes to the Automatic Exchange of Information service, including when the service will close.",
+   "firstPublished": "2019-04-16T00:00:00+01:00",
+   "ai": {
+    "summary": "Financial institutions must file AEOI returns by 31 May each year and use the online system, which closes on 15 December 2026. A new service launches from January 2027, requiring separate CRS and FATCA XML schemas for all submissions, including past years. Late filings may incur penalties.",
+    "whoAffected": "Financial institutions that report under the Automatic Exchange of Information (AEOI) to HMRC",
+    "effectiveDate": "15 December 2026 (service closure) and 1 January 2027 (new reporting schemas)",
+    "actions": [
+     "Submit any outstanding AEOI reports, corrections or amendments before 15 Dec 2026",
+     "Confirm clients are aware they do not need to re‑register for the new service launching Jan 2027",
+     "Prepare to use the amended CRS XML schema and the IRS FATCA schema for all submissions from 1 Jan 2027",
+     "Update reporting procedures to handle CRS and FATCA separately and ensure only Latin‑1 characters are used in submissions"
+    ],
+    "legislationRefs": [
+     "United States Foreign Account Tax Compliance Act (FATCA)",
+     "Common Reporting Standard (CRS)",
+     "section III A of the CRS",
+     "section IEIM402565 of the International Exchange of Information Manual",
+     "section IEIM404020 of the International Exchange of Information Manual",
+     "section IEIM404040 of the International Exchange of Information Manual",
+     "section IEIM401200 of the International Exchange of Information Manual",
+     "section IEIM402040 of the International Exchange of Information Manual"
+    ],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-20T20:08:58.796Z"
+   }
+  },
+  {
+   "id": "60183cee23710c71",
+   "title": "Automatic Exchange of Information: financial institutions",
+   "url": "https://www.gov.uk/guidance/automatic-exchange-of-information-financial-institutions",
+   "path": "/guidance/automatic-exchange-of-information-financial-institutions",
+   "date": "2026-11-20T15:53:57Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How Automatic Exchange of Information may apply to financial institutions, what to report and how to submit the information.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "Added information about changes to the Automatic Exchange of Information service, including when the service will close.",
+   "firstPublished": "2013-01-01T00:00:00+00:00",
+   "ai": {
+    "summary": "Financial institutions must review accounts and report certain holders annually under Automatic Exchange of Information. Reporting includes multi‑owner private accounts and UK‑held overseas entity accounts. The current online service closes 15 Dec 2026; a new service starts Jan 2027. Penalties apply for non‑compliance or late filing.",
+    "whoAffected": "UK‑resident financial institutions and UK branches of overseas financial institutions that hold reportable accounts",
+    "effectiveDate": "1 January 2026 (expanded definitions) and 15 December 2026 (service closure)",
+    "actions": [
+     "Ensure the institution has a Government Gateway ID and is registered for the Automatic Exchange of Information online service",
+     "Identify any private accounts with multiple owners or UK‑held overseas entity accounts that must be reported",
+     "Submit any outstanding returns, corrections or amendments before 15 Dec 2026 when the current service closes",
+     "Prepare to use the new service from Jan 2027; no re‑registration is required"
+    ],
+    "legislationRefs": [
+     "United States Foreign Account Tax Compliance (FATCA)",
+     "Common Reporting Standard"
+    ],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-20T20:09:02.154Z"
+   }
+  },
+  {
+   "id": "dbb04e985de74aec",
+   "title": "Register for Automatic Exchange of Information",
+   "url": "https://www.gov.uk/guidance/register-for-automatic-exchange-of-information",
+   "path": "/guidance/register-for-automatic-exchange-of-information",
+   "date": "2026-11-20T15:38:48Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out how to register for the Automatic Exchange of Information (AEOI) service if you're a financial institution.",
+   "categories": [
+    "iht"
+   ],
+   "hasBody": true,
+   "changeNote": "Added information about changes to the Automatic Exchange of Information service, including when you will no longer be able to register or use the service.",
+   "firstPublished": "2019-04-16T00:00:00+01:00",
+   "ai": {
+    "summary": "Financial institutions and trustee‑documented trusts must register for the AEOI service by 31 Dec 2025, providing Gov‑Gateway credentials and tax identifiers. The current service ends 15 Dec 2026; outstanding reports must be filed before then, and the new service starts Jan 2027.",
+    "whoAffected": "Reporting Financial Institutions, Trustee‑Documented Trusts, and anyone filing returns on behalf of a financial institution",
+    "effectiveDate": "15 December 2026",
+    "actions": [
+     "Confirm whether each client is a Reporting Financial Institution or Trustee‑Documented Trust",
+     "Collect required details (Gov‑Gateway ID, contact info, UTR/NINO, GIIN, principal address)",
+     "Register for AEOI before the 31 Dec 2025 deadline using the existing service",
+     "Submit any pending reports before the service closes on 15 Dec 2026 and plan for the new system from Jan 2027"
+    ],
+    "legislationRefs": [
+     "IEIM400610",
+     "IEIM400990",
+     "FATCA"
+    ],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-20T20:09:05.266Z"
+   }
+  },
   {
    "id": "a42a170e16287053",
    "title": "Tell HMRC you have completed a National Minimum Wage review",
@@ -648,7 +757,22 @@
    ],
    "hasBody": true,
    "changeNote": "Content updated for the end of the 12 month identity verification transition period.",
-   "firstPublished": "2025-03-18T00:00:00+00:00"
+   "firstPublished": "2025-03-18T00:00:00+00:00",
+   "ai": {
+    "summary": "Identity verification is now a legal requirement for directors, equivalent officers, overseas directors, persons with significant control and authorised corporate service providers. Verification is done once via GOV.UK One Login or an ACSP, giving a personal code needed for filings; non‑compliance can lead to offences and penalties.",
+    "whoAffected": "Directors, members, general partners, managing officers, directors of overseas companies registered in the UK, persons with significant control (PSCs) and Authorised Corporate Service Providers (ACSPs).",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Confirm whether the client falls into one of the roles that must verify (director, equivalent, overseas director, PSC or ACSP).",
+     "Advise the client to verify their identity using the free GOV.UK One Login service or through an ACSP, providing the required identity documents.",
+     "Ensure the client receives their Companies House personal code and uses it for any director or PSC filings as required.",
+     "Warn the client of the offence and penalties for failing to verify on time and the need to keep the personal code secure."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-20T20:09:08.773Z"
+   }
   },
   {
    "id": "35c50c70ae133454",
