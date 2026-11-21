@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-20T20:09:13.365Z",
+ "generatedAt": "2026-11-21T13:29:32.924Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -1004,7 +1004,29 @@
    ],
    "hasBody": true,
    "changeNote": "The fuel prices for petrol, diesel, liquefied petroleum gas and electric have been updated. The advisory fuel rates from 1 December 2026 have been added.",
-   "firstPublished": "2020-07-21T00:00:00+01:00"
+   "firstPublished": "2020-07-21T00:00:00+01:00",
+   "ai": {
+    "summary": "Advisory fuel rates apply only to employees with company cars and can be used for reimbursing business travel or recovering private travel fuel costs. Using rates at or below the advisory level avoids taxable profit and Class 1A NI; higher rates require proof of higher fuel cost per mile.",
+    "whoAffected": "Employers with employees who use company cars for business or private travel, including SMEs and owner‑managed businesses that reimburse mileage or recover private fuel costs.",
+    "effectiveDate": "1 December 2026",
+    "actions": [
+     "Check client records to confirm employees using company cars and the purpose of mileage payments",
+     "Apply the advisory fuel rates from 1 Dec 2026 for business travel reimbursements or private‑travel repayments",
+     "Record all private mileage and use the correct or higher rate to avoid fuel benefit charges",
+     "If using rates above the advisory level, retain evidence that the fuel cost per mile is higher"
+    ],
+    "legislationRefs": [
+     "HMRC",
+     "Department for Energy Security and Net Zero",
+     "Office for National Statistics",
+     "Department for Transport",
+     "Fleet Audits",
+     "Zapmap Price Index"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-21T13:29:28.499Z"
+   }
   },
   {
    "id": "0765f705d0670090",
@@ -1215,7 +1237,24 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-18T09:00:07+00:00"
+   "firstPublished": "2026-11-18T09:00:07+00:00",
+   "ai": {
+    "summary": "Since 18 Nov 2025 Companies House requires identity verification for new and existing directors, PSCs and LLP members. Around 90% have complied, improving register accuracy. By end‑Mar 2027 all firms must meet the requirement or face enforcement, including fines and director disqualifications.",
+    "whoAffected": "All UK companies, including SMEs and owner‑managed businesses, their directors, persons with significant control and LLP members",
+    "effectiveDate": "18 November 2025 (mandatory verification start) – compliance deadline by end March 2027",
+    "actions": [
+     "Advise clients to verify identities via GOV.UK One Login or an Authorised Corporate Service Provider promptly",
+     "Check each director/PSC’s verification deadline linked to the next confirmation statement and ensure completion within 14 days where required",
+     "Review client registers for address inaccuracies and correct them before enforcement action",
+     "Prepare for possible enforcement by monitoring Companies House notices and advising on penalties or representation options"
+    ],
+    "legislationRefs": [
+     "Economic Crime and Corporate Transparency Act 2023 (ECCTA)"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-21T13:29:31.423Z"
+   }
   },
   {
    "id": "79c8c8914a82f5d5",
