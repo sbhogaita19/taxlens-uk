@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-21T13:29:32.924Z",
+ "generatedAt": "2026-11-22T13:22:24.956Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -9450,7 +9450,7 @@
    "url": "https://www.gov.uk/government/consultations/corporate-tax-simplification-for-business-investment",
    "path": "/government/consultations/corporate-tax-simplification-for-business-investment",
    "date": "2026-10-28T13:30:00Z",
-   "type": "open_consultation",
+   "type": "closed_consultation",
    "source": "HM Treasury (GOV.UK)",
    "description": "Consultation on areas of the Corporate Tax system where targeted simplification could improve certainty and support investment, growth and competitiveness. ",
    "categories": [
