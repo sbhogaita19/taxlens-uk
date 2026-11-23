@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-22T13:22:24.956Z",
+ "generatedAt": "2026-11-23T16:00:31.122Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -74,6 +74,169 @@
  ],
  "count": 637,
  "items": [
+  {
+   "id": "16bd90092a91b953",
+   "title": "Voluntarily payrolling employees' benefits and expenses",
+   "url": "https://www.gov.uk/guidance/payrolling-tax-employees-benefits-and-expenses-through-your-payroll",
+   "path": "/guidance/payrolling-tax-employees-benefits-and-expenses-through-your-payroll",
+   "date": "2026-11-23T14:14:52Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to voluntarily report expenses and benefits you provide to employees or directors.",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "A link has been added to more information about benefits that must be payrolled.",
+   "firstPublished": "2016-02-05T00:00:00+00:00",
+   "ai": {
+    "summary": "Employers must register for voluntary payrolling of most benefits before the next tax year, keep records, submit P11D(b) and Class 1A NIC by 6 July, notify staff by 1 June, and adjust payroll each payday for the taxable benefit amount.",
+    "whoAffected": "Employers (including SMEs, owner‑managed businesses and self‑employed employers) who wish to voluntarily payroll employee benefits and expenses",
+    "effectiveDate": "Before the start of the following tax year (registration) and by 1 June each year for employee notification; P11D(b) and Class 1A NIC must be submitted by 6 July after the tax year ends",
+    "actions": [
+     "Register for the voluntary payrolling service before the next tax year starts",
+     "Maintain records of all benefits and submit form P11D(b) and Class 1A NIC by 6 July after year‑end",
+     "Send written notification to employees by 1 June detailing payrolled benefits and tax code changes",
+     "Add the calculated taxable amount of each benefit to payroll each payday and adjust tax codes accordingly"
+    ],
+    "legislationRefs": [
+     "form P11D(b)",
+     "Class 1A National Insurance contributions",
+     "PAYE legislation",
+     "Real Time Information (RTI)",
+     "CWG5"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-23T16:00:15.803Z"
+   }
+  },
+  {
+   "id": "1ace804503660064",
+   "title": "Check if a business is registered for money laundering supervision",
+   "url": "https://www.gov.uk/guidance/money-laundering-regulations-supervised-business-register",
+   "path": "/guidance/money-laundering-regulations-supervised-business-register",
+   "date": "2026-11-23T10:55:07Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Find out if a business has registered with HMRC under the money laundering regulations and report them if they have not.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "The Supervised Business Register has been updated.",
+   "firstPublished": "2014-05-23T00:00:00+01:00",
+   "ai": {
+    "summary": "The guide explains how to verify if a business is on HMRC’s Supervised Business Register, what details are shown, and what to do if a required business is not listed, including contacting the business and reporting to HMRC.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who need to confirm a counterpart’s AML supervision status",
+    "effectiveDate": "2026-11-23",
+    "actions": [
+     "Search the Supervised Business Register for the business name or registration number",
+     "If not found, contact the business directly to confirm its registration status",
+     "Advise the business to register for supervision if it should be covered by the money‑laundering regulations",
+     "Report an unregistered business to HMRC as tax fraud or avoidance"
+    ],
+    "legislationRefs": [
+     "money laundering regulations"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-23T16:00:19.039Z"
+   }
+  },
+  {
+   "id": "1a0d963cbc4a4e1c",
+   "title": "PAYE expenses and benefits (EXB) submissions: schema 2026 to 2027",
+   "url": "https://www.gov.uk/government/publications/paye-internet-submissions-expenses-and-benefits-schema-2026-to-2027",
+   "path": "/government/publications/paye-internet-submissions-expenses-and-benefits-schema-2026-to-2027",
+   "date": "2026-11-23T10:42:41Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "The PAYE expenses and benefits (EXB) XML schema and supporting documents for PAYE software developers.",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "The title has been updated to reflect Expenses and Benefits (EXB) submissions. Information about the generic specifications and the Expenses and Benefits Error Catalogue 2026 to 2027 have been added.",
+   "firstPublished": "2026-10-02T14:46:00+01:00",
+   "ai": {
+    "summary": "The 2026‑27 PAYE expenses and benefits XML schema and supporting docs are released for software developers, with test access from Oct 2026 and live service from Apr 2027. Developers must review the schema and generic specs before building.",
+    "whoAffected": "PAYE software developers (and businesses that rely on their software)",
+    "effectiveDate": "April 2027",
+    "actions": [
+     "Review the 2026‑27 EXB XML schema and supporting documents",
+     "Use the test service starting October 2026 to validate integrations",
+     "Update payroll software before the live service launch in April 2027",
+     "Read the generic specifications before beginning development"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-23T16:00:22.254Z"
+   }
+  },
+  {
+   "id": "1e91af1f3a58084b",
+   "title": "Verify your identity for Companies House",
+   "url": "https://www.gov.uk/guidance/verify-your-identity-for-companies-house",
+   "path": "/guidance/verify-your-identity-for-companies-house",
+   "date": "2026-11-23T10:30:02Z",
+   "type": "detailed_guide",
+   "source": "Companies House (GOV.UK)",
+   "description": "Use this service to verify your identity for Companies House.",
+   "categories": [
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Added section 'If you need help from Companies House' about how to get help using webchat and other ways to contact Companies House. ",
+   "firstPublished": "2025-04-08T00:00:00+01:00",
+   "ai": {
+    "summary": "Companies House identity verification can be done online via GOV.UK One Login using a biometric passport, UK driving licence, BRP, BRC or FWP, plus address details. Expired IDs have limited use. Alternatives are bank details or Post Office verification, or an authorised corporate service provider can verify on behalf.",
+    "whoAffected": "Company directors, secretaries, owners, self‑employed founders and accountants or solicitors acting as Authorised Corporate Service Providers who need to verify identity for Companies House filings.",
+    "effectiveDate": "2026-11-23T10:30:02Z",
+    "actions": [
+     "Check the client has an eligible photo ID (biometric passport, UK driving licence, BRP, BRC or FWP) and current address details",
+     "If no eligible ID, advise using bank/building society verification or in‑person verification at the Post Office",
+     "Offer to act as an ACSP to verify the client’s identity, ensuring they supply suitable documents",
+     "Direct any technical issues to the GOV.UK One Login support page or Companies House web‑chat (Mon‑Fri 8:30‑18:00)"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-23T16:00:26.106Z"
+   }
+  },
+  {
+   "id": "35c50c70ae133454",
+   "title": "Provide identity verification details for a person with significant control (PSC)",
+   "url": "https://www.gov.uk/guidance/provide-psc-verification",
+   "path": "/guidance/provide-psc-verification",
+   "date": "2026-11-23T10:30:02Z",
+   "type": "detailed_guide",
+   "source": "Companies House (GOV.UK)",
+   "description": "Use this service to provide the Companies House personal code and identity verification statement for a PSC, or to request an extension.",
+   "categories": [
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Added section 'If you need help from Companies House' about how to get help using webchat and other ways to contact Companies House.",
+   "firstPublished": "2025-11-18T00:00:00+00:00",
+   "ai": {
+    "summary": "PSCs must verify their identity with Companies House, obtain a personal code and submit it within 14 days of being added, or request a 14‑day extension. Failure can lead to penalties and a public note. Support is available via webchat.",
+    "whoAffected": "Persons with Significant Control (PSCs) of companies and anyone providing verification details on their behalf",
+    "effectiveDate": "2026-11-23",
+    "actions": [
+     "Sign in to the service and obtain the Companies House personal code for the PSC",
+     "Submit the personal code and tick the verification statement within 14 days of the PSC being added to the register",
+     "If the deadline cannot be met, request a 14‑day extension before the original deadline expires",
+     "Use the webchat or other contact methods for assistance if you encounter issues"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-23T16:00:29.621Z"
+   }
+  },
   {
    "id": "bf0d994628cf6a18",
    "title": "How to report Automatic Exchange of Information",
@@ -585,37 +748,6 @@
    }
   },
   {
-   "id": "1e91af1f3a58084b",
-   "title": "Verify your identity for Companies House",
-   "url": "https://www.gov.uk/guidance/verify-your-identity-for-companies-house",
-   "path": "/guidance/verify-your-identity-for-companies-house",
-   "date": "2026-11-19T10:07:06Z",
-   "type": "detailed_guide",
-   "source": "Companies House (GOV.UK)",
-   "description": "Use this service to verify your identity for Companies House.",
-   "categories": [
-    "reporting"
-   ],
-   "hasBody": true,
-   "changeNote": "The 12 month transition period for identity verification has now passed.",
-   "firstPublished": "2025-04-08T00:00:00+01:00",
-   "ai": {
-    "summary": "Companies House identity verification is now done via GOV.UK One Login using a biometric passport, UK photo driving licence, BRP, BRC or FWP, plus current address. Expired documents have limited use; otherwise verify via bank details, Post Office or an authorised corporate service provider.",
-    "whoAffected": "Directors, company secretaries, owners and self‑employed individuals needing to register or manage a company, and the accountants or solicitors acting as Authorised Corporate Service Providers.",
-    "effectiveDate": "2026-11-19",
-    "actions": [
-     "Ask clients to verify online with GOV.UK One Login using a valid biometric passport, UK driving licence, BRP, BRC or FWP and their current address",
-     "If clients lack those IDs, guide them to the bank/building society verification route or in‑person Post Office check, ensuring they provide NI number and security answers",
-     "Recommend using an Authorised Corporate Service Provider (e.g., your practice) to verify identity on their behalf when they cannot use the online routes",
-     "Remind clients to use a unique email for One Login and to keep identity documents up‑to‑date to avoid fraud"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-19T14:27:40.207Z"
-   }
-  },
-  {
    "id": "d29484c3a1a16698",
    "title": "How to use the voluntary payrolling benefits and expenses online service",
    "url": "https://www.gov.uk/guidance/paying-your-employees-expenses-and-benefits-through-your-payroll",
@@ -775,37 +907,6 @@
    }
   },
   {
-   "id": "35c50c70ae133454",
-   "title": "Provide identity verification details for a person with significant control (PSC)",
-   "url": "https://www.gov.uk/guidance/provide-psc-verification",
-   "path": "/guidance/provide-psc-verification",
-   "date": "2026-11-19T00:01:00Z",
-   "type": "detailed_guide",
-   "source": "Companies House (GOV.UK)",
-   "description": "Use this service to provide the Companies House personal code and identity verification statement for a PSC, or to request an extension.",
-   "categories": [
-    "reporting"
-   ],
-   "hasBody": true,
-   "changeNote": "Content updated for the end of the 12 month identity verification transition period.",
-   "firstPublished": "2025-11-18T00:00:00+00:00",
-   "ai": {
-    "summary": "PSC individuals must verify their identity with Companies House, obtain a personal code and submit it within 14 days of being added to the register. Non‑compliance can lead to penalties and a public note. Extensions can be requested before the deadline.",
-    "whoAffected": "Persons with significant control (PSC) of a company and anyone providing identity verification details on their behalf",
-    "effectiveDate": "2026-11-19",
-    "actions": [
-     "Advise PSC clients to verify identity and obtain their Companies House personal code within 14 days of registration",
-     "Guide them to sign in to the service and submit the personal code with the verification statement",
-     "If the deadline cannot be met, help them request a 14‑day extension before it expires",
-     "Ensure clients understand penalties for non‑compliance and the public register note"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-20T14:04:05.099Z"
-   }
-  },
-  {
    "id": "06634c678abaa726",
    "title": "Manage a registered pension scheme",
    "url": "https://www.gov.uk/guidance/manage-a-registered-pension-scheme",
@@ -942,39 +1043,6 @@
     "relevance": "medium",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-18T20:27:52.783Z"
-   }
-  },
-  {
-   "id": "1ace804503660064",
-   "title": "Check if a business is registered for money laundering supervision",
-   "url": "https://www.gov.uk/guidance/money-laundering-regulations-supervised-business-register",
-   "path": "/guidance/money-laundering-regulations-supervised-business-register",
-   "date": "2026-11-18T15:09:24Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Find out if a business has registered with HMRC under the money laundering regulations and report them if they have not.",
-   "categories": [
-    "general"
-   ],
-   "hasBody": true,
-   "changeNote": "The Supervised Business Register has been updated.",
-   "firstPublished": "2014-05-23T00:00:00+01:00",
-   "ai": {
-    "summary": "The Supervised Business Register lists businesses registered with HMRC for money‑laundering supervision. It shows registration details and helps verify if a business is compliant; unregistered firms can be reported to HMRC.",
-    "whoAffected": "Businesses required to be supervised under the money laundering regulations and anyone (including SMEs, owner‑managed firms and the self‑employed) checking a partner’s registration status.",
-    "effectiveDate": "2026-11-18",
-    "actions": [
-     "Search the Supervised Business Register to confirm a client’s registration status",
-     "If the business is not listed, contact them directly to verify their registration",
-     "Advise clients that they must register for supervision under the money laundering regulations",
-     "Report any suspected unregistered business to HMRC"
-    ],
-    "legislationRefs": [
-     "money laundering regulations"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-18T20:27:56.351Z"
    }
   },
   {
@@ -4187,45 +4255,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-05T13:13:46.596Z"
-   }
-  },
-  {
-   "id": "16bd90092a91b953",
-   "title": "Voluntarily payrolling employees' benefits and expenses",
-   "url": "https://www.gov.uk/guidance/payrolling-tax-employees-benefits-and-expenses-through-your-payroll",
-   "path": "/guidance/payrolling-tax-employees-benefits-and-expenses-through-your-payroll",
-   "date": "2026-11-05T00:05:03Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to voluntarily report expenses and benefits you provide to employees or directors.",
-   "categories": [
-    "paye"
-   ],
-   "hasBody": true,
-   "changeNote": "The voluntary online payrolling service has reopened for registrations and cancellations. Living accommodation and loans can now be payrolled. Information about benefits you can payroll and Real Driving Emissions 2 has been removed as it is no longer applicable.",
-   "firstPublished": "2016-02-05T00:00:00+00:00",
-   "ai": {
-    "summary": "Employers must register to voluntarily payroll benefits before the next tax year, notify staff by 1 June, calculate cash equivalents and Class 1A NIC, adjust payroll each payday, and file records on P11D(b) by 6 July.",
-    "whoAffected": "Employers, including SMEs, owner‑managed businesses and self‑employed firms that provide benefits or expenses to employees or directors",
-    "effectiveDate": "Notification to employees must be sent by 1 June after the end of each tax year; P11D(b) and Class 1A NIC must be submitted by 6 July after the tax year end",
-    "actions": [
-     "Register for voluntary payrolling of benefits before the start of the next tax year",
-     "Send written notification to employees by 1 June detailing payrolled benefits, tax code changes and optional remuneration",
-     "Calculate cash equivalents, Class 1A NIC and complete form P11D(b) by 6 July after the tax year end",
-     "Add the taxable amount of each benefit to payroll each payday and ensure correct PAYE deductions"
-    ],
-    "legislationRefs": [
-     "form P11D(b)",
-     "Class 1A National Insurance contributions",
-     "PAYE legislation",
-     "Real Time Information (RTI)",
-     "P60",
-     "P45",
-     "CWG5"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-06T12:59:12.891Z"
    }
   },
   {
@@ -11342,37 +11371,6 @@
     "relevance": "medium",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-02T17:52:10.555Z"
-   }
-  },
-  {
-   "id": "1a0d963cbc4a4e1c",
-   "title": "PAYE internet submissions, expenses and benefits — schema 2026 to 2027",
-   "url": "https://www.gov.uk/government/publications/paye-internet-submissions-expenses-and-benefits-schema-2026-to-2027",
-   "path": "/government/publications/paye-internet-submissions-expenses-and-benefits-schema-2026-to-2027",
-   "date": "2026-10-02T13:46:15Z",
-   "type": "guidance",
-   "source": "HMRC (GOV.UK)",
-   "description": "The PAYE internet submissions, expenses and benefits schema and supporting documents for PAYE software developers.",
-   "categories": [
-    "paye"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-10-02T14:46:15+01:00",
-   "ai": {
-    "summary": "The PAYE internet submissions, expenses and benefits schema for 2026‑27 is released, with test service support starting October 2026 and the live service commencing in April 2027.",
-    "whoAffected": "PAYE software developers",
-    "effectiveDate": "April 2027",
-    "actions": [
-     "Review the new PAYE schema and supporting documents",
-     "Begin testing against the PAYE test service from October 2026",
-     "Update any PAYE software to meet the new schema before the live service",
-     "Inform clients of the April 2027 live service start date"
-    ],
-    "legislationRefs": [],
-    "relevance": "medium",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-02T17:52:16.733Z"
    }
   },
   {
