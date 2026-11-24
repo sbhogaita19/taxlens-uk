@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-23T23:50:23.809Z",
+ "generatedAt": "2026-11-24T15:55:35.044Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,173 @@
    "label": "Other"
   }
  ],
- "count": 637,
+ "count": 640,
  "items": [
+  {
+   "id": "2d6c7328c219dd5c",
+   "title": "HMRC email updates, videos and webinars for company directors",
+   "url": "https://www.gov.uk/guidance/help-and-support-for-company-directors",
+   "path": "/guidance/help-and-support-for-company-directors",
+   "date": "2026-11-24T13:10:44Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Learn more about your responsibilities as a company director.",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "The recorded webinar link for 'The merged scheme for Research and Development (R&D) expenditure credit' has been updated. The video 'How to store your National Insurance number to your Apple or Google wallet' has been removed.",
+   "firstPublished": "2017-09-06T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC offers email updates, webinars and videos covering self‑assessment, corporation tax, payroll for directors, work‑from‑home and R&D relief, helping directors and SMEs stay compliant.",
+    "whoAffected": "Company directors, small‑ and medium‑sized enterprises, self‑employed individuals and their tax agents",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Subscribe clients to the HMRC help and support email service",
+     "Encourage directors to join the live payroll webinar and review recorded R&D webinars",
+     "Guide clients on claiming work‑from‑home and other expenses via Self Assessment",
+     "Assist SMEs in preparing and submitting R&D tax relief claims"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-24T15:55:20.688Z"
+   }
+  },
+  {
+   "id": "14daee5540cd3a97",
+   "title": "HMRC email updates, videos and webinars for employing people",
+   "url": "https://www.gov.uk/guidance/help-and-support-for-employing-people",
+   "path": "/guidance/help-and-support-for-employing-people",
+   "date": "2026-11-24T13:01:47Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Learn more about getting started as an employer or running a small business including registration, payroll, tax returns, tax bills and payments.",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "The live webinar link for ‘Statutory Maternity and Paternity Pay’ has been updated. The recorded webinar link for ‘Labour supply chain due diligence for local authorities’ has been updated. The video link for ‘How to store your National Insurance number to your Apple or Google wallet’ has been removed.",
+   "firstPublished": "2017-10-06T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC provides email updates, webinars and videos on employer registration, payroll, tax codes, statutory pay and other obligations for new and existing employers.",
+    "whoAffected": "Employers of SMEs, owner‑managed businesses and the self‑employed who hire staff",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Subscribe to the HMRC help and support email service for updates",
+     "Register and attend relevant live or recorded webinars for employer filing and payroll topics",
+     "Watch the video collections on getting started as an employer, tax codes and running a small business",
+     "Advise clients to use their HMRC business tax account to add and manage Corporation Tax, Self Assessment, PAYE and VAT"
+    ],
+    "legislationRefs": [
+     "PAYE Settlement Agreements ( PSAs )",
+     "Full Payment Submission ( FPS )",
+     "Employer Payment Summary ( EPS )",
+     "Corporation Tax",
+     "Self Assessment",
+     "VAT"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-24T15:55:23.823Z"
+   }
+  },
+  {
+   "id": "24bfc81d1c267e62",
+   "title": "HMRC videos and webinars for Making Tax Digital for Income Tax",
+   "url": "https://www.gov.uk/guidance/help-and-support-for-making-tax-digital",
+   "path": "/guidance/help-and-support-for-making-tax-digital",
+   "date": "2026-11-24T11:50:16Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Learn more about Making Tax Digital for Income Tax if you're an agent, sole trader or landlord.",
+   "categories": [
+    "personal",
+    "selfemployed",
+    "mtd"
+   ],
+   "hasBody": true,
+   "changeNote": "The recorded webinar link for 'Making Tax Digital for Income Tax — sole traders and landlords without an accountant or bookkeeper' has been updated.",
+   "firstPublished": "2018-05-31T00:00:00+01:00",
+   "ai": {
+    "summary": "HMRC now requires sole traders, landlords and businesses with qualifying self‑employment or property income to use Making Tax Digital (MTD) software, with start dates from 6 April 2026 depending on income levels, and provides videos, webinars and guidance for agents and clients.",
+    "whoAffected": "Sole traders, landlords (including joint owners), agents, and businesses with qualifying self‑employment or property income over the thresholds",
+    "effectiveDate": "6 April 2026 (earliest start date for qualifying income over £50,000)",
+    "actions": [
+     "Identify clients whose income exceeds the MTD thresholds and note the applicable start date",
+     "Recommend HMRC‑recognised MTD software that covers all their income sources",
+     "Assist clients or agents to sign up and authorise via the agent services account",
+     "Set up digital record‑keeping and quarterly update processes for each client"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-24T15:55:26.827Z"
+   }
+  },
+  {
+   "id": "203a1eb297a80263",
+   "title": "Tax code notices go online for millions",
+   "url": "https://www.gov.uk/government/news/tax-code-notices-go-online-for-millions",
+   "path": "/government/news/tax-code-notices-go-online-for-millions",
+   "date": "2026-11-24T10:29:16Z",
+   "type": "press_release",
+   "source": "HMRC (GOV.UK)",
+   "description": "Customers encouraged to update email address to go paperless ",
+   "categories": [
+    "paye"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-24T10:29:16+00:00",
+   "ai": {
+    "summary": "From February 2027 HMRC will send annual tax code notices online to about 3.5 million customers who already use a Personal Tax Account or the app, encouraging them to keep their email up‑to‑date and go paperless; those not using digital services will still get paper notices.",
+    "whoAffected": "Customers who already use HMRC’s Personal Tax Account or app but have not yet gone paperless (around 3.5 million people), and any other taxpayers who continue to rely on post",
+    "effectiveDate": "February 2027",
+    "actions": [
+     "Register clients for a Personal Tax Account or HMRC app",
+     "Update and confirm clients' email address with HMRC",
+     "Encourage clients to opt‑in to paperless communications",
+     "Inform clients they can still request a paper notice or alternative format and warn about scams"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-24T15:55:30.387Z"
+   }
+  },
+  {
+   "id": "d0c93624d13d51ae",
+   "title": "Give notice of subscribers: company with share capital",
+   "url": "https://www.gov.uk/government/publications/give-notice-of-subscribers-company-with-share-capital",
+   "path": "/government/publications/give-notice-of-subscribers-company-with-share-capital",
+   "date": "2026-11-24T10:00:13Z",
+   "type": "form",
+   "source": "Companies House (GOV.UK)",
+   "description": "Use this pro-forma for a memorandum of association to form a company with share capital.",
+   "categories": [
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Changed attachment from PDF to .odt open document format. Updated Welsh translation. \r\n\r\n",
+   "firstPublished": "2009-10-01T00:00:00+01:00"
+  },
+  {
+   "id": "f343a799142e37d8",
+   "title": "Give notice of a resolution",
+   "url": "https://www.gov.uk/government/publications/give-notice-of-a-special-written-or-ordinary-resolution",
+   "path": "/government/publications/give-notice-of-a-special-written-or-ordinary-resolution",
+   "date": "2026-11-24T09:59:40Z",
+   "type": "form",
+   "source": "Companies House (GOV.UK)",
+   "description": "You can use this template to notify Companies House of a resolution.",
+   "categories": [
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "Changed attachment from PDF to .odt open document format. ",
+   "firstPublished": "2014-11-13T14:00:00+00:00"
+  },
   {
    "id": "16bd90092a91b953",
    "title": "Voluntarily payrolling employees' benefits and expenses",
@@ -10887,39 +11052,6 @@
    }
   },
   {
-   "id": "24bfc81d1c267e62",
-   "title": "HMRC videos and webinars for Making Tax Digital for Income Tax",
-   "url": "https://www.gov.uk/guidance/help-and-support-for-making-tax-digital",
-   "path": "/guidance/help-and-support-for-making-tax-digital",
-   "date": "2026-10-08T10:29:21Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Learn more about Making Tax Digital for Income Tax if you're an agent, sole trader or landlord.",
-   "categories": [
-    "personal",
-    "selfemployed",
-    "mtd"
-   ],
-   "hasBody": true,
-   "changeNote": "The recorded webinar link for 'Making Tax Digital if you are a landlord and joint property owner' and the video 'How to sign up your clients to Making Tax Digital for Income Tax' have been updated.",
-   "firstPublished": "2018-05-31T00:00:00+01:00",
-   "ai": {
-    "summary": "HMRC provides videos, webinars and guidance to help sole traders, landlords and agents prepare for Making Tax Digital for Income Tax, including software choice, registration, authorisations and digital record‑keeping, with mandatory use starting from 6 April 2026 for higher‑income earners.",
-    "whoAffected": "Sole traders, landlords (including joint owners), agents and their self‑employed or property‑income clients, plus any small business with qualifying income",
-    "effectiveDate": "6 April 2026 (first mandatory date)",
-    "actions": [
-     "Identify clients whose income exceeds the thresholds and note the applicable start dates",
-     "Recommend HMRC‑recognised compatible software that covers all their income streams",
-     "Assist clients in registering, authorising the agent services account and signing up for MTD",
-     "Set up digital record‑keeping and quarterly update processes"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-08T18:50:49.916Z"
-   }
-  },
-  {
    "id": "79959bfe7470b98b",
    "title": "Starting early is key to less stress around Self Assessment",
    "url": "https://www.gov.uk/government/news/starting-early-is-key-to-less-stress-around-self-assessment",
@@ -14675,37 +14807,6 @@
    }
   },
   {
-   "id": "14daee5540cd3a97",
-   "title": "HMRC email updates, videos and webinars for employing people",
-   "url": "https://www.gov.uk/guidance/help-and-support-for-employing-people",
-   "path": "/guidance/help-and-support-for-employing-people",
-   "date": "2026-08-19T10:21:33Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Learn more about getting started as an employer or running a small business including registration, payroll, tax returns, tax bills and payments.",
-   "categories": [
-    "paye"
-   ],
-   "hasBody": true,
-   "changeNote": "Live webinars for 'Employees with more than one workplace', 'Employee travel', 'Phones, internet and homeworking' and 'Trivial benefits' have been added. The webinar links for 'Company cars, vans and fuel' and 'Labour supply chain due diligence for local authorities' have been updated.",
-   "firstPublished": "2017-10-06T00:00:00+01:00",
-   "ai": {
-    "summary": "HMRC offers email updates, videos and live/recorded webinars covering employer registration, payroll, tax codes, benefits, statutory pay and other obligations, helping new and existing employers manage taxes, reporting and compliance.",
-    "whoAffected": "Employers and small‑business owners, including owner‑managed businesses and self‑employed people who employ staff",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Subscribe to the HMRC help and support email service for updates",
-     "Register clients for relevant live webinars (e.g., employer filing obligations, payroll, trivial benefits)",
-     "Direct clients to the video collections for new‑employer guidance, tax codes and running a small business",
-     "Advise clients to use their HMRC business tax account to add and manage taxes such as PAYE, Corporation Tax, Self Assessment and VAT"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-07T18:56:57.537Z"
-   }
-  },
-  {
    "id": "c3881a9ce287b113",
    "title": "Employer Bulletin: August 2026",
    "url": "https://www.gov.uk/government/publications/employer-bulletin-august-2026",
@@ -15003,37 +15104,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-08T12:03:43.863Z"
-   }
-  },
-  {
-   "id": "2d6c7328c219dd5c",
-   "title": "HMRC email updates, videos and webinars for company directors",
-   "url": "https://www.gov.uk/guidance/help-and-support-for-company-directors",
-   "path": "/guidance/help-and-support-for-company-directors",
-   "date": "2026-08-13T06:38:42Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Learn more about your responsibilities as a company director.",
-   "categories": [
-    "personal"
-   ],
-   "hasBody": true,
-   "changeNote": "The live webinar link for ‘Company directors — payroll and you’ has been updated. The recorded webinar link for ‘The Informants Scheme — reporting tax fraud or avoidance’ has been added.",
-   "firstPublished": "2017-09-06T00:00:00+01:00",
-   "ai": {
-    "summary": "HMRC offers email updates, webinars and videos covering Self Assessment, Corporation Tax, payroll for directors, work‑from‑home expenses and R&D relief, helping company directors understand responsibilities, record‑keeping and claim processes.",
-    "whoAffected": "Company directors, particularly those of SMEs and self‑employed owners, as well as their tax agents",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Subscribe clients to the HMRC help and support email service to receive updates",
-     "Register directors for the live “payroll and you” webinar and review the recorded sessions",
-     "Advise clients to watch videos on work‑related and home‑working expenses to ensure correct claims",
-     "Guide clients on adding taxes (Corporation Tax, PAYE, VAT) via their business tax account"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-06T12:04:17.926Z"
    }
   },
   {
