@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-24T15:55:35.044Z",
+ "generatedAt": "2026-11-24T22:23:01.150Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,41 @@
    "label": "Other"
   }
  ],
- "count": 640,
+ "count": 641,
  "items": [
+  {
+   "id": "b1a94fd471d092ed",
+   "title": "Give notice of subscribers: company not having share capital",
+   "url": "https://www.gov.uk/government/publications/give-notice-of-subscribers-company-not-having-share-capital",
+   "path": "/government/publications/give-notice-of-subscribers-company-not-having-share-capital",
+   "date": "2026-11-24T16:06:14Z",
+   "type": "form",
+   "source": "Companies House (GOV.UK)",
+   "description": "Use this pro-forma for a memorandum of association to form a company without share capital.",
+   "categories": [
+    "reporting"
+   ],
+   "hasBody": true,
+   "changeNote": "The PDF form has been amended to an open document format.",
+   "firstPublished": "2009-10-01T00:00:00+01:00",
+   "ai": {
+    "summary": "Use the pro‑form memorandum of association to notify Companies House that each subscriber wishes to form a company without share capital under the Companies Act 2006 and agrees to become a member.",
+    "whoAffected": "Subscribers forming a company without share capital (e.g., SME founders, owner‑managers, self‑employed entrepreneurs)",
+    "effectiveDate": "2026-11-24",
+    "actions": [
+     "Obtain the memorandum of association pro‑form from GOV.UK",
+     "Enter each subscriber’s details on the form",
+     "Submit the completed form to Companies House",
+     "Confirm each subscriber agrees to become a member of the new company"
+    ],
+    "legislationRefs": [
+     "Companies Act 2006"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-24T22:22:53.537Z"
+   }
+  },
   {
    "id": "2d6c7328c219dd5c",
    "title": "HMRC email updates, videos and webinars for company directors",
@@ -221,7 +254,24 @@
    ],
    "hasBody": true,
    "changeNote": "Changed attachment from PDF to .odt open document format. Updated Welsh translation. \r\n\r\n",
-   "firstPublished": "2009-10-01T00:00:00+01:00"
+   "firstPublished": "2009-10-01T00:00:00+01:00",
+   "ai": {
+    "summary": "The pro‑form memorandum of association lets subscribers notify Companies House that they intend to form a company under the Companies Act 2006, will become members and will each take at least one share.",
+    "whoAffected": "Individuals subscribing to a memorandum of association when forming a company with share capital (e.g., founders of SMEs, owner‑managed businesses, self‑employed entrepreneurs)",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Prepare the memorandum using the provided pro‑form template",
+     "Confirm each subscriber wishes to form a company under the Companies Act 2006",
+     "Record each subscriber’s agreement to become a member and take at least one share",
+     "Submit the completed memorandum to Companies House"
+    ],
+    "legislationRefs": [
+     "Companies Act 2006"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-24T22:22:56.694Z"
+   }
   },
   {
    "id": "f343a799142e37d8",
@@ -237,7 +287,22 @@
    ],
    "hasBody": true,
    "changeNote": "Changed attachment from PDF to .odt open document format. ",
-   "firstPublished": "2014-11-13T14:00:00+00:00"
+   "firstPublished": "2014-11-13T14:00:00+00:00",
+   "ai": {
+    "summary": "Companies can notify Companies House of a resolution by uploading the documents online or by mailing the completed resolution to the Companies House main office.",
+    "whoAffected": "Companies that need to give notice of a resolution",
+    "effectiveDate": "2026-11-24",
+    "actions": [
+     "Prepare the completed resolution document",
+     "Upload the document to Companies House via the online service",
+     "If preferred, post the completed resolution to the Companies House main office",
+     "Confirm receipt or filing confirmation from Companies House"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-24T22:22:59.649Z"
+   }
   },
   {
    "id": "16bd90092a91b953",
