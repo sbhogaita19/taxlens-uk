@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-24T22:23:01.150Z",
+ "generatedAt": "2026-11-25T15:37:48.834Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -74,6 +74,83 @@
  ],
  "count": 641,
  "items": [
+  {
+   "id": "6ca05e4a5854a09e",
+   "title": "VAT guide (VAT Notice 700)",
+   "url": "https://www.gov.uk/guidance/vat-guide-notice-700",
+   "path": "/guidance/vat-guide-notice-700",
+   "date": "2026-11-25T14:00:47Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "The guide to VAT rules and procedures.",
+   "categories": [
+    "vat"
+   ],
+   "hasBody": true,
+   "changeNote": "Section 20.3.3, ‘Non-standard tax periods’, has been updated with information about who must sign a request and when you need to apply to renew special tax periods.",
+   "firstPublished": "2014-12-17T00:00:00+00:00",
+   "ai": {
+    "summary": "VAT Notice 700 is the main guide to VAT rules and procedures, covering how to get help, what the VAT helpline handles, how VAT officer visits work, and tax avoidance. It points to specialised notices and explains record‑keeping and communication with HMRC.",
+    "whoAffected": "All VAT‑registered businesses, including SMEs, owner‑managed firms and the self‑employed",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Ensure clients keep VAT records and payments up to date",
+     "Advise clients to contact the VAT general enquiries helpline for general queries and use written enquiries for case‑specific matters",
+     "Prepare clients for possible VAT officer visits by reviewing records and notifying HMRC of significant changes early",
+     "Guide clients to use the non‑statutory clearance service when they need HMRC’s view on a specific transaction"
+    ],
+    "legislationRefs": [
+     "section 6",
+     "section 26",
+     "section 20",
+     "section 21",
+     "section 27",
+     "section 28",
+     "VAT Notice 700/12",
+     "VAT Notice 700/21",
+     "VAT Notice 727",
+     "VAT Notice 725"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-25T15:37:43.926Z"
+   }
+  },
+  {
+   "id": "a9d9a2fd41f2765d",
+   "title": "Changes and issues affecting the Corporation Tax online service",
+   "url": "https://www.gov.uk/guidance/changes-and-issues-affecting-the-corporation-tax-online-service",
+   "path": "/guidance/changes-and-issues-affecting-the-corporation-tax-online-service",
+   "date": "2026-11-25T10:11:10Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Check changes and issues that may affect how you file your Company Tax Return.",
+   "categories": [
+    "corptax"
+   ],
+   "hasBody": true,
+   "changeNote": "'Capital allowances — new main rate first-year allowance' section has been updated with information about an increased first-year allowance rate announced at Budget 2026. ",
+   "firstPublished": "2022-03-04T00:00:00+00:00",
+   "ai": {
+    "summary": "The Corporation Tax online service will be updated in April 2027 to add new CT600 boxes for higher first‑year allowances, extended zero‑emission car reliefs, RDEC exemption validation, creative industry CT600P filing and loan‑to‑participator tax rates. Existing boxes remain usable until the update.",
+    "whoAffected": "All companies filing a Company Tax Return, especially SMEs and owner‑managed businesses claiming capital allowances, zero‑emission vehicle reliefs, R&D expenditure credit, creative industry reliefs, or subject to the loans‑to‑participators tax rate.",
+    "effectiveDate": "April 2027",
+    "actions": [
+     "Advise clients of the 50% first‑year allowance from 1 Jan 2027 and use CT600 boxes 725/750 for claims after the service update.",
+     "Guide clients on the correct CT600 boxes for zero‑emission cars and EV charge points based on their accounting period start date.",
+     "Check RDEC exemption entries so box L75 equals L70 and box L80 is zero, noting the current validation issue.",
+     "Ensure creative industry relief claims include CT600P and, if validation blocks zero entries, enter £1.00 in column D as instructed."
+    ],
+    "legislationRefs": [
+     "section CTA09/S1112E of the Corporation Tax Act (CTA) 2009",
+     "Corporation Tax Act 2010 section 455",
+     "Corporation Tax Act 2010 section 464A"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-25T15:37:47.333Z"
+   }
+  },
   {
    "id": "b1a94fd471d092ed",
    "title": "Give notice of subscribers: company not having share capital",
@@ -1199,49 +1276,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-18T20:27:46.304Z"
-   }
-  },
-  {
-   "id": "6ca05e4a5854a09e",
-   "title": "VAT guide (VAT Notice 700)",
-   "url": "https://www.gov.uk/guidance/vat-guide-notice-700",
-   "path": "/guidance/vat-guide-notice-700",
-   "date": "2026-11-18T15:35:48Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "The guide to VAT rules and procedures.",
-   "categories": [
-    "vat"
-   ],
-   "hasBody": true,
-   "changeNote": "Section 1.5 has been updated to remove reference to Annex D relating to Non-Statutory Clearance Service.",
-   "firstPublished": "2014-12-17T00:00:00+00:00",
-   "ai": {
-    "summary": "VAT Notice 700 is the main guide to UK VAT rules, procedures and help resources. It points businesses to related notices, the general enquiries helpline, written enquiries for case‑specific issues, and outlines what to expect from VAT officer visits.",
-    "whoAffected": "All VAT‑registered businesses, including SMEs, owner‑managed firms and the self‑employed",
-    "effectiveDate": "2026-11-18T15:35:48Z",
-    "actions": [
-     "Advise clients to use the VAT general enquiries helpline for general queries and the written enquiries team for case‑specific matters",
-     "Recommend clients keep records and VAT returns accurate and up‑to‑date to avoid visits",
-     "Prompt clients to inform HMRC in writing of any significant changes to their VAT affairs",
-     "Prepare clients for possible VAT officer visits by ensuring records are organised and staff can quote the VAT number when contacted"
-    ],
-    "legislationRefs": [
-     "VAT Notice 700/12",
-     "VAT Notice 700/21",
-     "VAT Notice 727",
-     "VAT Notice 725",
-     "section 6",
-     "section 26",
-     "section 20",
-     "section 21",
-     "section 27",
-     "section 28",
-     "Non‑Statutory Clearance Service"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-18T20:27:49.419Z"
    }
   },
   {
@@ -15134,41 +15168,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-07T18:57:07.425Z"
-   }
-  },
-  {
-   "id": "a9d9a2fd41f2765d",
-   "title": "Changes and issues affecting the Corporation Tax online service",
-   "url": "https://www.gov.uk/guidance/changes-and-issues-affecting-the-corporation-tax-online-service",
-   "path": "/guidance/changes-and-issues-affecting-the-corporation-tax-online-service",
-   "date": "2026-08-13T10:05:54Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Check changes and issues that may affect how you file your Company Tax Return.",
-   "categories": [
-    "corptax"
-   ],
-   "hasBody": true,
-   "changeNote": "‘First-year allowances for zero-emission cars and electric vehicle charge points’ section has been updated to include electric vehicle charge points. ‘New requirements for Corporation Tax computation format’ section has been updated with the work HMRC are doing to standardise the format for computations.",
-   "firstPublished": "2022-03-04T00:00:00+00:00",
-   "ai": {
-    "summary": "HMRC will add new CT600 boxes for a 40% first‑year allowance (from 1 Jan 2026) and extend 100% FYA for zero‑emission cars and EV charge points to 31 Mar 2027. Updates to the online service and validation fixes for RDEC, creative‑industry reliefs and loans to participators are due in April 2027, with a new computation format under development.",
-    "whoAffected": "All companies filing Corporation Tax returns, especially SMEs and owner‑managed businesses that claim capital allowances, R&D credits, creative‑industry reliefs, or have loans to participators",
-    "effectiveDate": "1 Jan 2026 (40% FYA); 31 Mar 2027 (100% FYA extension); 6 Apr 2026 (loan rate); April 2027 (online service updates)",
-    "actions": [
-     "Add the new CT600 boxes (725, 750, 760) to client filing templates for the 40% first‑year allowance",
-     "Guide clients to use the correct boxes for zero‑emission car and EV charge point allowances based on their accounting period",
-     "Check RDEC exemption claims so box L75 equals L70 and note the validation issue until April 2027",
-     "Include CT600P for creative‑industry reliefs and apply the £1 workaround for cultural relief validation errors"
-    ],
-    "legislationRefs": [
-     "section CTA09/S1112E of the Corporation Tax Act (CTA) 2009",
-     "Corporation Tax Act 2010 section 455",
-     "Corporation Tax Act 2010 section 464A"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-08T12:03:43.863Z"
    }
   },
   {
