@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-25T15:37:48.834Z",
+ "generatedAt": "2026-11-25T21:39:04.030Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -74,6 +74,38 @@
  ],
  "count": 641,
  "items": [
+  {
+   "id": "df10b42a381d1de2",
+   "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
+   "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
+   "path": "/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
+   "date": "2026-11-25T16:39:01Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "This list includes details of businesses and sole traders that have had their ACSP status either suspended or ceased (removed).",
+   "categories": [
+    "reporting",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated list of ceased and suspended ACSPs.",
+   "firstPublished": "2025-10-10T00:00:00+01:00",
+   "ai": {
+    "summary": "The list shows ACSPs whose status is suspended (under investigation or pending information) or ceased (no longer registered or non‑compliant). Updates are published every two weeks and may lag up to two weeks after a change.",
+    "whoAffected": "Authorised Corporate Service Providers (businesses and sole traders) and any SME or self‑employed client that uses their services.",
+    "effectiveDate": "2026-11-25",
+    "actions": [
+     "Check the published ceased/suspended ACSP list at least every two weeks.",
+     "Confirm an ACSP’s current status before recommending them to clients.",
+     "If an ACSP is suspended, advise clients to monitor the situation and consider alternatives.",
+     "If an ACSP is ceased, recommend clients find a new compliant provider."
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-25T21:39:02.530Z"
+   }
+  },
   {
    "id": "6ca05e4a5854a09e",
    "title": "VAT guide (VAT Notice 700)",
@@ -730,38 +762,6 @@
     "legislation",
     "vat"
    ]
-  },
-  {
-   "id": "df10b42a381d1de2",
-   "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
-   "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
-   "path": "/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
-   "date": "2026-11-19T16:26:33Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "This list includes details of businesses and sole traders that have had their ACSP status either suspended or ceased (removed).",
-   "categories": [
-    "reporting",
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated list of ceased and suspended ACSPs.",
-   "firstPublished": "2025-10-10T00:00:00+01:00",
-   "ai": {
-    "summary": "The UK regulator suspends ACSP status when investigating AML supervision, Companies House filings, or identity verification issues, and ceases it if the provider withdraws or breaches legal duties. The list of ceased or suspended ACSPs is refreshed bi‑weekly and may lag up to two weeks after a change.",
-    "whoAffected": "Authorised Corporate Service Providers (businesses and sole traders) and their clients, including SMEs, owner‑managed businesses and the self‑employed who rely on ACSP services",
-    "effectiveDate": "2026-11-19",
-    "actions": [
-     "Check the bi‑weekly ceased/suspended ACSP list regularly",
-     "Confirm any ACSP your clients use is active before advising",
-     "If an ACSP is suspended or ceased, recommend an alternative compliant provider",
-     "Document any ACSP status changes in client records"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-19T20:30:54.576Z"
-   }
   },
   {
    "id": "78342a547af3ccf8",
