@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-25T21:39:04.030Z",
+ "generatedAt": "2026-11-26T15:19:50.068Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,375 @@
    "label": "Other"
   }
  ],
- "count": 641,
+ "count": 650,
  "items": [
+  {
+   "id": "0340daa9eb2e019b",
+   "title": "Check if and when you need to register as a tax adviser with HMRC",
+   "url": "https://www.gov.uk/guidance/check-if-and-when-you-need-to-register-as-a-tax-adviser-with-hmrc",
+   "path": "/guidance/check-if-and-when-you-need-to-register-as-a-tax-adviser-with-hmrc",
+   "date": "2026-11-26T12:34:57Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Check if and when you need to register for an agent services account to interact with HMRC on behalf of your clients as a tax adviser.",
+   "categories": [
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "The Welsh translation of the guidance has been updated with information about Agent Reference Numbers (ARNs) and when HMRC will contact existing agent services account holders about registration.",
+   "firstPublished": "2026-02-17T09:15:00+00:00",
+   "ai": {
+    "summary": "Tax advisers who interact with HMRC for paid client services must register for an agent services account, with registration staged from 18 Aug 2026, 18 Nov 2026 or 31 Dec 2026 depending on circumstances. Existing account holders will be contacted, and failure to register can lead to sanctions.",
+    "whoAffected": "Businesses providing paid tax services, including sole traders, limited companies, overseas advisers and any firm that contacts HMRC on behalf of clients; their employees who act on behalf of the business.",
+    "effectiveDate": "From 18 August 2026 (earliest registration requirement)",
+    "actions": [
+     "Use the online tool to confirm whether your business must register",
+     "If registration is required, apply via the online service within the 3‑month window when your registration window opens",
+     "Ensure your Agent Reference Number (ARN) is available and ready when contacting HMRC on a client’s behalf",
+     "If you missed the initial window or are new to the market, register immediately to avoid sanctions"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-26T15:19:10.582Z"
+   }
+  },
+  {
+   "id": "89234ab4a254c6f0",
+   "title": "List of Authorised Corporate Service Providers (ACSPs)",
+   "url": "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps",
+   "path": "/government/publications/list-of-authorised-corporate-service-providers-acsps",
+   "date": "2026-11-26T11:48:24Z",
+   "type": "guidance",
+   "source": "Companies House (GOV.UK)",
+   "description": "This list includes details of businesses and sole traders that have registered as an Authorised Corporate Service Provider (ACSP). This is also known as an authorised agent.",
+   "categories": [
+    "reporting",
+    "agents"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated list of Authorised Corporate Service Providers (ACSPs).",
+   "firstPublished": "2025-10-31T00:00:00+00:00",
+   "ai": {
+    "summary": "ACSPs are accountants or solicitors registered with Companies House to act for clients and must be supervised by a UK AML supervisory body. The published list may be incomplete and is not endorsed. Check the list (and ceased/suspended list) and conduct due diligence before appointing an agent.",
+    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who use accountants, solicitors or other agents for Companies House filings and related services",
+    "effectiveDate": "2026-11-26",
+    "actions": [
+     "Verify the agent appears on the current ACSP list and is not on the ceased or suspended list",
+     "Confirm the agent is supervised by a UK AML supervisory body",
+     "Research the agent's reputation, experience, services, fees and terms",
+     "Follow Companies House guidance on identity verification when using the ACSP"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-26T15:19:13.981Z"
+   }
+  },
+  {
+   "id": "5bb67782fdd6c03f",
+   "title": "Pension schemes newsletter 187 — November 2026",
+   "url": "https://www.gov.uk/government/publications/pension-schemes-newsletter-187-november-2026",
+   "path": "/government/publications/pension-schemes-newsletter-187-november-2026",
+   "date": "2026-11-26T11:22:52Z",
+   "type": "guidance",
+   "source": "HMRC (GOV.UK)",
+   "description": "Newsletter 187, published by HMRC in November 2026 to update stakeholders on the latest news for pension schemes.",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-26T11:22:52+00:00",
+   "ai": {
+    "summary": "The newsletter covers using deconsolidated references for relief‑at‑source claims, residency status reports, defined benefit surplus payments, closure of the online service, overseas scheme transfer data and digitisation of relief‑at‑source.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Not stated in source"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-26T15:19:16.808Z"
+   }
+  },
+  {
+   "id": "478362e2362e1091",
+   "title": "Calculate interest and penalties for tax years ending 5 April 2007 to 5 April 2025",
+   "url": "https://www.gov.uk/guidance/calculate-interest-and-penalties-for-tax-years-ended-5-april-2003-to-5-april-2021",
+   "path": "/guidance/calculate-interest-and-penalties-for-tax-years-ended-5-april-2003-to-5-april-2021",
+   "date": "2026-11-26T11:09:22Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "Use this calculator to work out interest and penalties for tax years ending 5 April 2007 to 5 April 2025.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "The interest and penalty calculator has been updated to include the tax years ending 5 April 2007 to 5 April 2025.",
+   "firstPublished": "2022-11-22T00:00:00+00:00",
+   "ai": {
+    "summary": "The HMRC interest and penalty calculator for tax years ending 5 April 2007‑2025 is a downloadable PDF that must be completed on‑screen using the latest free Adobe Reader.",
+    "whoAffected": "Taxpayers, including SMEs, owner‑managed businesses and the self‑employed, who need to calculate interest and penalties for tax years ending 5 April 2007‑2025",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Download and save the calculator PDF to your computer",
+     "Open the file with the latest free version of Adobe Reader",
+     "Complete the calculator on‑screen to work out interest and penalties",
+     "If it won’t open, follow the troubleshooting steps or email HMRC for an accessible format"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-26T15:19:22.069Z"
+   }
+  },
+  {
+   "id": "97521806bb49d9a7",
+   "title": "Future regulatory regime for benchmarks and benchmark administrators",
+   "url": "https://www.gov.uk/government/consultations/future-regulatory-regime-for-benchmarks-and-benchmark-administrators",
+   "path": "/government/consultations/future-regulatory-regime-for-benchmarks-and-benchmark-administrators",
+   "date": "2026-11-26T11:00:00Z",
+   "type": "consultation_outcome",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "This consultation seeks views on the proposal to reform the UK’s existing benchmarks regime and replace it with the Specified Authorised Benchmarks Regime (SABR).",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "Summary of response added.",
+   "firstPublished": "2025-12-17T16:00:03+00:00",
+   "ai": {
+    "summary": "The government proposes replacing the EU‑based Benchmarks Regulation with a new Specified Authorised Benchmarks Regime (SABR) that will only regulate benchmarks or administrators deemed essential to UK market integrity.",
+    "whoAffected": "Benchmark administrators and the benchmarks they manage, plus financial market participants that rely on those benchmarks",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor the consultation and any forthcoming guidance on SABR",
+     "Identify whether any client‑used benchmarks may be designated under SABR",
+     "Assess potential compliance obligations for designated benchmarks or administrators",
+     "Advise clients on risk and reporting implications if their benchmarks become regulated"
+    ],
+    "legislationRefs": [
+     "Benchmarks Regulation",
+     "Specified Authorised Benchmarks Regime (SABR)"
+    ],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-26T15:19:25.166Z"
+   }
+  },
+  {
+   "id": "8357dbb3510fd878",
+   "title": "Investigating use of Offshore Service Providers",
+   "url": "https://www.gov.uk/government/publications/investigating-use-of-offshore-service-providers",
+   "path": "/government/publications/investigating-use-of-offshore-service-providers",
+   "date": "2026-11-26T10:08:35Z",
+   "type": "research",
+   "source": "HMRC (GOV.UK)",
+   "description": "This research explored what drives customer demand for offshore service providers, how customers access them and their experiences of using them.",
+   "categories": [
+    "compliance"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-26T10:08:35+00:00",
+   "ai": {
+    "summary": "HMRC commissioned research to understand customers using offshore service providers and the compliance risks, based on 34 interviews in early 2023.",
+    "whoAffected": "Customers who use offshore service providers",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review client use of offshore service providers",
+     "Assess potential non‑compliance risks",
+     "Monitor HMRC research updates",
+     "Advise clients on compliance obligations"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-26T15:19:27.704Z"
+   }
+  },
+  {
+   "id": "1f848eab4af2c570",
+   "title": "Analysis of Ukrainian nationals entering employment in the UK",
+   "url": "https://www.gov.uk/government/publications/analysis-of-ukrainian-nationals-entering-employment-in-the-uk",
+   "path": "/government/publications/analysis-of-ukrainian-nationals-entering-employment-in-the-uk",
+   "date": "2026-11-26T09:30:28Z",
+   "type": "research",
+   "source": "HMRC (GOV.UK)",
+   "description": "Counts of Ukrainian nationals in employment by age, gender and region in UK, England, Scotland, Wales and Northern Ireland.",
+   "categories": [
+    "paye",
+    "nic"
+   ],
+   "hasBody": true,
+   "changeNote": "Added Analysis of Ukrainian Nationals in employment in the UK, March 2022 to September 2026.",
+   "firstPublished": "2023-03-24T00:00:00+00:00",
+   "ai": {
+    "summary": "Data shows Ukrainian nationals who registered for a NINo on/after 4 Mar 2022 and are paid via PAYE, mainly from humanitarian visa schemes. It’s an ad‑hoc release, not official statistics.",
+    "whoAffected": "Ukrainian nationals employed in the UK and employers hiring them",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Verify that Ukrainian employees have a National Insurance number registered on or after 4 Mar 2022",
+     "Process their wages through PAYE as indicated",
+     "Identify which humanitarian visa scheme (Homes for Ukraine, Ukraine Family Scheme or Ukraine Extension Scheme) they entered under",
+     "Note that the data is an ad‑hoc release and not official statistics"
+    ],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-26T15:19:30.513Z"
+   }
+  },
+  {
+   "id": "b6ccaf759caea815",
+   "title": "Research exploring customer views on revenue correction notices",
+   "url": "https://www.gov.uk/government/publications/research-exploring-customer-views-on-revenue-correction-notices",
+   "path": "/government/publications/research-exploring-customer-views-on-revenue-correction-notices",
+   "date": "2026-11-26T09:30:08Z",
+   "type": "research",
+   "source": "HMRC (GOV.UK)",
+   "description": "Qualitative research aiming to understand how changes to revenue correction notice processes could improve outcomes and customer experience.",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-26T09:30:08+00:00",
+   "ai": {
+    "summary": "HMRC researched how to help customers give explanations when rejecting revenue corrections and tested more detailed correction notices, based on 18 interviews in late 2025.",
+    "whoAffected": "Customers who receive revenue correction notices, including SMEs and self‑employed individuals",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Review any revenue correction notice with the client and note any areas needing clarification",
+     "Advise clients they can provide an explanation if they wish to reject a correction",
+     "Monitor HMRC communications for the new, more detailed correction notice format",
+     "Prepare clients to respond promptly with any required explanations",
+     ""
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-26T15:19:33.409Z"
+   }
+  },
+  {
+   "id": "4dda7b789b6e4416",
+   "title": "Research exploring customer views on the shift to digital post",
+   "url": "https://www.gov.uk/government/publications/research-exploring-customer-views-on-the-shift-to-digital-post",
+   "path": "/government/publications/research-exploring-customer-views-on-the-shift-to-digital-post",
+   "date": "2026-11-26T09:30:08Z",
+   "type": "research",
+   "source": "HMRC (GOV.UK)",
+   "description": "Qualitative research exploring how customers experience and respond to digital HMRC communications, including what builds trust and engagement.",
+   "categories": [
+    "iht"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-26T09:30:08+00:00",
+   "ai": {
+    "summary": "Research explored how customers, including sole traders and small business owners, experience HMRC digital communications, what drives engagement, and how trust is built.",
+    "whoAffected": "Individuals in employment, sole traders and small business owners",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Monitor HMRC updates on digital correspondence design",
+     "Advise clients on building trust in digital communications",
+     "Identify and address client concerns about digital messages",
+     "Incorporate research insights into client communication strategies"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-26T15:19:38.522Z"
+   }
+  },
+  {
+   "id": "c7d2a7d59034e9f7",
+   "title": "Understanding differences in legal interpretation",
+   "url": "https://www.gov.uk/government/publications/understanding-differences-in-legal-interpretation",
+   "path": "/government/publications/understanding-differences-in-legal-interpretation",
+   "date": "2026-11-26T09:30:05Z",
+   "type": "research",
+   "source": "HMRC (GOV.UK)",
+   "description": "Qualitative research report \"Understanding differences in legal interpretation\".",
+   "categories": [
+    "general"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-26T09:30:05+00:00",
+   "ai": {
+    "summary": "HMRC commissioned the National Centre for Social Research to conduct qualitative research, via 27 depth interviews with large, medium-sized businesses and agents of wealthy customers, to explore differences in legal interpretation. Findings are illustrative, not representative.",
+    "whoAffected": "Large businesses, medium-sized businesses and agents of wealthy customers who have faced a legal interpretation issue in the last 12‑18 months",
+    "effectiveDate": "Not stated in source",
+    "actions": [],
+    "legislationRefs": [],
+    "relevance": "medium",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-26T15:19:41.638Z"
+   }
+  },
+  {
+   "id": "e495aad535063672",
+   "title": "Self Assessment campaign tracking 2025 to 2026",
+   "url": "https://www.gov.uk/government/publications/self-assessment-campaign-tracking-2025-to-2026",
+   "path": "/government/publications/self-assessment-campaign-tracking-2025-to-2026",
+   "date": "2026-11-26T09:30:05Z",
+   "type": "research",
+   "source": "HMRC (GOV.UK)",
+   "description": "Quantitative research with Self Assessment customers.\r\nResearch conducted by YouGov from November 21 2025 to March 3 2026. ",
+   "categories": [
+    "personal"
+   ],
+   "hasBody": true,
+   "changeNote": "First published.",
+   "firstPublished": "2026-11-26T09:30:05+00:00",
+   "ai": {
+    "summary": "HMRC runs a yearly communications programme, including a paid advertising push from late December to end‑January, to get Self Assessment customers to register early and file their returns by 31 January.",
+    "whoAffected": "Self Assessment customers, including SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "Late December 2025 to end of January 2026",
+    "actions": [
+     "Remind clients to register for Self Assessment before the registration deadline",
+     "Encourage clients to file their online tax return early, not wait until the 31 January deadline",
+     "Alert clients to watch for HMRC’s late‑December to January advertising as a prompt to file on‑time",
+     "Use the campaign timing to schedule follow‑up reminders and support sessions"
+    ],
+    "legislationRefs": [],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-26T15:19:44.317Z"
+   }
+  },
+  {
+   "id": "acead9dc3d85e627",
+   "title": "CMA correspondence in relation to private provision in the dentistry market",
+   "url": "https://www.gov.uk/government/publications/cma-correspondence-in-relation-to-private-provision-in-the-dentistry-market",
+   "path": "/government/publications/cma-correspondence-in-relation-to-private-provision-in-the-dentistry-market",
+   "date": "2026-11-26T07:00:26Z",
+   "type": "correspondence",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "Letters between the Competition and Markets Authority (CMA) and minsters in the UK government, the Welsh and Scottish governments and the Northern Ireland Executive, and the CMA's response to the General Dental Council's consultation.",
+   "categories": [
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "CMA response to the General Dental Council's consultation added.",
+   "firstPublished": "2025-11-19T08:00:00+00:00",
+   "ai": {
+    "summary": "The document provides information about the work of the Competition and Markets Authority.",
+    "whoAffected": "Not stated in source",
+    "effectiveDate": "Not stated in source",
+    "actions": [],
+    "legislationRefs": [
+     "Not stated in source"
+    ],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-26T15:19:46.991Z"
+   }
+  },
   {
    "id": "df10b42a381d1de2",
    "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
@@ -1750,37 +2117,6 @@
    }
   },
   {
-   "id": "0340daa9eb2e019b",
-   "title": "Check if and when you need to register as a tax adviser with HMRC",
-   "url": "https://www.gov.uk/guidance/check-if-and-when-you-need-to-register-as-a-tax-adviser-with-hmrc",
-   "path": "/guidance/check-if-and-when-you-need-to-register-as-a-tax-adviser-with-hmrc",
-   "date": "2026-11-17T11:14:53Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "Check if and when you need to register for an agent services account to interact with HMRC on behalf of your clients as a tax adviser.",
-   "categories": [
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "The dates HMRC may contact you have been updated in the section ‘Changes to registration’.",
-   "firstPublished": "2026-02-17T09:15:00+00:00",
-   "ai": {
-    "summary": "If you charge for dealing with HMRC on clients' tax affairs, you must register for an agent services account. Registration is now required, with staged start dates of 18 Aug 2026, 18 Nov 2026 or 31 Dec 2026 depending on your activities. Overseas advisers also need to register when their window opens.",
-    "whoAffected": "Tax advisers who interact with HMRC for clients and receive payment – including sole traders, limited companies, overseas firms and those providing payroll, financial services or other paid tax services for SMEs, owner‑managed businesses and the self‑employed.",
-    "effectiveDate": "Now, with staged dates from 18 August 2026, 18 November 2026 and 31 December 2026",
-    "actions": [
-     "Use the online tool to confirm whether registration is required",
-     "If required, register via the new online agent services account within the 3‑month window when it opens",
-     "Locate and keep your ARN ready for any HMRC contact on behalf of clients",
-     "Maintain records to satisfy HMRC identity and client authorisation checks"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-17T14:26:29.116Z"
-   }
-  },
-  {
    "id": "cc0531caf3f567b9",
    "title": "Check if a business holds Authorised Economic Operator status",
    "url": "https://www.gov.uk/government/publications/check-if-a-business-holds-authorised-economic-operator-status",
@@ -2869,38 +3205,6 @@
    }
   },
   {
-   "id": "89234ab4a254c6f0",
-   "title": "List of Authorised Corporate Service Providers (ACSPs)",
-   "url": "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps",
-   "path": "/government/publications/list-of-authorised-corporate-service-providers-acsps",
-   "date": "2026-11-12T13:43:19Z",
-   "type": "guidance",
-   "source": "Companies House (GOV.UK)",
-   "description": "This list includes details of businesses and sole traders that have registered as an Authorised Corporate Service Provider (ACSP). This is also known as an authorised agent.",
-   "categories": [
-    "reporting",
-    "agents"
-   ],
-   "hasBody": true,
-   "changeNote": "Updated list of Authorised Corporate Service Providers (ACSPs). ",
-   "firstPublished": "2025-10-31T00:00:00+00:00",
-   "ai": {
-    "summary": "ACSPs are agents registered with Companies House to act for clients; they must be supervised by a UK AML supervisory body. Check the official list (and ceased/suspended list) before using one, research their reputation, services, fees and terms, and follow guidance on identity verification.",
-    "whoAffected": "SMEs, owner‑managed businesses and self‑employed individuals who engage agents (accountants, solicitors, etc.) to file or complete Companies House activities",
-    "effectiveDate": "2026-11-12",
-    "actions": [
-     "Check the Companies House list of authorised and ceased/suspended ACSPs",
-     "Confirm the ACSP is supervised by a UK AML supervisory body",
-     "Research the agent’s reputation, experience, services, fees and terms",
-     "Follow Companies House guidance on using an ACSP to verify identity"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-12T13:46:51.307Z"
-   }
-  },
-  {
    "id": "0b7b4f710cff6694",
    "title": "Changes to employee share schemes, including Company Share Option Plan and Enterprise Management Incentives",
    "url": "https://www.gov.uk/government/publications/changes-to-employee-share-schemes-including-company-share-option-plan-and-enterprise-management-incentives",
@@ -3769,7 +4073,7 @@
    "title": "Prepare for mandatory payrolling of benefits in kind",
    "url": "https://www.gov.uk/guidance/prepare-for-mandatory-payrolling-of-benefits-in-kind",
    "path": "/guidance/prepare-for-mandatory-payrolling-of-benefits-in-kind",
-   "date": "2026-11-09T12:41:42Z",
+   "date": "2026-11-09T12:41:00Z",
    "type": "detailed_guide",
    "source": "HMRC (GOV.UK)",
    "description": "Find out how to report benefits in kind and expenses in real time through payroll software, from April 2027.",
@@ -3778,27 +4082,7 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-09T12:41:42+00:00",
-   "ai": {
-    "summary": "From 6 April 2027 employers must payroll certain benefits (company cars, vans, medical insurance) via their Full Payment Submission, deducting tax and NIC in real time, ending P11D reporting. Other benefits (except loans and accommodation) follow from 6 April 2028. Employers should review processes, software and inform staff.",
-    "whoAffected": "Employers, payroll service providers, payroll software developers, benefits‑in‑kind providers and tax agents (and their employees).",
-    "effectiveDate": "6 April 2027 (mandatory for company cars, vans and medical insurance); 6 April 2028 (mandatory for all other benefits except loans and accommodation)",
-    "actions": [
-     "Review clients' current P11D‑reported benefits and expenses",
-     "Check clients' payroll, HR and benefits administration processes for readiness",
-     "Confirm payroll software providers are set up for real‑time reporting and Class 1A NIC deductions",
-     "Advise clients to inform employees about tax collection via payroll and provide annual payrolled benefits statements"
-    ],
-    "legislationRefs": [
-     "Full Payment Submission",
-     "P11D",
-     "P11D(b)",
-     "Class 1A National Insurance contributions"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-09T13:55:42.409Z"
-   }
+   "firstPublished": "2026-11-09T12:41:00+00:00"
   },
   {
    "id": "4fd6f4defbc0fe30",
@@ -14445,38 +14729,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-02T17:52:50.603Z"
-   }
-  },
-  {
-   "id": "1f848eab4af2c570",
-   "title": "Analysis of Ukrainian nationals entering employment in the UK",
-   "url": "https://www.gov.uk/government/publications/analysis-of-ukrainian-nationals-entering-employment-in-the-uk",
-   "path": "/government/publications/analysis-of-ukrainian-nationals-entering-employment-in-the-uk",
-   "date": "2026-08-27T08:30:08Z",
-   "type": "research",
-   "source": "HMRC (GOV.UK)",
-   "description": "Counts of Ukrainian nationals in employment by age, gender and region in UK, England, Scotland, Wales and Northern Ireland.",
-   "categories": [
-    "paye",
-    "nic"
-   ],
-   "hasBody": true,
-   "changeNote": "Added Analysis of Ukrainian Nationals in employment in the UK, March 2022 to June 2026.",
-   "firstPublished": "2023-03-24T00:00:00+00:00",
-   "ai": {
-    "summary": "The release provides counts of Ukrainian nationals who registered for a National Insurance number on or after 4 March 2022 and were paid through PAYE, mainly those on humanitarian visa schemes. It is an ad‑hoc management information release, not official statistics.",
-    "whoAffected": "Ukrainian nationals entering UK employment via the Homes for Ukraine, Ukraine Family Scheme or Ukraine Extension Scheme, and UK employers hiring them",
-    "effectiveDate": "4 March 2022",
-    "actions": [
-     "Check that Ukrainian employees have a valid NINo before adding them to payroll",
-     "Process their earnings through PAYE as required",
-     "Inform clients that the data is management information, not official statistics",
-     "Monitor trends for workforce planning"
-    ],
-    "legislationRefs": [],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-02T11:08:25.622Z"
    }
   },
   {
