@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-26T15:19:50.068Z",
+ "generatedAt": "2026-11-26T21:27:56.925Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,20 @@
    "label": "Other"
   }
  ],
- "count": 650,
+ "count": 651,
  "items": [
+  {
+   "id": "fec85fd009bd6380",
+   "title": "The Greater London Authority (Consolidated Council Tax Requirement Procedure) Regulations 2026",
+   "url": "https://www.legislation.gov.uk/id/uksi/2026/1239",
+   "date": "2026-11-26T16:39:40.775Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "In relation to each financial year, the Greater London Authority (“the Authority”) is required to make the calculations required by section 85 of the Greater London Authority Act 1999 (“the 1999 Act”), including the calculation of its consolidated council tax requirement.",
+   "categories": [
+    "legislation"
+   ]
+  },
   {
    "id": "0340daa9eb2e019b",
    "title": "Check if and when you need to register as a tax adviser with HMRC",
@@ -4082,7 +4094,27 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-09T12:41:00+00:00"
+   "firstPublished": "2026-11-09T12:41:00+00:00",
+   "ai": {
+    "summary": "From April 2027 employers must report company cars, vans and medical insurance as benefits in kind through payroll, deducting Income Tax and Class 1A NIC in real time and stopping P11D forms; all other benefits (except loans and accommodation) must be payrolled from April 2028.",
+    "whoAffected": "Employers reporting employee benefits in kind and expenses, payroll service providers, payroll software developers, tax agents and those providing benefits in kind to employers; also the employees of those employers.",
+    "effectiveDate": "6 April 2027 (mandatory for listed benefits) and 6 April 2028 (mandatory for all other benefits except loans and accommodation)",
+    "actions": [
+     "Review clients' current benefits and expenses reported on P11D forms",
+     "Check clients' payroll, HR and benefits administration processes for readiness",
+     "Confirm payroll software providers are set up for real‑time payrolling of mandatory benefits",
+     "Advise clients to inform employees about tax collection via payroll and upcoming payslip changes"
+    ],
+    "legislationRefs": [
+     "Full Payment Submission",
+     "P11D",
+     "P11D(b)",
+     "Class 1A National Insurance contributions"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-26T21:27:55.423Z"
+   }
   },
   {
    "id": "4fd6f4defbc0fe30",
