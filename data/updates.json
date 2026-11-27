@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-27T15:06:47.283Z",
+ "generatedAt": "2026-11-27T21:12:05.581Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -74,6 +74,40 @@
  ],
  "count": 652,
  "items": [
+  {
+   "id": "38eebdd21e61e8bf",
+   "title": "IFRS 18 Exposure Draft",
+   "url": "https://www.gov.uk/government/consultations/ifrs-18-presentation-and-disclosure-in-financial-statements-exposure-draft",
+   "path": "/government/consultations/ifrs-18-presentation-and-disclosure-in-financial-statements-exposure-draft",
+   "date": "2026-11-27T16:15:05Z",
+   "type": "consultation_outcome",
+   "source": "HM Treasury (GOV.UK)",
+   "description": "Public consultation on HM Treasury proposals for the application of IFRS 18 Presentation and Disclosure in Financial Statements across Central Government",
+   "categories": [
+    "compliance",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated page for public responses and final outcome",
+   "firstPublished": "2026-07-28T12:22:45+01:00",
+   "ai": {
+    "summary": "HM Treasury is consulting on applying the new IFRS 18 standard to Central Government financial statements, providing an overview and seeking comments from interested parties.",
+    "whoAffected": "Central Government departments and agencies",
+    "effectiveDate": "Not stated in source",
+    "actions": [
+     "Obtain the IFRS 18 consultation document",
+     "Review HM Treasury’s proposed implementation approach",
+     "Submit comments if your practice is interested",
+     "Monitor any updates or final outcomes"
+    ],
+    "legislationRefs": [
+     "IFRS 18"
+    ],
+    "relevance": "low",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-27T21:12:04.080Z"
+   }
+  },
   {
    "id": "24242f5fc2807838",
    "title": "Pay the Spirit Drinks Verification Scheme fee",
@@ -15987,40 +16021,6 @@
     "relevance": "low",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-10-09T18:20:58.675Z"
-   }
-  },
-  {
-   "id": "38eebdd21e61e8bf",
-   "title": "IFRS 18 Presentation and Disclosure in Financial Statements Exposure Draft",
-   "url": "https://www.gov.uk/government/consultations/ifrs-18-presentation-and-disclosure-in-financial-statements-exposure-draft",
-   "path": "/government/consultations/ifrs-18-presentation-and-disclosure-in-financial-statements-exposure-draft",
-   "date": "2026-07-28T11:22:45Z",
-   "type": "open_consultation",
-   "source": "HM Treasury (GOV.UK)",
-   "description": "Public consultation on HM Treasury proposals for the application of IFRS 18 Presentation and Disclosure in Financial Statements across Central Government",
-   "categories": [
-    "compliance",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "First published.",
-   "firstPublished": "2026-07-28T12:22:45+01:00",
-   "ai": {
-    "summary": "HM Treasury is consulting on applying the new IFRS 18 standard across Central Government and seeks comments on its proposed approach.",
-    "whoAffected": "Central Government bodies",
-    "effectiveDate": "Not stated in source",
-    "actions": [
-     "Review the IFRS 18 consultation document",
-     "Submit comments if your practice or clients are interested",
-     "Monitor updates on any future implementation decisions",
-     "Inform relevant clients about the potential impact of the new standard"
-    ],
-    "legislationRefs": [
-     "IFRS 18"
-    ],
-    "relevance": "low",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-10-06T18:21:15.886Z"
    }
   },
   {
