@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generatedAt": "2026-11-26T21:27:56.925Z",
+ "generatedAt": "2026-11-27T15:06:47.283Z",
  "windowMonths": 18,
  "sources": [
   "GOV.UK Search & Content API (HMRC, HM Treasury, Companies House, The Pensions Regulator)",
@@ -72,8 +72,54 @@
    "label": "Other"
   }
  ],
- "count": 651,
+ "count": 652,
  "items": [
+  {
+   "id": "24242f5fc2807838",
+   "title": "Pay the Spirit Drinks Verification Scheme fee",
+   "url": "https://www.gov.uk/guidance/pay-spirits-drinks-verification-fee",
+   "path": "/guidance/pay-spirits-drinks-verification-fee",
+   "date": "2026-11-27T11:28:43Z",
+   "type": "detailed_guide",
+   "source": "HMRC (GOV.UK)",
+   "description": "How to pay your verification fee for the Spirit Drinks Verification Scheme, and how long it takes for your payment to reach HMRC.",
+   "categories": [
+    "vat",
+    "budget"
+   ],
+   "hasBody": true,
+   "changeNote": "Updated guidance to confirm if you use the wrong payment reference number, your payment may be delayed or used to pay a different tax bill that you owe. You can contact HMRC to ask for the payment to be moved. ",
+   "firstPublished": "2014-10-30T00:00:00+00:00",
+   "ai": {
+    "summary": "Producers joining the Spirit Drinks Verification Scheme must pay a non‑refundable £250 fee per facility (and repeat visits) between 1 July 2025‑30 June 2031, using the 14‑digit reference on the invoice, and pay before the verification visit or within 30 days, otherwise they become non‑compliant.",
+    "whoAffected": "UK spirit producers and facilities applying to the Spirit Drinks Verification Scheme, including SME and owner‑managed distilleries",
+    "effectiveDate": "1 July 2025",
+    "actions": [
+     "Obtain the invoice and note the 14‑digit reference number",
+     "Pay the £250 fee before the verification visit or within 30 days using the correct reference",
+     "Choose a payment method (online, CHAPS/Faster Payments or Bacs) and allow the appropriate processing time",
+     "If the wrong reference is used, email enquiries.sdvs@hmrc.gov.uk to request the payment be moved"
+    ],
+    "legislationRefs": [
+     "UK legislation"
+    ],
+    "relevance": "high",
+    "model": "Groq: openai/gpt-oss-120b",
+    "generatedAt": "2026-11-27T15:06:43.197Z"
+   }
+  },
+  {
+   "id": "99742159e3fe85f9",
+   "title": "Correction Slip",
+   "url": "https://www.legislation.gov.uk/uksi/2026/794/pdfs/uksics_20260794_en_001.pdf",
+   "date": "2026-11-27T00:00:00.000Z",
+   "type": "legislation",
+   "source": "legislation.gov.uk",
+   "description": "This Order amends the Schedule to the Social Security (Contributions) (Republic of India) Order 2026 to give effect to an amendment made to the agreement contained in that Schedule.",
+   "categories": [
+    "legislation"
+   ]
+  },
   {
    "id": "fec85fd009bd6380",
    "title": "The Greater London Authority (Consolidated Council Tax Requirement Procedure) Regulations 2026",
@@ -1283,7 +1329,7 @@
    "title": "Agent Update: issue 149",
    "url": "https://www.gov.uk/government/publications/agent-update-issue-149",
    "path": "/government/publications/agent-update-issue-149",
-   "date": "2026-11-19T12:00:03Z",
+   "date": "2026-11-19T12:00:00Z",
    "type": "guidance",
    "source": "HMRC (GOV.UK)",
    "description": "Use the Agent Update to get updates and information from HMRC if you're a tax agent or adviser.",
@@ -1292,21 +1338,21 @@
    ],
    "hasBody": true,
    "changeNote": "First published.",
-   "firstPublished": "2026-11-19T12:00:03+00:00",
+   "firstPublished": "2026-11-19T12:00:00+00:00",
    "ai": {
-    "summary": "Agent Updates give tax agents and advisers HMRC news, reminders and links; next issue due Dec 2026 covering tax, borders, MTD, services and engagement. Sign up for email alerts to stay informed.",
-    "whoAffected": "Tax agents and advisers",
-    "effectiveDate": "Not stated in source",
+    "summary": "HMRC’s Agent Update offers tax agents and advisers regular news, reminders and links to services; the next issue arrives in December 2026 and covers tax, borders, MTD, HMRC services and engagement.",
+    "whoAffected": "Tax agents and advisers who support SMEs, owner‑managed businesses and the self‑employed",
+    "effectiveDate": "December 2026",
     "actions": [
-     "Sign up for email reminders to be notified of future Agent Update editions",
-     "Review the December 2026 edition for updates on tax, borders and trade, Making Tax Digital, HMRC agent services and agent engagement",
-     "Use the links in the Agent Update to access HMRC information, services and support",
-     "Incorporate relevant updates into client advice for SMEs and self‑employed clients"
+     "Sign up for email reminders to know when each edition is published",
+     "Read the Agent Update when it is released to stay informed on tax, borders, MTD and HMRC services",
+     "Use the provided links to HMRC services to support client queries",
+     "Monitor the highlighted topics for any changes that may affect client advice"
     ],
     "legislationRefs": [],
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-19T14:27:25.771Z"
+    "generatedAt": "2026-11-27T15:06:45.782Z"
    }
   },
   {
@@ -2475,40 +2521,6 @@
     "relevance": "high",
     "model": "Groq: openai/gpt-oss-120b",
     "generatedAt": "2026-11-13T13:08:28.733Z"
-   }
-  },
-  {
-   "id": "24242f5fc2807838",
-   "title": "Pay the Spirit Drinks Verification Scheme fee",
-   "url": "https://www.gov.uk/guidance/pay-spirits-drinks-verification-fee",
-   "path": "/guidance/pay-spirits-drinks-verification-fee",
-   "date": "2026-11-13T13:03:55Z",
-   "type": "detailed_guide",
-   "source": "HMRC (GOV.UK)",
-   "description": "How to pay your verification fee for the Spirit Drinks Verification Scheme, and how long it takes for your payment to reach HMRC.",
-   "categories": [
-    "vat",
-    "budget"
-   ],
-   "hasBody": true,
-   "changeNote": "‘Account details to use if your account is overseas’ has been updated to include pay HMRC in pounds sterling (GBP) and what happens if you pay in any other currency.",
-   "firstPublished": "2014-10-30T00:00:00+00:00",
-   "ai": {
-    "summary": "Producers joining the Spirit Drinks Verification Scheme must pay a non‑refundable £250 fee per facility (and £250 for repeat visits) between 1 July 2025 and 30 June 2031. Payment is due within 30 days of the invoice, using the correct UK or overseas bank details, otherwise verification is denied.",
-    "whoAffected": "Spirit drink producers applying to the Spirit Drinks Verification Scheme, especially UK‑based facilities and any overseas account holders making the payment",
-    "effectiveDate": "1 July 2025 – 30 June 2031",
-    "actions": [
-     "Obtain the invoice and note the 14‑digit reference number before payment",
-     "Pay the £250 fee within 30 days using the appropriate UK or overseas bank details and verify the reference is correct",
-     "Check bank processing times – CHAPS/Faster Payments same or next day, Bacs allow three working days",
-     "Monitor payment receipt; if a reminder is received, follow up immediately to avoid non‑compliance"
-    ],
-    "legislationRefs": [
-     "UK legislation"
-    ],
-    "relevance": "high",
-    "model": "Groq: openai/gpt-oss-120b",
-    "generatedAt": "2026-11-13T13:08:32.842Z"
    }
   },
   {
